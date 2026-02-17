@@ -2,7 +2,7 @@
 
 A mobile-friendly multiple-choice quiz app for Dutch learners, focusing on **samengestelde werkwoorden** (compound/separable verbs) at B1+ level.
 
-**[→ Try the live quiz](https://YOUR_USERNAME.github.io/werkwoorden-quiz/)**
+**[→ Try the live quiz](https://chardrizard.github.io/werkwoorden-quiz/)**
 
 ![Screenshot](og-image.png)
 
@@ -47,7 +47,7 @@ Intentionally minimal:
 ## Run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/werkwoorden-quiz.git
+git clone https://github.com/chardrizard/werkwoorden-quiz.git
 cd werkwoorden-quiz
 open index.html
 # or use any local server:
