@@ -32,10 +32,21 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#0F1117;--surface:#181A20;--surface-2:#1E2028;--surface-3:#252830;--ink:#E8E9ED;--ink-2:#A0A3AD;--ink-3:#6B6F7B;--ink-4:#3E414B;--border:rgba(255,255,255,0.06);--border-2:rgba(255,255,255,0.10);--correct:#2D6A4F;--correct-bg:rgba(45,106,79,0.12);--correct-border:rgba(45,106,79,0.4);--wrong:#C44536;--wrong-bg:rgba(196,69,54,0.12);--wrong-border:rgba(196,69,54,0.4);--radius:10px;--radius-lg:14px;--font:'DM Sans',system-ui,sans-serif;--mono:'DM Mono',monospace;--hint-color:rgba(180,190,210,0.85);--hint-bg:rgba(180,190,210,0.06);--hint-border:rgba(180,190,210,0.12);--hint-bg-hover:rgba(180,190,210,0.10);--hint-border-hover:rgba(180,190,210,0.18)}
+:root{--bg:#0F1117;--surface:#181A20;--surface-2:#1E2028;--surface-3:#252830;--ink:#E8E9ED;--ink-2:#A0A3AD;--ink-3:#6B6F7B;--ink-4:#3E414B;--border:rgba(255,255,255,0.06);--border-2:rgba(255,255,255,0.10);--correct:#2D6A4F;--correct-bg:rgba(45,106,79,0.12);--correct-border:rgba(45,106,79,0.4);--wrong:#C44536;--wrong-bg:rgba(196,69,54,0.12);--wrong-border:rgba(196,69,54,0.4);--radius:10px;--radius-lg:14px;--font:'DM Sans',system-ui,sans-serif;--mono:'DM Mono',monospace;--hint-color:rgba(180,190,210,0.85);--hint-bg:rgba(180,190,210,0.06);--hint-border:rgba(180,190,210,0.12);--hint-bg-hover:rgba(180,190,210,0.10);--hint-border-hover:rgba(180,190,210,0.18);--focus-ring:rgba(120,160,255,0.6)}
 html{font-size:16px;-webkit-text-size-adjust:100%}
 body{font-family:var(--font);background:var(--bg);color:var(--ink);min-height:100dvh;overflow-x:hidden;-webkit-font-smoothing:antialiased}
 button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+
+/* Focus styles for keyboard navigation */
+*:focus{outline:none}
+*:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px;border-radius:var(--radius)}
+.option-btn:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px;box-shadow:0 0 0 4px rgba(120,160,255,0.15)}
+.theme-card:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px;box-shadow:0 0 0 4px rgba(120,160,255,0.15)}
+
+/* Skip to content link for screen readers */
+.skip-link{position:absolute;top:-40px;left:0;background:var(--ink);color:var(--bg);padding:8px 16px;z-index:100;font-size:14px;font-weight:600;border-radius:0 0 var(--radius) 0;transition:top 0.2s}
+.skip-link:focus{top:0}
+
 .app{max-width:480px;margin:0 auto;min-height:100dvh;display:flex;flex-direction:column}
 .loading{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:var(--ink-3)}
 .loading-spinner{width:32px;height:32px;border:3px solid var(--surface-3);border-top-color:var(--ink-2);border-radius:50%;animation:spin 0.8s linear infinite}
@@ -141,14 +152,34 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .review-answer{font-size:13px;color:var(--ink-2);line-height:1.5}
 .review-answer strong{color:#52B788;font-weight:600}
 .review-answer .wrong-text{color:#E8776C}
+
+/* Keyboard shortcut hints */
+.kbd-hints{display:flex;gap:6px;flex-wrap:wrap;margin-top:16px;justify-content:center}
+.kbd-hint{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--ink-3);font-family:var(--mono)}
+.kbd{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:20px;padding:0 5px;border-radius:4px;background:var(--surface-3);border:1px solid var(--ink-4);font-size:10px;font-weight:600;color:var(--ink-2);font-family:var(--mono);line-height:1}
+
+/* Live region for screen reader announcements */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 </style>
 </head>
 <body>
-<div id="app" class="app"><div class="loading"><div class="loading-spinner"></div><div>Vragen laden...</div></div></div>
+<a class="skip-link" href="#main-content">Ga naar inhoud</a>
+<div id="app" class="app" role="main" id="main-content"><div class="loading"><div class="loading-spinner"></div><div>Vragen laden...</div></div></div>
+<!-- Live region for screen reader announcements -->
+<div id="sr-announce" class="sr-only" aria-live="polite" aria-atomic="true"></div>
 <script>
 const KEYS=["A","B","C","D"];
+const KEY_MAP={a:0,b:1,c:2,d:3,"1":0,"2":1,"3":2,"4":3};
 let THEMES=[],Q={},shuffledQuestions=[];
 let state={screen:"loading",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};
+
+// Track what to focus after render
+let pendingFocus=null;
+
+function announce(text){
+  const el=document.getElementById("sr-announce");
+  if(el){el.textContent="";requestAnimationFrame(()=>{el.textContent=text})}
+}
 
 async function loadQuestions(){
   try{
@@ -166,22 +197,195 @@ async function loadQuestions(){
 }
 
 function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
-function startQuiz(id){shuffledQuestions=shuffle(Q[id]);state={screen:"quiz",theme:id,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};render()}
-function goHome(){state={screen:"home",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};render()}
-function selectAnswer(idx){if(state.answered!==null)return;const q=shuffledQuestions[state.qIdx],isC=idx===q.correct;state.answered=isC?"correct":"wrong";state.selectedIdx=idx;if(isC)state.score++;else{state.wrong++;state.wrongAnswers.push({q:q.sentence,selected:q.options[idx],correct:q.options[q.correct],explanation:q.explanation})}render()}
-function nextQuestion(){if(state.qIdx>=shuffledQuestions.length-1){state.screen="results";render();return}state.qIdx++;state.answered=null;state.selectedIdx=null;state.showHint=false;render()}
-function toggleHint(){state.showHint=!state.showHint;render()}
-function toggleReview(){state.showReview=!state.showReview;render()}
 
-function render(){const app=document.getElementById("app");switch(state.screen){case"home":app.innerHTML=renderHome();break;case"quiz":app.innerHTML=renderQuiz();break;case"results":app.innerHTML=state.showReview?renderReview():renderResults();break}}
+function startQuiz(id){
+  shuffledQuestions=shuffle(Q[id]);
+  state={screen:"quiz",theme:id,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};
+  pendingFocus="option-0";
+  render();
+  announce("Quiz gestart. Vraag 1 van "+shuffledQuestions.length+". Gebruik A, B, C, D om een antwoord te kiezen.");
+}
 
-function renderHome(){return'<div class="home"><div class="home-header"><div class="home-label">Oefening</div><div class="home-title">Samengestelde<br>Werkwoorden</div><div class="home-subtitle">Kies een thema en oefen met 40 meerkeuzevragen op B1+ niveau.</div></div><div class="theme-grid">'+THEMES.map(function(t){var c=Q[t.id]?Q[t.id].length:0;return'<button class="theme-card" onclick="startQuiz(\''+t.id+'\')"><div class="theme-accent" style="background:'+t.color+'"></div><div class="theme-emoji" style="background:'+t.color+'15">'+t.emoji+'</div><div class="theme-info"><div class="theme-name">'+t.label+'</div><div class="theme-desc">'+t.description+'</div></div><div class="theme-count">'+c+'</div><div class="theme-arrow">›</div></button>'}).join("")+'</div></div>'}
+function goHome(){
+  state={screen:"home",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};
+  pendingFocus="theme-0";
+  render();
+}
 
-function renderQuiz(){var t=THEMES.find(function(x){return x.id===state.theme}),q=shuffledQuestions[state.qIdx],total=shuffledQuestions.length,pct=((state.qIdx+(state.answered?1:0))/total*100).toFixed(1);var fb="";if(state.answered){var isC=state.answered==="correct",label=isC?"✓ Goed!":"✗ Niet helemaal",text=isC?q.explanation:((q.wrongExplanations[state.selectedIdx]||"")+"<br><br>"+q.explanation);fb='<div class="feedback '+state.answered+'"><div class="feedback-label">'+label+'</div><div class="feedback-text">'+text+'</div></div>'}var hi="";if(!state.answered){hi='<button class="hint-btn'+(state.showHint?" open":"")+'" onclick="toggleHint()" aria-expanded="'+(state.showHint?"true":"false")+'" aria-controls="hint-box"><span class="hint-icon">💡</span><span>Hint</span><span class="hint-chevron">▾</span></button>';if(state.showHint)hi+='<div class="hint-box" id="hint-box" role="region" aria-label="Hint"><div class="hint-label">Hint</div>'+q.hint+'</div>'}return'<div class="quiz"><div class="quiz-top"><div class="quiz-nav"><button class="quiz-back" onclick="goHome()">←</button><div class="quiz-theme" style="color:'+t.color+'">'+t.emoji+" "+t.label+'</div><div class="quiz-counter">'+(state.qIdx+1)+" / "+total+'</div></div><div class="progress-wrap"><div class="progress-bar"><div class="progress-fill" style="width:'+pct+"%;background:"+t.color+'"></div></div><div class="score-pills"><div class="score-pill correct"><span class="dot"></span>'+state.score+'</div><div class="score-pill wrong"><span class="dot"></span>'+state.wrong+'</div></div></div></div><div class="quiz-body"><div class="question-num">'+t.label+" · Vraag "+(state.qIdx+1)+'</div><div class="question-text">'+q.sentence+'</div><div class="options">'+q.options.map(function(opt,i){var cls="option-btn";if(state.answered){cls+=" answered";if(i===q.correct)cls+=" is-correct is-actual-correct";else if(i===state.selectedIdx&&state.answered==="wrong")cls+=" is-wrong"}return'<button class="'+cls+'" onclick="selectAnswer('+i+')"><span class="option-key">'+KEYS[i]+'</span><span class="option-text">'+opt+"</span></button>"}).join("")+"</div>"+fb+hi+'</div><div class="quiz-footer"><button class="btn-next '+(state.answered?"primary":"disabled")+'" onclick="nextQuestion()">'+(state.qIdx>=total-1&&state.answered?"Resultaten bekijken":"Volgende →")+"</button></div></div>"}
+function selectAnswer(idx){
+  if(state.answered!==null)return;
+  const q=shuffledQuestions[state.qIdx],isC=idx===q.correct;
+  state.answered=isC?"correct":"wrong";
+  state.selectedIdx=idx;
+  if(isC){state.score++;announce("Goed! "+q.explanation+" Druk Enter voor volgende vraag.")}
+  else{state.wrong++;state.wrongAnswers.push({q:q.sentence,selected:q.options[idx],correct:q.options[q.correct],explanation:q.explanation});announce("Fout. Het juiste antwoord was "+q.options[q.correct]+". Druk Enter voor volgende vraag.")}
+  pendingFocus="btn-next";
+  render();
+}
 
-function renderResults(){var total=shuffledQuestions.length,pct=Math.round(state.score/total*100),emoji="🎉",msg="Uitstekend! Je beheerst deze werkwoorden goed.";if(pct<50){emoji="📚";msg="Blijf oefenen! Herhaling is de sleutel tot succes."}else if(pct<70){emoji="💪";msg="Goed bezig! Nog een paar rondes en je hebt het onder de knie."}else if(pct<90){emoji="🌟";msg="Heel goed! Je bent er bijna."}var t=THEMES.find(function(x){return x.id===state.theme});return'<div class="results"><div class="results-emoji">'+emoji+'</div><div class="results-score" style="color:'+t.color+'">'+pct+'%</div><div class="results-label">'+state.score+" van "+total+' goed</div><div class="results-msg">'+msg+'</div><div class="results-stats"><div class="stat"><div class="stat-val g">'+state.score+'</div><div class="stat-label">Goed</div></div><div class="stat"><div class="stat-val r">'+state.wrong+'</div><div class="stat-label">Fout</div></div><div class="stat"><div class="stat-val" style="color:'+t.color+'">'+total+'</div><div class="stat-label">Totaal</div></div></div><div class="results-actions"><button class="btn-result primary" onclick="startQuiz(\''+state.theme+'\')">Opnieuw proberen</button>'+(state.wrong>0?'<button class="btn-result secondary" onclick="toggleReview()">Foute antwoorden bekijken ('+state.wrong+")</button>":"")+'<button class="btn-result link" onclick="goHome()">← Terug naar thema\'s</button></div></div>'}
+function nextQuestion(){
+  if(state.qIdx>=shuffledQuestions.length-1){state.screen="results";pendingFocus="btn-retry";render();announce("Quiz afgelopen. Score: "+Math.round(state.score/shuffledQuestions.length*100)+"%");return}
+  state.qIdx++;state.answered=null;state.selectedIdx=null;state.showHint=false;
+  pendingFocus="option-0";
+  render();
+  announce("Vraag "+(state.qIdx+1)+" van "+shuffledQuestions.length);
+}
 
-function renderReview(){return'<div class="review"><div class="review-header"><button class="quiz-back" onclick="toggleReview()">←</button><div class="review-title">Foute antwoorden ('+state.wrongAnswers.length+')</div></div>'+state.wrongAnswers.map(function(w,i){return'<div class="review-card"><div class="review-q">'+(i+1)+". "+w.q+'</div><div class="review-answer"><span class="wrong-text">Jouw antwoord: '+w.selected+"</span><br><strong>Correct: "+w.correct+"</strong><br>"+w.explanation+"</div></div>"}).join("")+'<div style="padding:16px 0"><button class="btn-result primary" onclick="startQuiz(\''+state.theme+'\')" style="width:100%">Opnieuw proberen</button></div></div>'}
+function toggleHint(){state.showHint=!state.showHint;pendingFocus="hint-btn";render();if(state.showHint)announce("Hint: "+shuffledQuestions[state.qIdx].hint)}
+function toggleReview(){state.showReview=!state.showReview;pendingFocus=state.showReview?"review-back":"btn-review";render()}
+
+function render(){
+  const app=document.getElementById("app");
+  switch(state.screen){
+    case"home":app.innerHTML=renderHome();break;
+    case"quiz":app.innerHTML=renderQuiz();break;
+    case"results":app.innerHTML=state.showReview?renderReview():renderResults();break;
+  }
+  // Restore focus after render
+  if(pendingFocus){
+    requestAnimationFrame(()=>{
+      const el=document.getElementById(pendingFocus);
+      if(el)el.focus();
+      pendingFocus=null;
+    });
+  }
+}
+
+function renderHome(){
+  return '<div class="home"><div class="home-header"><div class="home-label">Oefening</div><div class="home-title">Samengestelde<br>Werkwoorden</div><div class="home-subtitle">Kies een thema en oefen met 40 meerkeuzevragen op B1+ niveau.</div></div><nav class="theme-grid" aria-label="Themakeuze">'+THEMES.map(function(t,idx){
+    var c=Q[t.id]?Q[t.id].length:0;
+    return '<button class="theme-card" id="theme-'+idx+'" onclick="startQuiz(\''+t.id+'\')" aria-label="'+t.label+' — '+c+' vragen: '+t.description+'"><div class="theme-accent" style="background:'+t.color+'"></div><div class="theme-emoji" style="background:'+t.color+'15">'+t.emoji+'</div><div class="theme-info"><div class="theme-name">'+t.label+'</div><div class="theme-desc">'+t.description+'</div></div><div class="theme-count">'+c+'</div><div class="theme-arrow">›</div></button>';
+  }).join("")+'</nav><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Tab</span> navigeren</span><span class="kbd-hint"><span class="kbd">Enter</span> selecteren</span></div></div>';
+}
+
+function renderQuiz(){
+  var t=THEMES.find(function(x){return x.id===state.theme}),q=shuffledQuestions[state.qIdx],total=shuffledQuestions.length,pct=((state.qIdx+(state.answered?1:0))/total*100).toFixed(1);
+  var fb="";
+  if(state.answered){
+    var isC=state.answered==="correct",label=isC?"✓ Goed!":"✗ Niet helemaal",text=isC?q.explanation:((q.wrongExplanations[state.selectedIdx]||"")+"<br><br>"+q.explanation);
+    fb='<div class="feedback '+state.answered+'" role="alert"><div class="feedback-label">'+label+'</div><div class="feedback-text">'+text+'</div></div>';
+  }
+  var hi="";
+  if(!state.answered){
+    hi='<button class="hint-btn'+(state.showHint?" open":"")+'" id="hint-btn" onclick="toggleHint()" aria-expanded="'+(state.showHint?"true":"false")+'" aria-controls="hint-box"><span class="hint-icon">💡</span><span>Hint</span><span class="kbd" style="margin-left:4px">H</span><span class="hint-chevron">▾</span></button>';
+    if(state.showHint)hi+='<div class="hint-box" id="hint-box" role="region" aria-label="Hint"><div class="hint-label">Hint</div>'+q.hint+'</div>';
+  }
+
+  var kbdBar='<div class="kbd-hints"><span class="kbd-hint"><span class="kbd">A</span><span class="kbd">B</span><span class="kbd">C</span><span class="kbd">D</span> kies</span><span class="kbd-hint"><span class="kbd">H</span> hint</span><span class="kbd-hint"><span class="kbd">Enter</span> volgende</span><span class="kbd-hint"><span class="kbd">Esc</span> terug</span></div>';
+
+  return '<div class="quiz"><div class="quiz-top"><div class="quiz-nav"><button class="quiz-back" onclick="goHome()" aria-label="Terug naar thema\'s (Escape)">←</button><div class="quiz-theme" style="color:'+t.color+'">'+t.emoji+" "+t.label+'</div><div class="quiz-counter" aria-label="Voortgang">'+(state.qIdx+1)+" / "+total+'</div></div><div class="progress-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="'+pct+'" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" style="width:'+pct+"%;background:"+t.color+'"></div></div><div class="score-pills" aria-label="Score"><div class="score-pill correct" aria-label="'+state.score+' goed"><span class="dot"></span>'+state.score+'</div><div class="score-pill wrong" aria-label="'+state.wrong+' fout"><span class="dot"></span>'+state.wrong+'</div></div></div></div><div class="quiz-body"><div class="question-num">'+t.label+" · Vraag "+(state.qIdx+1)+'</div><div class="question-text" id="question-text">'+q.sentence+'</div><div class="options" role="group" aria-labelledby="question-text">'+q.options.map(function(opt,i){
+    var cls="option-btn";
+    var ariaLabel=KEYS[i]+": "+opt;
+    if(state.answered){
+      cls+=" answered";
+      if(i===q.correct){cls+=" is-correct is-actual-correct";ariaLabel+=" (juist antwoord)"}
+      else if(i===state.selectedIdx&&state.answered==="wrong"){cls+=" is-wrong";ariaLabel+=" (jouw foute antwoord)"}
+    }
+    return '<button class="'+cls+'" id="option-'+i+'" onclick="selectAnswer('+i+')" aria-label="'+ariaLabel+'"'+(state.answered?' tabindex="-1"':'')+'><span class="option-key">'+KEYS[i]+'</span><span class="option-text">'+opt+"</span></button>";
+  }).join("")+"</div>"+fb+hi+'</div><div class="quiz-footer">'+kbdBar+'<button class="btn-next '+(state.answered?"primary":"disabled")+'" id="btn-next" onclick="nextQuestion()"'+(state.answered?'':' tabindex="-1" aria-disabled="true"')+'>'+(state.qIdx>=total-1&&state.answered?"Resultaten bekijken":"Volgende →")+"</button></div></div>";
+}
+
+function renderResults(){
+  var total=shuffledQuestions.length,pct=Math.round(state.score/total*100),emoji="🎉",msg="Uitstekend! Je beheerst deze werkwoorden goed.";
+  if(pct<50){emoji="📚";msg="Blijf oefenen! Herhaling is de sleutel tot succes."}
+  else if(pct<70){emoji="💪";msg="Goed bezig! Nog een paar rondes en je hebt het onder de knie."}
+  else if(pct<90){emoji="🌟";msg="Heel goed! Je bent er bijna."}
+  var t=THEMES.find(function(x){return x.id===state.theme});
+  return '<div class="results"><div class="results-emoji">'+emoji+'</div><div class="results-score" style="color:'+t.color+'">'+pct+'%</div><div class="results-label">'+state.score+" van "+total+' goed</div><div class="results-msg">'+msg+'</div><div class="results-stats"><div class="stat"><div class="stat-val g">'+state.score+'</div><div class="stat-label">Goed</div></div><div class="stat"><div class="stat-val r">'+state.wrong+'</div><div class="stat-label">Fout</div></div><div class="stat"><div class="stat-val" style="color:'+t.color+'">'+total+'</div><div class="stat-label">Totaal</div></div></div><div class="results-actions"><button class="btn-result primary" id="btn-retry" onclick="startQuiz(\''+state.theme+'\')">Opnieuw proberen</button>'+(state.wrong>0?'<button class="btn-result secondary" id="btn-review" onclick="toggleReview()">Foute antwoorden bekijken ('+state.wrong+")</button>":"")+'<button class="btn-result link" onclick="goHome()">← Terug naar thema\'s</button></div><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Enter</span> opnieuw</span><span class="kbd-hint"><span class="kbd">Esc</span> terug</span></div></div>';
+}
+
+function renderReview(){
+  return '<div class="review"><div class="review-header"><button class="quiz-back" id="review-back" onclick="toggleReview()" aria-label="Terug naar resultaten (Escape)">←</button><div class="review-title">Foute antwoorden ('+state.wrongAnswers.length+')</div></div>'+state.wrongAnswers.map(function(w,i){return '<div class="review-card"><div class="review-q">'+(i+1)+". "+w.q+'</div><div class="review-answer"><span class="wrong-text">Jouw antwoord: '+w.selected+"</span><br><strong>Correct: "+w.correct+"</strong><br>"+w.explanation+"</div></div>"}).join("")+'<div style="padding:16px 0"><button class="btn-result primary" onclick="startQuiz(\''+state.theme+'\')" style="width:100%">Opnieuw proberen</button></div></div>';
+}
+
+// Global keyboard handler
+document.addEventListener("keydown",function(e){
+  // Don't intercept if user is in an input field
+  if(e.target.tagName==="INPUT"||e.target.tagName==="TEXTAREA")return;
+
+  var key=e.key.toLowerCase();
+
+  if(state.screen==="quiz"){
+    // A/B/C/D or 1/2/3/4 to select answer
+    if(key in KEY_MAP&&state.answered===null){
+      e.preventDefault();
+      selectAnswer(KEY_MAP[key]);
+      return;
+    }
+
+    // Enter or Space to advance when answered
+    if((key==="enter"||key===" ")&&state.answered!==null){
+      // Only if not already focused on a specific button
+      var active=document.activeElement;
+      if(!active||active===document.body||active.classList.contains("btn-next")){
+        e.preventDefault();
+        nextQuestion();
+        return;
+      }
+    }
+
+    // H for hint
+    if(key==="h"&&state.answered===null){
+      e.preventDefault();
+      toggleHint();
+      return;
+    }
+
+    // Escape to go home
+    if(key==="escape"){
+      e.preventDefault();
+      goHome();
+      return;
+    }
+
+    // Arrow keys to navigate options
+    if((key==="arrowdown"||key==="arrowup")&&state.answered===null){
+      e.preventDefault();
+      var opts=document.querySelectorAll(".option-btn:not(.answered)");
+      if(opts.length===0)return;
+      var currentIdx=-1;
+      opts.forEach(function(o,i){if(o===document.activeElement)currentIdx=i});
+      if(key==="arrowdown"){currentIdx=(currentIdx+1)%opts.length}
+      else{currentIdx=(currentIdx-1+opts.length)%opts.length}
+      opts[currentIdx].focus();
+      return;
+    }
+  }
+
+  if(state.screen==="home"){
+    // Arrow keys to navigate themes
+    if(key==="arrowdown"||key==="arrowup"){
+      e.preventDefault();
+      var cards=document.querySelectorAll(".theme-card");
+      if(cards.length===0)return;
+      var ci=-1;
+      cards.forEach(function(c,i){if(c===document.activeElement)ci=i});
+      if(key==="arrowdown"){ci=(ci+1)%cards.length}
+      else{ci=(ci-1+cards.length)%cards.length}
+      cards[ci].focus();
+      return;
+    }
+  }
+
+  if(state.screen==="results"){
+    // Enter to retry
+    if(key==="enter"){
+      var af=document.activeElement;
+      if(!af||af===document.body){
+        e.preventDefault();
+        startQuiz(state.theme);
+        return;
+      }
+    }
+    // Escape to go home
+    if(key==="escape"){
+      e.preventDefault();
+      if(state.showReview){toggleReview()}
+      else{goHome()}
+      return;
+    }
+  }
+});
 
 loadQuestions();
 </script>
