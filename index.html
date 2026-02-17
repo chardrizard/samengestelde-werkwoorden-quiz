@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Werkwoorden Quiz — Samengestelde Werkwoorden oefenen</title>
+<meta name="description" content="Oefen 160 meerkeuzevragen over samengestelde werkwoorden met -komen, -zetten, -nemen en -halen. Gratis quiz op B1+ niveau voor Nederlands leerders.">
+<meta name="keywords" content="Nederlands leren, samengestelde werkwoorden, Dutch verbs quiz, B1 Nederlands, werkwoorden oefenen">
+<meta name="author" content="Richard">
+<meta name="theme-color" content="#0F1117">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Werkwoorden Quiz — Samengestelde Werkwoorden">
+<meta property="og:description" content="160 meerkeuzevragen over samengestelde werkwoorden met -komen, -zetten, -nemen en -halen. Gratis B1+ quiz.">
+<meta property="og:image" content="https://raw.githubusercontent.com/chardrizard/werkwoorden-quiz/main/og-image.png">
+<meta property="og:url" content="https://chardrizard.github.io/werkwoorden-quiz/">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:site_name" content="Werkwoorden Quiz">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Werkwoorden Quiz — Samengestelde Werkwoorden">
+<meta name="twitter:description" content="160 meerkeuzevragen over samengestelde werkwoorden. Gratis B1+ quiz.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/chardrizard/werkwoorden-quiz/main/og-image.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Werkwoorden">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇳🇱</text></svg>">
+<link rel="canonical" href="https://chardrizard.github.io/werkwoorden-quiz/">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0F1117;--surface:#181A20;--surface-2:#1E2028;--surface-3:#252830;--ink:#E8E9ED;--ink-2:#A0A3AD;--ink-3:#6B6F7B;--ink-4:#3E414B;--border:rgba(255,255,255,0.06);--border-2:rgba(255,255,255,0.10);--correct:#2D6A4F;--correct-bg:rgba(45,106,79,0.12);--correct-border:rgba(45,106,79,0.4);--wrong:#C44536;--wrong-bg:rgba(196,69,54,0.12);--wrong-border:rgba(196,69,54,0.4);--radius:10px;--radius-lg:14px;--font:'DM Sans',system-ui,sans-serif;--mono:'DM Mono',monospace}
+html{font-size:16px;-webkit-text-size-adjust:100%}
+body{font-family:var(--font);background:var(--bg);color:var(--ink);min-height:100dvh;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.app{max-width:480px;margin:0 auto;min-height:100dvh;display:flex;flex-direction:column}
+.loading{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:var(--ink-3)}
+.loading-spinner{width:32px;height:32px;border:3px solid var(--surface-3);border-top-color:var(--ink-2);border-radius:50%;animation:spin 0.8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading-error{color:var(--wrong);text-align:center;padding:40px 20px;line-height:1.6;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.loading-error button{color:var(--ink);text-decoration:underline;margin-top:12px;font-size:15px}
+.home{padding:24px 20px;flex:1;display:flex;flex-direction:column}
+.home-header{padding:32px 0 24px}
+.home-label{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px}
+.home-title{font-size:26px;font-weight:700;letter-spacing:-0.5px;line-height:1.2;color:var(--ink)}
+.home-subtitle{font-size:14px;color:var(--ink-2);margin-top:8px;line-height:1.5}
+.theme-grid{display:flex;flex-direction:column;gap:10px;margin-top:24px}
+.theme-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px 20px;display:flex;align-items:center;gap:16px;transition:all 0.15s ease;position:relative;overflow:hidden}
+.theme-card:hover{background:var(--surface-2);border-color:var(--border-2)}
+.theme-card:active{transform:scale(0.985)}
+.theme-emoji{font-size:28px;width:48px;height:48px;display:flex;align-items:center;justify-content:center;border-radius:10px;flex-shrink:0}
+.theme-info{flex:1;min-width:0}
+.theme-name{font-size:17px;font-weight:600;letter-spacing:-0.2px}
+.theme-desc{font-size:12px;color:var(--ink-3);margin-top:3px;font-family:var(--mono);letter-spacing:-0.3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.theme-count{font-size:12px;color:var(--ink-3);font-family:var(--mono);flex-shrink:0}
+.theme-arrow{color:var(--ink-3);font-size:18px;flex-shrink:0}
+.theme-accent{position:absolute;left:0;top:0;bottom:0;width:3px;border-radius:0 3px 3px 0}
+.quiz{flex:1;display:flex;flex-direction:column}
+.quiz-top{padding:16px 20px 0;flex-shrink:0}
+.quiz-nav{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.quiz-back{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:var(--surface);border:1px solid var(--border);font-size:16px;transition:all 0.15s}
+.quiz-back:hover{background:var(--surface-2)}
+.quiz-theme{font-size:14px;font-weight:600;flex:1}
+.quiz-counter{font-family:var(--mono);font-size:13px;color:var(--ink-2)}
+.progress-wrap{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.progress-bar{flex:1;height:4px;background:var(--surface-3);border-radius:2px;overflow:hidden}
+.progress-fill{height:100%;border-radius:2px;transition:width 0.4s cubic-bezier(0.4,0,0.2,1)}
+.score-pills{display:flex;gap:8px}
+.score-pill{display:flex;align-items:center;gap:4px;font-size:12px;font-weight:600;font-family:var(--mono);padding:3px 8px;border-radius:6px}
+.score-pill.correct{background:var(--correct-bg);color:#52B788}
+.score-pill.wrong{background:var(--wrong-bg);color:#E8776C}
+.score-pill .dot{width:6px;height:6px;border-radius:50%}
+.score-pill.correct .dot{background:#52B788}
+.score-pill.wrong .dot{background:#E8776C}
+.quiz-body{flex:1;padding:20px;display:flex;flex-direction:column}
+.question-num{font-size:12px;font-weight:600;color:var(--ink-3);font-family:var(--mono);margin-bottom:12px}
+.question-text{font-size:19px;font-weight:500;line-height:1.5;letter-spacing:-0.2px;margin-bottom:28px;min-height:60px}
+.options{display:flex;flex-direction:column;gap:8px}
+.option-btn{width:100%;text-align:left;padding:14px 16px;border-radius:var(--radius);background:var(--surface);border:1.5px solid var(--border);font-size:15px;font-weight:400;line-height:1.4;display:flex;align-items:flex-start;gap:12px;transition:all 0.15s ease;position:relative}
+.option-btn:not(.answered):hover{background:var(--surface-2);border-color:var(--border-2)}
+.option-btn:not(.answered):active{transform:scale(0.99)}
+.option-key{width:24px;height:24px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;font-family:var(--mono);flex-shrink:0;background:var(--surface-3);color:var(--ink-2)}
+.option-text{padding-top:1px}
+.option-btn.answered{pointer-events:none}
+.option-btn.is-correct{background:var(--correct-bg);border-color:var(--correct-border)}
+.option-btn.is-correct .option-key{background:var(--correct);color:#fff}
+.option-btn.is-wrong{background:var(--wrong-bg);border-color:var(--wrong-border)}
+.option-btn.is-wrong .option-key{background:var(--wrong);color:#fff}
+.option-btn.is-actual-correct{background:var(--correct-bg);border-color:var(--correct-border)}
+.option-btn.is-actual-correct .option-key{background:var(--correct);color:#fff}
+.feedback{margin-top:16px;padding:14px 16px;border-radius:var(--radius);font-size:13px;line-height:1.6;animation:feedbackIn 0.25s ease}
+@keyframes feedbackIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.feedback.correct{background:var(--correct-bg);border:1px solid var(--correct-border)}
+.feedback.wrong{background:var(--wrong-bg);border:1px solid var(--wrong-border)}
+.feedback-label{font-weight:600;margin-bottom:4px;display:flex;align-items:center;gap:6px}
+.feedback.correct .feedback-label{color:#52B788}
+.feedback.wrong .feedback-label{color:#E8776C}
+.feedback-text{color:var(--ink-2)}
+.hint-btn{margin-top:12px;font-size:13px;color:var(--ink-3);display:flex;align-items:center;gap:6px;padding:8px 0;transition:color 0.15s}
+.hint-btn:hover{color:var(--ink-2)}
+.hint-box{margin-top:8px;padding:12px 16px;border-radius:var(--radius);background:var(--surface);border:1px solid var(--border);font-size:13px;color:var(--ink-2);line-height:1.5;animation:feedbackIn 0.2s ease}
+.quiz-footer{padding:16px 20px 24px;flex-shrink:0;display:flex;gap:10px}
+.btn-next{flex:1;padding:14px;border-radius:var(--radius);font-size:15px;font-weight:600;text-align:center;transition:all 0.15s ease;letter-spacing:-0.2px}
+.btn-next.primary{background:var(--ink);color:var(--bg)}
+.btn-next.primary:hover{opacity:0.9}
+.btn-next.primary:active{transform:scale(0.98)}
+.btn-next.disabled{background:var(--surface-3);color:var(--ink-3);pointer-events:none}
+.results{padding:24px 20px;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.results-emoji{font-size:56px;margin-bottom:20px;animation:pop 0.4s cubic-bezier(0.34,1.56,0.64,1)}
+@keyframes pop{from{transform:scale(0)}to{transform:scale(1)}}
+.results-score{font-size:48px;font-weight:700;letter-spacing:-2px;font-family:var(--mono)}
+.results-label{font-size:14px;color:var(--ink-2);margin-top:4px}
+.results-msg{font-size:16px;color:var(--ink-2);margin-top:16px;line-height:1.5;max-width:300px}
+.results-stats{display:flex;gap:24px;margin-top:32px}
+.stat{text-align:center}
+.stat-val{font-size:24px;font-weight:700;font-family:var(--mono)}
+.stat-val.g{color:#52B788}.stat-val.r{color:#E8776C}
+.stat-label{font-size:12px;color:var(--ink-3);margin-top:4px}
+.results-actions{display:flex;flex-direction:column;gap:10px;width:100%;max-width:300px;margin-top:36px}
+.btn-result{padding:14px;border-radius:var(--radius);font-size:15px;font-weight:600;text-align:center;transition:all 0.15s;letter-spacing:-0.2px}
+.btn-result.primary{background:var(--ink);color:var(--bg)}
+.btn-result.secondary{background:var(--surface);color:var(--ink);border:1px solid var(--border)}
+.btn-result:hover{opacity:0.9}
+.btn-result:active{transform:scale(0.98)}
+.review{padding:20px;flex:1}
+.review-header{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+.review-title{font-size:18px;font-weight:600}
+.review-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px;margin-bottom:10px}
+.review-q{font-size:14px;line-height:1.5;margin-bottom:8px}
+.review-answer{font-size:13px;color:var(--ink-2);line-height:1.5}
+.review-answer strong{color:#52B788;font-weight:600}
+.review-answer .wrong-text{color:#E8776C}
+</style>
+</head>
+<body>
+<div id="app" class="app"><div class="loading"><div class="loading-spinner"></div><div>Vragen laden...</div></div></div>
+<script>
+const KEYS=["A","B","C","D"];
+let THEMES=[],Q={},shuffledQuestions=[];
+let state={screen:"loading",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};
+
+async function loadQuestions(){
+  try{
+    const res=await fetch("questions.json");
+    if(!res.ok)throw new Error("HTTP "+res.status);
+    const data=await res.json();
+    THEMES=data.themes;Q=data.questions;
+    let total=0;for(const k of Object.keys(Q))total+=Q[k].length;
+    console.log("Loaded "+total+" questions across "+Object.keys(Q).length+" themes");
+    state.screen="home";render();
+  }catch(err){
+    console.error("Failed to load questions:",err);
+    document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de vragen niet laden.</p><p style="font-size:13px;color:var(--ink-3)">'+err.message+'</p><button onclick="loadQuestions()">Opnieuw proberen</button></div>';
+  }
+}
+
+function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
+function startQuiz(id){shuffledQuestions=shuffle(Q[id]);state={screen:"quiz",theme:id,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};render()}
+function goHome(){state={screen:"home",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};render()}
+function selectAnswer(idx){if(state.answered!==null)return;const q=shuffledQuestions[state.qIdx],isC=idx===q.correct;state.answered=isC?"correct":"wrong";state.selectedIdx=idx;if(isC)state.score++;else{state.wrong++;state.wrongAnswers.push({q:q.sentence,selected:q.options[idx],correct:q.options[q.correct],explanation:q.explanation})}render()}
+function nextQuestion(){if(state.qIdx>=shuffledQuestions.length-1){state.screen="results";render();return}state.qIdx++;state.answered=null;state.selectedIdx=null;state.showHint=false;render()}
+function toggleHint(){state.showHint=!state.showHint;render()}
+function toggleReview(){state.showReview=!state.showReview;render()}
+
+function render(){const app=document.getElementById("app");switch(state.screen){case"home":app.innerHTML=renderHome();break;case"quiz":app.innerHTML=renderQuiz();break;case"results":app.innerHTML=state.showReview?renderReview():renderResults();break}}
+
+function renderHome(){return'<div class="home"><div class="home-header"><div class="home-label">Oefening</div><div class="home-title">Samengestelde<br>Werkwoorden</div><div class="home-subtitle">Kies een thema en oefen met 40 meerkeuzevragen op B1+ niveau.</div></div><div class="theme-grid">'+THEMES.map(function(t){var c=Q[t.id]?Q[t.id].length:0;return'<button class="theme-card" onclick="startQuiz(\''+t.id+'\')"><div class="theme-accent" style="background:'+t.color+'"></div><div class="theme-emoji" style="background:'+t.color+'15">'+t.emoji+'</div><div class="theme-info"><div class="theme-name">'+t.label+'</div><div class="theme-desc">'+t.description+'</div></div><div class="theme-count">'+c+'</div><div class="theme-arrow">›</div></button>'}).join("")+'</div></div>'}
+
+function renderQuiz(){var t=THEMES.find(function(x){return x.id===state.theme}),q=shuffledQuestions[state.qIdx],total=shuffledQuestions.length,pct=((state.qIdx+(state.answered?1:0))/total*100).toFixed(1);var fb="";if(state.answered){var isC=state.answered==="correct",label=isC?"✓ Goed!":"✗ Niet helemaal",text=isC?q.explanation:((q.wrongExplanations[state.selectedIdx]||"")+"<br><br>"+q.explanation);fb='<div class="feedback '+state.answered+'"><div class="feedback-label">'+label+'</div><div class="feedback-text">'+text+'</div></div>'}var hi="";if(!state.answered){hi='<button class="hint-btn" onclick="toggleHint()">'+(state.showHint?"▾":"▸")+' Hint</button>';if(state.showHint)hi+='<div class="hint-box">💡 '+q.hint+'</div>'}return'<div class="quiz"><div class="quiz-top"><div class="quiz-nav"><button class="quiz-back" onclick="goHome()">←</button><div class="quiz-theme" style="color:'+t.color+'">'+t.emoji+" "+t.label+'</div><div class="quiz-counter">'+(state.qIdx+1)+" / "+total+'</div></div><div class="progress-wrap"><div class="progress-bar"><div class="progress-fill" style="width:'+pct+"%;background:"+t.color+'"></div></div><div class="score-pills"><div class="score-pill correct"><span class="dot"></span>'+state.score+'</div><div class="score-pill wrong"><span class="dot"></span>'+state.wrong+'</div></div></div></div><div class="quiz-body"><div class="question-num">'+t.label+" · Vraag "+(state.qIdx+1)+'</div><div class="question-text">'+q.sentence+'</div><div class="options">'+q.options.map(function(opt,i){var cls="option-btn";if(state.answered){cls+=" answered";if(i===q.correct)cls+=" is-correct is-actual-correct";else if(i===state.selectedIdx&&state.answered==="wrong")cls+=" is-wrong"}return'<button class="'+cls+'" onclick="selectAnswer('+i+')"><span class="option-key">'+KEYS[i]+'</span><span class="option-text">'+opt+"</span></button>"}).join("")+"</div>"+fb+hi+'</div><div class="quiz-footer"><button class="btn-next '+(state.answered?"primary":"disabled")+'" onclick="nextQuestion()">'+(state.qIdx>=total-1&&state.answered?"Resultaten bekijken":"Volgende →")+"</button></div></div>"}
+
+function renderResults(){var total=shuffledQuestions.length,pct=Math.round(state.score/total*100),emoji="🎉",msg="Uitstekend! Je beheerst deze werkwoorden goed.";if(pct<50){emoji="📚";msg="Blijf oefenen! Herhaling is de sleutel tot succes."}else if(pct<70){emoji="💪";msg="Goed bezig! Nog een paar rondes en je hebt het onder de knie."}else if(pct<90){emoji="🌟";msg="Heel goed! Je bent er bijna."}var t=THEMES.find(function(x){return x.id===state.theme});return'<div class="results"><div class="results-emoji">'+emoji+'</div><div class="results-score" style="color:'+t.color+'">'+pct+'%</div><div class="results-label">'+state.score+" van "+total+' goed</div><div class="results-msg">'+msg+'</div><div class="results-stats"><div class="stat"><div class="stat-val g">'+state.score+'</div><div class="stat-label">Goed</div></div><div class="stat"><div class="stat-val r">'+state.wrong+'</div><div class="stat-label">Fout</div></div><div class="stat"><div class="stat-val" style="color:'+t.color+'">'+total+'</div><div class="stat-label">Totaal</div></div></div><div class="results-actions"><button class="btn-result primary" onclick="startQuiz(\''+state.theme+'\')">Opnieuw proberen</button>'+(state.wrong>0?'<button class="btn-result secondary" onclick="toggleReview()">Foute antwoorden bekijken ('+state.wrong+")</button>":"")+'<button class="btn-result secondary" onclick="goHome()">← Terug naar thema\'s</button></div></div>'}
+
+function renderReview(){return'<div class="review"><div class="review-header"><button class="quiz-back" onclick="toggleReview()">←</button><div class="review-title">Foute antwoorden ('+state.wrongAnswers.length+')</div></div>'+state.wrongAnswers.map(function(w,i){return'<div class="review-card"><div class="review-q">'+(i+1)+". "+w.q+'</div><div class="review-answer"><span class="wrong-text">Jouw antwoord: '+w.selected+"</span><br><strong>Correct: "+w.correct+"</strong><br>"+w.explanation+"</div></div>"}).join("")+'<div style="padding:16px 0"><button class="btn-result primary" onclick="startQuiz(\''+state.theme+'\')" style="width:100%">Opnieuw proberen</button></div></div>'}
+
+loadQuestions();
+</script>
+</body>
+</html>
