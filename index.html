@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Werkwoorden Quiz — Samengestelde Werkwoorden oefenen</title>
+
+<!-- SEO -->
+<meta name="description" content="Oefen 160 meerkeuzevragen over samengestelde werkwoorden met -komen, -zetten, -nemen en -halen. Gratis quiz op B1+ niveau voor Nederlands leerders.">
+<meta name="keywords" content="Nederlands leren, samengestelde werkwoorden, Dutch verbs quiz, B1 Nederlands, werkwoorden oefenen, komen zetten nemen halen">
+<meta name="author" content="Richard">
+<meta name="theme-color" content="#0F1117">
+<meta name="color-scheme" content="dark">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Werkwoorden Quiz — Samengestelde Werkwoorden">
+<meta property="og:description" content="160 meerkeuzevragen over samengestelde werkwoorden met -komen, -zetten, -nemen en -halen. Gratis B1+ quiz.">
+<meta property="og:image" content="https://raw.githubusercontent.com/YOUR_USERNAME/werkwoorden-quiz/main/og-image.png">
+<meta property="og:url" content="https://YOUR_USERNAME.github.io/werkwoorden-quiz/">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:site_name" content="Werkwoorden Quiz">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Werkwoorden Quiz — Samengestelde Werkwoorden">
+<meta name="twitter:description" content="160 meerkeuzevragen over samengestelde werkwoorden. Gratis B1+ quiz voor Nederlands leerders.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/YOUR_USERNAME/werkwoorden-quiz/main/og-image.png">
+
+<!-- PWA / Mobile -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Werkwoorden">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇳🇱</text></svg>">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://YOUR_USERNAME.github.io/werkwoorden-quiz/">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0F1117;--surface:#181A20;--surface-2:#1E2028;--surface-3:#252830;
+  --ink:#E8E9ED;--ink-2:#A0A3AD;--ink-3:#6B6F7B;--ink-4:#3E414B;
+  --border:rgba(255,255,255,0.06);--border-2:rgba(255,255,255,0.10);
+  --correct:#2D6A4F;--correct-bg:rgba(45,106,79,0.12);--correct-border:rgba(45,106,79,0.4);
+  --wrong:#C44536;--wrong-bg:rgba(196,69,54,0.12);--wrong-border:rgba(196,69,54,0.4);
+  --radius:10px;--radius-lg:14px;
+  --font:'DM Sans',system-ui,sans-serif;--mono:'DM Mono',monospace;
+}
+html{font-size:16px;-webkit-text-size-adjust:100%}
+body{font-family:var(--font);background:var(--bg);color:var(--ink);min-height:100dvh;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.app{max-width:480px;margin:0 auto;min-height:100dvh;display:flex;flex-direction:column}
+
+/* ═══ HOME SCREEN ═══ */
+.home{padding:24px 20px;flex:1;display:flex;flex-direction:column}
+.home-header{padding:32px 0 24px}
+.home-label{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px}
+.home-title{font-size:26px;font-weight:700;letter-spacing:-0.5px;line-height:1.2;color:var(--ink)}
+.home-subtitle{font-size:14px;color:var(--ink-2);margin-top:8px;line-height:1.5}
+.theme-grid{display:flex;flex-direction:column;gap:10px;margin-top:24px}
+.theme-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);
+  padding:18px 20px;display:flex;align-items:center;gap:16px;
+  transition:all 0.15s ease;position:relative;overflow:hidden;
+}
+.theme-card:hover{background:var(--surface-2);border-color:var(--border-2)}
+.theme-card:active{transform:scale(0.985)}
+.theme-emoji{font-size:28px;width:48px;height:48px;display:flex;align-items:center;justify-content:center;border-radius:10px;flex-shrink:0}
+.theme-info{flex:1;min-width:0}
+.theme-name{font-size:17px;font-weight:600;letter-spacing:-0.2px}
+.theme-desc{font-size:12px;color:var(--ink-3);margin-top:3px;font-family:var(--mono);letter-spacing:-0.3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.theme-count{font-size:12px;color:var(--ink-3);font-family:var(--mono);flex-shrink:0}
+.theme-arrow{color:var(--ink-3);font-size:18px;flex-shrink:0}
+.theme-accent{position:absolute;left:0;top:0;bottom:0;width:3px;border-radius:0 3px 3px 0}
+
+/* ═══ QUIZ SCREEN ═══ */
+.quiz{flex:1;display:flex;flex-direction:column}
+.quiz-top{padding:16px 20px 0;flex-shrink:0}
+.quiz-nav{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.quiz-back{
+  width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+  background:var(--surface);border:1px solid var(--border);font-size:16px;transition:all 0.15s;
+}
+.quiz-back:hover{background:var(--surface-2)}
+.quiz-theme{font-size:14px;font-weight:600;flex:1}
+.quiz-counter{font-family:var(--mono);font-size:13px;color:var(--ink-2)}
+
+/* Progress */
+.progress-wrap{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.progress-bar{flex:1;height:4px;background:var(--surface-3);border-radius:2px;overflow:hidden}
+.progress-fill{height:100%;border-radius:2px;transition:width 0.4s cubic-bezier(0.4,0,0.2,1)}
+.score-pills{display:flex;gap:8px}
+.score-pill{
+  display:flex;align-items:center;gap:4px;font-size:12px;font-weight:600;font-family:var(--mono);
+  padding:3px 8px;border-radius:6px;
+}
+.score-pill.correct{background:var(--correct-bg);color:#52B788}
+.score-pill.wrong{background:var(--wrong-bg);color:#E8776C}
+.score-pill .dot{width:6px;height:6px;border-radius:50%}
+.score-pill.correct .dot{background:#52B788}
+.score-pill.wrong .dot{background:#E8776C}
+
+/* Question area */
+.quiz-body{flex:1;padding:20px;display:flex;flex-direction:column}
+.question-num{font-size:12px;font-weight:600;color:var(--ink-3);font-family:var(--mono);margin-bottom:12px}
+.question-text{font-size:19px;font-weight:500;line-height:1.5;letter-spacing:-0.2px;margin-bottom:28px;min-height:60px}
+.question-blank{
+  display:inline-block;min-width:80px;border-bottom:2px dashed var(--ink-3);margin:0 2px;
+}
+
+/* Options */
+.options{display:flex;flex-direction:column;gap:8px}
+.option-btn{
+  width:100%;text-align:left;padding:14px 16px;border-radius:var(--radius);
+  background:var(--surface);border:1.5px solid var(--border);
+  font-size:15px;font-weight:400;line-height:1.4;
+  display:flex;align-items:flex-start;gap:12px;
+  transition:all 0.15s ease;position:relative;
+}
+.option-btn:not(.answered):hover{background:var(--surface-2);border-color:var(--border-2)}
+.option-btn:not(.answered):active{transform:scale(0.99)}
+.option-key{
+  width:24px;height:24px;border-radius:6px;display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:600;font-family:var(--mono);flex-shrink:0;
+  background:var(--surface-3);color:var(--ink-2);
+}
+.option-text{padding-top:1px}
+
+/* Answered states */
+.option-btn.answered{pointer-events:none}
+.option-btn.is-correct{
+  background:var(--correct-bg);border-color:var(--correct-border);
+}
+.option-btn.is-correct .option-key{background:var(--correct);color:#fff}
+.option-btn.is-wrong{
+  background:var(--wrong-bg);border-color:var(--wrong-border);
+}
+.option-btn.is-wrong .option-key{background:var(--wrong);color:#fff}
+.option-btn.is-actual-correct{
+  background:var(--correct-bg);border-color:var(--correct-border);
+}
+.option-btn.is-actual-correct .option-key{background:var(--correct);color:#fff}
+
+/* Feedback */
+.feedback{
+  margin-top:16px;padding:14px 16px;border-radius:var(--radius);
+  font-size:13px;line-height:1.6;
+  animation:feedbackIn 0.25s ease;
+}
+@keyframes feedbackIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.feedback.correct{background:var(--correct-bg);border:1px solid var(--correct-border)}
+.feedback.wrong{background:var(--wrong-bg);border:1px solid var(--wrong-border)}
+.feedback-label{font-weight:600;margin-bottom:4px;display:flex;align-items:center;gap:6px}
+.feedback.correct .feedback-label{color:#52B788}
+.feedback.wrong .feedback-label{color:#E8776C}
+.feedback-text{color:var(--ink-2)}
+
+/* Hint */
+.hint-btn{
+  margin-top:12px;font-size:13px;color:var(--ink-3);display:flex;align-items:center;gap:6px;
+  padding:8px 0;transition:color 0.15s;
+}
+.hint-btn:hover{color:var(--ink-2)}
+.hint-box{
+  margin-top:8px;padding:12px 16px;border-radius:var(--radius);
+  background:var(--surface);border:1px solid var(--border);
+  font-size:13px;color:var(--ink-2);line-height:1.5;
+  animation:feedbackIn 0.2s ease;
+}
+
+/* Quiz footer */
+.quiz-footer{padding:16px 20px 24px;flex-shrink:0;display:flex;gap:10px}
+.btn-next{
+  flex:1;padding:14px;border-radius:var(--radius);font-size:15px;font-weight:600;
+  text-align:center;transition:all 0.15s ease;letter-spacing:-0.2px;
+}
+.btn-next.primary{background:var(--ink);color:var(--bg)}
+.btn-next.primary:hover{opacity:0.9}
+.btn-next.primary:active{transform:scale(0.98)}
+.btn-next.disabled{background:var(--surface-3);color:var(--ink-3);pointer-events:none}
+
+/* ═══ RESULTS SCREEN ═══ */
+.results{padding:24px 20px;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.results-emoji{font-size:56px;margin-bottom:20px;animation:pop 0.4s cubic-bezier(0.34,1.56,0.64,1)}
+@keyframes pop{from{transform:scale(0)}to{transform:scale(1)}}
+.results-score{font-size:48px;font-weight:700;letter-spacing:-2px;font-family:var(--mono)}
+.results-label{font-size:14px;color:var(--ink-2);margin-top:4px}
+.results-msg{font-size:16px;color:var(--ink-2);margin-top:16px;line-height:1.5;max-width:300px}
+.results-stats{display:flex;gap:24px;margin-top:32px}
+.stat{text-align:center}
+.stat-val{font-size:24px;font-weight:700;font-family:var(--mono)}
+.stat-val.g{color:#52B788}.stat-val.r{color:#E8776C}
+.stat-label{font-size:12px;color:var(--ink-3);margin-top:4px}
+.results-actions{display:flex;flex-direction:column;gap:10px;width:100%;max-width:300px;margin-top:36px}
+.btn-result{
+  padding:14px;border-radius:var(--radius);font-size:15px;font-weight:600;
+  text-align:center;transition:all 0.15s;letter-spacing:-0.2px;
+}
+.btn-result.primary{background:var(--ink);color:var(--bg)}
+.btn-result.secondary{background:var(--surface);color:var(--ink);border:1px solid var(--border)}
+.btn-result:hover{opacity:0.9}
+.btn-result:active{transform:scale(0.98)}
+
+/* Review wrong answers */
+.review{padding:20px;flex:1}
+.review-header{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+.review-title{font-size:18px;font-weight:600}
+.review-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);
+  padding:16px;margin-bottom:10px;
+}
+.review-q{font-size:14px;line-height:1.5;margin-bottom:8px}
+.review-answer{font-size:13px;color:var(--ink-2);line-height:1.5}
+.review-answer strong{color:#52B788;font-weight:600}
+.review-answer .wrong-text{color:#E8776C}
+
+/* Utility */
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+</style>
+</head>
+<body>
+<div id="app" class="app"></div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+// COMPACT QUIZ DATA — 160 questions, 4 themes, B1+ level
+// Format: [sentence, [options], correctIdx, explanation, {wrongIdx:text}, hint]
+// ═══════════════════════════════════════════════════════
+
+const THEMES = [
+  { id:"komen", label:"-komen", desc:"aankomen · opkomen · bijkomen · uitkomen", emoji:"🚪", color:"#2D6A4F" },
+  { id:"zetten", label:"-zetten", desc:"aanzetten · opzetten · afzetten · doorzetten", emoji:"📌", color:"#7B2D8B" },
+  { id:"nemen", label:"-nemen", desc:"opnemen · aannemen · afnemen · innemen", emoji:"🤲", color:"#1B4965" },
+  { id:"halen", label:"-halen", desc:"ophalen · afhalen · inhalen · achterhalen", emoji:"🎯", color:"#C44536" },
+];
+
+const Q = {
+komen: [
+["We zijn gisteren pas laat thuis ______.",["aangekomen","opgekomen","voorgekomen","bijgekomen"],0,"'Aankomen' = ergens arriveren.",{1:"'Opkomen' = naar boven komen.",2:"'Voorkomen' = gebeuren.",3:"'Bijkomen' = herstellen."},"Denk aan het einde van een reis."],
+["De zon is vandaag vroeg ______.",["aangekomen","opgekomen","afgekomen","meegekomen"],1,"'Opkomen' = verschijnen (zon, maan).",{0:"'Aankomen' = arriveren.",2:"'Afkomen' = naar beneden.",3:"'Meekomen' = samen gaan."},"Wat doet de zon aan de horizon?"],
+["Dat woord komt me heel bekend ______.",["over","voor","bij","aan"],1,"'Voorkomen' = de indruk geven, lijken.",{0:"'Overkomen' = de indruk wekken (ander gebruik).",2:"'Bijkomen' = herstellen.",3:"'Aankomen' = arriveren."},"Iets dat je herkent, komt je bekend ..."],
+["Na de operatie moest hij langzaam ______.",["bijkomen","aankomen","opkomen","uitkomen"],0,"'Bijkomen' = herstellen na een operatie.",{1:"'Aankomen' = arriveren.",2:"'Opkomen' = verschijnen.",3:"'Uitkomen' = openbaar worden."},"Na narcose moet je weer tot jezelf komen."],
+["De waarheid is eindelijk ______.",["afgekomen","meegekomen","uitgekomen","voorgekomen"],2,"'Uitkomen' = openbaar worden.",{0:"'Afkomen' = naar beneden.",1:"'Meekomen' = samen gaan.",3:"'Voorkomen' = gebeuren."},"Een geheim dat openbaar wordt."],
+["Ik ben de afgelopen maand twee kilo ______.",["bijgekomen","aangekomen","opgekomen","omgekomen"],1,"'Aankomen' = in gewicht toenemen.",{0:"'Bijkomen' = herstellen.",2:"'Opkomen' = verschijnen.",3:"'Omkomen' = sterven."},"Denk aan de weegschaal."],
+["Er zijn nog extra kosten ______.",["afgekomen","bijgekomen","voorgekomen","meegekomen"],1,"'Bijkomen' = er extra bij komen.",{0:"'Afkomen' = naar beneden.",2:"'Voorkomen' = gebeuren.",3:"'Meekomen' = samen gaan."},"Extra kosten die erbij komen."],
+["Wil je vanavond ook ______?",["aankomen","meekomen","opkomen","voorkomen"],1,"'Meekomen' = samen met iemand gaan.",{0:"'Aankomen' = arriveren.",2:"'Opkomen' = verschijnen.",3:"'Voorkomen' = gebeuren."},"Iemand uitnodigen om samen te gaan."],
+["Het ongeluk is op de snelweg ______.",["bijgekomen","afgekomen","voorgekomen","meegekomen"],2,"'Voorkomen' = gebeuren, plaatsvinden.",{0:"'Bijkomen' = herstellen.",1:"'Afkomen' = naar beneden.",3:"'Meekomen' = samen gaan."},"Een ongeluk dat plaatsvindt."],
+["De berekening is precies ______.",["voorgekomen","uitgekomen","bijgekomen","meegekomen"],1,"'Uitkomen' = kloppen.",{0:"'Voorkomen' = gebeuren.",2:"'Bijkomen' = herstellen.",3:"'Meekomen' = samen gaan."},"Een berekening die klopt."],
+["Ze is van de trap ______.",["afgekomen","bijgekomen","opgekomen","meegekomen"],0,"'Afkomen' = naar beneden komen.",{1:"'Bijkomen' = herstellen.",2:"'Opkomen' = naar boven.",3:"'Meekomen' = samen gaan."},"Van boven naar beneden."],
+["Hij komt altijd heel aardig ______.",["voor","over","bij","aan"],1,"'Overkomen' = de indruk wekken.",{0:"'Voorkomen' = lijken (ander gebruik).",2:"'Bijkomen' = herstellen.",3:"'Aankomen' = arriveren."},"Welke indruk maakt iemand?"],
+["We moeten ______ tegen discriminatie.",["aankomen","opkomen","meekomen","bijkomen"],1,"'Opkomen tegen' = protesteren.",{0:"'Aankomen' = arriveren.",2:"'Meekomen' = samen gaan.",3:"'Bijkomen' = herstellen."},"Strijden tegen onrecht."],
+["Veel mensen zijn bij het ongeluk ______.",["aangekomen","meegekomen","omgekomen","uitgekomen"],2,"'Omkomen' = sterven bij een ongeluk.",{0:"'Aankomen' = arriveren.",1:"'Meekomen' = samen gaan.",3:"'Uitkomen' = openbaar worden."},"Een tragisch gevolg."],
+["Ik ben er net ______ dat hij gelogen heeft.",["bijgekomen","achtergekomen","meegekomen","voorgekomen"],1,"'Achterkomen' = ontdekken.",{0:"'Bijkomen' = herstellen.",2:"'Meekomen' = samen gaan.",3:"'Voorkomen' = gebeuren."},"Je ontdekt iets wat verborgen was."],
+["De buurman is even ______ voor koffie.",["meegekomen","bijgekomen","langsgekomen","opgekomen"],2,"'Langskomen' = op bezoek komen.",{0:"'Meekomen' = samen gaan.",1:"'Bijkomen' = herstellen.",3:"'Opkomen' = verschijnen."},"Iemand die op bezoek komt."],
+["Ze kon niet ______ met de rest van de groep.",["aankomen","meekomen","bijkomen","afgekomen"],1,"'Meekomen' = bijhouden, het tempo volgen.",{0:"'Aankomen' = arriveren.",2:"'Bijkomen' = herstellen.",3:"'Afkomen' = naar beneden."},"Het tempo niet kunnen bijhouden."],
+["Ze is helemaal ______ van de schrik.",["bijgekomen","aangekomen","opgekomen","afgekomen"],0,"'Bijkomen van' = herstellen van een schrik.",{1:"'Aankomen' = arriveren.",2:"'Opkomen' = verschijnen.",3:"'Afkomen' = naar beneden."},"Herstellen na een schrikreactie."],
+["Dit probleem moet niet meer ______.",["meekomen","voorkomen","bijkomen","aankomen"],1,"'Voorkomen' = vermijden.",{0:"'Meekomen' = samen gaan.",2:"'Bijkomen' = herstellen.",3:"'Aankomen' = arriveren."},"Preventie."],
+["Waar komt dat geluid ______?",["af","bij","vandaan","mee"],2,"'Ergens vandaan komen' = de oorsprong.",{0:"'Afkomen' = naar beneden.",1:"'Bijkomen' = herstellen.",3:"'Meekomen' = samen gaan."},"Wat is de bron?"],
+["Zijn nieuwe boek is vorige week ______.",["aangekomen","bijgekomen","uitgekomen","opgekomen"],2,"'Uitkomen' = gepubliceerd worden.",{0:"'Aankomen' = arriveren.",1:"'Bijkomen' = herstellen.",3:"'Opkomen' = verschijnen (zon)."},"Een boek dat gepubliceerd wordt."],
+["De trein uit Amsterdam is net ______.",["bijgekomen","aangekomen","meegekomen","opgekomen"],1,"'Aankomen' = arriveren.",{0:"'Bijkomen' = herstellen.",2:"'Meekomen' = samen gaan.",3:"'Opkomen' = verschijnen."},"Een trein arriveert."],
+["Er is een nieuw probleem ______.",["aangekomen","bijgekomen","uitgekomen","voorgekomen"],1,"'Bijkomen' = er extra bij komen.",{0:"'Aankomen' = arriveren.",2:"'Uitkomen' = openbaar worden.",3:"'Voorkomen' = gebeuren."},"Een extra probleem."],
+["Dat komt goed ______!",["bij","over","uit","voor"],2,"'Uitkomen' = goed aflopen.",{0:"'Bijkomen' = herstellen.",1:"'Overkomen' = de indruk wekken.",3:"'Voorkomen' = gebeuren."},"Alles loopt goed af."],
+["Ze is niet komen ______.",["afdagen","opdagen","meedagen","bijdragen"],1,"'Komen opdagen' = verschijnen.",{0:"'Afdagen' bestaat niet.",2:"'Meedagen' bestaat niet.",3:"'Bijdragen' = een bijdrage leveren."},"Niet op een afspraak verschijnen."],
+["De bloemen beginnen al op te ______.",["aankomen","bijkomen","komen","afkomen"],2,"'Opkomen' = beginnen te groeien.",{0:"'Aankomen' = arriveren.",1:"'Bijkomen' = herstellen.",3:"'Afkomen' = naar beneden."},"Bloemen in de lente."],
+["Het water is tot aan de dijk ______.",["bijgekomen","opgekomen","aangekomen","gekomen"],3,"'Komen tot' = een punt bereiken.",{0:"'Bijkomen' = herstellen.",1:"'Opkomen' = verschijnen.",2:"'Aankomen' = arriveren."},"Het waterpeil bereikt een punt."],
+["Ze is voor haar rechten ______.",["aangekomen","opgekomen","meegekomen","bijgekomen"],1,"'Opkomen voor' = je inzetten voor.",{0:"'Aankomen' = arriveren.",2:"'Meekomen' = samen gaan.",3:"'Bijkomen' = herstellen."},"Strijden voor je rechten."],
+["Het eten is goed van pas ______.",["aangekomen","bijgekomen","gekomen","meegekomen"],2,"'Van pas komen' = nuttig zijn.",{0:"'Aankomen' = arriveren.",1:"'Bijkomen' = herstellen.",3:"'Meekomen' = samen gaan."},"Iets dat nuttig was."],
+["De vergadering is niet goed ______.",["overgekomen","uitgekomen","bijgekomen","afgekomen"],0,"'Overkomen' = de indruk wekken.",{1:"'Uitkomen' = openbaar worden.",2:"'Bijkomen' = herstellen.",3:"'Afkomen' = naar beneden."},"Welke indruk maakte de vergadering?"],
+["De lift is vast komen te ______.",["aankomen","zitten","bijkomen","voorkomen"],1,"'Vast komen te zitten' = niet weg kunnen.",{0:"'Aankomen' = arriveren.",2:"'Bijkomen' = herstellen.",3:"'Voorkomen' = gebeuren."},"De lift beweegt niet meer."],
+["Het ______ niet goed uit als je dat zegt.",["komt","gaat","staat","loopt"],0,"'Uitkomen' = een bepaald effect hebben.",{1:"'Gaat uit' = een andere betekenis.",2:"'Staat' = passen.",3:"'Loopt uit' = uitlopen."},"Het maakt een slechte indruk."],
+["De muzikant is het podium ______.",["afgekomen","bijgekomen","opgekomen","meegekomen"],0,"'Afkomen' = naar beneden komen (podium).",{1:"'Bijkomen' = herstellen.",2:"'Opkomen' = het podium op.",3:"'Meekomen' = samen gaan."},"Het podium verlaten."],
+["Ik weet niet hoe ik aan die info moet ______.",["bijkomen","meekomen","komen","voorkomen"],2,"'Aan iets komen' = iets verkrijgen.",{0:"'Bijkomen' = herstellen.",1:"'Meekomen' = samen gaan.",3:"'Voorkomen' = gebeuren."},"Hoe krijg je iets te pakken?"],
+["De kinderen mogen niet bij het vuur ______.",["aankomen","bijkomen","opkomen","komen"],3,"'In de buurt komen' = dichtbij komen.",{0:"'Aankomen' = arriveren.",1:"'Bijkomen' = herstellen.",2:"'Opkomen' = verschijnen."},"Niet te dichtbij."],
+["Hoe ben je op dat idee ______?",["aangekomen","gekomen","afgekomen","opgekomen"],1,"'Op een idee komen' = een idee krijgen.",{0:"'Aankomen' = arriveren.",2:"'Afkomen' = naar beneden.",3:"'Opkomen' = verschijnen."},"Hoe ben je erbij gekomen?"],
+["Ze kwamen tot een goed besluit ______.",["meegekomen","bijgekomen","gekomen","afgekomen"],2,"'Tot een besluit komen' = beslissen.",{0:"'Meekomen' = samen gaan.",1:"'Bijkomen' = herstellen.",3:"'Afkomen' = naar beneden."},"Een beslissing bereiken."],
+["Dat woord komt me niet bekend ______.",["over","voor","bij","aan"],1,"'Voorkomen' = lijken, de indruk geven.",{0:"'Overkomen' = een ander gebruik.",2:"'Bijkomen' = herstellen.",3:"'Aankomen' = arriveren."},"Je herkent het woord niet."],
+["Ik kan er niet ______ wat er gebeurd is.",["bijkomen","achterkomen","meekomen","aankomen"],1,"'Achterkomen' = ontdekken.",{0:"'Bijkomen' = herstellen.",2:"'Meekomen' = samen gaan.",3:"'Aankomen' = arriveren."},"Iets ontdekken."],
+["Het feest is goed ______.",["meegekomen","bijgekomen","overgekomen","uitgekomen"],2,"'Overkomen' = de indruk wekken.",{0:"'Meekomen' = samen gaan.",1:"'Bijkomen' = herstellen.",3:"'Uitkomen' = openbaar worden."},"Welke indruk maakte het feest?"],
+],
+zetten: [
+["Kun je de televisie ______?",["aanzetten","opzetten","afzetten","uitzetten"],0,"'Aanzetten' = inschakelen.",{1:"'Opzetten' = oprichten.",2:"'Afzetten' = bedriegen/afsluiten.",3:"'Uitzetten' = uitschakelen."},"Je wilt tv kijken."],
+["Ze heeft een nieuw bedrijf ______.",["aangezet","neergezet","opgezet","doorgezet"],2,"'Opzetten' = oprichten, starten.",{0:"'Aanzetten' = inschakelen.",1:"'Neerzetten' = plaatsen.",3:"'Doorzetten' = volhouden."},"Een bedrijf starten."],
+["Kun je de verwarming ______? Het is te warm.",["aanzetten","opzetten","uitzetten","doorzetten"],2,"'Uitzetten' = uitschakelen.",{0:"'Aanzetten' = inschakelen.",1:"'Opzetten' = oprichten.",3:"'Doorzetten' = volhouden."},"Het is te warm."],
+["Ondanks de tegenslag heeft ze ______.",["opgezet","afgezet","doorgezet","neergezet"],2,"'Doorzetten' = volhouden.",{0:"'Opzetten' = oprichten.",1:"'Afzetten' = bedriegen.",3:"'Neerzetten' = plaatsen."},"Niet opgeven."],
+["De taxi heeft me bij het station ______.",["neergezet","afgezet","opgezet","aangezet"],1,"'Afzetten' = iemand laten uitstappen.",{0:"'Neerzetten' = voorwerpen plaatsen.",2:"'Opzetten' = oprichten.",3:"'Aanzetten' = inschakelen."},"De taxi stopt en je stapt uit."],
+["Zet je tas maar op de tafel ______.",["af","neer","op","door"],1,"'Neerzetten' = ergens plaatsen.",{0:"'Afzetten' = bedriegen/uitstappen.",2:"'Opzetten' = oprichten.",3:"'Doorzetten' = volhouden."},"Je tas op de tafel leggen."],
+["Die oplichter heeft veel mensen ______.",["neergezet","doorgezet","afgezet","opgezet"],2,"'Afzetten' = bedriegen, oplichten.",{0:"'Neerzetten' = plaatsen.",1:"'Doorzetten' = volhouden.",3:"'Opzetten' = oprichten."},"Iemand die mensen bedriegt."],
+["Ze heeft de bloemen in een vaas ______.",["afgezet","neergezet","aangezet","doorgezet"],1,"'Neerzetten' = ergens plaatsen.",{0:"'Afzetten' = bedriegen.",2:"'Aanzetten' = inschakelen.",3:"'Doorzetten' = volhouden."},"Bloemen in een vaas plaatsen."],
+["Ik ga koffie ______. Wil jij ook?",["neerzetten","opzetten","aanzetten","zetten"],3,"'Koffie zetten' = koffie maken.",{0:"'Neerzetten' = plaatsen.",1:"'Opzetten' = oprichten.",2:"'Aanzetten' = inschakelen."},"Koffie bereiden."],
+["De politie heeft het gebied ______.",["opgezet","afgezet","neergezet","doorgezet"],1,"'Afzetten' = een gebied afsluiten.",{0:"'Opzetten' = oprichten.",2:"'Neerzetten' = plaatsen.",3:"'Doorzetten' = volhouden."},"De politie sluit een straat af."],
+["Hij wil zijn eigen zaak ______.",["uitzetten","doorzetten","opzetten","afzetten"],2,"'Opzetten' = oprichten.",{0:"'Uitzetten' = uitschakelen.",1:"'Doorzetten' = volhouden.",3:"'Afzetten' = bedriegen."},"Een eigen bedrijf starten."],
+["Kun je het geluid wat zachter ______?",["aanzetten","uitzetten","zetten","opzetten"],2,"'Zachter zetten' = volume verlagen.",{0:"'Aanzetten' = inschakelen.",1:"'Uitzetten' = helemaal uit.",3:"'Opzetten' = oprichten."},"Het volume verlagen."],
+["De overheid wil strengere regels ______.",["neerzetten","doorzetten","afzetten","inzetten"],3,"'Inzetten' = invoeren, toepassen.",{0:"'Neerzetten' = plaatsen.",1:"'Doorzetten' = volhouden.",2:"'Afzetten' = bedriegen."},"Nieuwe regels invoeren."],
+["Ze heeft zich volledig ______ voor het goede doel.",["doorgezet","ingezet","neergezet","afgezet"],1,"'Zich inzetten voor' = je inspannen.",{0:"'Doorzetten' = volhouden.",2:"'Neerzetten' = plaatsen.",3:"'Afzetten' = bedriegen."},"Hard werken voor een goed doel."],
+["De docent heeft de studenten aan het werk ______.",["opgezet","neergezet","gezet","afgezet"],2,"'Aan het werk zetten' = laten werken.",{0:"'Opzetten' = oprichten.",1:"'Neerzetten' = plaatsen.",3:"'Afzetten' = bedriegen."},"De studenten moeten gaan werken."],
+["Na het schandaal werd de koning ______.",["neergezet","opgezet","afgezet","doorgezet"],2,"'Afzetten' = uit een functie verwijderen.",{0:"'Neerzetten' = plaatsen.",1:"'Opzetten' = oprichten.",3:"'Doorzetten' = volhouden."},"Een koning die zijn troon verliest."],
+["Ze heeft de tent in de tuin ______.",["neergezet","afgezet","opgezet","doorgezet"],2,"'Opzetten' = opbouwen (tent).",{0:"'Neerzetten' = een voorwerp plaatsen.",1:"'Afzetten' = afsluiten.",3:"'Doorzetten' = volhouden."},"Een tent opbouwen."],
+["Vergeet niet de wekker ______!",["uit te zetten","op te zetten","te zetten","af te zetten"],2,"'De wekker zetten' = instellen.",{0:"'Uitzetten' = uitschakelen.",1:"'Opzetten' = oprichten.",3:"'Afzetten' = bedriegen."},"De wekker instellen."],
+["De trainer heeft de spits ______ in de 2e helft.",["neergezet","afgezet","opgezet","ingezet"],3,"'Inzetten' = laten meespelen.",{0:"'Neerzetten' = plaatsen.",1:"'Afzetten' = bedriegen.",2:"'Opzetten' = oprichten."},"Een speler laten meespelen."],
+["Hij heeft een grote stap ______.",["opgezet","afgezet","neergezet","gezet"],3,"'Een stap zetten' = actie ondernemen.",{0:"'Opzetten' = oprichten.",1:"'Afzetten' = bedriegen.",2:"'Neerzetten' = plaatsen."},"Actie ondernemen."],
+["Het plan is uiteindelijk toch ______.",["neergezet","doorgezet","afgezet","opgezet"],1,"'Doorzetten' = ondanks moeilijkheden uitvoeren.",{0:"'Neerzetten' = plaatsen.",2:"'Afzetten' = bedriegen.",3:"'Opzetten' = oprichten."},"Het plan werd toch uitgevoerd."],
+["De ober heeft het eten op tafel ______.",["afgezet","neergezet","opgezet","doorgezet"],1,"'Neerzetten' = op een oppervlak plaatsen.",{0:"'Afzetten' = bedriegen.",2:"'Opzetten' = oprichten.",3:"'Doorzetten' = volhouden."},"Borden op tafel plaatsen."],
+["Ze probeerden de mensen tegen elkaar ______.",["af te zetten","neer te zetten","op te zetten","in te zetten"],2,"'Opzetten tegen' = ophitsen.",{0:"'Afzetten' = bedriegen.",1:"'Neerzetten' = plaatsen.",3:"'Inzetten' = gebruiken."},"Ruzie stoken."],
+["De leraar heeft hen aan het denken ______.",["neergezet","opgezet","gezet","ingezet"],2,"'Aan het denken zetten' = laten nadenken.",{0:"'Neerzetten' = plaatsen.",1:"'Opzetten' = oprichten.",3:"'Inzetten' = gebruiken."},"De leerlingen gaan nadenken."],
+["Vergeet niet je bril ______ als je gaat lezen.",["af te zetten","op te zetten","neer te zetten","in te zetten"],1,"'Opzetten' = op je neus plaatsen (bril).",{0:"'Afzetten' = afdoen.",2:"'Neerzetten' = op tafel leggen.",3:"'Inzetten' = gebruiken."},"Je bril op je neus doen."],
+["Ze heeft haar zonnebril ______.",["neergezet","opgezet","afgezet","ingezet"],1,"'Opzetten' = op je gezicht plaatsen.",{0:"'Neerzetten' = op tafel.",2:"'Afzetten' = afdoen.",3:"'Inzetten' = gebruiken."},"Een zonnebril op je neus doen."],
+["De regering heeft het beleid ______.",["neergezet","voortgezet","afgezet","opgezet"],1,"'Voortzetten' = continueren.",{0:"'Neerzetten' = plaatsen.",2:"'Afzetten' = onttronen.",3:"'Opzetten' = oprichten."},"Het beleid wordt gecontinueerd."],
+["Ze wil de traditie ______.",["afzetten","voortzetten","uitzetten","neerzetten"],1,"'Voortzetten' = doorgaan met.",{0:"'Afzetten' = onttronen.",2:"'Uitzetten' = uitschakelen.",3:"'Neerzetten' = plaatsen."},"De traditie laten doorgaan."],
+["Ze hebben het huis te koop ______.",["neergezet","opgezet","gezet","afgezet"],2,"'Te koop zetten' = aanbieden.",{0:"'Neerzetten' = fysiek plaatsen.",1:"'Opzetten' = oprichten.",3:"'Afzetten' = bedriegen."},"Een huis aanbieden voor verkoop."],
+["Het bedrijf heeft extra personeel ______.",["afgezet","opgezet","neergezet","ingezet"],3,"'Inzetten' = gebruiken (personeel).",{0:"'Afzetten' = bedriegen.",1:"'Opzetten' = oprichten.",2:"'Neerzetten' = plaatsen."},"Extra mensen laten werken."],
+["Je moet de computer ______ voordat je weggaat.",["aanzetten","opzetten","uitzetten","neerzetten"],2,"'Uitzetten' = uitschakelen.",{0:"'Aanzetten' = inschakelen.",1:"'Opzetten' = oprichten.",3:"'Neerzetten' = plaatsen."},"De computer uitschakelen."],
+["Ik ga thee ______ voor ons.",["opzetten","zetten","aanzetten","neerzetten"],1,"'Thee zetten' = thee bereiden.",{0:"'Opzetten' = oprichten.",2:"'Aanzetten' = inschakelen.",3:"'Neerzetten' = plaatsen."},"Thee maken."],
+["De directeur heeft de plannen ______.",["doorgezet","afgezet","neergezet","uitgezet"],3,"'Uitzetten' = uitstippelen, plannen.",{0:"'Doorzetten' = volhouden.",1:"'Afzetten' = onttronen.",2:"'Neerzetten' = plaatsen."},"Plannen uitstippelen."],
+["Ze zette grote ogen ______.",["af","neer","op","in"],2,"'Grote ogen opzetten' = verbaasd kijken.",{0:"'Afzetten' = bedriegen.",1:"'Neerzetten' = plaatsen.",3:"'Inzetten' = gebruiken."},"Een uitdrukking voor verbazing."],
+["Kun je me even bij de supermarkt ______?",["neerzetten","afzetten","opzetten","uitzetten"],1,"'Afzetten' = iemand laten uitstappen.",{0:"'Neerzetten' = een voorwerp plaatsen.",2:"'Opzetten' = oprichten.",3:"'Uitzetten' = uitschakelen."},"Iemand bij een locatie laten uitstappen."],
+["Na de breuk heeft hij alles op alles ______.",["neergezet","opgezet","afgezet","gezet"],3,"'Alles op alles zetten' = al je energie erin stoppen.",{0:"'Neerzetten' = plaatsen.",1:"'Opzetten' = oprichten.",2:"'Afzetten' = bedriegen."},"Al je energie ergens in stoppen."],
+["De muziek staat te hard. Kun je het ______?",["uitzetten","afzetten","zachter zetten","neerzetten"],2,"'Zachter zetten' = volume verlagen.",{0:"'Uitzetten' = helemaal uit.",1:"'Afzetten' = bedriegen.",3:"'Neerzetten' = plaatsen."},"Volume verlagen, niet helemaal uit."],
+["Het is belangrijk je beste beentje voor te ______.",["neerzetten","opzetten","afzetten","zetten"],3,"'Je beste beentje voorzetten' = je best doen.",{0:"'Neerzetten' = plaatsen.",1:"'Opzetten' = oprichten.",2:"'Afzetten' = bedriegen."},"Je best doen."],
+["Zet je handtekening hier ______.",["af","neer","op","door"],1,"'Neerzetten' = je handtekening plaatsen.",{0:"'Afzetten' = afsluiten.",2:"'Opzetten' = oprichten.",3:"'Doorzetten' = volhouden."},"Een handtekening plaatsen."],
+["Na het sporten moet je de kraan ______.",["dichtzetten","openzetten","opzetten","aanzetten"],1,"'Openzetten' = de kraan opendraaien.",{0:"'Dichtzetten' = de kraan sluiten.",2:"'Opzetten' = oprichten.",3:"'Aanzetten' = inschakelen."},"Water laten stromen."],
+],
+nemen: [
+["De patiënt is gisteren in het ziekenhuis ______.",["opgenomen","aangenomen","ingenomen","afgenomen"],0,"'Opnemen' = in het ziekenhuis laten blijven.",{1:"'Aangenomen' = geaccepteerd (baan).",2:"'Ingenomen' = medicijn slikken.",3:"'Afgenomen' = verminderen."},"Denk aan wat er in een ziekenhuis gebeurt."],
+["Ze heeft het aanbod direct ______.",["opgenomen","aangenomen","afgenomen","ingenomen"],1,"'Aannemen' = accepteren.",{0:"'Opnemen' = in ziekenhuis/telefoon.",2:"'Afnemen' = verminderen.",3:"'Innemen' = medicijnen."},"Een aanbod accepteren."],
+["Het aantal klachten is de afgelopen maand ______.",["opgenomen","aangenomen","toegenomen","afgenomen"],3,"'Afnemen' = verminderen.",{0:"'Opnemen' = opnemen.",1:"'Aannemen' = accepteren.",2:"'Toenemen' = meer worden (tegenovergestelde)."},"Er zijn nu minder klachten."],
+["De bevolking van de stad is sterk ______.",["afgenomen","aangenomen","opgenomen","toegenomen"],3,"'Toenemen' = groeien.",{0:"'Afnemen' = verminderen.",1:"'Aannemen' = accepteren.",2:"'Opnemen' = opnemen."},"De stad groeit."],
+["Heb je je medicijnen al ______?",["aangenomen","ingenomen","opgenomen","afgenomen"],1,"'Innemen' = medicijnen slikken.",{0:"'Aannemen' = accepteren.",2:"'Opnemen' = opnemen.",3:"'Afnemen' = verminderen."},"Medicijnen slikken."],
+["De politie heeft de dief ______.",["opgenomen","meegenomen","aangenomen","ingenomen"],1,"'Meenemen' = met je meenemen (arresteren).",{0:"'Opnemen' = opnemen.",2:"'Aannemen' = accepteren.",3:"'Innemen' = medicijnen."},"De politie neemt de dief mee."],
+["Ik neem ______ dat je morgen komt.",["af","in","op","aan"],3,"'Aannemen' = veronderstellen.",{0:"'Afnemen' = verminderen.",1:"'Innemen' = medicijnen.",2:"'Opnemen' = opnemen."},"Veronderstellen."],
+["Het bedrijf heeft tien nieuwe medewerkers ______.",["afgenomen","ingenomen","opgenomen","aangenomen"],3,"'Aannemen' = in dienst nemen.",{0:"'Afnemen' = verminderen.",1:"'Innemen' = medicijnen.",2:"'Opnemen' = opnemen."},"Nieuwe werknemers."],
+["Kun je de telefoon even ______?",["aannemen","opnemen","meenemen","afnemen"],1,"'Opnemen' = de telefoon beantwoorden.",{0:"'Aannemen' = accepteren.",2:"'Meenemen' = mee nemen.",3:"'Afnemen' = verminderen."},"De telefoon beantwoorden."],
+["De leraar heeft vandaag een toets ______.",["ingenomen","opgenomen","aangenomen","afgenomen"],3,"'Een toets afnemen' = een toets geven.",{0:"'Innemen' = medicijnen.",1:"'Opnemen' = opnemen.",2:"'Aannemen' = accepteren."},"De leraar geeft een toets."],
+["Ze heeft ontslag ______.",["opgenomen","ingenomen","aangenomen","genomen"],3,"'Ontslag nemen' = zelf je baan opzeggen.",{0:"'Opnemen' = opnemen.",1:"'Innemen' = medicijnen.",2:"'Aannemen' = accepteren."},"Zelf beslissen te stoppen."],
+["Vergeet niet je paraplu ______ te nemen.",["af","in","mee","op"],2,"'Meenemen' = met je mee nemen.",{0:"'Afnemen' = verminderen.",1:"'Innemen' = medicijnen.",3:"'Opnemen' = opnemen."},"Je paraplu niet vergeten."],
+["De documentaire is vorige week ______.",["afgenomen","aangenomen","opgenomen","ingenomen"],2,"'Opnemen' = vastleggen op video.",{0:"'Afnemen' = verminderen.",1:"'Aannemen' = accepteren.",3:"'Innemen' = medicijnen."},"Een documentaire die gefilmd is."],
+["Hij heeft veel risico ______.",["opgenomen","afgenomen","genomen","ingenomen"],2,"'Risico nemen' = een risico aanvaarden.",{0:"'Opnemen' = opnemen.",1:"'Afnemen' = verminderen.",3:"'Innemen' = medicijnen."},"Een gevaarlijke beslissing."],
+["De stad werd in 1945 door het leger ______.",["aangenomen","opgenomen","ingenomen","afgenomen"],2,"'Innemen' = veroveren.",{0:"'Aannemen' = accepteren.",1:"'Opnemen' = opnemen.",3:"'Afnemen' = verminderen."},"Een stad veroveren."],
+["De wind is in kracht ______.",["afgenomen","aangenomen","toegenomen","opgenomen"],2,"'Toenemen' = sterker worden.",{0:"'Afnemen' = minder worden.",1:"'Aannemen' = accepteren.",3:"'Opnemen' = opnemen."},"De wind wordt sterker."],
+["Ik heb een dag vrij ______.",["aangenomen","ingenomen","genomen","opgenomen"],2,"'Vrij nemen' = een vrije dag nemen.",{0:"'Aannemen' = accepteren.",1:"'Innemen' = medicijnen.",3:"'Opnemen' = opnemen."},"Een dag niet werken."],
+["De directeur heeft het besluit ______.",["opgenomen","afgenomen","ingenomen","genomen"],3,"'Een besluit nemen' = beslissen.",{0:"'Opnemen' = opnemen.",1:"'Afnemen' = verminderen.",2:"'Innemen' = veroveren."},"Een beslissing maken."],
+["Ze werden gastvrij ______ door de familie.",["aangenomen","opgenomen","ingenomen","meegenomen"],1,"'Opnemen' = verwelkomen, als lid accepteren.",{0:"'Aannemen' = accepteren (baan).",2:"'Innemen' = veroveren.",3:"'Meenemen' = mee nemen."},"Gastvrij verwelkomd worden."],
+["De kosten zijn flink ______.",["afgenomen","aangenomen","toegenomen","ingenomen"],2,"'Toenemen' = stijgen.",{0:"'Afnemen' = dalen.",1:"'Aannemen' = accepteren.",3:"'Innemen' = veroveren."},"De kosten zijn gestegen."],
+["De interviewer heeft het gesprek ______.",["afgenomen","opgenomen","aangenomen","ingenomen"],0,"'Een gesprek afnemen' = het interview houden.",{1:"'Opnemen' = vastleggen op video.",2:"'Aannemen' = accepteren.",3:"'Innemen' = veroveren."},"De interviewer voert het gesprek."],
+["We willen afscheid ______ van onze collega.",["opnemen","innemen","nemen","afnemen"],2,"'Afscheid nemen' = gedag zeggen.",{0:"'Opnemen' = opnemen.",1:"'Innemen' = veroveren.",3:"'Afnemen' = verminderen."},"Gedag zeggen."],
+["De tafel neemt veel ruimte ______.",["af","op","aan","in"],3,"'Innemen' = ruimte in beslag nemen.",{0:"'Afnemen' = verminderen.",1:"'Opnemen' = opnemen.",2:"'Aannemen' = accepteren."},"De tafel is groot."],
+["Hij moet de gevolgen op zich ______.",["opnemen","aannemen","nemen","innemen"],2,"'Op zich nemen' = verantwoordelijkheid aanvaarden.",{0:"'Opnemen' = opnemen.",1:"'Aannemen' = accepteren.",3:"'Innemen' = veroveren."},"Verantwoordelijkheid aanvaarden."],
+["Ze is erg ______ met het cadeau.",["opgenomen","aangenomen","ingenomen","afgenomen"],2,"'Ingenomen zijn met' = blij zijn met.",{0:"'Opgenomen' = in het ziekenhuis.",1:"'Aangenomen' = geaccepteerd.",3:"'Afgenomen' = verminderd."},"Ze is heel blij."],
+["Het concert werd live ______.",["afgenomen","aangenomen","ingenomen","opgenomen"],3,"'Opnemen' = vastleggen op audio/video.",{0:"'Afnemen' = verminderen.",1:"'Aannemen' = accepteren.",2:"'Innemen' = veroveren."},"Het concert werd gefilmd."],
+["Neem me niet ______, maar ik ben het niet eens.",["af","kwalijk","in","op"],1,"'Kwalijk nemen' = verwijten.",{0:"'Afnemen' = verminderen.",2:"'Innemen' = veroveren.",3:"'Opnemen' = opnemen."},"Beleefde manier om het oneens te zijn."],
+["De dokter heeft bloed bij me ______.",["ingenomen","opgenomen","aangenomen","afgenomen"],3,"'Bloed afnemen' = bloed prikken.",{0:"'Innemen' = medicijnen.",1:"'Opnemen' = opnemen.",2:"'Aannemen' = accepteren."},"Een bloedtest."],
+["Het standpunt dat de minister heeft ______.",["afgenomen","opgenomen","aangenomen","ingenomen"],3,"'Een standpunt innemen' = een mening kiezen.",{0:"'Afnemen' = verminderen.",1:"'Opnemen' = opnemen.",2:"'Aannemen' = accepteren."},"Een positie kiezen."],
+["Het voorstel werd unaniem ______.",["opgenomen","ingenomen","afgenomen","aangenomen"],3,"'Aannemen' = goedkeuren.",{0:"'Opnemen' = opnemen.",1:"'Innemen' = veroveren.",2:"'Afnemen' = verminderen."},"Het voorstel werd goedgekeurd."],
+["Hij heeft het ______ voor zijn kleine broertje.",["opgenomen","aangenomen","afgenomen","ingenomen"],0,"'Het opnemen voor' = verdedigen.",{1:"'Aannemen' = accepteren.",2:"'Afnemen' = verminderen.",3:"'Innemen' = veroveren."},"Iemand verdedigen."],
+["De rechter heeft hem zijn rijbewijs ______.",["opgenomen","aangenomen","ingenomen","afgenomen"],3,"'Afnemen' = wegnemen, in beslag nemen.",{0:"'Opnemen' = opnemen.",1:"'Aannemen' = accepteren.",2:"'Innemen' = veroveren."},"Rijbewijs in beslag genomen."],
+["Wil je een hapje van mijn cake ______?",["opnemen","aannemen","meenemen","nemen"],3,"'Een hapje nemen' = een stukje eten.",{0:"'Opnemen' = opnemen.",1:"'Aannemen' = accepteren.",2:"'Meenemen' = mee nemen."},"Een stukje eten."],
+["De vluchtelingen werden in het programma ______.",["afgenomen","aangenomen","opgenomen","ingenomen"],2,"'Opnemen in' = toelaten, includeren.",{0:"'Afnemen' = verminderen.",1:"'Aannemen' = accepteren.",3:"'Innemen' = veroveren."},"Toegelaten tot een programma."],
+["De maatregelen werden zonder discussie ______.",["opgenomen","afgenomen","overgenomen","aangenomen"],3,"'Aannemen' = goedkeuren.",{0:"'Opnemen' = opnemen.",1:"'Afnemen' = verminderen.",2:"'Overnemen' = van iemand anders overnemen."},"De maatregelen werden goedgekeurd."],
+["Ze heeft wraak ______ op haar ex.",["opgenomen","ingenomen","genomen","afgenomen"],2,"'Wraak nemen' = je wreken.",{0:"'Opnemen' = opnemen.",1:"'Innemen' = veroveren.",3:"'Afnemen' = verminderen."},"Iemand terugpakken."],
+["Ik laat me niet te grazen ______.",["opnemen","aannemen","nemen","innemen"],2,"'Te grazen nemen' = iemand een lesje leren.",{0:"'Opnemen' = opnemen.",1:"'Aannemen' = accepteren.",3:"'Innemen' = veroveren."},"Iemand een lesje leren."],
+["De brand heeft enorm in kracht ______.",["afgenomen","aangenomen","ingenomen","opgenomen"],1,"'In kracht aannemen' = sterker worden (brand).",{0:"'Afnemen' = minder worden.",2:"'Innemen' = veroveren.",3:"'Opnemen' = opnemen."},"De brand wordt sterker."],
+["Ze heeft de kritiek niet ______ ______.",["goed opgenomen","goed aangenomen","goed ingenomen","goed afgenomen"],0,"'Iets goed/slecht opnemen' = reageren op kritiek.",{1:"'Aannemen' = accepteren.",2:"'Innemen' = veroveren.",3:"'Afnemen' = verminderen."},"Hoe reageer je op kritiek?"],
+],
+halen: [
+["Kun je me van het station ______?",["afhalen","ophalen","inhalen","bijhalen"],1,"'Ophalen' = iemand ergens gaan halen.",{0:"'Afhalen' = eten afhalen.",2:"'Inhalen' = voorbijgaan.",3:"'Bijhalen' bestaat niet standaard."},"Iemand van een locatie halen."],
+["Zullen we vanavond Chinees ______?",["ophalen","afhalen","inhalen","uithalen"],1,"'Afhalen' = eten ophalen (takeaway).",{0:"'Ophalen' = iemand gaan halen.",2:"'Inhalen' = voorbijgaan.",3:"'Uithalen' = kattenkwaad."},"Eten meenemen van een restaurant."],
+["De auto ______ ons in op de snelweg.",["ophaalde","afhaalde","inhaalde","uithaalde"],2,"'Inhalen' = voorbijgaan.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Uithalen' = kattenkwaad."},"Voorbijrijden."],
+["Kun je even diep ______?",["ophalen","afhalen","inademen","ademhalen"],3,"'Ademhalen' = ademen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",2:"'Inademen' kan, maar 'diep ademhalen' is gebruikelijker."},"Rustig ademen."],
+["Ik moet de gemiste lessen nog ______.",["ophalen","afhalen","inhalen","uithalen"],2,"'Inhalen' = achterstand wegwerken.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Uithalen' = kattenkwaad."},"Gemiste lessen bijwerken."],
+["Ze kon haar diploma niet ______.",["ophalen","afhalen","inhalen","halen"],3,"'Halen' = slagen voor een examen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan."},"Slagen voor een examen."],
+["Kan je even herinneringen ______?",["afhalen","ophalen","inhalen","uithalen"],1,"'Herinneringen ophalen' = terugdenken.",{0:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan.",3:"'Uithalen' = kattenkwaad."},"Terugdenken aan mooie momenten."],
+["De kinderen hebben weer kattenkwaad ______.",["opgehaald","afgehaald","ingehaald","uitgehaald"],3,"'Uithalen' = streken uithalen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan."},"Stoute dingen doen."],
+["We moeten het vuil laten ______.",["afhalen","ophalen","uithalen","inhalen"],1,"'Ophalen' = komen verzamelen.",{0:"'Afhalen' = eten.",2:"'Uithalen' = kattenkwaad.",3:"'Inhalen' = voorbijgaan."},"De vuilniswagen komt het vuil halen."],
+["Ze heeft de verloren tijd weer ______.",["opgehaald","afgehaald","ingehaald","uitgehaald"],2,"'Inhalen' = achterstand goedmaken.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Uithalen' = kattenkwaad."},"Verloren tijd goedmaken."],
+["De trein heeft de bus ______.",["afgehaald","opgehaald","ingehaald","uitgehaald"],2,"'Inhalen' = voorbijgaan.",{0:"'Afhalen' = eten.",1:"'Ophalen' = iemand halen.",3:"'Uithalen' = kattenkwaad."},"De trein rijdt de bus voorbij."],
+["Ik ga het pakket bij het postkantoor ______.",["ophalen","afhalen","inhalen","uithalen"],0,"'Ophalen' = iets gaan halen.",{1:"'Afhalen' = specifiek eten.",2:"'Inhalen' = voorbijgaan.",3:"'Uithalen' = kattenkwaad."},"Een pakket gaan halen."],
+["Na de vakantie moest ze veel werk ______.",["ophalen","afhalen","inhalen","uithalen"],2,"'Inhalen' = achterstand wegwerken.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Uithalen' = kattenkwaad."},"Werk bijwerken na vakantie."],
+["Ze kon de finish niet meer ______.",["ophalen","afhalen","inhalen","halen"],3,"'De finish halen' = de eindstreep bereiken.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan."},"De eindstreep bereiken."],
+["De politie heeft de gestolen auto ______.",["opgehaald","afgehaald","achterhaald","uitgehaald"],2,"'Achterhalen' = opsporen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Uithalen' = kattenkwaad."},"De auto terugvinden."],
+["Het is moeilijk om de waarheid te ______.",["ophalen","afhalen","achterhalen","inhalen"],2,"'Achterhalen' = te weten komen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Inhalen' = voorbijgaan."},"De waarheid ontdekken."],
+["Ze heeft haar schouders ______.",["opgehaald","afgehaald","ingehaald","uitgehaald"],0,"'Schouders ophalen' = onverschilligheid.",{1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan.",3:"'Uithalen' = kattenkwaad."},"Een gebaar: 'ik weet het niet'."],
+["Het bedrijf heeft een grote klant ______.",["opgehaald","afgehaald","binnengehaald","uitgehaald"],2,"'Binnenhalen' = winnen, succesvol verkrijgen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Uithalen' = kattenkwaad."},"Een belangrijke klant winnen."],
+["Je moet het laken van het bed ______.",["ophalen","afhalen","inhalen","uithalen"],1,"'Afhalen' = verwijderen, weghalen.",{0:"'Ophalen' = iemand halen.",2:"'Inhalen' = voorbijgaan.",3:"'Uithalen' = kattenkwaad."},"Het laken verwijderen."],
+["De was moet van de lijn ______ worden.",["opgehaald","afgehaald","ingehaald","binnengehaald"],3,"'Binnenhalen' = naar binnen halen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan."},"De was naar binnen halen."],
+["De renner werd vlak voor de finish ______.",["opgehaald","afgehaald","ingehaald","uitgehaald"],2,"'Inhalen' = voorbijgaan, passeren.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Uithalen' = kattenkwaad."},"Net voor de finish gepasseerd."],
+["Het is niet meer te ______.",["ophalen","afhalen","achterhalen","inhalen"],2,"'Achterhalen' = te weten komen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Inhalen' = voorbijgaan."},"Het is niet meer te ontdekken."],
+["Ze heeft haar rijbewijs in één keer ______.",["opgehaald","afgehaald","ingehaald","gehaald"],3,"'Halen' = slagen voor een examen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan."},"Slagen voor het rijexamen."],
+["Hij gaat even brood ______ bij de bakker.",["ophalen","afhalen","inhalen","halen"],3,"'Halen' = gaan kopen.",{0:"'Ophalen' = iemand gaan halen.",1:"'Afhalen' = specifiek takeaway.",2:"'Inhalen' = voorbijgaan."},"Brood kopen bij de bakker."],
+["Het verleden heeft haar ______.",["opgehaald","afgehaald","ingehaald","uitgehaald"],2,"'Het verleden haalt je in' = niet meer ontkomen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Uithalen' = kattenkwaad."},"Het verleden haalt je in."],
+["Ze moest even adem ______ na het hardlopen.",["ophalen","afhalen","halen","inhalen"],2,"'Adem halen' = ademen, op adem komen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Inhalen' = voorbijgaan."},"Op adem komen na inspanning."],
+["De politie kon de identiteit niet ______.",["ophalen","afhalen","achterhalen","binnenhalen"],2,"'Achterhalen' = ontdekken.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Binnenhalen' = naar binnen."},"De identiteit proberen te ontdekken."],
+["Nederland heeft het WK niet ______.",["opgehaald","afgehaald","binnengehaald","uitgehaald"],2,"'Binnenhalen' = winnen (prijs, evenement).",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Uithalen' = kattenkwaad."},"Een evenement of prijs winnen."],
+["Het haalt niets ______ om te klagen.",["op","af","in","uit"],3,"'Uithalen' = effect hebben, nut hebben.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan."},"Het heeft geen zin."],
+["De feestdagen worden uitgebreid ______.",["opgehaald","afgehaald","ingehaald","uitgehaald"],2,"'Inhalen' = later vieren (gemist feest).",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Uithalen' = kattenkwaad."},"Een feest dat je later viert."],
+["De oude tijden werden tijdens het diner ______.",["afgehaald","opgehaald","ingehaald","uitgehaald"],1,"'Ophalen' = herinneringen ophalen.",{0:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan.",3:"'Uithalen' = kattenkwaad."},"Terugdenken aan oude tijden."],
+["Je neus niet ______ bij dat soort zaken.",["ophalen","afhalen","inhalen","uithalen"],0,"'Je neus ophalen' = minachtend reageren.",{1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan.",3:"'Uithalen' = kattenkwaad."},"Neerkijken op iets."],
+["We moeten de boot nog ______ voor de storm.",["ophalen","binnenhalen","inhalen","uithalen"],1,"'Binnenhalen' = in veiligheid brengen.",{0:"'Ophalen' = iemand halen.",2:"'Inhalen' = voorbijgaan.",3:"'Uithalen' = kattenkwaad."},"De boot in veiligheid brengen."],
+["Ze heeft er alles ______ om te slagen.",["opgehaald","afgehaald","uitgehaald","bijgehaald"],2,"'Alles eruit halen' = alles doen wat je kunt.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",3:"'Bijhalen' is geen standaard werkwoord."},"Al je best doen."],
+["De minister werd door de pers ______.",["opgehaald","afgehaald","ingehaald","onderuitgehaald"],3,"'Onderuithalen' = ten val brengen, bekritiseren.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan."},"Zwaar bekritiseerd."],
+["De kat haalt zijn nagels ______ aan de bank.",["op","af","in","uit"],3,"'Uithalen' = krabben, scherpe bewegingen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = verwijderen.",2:"'Inhalen' = voorbijgaan."},"De kat krabt aan de bank."],
+["De ambtenaar heeft alle documenten ______.",["opgehaald","afgehaald","ingehaald","binnengehaald"],3,"'Binnenhalen' = verzamelen, verkrijgen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan."},"Alle documenten verzamelen."],
+["Het verhaal ______ de krant.",["ophaalde","afhaalde","inhaalde","haalde"],3,"'De krant halen' = in de krant komen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan."},"Gepubliceerd worden."],
+["Hij moet nog geld ______ bij de bank.",["ophalen","afhalen","inhalen","halen"],3,"'Geld halen' = geld opnemen.",{0:"'Ophalen' = iemand halen.",1:"'Afhalen' = eten.",2:"'Inhalen' = voorbijgaan."},"Geld opnemen bij de bank."],
+],
+};
+
+const KEYS = ["A","B","C","D"];
+
+// ═══ APP STATE ═══
+let state = { screen:"home", theme:null, qIdx:0, score:0, wrong:0, answered:null, selectedIdx:null, showHint:false, wrongAnswers:[], showReview:false };
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+
+let shuffledQuestions = [];
+
+function startQuiz(themeId) {
+  shuffledQuestions = shuffle(Q[themeId]);
+  state = { screen:"quiz", theme:themeId, qIdx:0, score:0, wrong:0, answered:null, selectedIdx:null, showHint:false, wrongAnswers:[], showReview:false };
+  render();
+}
+
+function goHome() { state = { screen:"home", theme:null, qIdx:0, score:0, wrong:0, answered:null, selectedIdx:null, showHint:false, wrongAnswers:[], showReview:false }; render(); }
+
+function selectAnswer(idx) {
+  if (state.answered !== null) return;
+  const q = shuffledQuestions[state.qIdx];
+  const isCorrect = idx === q[2];
+  state.answered = isCorrect ? "correct" : "wrong";
+  state.selectedIdx = idx;
+  if (isCorrect) state.score++;
+  else {
+    state.wrong++;
+    state.wrongAnswers.push({ q: q[0], selected: q[1][idx], correct: q[1][q[2]], explanation: q[3] });
+  }
+  render();
+}
+
+function nextQuestion() {
+  if (state.qIdx >= shuffledQuestions.length - 1) { state.screen = "results"; render(); return; }
+  state.qIdx++;
+  state.answered = null;
+  state.selectedIdx = null;
+  state.showHint = false;
+  render();
+}
+
+function toggleHint() { state.showHint = !state.showHint; render(); }
+
+function toggleReview() { state.showReview = !state.showReview; render(); }
+
+// ═══ RENDER ═══
+function render() {
+  const app = document.getElementById("app");
+  if (state.screen === "home") app.innerHTML = renderHome();
+  else if (state.screen === "quiz") app.innerHTML = renderQuiz();
+  else if (state.screen === "results") app.innerHTML = state.showReview ? renderReview() : renderResults();
+}
+
+function renderHome() {
+  return `
+    <div class="home">
+      <div class="home-header">
+        <div class="home-label">Oefening</div>
+        <div class="home-title">Samengestelde<br>Werkwoorden</div>
+        <div class="home-subtitle">Kies een thema en oefen met 40 meerkeuzevragen op B1+ niveau.</div>
+      </div>
+      <div class="theme-grid">
+        ${THEMES.map(t => `
+          <button class="theme-card" onclick="startQuiz('${t.id}')">
+            <div class="theme-accent" style="background:${t.color}"></div>
+            <div class="theme-emoji" style="background:${t.color}15">${t.emoji}</div>
+            <div class="theme-info">
+              <div class="theme-name">${t.label}</div>
+              <div class="theme-desc">${t.desc}</div>
+            </div>
+            <div class="theme-count">40</div>
+            <div class="theme-arrow">›</div>
+          </button>
+        `).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderQuiz() {
+  const t = THEMES.find(x => x.id === state.theme);
+  const q = shuffledQuestions[state.qIdx];
+  const total = shuffledQuestions.length;
+  const pct = ((state.qIdx + (state.answered ? 1 : 0)) / total * 100).toFixed(1);
+
+  let feedbackHTML = "";
+  if (state.answered) {
+    const isC = state.answered === "correct";
+    const label = isC ? "✓ Goed!" : "✗ Niet helemaal";
+    const text = isC ? q[3] : (q[4][state.selectedIdx] || "") + "<br><br>" + q[3];
+    feedbackHTML = `<div class="feedback ${state.answered}"><div class="feedback-label">${label}</div><div class="feedback-text">${text}</div></div>`;
+  }
+
+  let hintHTML = "";
+  if (!state.answered) {
+    hintHTML = `<button class="hint-btn" onclick="toggleHint()">${state.showHint ? "▾" : "▸"} Hint</button>`;
+    if (state.showHint) hintHTML += `<div class="hint-box">💡 ${q[5]}</div>`;
+  }
+
+  return `
+    <div class="quiz">
+      <div class="quiz-top">
+        <div class="quiz-nav">
+          <button class="quiz-back" onclick="goHome()">←</button>
+          <div class="quiz-theme" style="color:${t.color}">${t.emoji} ${t.label}</div>
+          <div class="quiz-counter">${state.qIdx + 1} / ${total}</div>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-bar"><div class="progress-fill" style="width:${pct}%;background:${t.color}"></div></div>
+          <div class="score-pills">
+            <div class="score-pill correct"><span class="dot"></span>${state.score}</div>
+            <div class="score-pill wrong"><span class="dot"></span>${state.wrong}</div>
+          </div>
+        </div>
+      </div>
+      <div class="quiz-body">
+        <div class="question-num">${t.label} · Vraag ${state.qIdx + 1}</div>
+        <div class="question-text">${q[0]}</div>
+        <div class="options">
+          ${q[1].map((opt, i) => {
+            let cls = "option-btn";
+            if (state.answered) {
+              cls += " answered";
+              if (i === q[2]) cls += " is-correct is-actual-correct";
+              else if (i === state.selectedIdx && state.answered === "wrong") cls += " is-wrong";
+            }
+            return `<button class="${cls}" onclick="selectAnswer(${i})">
+              <span class="option-key">${KEYS[i]}</span>
+              <span class="option-text">${opt}</span>
+            </button>`;
+          }).join("")}
+        </div>
+        ${feedbackHTML}
+        ${hintHTML}
+      </div>
+      <div class="quiz-footer">
+        <button class="btn-next ${state.answered ? 'primary' : 'disabled'}" onclick="nextQuestion()">
+          ${state.qIdx >= total - 1 && state.answered ? 'Resultaten bekijken' : 'Volgende →'}
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+function renderResults() {
+  const total = shuffledQuestions.length;
+  const pct = Math.round(state.score / total * 100);
+  let emoji = "🎉", msg = "Uitstekend! Je beheerst deze werkwoorden goed.";
+  if (pct < 50) { emoji = "📚"; msg = "Blijf oefenen! Herhaling is de sleutel tot succes."; }
+  else if (pct < 70) { emoji = "💪"; msg = "Goed bezig! Nog een paar rondes en je hebt het onder de knie."; }
+  else if (pct < 90) { emoji = "🌟"; msg = "Heel goed! Je bent er bijna."; }
+
+  const t = THEMES.find(x => x.id === state.theme);
+  return `
+    <div class="results">
+      <div class="results-emoji">${emoji}</div>
+      <div class="results-score" style="color:${t.color}">${pct}%</div>
+      <div class="results-label">${state.score} van ${total} goed</div>
+      <div class="results-msg">${msg}</div>
+      <div class="results-stats">
+        <div class="stat"><div class="stat-val g">${state.score}</div><div class="stat-label">Goed</div></div>
+        <div class="stat"><div class="stat-val r">${state.wrong}</div><div class="stat-label">Fout</div></div>
+        <div class="stat"><div class="stat-val" style="color:${t.color}">${total}</div><div class="stat-label">Totaal</div></div>
+      </div>
+      <div class="results-actions">
+        <button class="btn-result primary" onclick="startQuiz('${state.theme}')">Opnieuw proberen</button>
+        ${state.wrong > 0 ? `<button class="btn-result secondary" onclick="toggleReview()">Foute antwoorden bekijken (${state.wrong})</button>` : ''}
+        <button class="btn-result secondary" onclick="goHome()">← Terug naar thema's</button>
+      </div>
+    </div>
+  `;
+}
+
+function renderReview() {
+  const t = THEMES.find(x => x.id === state.theme);
+  return `
+    <div class="review">
+      <div class="review-header">
+        <button class="quiz-back" onclick="toggleReview()">←</button>
+        <div class="review-title">Foute antwoorden (${state.wrongAnswers.length})</div>
+      </div>
+      ${state.wrongAnswers.map((w, i) => `
+        <div class="review-card">
+          <div class="review-q">${i + 1}. ${w.q}</div>
+          <div class="review-answer">
+            <span class="wrong-text">Jouw antwoord: ${w.selected}</span><br>
+            <strong>Correct: ${w.correct}</strong><br>
+            ${w.explanation}
+          </div>
+        </div>
+      `).join("")}
+      <div style="padding:16px 0">
+        <button class="btn-result primary" onclick="startQuiz('${state.theme}')" style="width:100%">Opnieuw proberen</button>
+      </div>
+    </div>
+  `;
+}
+
+// ═══ INIT ═══
+render();
+</script>
+</body>
+</html>
