@@ -42,11 +42,11 @@
         "correct": 0,
         "explanation": "'Aankomen' = ergens arriveren.",
         "wrongExplanations": {
-          "1": "'Opkomen' = naar boven komen.",
-          "2": "'Voorkomen' = gebeuren.",
-          "3": "'Bijkomen' = herstellen."
+          "1": "Opkomen = naar boven komen (zon, idee). Hier gaat het over thuiskomen na een reis.",
+          "2": "Voorkomen = plaatsvinden. Een reis vindt niet 'plaats' — je arriveert.",
+          "3": "Bijkomen = herstellen na ziekte of schrik. Thuis aankomen is arriveren, niet herstellen."
         },
-        "hint": "Denk aan het einde van een reis."
+        "hint": "De trein was onderweg en is nu op zijn bestemming. Welk prefix past bij een beweging die een punt bereikt?"
       },
       {
         "sentence": "De zon is vandaag vroeg ______.",
@@ -59,11 +59,11 @@
         "correct": 1,
         "explanation": "'Opkomen' = verschijnen (zon, maan).",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "2": "'Afkomen' = naar beneden.",
-          "3": "'Meekomen' = samen gaan."
+          "0": "Aankomen = arriveren op een bestemming. De zon reist niet naar een punt toe.",
+          "2": "Afkomen = van boven naar beneden. De zon gaat juist omhóóg aan de horizon.",
+          "3": "Meekomen = samen met iemand gaan. De zon beweegt niet met iemand mee."
         },
-        "hint": "Wat doet de zon aan de horizon?"
+        "hint": "Denk aan de bewegingsrichting: omhoog of omlaag? Welk prefix past daarbij?"
       },
       {
         "sentence": "Dat woord komt me heel bekend ______.",
@@ -76,11 +76,11 @@
         "correct": 1,
         "explanation": "'Voorkomen' = de indruk geven, lijken.",
         "wrongExplanations": {
-          "0": "'Overkomen' = de indruk wekken (ander gebruik).",
-          "2": "'Bijkomen' = herstellen.",
-          "3": "'Aankomen' = arriveren."
+          "0": "Overkomen = een indruk maken op anderen. Hier gaat het om jouw eigen herkenning, niet de indruk op anderen.",
+          "2": "Bijkomen = herstellen. Je herstelt niet van een bekend woord.",
+          "3": "Aankomen = arriveren of gewicht aankomen. Past niet bij herkenning."
         },
-        "hint": "Iets dat je herkent, komt je bekend ..."
+        "hint": "Je herkent iets — welk prefix past bij 'voor je gevoel'?"
       },
       {
         "sentence": "Na de operatie moest hij langzaam ______.",
@@ -93,11 +93,11 @@
         "correct": 0,
         "explanation": "'Bijkomen' = herstellen na een operatie.",
         "wrongExplanations": {
-          "1": "'Aankomen' = arriveren.",
-          "2": "'Opkomen' = verschijnen.",
-          "3": "'Uitkomen' = openbaar worden."
+          "1": "Aankomen = arriveren of zwaarder worden. Na een operatie herstel je — je komt niet ergens aan.",
+          "2": "Opkomen = verschijnen of opstaan voor iets. Past niet bij herstel na narcose.",
+          "3": "Uitkomen = openbaar worden of kloppen. Past niet bij lichamelijk herstel."
         },
-        "hint": "Na narcose moet je weer tot jezelf komen."
+        "hint": "Na narcose moet je weer tot jezelf komen. Welk prefix past bij 'er weer bij komen'?"
       },
       {
         "sentence": "De waarheid is eindelijk ______.",
@@ -110,11 +110,11 @@
         "correct": 2,
         "explanation": "'Uitkomen' = openbaar worden.",
         "wrongExplanations": {
-          "0": "'Afkomen' = naar beneden.",
-          "1": "'Meekomen' = samen gaan.",
-          "3": "'Voorkomen' = gebeuren."
+          "0": "Afkomen = naar beneden komen. Een waarheid daalt niet.",
+          "1": "Meekomen = samen met iemand gaan. De waarheid reist niet mee.",
+          "3": "Voorkomen = plaatsvinden. De waarheid was verborgen en komt nu naar buiten — dat is geen gebeurtenis."
         },
-        "hint": "Een geheim dat openbaar wordt."
+        "hint": "De waarheid was lang verborgen. Welk prefix past bij iets dat naar buiten komt?"
       },
       {
         "sentence": "Ik ben de afgelopen maand twee kilo ______.",
@@ -127,11 +127,11 @@
         "correct": 1,
         "explanation": "'Aankomen' = in gewicht toenemen.",
         "wrongExplanations": {
-          "0": "'Bijkomen' = herstellen.",
-          "2": "'Opkomen' = verschijnen.",
-          "3": "'Omkomen' = sterven."
+          "0": "Bijkomen = herstellen na ziekte of schrik. Voor gewicht gebruik je altijd aankomen.",
+          "2": "Opkomen = verschijnen of opstaan voor iets. Kilo's verschijnen niet.",
+          "3": "Omkomen = sterven bij een ongeluk. Zeker niet van twee kilo."
         },
-        "hint": "Denk aan de weegschaal."
+        "hint": "Dit heeft niets met reizen te maken. Welk werkwoord gebruik je als gewicht bij je lichaam 'aankomt'?"
       },
       {
         "sentence": "Er zijn nog extra kosten ______.",
@@ -144,11 +144,11 @@
         "correct": 1,
         "explanation": "'Bijkomen' = er extra bij komen.",
         "wrongExplanations": {
-          "0": "'Afkomen' = naar beneden.",
-          "2": "'Voorkomen' = gebeuren.",
-          "3": "'Meekomen' = samen gaan."
+          "0": "Afkomen = naar beneden komen. Kosten dalen hier niet — ze worden toegevoegd.",
+          "2": "Voorkomen = plaatsvinden. Kosten vinden niet 'plaats' — ze worden toegevoegd aan een totaal.",
+          "3": "Meekomen = samen met iemand bewegen. Kosten reizen nergens naartoe."
         },
-        "hint": "Extra kosten die erbij komen."
+        "hint": "De kosten worden toegevoegd aan iets wat er al was. Welk prefix past bij 'erbij'?"
       },
       {
         "sentence": "Wil je vanavond ook ______?",
@@ -161,11 +161,11 @@
         "correct": 1,
         "explanation": "'Meekomen' = samen met iemand gaan.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "2": "'Opkomen' = verschijnen.",
-          "3": "'Voorkomen' = gebeuren."
+          "0": "Aankomen = arriveren. De vraag is of je mégaat — niet of je aankomt.",
+          "2": "Opkomen = verschijnen of opstaan voor iets. Niet geschikt voor een uitnodiging om samen te gaan.",
+          "3": "Voorkomen = plaatsvinden of vermijden. Je nodigt iemand uit — je laat niets plaatsvinden."
         },
-        "hint": "Iemand uitnodigen om samen te gaan."
+        "hint": "Je vraagt iemand om samen met jou te gaan. Welk prefix past bij 'samen met'?"
       },
       {
         "sentence": "Het ongeluk is op de snelweg ______.",
@@ -178,11 +178,11 @@
         "correct": 2,
         "explanation": "'Voorkomen' = gebeuren, plaatsvinden.",
         "wrongExplanations": {
-          "0": "'Bijkomen' = herstellen.",
-          "1": "'Afkomen' = naar beneden.",
-          "3": "'Meekomen' = samen gaan."
+          "0": "Bijkomen = herstellen. Een ongeluk herstelt niet — het vindt plaats.",
+          "1": "Afkomen = naar beneden komen. Een ongeluk daalt niet.",
+          "3": "Meekomen = samen met iemand bewegen. Een ongeluk reist niet mee — het gebeurt op een plek."
         },
-        "hint": "Een ongeluk dat plaatsvindt."
+        "hint": "Het ongeluk heeft plaatsgevonden. Welk werkwoord gebruik je als iets ergens gebeurt?"
       },
       {
         "sentence": "De berekening is precies ______.",
@@ -195,11 +195,11 @@
         "correct": 1,
         "explanation": "'Uitkomen' = kloppen.",
         "wrongExplanations": {
-          "0": "'Voorkomen' = gebeuren.",
-          "2": "'Bijkomen' = herstellen.",
-          "3": "'Meekomen' = samen gaan."
+          "0": "Voorkomen = plaatsvinden. Een berekening vindt niet 'plaats' — ze klopt of klopt niet.",
+          "2": "Bijkomen = herstellen of erbij komen. Een berekening herstelt niet.",
+          "3": "Meekomen = samen bewegen. Een berekening reist niet mee."
         },
-        "hint": "Een berekening die klopt."
+        "hint": "De uitkomst is precies goed. Welk prefix past bij een resultaat dat 'eruit komt'?"
       },
       {
         "sentence": "Ze is van de trap ______.",
@@ -212,11 +212,11 @@
         "correct": 0,
         "explanation": "'Afkomen' = naar beneden komen.",
         "wrongExplanations": {
-          "1": "'Bijkomen' = herstellen.",
-          "2": "'Opkomen' = naar boven.",
-          "3": "'Meekomen' = samen gaan."
+          "1": "Bijkomen = herstellen. Ze beweegt — ze herstelt niet.",
+          "2": "Opkomen = omhoog komen. Ze gaat juist naar benéden van de trap.",
+          "3": "Meekomen = samen met iemand gaan. De trap suggereert een richting, niet een gezelschap."
         },
-        "hint": "Van boven naar beneden."
+        "hint": "Ze staat boven en beweegt naar beneden. Welk prefix past bij een neerwaartse beweging?"
       },
       {
         "sentence": "Hij komt altijd heel aardig ______.",
@@ -229,11 +229,11 @@
         "correct": 1,
         "explanation": "'Overkomen' = de indruk wekken.",
         "wrongExplanations": {
-          "0": "'Voorkomen' = lijken (ander gebruik).",
-          "2": "'Bijkomen' = herstellen.",
-          "3": "'Aankomen' = arriveren."
+          "0": "Voorkomen = lijken voor jezelf ('dat komt me bekend voor'). Hier gaat het om de indruk op anderen.",
+          "2": "Bijkomen = herstellen. Je herstelt niet van aardig zijn.",
+          "3": "Aankomen = arriveren of zwaarder worden. Past niet bij een indruk maken."
         },
-        "hint": "Welke indruk maakt iemand?"
+        "hint": "Anderen zien hem als aardig. Welk prefix past bij een indruk die op iemand 'overkomt'?"
       },
       {
         "sentence": "We moeten ______ tegen discriminatie.",
@@ -246,11 +246,11 @@
         "correct": 1,
         "explanation": "'Opkomen tegen' = protesteren.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "2": "'Meekomen' = samen gaan.",
-          "3": "'Bijkomen' = herstellen."
+          "0": "Aankomen = arriveren. Je arriveert niet tégen discriminatie.",
+          "2": "Meekomen = samen gaan. Je gaat niet samen mét discriminatie.",
+          "3": "Bijkomen = herstellen. Je herstelt niet van discriminatie in deze context."
         },
-        "hint": "Strijden tegen onrecht."
+        "hint": "Je stelt je op tégen iets. Welk prefix past bij opstaan voor een zaak?"
       },
       {
         "sentence": "Veel mensen zijn bij het ongeluk ______.",
@@ -263,11 +263,11 @@
         "correct": 2,
         "explanation": "'Omkomen' = sterven bij een ongeluk.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "1": "'Meekomen' = samen gaan.",
-          "3": "'Uitkomen' = openbaar worden."
+          "0": "Aankomen = arriveren. Mensen arriveren niet bij een ongeluk in deze tragische zin.",
+          "1": "Meekomen = samen gaan. De mensen reisden niet mee — dit is een definitief, onomkeerbaar gevolg.",
+          "3": "Uitkomen = openbaar worden of kloppen. Een ongeluk wordt niet 'onthuld'."
         },
-        "hint": "Een tragisch gevolg."
+        "hint": "Dit is een onomkeerbaar gevolg. Welk prefix geeft een complete, definitieve beweging aan?"
       },
       {
         "sentence": "Ik ben er net ______ dat hij gelogen heeft.",
@@ -280,11 +280,11 @@
         "correct": 1,
         "explanation": "'Achterkomen' = ontdekken.",
         "wrongExplanations": {
-          "0": "'Bijkomen' = herstellen.",
-          "2": "'Meekomen' = samen gaan.",
-          "3": "'Voorkomen' = gebeuren."
+          "0": "Bijkomen = herstellen. Je herstelt niet van een ontdekking — je doet hem.",
+          "2": "Meekomen = samen gaan. Je gaat niet ergens naartoe — je ontdekt iets.",
+          "3": "Voorkomen = plaatsvinden. De leugen vond eerder plaats — jij ontdekt hem nu pas."
         },
-        "hint": "Je ontdekt iets wat verborgen was."
+        "hint": "Iets was verborgen en jij hebt het nu ontdekt. Welk prefix past bij 'van achteren iets te pakken krijgen'?"
       },
       {
         "sentence": "De buurman is even ______ voor koffie.",
@@ -297,11 +297,11 @@
         "correct": 2,
         "explanation": "'Langskomen' = op bezoek komen.",
         "wrongExplanations": {
-          "0": "'Meekomen' = samen gaan.",
-          "1": "'Bijkomen' = herstellen.",
-          "3": "'Opkomen' = verschijnen."
+          "0": "Meekomen = samen met iemand anders gaan. De buurman komt zelf — hij gaat niet mee met iemand.",
+          "1": "Bijkomen = herstellen. Van koffie hoef je niet te herstellen.",
+          "3": "Opkomen = verschijnen of opstaan voor iets. Je nodigt de buurman niet uit om ergens voor op te komen."
         },
-        "hint": "Iemand die op bezoek komt."
+        "hint": "De buurman bezoekt je even. Welk prefix past bij iemand die even langskomt?"
       },
       {
         "sentence": "Ze kon niet ______ met de rest van de groep.",
@@ -314,11 +314,11 @@
         "correct": 1,
         "explanation": "'Meekomen' = bijhouden, het tempo volgen.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "2": "'Bijkomen' = herstellen.",
-          "3": "'Afkomen' = naar beneden."
+          "0": "Aankomen = arriveren. Ze is onderweg met de groep — er is geen aankomstpunt.",
+          "2": "Bijkomen = herstellen. Ze is niet ziek — ze kan het tempo niet bijhouden.",
+          "3": "Afkomen = naar beneden komen. Er is geen hoogteverschil in deze situatie."
         },
-        "hint": "Het tempo niet kunnen bijhouden."
+        "hint": "De groep gaat te snel voor haar. Welk prefix past bij 'samen bewegen' of 'bijhouden'?"
       },
       {
         "sentence": "Ze is helemaal ______ van de schrik.",
@@ -331,11 +331,11 @@
         "correct": 0,
         "explanation": "'Bijkomen van' = herstellen van een schrik.",
         "wrongExplanations": {
-          "1": "'Aankomen' = arriveren.",
-          "2": "'Opkomen' = verschijnen.",
-          "3": "'Afkomen' = naar beneden."
+          "1": "Aankomen = arriveren of zwaarder worden. Van een schrik arriveert of word je niet zwaarder.",
+          "2": "Opkomen = verschijnen of opstaan. Je staat niet op van een schrik.",
+          "3": "Afkomen = naar beneden. Er is geen neerwaartse beweging bij herstellen van schrik."
         },
-        "hint": "Herstellen na een schrikreactie."
+        "hint": "Ze was geschrokken en is nu weer zichzelf. Welk werkwoord gebruik je voor herstel na een emotie?"
       },
       {
         "sentence": "Dit probleem moet niet meer ______.",
@@ -348,11 +348,11 @@
         "correct": 1,
         "explanation": "'Voorkomen' = vermijden.",
         "wrongExplanations": {
-          "0": "'Meekomen' = samen gaan.",
-          "2": "'Bijkomen' = herstellen.",
-          "3": "'Aankomen' = arriveren."
+          "0": "Meekomen = samen bewegen. Een probleem reist niet mee — je wilt het stoppen.",
+          "2": "Bijkomen = herstellen of erbij komen. Je wilt juist dat het probleem er níet bijkomt.",
+          "3": "Aankomen = arriveren. Je wilt voorkomen dat het probleem er ooit is — niet dat het aankomt."
         },
-        "hint": "Preventie."
+        "hint": "Je wilt dit probleem stoppen vóórdat het gebeurt. Welk prefix past bij 'voor iets uit gaan'?"
       },
       {
         "sentence": "Waar komt dat geluid ______?",
@@ -365,11 +365,11 @@
         "correct": 2,
         "explanation": "'Ergens vandaan komen' = de oorsprong.",
         "wrongExplanations": {
-          "0": "'Afkomen' = naar beneden.",
-          "1": "'Bijkomen' = herstellen.",
-          "3": "'Meekomen' = samen gaan."
+          "0": "Afkomen = naar beneden. Het geluid daalt niet — het heeft een bron.",
+          "1": "Bijkomen = herstellen. Een geluid herstelt niet.",
+          "3": "Meekomen = samen bewegen. Je vraagt naar de bron, niet naar het gezelschap van het geluid."
         },
-        "hint": "Wat is de bron?"
+        "hint": "Je vraagt naar de oorsprong. Welk woord past bij 'ergens vandaan komen'?"
       },
       {
         "sentence": "Zijn nieuwe boek is vorige week ______.",
@@ -382,11 +382,11 @@
         "correct": 2,
         "explanation": "'Uitkomen' = gepubliceerd worden.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "1": "'Bijkomen' = herstellen.",
-          "3": "'Opkomen' = verschijnen (zon)."
+          "0": "Aankomen = arriveren. Het boek is niet bezorgd — het is gepubliceerd.",
+          "1": "Bijkomen = herstellen of erbij komen. Een boek herstelt niet.",
+          "3": "Opkomen = verschijnen (zon) of opstaan voor iets. Boeken komen niet op zoals de zon."
         },
-        "hint": "Een boek dat gepubliceerd wordt."
+        "hint": "Het boek bestaat nu officieel. Welk prefix past bij iets dat naar buiten komt voor het publiek?"
       },
       {
         "sentence": "De trein uit Amsterdam is net ______.",
@@ -399,11 +399,11 @@
         "correct": 1,
         "explanation": "'Aankomen' = arriveren.",
         "wrongExplanations": {
-          "0": "'Bijkomen' = herstellen.",
-          "2": "'Meekomen' = samen gaan.",
-          "3": "'Opkomen' = verschijnen."
+          "0": "Bijkomen = herstellen. Een trein herstelt niet — hij arriveert.",
+          "2": "Meekomen = samen met iemand gaan. De trein rijdt zelf — hij gaat niet mee met iemand.",
+          "3": "Opkomen = omhoog komen. Treinen rijden horizontaal — ze stijgen niet."
         },
-        "hint": "Een trein arriveert."
+        "hint": "De trein was onderweg en is nu op zijn bestemming. Welk prefix past bij het bereiken van een punt?"
       },
       {
         "sentence": "Er is een nieuw probleem ______.",
@@ -416,11 +416,11 @@
         "correct": 1,
         "explanation": "'Bijkomen' = er extra bij komen.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "2": "'Uitkomen' = openbaar worden.",
-          "3": "'Voorkomen' = gebeuren."
+          "0": "Aankomen = arriveren. Een probleem arriveert niet op een bestemming.",
+          "2": "Uitkomen = openbaar worden of kloppen. Een probleem wordt niet onthuld — het wordt toegevoegd.",
+          "3": "Voorkomen = plaatsvinden of vermijden. Het probleem bestaat al — het komt er nu bij."
         },
-        "hint": "Een extra probleem."
+        "hint": "Er was al iets, en nu komt dit probleem erbij. Welk prefix past bij 'toevoegen aan'?"
       },
       {
         "sentence": "Dat komt goed ______!",
@@ -433,11 +433,11 @@
         "correct": 2,
         "explanation": "'Uitkomen' = goed aflopen.",
         "wrongExplanations": {
-          "0": "'Bijkomen' = herstellen.",
-          "1": "'Overkomen' = de indruk wekken.",
-          "3": "'Voorkomen' = gebeuren."
+          "0": "Bijkomen = herstellen. Hier gaat het over een goede afloop, niet herstel.",
+          "1": "Overkomen = een indruk maken. Dit gaat over een resultaat, niet een indruk.",
+          "3": "Voorkomen = plaatsvinden of vermijden. Je zegt niet dat iets plaatsvindt — je zegt dat het goed afloopt."
         },
-        "hint": "Alles loopt goed af."
+        "hint": "De situatie loopt goed af. Welk prefix past bij iets dat 'eruit komt'?"
       },
       {
         "sentence": "Ze is niet komen ______.",
@@ -450,11 +450,11 @@
         "correct": 1,
         "explanation": "'Komen opdagen' = verschijnen.",
         "wrongExplanations": {
-          "0": "'Afdagen' bestaat niet.",
-          "2": "'Meedagen' bestaat niet.",
-          "3": "'Bijdragen' = een bijdrage leveren."
+          "0": "'Afdagen' bestaat niet als werkwoord in het Nederlands.",
+          "2": "'Meedagen' bestaat niet als werkwoord in het Nederlands.",
+          "3": "Bijdragen = een bijdrage leveren. Niet verschijnen op een afspraak."
         },
-        "hint": "Niet op een afspraak verschijnen."
+        "hint": "Ze was verwacht maar is niet verschenen. Welk werkwoord gebruik je hiervoor?"
       },
       {
         "sentence": "De bloemen beginnen al op te ______.",
@@ -467,11 +467,11 @@
         "correct": 2,
         "explanation": "'Opkomen' = beginnen te groeien.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "1": "'Bijkomen' = herstellen.",
-          "3": "'Afkomen' = naar beneden."
+          "0": "Aankomen = arriveren. Bloemen reizen niet naar een bestemming.",
+          "1": "Bijkomen = herstellen. Bloemen waren niet ziek — ze groeien.",
+          "3": "Afkomen = naar beneden. Bloemen groeien juist omhóóg in de lente."
         },
-        "hint": "Bloemen in de lente."
+        "hint": "De bloemen groeien uit de grond. Welk prefix past bij een beweging omhoog?"
       },
       {
         "sentence": "Het water is tot aan de dijk ______.",
@@ -484,11 +484,11 @@
         "correct": 3,
         "explanation": "'Komen tot' = een punt bereiken.",
         "wrongExplanations": {
-          "0": "'Bijkomen' = herstellen.",
-          "1": "'Opkomen' = verschijnen.",
-          "2": "'Aankomen' = arriveren."
+          "0": "Bijkomen = herstellen of erbij komen. Water herstelt niet.",
+          "1": "Opkomen = omhoog verschijnen. Het water bereikt een grens — het stijgt niet als de zon.",
+          "2": "Aankomen = arriveren op een bestemming. Water heeft geen bestemming — het bereikt een grens."
         },
-        "hint": "Het waterpeil bereikt een punt."
+        "hint": "Het water bereikt een punt. Welk werkwoord gebruik je zonder prefix voor 'ergens komen'?"
       },
       {
         "sentence": "Ze is voor haar rechten ______.",
@@ -501,11 +501,11 @@
         "correct": 1,
         "explanation": "'Opkomen voor' = je inzetten voor.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "2": "'Meekomen' = samen gaan.",
-          "3": "'Bijkomen' = herstellen."
+          "0": "Aankomen = arriveren. Je arriveert niet voor rechten.",
+          "2": "Meekomen = samen gaan. Ze gaat niet ergens naartoe — ze strijdt.",
+          "3": "Bijkomen = herstellen. Ze herstelt niet — ze staat op voor iets."
         },
-        "hint": "Strijden voor je rechten."
+        "hint": "Ze stelt zich op voor haar rechten. Welk prefix past bij opstaan voor een zaak?"
       },
       {
         "sentence": "Het eten is goed van pas ______.",
@@ -518,11 +518,11 @@
         "correct": 2,
         "explanation": "'Van pas komen' = nuttig zijn.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "1": "'Bijkomen' = herstellen.",
-          "3": "'Meekomen' = samen gaan."
+          "0": "Aankomen = arriveren of zwaarder worden. Eten dat van pas komt is nuttig — niet bezorgd.",
+          "1": "Bijkomen = herstellen of erbij komen. Het eten wordt niet toegevoegd — het is op het juiste moment nuttig.",
+          "3": "Meekomen = samen bewegen. Het eten reist niet mee — het is op het juiste moment beschikbaar."
         },
-        "hint": "Iets dat nuttig was."
+        "hint": "Het eten was precies op het goede moment beschikbaar. Welk werkwoord past bij 'van pas komen'?"
       },
       {
         "sentence": "De vergadering is niet goed ______.",
@@ -535,11 +535,11 @@
         "correct": 0,
         "explanation": "'Overkomen' = de indruk wekken.",
         "wrongExplanations": {
-          "1": "'Uitkomen' = openbaar worden.",
-          "2": "'Bijkomen' = herstellen.",
-          "3": "'Afkomen' = naar beneden."
+          "1": "Uitkomen = openbaar worden of kloppen. Een vergadering wordt niet 'onthuld'.",
+          "2": "Bijkomen = herstellen. Een vergadering herstelt niet.",
+          "3": "Afkomen = naar beneden. Een vergadering daalt niet."
         },
-        "hint": "Welke indruk maakte de vergadering?"
+        "hint": "De vergadering maakte een slechte indruk. Welk prefix past bij een indruk die op iemand overkomt?"
       },
       {
         "sentence": "De lift is vast komen te ______.",
@@ -552,11 +552,11 @@
         "correct": 1,
         "explanation": "'Vast komen te zitten' = niet weg kunnen.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "2": "'Bijkomen' = herstellen.",
-          "3": "'Voorkomen' = gebeuren."
+          "0": "Aankomen = arriveren. De lift is geblokkeerd — hij arriveert nergens.",
+          "2": "Bijkomen = herstellen. De lift herstelt niet — hij zit vast.",
+          "3": "Voorkomen = plaatsvinden of vermijden. Je beschrijft de toestand van de lift, niet een gebeurtenis."
         },
-        "hint": "De lift beweegt niet meer."
+        "hint": "De lift beweegt niet meer. Welk werkwoord past bij 'ergens niet meer uitkomen'?"
       },
       {
         "sentence": "Het ______ niet goed uit als je dat zegt.",
@@ -569,11 +569,11 @@
         "correct": 0,
         "explanation": "'Uitkomen' = een bepaald effect hebben.",
         "wrongExplanations": {
-          "1": "'Gaat uit' = een andere betekenis.",
-          "2": "'Staat' = passen.",
-          "3": "'Loopt uit' = uitlopen."
+          "1": "Gaat uit = uitschakelen of eindigen. Hier gaat het over een indruk, niet een einde.",
+          "2": "Staat = passen of er goed uitzien. 'Staat goed uit' is geen standaard combinatie.",
+          "3": "Loopt uit = uitlopen in de tijd. Hier gaat het over een indruk, niet timing."
         },
-        "hint": "Het maakt een slechte indruk."
+        "hint": "Het maakt een slechte indruk. Welk werkwoord gebruik je voor 'hoe iets eruit ziet'?"
       },
       {
         "sentence": "De muzikant is het podium ______.",
@@ -586,11 +586,11 @@
         "correct": 0,
         "explanation": "'Afkomen' = naar beneden komen (podium).",
         "wrongExplanations": {
-          "1": "'Bijkomen' = herstellen.",
-          "2": "'Opkomen' = het podium op.",
-          "3": "'Meekomen' = samen gaan."
+          "1": "Bijkomen = herstellen. De muzikant beweegt — hij herstelt niet.",
+          "2": "Opkomen = het podium opkomen. Dat is het tegenovergestelde — hij verlaat het podium.",
+          "3": "Meekomen = samen gaan. De muzikant vertrekt zelf — hij gaat niet mee met iemand."
         },
-        "hint": "Het podium verlaten."
+        "hint": "De muzikant staat op het podium en verlaat het. Welk prefix past bij een neerwaartse beweging?"
       },
       {
         "sentence": "Ik weet niet hoe ik aan die info moet ______.",
@@ -603,11 +603,11 @@
         "correct": 2,
         "explanation": "'Aan iets komen' = iets verkrijgen.",
         "wrongExplanations": {
-          "0": "'Bijkomen' = herstellen.",
-          "1": "'Meekomen' = samen gaan.",
-          "3": "'Voorkomen' = gebeuren."
+          "0": "Bijkomen = herstellen of erbij komen. Je wilt informatie verkrijgen — niet herstellen.",
+          "1": "Meekomen = samen gaan. Je vraagt hoe je iets kunt verkrijgen, niet hoe je ergens naartoe gaat.",
+          "3": "Voorkomen = plaatsvinden of vermijden. Je wilt de info bemachtigen — niet vermijden."
         },
-        "hint": "Hoe krijg je iets te pakken?"
+        "hint": "Je wilt de informatie in handen krijgen. Welk werkwoord past bij 'aan iets komen'?"
       },
       {
         "sentence": "De kinderen mogen niet bij het vuur ______.",
@@ -620,11 +620,11 @@
         "correct": 3,
         "explanation": "'In de buurt komen' = dichtbij komen.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "1": "'Bijkomen' = herstellen.",
-          "2": "'Opkomen' = verschijnen."
+          "0": "Aankomen = arriveren op een bestemming. Het vuur is geen bestemming — het is een gevaar.",
+          "1": "Bijkomen = herstellen. De kinderen zijn niet ziek — ze mogen niet te dichtbij.",
+          "2": "Opkomen = omhoog komen of opstaan. Ze bewegen niet omhoog."
         },
-        "hint": "Niet te dichtbij."
+        "hint": "De kinderen moeten uit de buurt blijven. Welk werkwoord gebruik je zonder prefix voor 'dichtbij komen'?"
       },
       {
         "sentence": "Hoe ben je op dat idee ______?",
@@ -637,11 +637,11 @@
         "correct": 1,
         "explanation": "'Op een idee komen' = een idee krijgen.",
         "wrongExplanations": {
-          "0": "'Aankomen' = arriveren.",
-          "2": "'Afkomen' = naar beneden.",
-          "3": "'Opkomen' = verschijnen."
+          "0": "Aankomen = arriveren op een plek. Een idee is geen bestemming.",
+          "2": "Afkomen = naar beneden. Ideeën dalen niet.",
+          "3": "Opkomen = naar boven verschijnen. 'Op een idee opkomen' is geen standaard combinatie."
         },
-        "hint": "Hoe ben je erbij gekomen?"
+        "hint": "Je vraagt hoe iemand dit idee heeft gekregen. Welk werkwoord past bij 'op een idee komen'?"
       },
       {
         "sentence": "Ze kwamen tot een goed besluit ______.",
@@ -654,11 +654,11 @@
         "correct": 2,
         "explanation": "'Tot een besluit komen' = beslissen.",
         "wrongExplanations": {
-          "0": "'Meekomen' = samen gaan.",
-          "1": "'Bijkomen' = herstellen.",
-          "3": "'Afkomen' = naar beneden."
+          "0": "Meekomen = samen gaan. Ze nemen een beslissing — ze reizen niet samen.",
+          "1": "Bijkomen = herstellen of erbij komen. Een besluit wordt gemaakt, niet toegevoegd.",
+          "3": "Afkomen = naar beneden. Een besluit daalt niet."
         },
-        "hint": "Een beslissing bereiken."
+        "hint": "Ze hebben een beslissing bereikt. Welk werkwoord past bij 'tot iets komen'?"
       },
       {
         "sentence": "Dat woord komt me niet bekend ______.",
@@ -671,11 +671,11 @@
         "correct": 1,
         "explanation": "'Voorkomen' = lijken, de indruk geven.",
         "wrongExplanations": {
-          "0": "'Overkomen' = een ander gebruik.",
-          "2": "'Bijkomen' = herstellen.",
-          "3": "'Aankomen' = arriveren."
+          "0": "Overkomen = een indruk maken op anderen. Hier gaat het om jouw eigen herkenning — of iets jou bekend voorkomt.",
+          "2": "Bijkomen = herstellen. Je herkent het woord niet — je herstelt niet van iets.",
+          "3": "Aankomen = arriveren. Een woord arriveert niet."
         },
-        "hint": "Je herkent het woord niet."
+        "hint": "Je herkent het woord niet. Welk prefix past bij 'voor jou lijken'?"
       },
       {
         "sentence": "Ik kan er niet ______ wat er gebeurd is.",
@@ -688,11 +688,11 @@
         "correct": 1,
         "explanation": "'Achterkomen' = ontdekken.",
         "wrongExplanations": {
-          "0": "'Bijkomen' = herstellen.",
-          "2": "'Meekomen' = samen gaan.",
-          "3": "'Aankomen' = arriveren."
+          "0": "Bijkomen = herstellen. Je wilt iets ontdekken — niet herstellen.",
+          "2": "Meekomen = samen gaan. Je gaat nergens naartoe — je probeert iets te begrijpen.",
+          "3": "Aankomen = arriveren. Je arriveert niet bij een conclusie — je probeert iets te achterhalen."
         },
-        "hint": "Iets ontdekken."
+        "hint": "Je probeert te ontdekken wat er is gebeurd. Welk prefix past bij 'van achteren iets te pakken krijgen'?"
       },
       {
         "sentence": "Het feest is goed ______.",
@@ -705,11 +705,11 @@
         "correct": 2,
         "explanation": "'Overkomen' = de indruk wekken.",
         "wrongExplanations": {
-          "0": "'Meekomen' = samen gaan.",
-          "1": "'Bijkomen' = herstellen.",
-          "3": "'Uitkomen' = openbaar worden."
+          "0": "Meekomen = samen gaan. Een feest reist niet mee.",
+          "1": "Bijkomen = herstellen. Een feest herstelt niet.",
+          "3": "Uitkomen = openbaar worden of kloppen. Een feest wordt niet 'onthuld'."
         },
-        "hint": "Welke indruk maakte het feest?"
+        "hint": "Het feest maakte een goede indruk. Welk prefix past bij een indruk die op mensen overkomt?"
       }
     ],
     "zetten": [
@@ -724,11 +724,11 @@
         "correct": 0,
         "explanation": "'Aanzetten' = inschakelen.",
         "wrongExplanations": {
-          "1": "'Opzetten' = oprichten.",
-          "2": "'Afzetten' = bedriegen/afsluiten.",
-          "3": "'Uitzetten' = uitschakelen."
+          "1": "Opzetten = iets oprichten of starten. Een tv zet je niet op — je schakelt hem in.",
+          "2": "Afzetten = uitschakelen of bedriegen. De tv is al uit — je wilt hem aan, niet nog verder 'af'.",
+          "3": "Uitzetten = uitschakelen. Je hebt het tegenovergestelde gekozen — dat zet de tv juist uit."
         },
-        "hint": "Je wilt tv kijken."
+        "hint": "De tv staat uit en je wilt hem inschakelen. Welk prefix past bij 'beginnen'?"
       },
       {
         "sentence": "Ze heeft een nieuw bedrijf ______.",
@@ -741,11 +741,11 @@
         "correct": 2,
         "explanation": "'Opzetten' = oprichten, starten.",
         "wrongExplanations": {
-          "0": "'Aanzetten' = inschakelen.",
-          "1": "'Neerzetten' = plaatsen.",
-          "3": "'Doorzetten' = volhouden."
+          "0": "Aanzetten = inschakelen. Een bedrijf schakel je niet in — je richt het op.",
+          "1": "Neerzetten = een voorwerp fysiek plaatsen. Een bedrijf zet je niet neer zoals een tas.",
+          "3": "Doorzetten = volhouden ondanks tegenslag. Het bedrijf bestaat nog maar net — er is nog niets om vol te houden."
         },
-        "hint": "Een bedrijf starten."
+        "hint": "Het bedrijf bestond nog niet en nu wel. Welk prefix past bij iets opbouwen van nul?"
       },
       {
         "sentence": "Kun je de verwarming ______? Het is te warm.",
@@ -758,11 +758,11 @@
         "correct": 2,
         "explanation": "'Uitzetten' = uitschakelen.",
         "wrongExplanations": {
-          "0": "'Aanzetten' = inschakelen.",
-          "1": "'Opzetten' = oprichten.",
-          "3": "'Doorzetten' = volhouden."
+          "0": "Aanzetten = inschakelen. Dat maakt het juist nóg warmer.",
+          "1": "Opzetten = oprichten of starten. Een verwarming richt je niet op.",
+          "3": "Doorzetten = volhouden. De verwarming hoeft niets vol te houden — jij wilt hem stoppen."
         },
-        "hint": "Het is te warm."
+        "hint": "Het is te warm, dus je wilt de verwarming stoppen. Welk prefix past bij uitschakelen?"
       },
       {
         "sentence": "Ondanks de tegenslag heeft ze ______.",
@@ -775,11 +775,11 @@
         "correct": 2,
         "explanation": "'Doorzetten' = volhouden.",
         "wrongExplanations": {
-          "0": "'Opzetten' = oprichten.",
-          "1": "'Afzetten' = bedriegen.",
-          "3": "'Neerzetten' = plaatsen."
+          "0": "Opzetten = iets oprichten. Er is geen nieuw project — ze houdt vol.",
+          "1": "Afzetten = bedriegen of uitstappen laten. Ze bedriegt niemand — ze geeft niet op.",
+          "3": "Neerzetten = fysiek plaatsen. Er is niets om neer te zetten in deze situatie."
         },
-        "hint": "Niet opgeven."
+        "hint": "Er was tegenslag maar ze stopte niet. Welk werkwoord past bij niet opgeven?"
       },
       {
         "sentence": "De taxi heeft me bij het station ______.",
@@ -792,11 +792,11 @@
         "correct": 1,
         "explanation": "'Afzetten' = iemand laten uitstappen.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = voorwerpen plaatsen.",
-          "2": "'Opzetten' = oprichten.",
-          "3": "'Aanzetten' = inschakelen."
+          "0": "Neerzetten = een voorwerp ergens plaatsen. Je bent een persoon, geen object om neer te zetten.",
+          "2": "Opzetten = oprichten. De taxi richt niets op bij het station.",
+          "3": "Aanzetten = inschakelen. Je wordt niet ingeschakeld bij het station."
         },
-        "hint": "De taxi stopt en je stapt uit."
+        "hint": "De taxi stopt en jij stapt uit. Welk prefix past bij 'laten uitstappen'?"
       },
       {
         "sentence": "Zet je tas maar op de tafel ______.",
@@ -809,11 +809,11 @@
         "correct": 1,
         "explanation": "'Neerzetten' = ergens plaatsen.",
         "wrongExplanations": {
-          "0": "'Afzetten' = bedriegen/uitstappen.",
-          "2": "'Opzetten' = oprichten.",
-          "3": "'Doorzetten' = volhouden."
+          "0": "Afzetten = bedriegen of uitstappen laten. Je zet de tas niet 'af' — je plaatst hem.",
+          "2": "Opzetten = oprichten of op je hoofd zetten. Een tas zet je niet op zoals een bril of hoed.",
+          "3": "Doorzetten = volhouden. Je hoeft niets vol te houden — alleen de tas plaatsen."
         },
-        "hint": "Je tas op de tafel leggen."
+        "hint": "Je legt de tas ergens op een oppervlak. Welk prefix past bij plaatsen op een plek?"
       },
       {
         "sentence": "Die oplichter heeft veel mensen ______.",
@@ -826,11 +826,11 @@
         "correct": 2,
         "explanation": "'Afzetten' = bedriegen, oplichten.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = plaatsen.",
-          "1": "'Doorzetten' = volhouden.",
-          "3": "'Opzetten' = oprichten."
+          "0": "Neerzetten = fysiek plaatsen. Mensen zet je niet neer als voorwerpen.",
+          "1": "Doorzetten = volhouden. De oplichter geeft niet op — maar dat is niet wat hier bedoeld wordt.",
+          "3": "Opzetten = oprichten of ophitsen. Mensen opzetten = mensen tegen elkaar ophitsen. Hier gaat het om financieel bedrog."
         },
-        "hint": "Iemand die mensen bedriegt."
+        "hint": "De oplichter heeft mensen geld afhandig gemaakt. Welk prefix past bij bedrog?"
       },
       {
         "sentence": "Ze heeft de bloemen in een vaas ______.",
@@ -843,11 +843,11 @@
         "correct": 1,
         "explanation": "'Neerzetten' = ergens plaatsen.",
         "wrongExplanations": {
-          "0": "'Afzetten' = bedriegen.",
-          "2": "'Aanzetten' = inschakelen.",
-          "3": "'Doorzetten' = volhouden."
+          "0": "Afzetten = bedriegen of uitstappen laten. Bloemen bedrieg je niet — je plaatst ze.",
+          "2": "Aanzetten = inschakelen. Bloemen schakel je niet in.",
+          "3": "Doorzetten = volhouden. Er is geen tegenslag bij het plaatsen van bloemen."
         },
-        "hint": "Bloemen in een vaas plaatsen."
+        "hint": "Ze plaatst de bloemen ergens. Welk prefix past bij het plaatsen van een voorwerp?"
       },
       {
         "sentence": "Ik ga koffie ______. Wil jij ook?",
@@ -860,11 +860,11 @@
         "correct": 3,
         "explanation": "'Koffie zetten' = koffie maken.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = plaatsen.",
-          "1": "'Opzetten' = oprichten.",
-          "2": "'Aanzetten' = inschakelen."
+          "0": "Neerzetten = plaatsen. Je maakt de koffie — je zet hem niet neer (dat komt later).",
+          "1": "Opzetten = oprichten. Je start geen bedrijf — je maakt een drankje.",
+          "2": "Aanzetten = inschakelen. Je schakelt misschien het apparaat in, maar koffie zelf schakel je niet in."
         },
-        "hint": "Koffie bereiden."
+        "hint": "Koffie bereiden is een vaste combinatie. Welk werkwoord gebruik je zonder prefix?"
       },
       {
         "sentence": "De politie heeft het gebied ______.",
@@ -877,11 +877,11 @@
         "correct": 1,
         "explanation": "'Afzetten' = een gebied afsluiten.",
         "wrongExplanations": {
-          "0": "'Opzetten' = oprichten.",
-          "2": "'Neerzetten' = plaatsen.",
-          "3": "'Doorzetten' = volhouden."
+          "0": "Opzetten = oprichten. De politie richt geen gebied op.",
+          "2": "Neerzetten = een voorwerp plaatsen. Een gebied is geen object om neer te zetten.",
+          "3": "Doorzetten = volhouden. De politie sluit het gebied af — ze hoeft niets vol te houden."
         },
-        "hint": "De politie sluit een straat af."
+        "hint": "De politie heeft het gebied afgesloten na een incident. Welk prefix past bij afsluiten?"
       },
       {
         "sentence": "Hij wil zijn eigen zaak ______.",
@@ -894,11 +894,11 @@
         "correct": 2,
         "explanation": "'Opzetten' = oprichten.",
         "wrongExplanations": {
-          "0": "'Uitzetten' = uitschakelen.",
-          "1": "'Doorzetten' = volhouden.",
-          "3": "'Afzetten' = bedriegen."
+          "0": "Uitzetten = uitschakelen of verwijderen. Hij wil zijn zaak niet uitschakelen — hij wil hem starten.",
+          "1": "Doorzetten = volhouden. De zaak bestaat nog niet — er is niets om vol te houden.",
+          "3": "Afzetten = bedriegen of iemand laten uitstappen. Hij wil niemand bedriegen — hij wil iets opbouwen."
         },
-        "hint": "Een eigen bedrijf starten."
+        "hint": "De zaak bestaat nog niet. Hij wil hem starten. Welk prefix past bij iets opbouwen van nul?"
       },
       {
         "sentence": "Kun je het geluid wat zachter ______?",
@@ -911,11 +911,11 @@
         "correct": 2,
         "explanation": "'Zachter zetten' = volume verlagen.",
         "wrongExplanations": {
-          "0": "'Aanzetten' = inschakelen.",
-          "1": "'Uitzetten' = helemaal uit.",
-          "3": "'Opzetten' = oprichten."
+          "0": "Aanzetten = inschakelen. Het geluid staat al aan — je wil het zachter, niet harder.",
+          "1": "Uitzetten = helemaal uitschakelen. Je wilt minder geluid, niet géén geluid.",
+          "3": "Opzetten = oprichten. Geluid richt je niet op."
         },
-        "hint": "Het volume verlagen."
+        "hint": "Het geluid staat te hard. Je wilt minder, niet niets. Welk werkwoord past bij volume aanpassen?"
       },
       {
         "sentence": "De overheid wil strengere regels ______.",
@@ -928,11 +928,11 @@
         "correct": 3,
         "explanation": "'Inzetten' = invoeren, toepassen.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = plaatsen.",
-          "1": "'Doorzetten' = volhouden.",
-          "2": "'Afzetten' = bedriegen."
+          "0": "Neerzetten = fysiek plaatsen. Regels zijn geen objecten om neer te zetten.",
+          "1": "Doorzetten = volhouden. De regels bestaan nog niet — ze worden ingevoerd.",
+          "2": "Afzetten = bedriegen of afsluiten. De overheid voert regels in — ze bedriegt niemand."
         },
-        "hint": "Nieuwe regels invoeren."
+        "hint": "De overheid wil nieuwe regels invoeren. Welk prefix past bij iets inbrengen in een systeem?"
       },
       {
         "sentence": "Ze heeft zich volledig ______ voor het goede doel.",
@@ -945,11 +945,11 @@
         "correct": 1,
         "explanation": "'Zich inzetten voor' = je inspannen.",
         "wrongExplanations": {
-          "0": "'Doorzetten' = volhouden.",
-          "2": "'Neerzetten' = plaatsen.",
-          "3": "'Afzetten' = bedriegen."
+          "0": "Doorzetten = volhouden ondanks tegenslag. Ze zette zich in voor een doel — er was geen specifieke tegenslag om vol te houden.",
+          "2": "Neerzetten = fysiek plaatsen of een positie innemen. Hier gaat het om inzet, niet een positie.",
+          "3": "Afzetten = bedriegen. Ze helpt het goede doel — ze bedriegt het niet."
         },
-        "hint": "Hard werken voor een goed doel."
+        "hint": "Ze werkte hard voor het goede doel. Welk prefix past bij jezelf ergens voor inbrengen?"
       },
       {
         "sentence": "De docent heeft de studenten aan het werk ______.",
@@ -962,11 +962,11 @@
         "correct": 2,
         "explanation": "'Aan het werk zetten' = laten werken.",
         "wrongExplanations": {
-          "0": "'Opzetten' = oprichten.",
-          "1": "'Neerzetten' = plaatsen.",
-          "3": "'Afzetten' = bedriegen."
+          "0": "Opzetten = oprichten. De docent richt geen studenten op.",
+          "1": "Neerzetten = fysiek plaatsen. Studenten zijn geen objecten om neer te zetten.",
+          "3": "Afzetten = bedriegen. De docent laat de studenten werken — hij bedriegt hen niet."
         },
-        "hint": "De studenten moeten gaan werken."
+        "hint": "De studenten moeten gaan werken. Welk werkwoord past bij 'aan het werk' als vaste combinatie?"
       },
       {
         "sentence": "Na het schandaal werd de koning ______.",
@@ -979,11 +979,11 @@
         "correct": 2,
         "explanation": "'Afzetten' = uit een functie verwijderen.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = plaatsen.",
-          "1": "'Opzetten' = oprichten.",
-          "3": "'Doorzetten' = volhouden."
+          "0": "Neerzetten = plaatsen. De koning wordt verwijderd uit zijn functie — niet ergens neergezet.",
+          "1": "Opzetten = oprichten. De koning wordt afgezet — zijn positie begint niet opnieuw.",
+          "3": "Doorzetten = volhouden. De koning geeft niet zelf op — hij wordt door anderen verwijderd."
         },
-        "hint": "Een koning die zijn troon verliest."
+        "hint": "De koning verloor zijn troon na het schandaal. Welk prefix past bij iemand uit een functie halen?"
       },
       {
         "sentence": "Ze heeft de tent in de tuin ______.",
@@ -996,11 +996,11 @@
         "correct": 2,
         "explanation": "'Opzetten' = opbouwen (tent).",
         "wrongExplanations": {
-          "0": "'Neerzetten' = een voorwerp plaatsen.",
-          "1": "'Afzetten' = afsluiten.",
-          "3": "'Doorzetten' = volhouden."
+          "0": "Neerzetten = een klaar object plaatsen. Een tent bouw je op — je zet hem niet neer als een boek.",
+          "1": "Afgezet = bedriegen of afsluiten. Ze bouwt een tent — ze bedriegt niemand.",
+          "3": "Doorzetten = volhouden. Er is geen tegenslag bij het opbouwen van een tent."
         },
-        "hint": "Een tent opbouwen."
+        "hint": "De tent was ingepakt en staat nu rechtop. Welk prefix past bij iets opbouwen?"
       },
       {
         "sentence": "Vergeet niet de wekker ______!",
@@ -1013,11 +1013,11 @@
         "correct": 2,
         "explanation": "'De wekker zetten' = instellen.",
         "wrongExplanations": {
-          "0": "'Uitzetten' = uitschakelen.",
-          "1": "'Opzetten' = oprichten.",
-          "3": "'Afzetten' = bedriegen."
+          "0": "Uitzetten = uitschakelen. De wekker staat nog niet aan — je moet hem eerst instellen voor morgen.",
+          "1": "Opzetten = oprichten. Een wekker richt je niet op.",
+          "3": "Afzetten = uitschakelen of bedriegen. Je schakelt hem niet uit — je stelt hem in voor een bepaalde tijd."
         },
-        "hint": "De wekker instellen."
+        "hint": "Je stelt de wekker in voor een bepaalde tijd. Welk werkwoord past bij instellen?"
       },
       {
         "sentence": "De trainer heeft de spits ______ in de 2e helft.",
@@ -1030,11 +1030,11 @@
         "correct": 3,
         "explanation": "'Inzetten' = laten meespelen.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = plaatsen.",
-          "1": "'Afzetten' = bedriegen.",
-          "2": "'Opzetten' = oprichten."
+          "0": "Neerzetten = fysiek plaatsen. Een speler zet je niet neer als een pion op een schaakbord.",
+          "1": "Afzetten = bedriegen of iemand laten uitstappen. De trainer laat de spits meedoen — hij bedriegt hem niet.",
+          "2": "Opzetten = oprichten. De trainer bouwt geen nieuwe speler op — hij laat hem meespelen."
         },
-        "hint": "Een speler laten meespelen."
+        "hint": "De spits stond niet op het veld en nu wel. Welk prefix past bij iemand inbrengen?"
       },
       {
         "sentence": "Hij heeft een grote stap ______.",
@@ -1047,11 +1047,11 @@
         "correct": 3,
         "explanation": "'Een stap zetten' = actie ondernemen.",
         "wrongExplanations": {
-          "0": "'Opzetten' = oprichten.",
-          "1": "'Afzetten' = bedriegen.",
-          "2": "'Neerzetten' = plaatsen."
+          "0": "Opzetten = oprichten. Een stap richt je niet op.",
+          "1": "Afzetten = bedriegen. Hij neemt een beslissing — hij bedriegt niemand.",
+          "2": "Neerzetten = plaatsen. Een stap neerzetten is letterlijk — hier is het figuurlijk voor een belangrijke beslissing."
         },
-        "hint": "Actie ondernemen."
+        "hint": "Hij heeft een belangrijke beslissing genomen. Welk werkwoord past bij 'een stap' als vaste combinatie?"
       },
       {
         "sentence": "Het plan is uiteindelijk toch ______.",
@@ -1064,11 +1064,11 @@
         "correct": 1,
         "explanation": "'Doorzetten' = ondanks moeilijkheden uitvoeren.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = plaatsen.",
-          "2": "'Afzetten' = bedriegen.",
-          "3": "'Opzetten' = oprichten."
+          "0": "Neerzetten = plaatsen. Een plan zet je niet neer als een object.",
+          "2": "Afzetten = bedriegen of afsluiten. Het plan wordt uitgevoerd — niet afgeblazen.",
+          "3": "Opzetten = oprichten. Het plan bestond al — het wordt nu doorgezet, niet opnieuw gestart."
         },
-        "hint": "Het plan werd toch uitgevoerd."
+        "hint": "Er waren moeilijkheden maar het plan werd toch uitgevoerd. Welk werkwoord past bij volhouden?"
       },
       {
         "sentence": "De ober heeft het eten op tafel ______.",
@@ -1081,11 +1081,11 @@
         "correct": 1,
         "explanation": "'Neerzetten' = op een oppervlak plaatsen.",
         "wrongExplanations": {
-          "0": "'Afzetten' = bedriegen.",
-          "2": "'Opzetten' = oprichten.",
-          "3": "'Doorzetten' = volhouden."
+          "0": "Afzetten = bedriegen of iemand laten uitstappen. De ober plaatst het eten — hij bedriegt niemand.",
+          "2": "Opzetten = oprichten of bouwen. Borden richt je niet op.",
+          "3": "Doorzetten = volhouden. De ober plaatst het eten — er is niets om vol te houden."
         },
-        "hint": "Borden op tafel plaatsen."
+        "hint": "De ober plaatst de borden op tafel. Welk prefix past bij het plaatsen van objecten op een oppervlak?"
       },
       {
         "sentence": "Ze probeerden de mensen tegen elkaar ______.",
@@ -1098,11 +1098,11 @@
         "correct": 2,
         "explanation": "'Opzetten tegen' = ophitsen.",
         "wrongExplanations": {
-          "0": "'Afzetten' = bedriegen.",
-          "1": "'Neerzetten' = plaatsen.",
-          "3": "'Inzetten' = gebruiken."
+          "0": "Afzetten = bedriegen of iemand laten uitstappen. Hier gaat het om mensen tegen elkaar ophitsen, niet om bedrog.",
+          "1": "Neerzetten = plaatsen. Mensen zet je niet neer als objecten.",
+          "3": "Inzetten = gebruiken of inschakelen. Mensen inzetten = ze laten werken, niet ophitsen."
         },
-        "hint": "Ruzie stoken."
+        "hint": "Ze wilden ruzie stoken tussen mensen. Welk prefix past bij 'ophitsen tegen'?"
       },
       {
         "sentence": "De leraar heeft hen aan het denken ______.",
@@ -1115,11 +1115,11 @@
         "correct": 2,
         "explanation": "'Aan het denken zetten' = laten nadenken.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = plaatsen.",
-          "1": "'Opzetten' = oprichten.",
-          "3": "'Inzetten' = gebruiken."
+          "0": "Neerzetten = fysiek plaatsen. Leerlingen zet je niet neer.",
+          "1": "Opzetten = oprichten of ophitsen. Leerlingen opzetten heeft een negatieve bijklank.",
+          "3": "Inzetten = gebruiken voor een doel. Je zet leerlingen niet in als middel — je laat ze nadenken."
         },
-        "hint": "De leerlingen gaan nadenken."
+        "hint": "De leerlingen gaan nadenken. Welk werkwoord past bij 'aan het denken' als vaste combinatie?"
       },
       {
         "sentence": "Vergeet niet je bril ______ als je gaat lezen.",
@@ -1132,11 +1132,11 @@
         "correct": 1,
         "explanation": "'Opzetten' = op je neus plaatsen (bril).",
         "wrongExplanations": {
-          "0": "'Afzetten' = afdoen.",
-          "2": "'Neerzetten' = op tafel leggen.",
-          "3": "'Inzetten' = gebruiken."
+          "0": "Afzetten = afdoen of bedriegen. Je bril afzetten = hem van je neus halen. Je wilt hem juist ópzetten.",
+          "2": "Neerzetten = op een oppervlak plaatsen. Je bril zet je op je neus, niet op tafel.",
+          "3": "Inzetten = gebruiken voor een doel. Brillen schakel je niet in als middel."
         },
-        "hint": "Je bril op je neus doen."
+        "hint": "Je doet je bril op je neus. Welk prefix past bij iets omhoog plaatsen op je gezicht?"
       },
       {
         "sentence": "Ze heeft haar zonnebril ______.",
@@ -1149,11 +1149,11 @@
         "correct": 1,
         "explanation": "'Opzetten' = op je gezicht plaatsen.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = op tafel.",
-          "2": "'Afzetten' = afdoen.",
-          "3": "'Inzetten' = gebruiken."
+          "0": "Neerzetten = op een oppervlak plaatsen. Haar zonnebril gaat op haar neus, niet op tafel.",
+          "2": "Afgezet = afdoen. Ze zet hem juist óp — niet af.",
+          "3": "Ingezet = ingeschakeld als middel. Een zonnebril schakel je niet in."
         },
-        "hint": "Een zonnebril op je neus doen."
+        "hint": "Ze doet haar zonnebril op. Welk prefix past bij iets op je gezicht plaatsen?"
       },
       {
         "sentence": "De regering heeft het beleid ______.",
@@ -1166,11 +1166,11 @@
         "correct": 1,
         "explanation": "'Voortzetten' = continueren.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = plaatsen.",
-          "2": "'Afzetten' = onttronen.",
-          "3": "'Opzetten' = oprichten."
+          "0": "Neerzetten = plaatsen of een positie innemen. Beleid zet je niet neer als object.",
+          "2": "Afgezet = een leider afzetten of bedriegen. Het beleid wordt gecontinueerd — niet beëindigd of afgezet.",
+          "3": "Opgezet = opgericht. Het beleid bestond al — het wordt voortgezet, niet opnieuw gestart."
         },
-        "hint": "Het beleid wordt gecontinueerd."
+        "hint": "Het beleid werd gecontinueerd. Welk prefix past bij iets laten doorgaan?"
       },
       {
         "sentence": "Ze wil de traditie ______.",
@@ -1183,11 +1183,11 @@
         "correct": 1,
         "explanation": "'Voortzetten' = doorgaan met.",
         "wrongExplanations": {
-          "0": "'Afzetten' = onttronen.",
-          "2": "'Uitzetten' = uitschakelen.",
-          "3": "'Neerzetten' = plaatsen."
+          "0": "Afzetten = stoppen of bedriegen. Ze wil de traditie juist laten doorgaan — niet stoppen.",
+          "2": "Uitzetten = uitschakelen. Een traditie schakel je niet uit.",
+          "3": "Neerzetten = plaatsen. Een traditie zet je niet neer als object."
         },
-        "hint": "De traditie laten doorgaan."
+        "hint": "Ze wil de traditie laten doorgaan. Welk prefix past bij continueren?"
       },
       {
         "sentence": "Ze hebben het huis te koop ______.",
@@ -1200,11 +1200,11 @@
         "correct": 2,
         "explanation": "'Te koop zetten' = aanbieden.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = fysiek plaatsen.",
-          "1": "'Opzetten' = oprichten.",
-          "3": "'Afzetten' = bedriegen."
+          "0": "Neerzetten = fysiek plaatsen. Het huis staat er al — ze bieden het aan.",
+          "1": "Opzetten = oprichten. Ze bouwen het huis niet op — ze verkopen het.",
+          "3": "Afzetten = bedriegen. Ze bieden het huis eerlijk aan."
         },
-        "hint": "Een huis aanbieden voor verkoop."
+        "hint": "Ze bieden het huis aan voor verkoop. Welk werkwoord past bij 'te koop' als vaste combinatie?"
       },
       {
         "sentence": "Het bedrijf heeft extra personeel ______.",
@@ -1217,11 +1217,11 @@
         "correct": 3,
         "explanation": "'Inzetten' = gebruiken (personeel).",
         "wrongExplanations": {
-          "0": "'Afzetten' = bedriegen.",
-          "1": "'Opzetten' = oprichten.",
-          "2": "'Neerzetten' = plaatsen."
+          "0": "Afzetten = bedriegen of ontslaan. Het personeel wordt ingezet — niet bedrogen.",
+          "1": "Opzetten = oprichten. Het personeel is er al — ze worden ingezet, niet opgericht.",
+          "2": "Neerzetten = plaatsen als object. Medewerkers zijn geen objecten om neer te zetten."
         },
-        "hint": "Extra mensen laten werken."
+        "hint": "Extra mensen worden ingezet voor de werkzaamheden. Welk prefix past bij mensen gebruiken voor een doel?"
       },
       {
         "sentence": "Je moet de computer ______ voordat je weggaat.",
@@ -1234,11 +1234,11 @@
         "correct": 2,
         "explanation": "'Uitzetten' = uitschakelen.",
         "wrongExplanations": {
-          "0": "'Aanzetten' = inschakelen.",
-          "1": "'Opzetten' = oprichten.",
-          "3": "'Neerzetten' = plaatsen."
+          "0": "Aanzetten = inschakelen. Je gaat weg — je wilt de computer uitschakelen, niet inschakelen.",
+          "1": "Opzetten = oprichten. Een computer richt je niet op.",
+          "3": "Neerzetten = plaatsen. De computer staat er al — je schakelt hem uit."
         },
-        "hint": "De computer uitschakelen."
+        "hint": "Je gaat weg en wilt de computer uitschakelen. Welk prefix past bij stoppen?"
       },
       {
         "sentence": "Ik ga thee ______ voor ons.",
@@ -1251,11 +1251,11 @@
         "correct": 1,
         "explanation": "'Thee zetten' = thee bereiden.",
         "wrongExplanations": {
-          "0": "'Opzetten' = oprichten.",
-          "2": "'Aanzetten' = inschakelen.",
-          "3": "'Neerzetten' = plaatsen."
+          "0": "Opzetten = oprichten. Je start geen project — je maakt thee.",
+          "2": "Aanzetten = inschakelen. Thee schakel je niet in.",
+          "3": "Neerzetten = plaatsen. Je maakt de thee eerst — neerzetten komt daarna."
         },
-        "hint": "Thee maken."
+        "hint": "Thee bereiden is een vaste combinatie. Welk werkwoord gebruik je zonder prefix?"
       },
       {
         "sentence": "De directeur heeft de plannen ______.",
@@ -1268,11 +1268,11 @@
         "correct": 3,
         "explanation": "'Uitzetten' = uitstippelen, plannen.",
         "wrongExplanations": {
-          "0": "'Doorzetten' = volhouden.",
-          "1": "'Afzetten' = onttronen.",
-          "2": "'Neerzetten' = plaatsen."
+          "0": "Doorzetten = volhouden. De plannen worden gemaakt — niet volgehouden.",
+          "1": "Afgezet = bedriegen of ontslaan. De directeur maakt plannen — hij bedriegt niemand.",
+          "2": "Neergezet = geplaatst. Plannen zet je niet neer als objecten."
         },
-        "hint": "Plannen uitstippelen."
+        "hint": "De directeur heeft de plannen uitgestippeld. Welk prefix past bij iets uitzetten als route of strategie?"
       },
       {
         "sentence": "Ze zette grote ogen ______.",
@@ -1285,11 +1285,11 @@
         "correct": 2,
         "explanation": "'Grote ogen opzetten' = verbaasd kijken.",
         "wrongExplanations": {
-          "0": "'Afzetten' = bedriegen.",
-          "1": "'Neerzetten' = plaatsen.",
-          "3": "'Inzetten' = gebruiken."
+          "0": "Afzetten = bedriegen of stoppen. Grote ogen afzetten bestaat niet als uitdrukking.",
+          "1": "Neerzetten = plaatsen. Ogen zet je niet neer.",
+          "3": "Inzetten = gebruiken. Ogen inzetten bestaat niet als uitdrukking voor verbazing."
         },
-        "hint": "Een uitdrukking voor verbazing."
+        "hint": "Ze keek verbaasd. Welk prefix past bij deze uitdrukking voor verbazing?"
       },
       {
         "sentence": "Kun je me even bij de supermarkt ______?",
@@ -1302,11 +1302,11 @@
         "correct": 1,
         "explanation": "'Afzetten' = iemand laten uitstappen.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = een voorwerp plaatsen.",
-          "2": "'Opzetten' = oprichten.",
-          "3": "'Uitzetten' = uitschakelen."
+          "0": "Neerzetten = een voorwerp plaatsen. Je bent een persoon, geen object om neer te zetten.",
+          "2": "Opzetten = oprichten. Er wordt niets opgericht bij de supermarkt.",
+          "3": "Uitzetten = uitschakelen of verbannen. Je wordt niet uitgeschakeld — je stapt uit."
         },
-        "hint": "Iemand bij een locatie laten uitstappen."
+        "hint": "Je wilt bij de supermarkt uitstappen. Welk prefix past bij iemand laten uitstappen?"
       },
       {
         "sentence": "Na de breuk heeft hij alles op alles ______.",
@@ -1319,11 +1319,11 @@
         "correct": 3,
         "explanation": "'Alles op alles zetten' = al je energie erin stoppen.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = plaatsen.",
-          "1": "'Opzetten' = oprichten.",
-          "2": "'Afzetten' = bedriegen."
+          "0": "Neerzetten = plaatsen. 'Alles op alles neerzetten' bestaat niet als uitdrukking.",
+          "1": "Opzetten = oprichten. 'Alles op alles opzetten' bestaat niet als uitdrukking.",
+          "2": "Afzetten = bedriegen. Hij probeert alles — hij bedriegt niemand."
         },
-        "hint": "Al je energie ergens in stoppen."
+        "hint": "Hij heeft alle moeite gedaan. Welk werkwoord past bij 'alles op alles' als vaste uitdrukking?"
       },
       {
         "sentence": "De muziek staat te hard. Kun je het ______?",
@@ -1336,11 +1336,11 @@
         "correct": 2,
         "explanation": "'Zachter zetten' = volume verlagen.",
         "wrongExplanations": {
-          "0": "'Uitzetten' = helemaal uit.",
-          "1": "'Afzetten' = bedriegen.",
-          "3": "'Neerzetten' = plaatsen."
+          "0": "Uitzetten = de muziek helemaal stoppen. Maar je wilt hem nog horen — alleen stiller.",
+          "1": "Afzetten = uitschakelen of bedriegen. Ook hier verdwijnt de muziek volledig — dat wil je niet.",
+          "3": "Neerzetten = een object plaatsen. Muziek zet je niet neer als een vaas."
         },
-        "hint": "Volume verlagen, niet helemaal uit."
+        "hint": "Je wilt het volume verlagen, niet uitschakelen. Welk werkwoord past daarbij?"
       },
       {
         "sentence": "Het is belangrijk je beste beentje voor te ______.",
@@ -1353,11 +1353,11 @@
         "correct": 3,
         "explanation": "'Je beste beentje voorzetten' = je best doen.",
         "wrongExplanations": {
-          "0": "'Neerzetten' = plaatsen.",
-          "1": "'Opzetten' = oprichten.",
-          "2": "'Afzetten' = bedriegen."
+          "0": "Neerzetten = plaatsen. 'Je beste beentje neerZetten' bestaat niet als uitdrukking.",
+          "1": "Opzetten = oprichten. 'Je beste beentje opzetten' bestaat niet als uitdrukking.",
+          "2": "Afzetten = bedriegen of stoppen. 'Je beste beentje afzetten' bestaat niet als uitdrukking."
         },
-        "hint": "Je best doen."
+        "hint": "Je moet je best doen. Welk werkwoord past bij 'je beste beentje' als vaste uitdrukking?"
       },
       {
         "sentence": "Zet je handtekening hier ______.",
@@ -1370,11 +1370,11 @@
         "correct": 1,
         "explanation": "'Neerzetten' = je handtekening plaatsen.",
         "wrongExplanations": {
-          "0": "'Afzetten' = afsluiten.",
-          "2": "'Opzetten' = oprichten.",
-          "3": "'Doorzetten' = volhouden."
+          "0": "Afzetten = bedriegen of stoppen. Een handtekening afzetten bestaat niet.",
+          "2": "Opzetten = oprichten of op je gezicht plaatsen. Een handtekening richt je niet op.",
+          "3": "Doorzetten = volhouden. Je zet één handtekening — er is niets om vol te houden."
         },
-        "hint": "Een handtekening plaatsen."
+        "hint": "Je plaatst je handtekening op papier. Welk prefix past bij plaatsen op een oppervlak?"
       },
       {
         "sentence": "Na het sporten moet je de kraan ______.",
@@ -1387,11 +1387,11 @@
         "correct": 1,
         "explanation": "'Openzetten' = de kraan opendraaien.",
         "wrongExplanations": {
-          "0": "'Dichtzetten' = de kraan sluiten.",
-          "2": "'Opzetten' = oprichten.",
-          "3": "'Aanzetten' = inschakelen."
+          "0": "Dichtzetten = de kraan sluiten. Na het sporten wil je water — je opent de kraan, je sluit hem niet.",
+          "2": "Opzetten = oprichten of op je neus plaatsen. Een kraan richt je niet op.",
+          "3": "Aanzetten = inschakelen. Een kraan schakel je niet in — je opent hem."
         },
-        "hint": "Water laten stromen."
+        "hint": "Je wilt water na het sporten. Welk prefix past bij het openen van een kraan?"
       }
     ],
     "nemen": [
@@ -1406,11 +1406,11 @@
         "correct": 0,
         "explanation": "'Opnemen' = in het ziekenhuis laten blijven.",
         "wrongExplanations": {
-          "1": "'Aangenomen' = geaccepteerd (baan).",
-          "2": "'Ingenomen' = medicijn slikken.",
-          "3": "'Afgenomen' = verminderen."
+          "1": "Aannemen = zelf ja zeggen (baan, aanbod). De patiënt kiest dit niet zelf — hij wordt geplaatst.",
+          "2": "Innemen = medicijn slikken of een stad veroveren. Je slikt het ziekenhuis niet in.",
+          "3": "Afnemen = verminderen of wegnemen. De patiënt wordt niet weggenomen — hij blijft juist."
         },
-        "hint": "Denk aan wat er in een ziekenhuis gebeurt."
+        "hint": "De patiënt blijft in het ziekenhuis. Welk prefix past bij 'ergens in geplaatst worden'?"
       },
       {
         "sentence": "Ze heeft het aanbod direct ______.",
@@ -1423,11 +1423,11 @@
         "correct": 1,
         "explanation": "'Aannemen' = accepteren.",
         "wrongExplanations": {
-          "0": "'Opnemen' = in ziekenhuis/telefoon.",
-          "2": "'Afnemen' = verminderen.",
-          "3": "'Innemen' = medicijnen."
+          "0": "Opnemen = in het ziekenhuis plaatsen of opnemen op video. Een aanbod neem je niet op zoals een film.",
+          "2": "Afnemen = verminderen of wegnemen. Ze accepteert het aanbod — ze neemt het niet weg.",
+          "3": "Innemen = medicijn slikken of een stad veroveren. Een aanbod is geen medicijn of stad."
         },
-        "hint": "Een aanbod accepteren."
+        "hint": "Ze zei ja op het aanbod. Welk prefix past bij 'accepteren'?"
       },
       {
         "sentence": "Het aantal klachten is de afgelopen maand ______.",
@@ -1440,11 +1440,11 @@
         "correct": 3,
         "explanation": "'Afnemen' = verminderen.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Aannemen' = accepteren.",
-          "2": "'Toenemen' = meer worden (tegenovergestelde)."
+          "0": "Opgenomen = geplaatst of vastgelegd. Klachten worden niet vastgelegd als ze verminderen.",
+          "1": "Aangenomen = geaccepteerd. Klachten accepteer je niet — ze verminderen of groeien.",
+          "2": "Toegenomen = gegroeid. Dat is het tegenovergestelde — er zijn nu juist mínder klachten."
         },
-        "hint": "Er zijn nu minder klachten."
+        "hint": "Er zijn nu minder klachten dan vorige maand. Welk prefix past bij verminderen?"
       },
       {
         "sentence": "De bevolking van de stad is sterk ______.",
@@ -1457,11 +1457,11 @@
         "correct": 3,
         "explanation": "'Toenemen' = groeien.",
         "wrongExplanations": {
-          "0": "'Afnemen' = verminderen.",
-          "1": "'Aannemen' = accepteren.",
-          "2": "'Opnemen' = opnemen."
+          "0": "Afgenomen = verminderd. Dat is het tegenovergestelde — de stad groeit.",
+          "1": "Aangenomen = geaccepteerd. Een bevolking accepteer je niet.",
+          "2": "Opgenomen = geplaatst of vastgelegd. Een bevolking wordt niet opgenomen als patiënt."
         },
-        "hint": "De stad groeit."
+        "hint": "De stad heeft nu meer inwoners. Welk prefix past bij groeien?"
       },
       {
         "sentence": "Heb je je medicijnen al ______?",
@@ -1474,11 +1474,11 @@
         "correct": 1,
         "explanation": "'Innemen' = medicijnen slikken.",
         "wrongExplanations": {
-          "0": "'Aannemen' = accepteren.",
-          "2": "'Opnemen' = opnemen.",
-          "3": "'Afnemen' = verminderen."
+          "0": "Aangenomen = geaccepteerd. Je accepteert medicijnen niet — je slikt ze.",
+          "2": "Opgenomen = geplaatst in het ziekenhuis of vastgelegd. Je wordt niet in het ziekenhuis geplaatst door medicijnen te slikken.",
+          "3": "Afgenomen = verminderd of weggenomen. De medicijnen worden niet weggenomen — jij neemt ze in."
         },
-        "hint": "Medicijnen slikken."
+        "hint": "Medicijnen slikken heeft een vaste combinatie. Welk prefix past bij 'naar binnen nemen'?"
       },
       {
         "sentence": "De politie heeft de dief ______.",
@@ -1491,11 +1491,11 @@
         "correct": 1,
         "explanation": "'Meenemen' = met je meenemen (arresteren).",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "2": "'Aannemen' = accepteren.",
-          "3": "'Innemen' = medicijnen."
+          "0": "Opgenomen = in het ziekenhuis geplaatst of vastgelegd. De dief is niet ziek.",
+          "2": "Aangenomen = geaccepteerd of aangesteld. De politie stelt de dief niet aan.",
+          "3": "Ingenomen = geslikt of veroverd. De politie verovert de dief niet — ze neemt hem mee."
         },
-        "hint": "De politie neemt de dief mee."
+        "hint": "De politie neemt de dief mee naar het bureau. Welk prefix past bij 'samen meenemen'?"
       },
       {
         "sentence": "Ik neem ______ dat je morgen komt.",
@@ -1508,11 +1508,11 @@
         "correct": 3,
         "explanation": "'Aannemen' = veronderstellen.",
         "wrongExplanations": {
-          "0": "'Afnemen' = verminderen.",
-          "1": "'Innemen' = medicijnen.",
-          "2": "'Opnemen' = opnemen."
+          "0": "Afnemen = verminderen. Je veronderstelling vermindert niet.",
+          "1": "Innemen = medicijnen of een stad. Je slikt geen veronderstelling.",
+          "2": "Opnemen = plaatsen of vastleggen. Je legt geen veronderstelling vast."
         },
-        "hint": "Veronderstellen."
+        "hint": "Je gaat ervan uit dat iemand komt. Welk prefix past bij 'veronderstellen'?"
       },
       {
         "sentence": "Het bedrijf heeft tien nieuwe medewerkers ______.",
@@ -1525,11 +1525,11 @@
         "correct": 3,
         "explanation": "'Aannemen' = in dienst nemen.",
         "wrongExplanations": {
-          "0": "'Afnemen' = verminderen.",
-          "1": "'Innemen' = medicijnen.",
-          "2": "'Opnemen' = opnemen."
+          "0": "Afgenomen = verminderd of weggenomen. Het bedrijf groeit — het neemt aan, niet af.",
+          "1": "Ingenomen = geslikt of veroverd. Medewerkers veroveren is niet van toepassing.",
+          "2": "Opgenomen = in het ziekenhuis geplaatst of vastgelegd. Medewerkers worden aangesteld, niet opgenomen."
         },
-        "hint": "Nieuwe werknemers."
+        "hint": "Het bedrijf heeft nieuwe mensen aangesteld. Welk prefix past bij in dienst nemen?"
       },
       {
         "sentence": "Kun je de telefoon even ______?",
@@ -1542,11 +1542,11 @@
         "correct": 1,
         "explanation": "'Opnemen' = de telefoon beantwoorden.",
         "wrongExplanations": {
-          "0": "'Aannemen' = accepteren.",
-          "2": "'Meenemen' = mee nemen.",
-          "3": "'Afnemen' = verminderen."
+          "0": "Aannemen = accepteren of veronderstellen. Een telefoontje aannemen klinkt logisch, maar de vaste combinatie is opnemen.",
+          "2": "Meenemen = met je meenemen. De telefoon gaat — je beantwoordt hem, je neemt hem niet mee.",
+          "3": "Afnemen = verminderen of wegnemen. Een telefoon neemt niet af."
         },
-        "hint": "De telefoon beantwoorden."
+        "hint": "De telefoon gaat en jij moet hem beantwoorden. Welk prefix past bij 'iets in ontvangst nemen'?"
       },
       {
         "sentence": "De leraar heeft vandaag een toets ______.",
@@ -1559,11 +1559,11 @@
         "correct": 3,
         "explanation": "'Een toets afnemen' = een toets geven.",
         "wrongExplanations": {
-          "0": "'Innemen' = medicijnen.",
-          "1": "'Opnemen' = opnemen.",
-          "2": "'Aannemen' = accepteren."
+          "0": "Ingenomen = geslikt of een positie ingenomen. De leraar slikt de toets niet.",
+          "1": "Opgenomen = vastgelegd of geplaatst. Een toets wordt niet opgenomen als een film.",
+          "2": "Aangenomen = geaccepteerd. De leraar accepteert de toets niet — hij geeft hem."
         },
-        "hint": "De leraar geeft een toets."
+        "hint": "De leraar geeft de klas een toets. Welk prefix past bij 'iets van iemand afnemen' als handeling?"
       },
       {
         "sentence": "Ze heeft ontslag ______.",
@@ -1576,11 +1576,11 @@
         "correct": 3,
         "explanation": "'Ontslag nemen' = zelf je baan opzeggen.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Innemen' = medicijnen.",
-          "2": "'Aannemen' = accepteren."
+          "0": "Opgenomen = geplaatst of vastgelegd. Ontslag wordt niet opgenomen als een film.",
+          "1": "Ingenomen = geslikt of een positie. Ontslag innemen bestaat niet.",
+          "2": "Aangenomen = geaccepteerd. Ontslag aannemen = ontslagen worden. Hier neemt ze zelf ontslag."
         },
-        "hint": "Zelf beslissen te stoppen."
+        "hint": "Ze heeft zelf besloten te stoppen met werken. Welk werkwoord past bij 'ontslag' als vaste combinatie?"
       },
       {
         "sentence": "Vergeet niet je paraplu ______ te nemen.",
@@ -1593,11 +1593,11 @@
         "correct": 2,
         "explanation": "'Meenemen' = met je mee nemen.",
         "wrongExplanations": {
-          "0": "'Afnemen' = verminderen.",
-          "1": "'Innemen' = medicijnen.",
-          "3": "'Opnemen' = opnemen."
+          "0": "Afnemen = verminderen of wegnemen. De paraplu wordt niet weggenomen.",
+          "1": "Innemen = medicijnen of een stad. Een paraplu slik je niet in.",
+          "3": "Opnemen = plaatsen of vastleggen. Een paraplu neem je niet op als film."
         },
-        "hint": "Je paraplu niet vergeten."
+        "hint": "Je neemt de paraplu mee op weg naar buiten. Welk prefix past bij 'samen nemen'?"
       },
       {
         "sentence": "De documentaire is vorige week ______.",
@@ -1610,11 +1610,11 @@
         "correct": 2,
         "explanation": "'Opnemen' = vastleggen op video.",
         "wrongExplanations": {
-          "0": "'Afnemen' = verminderen.",
-          "1": "'Aannemen' = accepteren.",
-          "3": "'Innemen' = medicijnen."
+          "0": "Afgenomen = verminderd of weggenomen. Een documentaire wordt niet weggenomen.",
+          "1": "Aangenomen = geaccepteerd. Een documentaire accepteer je niet — je filmt hem.",
+          "3": "Ingenomen = geslikt of veroverd. Een documentaire is geen medicijn of stad."
         },
-        "hint": "Een documentaire die gefilmd is."
+        "hint": "De documentaire is gefilmd. Welk prefix past bij vastleggen op video?"
       },
       {
         "sentence": "Hij heeft veel risico ______.",
@@ -1627,11 +1627,11 @@
         "correct": 2,
         "explanation": "'Risico nemen' = een risico aanvaarden.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Afnemen' = verminderen.",
-          "3": "'Innemen' = medicijnen."
+          "0": "Opgenomen = geplaatst of vastgelegd. Een risico wordt niet vastgelegd.",
+          "1": "Afgenomen = verminderd. Het risico neemt niet af — hij neemt het bewust.",
+          "3": "Ingenomen = geslikt of een positie. Een risico innemen bestaat niet als combinatie."
         },
-        "hint": "Een gevaarlijke beslissing."
+        "hint": "Hij accepteerde bewust het gevaar. Welk werkwoord past bij 'risico' als vaste combinatie?"
       },
       {
         "sentence": "De stad werd in 1945 door het leger ______.",
@@ -1644,11 +1644,11 @@
         "correct": 2,
         "explanation": "'Innemen' = veroveren.",
         "wrongExplanations": {
-          "0": "'Aannemen' = accepteren.",
-          "1": "'Opnemen' = opnemen.",
-          "3": "'Afnemen' = verminderen."
+          "0": "Aangenomen = geaccepteerd. Een stad accepteer je niet — je verovert hem.",
+          "1": "Opgenomen = vastgelegd of geplaatst. Een stad wordt niet opgenomen als film.",
+          "3": "Afgenomen = verminderd of weggenomen. De stad wordt veroverd — niet weggenomen."
         },
-        "hint": "Een stad veroveren."
+        "hint": "Het leger veroverde de stad. Welk prefix past bij 'naar binnen nemen' in militaire context?"
       },
       {
         "sentence": "De wind is in kracht ______.",
@@ -1661,11 +1661,11 @@
         "correct": 2,
         "explanation": "'Toenemen' = sterker worden.",
         "wrongExplanations": {
-          "0": "'Afnemen' = minder worden.",
-          "1": "'Aannemen' = accepteren.",
-          "3": "'Opnemen' = opnemen."
+          "0": "Afgenomen = verminderd. Dat is het tegenovergestelde — de wind wordt sterker.",
+          "1": "Aangenomen = geaccepteerd. Wind accepteer je niet.",
+          "3": "Opgenomen = geplaatst of vastgelegd. Wind wordt niet vastgelegd als hij sterker wordt."
         },
-        "hint": "De wind wordt sterker."
+        "hint": "De wind is sterker geworden. Welk prefix past bij groeien of sterker worden?"
       },
       {
         "sentence": "Ik heb een dag vrij ______.",
@@ -1678,11 +1678,11 @@
         "correct": 2,
         "explanation": "'Vrij nemen' = een vrije dag nemen.",
         "wrongExplanations": {
-          "0": "'Aannemen' = accepteren.",
-          "1": "'Innemen' = medicijnen.",
-          "3": "'Opnemen' = opnemen."
+          "0": "Aangenomen = geaccepteerd of aangesteld. Vrij aannemen bestaat niet als combinatie.",
+          "1": "Ingenomen = geslikt of veroverd. Een vrije dag slik je niet in.",
+          "3": "Opgenomen = geplaatst of vastgelegd. Vrij opnemen kan (verlofdag opnemen), maar de vaste combinatie is vrij nemen."
         },
-        "hint": "Een dag niet werken."
+        "hint": "Je hebt besloten vandaag niet te werken. Welk werkwoord past bij 'vrij' als vaste combinatie?"
       },
       {
         "sentence": "De directeur heeft het besluit ______.",
@@ -1695,11 +1695,11 @@
         "correct": 3,
         "explanation": "'Een besluit nemen' = beslissen.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Afnemen' = verminderen.",
-          "2": "'Innemen' = veroveren."
+          "0": "Opgenomen = geplaatst of vastgelegd. Een besluit wordt niet vastgelegd — het wordt genomen.",
+          "1": "Afgenomen = verminderd of weggenomen. Het besluit wordt niet weggenomen.",
+          "2": "Ingenomen = geslikt of een positie. Een besluit innemen bestaat niet."
         },
-        "hint": "Een beslissing maken."
+        "hint": "De directeur heeft een beslissing gemaakt. Welk werkwoord past bij 'besluit' als vaste combinatie?"
       },
       {
         "sentence": "Ze werden gastvrij ______ door de familie.",
@@ -1712,11 +1712,11 @@
         "correct": 1,
         "explanation": "'Opnemen' = verwelkomen, als lid accepteren.",
         "wrongExplanations": {
-          "0": "'Aannemen' = accepteren (baan).",
-          "2": "'Innemen' = veroveren.",
-          "3": "'Meenemen' = mee nemen."
+          "0": "Aangenomen = geaccepteerd (baan) of verondersteld. Gastvrijheid gaat verder dan accepteren — je wordt in de familie opgenomen.",
+          "2": "Ingenomen = geslikt of veroverd. Je wordt niet veroverd door de familie.",
+          "3": "Meegenomen = meegebracht. Ze werden verwelkomd — niet meegenomen als een tas."
         },
-        "hint": "Gastvrij verwelkomd worden."
+        "hint": "Ze werden als familie verwelkomd. Welk prefix past bij 'ergens in opgenomen worden'?"
       },
       {
         "sentence": "De kosten zijn flink ______.",
@@ -1729,11 +1729,11 @@
         "correct": 2,
         "explanation": "'Toenemen' = stijgen.",
         "wrongExplanations": {
-          "0": "'Afnemen' = dalen.",
-          "1": "'Aannemen' = accepteren.",
-          "3": "'Innemen' = veroveren."
+          "0": "Afgenomen = gedaald. Dat is het tegenovergestelde — de kosten zijn juist gestegen.",
+          "1": "Aangenomen = geaccepteerd. Kosten accepteer je niet — ze stijgen of dalen.",
+          "3": "Ingenomen = geslikt of een positie. Kosten slik je niet."
         },
-        "hint": "De kosten zijn gestegen."
+        "hint": "De kosten zijn gestegen. Welk prefix past bij groeien of stijgen?"
       },
       {
         "sentence": "De interviewer heeft het gesprek ______.",
@@ -1746,11 +1746,11 @@
         "correct": 0,
         "explanation": "'Een gesprek afnemen' = het interview houden.",
         "wrongExplanations": {
-          "1": "'Opnemen' = vastleggen op video.",
-          "2": "'Aannemen' = accepteren.",
-          "3": "'Innemen' = veroveren."
+          "1": "Opgenomen = vastgelegd op video. Het gesprek kan ook opgenomen zijn, maar hier gaat het om het houden van het interview zelf.",
+          "2": "Aangenomen = geaccepteerd. De interviewer accepteert het gesprek niet — hij voert het.",
+          "3": "Ingenomen = geslikt of veroverd. Een gesprek innemen bestaat niet."
         },
-        "hint": "De interviewer voert het gesprek."
+        "hint": "De interviewer voerde het gesprek. Welk prefix past bij 'iets van iemand afnemen' als handeling?"
       },
       {
         "sentence": "We willen afscheid ______ van onze collega.",
@@ -1763,11 +1763,11 @@
         "correct": 2,
         "explanation": "'Afscheid nemen' = gedag zeggen.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Innemen' = veroveren.",
-          "3": "'Afnemen' = verminderen."
+          "0": "Opnemen = vastleggen of plaatsen. Afscheid wordt niet vastgelegd.",
+          "1": "Innemen = slikken of veroveren. Afscheid innemen bestaat niet.",
+          "3": "Afnemen = verminderen of wegnemen. Afscheid afnemen bestaat niet — de vaste combinatie is nemen."
         },
-        "hint": "Gedag zeggen."
+        "hint": "Je zegt gedag. Welk werkwoord past bij 'afscheid' als vaste combinatie?"
       },
       {
         "sentence": "De tafel neemt veel ruimte ______.",
@@ -1780,11 +1780,11 @@
         "correct": 3,
         "explanation": "'Innemen' = ruimte in beslag nemen.",
         "wrongExplanations": {
-          "0": "'Afnemen' = verminderen.",
-          "1": "'Opnemen' = opnemen.",
-          "2": "'Aannemen' = accepteren."
+          "0": "Afnemen = verminderen. De ruimte wordt niet minder — de tafel bezet haar.",
+          "1": "Opnemen = vastleggen of plaatsen. De tafel legt geen ruimte vast.",
+          "2": "Aannemen = accepteren. De tafel accepteert geen ruimte."
         },
-        "hint": "De tafel is groot."
+        "hint": "De tafel bezet een groot deel van de kamer. Welk prefix past bij 'in beslag nemen'?"
       },
       {
         "sentence": "Hij moet de gevolgen op zich ______.",
@@ -1797,11 +1797,11 @@
         "correct": 2,
         "explanation": "'Op zich nemen' = verantwoordelijkheid aanvaarden.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Aannemen' = accepteren.",
-          "3": "'Innemen' = veroveren."
+          "0": "Opnemen = vastleggen of in het ziekenhuis plaatsen. Verantwoordelijkheid neem je niet op als film.",
+          "1": "Aannemen = accepteren of veronderstellen. Op zich aannemen bestaat niet als combinatie.",
+          "3": "Innemen = slikken of veroveren. Verantwoordelijkheid innemen bestaat niet."
         },
-        "hint": "Verantwoordelijkheid aanvaarden."
+        "hint": "Hij accepteert de verantwoordelijkheid. Welk werkwoord past bij 'op zich' als vaste combinatie?"
       },
       {
         "sentence": "Ze is erg ______ met het cadeau.",
@@ -1814,11 +1814,11 @@
         "correct": 2,
         "explanation": "'Ingenomen zijn met' = blij zijn met.",
         "wrongExplanations": {
-          "0": "'Opgenomen' = in het ziekenhuis.",
-          "1": "'Aangenomen' = geaccepteerd.",
-          "3": "'Afgenomen' = verminderd."
+          "0": "Opgenomen = in het ziekenhuis geplaatst of vastgelegd. Ze is niet ziek — ze is blij.",
+          "1": "Aangenomen = geaccepteerd. Ze is niet alleen accepterend — ze is erg blij.",
+          "3": "Afgenomen = verminderd of weggenomen. Het cadeau wordt niet weggenomen."
         },
-        "hint": "Ze is heel blij."
+        "hint": "Ze is heel blij met het cadeau. Welk prefix past bij 'blij zijn met iets' als vaste uitdrukking?"
       },
       {
         "sentence": "Het concert werd live ______.",
@@ -1831,11 +1831,11 @@
         "correct": 3,
         "explanation": "'Opnemen' = vastleggen op audio/video.",
         "wrongExplanations": {
-          "0": "'Afnemen' = verminderen.",
-          "1": "'Aannemen' = accepteren.",
-          "2": "'Innemen' = veroveren."
+          "0": "Afgenomen = verminderd of weggenomen. Het concert wordt vastgelegd — niet weggenomen.",
+          "1": "Aangenomen = geaccepteerd. Een concert accepteer je niet — je legt het vast.",
+          "2": "Ingenomen = geslikt of veroverd. Een concert is geen medicijn of stad."
         },
-        "hint": "Het concert werd gefilmd."
+        "hint": "Het concert werd gefilmd en vastgelegd. Welk prefix past bij vastleggen op video?"
       },
       {
         "sentence": "Neem me niet ______, maar ik ben het niet eens.",
@@ -1848,11 +1848,11 @@
         "correct": 1,
         "explanation": "'Kwalijk nemen' = verwijten.",
         "wrongExplanations": {
-          "0": "'Afnemen' = verminderen.",
-          "2": "'Innemen' = veroveren.",
-          "3": "'Opnemen' = opnemen."
+          "0": "Afnemen = verminderen. 'Me niet afnemen' bestaat niet als uitdrukking.",
+          "2": "Innemen = slikken of veroveren. 'Me niet innemen' bestaat niet als uitdrukking.",
+          "3": "Opnemen = vastleggen. 'Me niet opnemen' heeft een andere betekenis."
         },
-        "hint": "Beleefde manier om het oneens te zijn."
+        "hint": "Dit is een vaste uitdrukking voor beleefd bezwaar maken. Het woord betekent 'slecht' of 'verkeerd'."
       },
       {
         "sentence": "De dokter heeft bloed bij me ______.",
@@ -1865,11 +1865,11 @@
         "correct": 3,
         "explanation": "'Bloed afnemen' = bloed prikken.",
         "wrongExplanations": {
-          "0": "'Innemen' = medicijnen.",
-          "1": "'Opnemen' = opnemen.",
-          "2": "'Aannemen' = accepteren."
+          "0": "Ingenomen = geslikt of veroverd. Bloed slik je niet in — het wordt uit je lichaam gehaald.",
+          "1": "Opgenomen = geplaatst of vastgelegd. Bloed wordt niet opgenomen als film.",
+          "2": "Aangenomen = geaccepteerd. De dokter accepteert geen bloed — hij neemt het af."
         },
-        "hint": "Een bloedtest."
+        "hint": "De dokter pakt bloed uit je arm. Welk prefix past bij iets weghalen van iemand?"
       },
       {
         "sentence": "Het standpunt dat de minister heeft ______.",
@@ -1882,11 +1882,11 @@
         "correct": 3,
         "explanation": "'Een standpunt innemen' = een mening kiezen.",
         "wrongExplanations": {
-          "0": "'Afnemen' = verminderen.",
-          "1": "'Opnemen' = opnemen.",
-          "2": "'Aannemen' = accepteren."
+          "0": "Afgenomen = verminderd of weggenomen. Een standpunt wordt niet weggenomen — het wordt ingenomen.",
+          "1": "Opgenomen = vastgelegd of geplaatst. Een standpunt neem je in als positie, niet als opname.",
+          "2": "Aangenomen = geaccepteerd of verondersteld. Een standpunt aannemen = een mening accepteren van iemand anders. Innemen = zelf een positie kiezen."
         },
-        "hint": "Een positie kiezen."
+        "hint": "De minister koos een positie. Welk prefix past bij 'een positie claimen'?"
       },
       {
         "sentence": "Het voorstel werd unaniem ______.",
@@ -1899,11 +1899,11 @@
         "correct": 3,
         "explanation": "'Aannemen' = goedkeuren.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Innemen' = veroveren.",
-          "2": "'Afnemen' = verminderen."
+          "0": "Opgenomen = geplaatst of vastgelegd. Een voorstel wordt niet vastgelegd als het goedgekeurd wordt.",
+          "1": "Ingenomen = geslikt of een positie. Een voorstel innemen bestaat niet.",
+          "2": "Afgenomen = verminderd. Het voorstel wordt goedgekeurd — niet weggenomen."
         },
-        "hint": "Het voorstel werd goedgekeurd."
+        "hint": "Iedereen stemde voor het voorstel. Welk prefix past bij goedkeuren?"
       },
       {
         "sentence": "Hij heeft het ______ voor zijn kleine broertje.",
@@ -1916,11 +1916,11 @@
         "correct": 0,
         "explanation": "'Het opnemen voor' = verdedigen.",
         "wrongExplanations": {
-          "1": "'Aannemen' = accepteren.",
-          "2": "'Afnemen' = verminderen.",
-          "3": "'Innemen' = veroveren."
+          "1": "Aangenomen = geaccepteerd. Je verdedigt iemand — je accepteert hem niet.",
+          "2": "Afgenomen = verminderd of weggenomen. Je neemt het op voor iemand — je neemt niets weg.",
+          "3": "Ingenomen = geslikt of veroverd. Je verovert niemand door hen te verdedigen."
         },
-        "hint": "Iemand verdedigen."
+        "hint": "Hij verdedigde zijn broertje. Welk prefix past bij 'opkomen voor iemand'?"
       },
       {
         "sentence": "De rechter heeft hem zijn rijbewijs ______.",
@@ -1933,11 +1933,11 @@
         "correct": 3,
         "explanation": "'Afnemen' = wegnemen, in beslag nemen.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Aannemen' = accepteren.",
-          "2": "'Innemen' = veroveren."
+          "0": "Opgenomen = geplaatst of vastgelegd. Het rijbewijs wordt weggenomen — niet vastgelegd.",
+          "1": "Aangenomen = geaccepteerd. De rechter accepteert het rijbewijs niet — hij neemt het af.",
+          "2": "Ingenomen = geslikt of een positie. Een rijbewijs slik je niet."
         },
-        "hint": "Rijbewijs in beslag genomen."
+        "hint": "De rechter heeft het rijbewijs weggenomen. Welk prefix past bij iets van iemand weghalen?"
       },
       {
         "sentence": "Wil je een hapje van mijn cake ______?",
@@ -1950,11 +1950,11 @@
         "correct": 3,
         "explanation": "'Een hapje nemen' = een stukje eten.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Aannemen' = accepteren.",
-          "2": "'Meenemen' = mee nemen."
+          "0": "Opnemen = vastleggen of plaatsen. Een hapje leg je niet vast.",
+          "1": "Aannemen = accepteren of veronderstellen. Een hapje aannemen klinkt formeel — de vaste combinatie is gewoon nemen.",
+          "2": "Meenemen = meebrengen. Een hapje eet je ter plekke — je neemt het niet mee."
         },
-        "hint": "Een stukje eten."
+        "hint": "Je eet een stukje cake. Welk werkwoord gebruik je zonder prefix voor 'een hapje'?"
       },
       {
         "sentence": "De vluchtelingen werden in het programma ______.",
@@ -1967,11 +1967,11 @@
         "correct": 2,
         "explanation": "'Opnemen in' = toelaten, includeren.",
         "wrongExplanations": {
-          "0": "'Afnemen' = verminderen.",
-          "1": "'Aannemen' = accepteren.",
-          "3": "'Innemen' = veroveren."
+          "0": "Afgenomen = verminderd of weggenomen. Ze worden toegelaten — niet weggenomen.",
+          "1": "Aangenomen = geaccepteerd (baan). In een programma opnemen gaat verder dan accepteren — ze worden deel van het programma.",
+          "3": "Ingenomen = geslikt of veroverd. Ze worden niet veroverd door het programma."
         },
-        "hint": "Toegelaten tot een programma."
+        "hint": "Ze werden deel van het programma gemaakt. Welk prefix past bij 'ergens in geplaatst worden'?"
       },
       {
         "sentence": "De maatregelen werden zonder discussie ______.",
@@ -1984,11 +1984,11 @@
         "correct": 3,
         "explanation": "'Aannemen' = goedkeuren.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Afnemen' = verminderen.",
-          "2": "'Overnemen' = van iemand anders overnemen."
+          "0": "Opgenomen = geplaatst of vastgelegd. Maatregelen worden goedgekeurd — niet vastgelegd.",
+          "1": "Afgenomen = verminderd. De maatregelen worden goedgekeurd — niet afgeschaft.",
+          "2": "Overgenomen = van iemand anders overgenomen. De maatregelen zijn nieuw — niet overgenomen."
         },
-        "hint": "De maatregelen werden goedgekeurd."
+        "hint": "De maatregelen werden goedgekeurd. Welk prefix past bij accepteren of goedkeuren?"
       },
       {
         "sentence": "Ze heeft wraak ______ op haar ex.",
@@ -2001,11 +2001,11 @@
         "correct": 2,
         "explanation": "'Wraak nemen' = je wreken.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Innemen' = veroveren.",
-          "3": "'Afnemen' = verminderen."
+          "0": "Opgenomen = vastgelegd of geplaatst. Wraak wordt niet vastgelegd als film.",
+          "1": "Ingenomen = geslikt of veroverd. Wraak innemen bestaat niet.",
+          "3": "Afgenomen = verminderd of weggenomen. Wraak afnemen bestaat niet als combinatie."
         },
-        "hint": "Iemand terugpakken."
+        "hint": "Ze heeft zich gewroken. Welk werkwoord past bij 'wraak' als vaste combinatie?"
       },
       {
         "sentence": "Ik laat me niet te grazen ______.",
@@ -2018,11 +2018,11 @@
         "correct": 2,
         "explanation": "'Te grazen nemen' = iemand een lesje leren.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Aannemen' = accepteren.",
-          "3": "'Innemen' = veroveren."
+          "0": "Opnemen = vastleggen of plaatsen. 'Te grazen opnemen' bestaat niet als uitdrukking.",
+          "1": "Aannemen = accepteren. 'Te grazen aannemen' bestaat niet als uitdrukking.",
+          "3": "Innemen = slikken of veroveren. 'Te grazen innemen' bestaat niet als uitdrukking."
         },
-        "hint": "Iemand een lesje leren."
+        "hint": "Dit is een vaste uitdrukking. Je wilt niet voor de gek worden gehouden. Welk werkwoord past?"
       },
       {
         "sentence": "De brand heeft enorm in kracht ______.",
@@ -2035,11 +2035,11 @@
         "correct": 1,
         "explanation": "'In kracht aannemen' = sterker worden (brand).",
         "wrongExplanations": {
-          "0": "'Afnemen' = minder worden.",
-          "2": "'Innemen' = veroveren.",
-          "3": "'Opnemen' = opnemen."
+          "0": "Afgenomen = verminderd. Dat is het tegenovergestelde — de brand wordt sterker.",
+          "2": "Ingenomen = geslikt of veroverd. Een brand verovert niets — hij wordt sterker.",
+          "3": "Opgenomen = vastgelegd of geplaatst. Een brand wordt niet vastgelegd."
         },
-        "hint": "De brand wordt sterker."
+        "hint": "De brand is sterker geworden. Welk prefix past bij groeien of toenemen?"
       },
       {
         "sentence": "Ze heeft de kritiek niet ______ ______.",
@@ -2052,11 +2052,11 @@
         "correct": 0,
         "explanation": "'Iets goed/slecht opnemen' = reageren op kritiek.",
         "wrongExplanations": {
-          "1": "'Aannemen' = accepteren.",
-          "2": "'Innemen' = veroveren.",
-          "3": "'Afnemen' = verminderen."
+          "1": "Goed aangenomen = geaccepteerd. Iets aannemen is puur accepteren — opnemen gaat over je emotionele reactie.",
+          "2": "Goed ingenomen = een positie. Kritiek innemen bestaat niet als combinatie.",
+          "3": "Goed afgenomen = verminderd. Kritiek neemt niet af."
         },
-        "hint": "Hoe reageer je op kritiek?"
+        "hint": "Ze reageerde slecht op de kritiek. Welk prefix past bij 'reageren op iets'?"
       },
       {
         "sentence": "Zij heeft de leiding op zich ______.",
@@ -2069,11 +2069,11 @@
         "correct": 2,
         "explanation": "'Op zich nemen' = de verantwoordelijkheid op je nemen.",
         "wrongExplanations": {
-          "0": "'Opnemen' = opnemen.",
-          "1": "'Aannemen' = accepteren.",
-          "3": "'Innemen' = veroveren."
+          "0": "Opgenomen = geplaatst of vastgelegd. Leiding wordt niet vastgelegd.",
+          "1": "Aangenomen = geaccepteerd. Op zich aannemen bestaat niet als combinatie.",
+          "3": "Ingenomen = een positie of geslikt. Leiding innemen bestaat niet."
         },
-        "hint": "De leiding overnemen."
+        "hint": "Ze nam de verantwoordelijkheid op zich. Welk werkwoord past bij 'op zich' als vaste combinatie?"
       }
     ],
     "halen": [
@@ -2088,11 +2088,11 @@
         "correct": 1,
         "explanation": "'Ophalen' = iemand ergens gaan halen.",
         "wrongExplanations": {
-          "0": "'Afhalen' = eten afhalen.",
-          "2": "'Inhalen' = voorbijgaan.",
-          "3": "'Bijhalen' bestaat niet standaard."
+          "0": "Afhalen = eten meenemen van een restaurant. Je bent een persoon, geen maaltijd.",
+          "2": "Inhalen = voorbijgaan of achterstand wegwerken. Je staat op het station — je wordt niet gepasseerd.",
+          "3": "Bijhalen bestaat niet als standaard werkwoord in deze context."
         },
-        "hint": "Iemand van een locatie halen."
+        "hint": "Je staat op het station en wacht. Welk prefix past bij iemand gaan ophalen van een locatie?"
       },
       {
         "sentence": "Zullen we vanavond Chinees ______?",
@@ -2105,11 +2105,11 @@
         "correct": 1,
         "explanation": "'Afhalen' = eten ophalen (takeaway).",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand gaan halen.",
-          "2": "'Inhalen' = voorbijgaan.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand van een locatie halen. Chinees eten is geen persoon die ergens staat.",
+          "2": "Inhalen = voorbijgaan of achterstand. Je gaat eten halen — je passeert niets.",
+          "3": "Uithalen = streken uithalen. Chinees uithalen bestaat niet als combinatie."
         },
-        "hint": "Eten meenemen van een restaurant."
+        "hint": "Je gaat eten meenemen van een restaurant. Welk prefix past bij 'meenemen van een zaak'?"
       },
       {
         "sentence": "De auto ______ ons in op de snelweg.",
@@ -2122,11 +2122,11 @@
         "correct": 2,
         "explanation": "'Inhalen' = voorbijgaan.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand ergens gaan halen. De auto haalt geen persoon op — hij rijdt voorbij.",
+          "1": "Afhalen = eten meenemen. De auto neemt ons niet mee als maaltijd.",
+          "3": "Uithalen = streken uithalen. Een auto haalt geen streken uit op de snelweg."
         },
-        "hint": "Voorbijrijden."
+        "hint": "De auto reed sneller en passeerde ons. Welk prefix past bij voorbijgaan?"
       },
       {
         "sentence": "Kun je even diep ______?",
@@ -2139,11 +2139,11 @@
         "correct": 3,
         "explanation": "'Ademhalen' = ademen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "2": "'Inademen' kan, maar 'diep ademhalen' is gebruikelijker."
+          "0": "Ophalen = iemand ergens halen. Je haalt geen persoon op — je ademt.",
+          "1": "Afhalen = eten meenemen. Lucht haal je niet af als maaltijd.",
+          "2": "Inademen kan, maar 'diep ademhalen' is de vaste uitdrukking voor rustig ademen."
         },
-        "hint": "Rustig ademen."
+        "hint": "Je haalt diep adem om te ontspannen. Welk werkwoord is de vaste combinatie voor ademen?"
       },
       {
         "sentence": "Ik moet de gemiste lessen nog ______.",
@@ -2156,11 +2156,11 @@
         "correct": 2,
         "explanation": "'Inhalen' = achterstand wegwerken.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand ergens gaan halen. Lessen staan niet ergens op je te wachten.",
+          "1": "Afhalen = eten meenemen. Lessen zijn geen maaltijd.",
+          "3": "Uithalen = streken uithalen. Lessen uithalen bestaat niet als combinatie."
         },
-        "hint": "Gemiste lessen bijwerken."
+        "hint": "Je hebt lessen gemist en moet de achterstand wegwerken. Welk prefix past bij bijhalen?"
       },
       {
         "sentence": "Ze kon haar diploma niet ______.",
@@ -2173,11 +2173,11 @@
         "correct": 3,
         "explanation": "'Halen' = slagen voor een examen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iemand of iets ergens gaan halen. Ze is niet geslaagd — ze slaagt niet voor een examen door iemand op te halen.",
+          "1": "Afhalen = eten meenemen. Een diploma is geen maaltijd.",
+          "2": "Inhalen = voorbijgaan of achterstand. Ze is gezakt — ze heeft niets in te halen."
         },
-        "hint": "Slagen voor een examen."
+        "hint": "Ze is gezakt voor het examen. Welk werkwoord gebruik je zonder prefix voor 'slagen'?"
       },
       {
         "sentence": "Kan je even herinneringen ______?",
@@ -2190,11 +2190,11 @@
         "correct": 1,
         "explanation": "'Herinneringen ophalen' = terugdenken.",
         "wrongExplanations": {
-          "0": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Afhalen = eten meenemen. Herinneringen zijn geen maaltijd.",
+          "2": "Inhalen = voorbijgaan of achterstand. Herinneringen worden niet ingehaald.",
+          "3": "Uithalen = streken uithalen. Herinneringen haal je niet uit."
         },
-        "hint": "Terugdenken aan mooie momenten."
+        "hint": "Je denkt terug aan het verleden. Welk prefix past bij 'ophalen uit het geheugen'?"
       },
       {
         "sentence": "De kinderen hebben weer kattenkwaad ______.",
@@ -2207,11 +2207,11 @@
         "correct": 3,
         "explanation": "'Uithalen' = streken uithalen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iemand ergens gaan halen. Kattenkwaad staat nergens op je te wachten.",
+          "1": "Afhalen = eten meenemen. Kattenkwaad is geen maaltijd.",
+          "2": "Inhalen = voorbijgaan of achterstand. Kattenkwaad wordt niet ingehaald."
         },
-        "hint": "Stoute dingen doen."
+        "hint": "De kinderen deden stoute dingen. Welk prefix past bij 'streken maken'?"
       },
       {
         "sentence": "We moeten het vuil laten ______.",
@@ -2224,11 +2224,11 @@
         "correct": 1,
         "explanation": "'Ophalen' = komen verzamelen.",
         "wrongExplanations": {
-          "0": "'Afhalen' = eten.",
-          "2": "'Uithalen' = kattenkwaad.",
-          "3": "'Inhalen' = voorbijgaan."
+          "0": "Afhalen = eten meenemen. Vuil is geen maaltijd om af te halen.",
+          "2": "Uithalen = streken uithalen. Vuil haalt geen streken uit.",
+          "3": "Inhalen = voorbijgaan of achterstand. Vuil wordt niet ingehaald."
         },
-        "hint": "De vuilniswagen komt het vuil halen."
+        "hint": "De vuilniswagen komt het vuil verzamelen. Welk prefix past bij iemand die iets komt ophalen?"
       },
       {
         "sentence": "Ze heeft de verloren tijd weer ______.",
@@ -2241,11 +2241,11 @@
         "correct": 2,
         "explanation": "'Inhalen' = achterstand goedmaken.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand ergens gaan halen. Verloren tijd staat nergens op je te wachten.",
+          "1": "Afhalen = eten meenemen. Verloren tijd is geen maaltijd.",
+          "3": "Uithalen = streken uithalen. Verloren tijd haal je niet uit."
         },
-        "hint": "Verloren tijd goedmaken."
+        "hint": "Ze heeft de achterstand weggewerkt. Welk prefix past bij bijhalen of compenseren?"
       },
       {
         "sentence": "De trein heeft de bus ______.",
@@ -2258,11 +2258,11 @@
         "correct": 2,
         "explanation": "'Inhalen' = voorbijgaan.",
         "wrongExplanations": {
-          "0": "'Afhalen' = eten.",
-          "1": "'Ophalen' = iemand halen.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Afhalen = eten meenemen. De trein neemt de bus niet mee als maaltijd.",
+          "1": "Ophalen = iemand ergens gaan halen. De trein haalt de bus niet op als persoon.",
+          "3": "Uithalen = streken uithalen. De trein haalt geen streken uit op de bus."
         },
-        "hint": "De trein rijdt de bus voorbij."
+        "hint": "De trein reed langs de bus en was sneller. Welk prefix past bij voorbijgaan?"
       },
       {
         "sentence": "Ik ga het pakket bij het postkantoor ______.",
@@ -2275,11 +2275,11 @@
         "correct": 0,
         "explanation": "'Ophalen' = iets gaan halen.",
         "wrongExplanations": {
-          "1": "'Afhalen' = specifiek eten.",
-          "2": "'Inhalen' = voorbijgaan.",
-          "3": "'Uithalen' = kattenkwaad."
+          "1": "Afhalen = eten meenemen van een restaurant. Een pakket is geen maaltijd — je haalt het op.",
+          "2": "Inhalen = voorbijgaan of achterstand. Een pakket wordt niet ingehaald.",
+          "3": "Uithalen = streken uithalen. Een pakket haalt geen streken uit."
         },
-        "hint": "Een pakket gaan halen."
+        "hint": "Het pakket staat op je te wachten bij het postkantoor. Welk prefix past bij iets gaan halen?"
       },
       {
         "sentence": "Na de vakantie moest ze veel werk ______.",
@@ -2292,11 +2292,11 @@
         "correct": 2,
         "explanation": "'Inhalen' = achterstand wegwerken.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand ergens gaan halen. Werk staat niet ergens op haar te wachten.",
+          "1": "Afhalen = eten meenemen. Werk is geen maaltijd.",
+          "3": "Uithalen = streken uithalen. Werk uithalen bestaat niet als combinatie."
         },
-        "hint": "Werk bijwerken na vakantie."
+        "hint": "Ze heeft gemist werk bij te halen na haar vakantie. Welk prefix past bij achterstand wegwerken?"
       },
       {
         "sentence": "Ze kon de finish niet meer ______.",
@@ -2309,11 +2309,11 @@
         "correct": 3,
         "explanation": "'De finish halen' = de eindstreep bereiken.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iemand ergens gaan halen. De finish staat niet op haar te wachten als persoon.",
+          "1": "Afhalen = eten meenemen. De finish is geen maaltijd.",
+          "2": "Inhalen = voorbijgaan. Ze haalt de finish niet in — ze bereikt hem."
         },
-        "hint": "De eindstreep bereiken."
+        "hint": "Ze kon de eindstreep niet bereiken. Welk werkwoord gebruik je zonder prefix voor 'bereiken'?"
       },
       {
         "sentence": "De politie heeft de gestolen auto ______.",
@@ -2326,11 +2326,11 @@
         "correct": 2,
         "explanation": "'Achterhalen' = opsporen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand of iets gaan halen dat klaarstaat. De auto was gestolen — hij stond niet klaar.",
+          "1": "Afhalen = eten meenemen. Een auto is geen maaltijd.",
+          "3": "Uithalen = streken uithalen. De auto haalt geen streken uit."
         },
-        "hint": "De auto terugvinden."
+        "hint": "De politie heeft de auto opgespoord. Welk prefix past bij 'van achteren najagen'?"
       },
       {
         "sentence": "Het is moeilijk om de waarheid te ______.",
@@ -2343,11 +2343,11 @@
         "correct": 2,
         "explanation": "'Achterhalen' = te weten komen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iets gaan halen dat klaarstaat. De waarheid is verborgen — ze staat niet te wachten.",
+          "1": "Afhalen = eten meenemen. De waarheid is geen maaltijd.",
+          "3": "Inhalen = voorbijgaan of achterstand. De waarheid wordt niet ingehaald."
         },
-        "hint": "De waarheid ontdekken."
+        "hint": "De waarheid ligt verborgen achter de feiten. Welk prefix past bij 'van achteren iets te pakken krijgen'?"
       },
       {
         "sentence": "Ze heeft haar schouders ______.",
@@ -2360,11 +2360,11 @@
         "correct": 0,
         "explanation": "'Schouders ophalen' = onverschilligheid.",
         "wrongExplanations": {
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan.",
-          "3": "'Uithalen' = kattenkwaad."
+          "1": "Afhalen = eten meenemen. Schouders zijn geen maaltijd.",
+          "2": "Inhalen = voorbijgaan of achterstand. Schouders worden niet ingehaald.",
+          "3": "Uithalen = streken uithalen. 'Schouders uithalen' bestaat niet als uitdrukking."
         },
-        "hint": "Een gebaar: 'ik weet het niet'."
+        "hint": "Ze maakte een gebaar van 'ik weet het niet'. Welk prefix past bij 'omhoog halen'?"
       },
       {
         "sentence": "Het bedrijf heeft een grote klant ______.",
@@ -2377,11 +2377,11 @@
         "correct": 2,
         "explanation": "'Binnenhalen' = winnen, succesvol verkrijgen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand of iets gaan halen. De klant stond niet ergens op te wachten.",
+          "1": "Afhalen = eten meenemen. Een klant is geen maaltijd.",
+          "3": "Uithalen = streken uithalen. Een klant uithalen bestaat niet als combinatie."
         },
-        "hint": "Een belangrijke klant winnen."
+        "hint": "De klant stond buiten en is nu van het bedrijf. Welk prefix past bij iets van buiten naar binnen halen?"
       },
       {
         "sentence": "Je moet het laken van het bed ______.",
@@ -2394,11 +2394,11 @@
         "correct": 1,
         "explanation": "'Afhalen' = verwijderen, weghalen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "2": "'Inhalen' = voorbijgaan.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand of iets gaan halen. Het laken staat niet ergens te wachten.",
+          "2": "Inhalen = voorbijgaan of achterstand. Een laken wordt niet ingehaald.",
+          "3": "Uithalen = streken uithalen. Een laken haalt geen streken uit."
         },
-        "hint": "Het laken verwijderen."
+        "hint": "Je verwijdert het laken van het bed. Welk prefix past bij 'weghalen van iets'?"
       },
       {
         "sentence": "De was moet van de lijn ______ worden.",
@@ -2411,11 +2411,11 @@
         "correct": 3,
         "explanation": "'Binnenhalen' = naar binnen halen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iemand of iets ergens gaan halen. De was hangt buiten — ze moet naar binnen.",
+          "1": "Afhalen = eten meenemen of verwijderen. De was wordt niet verwijderd — ze gaat naar binnen.",
+          "2": "Inhalen = voorbijgaan of achterstand. De was wordt niet ingehaald."
         },
-        "hint": "De was naar binnen halen."
+        "hint": "De was hangt buiten en moet naar binnen. Welk prefix past bij van buiten naar binnen brengen?"
       },
       {
         "sentence": "De renner werd vlak voor de finish ______.",
@@ -2428,11 +2428,11 @@
         "correct": 2,
         "explanation": "'Inhalen' = voorbijgaan, passeren.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand ergens gaan halen. De renner werd niet opgepikt.",
+          "1": "Afhalen = eten meenemen. Een renner is geen maaltijd.",
+          "3": "Uithalen = streken uithalen. De andere renner haalt geen streken uit."
         },
-        "hint": "Net voor de finish gepasseerd."
+        "hint": "Een andere renner liep net voor de finish langs hem heen. Welk prefix past bij voorbijgaan?"
       },
       {
         "sentence": "Het is niet meer te ______.",
@@ -2445,11 +2445,11 @@
         "correct": 2,
         "explanation": "'Achterhalen' = te weten komen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iets gaan halen dat klaarstaat. De informatie is verloren — ze staat niet te wachten.",
+          "1": "Afhalen = eten meenemen. De informatie is geen maaltijd.",
+          "3": "Inhalen = voorbijgaan of achterstand. Er is niets in te halen — de informatie is weg."
         },
-        "hint": "Het is niet meer te ontdekken."
+        "hint": "De informatie is verloren gegaan. Welk prefix past bij 'nog net van achteren pakken'?"
       },
       {
         "sentence": "Ze heeft haar rijbewijs in één keer ______.",
@@ -2462,11 +2462,11 @@
         "correct": 3,
         "explanation": "'Halen' = slagen voor een examen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iets ergens gaan halen. Ze is geslaagd — dat is meer dan het rijbewijs ophalen.",
+          "1": "Afhalen = eten meenemen. Een rijbewijs is geen maaltijd.",
+          "2": "Inhalen = achterstand of voorbijgaan. Ze is in één keer geslaagd — er was niets in te halen."
         },
-        "hint": "Slagen voor het rijexamen."
+        "hint": "Ze is geslaagd voor het rijexamen. Welk werkwoord gebruik je zonder prefix voor 'slagen'?"
       },
       {
         "sentence": "Hij gaat even brood ______ bij de bakker.",
@@ -2479,11 +2479,11 @@
         "correct": 3,
         "explanation": "'Halen' = gaan kopen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand gaan halen.",
-          "1": "'Afhalen' = specifiek takeaway.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iemand of iets gaan halen dat specifiek op je wacht. Brood bij de bakker koop je — je haalt het niet op als een bestelling.",
+          "1": "Afhalen = een bestelling meenemen van een restaurant. Brood bij de bakker koop je gewoon.",
+          "2": "Inhalen = voorbijgaan of achterstand. Brood wordt niet ingehaald."
         },
-        "hint": "Brood kopen bij de bakker."
+        "hint": "Hij koopt brood bij de bakker. Welk werkwoord gebruik je zonder prefix voor 'kopen'?"
       },
       {
         "sentence": "Het verleden heeft haar ______.",
@@ -2496,11 +2496,11 @@
         "correct": 2,
         "explanation": "'Het verleden haalt je in' = niet meer ontkomen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand ergens gaan halen. Het verleden haalt haar niet op als persoon.",
+          "1": "Afhalen = eten meenemen. Het verleden is geen maaltijd.",
+          "3": "Uithalen = streken uithalen. Het verleden haalt geen streken uit."
         },
-        "hint": "Het verleden haalt je in."
+        "hint": "Ze kon haar verleden niet ontvluchten — het heeft haar bereikt. Welk prefix past bij 'van achteren bij iemand komen'?"
       },
       {
         "sentence": "Ze moest even adem ______ na het hardlopen.",
@@ -2513,11 +2513,11 @@
         "correct": 2,
         "explanation": "'Adem halen' = ademen, op adem komen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iemand ergens halen. Adem staat niet ergens op haar te wachten.",
+          "1": "Afhalen = eten meenemen. Adem is geen maaltijd.",
+          "3": "Inhalen = voorbijgaan of achterstand. Adem wordt niet ingehaald."
         },
-        "hint": "Op adem komen na inspanning."
+        "hint": "Ze komt op adem na het rennen. Welk werkwoord past bij 'adem' als vaste combinatie?"
       },
       {
         "sentence": "De politie kon de identiteit niet ______.",
@@ -2530,11 +2530,11 @@
         "correct": 2,
         "explanation": "'Achterhalen' = ontdekken.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Binnenhalen' = naar binnen."
+          "0": "Ophalen = iets gaan halen dat klaarstaat. De identiteit is onbekend — ze staat niet te wachten.",
+          "1": "Afhalen = eten meenemen. Een identiteit is geen maaltijd.",
+          "3": "Binnenhalen = naar binnen halen of winnen. Een identiteit win je niet."
         },
-        "hint": "De identiteit proberen te ontdekken."
+        "hint": "De politie kon niet ontdekken wie het was. Welk prefix past bij 'van achteren opsporen'?"
       },
       {
         "sentence": "Nederland heeft het WK niet ______.",
@@ -2547,11 +2547,11 @@
         "correct": 2,
         "explanation": "'Binnenhalen' = winnen (prijs, evenement).",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iets ergens gaan halen. Het WK staat niet ergens op Nederland te wachten.",
+          "1": "Afhalen = eten meenemen. Het WK is geen maaltijd.",
+          "3": "Uithalen = streken uithalen. Nederland haalt geen streken uit bij het WK."
         },
-        "hint": "Een evenement of prijs winnen."
+        "hint": "Nederland heeft het WK niet gewonnen. Welk prefix past bij winnen of binnensleuren?"
       },
       {
         "sentence": "Het haalt niets ______ om te klagen.",
@@ -2564,11 +2564,11 @@
         "correct": 3,
         "explanation": "'Uithalen' = effect hebben, nut hebben.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iemand ergens halen. Klagen haalt niemand op.",
+          "1": "Afhalen = eten meenemen. Klagen haalt geen eten af.",
+          "2": "Inhalen = voorbijgaan. Klagen haalt niets in."
         },
-        "hint": "Het heeft geen zin."
+        "hint": "Klagen heeft geen zin. Welk prefix past bij 'effect of nut hebben'?"
       },
       {
         "sentence": "De feestdagen worden uitgebreid ______.",
@@ -2581,11 +2581,11 @@
         "correct": 2,
         "explanation": "'Inhalen' = later vieren (gemist feest).",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand of iets gaan halen. Feestdagen staan niet ergens te wachten.",
+          "1": "Afhalen = eten meenemen. Feestdagen zijn geen maaltijd.",
+          "3": "Uithalen = streken uithalen. Feestdagen uithalen bestaat niet."
         },
-        "hint": "Een feest dat je later viert."
+        "hint": "De feestdagen worden later gevierd dan gepland. Welk prefix past bij 'later inhalen'?"
       },
       {
         "sentence": "De oude tijden werden tijdens het diner ______.",
@@ -2598,11 +2598,11 @@
         "correct": 1,
         "explanation": "'Ophalen' = herinneringen ophalen.",
         "wrongExplanations": {
-          "0": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Afhalen = eten meenemen. Oude tijden zijn geen maaltijd.",
+          "2": "Inhalen = voorbijgaan of achterstand. Oude tijden worden niet ingehaald.",
+          "3": "Uithalen = streken uithalen. Oude tijden uithalen bestaat niet."
         },
-        "hint": "Terugdenken aan oude tijden."
+        "hint": "Ze dachten terug aan vroeger. Welk prefix past bij 'uit het geheugen halen'?"
       },
       {
         "sentence": "Je neus niet ______ bij dat soort zaken.",
@@ -2615,11 +2615,11 @@
         "correct": 0,
         "explanation": "'Je neus ophalen' = minachtend reageren.",
         "wrongExplanations": {
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan.",
-          "3": "'Uithalen' = kattenkwaad."
+          "1": "Afhalen = eten meenemen. Je neus is geen maaltijd.",
+          "2": "Inhalen = voorbijgaan. Je neus wordt niet ingehaald.",
+          "3": "Uithalen = streken uithalen. 'Je neus uithalen' bestaat niet als uitdrukking."
         },
-        "hint": "Neerkijken op iets."
+        "hint": "Je kijkt neer op iets. Welk prefix past bij 'omhoog trekken' als gebaar van minachting?"
       },
       {
         "sentence": "We moeten de boot nog ______ voor de storm.",
@@ -2632,11 +2632,11 @@
         "correct": 1,
         "explanation": "'Binnenhalen' = in veiligheid brengen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "2": "'Inhalen' = voorbijgaan.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iets gaan halen. De boot is er al — je brengt hem naar binnen.",
+          "2": "Inhalen = voorbijgaan of achterstand. De boot wordt niet ingehaald.",
+          "3": "Uithalen = streken uithalen. De boot haalt geen streken uit."
         },
-        "hint": "De boot in veiligheid brengen."
+        "hint": "De boot moet van buiten naar binnen voor de storm. Welk prefix past bij van buiten naar binnen brengen?"
       },
       {
         "sentence": "Ze heeft er alles ______ om te slagen.",
@@ -2649,11 +2649,11 @@
         "correct": 2,
         "explanation": "'Alles eruit halen' = alles doen wat je kunt.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Bijhalen' is geen standaard werkwoord."
+          "0": "Ophalen = iemand of iets ergens gaan halen. Ze haalt niemand op — ze zet alles op alles.",
+          "1": "Afhalen = eten meenemen of verwijderen. Er is hier niets te verwijderen.",
+          "3": "Bijhalen = later inhalen. Ze heeft al het mogelijke gedaan — er is niets meer bij te halen."
         },
-        "hint": "Al je best doen."
+        "hint": "Ze deed haar uiterste best. Welk prefix past bij 'alles eruit halen' als vaste uitdrukking?"
       },
       {
         "sentence": "De minister werd door de pers ______.",
@@ -2666,11 +2666,11 @@
         "correct": 3,
         "explanation": "'Onderuithalen' = ten val brengen, bekritiseren.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iemand ergens gaan halen. De minister wordt niet opgepikt.",
+          "1": "Afhalen = eten meenemen. De minister is geen maaltijd.",
+          "2": "Inhalen = voorbijgaan of achterstand. De minister wordt niet gepasseerd."
         },
-        "hint": "Zwaar bekritiseerd."
+        "hint": "De pers heeft de minister zwaar bekritiseerd en onderuit gehaald. Welk prefix past bij 'naar beneden halen'?"
       },
       {
         "sentence": "De kat haalt zijn nagels ______ aan de bank.",
@@ -2683,11 +2683,11 @@
         "correct": 3,
         "explanation": "'Uithalen' = krabben, scherpe bewegingen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = verwijderen.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iemand ergens halen. De kat haalt niemand op.",
+          "1": "Afhalen = eten meenemen of verwijderen. De nagels worden niet afgehaald.",
+          "2": "Inhalen = voorbijgaan. De nagels worden niet ingehaald."
         },
-        "hint": "De kat krabt aan de bank."
+        "hint": "De kat krabt aan de bank. Welk prefix past bij een snelle, scherpe beweging?"
       },
       {
         "sentence": "De ambtenaar heeft alle documenten ______.",
@@ -2700,11 +2700,11 @@
         "correct": 3,
         "explanation": "'Binnenhalen' = verzamelen, verkrijgen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iets ergens gaan halen dat klaarstaat. De documenten moesten actief worden verzameld.",
+          "1": "Afhalen = eten meenemen. Documenten zijn geen maaltijd.",
+          "2": "Inhalen = voorbijgaan of achterstand. Documenten worden niet ingehaald."
         },
-        "hint": "Alle documenten verzamelen."
+        "hint": "De ambtenaar heeft alle documenten verzameld en binnengekregen. Welk prefix past bij van buiten naar binnen brengen?"
       },
       {
         "sentence": "Het verhaal ______ de krant.",
@@ -2717,11 +2717,11 @@
         "correct": 3,
         "explanation": "'De krant halen' = in de krant komen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iemand of iets ergens gaan halen. Het verhaal haalt niemand op.",
+          "1": "Afhalen = eten meenemen. Het verhaal is geen maaltijd.",
+          "2": "Inhalen = voorbijgaan of achterstand. Het verhaal haalt de krant niet in."
         },
-        "hint": "Gepubliceerd worden."
+        "hint": "Het verhaal werd gepubliceerd in de krant. Welk werkwoord gebruik je zonder prefix voor 'in de krant komen'?"
       },
       {
         "sentence": "Hij moet nog geld ______ bij de bank.",
@@ -2734,11 +2734,11 @@
         "correct": 3,
         "explanation": "'Geld halen' = geld opnemen.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "2": "'Inhalen' = voorbijgaan."
+          "0": "Ophalen = iemand of iets ergens gaan halen. Geld staat niet klaar als een persoon.",
+          "1": "Afhalen = eten meenemen. Geld is geen maaltijd.",
+          "2": "Inhalen = voorbijgaan of achterstand. Geld wordt niet ingehaald."
         },
-        "hint": "Geld opnemen bij de bank."
+        "hint": "Hij neemt geld op bij de bank. Welk werkwoord gebruik je zonder prefix voor 'opnemen bij de bank'?"
       },
       {
         "sentence": "Ze kon het niet over haar hart verkrijgen. Het ging haar aan het ______.",
@@ -2751,11 +2751,11 @@
         "correct": 2,
         "explanation": "'Ergens niet aan kunnen halen' — hier: 'het ging haar aan het hart' = het raakte haar emotioneel.",
         "wrongExplanations": {
-          "0": "'Ophalen' = iemand halen.",
-          "1": "'Afhalen' = eten.",
-          "3": "'Uithalen' = kattenkwaad."
+          "0": "Ophalen = iemand ergens halen. Het hart staat niet ergens op je te wachten.",
+          "1": "Afhalen = eten meenemen. Het hart is geen maaltijd.",
+          "3": "Uithalen = streken uithalen. Het hart haalt geen streken uit."
         },
-        "hint": "Iets dat je raakt in je gevoel."
+        "hint": "Het raakte haar diep. Welk werkwoord past bij 'aan het hart' als vaste uitdrukking?"
       }
     ]
   }
