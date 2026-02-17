@@ -144,52 +144,17 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 
 /* Feedback */
 .feedback{
-  margin-top:16px;border-radius:var(--radius);font-size:14px;
-  line-height:1.6;overflow:hidden;animation:feedbackIn 0.25s ease;
-  border:1px solid transparent;
+  margin-top:16px;padding:14px 16px;border-radius:var(--radius);
+  font-size:13px;line-height:1.6;
+  animation:feedbackIn 0.25s ease;
 }
-.feedback.correct{background:var(--correct-bg);border-color:var(--correct-border)}
-.feedback.wrong{background:var(--wrong-bg);border-color:var(--wrong-border)}
-
-.feedback-verdict{
-  display:flex;align-items:center;gap:8px;padding:11px 16px;
-  font-size:13px;font-weight:700;letter-spacing:0.1px;
-  border-bottom:1px solid rgba(255,255,255,0.06);
-}
-.feedback.correct .feedback-verdict{color:#52B788}
-.feedback.wrong .feedback-verdict{color:#E8776C}
-
-.feedback-body{padding:14px 16px;display:flex;flex-direction:column;gap:12px}
-
-.feedback-why{color:var(--ink);font-size:14px;line-height:1.65}
-.feedback-why strong{color:var(--ink);font-weight:600}
-
-.feedback-warning{
-  display:flex;gap:10px;padding:10px 12px;
-  background:rgba(255,255,255,0.04);border-radius:8px;
-  border-left:2px solid var(--wrong-border);
-}
-.feedback-warning-icon{font-size:13px;flex-shrink:0;margin-top:1px;opacity:0.7}
-.feedback-warning-text{font-size:13px;color:var(--ink-2);line-height:1.6}
-.feedback-warning-text strong{color:#E8776C;font-weight:600}
-
-.feedback-example{
-  display:flex;gap:10px;padding:10px 12px;
-  background:rgba(100,180,255,0.08);border-radius:8px;
-  border-left:2px solid rgba(100,180,255,0.3);
-}
-.feedback-example-icon{font-size:13px;flex-shrink:0;margin-top:1px}
-.feedback-example-text{font-size:13px;color:var(--ink-2);line-height:1.6}
-.feedback-example-text em{color:rgba(100,180,255,0.85);font-style:normal;font-weight:500}
-
-.feedback-tip{
-  display:flex;gap:10px;padding:10px 12px;
-  background:rgba(255,200,80,0.08);border-radius:8px;
-  border-left:2px solid rgba(255,200,80,0.3);
-}
-.feedback-tip-icon{font-size:13px;flex-shrink:0;margin-top:1px}
-.feedback-tip-text{font-size:13px;color:var(--ink-2);line-height:1.6}
-.feedback-tip-text strong{color:rgba(255,200,80,0.85);font-weight:600}
+@keyframes feedbackIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.feedback.correct{background:var(--correct-bg);border:1px solid var(--correct-border)}
+.feedback.wrong{background:var(--wrong-bg);border:1px solid var(--wrong-border)}
+.feedback-label{font-weight:600;margin-bottom:4px;display:flex;align-items:center;gap:6px}
+.feedback.correct .feedback-label{color:#52B788}
+.feedback.wrong .feedback-label{color:#E8776C}
+.feedback-text{color:var(--ink-2)}
 
 /* Hint */
 .hint-btn{
@@ -444,55 +409,6 @@ const KEYS = ["A","B","C","D"];
 // ═══ APP STATE ═══
 let state = { screen:"home", theme:null, qIdx:0, score:0, wrong:0, answered:null, selectedIdx:null, showHint:false, wrongAnswers:[], showReview:false };
 
-function buildFeedback(q, isCorrect, selectedIdx) {
-  const fb = q[3];
-  const wrongExplanations = q[4];
-
-  const verdictIcon = isCorrect ? "✓" : "✗";
-  const verdictText = isCorrect
-    ? "Goed!"
-    : `Niet helemaal — het is <em>${q[1][q[2]]}</em>`;
-
-  let bodyHTML = `<div class="feedback-why">${fb.why}</div>`;
-
-  if (!isCorrect) {
-    const warningText = fb.warning ||
-      (wrongExplanations && wrongExplanations[selectedIdx]) || null;
-    if (warningText) {
-      bodyHTML += `
-        <div class="feedback-warning">
-          <span class="feedback-warning-icon">⚠</span>
-          <div class="feedback-warning-text">${warningText}</div>
-        </div>`;
-    }
-  }
-
-  if (fb.example) {
-    bodyHTML += `
-      <div class="feedback-example">
-        <span class="feedback-example-icon">→</span>
-        <div class="feedback-example-text">${fb.example}</div>
-      </div>`;
-  }
-
-  if (fb.tip) {
-    bodyHTML += `
-      <div class="feedback-tip">
-        <span class="feedback-tip-icon">💡</span>
-        <div class="feedback-tip-text">${fb.tip}</div>
-      </div>`;
-  }
-
-  return `
-    <div class="feedback ${isCorrect ? 'correct' : 'wrong'}">
-      <div class="feedback-verdict">
-        <span>${verdictIcon}</span>
-        <span>${verdictText}</span>
-      </div>
-      <div class="feedback-body">${bodyHTML}</div>
-    </div>`;
-}  
-  
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
@@ -570,11 +486,19 @@ function renderHome() {
   `;
 }
 
-const isCorrect = state.answered === "correct";
-let feedbackHTML = "";
-if (state.answered !== null) {
-  feedbackHTML = buildFeedback(q, isCorrect, state.selectedIdx);
-}
+function renderQuiz() {
+  const t = THEMES.find(x => x.id === state.theme);
+  const q = shuffledQuestions[state.qIdx];
+  const total = shuffledQuestions.length;
+  const pct = ((state.qIdx + (state.answered ? 1 : 0)) / total * 100).toFixed(1);
+
+  let feedbackHTML = "";
+  if (state.answered) {
+    const isC = state.answered === "correct";
+    const label = isC ? "✓ Goed!" : "✗ Niet helemaal";
+    const text = isC ? q[3] : (q[4][state.selectedIdx] || "") + "<br><br>" + q[3];
+    feedbackHTML = `<div class="feedback ${state.answered}"><div class="feedback-label">${label}</div><div class="feedback-text">${text}</div></div>`;
+  }
 
   let hintHTML = "";
   if (!state.answered) {
