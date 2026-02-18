@@ -34,7 +34,7 @@
     "hint": "Ze zei ja op het aanbod. Welk prefix past bij 'accepteren'?"
   },
   {
-    "sentence": "Het aantal klachten is de afgelopen maand ______.",
+    "sentence": "Gelukkig is het aantal klachten de afgelopen maand ______.",
     "options": [
       "opgenomen",
       "aangenomen",
@@ -46,12 +46,12 @@
     "wrongExplanations": {
       "0": "Opgenomen = geplaatst of vastgelegd. Klachten worden niet vastgelegd als ze verminderen.",
       "1": "Aangenomen = geaccepteerd. Klachten accepteer je niet — ze verminderen of groeien.",
-      "2": "Toegenomen = gegroeid. Dat is het tegenovergestelde — er zijn nu juist mínder klachten."
+      "2": "Toegenomen = gegroeid. Maar er staat 'Gelukkig', dus het is positief dat ze minder worden."
     },
-    "hint": "Er zijn nu minder klachten dan vorige maand. Welk prefix past bij verminderen?"
+    "hint": "Er staat 'Gelukkig', dus het is goed nieuws. Zijn er dan meer of minder klachten?"
   },
   {
-    "sentence": "De bevolking van de stad is sterk ______.",
+    "sentence": "Door de snelle groei van de stad is de bevolking sterk ______.",
     "options": [
       "afgenomen",
       "aangenomen",
@@ -61,13 +61,13 @@
     "correct": 3,
     "explanation": "'Toenemen' = groeien.",
     "wrongExplanations": {
-      "0": "Afgenomen = verminderd. Dat is het tegenovergestelde — de stad groeit.",
+      "0": "Afgenomen = verminderd. Dat is het tegenovergestelde van 'groei'.",
       "1": "Aangenomen = geaccepteerd. Een bevolking accepteer je niet.",
       "2": "Opgenomen = geplaatst of vastgelegd. Een bevolking wordt niet opgenomen als patiënt."
     },
-    "hint": "De stad heeft nu meer inwoners. Welk prefix past bij groeien?"
+    "hint": "De stad groeit. Welk prefix past bij groter worden?"
   },
-  {
+ {
     "sentence": "Heb je je medicijnen al ______?",
     "options": [
       "aangenomen",
@@ -131,9 +131,9 @@
     "wrongExplanations": {
       "0": "Afgenomen = verminderd of weggenomen. Het bedrijf groeit — het neemt aan, niet af.",
       "1": "Ingenomen = geslikt of veroverd. Medewerkers veroveren is niet van toepassing.",
-      "2": "Opgenomen = in het ziekenhuis geplaatst of vastgelegd. Medewerkers worden aangesteld, niet opgenomen."
+      "2": "Opgenomen = in het ziekenhuis geplaatst. Het is een kantoor, geen ziekenhuis."
     },
-    "hint": "Het bedrijf heeft nieuwe mensen aangesteld. Welk prefix past bij in dienst nemen?"
+    "hint": "Het bedrijf geeft mensen een baan. Welk prefix past bij 'in dienst nemen'?"
   },
   {
     "sentence": "Kun je de telefoon even ______?",
@@ -442,21 +442,21 @@
     "hint": "Het concert werd gefilmd en vastgelegd. Welk prefix past bij vastleggen op video?"
   },
   {
-    "sentence": "Neem me niet ______, maar ik ben het niet eens.",
+    "sentence": "Neem me niet ______.",
     "options": [
       "af",
       "kwalijk",
-      "in",
-      "op"
+      "op",
+      "mee"
     ],
     "correct": 1,
-    "explanation": "'Kwalijk nemen' = verwijten.",
+    "explanation": "'Niet kwalijk nemen' = vergeven, geen probleem van maken.",
     "wrongExplanations": {
-      "0": "Afnemen = verminderen. 'Me niet afnemen' bestaat niet als uitdrukking.",
-      "2": "Innemen = slikken of veroveren. 'Me niet innemen' bestaat niet als uitdrukking.",
-      "3": "Opnemen = vastleggen. 'Me niet opnemen' heeft een andere betekenis."
+      "0": "Afnemen = verminderen. 'Neem me niet af' betekent niets.",
+      "2": "Opnemen = telefoon opnemen. 'Neem me niet op' zeg je alleen als je niet gefilmd wilt worden.",
+      "3": "Meenemen = transporteren. 'Neem me niet mee' betekent dat je hier wilt blijven."
     },
-    "hint": "Dit is een vaste uitdrukking voor beleefd bezwaar maken. Het woord betekent 'slecht' of 'verkeerd'."
+    "hint": "Vaste uitdrukking voor 'sorry' of 'neem het me niet euvel'."
   },
   {
     "sentence": "De dokter heeft bloed bij me ______.",
