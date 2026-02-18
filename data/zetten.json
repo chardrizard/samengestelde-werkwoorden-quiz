@@ -3,14 +3,14 @@
     "sentence": "Kun je de televisie ______?",
     "options": [
       "aanzetten",
-      "opzetten",
+      "omzetten",
       "afzetten",
       "uitzetten"
     ],
     "correct": 0,
     "explanation": "'Aanzetten' = inschakelen.",
     "wrongExplanations": {
-      "1": "Opzetten = iets oprichten of starten. Een tv zet je niet op — je schakelt hem in.",
+      "1": "Omzetten = veranderen of wisselen (bv. een schakelaar). Een tv zet je aan.",
       "2": "Afzetten = uitschakelen of bedriegen. De tv is al uit — je wilt hem aan, niet nog verder 'af'.",
       "3": "Uitzetten = uitschakelen. Je hebt het tegenovergestelde gekozen — dat zet de tv juist uit."
     },
@@ -37,7 +37,7 @@
     "sentence": "Kun je de verwarming ______? Het is te warm.",
     "options": [
       "aanzetten",
-      "opzetten",
+      "neerzetten",
       "uitzetten",
       "doorzetten"
     ],
@@ -45,7 +45,7 @@
     "explanation": "'Uitzetten' = uitschakelen.",
     "wrongExplanations": {
       "0": "Aanzetten = inschakelen. Dat maakt het juist nóg warmer.",
-      "1": "Opzetten = oprichten of starten. Een verwarming richt je niet op.",
+      "1": "Neerzetten = plaatsen. De verwarming staat er al.",
       "3": "Doorzetten = volhouden. De verwarming hoeft niets vol te houden — jij wilt hem stoppen."
     },
     "hint": "Het is te warm, dus je wilt de verwarming stoppen. Welk prefix past bij uitschakelen?"
