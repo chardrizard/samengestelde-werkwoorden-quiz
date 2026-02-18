@@ -3,89 +3,89 @@
     "sentence": "Kun je de televisie ______?",
     "options": [
       "aanzetten",
-      "omzetten",
-      "afzetten",
-      "uitzetten"
+      "opzetten",
+      "neerzetten",
+      "afzetten"
     ],
     "correct": 0,
-    "explanation": "'Aanzetten' = inschakelen.",
+    "explanation": "'Aanzetten' = een apparaat inschakelen.",
     "wrongExplanations": {
-      "1": "Omzetten = veranderen of wisselen (bv. een schakelaar). Een tv zet je aan.",
-      "2": "Afzetten = uitschakelen of bedriegen. De tv is al uit — je wilt hem aan, niet nog verder 'af'.",
-      "3": "Uitzetten = uitschakelen. Je hebt het tegenovergestelde gekozen — dat zet de tv juist uit."
+      "1": "Opzetten = oprichten of starten (bedrijf, project). Een televisie richt je niet op.",
+      "2": "Neerzetten = ergens plaatsen. Je plaatst de tv niet — je schakelt hem in.",
+      "3": "Afzetten = bedriegen of uitschakelen? Afzetten betekent uitschakelen bij sommige apparaten, maar bij de tv zeg je 'uitzetten' of 'aanzetten'."
     },
-    "hint": "De tv staat uit en je wilt hem inschakelen. Welk prefix past bij 'beginnen'?"
+    "hint": "Het apparaat staat uit en je wilt het laten werken. Welk prefix past bij inschakelen?"
   },
   {
-    "sentence": "Ze heeft een nieuw bedrijf ______.",
+    "sentence": "We gaan een nieuw bedrijf ______.",
     "options": [
-      "aangezet",
-      "neergezet",
-      "opgezet",
-      "doorgezet"
+      "aanzetten",
+      "opzetten",
+      "neerzetten",
+      "doorzetten"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "'Opzetten' = oprichten, starten.",
     "wrongExplanations": {
-      "0": "Aanzetten = inschakelen. Een bedrijf schakel je niet in — je richt het op.",
-      "1": "Neerzetten = een voorwerp fysiek plaatsen. Een bedrijf zet je niet neer zoals een tas.",
-      "3": "Doorzetten = volhouden ondanks tegenslag. Het bedrijf bestaat nog maar net — er is nog niets om vol te houden."
+      "0": "Aanzetten = inschakelen. Een bedrijf is geen apparaat dat je aanzet.",
+      "2": "Neerzetten = ergens plaatsen. Je zet een bedrijf niet fysiek neer — je richt het op.",
+      "3": "Doorzetten = volhouden. Je zet door als het moeilijk is — je start niet iets nieuws."
     },
-    "hint": "Het bedrijf bestond nog niet en nu wel. Welk prefix past bij iets opbouwen van nul?"
+    "hint": "Je begint iets van de grond af aan. Welk prefix past bij iets dat je 'opbouwt'?"
   },
   {
     "sentence": "Kun je de verwarming ______? Het is te warm.",
     "options": [
       "aanzetten",
-      "neerzetten",
+      "opzetten",
       "uitzetten",
-      "doorzetten"
+      "neerzetten"
     ],
     "correct": 2,
-    "explanation": "'Uitzetten' = uitschakelen.",
+    "explanation": "'Uitzetten' = een apparaat uitschakelen.",
     "wrongExplanations": {
-      "0": "Aanzetten = inschakelen. Dat maakt het juist nóg warmer.",
-      "1": "Neerzetten = plaatsen. De verwarming staat er al.",
-      "3": "Doorzetten = volhouden. De verwarming hoeft niets vol te houden — jij wilt hem stoppen."
+      "0": "Aanzetten = inschakelen. Het is juist te warm — je wilt het apparaat uit, niet aan.",
+      "1": "Opzetten = oprichten. De verwarming richt je niet op.",
+      "3": "Neerzetten = ergens plaatsen. De verwarming staat al — je wilt hem uitschakelen."
     },
-    "hint": "Het is te warm, dus je wilt de verwarming stoppen. Welk prefix past bij uitschakelen?"
+    "hint": "Het is te warm, dus je wilt het apparaat stoppen. Welk prefix is het tegenovergestelde van 'aan'?"
   },
   {
-    "sentence": "Ondanks de tegenslag heeft ze ______.",
+    "sentence": "Ze heeft haar bril op tafel ______.",
     "options": [
+      "doorgezet",
       "opgezet",
       "afgezet",
-      "doorgezet",
       "neergezet"
     ],
-    "correct": 2,
-    "explanation": "'Doorzetten' = volhouden.",
+    "correct": 3,
+    "explanation": "'Neerzetten' = ergens plaatsen.",
     "wrongExplanations": {
-      "0": "Opzetten = iets oprichten. Er is geen nieuw project — ze houdt vol.",
-      "1": "Afzetten = bedriegen of uitstappen laten. Ze bedriegt niemand — ze geeft niet op.",
-      "3": "Neerzetten = fysiek plaatsen. Er is niets om neer te zetten in deze situatie."
+      "1": "Opzetten = oprichten of op je hoofd/neus zetten. Een bril zet je op je neus óp, maar als je hem ergens plaatst, zet je hem neer.",
+      "2": "Afzetten = bedriegen of een grens markeren. Een bril zet je niet af op een tafel.",
+      "0": "Doorzetten = volhouden. Een bril doorzetten slaat nergens op."
     },
-    "hint": "Er was tegenslag maar ze stopte niet. Welk werkwoord past bij niet opgeven?"
+    "hint": "De bril was in haar hand en nu ligt hij op de tafel. Welk prefix past bij 'ergens plaatsen'?"
   },
   {
-    "sentence": "De taxi heeft me bij het station ______.",
+    "sentence": "De politie heeft de straat ______.",
     "options": [
-      "neergezet",
       "afgezet",
+      "doorgezet",
       "opgezet",
-      "aangezet"
+      "ingezet"
     ],
-    "correct": 1,
-    "explanation": "'Afzetten' = iemand laten uitstappen.",
+    "correct": 0,
+    "explanation": "'Afzetten' = afsluiten, blokkeren.",
     "wrongExplanations": {
-      "0": "Neerzetten = een voorwerp ergens plaatsen. Je bent een persoon, geen object om neer te zetten.",
-      "2": "Opzetten = oprichten. De taxi richt niets op bij het station.",
-      "3": "Aanzetten = inschakelen. Je wordt niet ingeschakeld bij het station."
+      "1": "Doorzetten = volhouden. De politie houdt de straat niet vol — ze sluit hem af.",
+      "2": "Opzetten = oprichten. Een straat richt je niet op.",
+      "3": "Inzetten = gebruiken, inschakelen. De politie zet middelen in — maar de straat wordt afgezet."
     },
-    "hint": "De taxi stopt en jij stapt uit. Welk prefix past bij 'laten uitstappen'?"
+    "hint": "De straat is geblokkeerd. Welk prefix past bij 'een grens afbakenen'?"
   },
   {
-    "sentence": "Zet je tas maar op de tafel ______.",
+    "sentence": "Zet je tas daar maar even ______.",
     "options": [
       "af",
       "neer",
@@ -95,334 +95,130 @@
     "correct": 1,
     "explanation": "'Neerzetten' = ergens plaatsen.",
     "wrongExplanations": {
-      "0": "Afzetten = bedriegen of uitstappen laten. Je zet de tas niet 'af' — je plaatst hem.",
-      "2": "Opzetten = oprichten of op je hoofd zetten. Een tas zet je niet op zoals een bril of hoed.",
-      "3": "Doorzetten = volhouden. Je hoeft niets vol te houden — alleen de tas plaatsen."
+      "0": "Afzetten = een grens markeren of bedriegen. Je bedriegt je tas niet.",
+      "2": "Opzetten = oprichten of op je hoofd zetten. Je richt je tas niet op.",
+      "3": "Doorzetten = volhouden. Je houdt je tas niet vol."
     },
-    "hint": "Je legt de tas ergens op een oppervlak. Welk prefix past bij plaatsen op een plek?"
+    "hint": "Je wilt je tas ergens plaatsen. Welk prefix past bij 'naar beneden plaatsen'?"
   },
   {
-    "sentence": "Die oplichter heeft veel mensen ______.",
+    "sentence": "Die man heeft mij voor 500 euro ______.",
     "options": [
+      "opgezet",
       "neergezet",
-      "doorgezet",
       "afgezet",
-      "opgezet"
+      "doorgezet"
     ],
     "correct": 2,
     "explanation": "'Afzetten' = bedriegen, oplichten.",
     "wrongExplanations": {
-      "0": "Neerzetten = fysiek plaatsen. Mensen zet je niet neer als voorwerpen.",
-      "1": "Doorzetten = volhouden. De oplichter geeft niet op — maar dat is niet wat hier bedoeld wordt.",
-      "3": "Opzetten = oprichten of ophitsen. Mensen opzetten = mensen tegen elkaar ophitsen. Hier gaat het om financieel bedrog."
+      "0": "Opzetten = oprichten. Hij richt niets op — hij bedriegt jou.",
+      "1": "Neerzetten = plaatsen. Je wordt niet ergens geplaatst — je wordt bedrogen.",
+      "3": "Doorzetten = volhouden. De man houdt niet vol — hij bedriegt."
     },
-    "hint": "De oplichter heeft mensen geld afhandig gemaakt. Welk prefix past bij bedrog?"
+    "hint": "Je bent bedrogen voor geld. Welk prefix past bij 'iemand oplichten'?"
   },
   {
-    "sentence": "Ze heeft de bloemen in een vaas ______.",
+    "sentence": "Zet je pet even ______. We gaan naar binnen.",
     "options": [
-      "afgezet",
-      "neergezet",
-      "aangezet",
-      "doorgezet"
+      "neer",
+      "in",
+      "door",
+      "af"
     ],
-    "correct": 1,
-    "explanation": "'Neerzetten' = ergens plaatsen.",
+    "correct": 3,
+    "explanation": "'Afzetten' = iets van je hoofd afnemen.",
     "wrongExplanations": {
-      "0": "Afzetten = bedriegen of uitstappen laten. Bloemen bedrieg je niet — je plaatst ze.",
-      "2": "Aanzetten = inschakelen. Bloemen schakel je niet in.",
-      "3": "Doorzetten = volhouden. Er is geen tegenslag bij het plaatsen van bloemen."
+      "0": "Neerzetten = ergens plaatsen. Eerst moet de pet van je hoofd af.",
+      "2": "Doorzetten = volhouden. Een pet doorzetten slaat nergens op.",
+      "1": "Inzetten = gebruiken of beginnen. Je zet een pet niet in."
     },
-    "hint": "Ze plaatst de bloemen ergens. Welk prefix past bij het plaatsen van een voorwerp?"
+    "hint": "De pet zit op je hoofd en moet eraf. Welk prefix past bij 'van je hoofd halen'?"
   },
   {
     "sentence": "Ik ga koffie ______. Wil jij ook?",
     "options": [
-      "neerzetten",
+      "zetten",
       "opzetten",
       "aanzetten",
-      "zetten"
+      "neerzetten"
     ],
-    "correct": 3,
-    "explanation": "'Koffie zetten' = koffie maken.",
+    "correct": 0,
+    "explanation": "'Koffie zetten' = koffie maken. Vaste combinatie.",
     "wrongExplanations": {
-      "0": "Neerzetten = plaatsen. Je maakt de koffie — je zet hem niet neer (dat komt later).",
-      "1": "Opzetten = oprichten. Je start geen bedrijf — je maakt een drankje.",
-      "2": "Aanzetten = inschakelen. Je schakelt misschien het apparaat in, maar koffie zelf schakel je niet in."
+      "3": "Neerzetten = ergens plaatsen. Je plaatst koffie niet — je maakt het.",
+      "1": "Opzetten = oprichten. In spreektaal hoor je soms 'koffie opzetten', maar 'koffie zetten' is standaard.",
+      "2": "Aanzetten = inschakelen. Koffie is geen apparaat."
     },
-    "hint": "Koffie bereiden is een vaste combinatie. Welk werkwoord gebruik je zonder prefix?"
+    "hint": "Je maakt een drankje. Welk werkwoord gebruik je zonder prefix als vaste combinatie met koffie?"
   },
   {
-    "sentence": "De politie heeft het gebied ______.",
+    "sentence": "Ze heeft een mooie prestatie ______.",
     "options": [
       "opgezet",
-      "afgezet",
       "neergezet",
-      "doorgezet"
+      "doorgezet",
+      "afgezet"
     ],
     "correct": 1,
-    "explanation": "'Afzetten' = een gebied afsluiten.",
+    "explanation": "'Een prestatie neerzetten' = iets goeds leveren.",
     "wrongExplanations": {
-      "0": "Opzetten = oprichten. De politie richt geen gebied op.",
-      "2": "Neerzetten = een voorwerp plaatsen. Een gebied is geen object om neer te zetten.",
-      "3": "Doorzetten = volhouden. De politie sluit het gebied af — ze hoeft niets vol te houden."
+      "0": "Opzetten = oprichten. Een prestatie richt je niet op — je levert hem.",
+      "2": "Doorzetten = volhouden. Ze zet niet door — ze levert een resultaat.",
+      "3": "Afzetten = bedriegen. Een prestatie is geen bedrog."
     },
-    "hint": "De politie heeft het gebied afgesloten na een incident. Welk prefix past bij afsluiten?"
+    "hint": "Ze heeft iets indrukwekkends geleverd. Welk werkwoord past bij een resultaat dat je 'neerzet'?"
   },
   {
-    "sentence": "Hij wil zijn eigen zaak ______.",
+    "sentence": "Hij bleef ______ ondanks alle tegenslag.",
     "options": [
-      "uitzetten",
-      "doorzetten",
       "opzetten",
-      "afzetten"
+      "afzetten",
+      "doorzetten",
+      "neerzetten"
     ],
     "correct": 2,
-    "explanation": "'Opzetten' = oprichten.",
+    "explanation": "'Doorzetten' = volhouden, niet opgeven.",
     "wrongExplanations": {
-      "0": "Uitzetten = uitschakelen of verwijderen. Hij wil zijn zaak niet uitschakelen — hij wil hem starten.",
-      "1": "Doorzetten = volhouden. De zaak bestaat nog niet — er is niets om vol te houden.",
-      "3": "Afzetten = bedriegen of iemand laten uitstappen. Hij wil niemand bedriegen — hij wil iets opbouwen."
+      "0": "Opzetten = oprichten. Hij richt niets op — hij houdt vol.",
+      "1": "Afzetten = bedriegen of blokkeren. Hij bedriegt niemand — hij geeft niet op.",
+      "3": "Neerzetten = plaatsen. Hij plaatst niets — hij houdt vol."
     },
-    "hint": "De zaak bestaat nog niet. Hij wil hem starten. Welk prefix past bij iets opbouwen van nul?"
+    "hint": "Er zijn problemen maar hij gaat door. Welk prefix past bij 'er doorheen gaan'?"
   },
   {
     "sentence": "Kun je het geluid wat zachter ______?",
     "options": [
-      "aanzetten",
+      "opzetten",
       "uitzetten",
-      "zetten",
-      "opzetten"
-    ],
-    "correct": 2,
-    "explanation": "'Zachter zetten' = volume verlagen.",
-    "wrongExplanations": {
-      "0": "Aanzetten = inschakelen. Het geluid staat al aan — je wil het zachter, niet harder.",
-      "1": "Uitzetten = helemaal uitschakelen. Je wilt minder geluid, niet géén geluid.",
-      "3": "Opzetten = oprichten. Geluid richt je niet op."
-    },
-    "hint": "Het geluid staat te hard. Je wilt minder, niet niets. Welk werkwoord past bij volume aanpassen?"
-  },
-  {
-    "sentence": "De overheid wil strengere regels ______.",
-    "options": [
       "neerzetten",
-      "doorzetten",
-      "afzetten",
-      "inzetten"
+      "zetten"
     ],
     "correct": 3,
-    "explanation": "'Inzetten' = invoeren, toepassen.",
+    "explanation": "'Zachter zetten' = het volume verlagen.",
     "wrongExplanations": {
-      "0": "Neerzetten = fysiek plaatsen. Regels zijn geen objecten om neer te zetten.",
-      "1": "Doorzetten = volhouden. De regels bestaan nog niet — ze worden ingevoerd.",
-      "2": "Afzetten = bedriegen of afsluiten. De overheid voert regels in — ze bedriegt niemand."
+      "0": "Opzetten = oprichten. Je richt geluid niet op.",
+      "1": "Uitzetten = uitschakelen. Je wilt minder geluid, niet géén geluid.",
+      "2": "Neerzetten = ergens plaatsen. Geluid kun je niet fysiek plaatsen."
     },
-    "hint": "De overheid wil nieuwe regels invoeren. Welk prefix past bij iets inbrengen in een systeem?"
+    "hint": "Je wilt het volume lager — niet uit, maar zachter. Welk werkwoord gebruik je zonder prefix?"
   },
   {
-    "sentence": "Ze heeft zich volledig ______ voor het goede doel.",
+    "sentence": "De directeur heeft een goede koers ______.",
     "options": [
-      "doorgezet",
       "ingezet",
-      "neergezet",
-      "afgezet"
-    ],
-    "correct": 1,
-    "explanation": "'Zich inzetten voor' = je inspannen.",
-    "wrongExplanations": {
-      "0": "Doorzetten = volhouden ondanks tegenslag. Ze zette zich in voor een doel — er was geen specifieke tegenslag om vol te houden.",
-      "2": "Neerzetten = fysiek plaatsen of een positie innemen. Hier gaat het om inzet, niet een positie.",
-      "3": "Afzetten = bedriegen. Ze helpt het goede doel — ze bedriegt het niet."
-    },
-    "hint": "Ze werkte hard voor het goede doel. Welk prefix past bij jezelf ergens voor inbrengen?"
-  },
-  {
-    "sentence": "De docent heeft de studenten aan het werk ______.",
-    "options": [
-      "opgezet",
-      "neergezet",
-      "gezet",
-      "afgezet"
-    ],
-    "correct": 2,
-    "explanation": "'Aan het werk zetten' = laten werken.",
-    "wrongExplanations": {
-      "0": "Opzetten = oprichten. De docent richt geen studenten op.",
-      "1": "Neerzetten = fysiek plaatsen. Studenten zijn geen objecten om neer te zetten.",
-      "3": "Afzetten = bedriegen. De docent laat de studenten werken — hij bedriegt hen niet."
-    },
-    "hint": "De studenten moeten gaan werken. Welk werkwoord past bij 'aan het werk' als vaste combinatie?"
-  },
-  {
-    "sentence": "Na het schandaal werd de koning ______.",
-    "options": [
-      "neergezet",
-      "opgezet",
-      "afgezet",
-      "doorgezet"
-    ],
-    "correct": 2,
-    "explanation": "'Afzetten' = uit een functie verwijderen.",
-    "wrongExplanations": {
-      "0": "Neerzetten = plaatsen. De koning wordt verwijderd uit zijn functie — niet ergens neergezet.",
-      "1": "Opzetten = oprichten. De koning wordt afgezet — zijn positie begint niet opnieuw.",
-      "3": "Doorzetten = volhouden. De koning geeft niet zelf op — hij wordt door anderen verwijderd."
-    },
-    "hint": "De koning verloor zijn troon na het schandaal. Welk prefix past bij iemand uit een functie halen?"
-  },
-  {
-    "sentence": "Ze heeft de tent in de tuin ______.",
-    "options": [
-      "neergezet",
-      "afgezet",
-      "opgezet",
-      "doorgezet"
-    ],
-    "correct": 2,
-    "explanation": "'Opzetten' = opbouwen (tent).",
-    "wrongExplanations": {
-      "0": "Neerzetten = een klaar object plaatsen. Een tent bouw je op — je zet hem niet neer als een boek.",
-      "1": "Afgezet = bedriegen of afsluiten. Ze bouwt een tent — ze bedriegt niemand.",
-      "3": "Doorzetten = volhouden. Er is geen tegenslag bij het opbouwen van een tent."
-    },
-    "hint": "De tent was ingepakt en staat nu rechtop. Welk prefix past bij iets opbouwen?"
-  },
-  {
-    "sentence": "Vergeet niet de wekker ______!",
-    "options": [
-      "uit te zetten",
-      "op te zetten",
-      "te zetten",
-      "af te zetten"
-    ],
-    "correct": 2,
-    "explanation": "'De wekker zetten' = instellen.",
-    "wrongExplanations": {
-      "0": "Uitzetten = uitschakelen. De wekker staat nog niet aan — je moet hem eerst instellen voor morgen.",
-      "1": "Opzetten = oprichten. Een wekker richt je niet op.",
-      "3": "Afzetten = uitschakelen of bedriegen. Je schakelt hem niet uit — je stelt hem in voor een bepaalde tijd."
-    },
-    "hint": "Je stelt de wekker in voor een bepaalde tijd. Welk werkwoord past bij instellen?"
-  },
-  {
-    "sentence": "De trainer heeft de spits ______ in de 2e helft.",
-    "options": [
-      "neergezet",
-      "afgezet",
-      "opgezet",
-      "ingezet"
-    ],
-    "correct": 3,
-    "explanation": "'Inzetten' = laten meespelen.",
-    "wrongExplanations": {
-      "0": "Neerzetten = fysiek plaatsen. Een speler zet je niet neer als een pion op een schaakbord.",
-      "1": "Afzetten = bedriegen of iemand laten uitstappen. De trainer laat de spits meedoen — hij bedriegt hem niet.",
-      "2": "Opzetten = oprichten. De trainer bouwt geen nieuwe speler op — hij laat hem meespelen."
-    },
-    "hint": "De spits stond niet op het veld en nu wel. Welk prefix past bij iemand inbrengen?"
-  },
-  {
-    "sentence": "Hij heeft een grote stap ______.",
-    "options": [
-      "opgezet",
-      "afgezet",
-      "neergezet",
-      "gezet"
-    ],
-    "correct": 3,
-    "explanation": "'Een stap zetten' = actie ondernemen.",
-    "wrongExplanations": {
-      "0": "Opzetten = oprichten. Een stap richt je niet op.",
-      "1": "Afzetten = bedriegen. Hij neemt een beslissing — hij bedriegt niemand.",
-      "2": "Neerzetten = plaatsen. Een stap neerzetten is letterlijk — hier is het figuurlijk voor een belangrijke beslissing."
-    },
-    "hint": "Hij heeft een belangrijke beslissing genomen. Welk werkwoord past bij 'een stap' als vaste combinatie?"
-  },
-  {
-    "sentence": "Het plan is uiteindelijk toch ______.",
-    "options": [
-      "neergezet",
       "doorgezet",
-      "afgezet",
-      "opgezet"
-    ],
-    "correct": 1,
-    "explanation": "'Doorzetten' = ondanks moeilijkheden uitvoeren.",
-    "wrongExplanations": {
-      "0": "Neerzetten = plaatsen. Een plan zet je niet neer als een object.",
-      "2": "Afzetten = bedriegen of afsluiten. Het plan wordt uitgevoerd — niet afgeblazen.",
-      "3": "Opzetten = oprichten. Het plan bestond al — het wordt nu doorgezet, niet opnieuw gestart."
-    },
-    "hint": "Er waren moeilijkheden maar het plan werd toch uitgevoerd. Welk werkwoord past bij volhouden?"
-  },
-  {
-    "sentence": "De ober heeft het eten op tafel ______.",
-    "options": [
-      "afgezet",
       "neergezet",
-      "opgezet",
-      "doorgezet"
+      "afgezet"
     ],
-    "correct": 1,
-    "explanation": "'Neerzetten' = op een oppervlak plaatsen.",
+    "correct": 0,
+    "explanation": "'Inzetten' = beginnen, in gang zetten.",
     "wrongExplanations": {
-      "0": "Afzetten = bedriegen of iemand laten uitstappen. De ober plaatst het eten — hij bedriegt niemand.",
-      "2": "Opzetten = oprichten of bouwen. Borden richt je niet op.",
-      "3": "Doorzetten = volhouden. De ober plaatst het eten — er is niets om vol te houden."
+      "2": "Neerzetten = plaatsen of een prestatie leveren. Een koers lever je niet — je zet hem in.",
+      "1": "Doorzetten = volhouden. De koers is nog nieuw — hij wordt niet doorgezet maar ingezet.",
+      "3": "Afzetten = blokkeren of bedriegen. Een koers wordt niet geblokkeerd."
     },
-    "hint": "De ober plaatst de borden op tafel. Welk prefix past bij het plaatsen van objecten op een oppervlak?"
-  },
-  {
-    "sentence": "Ze probeerden de mensen tegen elkaar ______.",
-    "options": [
-      "af te zetten",
-      "neer te zetten",
-      "op te zetten",
-      "in te zetten"
-    ],
-    "correct": 2,
-    "explanation": "'Opzetten tegen' = ophitsen.",
-    "wrongExplanations": {
-      "0": "Afzetten = bedriegen of iemand laten uitstappen. Hier gaat het om mensen tegen elkaar ophitsen, niet om bedrog.",
-      "1": "Neerzetten = plaatsen. Mensen zet je niet neer als objecten.",
-      "3": "Inzetten = gebruiken of inschakelen. Mensen inzetten = ze laten werken, niet ophitsen."
-    },
-    "hint": "Ze wilden ruzie stoken tussen mensen. Welk prefix past bij 'ophitsen tegen'?"
-  },
-  {
-    "sentence": "De leraar heeft hen aan het denken ______.",
-    "options": [
-      "neergezet",
-      "opgezet",
-      "gezet",
-      "ingezet"
-    ],
-    "correct": 2,
-    "explanation": "'Aan het denken zetten' = laten nadenken.",
-    "wrongExplanations": {
-      "0": "Neerzetten = fysiek plaatsen. Leerlingen zet je niet neer.",
-      "1": "Opzetten = oprichten of ophitsen. Leerlingen opzetten heeft een negatieve bijklank.",
-      "3": "Inzetten = gebruiken voor een doel. Je zet leerlingen niet in als middel — je laat ze nadenken."
-    },
-    "hint": "De leerlingen gaan nadenken. Welk werkwoord past bij 'aan het denken' als vaste combinatie?"
-  },
-  {
-    "sentence": "Vergeet niet je bril ______ als je gaat lezen.",
-    "options": [
-      "af te zetten",
-      "op te zetten",
-      "neer te zetten",
-      "in te zetten"
-    ],
-    "correct": 1,
-    "explanation": "'Opzetten' = op je neus plaatsen (bril).",
-    "wrongExplanations": {
-      "0": "Afzetten = afdoen of bedriegen. Je bril afzetten = hem van je neus halen. Je wilt hem juist ópzetten.",
-      "2": "Neerzetten = op een oppervlak plaatsen. Je bril zet je op je neus, niet op tafel.",
-      "3": "Inzetten = gebruiken voor een doel. Brillen schakel je niet in als middel."
-    },
-    "hint": "Je doet je bril op je neus. Welk prefix past bij iets omhoog plaatsen op je gezicht?"
+    "hint": "De directeur is ergens mee begonnen. Welk prefix past bij 'in gang zetten'?"
   },
   {
     "sentence": "Ze heeft haar zonnebril ______.",
@@ -430,253 +226,457 @@
       "neergezet",
       "opgezet",
       "afgezet",
-      "ingezet"
+      "doorgezet"
     ],
     "correct": 1,
-    "explanation": "'Opzetten' = op je gezicht plaatsen.",
+    "explanation": "'Opzetten' = iets op je hoofd/neus zetten.",
     "wrongExplanations": {
-      "0": "Neerzetten = op een oppervlak plaatsen. Haar zonnebril gaat op haar neus, niet op tafel.",
-      "2": "Afgezet = afdoen. Ze zet hem juist óp — niet af.",
-      "3": "Ingezet = ingeschakeld als middel. Een zonnebril schakel je niet in."
+      "0": "Neerzetten = ergens plaatsen. Ze plaatst de bril niet — ze draagt hem.",
+      "2": "Afzetten = van je hoofd afnemen. Ze zet hem juist óp, niet af.",
+      "3": "Doorzetten = volhouden. Een zonnebril doorzetten slaat nergens op."
     },
-    "hint": "Ze doet haar zonnebril op. Welk prefix past bij iets op je gezicht plaatsen?"
+    "hint": "De bril gaat van haar hand naar haar neus. Welk prefix past bij 'omhoog naar je gezicht'?"
   },
   {
-    "sentence": "De regering heeft het beleid ______.",
+    "sentence": "De docent heeft de studenten aan het werk ______.",
     "options": [
+      "doorgezet",
       "neergezet",
-      "voortgezet",
-      "afgezet",
-      "opgezet"
-    ],
-    "correct": 1,
-    "explanation": "'Voortzetten' = continueren.",
-    "wrongExplanations": {
-      "0": "Neerzetten = plaatsen of een positie innemen. Beleid zet je niet neer als object.",
-      "2": "Afgezet = een leider afzetten of bedriegen. Het beleid wordt gecontinueerd — niet beëindigd of afgezet.",
-      "3": "Opgezet = opgericht. Het beleid bestond al — het wordt voortgezet, niet opnieuw gestart."
-    },
-    "hint": "Het beleid werd gecontinueerd. Welk prefix past bij iets laten doorgaan?"
-  },
-  {
-    "sentence": "Ze wil de traditie ______.",
-    "options": [
-      "afzetten",
-      "voortzetten",
-      "uitzetten",
-      "neerzetten"
-    ],
-    "correct": 1,
-    "explanation": "'Voortzetten' = doorgaan met.",
-    "wrongExplanations": {
-      "0": "Afzetten = stoppen of bedriegen. Ze wil de traditie juist laten doorgaan — niet stoppen.",
-      "2": "Uitzetten = uitschakelen. Een traditie schakel je niet uit.",
-      "3": "Neerzetten = plaatsen. Een traditie zet je niet neer als object."
-    },
-    "hint": "Ze wil de traditie laten doorgaan. Welk prefix past bij continueren?"
-  },
-  {
-    "sentence": "Ze hebben het huis te koop ______.",
-    "options": [
-      "neergezet",
-      "opgezet",
       "gezet",
       "afgezet"
     ],
     "correct": 2,
-    "explanation": "'Te koop zetten' = aanbieden.",
+    "explanation": "'Iemand aan het werk zetten' = iemand laten werken.",
     "wrongExplanations": {
-      "0": "Neerzetten = fysiek plaatsen. Het huis staat er al — ze bieden het aan.",
-      "1": "Opzetten = oprichten. Ze bouwen het huis niet op — ze verkopen het.",
-      "3": "Afzetten = bedriegen. Ze bieden het huis eerlijk aan."
+      "0": "Doorzetten = volhouden. De studenten worden niet doorgezet — ze worden aan het werk gezet.",
+      "1": "Neerzetten = plaatsen. De studenten worden niet fysiek ergens geplaatst.",
+      "3": "Afzetten = bedriegen of blokkeren. De docent bedriegt de studenten niet."
     },
-    "hint": "Ze bieden het huis aan voor verkoop. Welk werkwoord past bij 'te koop' als vaste combinatie?"
+    "hint": "De docent zorgt dat de studenten gaan werken. Welk werkwoord past bij 'aan het werk zetten' zonder prefix?"
   },
   {
-    "sentence": "Het bedrijf heeft extra personeel ______.",
+    "sentence": "De bus stopt hier. Je kunt hier ______.",
     "options": [
-      "afgezet",
-      "opgezet",
-      "neergezet",
-      "ingezet"
+      "opzetten",
+      "doorzetten",
+      "uitstappen",
+      "afzetten"
     ],
     "correct": 3,
-    "explanation": "'Inzetten' = gebruiken (personeel).",
+    "explanation": "'Afzetten' = iemand bij een bestemming laten uitstappen.",
     "wrongExplanations": {
-      "0": "Afzetten = bedriegen of ontslaan. Het personeel wordt ingezet — niet bedrogen.",
-      "1": "Opzetten = oprichten. Het personeel is er al — ze worden ingezet, niet opgericht.",
-      "2": "Neerzetten = plaatsen als object. Medewerkers zijn geen objecten om neer te zetten."
+      "0": "Opzetten = oprichten. Bij een bushalte richt je niets op.",
+      "1": "Doorzetten = volhouden. Je houdt niet vol — je stapt uit.",
+      "2": "Uitstappen is correct maar het is geen -zetten werkwoord. 'Afzetten' = de bus laat je hier stoppen."
     },
-    "hint": "Extra mensen worden ingezet voor de werkzaamheden. Welk prefix past bij mensen gebruiken voor een doel?"
+    "hint": "De bus brengt je naar een plek en je stapt uit. Welk -zetten werkwoord past bij dit moment?"
+  },
+  {
+    "sentence": "Ze hebben een tent ______ in de tuin.",
+    "options": [
+      "opgezet",
+      "afgezet",
+      "neergezet",
+      "doorgezet"
+    ],
+    "correct": 0,
+    "explanation": "'Opzetten' = iets opbouwen, oprichten (tent, project).",
+    "wrongExplanations": {
+      "3": "Doorzetten = volhouden. Een tent is niet iets waar je in volhoudt — je bouwt hem op.",
+      "1": "Afzetten = blokkeren. Een tent blokkeer je niet — je richt hem op.",
+      "2": "Neerzetten = ergens plaatsen. Een tent zet je niet zomaar neer — je bouwt hem op."
+    },
+    "hint": "De tent wordt van de grond af opgebouwd. Welk prefix past bij 'oprichten'?"
+  },
+  {
+    "sentence": "Het werk gaat goed. We moeten het ______.",
+    "options": [
+      "opzetten",
+      "voortzetten",
+      "neerzetten",
+      "afzetten"
+    ],
+    "correct": 1,
+    "explanation": "'Voortzetten' = doorgaan met iets.",
+    "wrongExplanations": {
+      "0": "Opzetten = oprichten. Het werk bestaat al — je richt het niet opnieuw op.",
+      "2": "Neerzetten = plaatsen of een prestatie leveren. Het werk loopt — je plaatst het niet.",
+      "3": "Afzetten = blokkeren of bedriegen. Je wilt juist doorgaan, niet stoppen."
+    },
+    "hint": "Het gaat goed en je wilt doorgaan. Welk prefix past bij 'verder gaan'?"
+  },
+  {
+    "sentence": "Ik wil de radio harder ______.",
+    "options": [
+      "opzetten",
+      "aanzetten",
+      "zetten",
+      "neerzetten"
+    ],
+    "correct": 2,
+    "explanation": "'Harder zetten' = het volume verhogen.",
+    "wrongExplanations": {
+      "0": "Opzetten = oprichten. De radio staat al aan — je wilt alleen het volume veranderen.",
+      "1": "Aanzetten = inschakelen. De radio is al aan — je wilt hem alleen luider.",
+      "3": "Neerzetten = ergens plaatsen. Je verplaatst de radio niet — je verandert het volume."
+    },
+    "hint": "Het volume moet omhoog. Welk werkwoord gebruik je zonder prefix bij volume aanpassen?"
+  },
+  {
+    "sentence": "Hij heeft de eerste stap ______.",
+    "options": [
+      "opgezet",
+      "afgezet",
+      "neergezet",
+      "gezet"
+    ],
+    "correct": 3,
+    "explanation": "'Een stap zetten' = actie ondernemen. Vaste combinatie.",
+    "wrongExplanations": {
+      "0": "Opzetten = oprichten. Een stap richt je niet op.",
+      "1": "Afzetten = bedriegen. Hij neemt een beslissing — hij bedriegt niemand.",
+      "2": "Neerzetten = plaatsen. 'Een stap neerzetten' is letterlijk — hier is het figuurlijk: actie ondernemen."
+    },
+    "hint": "Hij heeft een belangrijke beslissing genomen. Welk werkwoord past bij 'een stap' als vaste combinatie?"
   },
   {
     "sentence": "Je moet de computer ______ voordat je weggaat.",
     "options": [
-      "aanzetten",
-      "opzetten",
       "uitzetten",
+      "neerzetten",
+      "opzetten",
+      "doorzetten"
+    ],
+    "correct": 0,
+    "explanation": "'Uitzetten' = een apparaat uitschakelen.",
+    "wrongExplanations": {
+      "2": "Opzetten = oprichten. De computer is al opgestart — je wilt hem uit.",
+      "1": "Neerzetten = ergens plaatsen. De computer staat al — je wilt hem uitschakelen.",
+      "3": "Doorzetten = volhouden. De computer houdt niet vol — hij moet uit."
+    },
+    "hint": "Je vertrekt en het apparaat moet uit. Welk prefix is het tegenovergestelde van 'aan'?"
+  },
+  {
+    "sentence": "Het bedrijf heeft de samenwerking ______.",
+    "options": [
+      "opgezet",
+      "voortgezet",
+      "neergezet",
+      "afgezet"
+    ],
+    "correct": 1,
+    "explanation": "'Voortzetten' = doorgaan met iets dat al bestond.",
+    "wrongExplanations": {
+      "0": "Opzetten = oprichten, beginnen. De samenwerking bestond al — het bedrijf begint er niet opnieuw mee.",
+      "2": "Neerzetten = plaatsen. Een samenwerking plaats je niet — je gaat ermee door.",
+      "3": "Afzetten = blokkeren of beëindigen. Het bedrijf stopt de samenwerking niet — het gaat ermee door."
+    },
+    "hint": "De samenwerking bestond al en gaat verder. Welk prefix past bij 'verder gaan'?"
+  },
+  {
+    "sentence": "Kun je de vergadering naar donderdag ______?",
+    "options": [
+      "opzetten",
+      "doorzetten",
+      "verzetten",
       "neerzetten"
     ],
     "correct": 2,
-    "explanation": "'Uitzetten' = uitschakelen.",
+    "explanation": "'Verzetten' = verplaatsen naar een ander tijdstip.",
     "wrongExplanations": {
-      "0": "Aanzetten = inschakelen. Je gaat weg — je wilt de computer uitschakelen, niet inschakelen.",
-      "1": "Opzetten = oprichten. Een computer richt je niet op.",
-      "3": "Neerzetten = plaatsen. De computer staat er al — je schakelt hem uit."
+      "0": "Opzetten = oprichten. De vergadering bestaat al — je wilt hem verplaatsen.",
+      "1": "Doorzetten = volhouden. Je wilt niet volhouden — je wilt een nieuw tijdstip.",
+      "3": "Neerzetten = fysiek plaatsen. Een vergadering plaats je niet — je verplaatst hem in de agenda."
     },
-    "hint": "Je gaat weg en wilt de computer uitschakelen. Welk prefix past bij stoppen?"
+    "hint": "De vergadering staat gepland maar moet naar een ander moment. Welk prefix past bij 'verplaatsen'?"
   },
   {
-    "sentence": "Ik ga thee ______ voor ons.",
+    "sentence": "We moeten meer middelen ______ voor dit project.",
+    "options": [
+      "opzetten",
+      "afzetten",
+      "neerzetten",
+      "inzetten"
+    ],
+    "correct": 3,
+    "explanation": "'Inzetten' = gebruiken, beschikbaar stellen.",
+    "wrongExplanations": {
+      "0": "Opzetten = oprichten. Je richt middelen niet op — je gebruikt ze.",
+      "1": "Afzetten = blokkeren of bedriegen. Je blokkeert middelen niet — je zet ze in.",
+      "2": "Neerzetten = plaatsen. Middelen zet je niet fysiek neer — je maakt ze beschikbaar."
+    },
+    "hint": "Het project heeft meer resources nodig. Welk prefix past bij 'beschikbaar stellen'?"
+  },
+  {
+    "sentence": "De trainer heeft drie nieuwe spelers ______.",
+    "options": [
+      "ingezet",
+      "neergezet",
+      "afgezet",
+      "voortgezet"
+    ],
+    "correct": 0,
+    "explanation": "'Inzetten' = laten meedoen, gebruiken.",
+    "wrongExplanations": {
+      "1": "Neerzetten = plaatsen. Spelers worden niet ergens geplaatst als objecten — ze worden ingezet.",
+      "2": "Afzetten = bedriegen of blokkeren. De trainer bedriegt de spelers niet.",
+      "3": "Voortzetten = doorgaan. Nieuwe spelers gaan niet voort — ze worden voor het eerst ingezet."
+    },
+    "hint": "De spelers gaan voor het eerst meedoen. Welk prefix past bij 'laten deelnemen'?"
+  },
+  {
+    "sentence": "De data moet naar het nieuwe systeem worden ______.",
+    "options": [
+      "opgezet",
+      "omgezet",
+      "neergezet",
+      "doorgezet"
+    ],
+    "correct": 1,
+    "explanation": "'Omzetten' = converteren, veranderen van vorm.",
+    "wrongExplanations": {
+      "0": "Opzetten = oprichten. Data wordt niet opgericht — het wordt geconverteerd.",
+      "2": "Neerzetten = plaatsen. Data wordt niet fysiek geplaatst — het wordt omgezet naar een ander formaat.",
+      "3": "Doorzetten = volhouden. Data houdt niet vol — het verandert van formaat."
+    },
+    "hint": "De data verandert van het ene formaat naar het andere. Welk prefix past bij 'van vorm veranderen'?"
+  },
+  {
+    "sentence": "Het team heeft een goed resultaat ______ dit kwartaal.",
+    "options": [
+      "opgezet",
+      "doorgezet",
+      "neergezet",
+      "afgezet"
+    ],
+    "correct": 2,
+    "explanation": "'Een resultaat neerzetten' = een goed resultaat leveren.",
+    "wrongExplanations": {
+      "0": "Opzetten = oprichten. Een resultaat richt je niet op — je levert het.",
+      "1": "Doorzetten = volhouden. Het resultaat is al bereikt — het wordt niet doorgezet.",
+      "3": "Afzetten = bedriegen of blokkeren. Een resultaat bedriegt niemand."
+    },
+    "hint": "Het team heeft iets goeds geleverd. Welk werkwoord past bij 'een prestatie leveren'?"
+  },
+  {
+    "sentence": "Het is warm. Kun je het raam even ______?",
+    "options": [
+      "aanzetten",
+      "neerzetten",
+      "afzetten",
+      "openzetten"
+    ],
+    "correct": 3,
+    "explanation": "'Openzetten' = open maken (raam, deur).",
+    "wrongExplanations": {
+      "0": "Aanzetten = inschakelen. Een raam is geen apparaat.",
+      "2": "Afzetten = blokkeren. Je blokkeert het raam niet — je opent het.",
+      "1": "Neerzetten = plaatsen. Je verplaatst het raam niet — je opent het."
+    },
+    "hint": "Het is warm en je wilt frisse lucht. Welk werkwoord past bij een raam dat open moet?"
+  },
+  {
+    "sentence": "Ik kan mijn fiets hier niet ______.",
+    "options": [
+      "neerzetten",
+      "doorzetten",
+      "opzetten",
+      "voortzetten"
+    ],
+    "correct": 0,
+    "explanation": "'Neerzetten' = ergens parkeren/plaatsen.",
+    "wrongExplanations": {
+      "2": "Opzetten = oprichten. Een fiets richt je niet op — je parkeert hem.",
+      "1": "Doorzetten = volhouden. Een fiets doorzetten slaat nergens op.",
+      "3": "Voortzetten = doorgaan met iets. Een fiets voortzetten is geen parkeeractie."
+    },
+    "hint": "Je zoekt een plek om je fiets te parkeren. Welk prefix past bij 'ergens plaatsen'?"
+  },
+  {
+    "sentence": "Wil je hier je handtekening ______?",
     "options": [
       "opzetten",
       "zetten",
-      "aanzetten",
-      "neerzetten"
+      "neerzetten",
+      "doorzetten"
     ],
     "correct": 1,
-    "explanation": "'Thee zetten' = thee bereiden.",
+    "explanation": "'Je handtekening zetten' = ondertekenen. Vaste combinatie.",
     "wrongExplanations": {
-      "0": "Opzetten = oprichten. Je start geen project — je maakt thee.",
-      "2": "Aanzetten = inschakelen. Thee schakel je niet in.",
-      "3": "Neerzetten = plaatsen. Je maakt de thee eerst — neerzetten komt daarna."
+      "0": "Opzetten = oprichten. Een handtekening richt je niet op.",
+      "2": "Neerzetten = fysiek plaatsen. Hoewel je het kunt horen, is 'handtekening zetten' de standaardvorm.",
+      "3": "Doorzetten = volhouden. Een handtekening is geen kwestie van volhouden."
     },
-    "hint": "Thee bereiden is een vaste combinatie. Welk werkwoord gebruik je zonder prefix?"
+    "hint": "Je moet een document ondertekenen. Welk werkwoord gebruik je zonder prefix als vaste combinatie?"
   },
   {
-    "sentence": "De directeur heeft de plannen ______.",
+    "sentence": "De bouwvakkers hebben een hek om het terrein ______.",
     "options": [
-      "doorgezet",
-      "afgezet",
+      "opgezet",
       "neergezet",
-      "uitgezet"
-    ],
-    "correct": 3,
-    "explanation": "'Uitzetten' = uitstippelen, plannen.",
-    "wrongExplanations": {
-      "0": "Doorzetten = volhouden. De plannen worden gemaakt — niet volgehouden.",
-      "1": "Afgezet = bedriegen of ontslaan. De directeur maakt plannen — hij bedriegt niemand.",
-      "2": "Neergezet = geplaatst. Plannen zet je niet neer als objecten."
-    },
-    "hint": "De directeur heeft de plannen uitgestippeld. Welk prefix past bij iets uitzetten als route of strategie?"
-  },
-  {
-    "sentence": "Ze zette grote ogen ______.",
-    "options": [
-      "af",
-      "neer",
-      "op",
-      "in"
+      "afgezet",
+      "doorgezet"
     ],
     "correct": 2,
-    "explanation": "'Grote ogen opzetten' = verbaasd kijken.",
+    "explanation": "'Afzetten' = een gebied afsluiten met een hek of lint.",
     "wrongExplanations": {
-      "0": "Afzetten = bedriegen of stoppen. Grote ogen afzetten bestaat niet als uitdrukking.",
-      "1": "Neerzetten = plaatsen. Ogen zet je niet neer.",
-      "3": "Inzetten = gebruiken. Ogen inzetten bestaat niet als uitdrukking voor verbazing."
+      "0": "Opzetten = oprichten. Het hek wordt niet opgericht als een organisatie — het wordt geplaatst als afscheiding.",
+      "1": "Neerzetten = ergens plaatsen. Het hek staat er niet 'zomaar' — het is er als grens.",
+      "3": "Doorzetten = volhouden. Een hek doorzetten slaat nergens op."
     },
-    "hint": "Ze keek verbaasd. Welk prefix past bij deze uitdrukking voor verbazing?"
+    "hint": "Het terrein wordt afgeschermd. Welk prefix past bij 'een grens maken'?"
   },
   {
-    "sentence": "Kun je me even bij de supermarkt ______?",
+    "sentence": "Het project wordt ______ ondanks de bezuinigingen.",
     "options": [
-      "neerzetten",
-      "afzetten",
-      "opzetten",
-      "uitzetten"
+      "opgezet",
+      "neergezet",
+      "afgezet",
+      "voortgezet"
+    ],
+    "correct": 3,
+    "explanation": "'Voortzetten' = doorgaan met iets dat al loopt.",
+    "wrongExplanations": {
+      "1": "Neerzetten = plaatsen. Het project wordt niet geplaatst — het gaat door.",
+      "2": "Afzetten = blokkeren. Het project wordt juist niet gestopt — het gaat door.",
+      "0": "Opzetten = oprichten. Het project bestond al — het wordt niet opnieuw opgericht."
+    },
+    "hint": "Er zijn bezuinigingen maar het project stopt niet. Welk prefix past bij 'doorgaan'?"
+  },
+  {
+    "sentence": "Zij heeft zich volledig ______ voor het goede doel.",
+    "options": [
+      "ingezet",
+      "afgezet",
+      "neergezet",
+      "opgezet"
+    ],
+    "correct": 0,
+    "explanation": "'Zich inzetten voor' = zich inspannen, er moeite voor doen.",
+    "wrongExplanations": {
+      "3": "Opzetten = oprichten. Ze richt zichzelf niet op — ze spant zich in.",
+      "1": "Afzetten = bedriegen of blokkeren. Ze bedriegt het goede doel niet.",
+      "2": "Neerzetten = plaatsen. Ze plaatst zichzelf niet — ze levert een inspanning."
+    },
+    "hint": "Ze geeft al haar energie voor een goed doel. Welk prefix past bij 'je inspannen'?"
+  },
+  {
+    "sentence": "De baas heeft hem onder druk ______.",
+    "options": [
+      "neergezet",
+      "gezet",
+      "opgezet",
+      "doorgezet"
     ],
     "correct": 1,
-    "explanation": "'Afzetten' = iemand laten uitstappen.",
+    "explanation": "'Onder druk zetten' = druk uitoefenen op iemand.",
     "wrongExplanations": {
-      "0": "Neerzetten = een voorwerp plaatsen. Je bent een persoon, geen object om neer te zetten.",
-      "2": "Opzetten = oprichten. Er wordt niets opgericht bij de supermarkt.",
-      "3": "Uitzetten = uitschakelen of verbannen. Je wordt niet uitgeschakeld — je stapt uit."
+      "0": "Neerzetten = plaatsen. Je plaatst iemand niet onder druk als een object — je oefent druk uit.",
+      "2": "Opzetten = oprichten. Druk richt je niet op — je oefent het uit.",
+      "3": "Doorzetten = volhouden. De baas houdt niet vol — hij oefent druk uit."
     },
-    "hint": "Je wilt bij de supermarkt uitstappen. Welk prefix past bij iemand laten uitstappen?"
+    "hint": "De baas dwingt hem om iets te doen. Welk werkwoord past bij 'onder druk zetten' zonder prefix?"
   },
   {
-    "sentence": "Na de breuk heeft hij alles op alles ______.",
+    "sentence": "Ik kan me niet ______ tot werken vandaag.",
+    "options": [
+      "opzetten",
+      "doorzetten",
+      "zetten",
+      "afzetten"
+    ],
+    "correct": 2,
+    "explanation": "'Zich zetten tot' = ergens aan beginnen, je ertoe brengen.",
+    "wrongExplanations": {
+      "0": "Opzetten = oprichten. Je richt jezelf niet op tot werken.",
+      "1": "Doorzetten = volhouden. Je bent nog niet eens begonnen — je kunt niet volhouden wat je nog niet doet.",
+      "3": "Afzetten = bedriegen. Je bedriegt jezelf niet tot werken."
+    },
+    "hint": "Je kunt jezelf niet ertoe brengen om te beginnen. Welk werkwoord past bij 'je ergens toe zetten'?"
+  },
+  {
+    "sentence": "Ze wil haar ideeën beter ______ bij de klant.",
+    "options": [
+      "doorzetten",
+      "afzetten",
+      "opzetten",
+      "neerzetten"
+    ],
+    "correct": 3,
+    "explanation": "'Neerzetten' = presenteren, laten zien op een overtuigende manier.",
+    "wrongExplanations": {
+      "0": "Doorzetten = volhouden. Ze houdt niet vol — ze wil haar ideeën goed presenteren.",
+      "1": "Afzetten = bedriegen. Ze bedriegt de klant niet — ze presenteert haar ideeën.",
+      "2": "Opzetten = oprichten. Ze richt haar ideeën niet op — ze presenteert ze."
+    },
+    "hint": "Ze wil haar ideeën goed presenteren. Welk werkwoord past bij 'iets goed laten zien'?"
+  },
+  {
+    "sentence": "We moeten de klok een uur ______.",
+    "options": [
+      "verzetten",
+      "doorzetten",
+      "afzetten",
+      "opzetten"
+    ],
+    "correct": 0,
+    "explanation": "'Verzetten' = verplaatsen, anders instellen.",
+    "wrongExplanations": {
+      "1": "Doorzetten = volhouden. De klok houdt niet vol — hij wordt aangepast.",
+      "2": "Afzetten = blokkeren of bedriegen. De klok wordt niet geblokkeerd — hij wordt versteld.",
+      "3": "Opzetten = oprichten. De klok wordt niet opgericht — hij wordt verzet."
+    },
+    "hint": "De klok moet naar een ander tijdstip. Welk prefix past bij 'verplaatsen'?"
+  },
+  {
+    "sentence": "Het plan is goed ______ door het hele team.",
     "options": [
       "neergezet",
       "opgezet",
       "afgezet",
-      "gezet"
+      "ingezet"
     ],
-    "correct": 3,
-    "explanation": "'Alles op alles zetten' = al je energie erin stoppen.",
+    "correct": 1,
+    "explanation": "'Opzetten' = ontwerpen, opstellen (plan, project).",
     "wrongExplanations": {
-      "0": "Neerzetten = plaatsen. 'Alles op alles neerzetten' bestaat niet als uitdrukking.",
-      "1": "Opzetten = oprichten. 'Alles op alles opzetten' bestaat niet als uitdrukking.",
-      "2": "Afzetten = bedriegen. Hij probeert alles — hij bedriegt niemand."
+      "0": "Neerzetten = plaatsen of presenteren. Een plan wordt niet geplaatst — het wordt opgesteld.",
+      "2": "Afzetten = blokkeren. Een plan wordt niet geblokkeerd — het wordt gemaakt.",
+      "3": "Inzetten = gebruiken. Het plan wordt niet ingezet — het wordt opgezet (ontworpen)."
     },
-    "hint": "Hij heeft alle moeite gedaan. Welk werkwoord past bij 'alles op alles' als vaste uitdrukking?"
+    "hint": "Het team heeft samen een plan gemaakt. Welk prefix past bij 'ontwerpen, opstellen'?"
   },
   {
-    "sentence": "De muziek staat te hard. Kun je het ______?",
+    "sentence": "Kun je even een stoel ______ voor de gast?",
     "options": [
-      "uitzetten",
-      "afzetten",
-      "zachter zetten",
-      "neerzetten"
+      "opzetten",
+      "doorzetten",
+      "bijzetten",
+      "afzetten"
     ],
     "correct": 2,
-    "explanation": "'Zachter zetten' = volume verlagen.",
+    "explanation": "'Bijzetten' = een extra stoel erbij plaatsen.",
     "wrongExplanations": {
-      "0": "Uitzetten = de muziek helemaal stoppen. Maar je wilt hem nog horen — alleen stiller.",
-      "1": "Afzetten = uitschakelen of bedriegen. Ook hier verdwijnt de muziek volledig — dat wil je niet.",
-      "3": "Neerzetten = een object plaatsen. Muziek zet je niet neer als een vaas."
+      "0": "Opzetten = oprichten. Een stoel richt je niet op — je plaatst hem erbij.",
+      "1": "Doorzetten = volhouden. Een stoel doorzetten slaat nergens op.",
+      "3": "Afzetten = blokkeren of bedriegen. Je bedriegt de stoel niet."
     },
-    "hint": "Je wilt het volume verlagen, niet uitschakelen. Welk werkwoord past daarbij?"
+    "hint": "Er is niet genoeg zitplek en je wilt een extra stoel. Welk prefix past bij 'erbij plaatsen'?"
   },
   {
-    "sentence": "Het is belangrijk je beste beentje voor te ______.",
+    "sentence": "Het bedrijf wil de winst ______ in nieuwe technologie.",
     "options": [
-      "neerzetten",
       "opzetten",
       "afzetten",
-      "zetten"
+      "neerzetten",
+      "inzetten"
     ],
     "correct": 3,
-    "explanation": "'Je beste beentje voorzetten' = je best doen.",
+    "explanation": "'Inzetten' = besteden, investeren, gebruiken voor een doel.",
     "wrongExplanations": {
-      "0": "Neerzetten = plaatsen. 'Je beste beentje neerZetten' bestaat niet als uitdrukking.",
-      "1": "Opzetten = oprichten. 'Je beste beentje opzetten' bestaat niet als uitdrukking.",
-      "2": "Afzetten = bedriegen of stoppen. 'Je beste beentje afzetten' bestaat niet als uitdrukking."
+      "0": "Opzetten = oprichten. Je richt winst niet op — je investeert het.",
+      "1": "Afzetten = blokkeren. Je blokkeert winst niet — je investeert het.",
+      "2": "Neerzetten = plaatsen. Winst wordt niet fysiek geplaatst — het wordt ergens voor gebruikt."
     },
-    "hint": "Je moet je best doen. Welk werkwoord past bij 'je beste beentje' als vaste uitdrukking?"
-  },
-  {
-    "sentence": "Zet je handtekening hier ______.",
-    "options": [
-      "af",
-      "neer",
-      "op",
-      "door"
-    ],
-    "correct": 1,
-    "explanation": "'Neerzetten' = je handtekening plaatsen.",
-    "wrongExplanations": {
-      "0": "Afzetten = bedriegen of stoppen. Een handtekening afzetten bestaat niet.",
-      "2": "Opzetten = oprichten of op je gezicht plaatsen. Een handtekening richt je niet op.",
-      "3": "Doorzetten = volhouden. Je zet één handtekening — er is niets om vol te houden."
-    },
-    "hint": "Je plaatst je handtekening op papier. Welk prefix past bij plaatsen op een oppervlak?"
-  },
-  {
-    "sentence": "Na het sporten moet je de kraan ______.",
-    "options": [
-      "dichtzetten",
-      "openzetten",
-      "opzetten",
-      "aanzetten"
-    ],
-    "correct": 1,
-    "explanation": "'Openzetten' = de kraan opendraaien.",
-    "wrongExplanations": {
-      "0": "Dichtzetten = de kraan sluiten. Na het sporten wil je water — je opent de kraan, je sluit hem niet.",
-      "2": "Opzetten = oprichten of op je neus plaatsen. Een kraan richt je niet op.",
-      "3": "Aanzetten = inschakelen. Een kraan schakel je niet in — je opent hem."
-    },
-    "hint": "Je wilt water na het sporten. Welk prefix past bij het openen van een kraan?"
+    "hint": "Het bedrijf wil geld besteden aan iets nuttigs. Welk prefix past bij 'ergens voor gebruiken'?"
   }
 ]
