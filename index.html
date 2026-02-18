@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#0F1117;--surface:#181A20;--surface-2:#1E2028;--surface-3:#252830;--ink:#E8E9ED;--ink-2:#A0A3AD;--ink-3:#6B6F7B;--ink-4:#3E414B;--border:rgba(255,255,255,0.06);--border-2:rgba(255,255,255,0.10);--correct:#2D6A4F;--correct-bg:rgba(45,106,79,0.12);--correct-border:rgba(45,106,79,0.4);--wrong:#C44536;--wrong-bg:rgba(196,69,54,0.12);--wrong-border:rgba(196,69,54,0.4);--radius:10px;--radius-lg:14px;--font:'DM Sans',system-ui,sans-serif;--mono:'DM Mono',monospace;--hint-color:rgba(180,190,210,0.85);--hint-bg:rgba(180,190,210,0.06);--hint-border:rgba(180,190,210,0.12);--hint-bg-hover:rgba(180,190,210,0.10);--hint-border-hover:rgba(180,190,210,0.18);--focus-ring:rgba(120,160,255,0.6)}
+:root{--bg:#0F1117;--surface:#181A20;--surface-2:#1E2028;--surface-3:#252830;--ink:#E8E9ED;--ink-2:#A0A3AD;--ink-3:#6B6F7B;--ink-4:#3E414B;--border:rgba(255,255,255,0.06);--border-2:rgba(255,255,255,0.10);--correct:#2D6A4F;--correct-bg:rgba(45,106,79,0.12);--correct-border:rgba(45,106,79,0.4);--wrong:#C44536;--wrong-bg:rgba(196,69,54,0.12);--wrong-border:rgba(196,69,54,0.4);--radius:12px;--radius-lg:16px;--font:'DM Sans',system-ui,sans-serif;--mono:'DM Mono',monospace;--hint-color:rgba(180,190,210,0.85);--hint-bg:rgba(180,190,210,0.06);--hint-border:rgba(180,190,210,0.12);--hint-bg-hover:rgba(180,190,210,0.10);--hint-border-hover:rgba(180,190,210,0.18);--focus-ring:rgba(120,160,255,0.6)}
 html{font-size:16px;-webkit-text-size-adjust:100%}
 body{font-family:var(--font);background:var(--bg);color:var(--ink);min-height:100dvh;overflow-x:hidden;-webkit-font-smoothing:antialiased}
 button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
@@ -18,19 +18,21 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 *:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px;border-radius:var(--radius)}
 .option-btn:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px;box-shadow:0 0 0 4px rgba(120,160,255,0.15)}
 .theme-card:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px;box-shadow:0 0 0 4px rgba(120,160,255,0.15)}
-.skip-link{position:absolute;top:-40px;left:0;background:var(--ink);color:var(--bg);padding:8px 16px;z-index:100;font-size:14px;font-weight:600;border-radius:0 0 var(--radius) 0;transition:top 0.2s}
+.skip-link{position:absolute;top:-40px;left:0;background:var(--ink);color:var(--bg);padding:8px 16px;z-index:100;font-size:15px;font-weight:600;border-radius:0 0 var(--radius) 0;transition:top 0.2s}
 .skip-link:focus{top:0}
 .app{max-width:480px;margin:0 auto;min-height:100dvh;display:flex;flex-direction:column;padding:0;transition:max-width 0.2s ease}
-.loading{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:var(--ink-3)}
+.loading{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:var(--ink-3);font-size:16px}
 .loading-spinner{width:32px;height:32px;border:3px solid var(--surface-3);border-top-color:var(--ink-2);border-radius:50%;animation:spin 0.8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
-.loading-error{color:var(--wrong);text-align:center;padding:40px 20px;line-height:1.6;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center}
-.loading-error button{color:var(--ink);text-decoration:underline;margin-top:12px;font-size:15px}
+.loading-error{color:var(--wrong);text-align:center;padding:40px 20px;line-height:1.6;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:16px}
+.loading-error button{color:var(--ink);text-decoration:underline;margin-top:12px;font-size:16px}
+
+/* ── HOME ── */
 .home{padding:24px 20px;flex:1;display:flex;flex-direction:column}
 .home-header{padding:32px 0 24px}
-.home-label{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px}
-.home-title{font-size:26px;font-weight:700;letter-spacing:-0.5px;line-height:1.2;color:var(--ink)}
-.home-subtitle{font-size:14px;color:var(--ink-2);margin-top:8px;line-height:1.5}
+.home-label{font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px}
+.home-title{font-size:34px;font-weight:700;letter-spacing:-0.5px;line-height:1.12;color:var(--ink)}
+.home-subtitle{font-size:17px;color:var(--ink-2);margin-top:10px;line-height:1.47}
 .theme-grid{display:flex;flex-direction:column;gap:10px;margin-top:24px}
 .theme-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px 20px;display:flex;align-items:center;gap:16px;transition:all 0.15s ease;position:relative;overflow:hidden}
 .theme-card:hover{background:var(--surface-2);border-color:var(--border-2)}
@@ -38,36 +40,50 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .theme-emoji{font-size:28px;width:48px;height:48px;display:flex;align-items:center;justify-content:center;border-radius:10px;flex-shrink:0}
 .theme-info{flex:1;min-width:0}
 .theme-name{font-size:17px;font-weight:600;letter-spacing:-0.2px}
-.theme-desc{font-size:12px;color:var(--ink-3);margin-top:3px;font-family:var(--mono);letter-spacing:-0.3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.theme-count{font-size:12px;color:var(--ink-3);font-family:var(--mono);flex-shrink:0}
+.theme-desc{font-size:13px;color:var(--ink-3);margin-top:3px;font-family:var(--mono);letter-spacing:-0.3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.theme-count{font-size:13px;color:var(--ink-3);font-family:var(--mono);flex-shrink:0}
 .theme-arrow{color:var(--ink-3);font-size:18px;flex-shrink:0}
 .theme-accent{position:absolute;left:0;top:0;bottom:0;width:3px;border-radius:0 3px 3px 0}
+
+/* ── COUNT SELECT ── */
+.count-select{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 20px;text-align:center}
+.count-title{font-size:28px;font-weight:700;margin-bottom:6px;color:var(--ink);letter-spacing:-0.3px}
+.count-theme-label{font-size:15px;font-weight:600;margin-bottom:6px;display:inline-flex;align-items:center;gap:6px}
+.count-desc{font-size:17px;color:var(--ink-2);margin-bottom:32px}
+.count-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%;max-width:320px}
+.count-grid .btn-result.primary{grid-column:span 2}
+.count-btn{background:var(--surface);border:1px solid var(--border);padding:20px;border-radius:var(--radius-lg);font-size:22px;font-weight:600;font-family:var(--mono);color:var(--ink);transition:all 0.15s;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px}
+.count-btn span{font-size:13px;font-weight:400;color:var(--ink-3);font-family:var(--font)}
+.count-btn:hover{background:var(--surface-2);border-color:var(--border-2)}
+.count-btn:active{transform:scale(0.96)}
+
+/* ── QUIZ ── */
 .quiz{flex:1;display:flex;flex-direction:column}
 .quiz-top{padding:16px 20px 0;flex-shrink:0}
 .quiz-nav{display:flex;align-items:center;gap:12px;margin-bottom:16px}
-.quiz-back{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:var(--surface);border:1px solid var(--border);font-size:16px;transition:all 0.15s}
+.quiz-back{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:var(--surface);border:1px solid var(--border);font-size:17px;transition:all 0.15s}
 .quiz-back:hover{background:var(--surface-2)}
-.quiz-theme{font-size:14px;font-weight:600;flex:1}
-.quiz-counter{font-family:var(--mono);font-size:13px;color:var(--ink-2)}
+.quiz-theme{font-size:15px;font-weight:600;flex:1}
+.quiz-counter{font-family:var(--mono);font-size:14px;color:var(--ink-2)}
 .progress-wrap{display:flex;align-items:center;gap:10px;margin-bottom:4px}
 .progress-bar{flex:1;height:4px;background:var(--surface-3);border-radius:2px;overflow:hidden}
 .progress-fill{height:100%;border-radius:2px;transition:width 0.4s cubic-bezier(0.4,0,0.2,1)}
 .score-pills{display:flex;gap:8px}
-.score-pill{display:flex;align-items:center;gap:4px;font-size:12px;font-weight:600;font-family:var(--mono);padding:3px 8px;border-radius:6px}
+.score-pill{display:flex;align-items:center;gap:4px;font-size:13px;font-weight:600;font-family:var(--mono);padding:3px 8px;border-radius:6px}
 .score-pill.correct{background:var(--correct-bg);color:#52B788}
 .score-pill.wrong{background:var(--wrong-bg);color:#E8776C}
 .score-pill .dot{width:6px;height:6px;border-radius:50%}
 .score-pill.correct .dot{background:#52B788}
 .score-pill.wrong .dot{background:#E8776C}
 .quiz-body{flex:1;padding:20px;display:flex;flex-direction:column}
-.question-num{font-size:12px;font-weight:600;color:var(--ink-3);font-family:var(--mono);margin-bottom:12px}
-.question-text{font-size:19px;font-weight:500;line-height:1.5;letter-spacing:-0.2px;margin-bottom:28px;min-height:60px}
+.question-num{font-size:13px;font-weight:600;color:var(--ink-3);font-family:var(--mono);margin-bottom:12px}
+.question-text{font-size:22px;font-weight:500;line-height:1.45;letter-spacing:-0.2px;margin-bottom:28px;min-height:60px}
 .options{display:flex;flex-direction:column;gap:8px}
-.option-btn{width:100%;text-align:left;padding:14px 16px;border-radius:var(--radius);background:var(--surface);border:1.5px solid var(--border);font-size:15px;font-weight:400;line-height:1.4;display:flex;align-items:flex-start;gap:12px;transition:all 0.15s ease;position:relative}
+.option-btn{width:100%;text-align:left;padding:15px 16px;border-radius:var(--radius);background:var(--surface);border:1.5px solid var(--border);font-size:17px;font-weight:400;line-height:1.4;display:flex;align-items:flex-start;gap:12px;transition:all 0.15s ease;position:relative}
 .option-btn:not(.answered):hover{background:var(--surface-2);border-color:var(--border-2)}
 .option-btn:not(.answered):active{transform:scale(0.99)}
-.option-key{width:24px;height:24px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;font-family:var(--mono);flex-shrink:0;background:var(--surface-3);color:var(--ink-2)}
-.option-text{padding-top:1px}
+.option-key{width:26px;height:26px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;font-family:var(--mono);flex-shrink:0;background:var(--surface-3);color:var(--ink-2)}
+.option-text{padding-top:2px}
 .option-btn.answered{pointer-events:none}
 .option-btn.is-correct{background:var(--correct-bg);border-color:var(--correct-border)}
 .option-btn.is-correct .option-key{background:var(--correct);color:#fff}
@@ -75,69 +91,72 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .option-btn.is-wrong .option-key{background:var(--wrong);color:#fff}
 .option-btn.is-actual-correct{background:var(--correct-bg);border-color:var(--correct-border)}
 .option-btn.is-actual-correct .option-key{background:var(--correct);color:#fff}
-.feedback{margin-top:16px;padding:14px 16px;border-radius:var(--radius);font-size:13px;line-height:1.6;animation:feedbackIn 0.25s ease}
+
+/* ── FEEDBACK ── */
+.feedback{margin-top:16px;padding:14px 16px;border-radius:var(--radius);font-size:15px;line-height:1.6;animation:feedbackIn 0.25s ease}
 @keyframes feedbackIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 .feedback.correct{background:var(--correct-bg);border:1px solid var(--correct-border)}
 .feedback.wrong{background:var(--wrong-bg);border:1px solid var(--wrong-border)}
-.feedback-label{font-weight:600;margin-bottom:4px;display:flex;align-items:center;gap:6px}
+.feedback-label{font-weight:600;margin-bottom:4px;display:flex;align-items:center;gap:6px;font-size:16px}
 .feedback.correct .feedback-label{color:#52B788}
 .feedback.wrong .feedback-label{color:#E8776C}
 .feedback-text{color:var(--ink-2)}
-.hint-btn{margin-top:14px;display:inline-flex;align-items:center;align-self:flex-start;gap:6px;padding:6px 12px 6px 9px;border-radius:8px;background:var(--hint-bg);border:1px solid var(--hint-border);font-size:13px;font-weight:500;color:var(--ink-3);transition:all 0.18s ease;line-height:1}
+
+/* ── HINT ── */
+.hint-btn{margin-top:14px;display:inline-flex;align-items:center;align-self:flex-start;gap:6px;padding:7px 13px 7px 10px;border-radius:8px;background:var(--hint-bg);border:1px solid var(--hint-border);font-size:14px;font-weight:500;color:var(--ink-3);transition:all 0.18s ease;line-height:1}
 .hint-btn:hover{background:var(--hint-bg-hover);border-color:var(--hint-border-hover);color:var(--hint-color)}
 .hint-btn.open{background:var(--hint-bg-hover);border-color:var(--hint-border-hover);color:var(--hint-color)}
-.hint-btn .hint-icon{font-size:13px;line-height:1;display:flex;align-items:center}
+.hint-btn .hint-icon{font-size:14px;line-height:1;display:flex;align-items:center}
 .hint-btn .hint-chevron{font-size:9px;margin-left:2px;opacity:0.5;transition:transform 0.2s ease;display:inline-block}
 .hint-btn.open .hint-chevron{transform:rotate(180deg)}
-.hint-box{margin-top:10px;padding:13px 16px;border-radius:var(--radius);background:var(--hint-bg);border:1px solid var(--hint-border);font-size:13px;color:var(--ink-2);line-height:1.6;position:relative;animation:feedbackIn 0.2s ease}
+.hint-box{margin-top:10px;padding:13px 16px;border-radius:var(--radius);background:var(--hint-bg);border:1px solid var(--hint-border);font-size:15px;color:var(--ink-2);line-height:1.6;position:relative;animation:feedbackIn 0.2s ease}
 .hint-box::before{content:'';position:absolute;top:-5px;left:16px;width:9px;height:9px;background:var(--hint-bg);border-left:1px solid var(--hint-border);border-top:1px solid var(--hint-border);transform:rotate(45deg)}
-.hint-box .hint-label{font-size:11px;font-weight:600;color:var(--ink-3);margin-bottom:5px;font-family:var(--mono);letter-spacing:0.3px}
+.hint-box .hint-label{font-size:12px;font-weight:600;color:var(--ink-3);margin-bottom:5px;font-family:var(--mono);letter-spacing:0.3px}
+
+/* ── QUIZ FOOTER ── */
 .quiz-footer{padding:16px 20px 24px;flex-shrink:0;display:flex;flex-direction:column;gap:12px}
-.btn-next{width:100%;padding:14px;border-radius:var(--radius);font-size:15px;font-weight:600;text-align:center;transition:all 0.15s ease;letter-spacing:-0.2px}
+.btn-next{width:100%;padding:15px;border-radius:var(--radius);font-size:17px;font-weight:600;text-align:center;transition:all 0.15s ease;letter-spacing:-0.2px}
 .btn-next.primary{background:var(--ink);color:var(--bg)}
 .btn-next.primary:hover{opacity:0.9}
 .btn-next.primary:active{transform:scale(0.98)}
 .btn-next.disabled{background:var(--surface-3);color:var(--ink-3);pointer-events:none}
+
+/* ── RESULTS ── */
 .results{padding:24px 20px;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
-.results-emoji{font-size:56px;margin-bottom:20px;animation:pop 0.4s cubic-bezier(0.34,1.56,0.64,1)}
+.results-emoji{font-size:64px;margin-bottom:20px;animation:pop 0.4s cubic-bezier(0.34,1.56,0.64,1)}
 @keyframes pop{from{transform:scale(0)}to{transform:scale(1)}}
-.results-score{font-size:48px;font-weight:700;letter-spacing:-2px;font-family:var(--mono)}
-.results-label{font-size:14px;color:var(--ink-2);margin-top:4px}
-.results-msg{font-size:16px;color:var(--ink-2);margin-top:16px;line-height:1.5;max-width:300px}
+.results-score{font-size:56px;font-weight:700;letter-spacing:-2px;font-family:var(--mono)}
+.results-label{font-size:17px;color:var(--ink-2);margin-top:4px}
+.results-msg{font-size:17px;color:var(--ink-2);margin-top:16px;line-height:1.5;max-width:300px}
 .results-stats{display:flex;gap:24px;margin-top:32px}
 .stat{text-align:center}
-.stat-val{font-size:24px;font-weight:700;font-family:var(--mono)}
+.stat-val{font-size:28px;font-weight:700;font-family:var(--mono)}
 .stat-val.g{color:#52B788}.stat-val.r{color:#E8776C}
-.stat-label{font-size:12px;color:var(--ink-3);margin-top:4px}
+.stat-label{font-size:13px;color:var(--ink-3);margin-top:4px}
 .results-actions{display:flex;flex-direction:column;gap:10px;width:100%;max-width:300px;margin-top:36px}
-.btn-result{padding:14px;border-radius:var(--radius);font-size:15px;font-weight:600;text-align:center;transition:all 0.15s;letter-spacing:-0.2px}
+.btn-result{padding:15px;border-radius:var(--radius);font-size:17px;font-weight:600;text-align:center;transition:all 0.15s;letter-spacing:-0.2px}
 .btn-result.primary{background:var(--ink);color:var(--bg)}
 .btn-result.secondary{background:var(--surface);color:var(--ink);border:1px solid var(--border)}
 .btn-result:hover{opacity:0.9}
 .btn-result:active{transform:scale(0.98)}
-.btn-result.link{background:none;border:none;color:var(--ink-3);font-size:14px;font-weight:500}
+.btn-result.link{background:none;border:none;color:var(--ink-3);font-size:15px;font-weight:500}
 .btn-result.link:hover{color:var(--ink-2)}
+
+/* ── REVIEW ── */
 .review{padding:20px;flex:1}
 .review-header{display:flex;align-items:center;gap:12px;margin-bottom:20px}
-.review-title{font-size:18px;font-weight:600}
+.review-title{font-size:20px;font-weight:600}
 .review-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px;margin-bottom:10px}
-.review-q{font-size:14px;line-height:1.5;margin-bottom:8px}
-.review-answer{font-size:13px;color:var(--ink-2);line-height:1.5}
+.review-q{font-size:16px;line-height:1.5;margin-bottom:8px}
+.review-answer{font-size:15px;color:var(--ink-2);line-height:1.5}
 .review-answer strong{color:#52B788;font-weight:600}
 .review-answer .wrong-text{color:#E8776C}
-.count-select{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 20px;text-align:center}
-.count-title{font-size:24px;font-weight:700;margin-bottom:12px;color:var(--ink)}
-.count-desc{font-size:15px;color:var(--ink-2);margin-bottom:32px}
-.count-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%;max-width:320px}
-.count-grid .btn-result.primary{grid-column:span 2}
-.count-btn{background:var(--surface);border:1px solid var(--border);padding:20px;border-radius:var(--radius-lg);font-size:20px;font-weight:600;font-family:var(--mono);color:var(--ink);transition:all 0.15s;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px}
-.count-btn span{font-size:12px;font-weight:400;color:var(--ink-3);font-family:var(--font)}
-.count-btn:hover{background:var(--surface-2);border-color:var(--border-2)}
-.count-btn:active{transform:scale(0.96)}
+
+/* ── KEYBOARD HINTS ── */
 .kbd-hints{display:none;gap:6px;flex-wrap:wrap;margin-top:16px;justify-content:center}
 .quiz-footer .kbd-hints{margin-top:0}
-.kbd-hint{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--ink-3);font-family:var(--mono)}
-.kbd{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:20px;padding:0 5px;border-radius:4px;background:var(--surface-3);border:1px solid var(--ink-4);font-size:10px;font-weight:600;color:var(--ink-2);font-family:var(--mono);line-height:1}
+.kbd-hint{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--ink-3);font-family:var(--mono)}
+.kbd{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:20px;padding:0 5px;border-radius:4px;background:var(--surface-3);border:1px solid var(--ink-4);font-size:11px;font-weight:600;color:var(--ink-2);font-family:var(--mono);line-height:1}
 @media(hover:hover) and (pointer:fine){.kbd-hints{display:flex}}
 .hint-kbd{display:none}
 @media(hover:hover) and (pointer:fine){.hint-kbd{display:inline-flex}}
@@ -157,28 +176,123 @@ let THEMES=[];
 const MIX_THEME = {id: "mix", label: "Alles door elkaar", description: "Test je kennis van alle thema's", emoji: "🎲", color: "#E09F3E"};
 let questionCache={};
 let shuffledQuestions=[];
-let state={screen:"loading",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};
+let state={screen:"loading",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null};
 let pendingFocus=null;
 function announce(text){const el=document.getElementById("sr-announce");if(el){el.textContent="";requestAnimationFrame(()=>{el.textContent=text})}}
-async function loadThemes(){try{const res=await fetch("data/themes.json");if(!res.ok)throw new Error("HTTP "+res.status);THEMES=await res.json();console.log("Loaded "+THEMES.length+" themes");state.screen="home";render()}catch(err){console.error("Failed to load themes:",err);document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de thema\'s niet laden.</p><p style="font-size:13px;color:var(--ink-3)">'+err.message+'</p><button onclick="loadThemes()">Opnieuw proberen</button></div>'}}
+async function loadThemes(){try{const res=await fetch("data/themes.json");if(!res.ok)throw new Error("HTTP "+res.status);THEMES=await res.json();console.log("Loaded "+THEMES.length+" themes");state.screen="home";render()}catch(err){console.error("Failed to load themes:",err);document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de thema\'s niet laden.</p><p style="font-size:14px;color:var(--ink-3)">'+err.message+'</p><button onclick="loadThemes()">Opnieuw proberen</button></div>'}}
 async function loadThemeQuestions(themeId){if(questionCache[themeId])return questionCache[themeId];const res=await fetch("data/"+themeId+".json");if(!res.ok)throw new Error("HTTP "+res.status);const questions=await res.json();questionCache[themeId]=questions;return questions}
 function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
-async function startQuiz(id){state={screen:"loading",theme:id,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};render();try{const questions=await loadThemeQuestions(id);shuffledQuestions=shuffle(questions);state.screen="quiz";pendingFocus="option-0";render();announce("Quiz gestart. Vraag 1 van "+shuffledQuestions.length+".")}catch(err){console.error("Failed to load questions:",id,err);document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de vragen niet laden.</p><button onclick="startQuiz(\''+id+'\')">Opnieuw proberen</button></div>'}}
-function openCountSelect() {state.screen = "count-select";pendingFocus = "count-10";render();announce("Kies het aantal vragen: 10, 20 of 50.");}
-async function startMixQuiz(count) {state={screen:"loading",theme:"mix",qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};render();try {const promises = THEMES.map(t => loadThemeQuestions(t.id));const results = await Promise.all(promises);let allQuestions = results.flat();shuffledQuestions = shuffle(allQuestions);if(count !== 'all') {shuffledQuestions = shuffledQuestions.slice(0, count);} state.screen = "quiz";pendingFocus = "option-0";render();announce("Mix quiz gestart met "+shuffledQuestions.length+" vragen.");} catch (err) {console.error("Failed to start mix quiz:", err);document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de mix quiz niet laden.</p><button onclick="loadThemes()">Terug naar home</button></div>';}}
-function goHome(){state={screen:"home",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};pendingFocus="theme-0";render();}
+
+// ── Count selection for individual themes ──
+function openThemeCountSelect(themeId) {
+  state.screen = "count-select";
+  state.pendingTheme = themeId;
+  pendingFocus = "count-10";
+  render();
+  var t = THEMES.find(function(x){return x.id===themeId});
+  announce("Kies het aantal vragen voor " + (t ? t.label : themeId) + ".");
+}
+
+async function startThemeQuiz(themeId, count) {
+  state={screen:"loading",theme:themeId,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null};
+  render();
+  try {
+    const questions = await loadThemeQuestions(themeId);
+    shuffledQuestions = shuffle(questions);
+    if (count !== 'all') {
+      shuffledQuestions = shuffledQuestions.slice(0, count);
+    }
+    state.screen = "quiz";
+    pendingFocus = "option-0";
+    render();
+    announce("Quiz gestart. Vraag 1 van " + shuffledQuestions.length + ".");
+  } catch(err) {
+    console.error("Failed to load questions:", themeId, err);
+    document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de vragen niet laden.</p><button onclick="openThemeCountSelect(\''+themeId+'\')">Opnieuw proberen</button></div>';
+  }
+}
+
+// Keep legacy startQuiz for full theme (backwards compat)
+async function startQuiz(id) {
+  openThemeCountSelect(id);
+}
+
+function openCountSelect() {
+  state.screen = "count-select";
+  state.pendingTheme = "mix";
+  pendingFocus = "count-10";
+  render();
+  announce("Kies het aantal vragen: 10, 20 of 50.");
+}
+
+async function startMixQuiz(count) {
+  state={screen:"loading",theme:"mix",qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null};
+  render();
+  try {
+    const promises = THEMES.map(t => loadThemeQuestions(t.id));
+    const results = await Promise.all(promises);
+    let allQuestions = results.flat();
+    shuffledQuestions = shuffle(allQuestions);
+    if(count !== 'all') {
+      shuffledQuestions = shuffledQuestions.slice(0, count);
+    }
+    state.screen = "quiz";
+    pendingFocus = "option-0";
+    render();
+    announce("Mix quiz gestart met " + shuffledQuestions.length + " vragen.");
+  } catch (err) {
+    console.error("Failed to start mix quiz:", err);
+    document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de mix quiz niet laden.</p><button onclick="loadThemes()">Terug naar home</button></div>';
+  }
+}
+
+function goHome(){state={screen:"home",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null};pendingFocus="theme-0";render();}
 function selectAnswer(idx){if(state.answered!==null)return;const q=shuffledQuestions[state.qIdx],isC=idx===q.correct;state.answered=isC?"correct":"wrong";state.selectedIdx=idx;if(isC){state.score++;announce("Goed! "+q.explanation)}else{state.wrong++;state.wrongAnswers.push({q:q.sentence,selected:q.options[idx],correct:q.options[q.correct],explanation:q.explanation});announce("Fout. "+q.options[q.correct])}pendingFocus="btn-next";render()}
 function nextQuestion(){if(state.qIdx>=shuffledQuestions.length-1){state.screen="results";pendingFocus="btn-retry";render();announce("Quiz afgelopen. Score: "+Math.round(state.score/shuffledQuestions.length*100)+"%");return}state.qIdx++;state.answered=null;state.selectedIdx=null;state.showHint=false;pendingFocus="option-0";render();announce("Vraag "+(state.qIdx+1))}
 function toggleHint(){state.showHint=!state.showHint;pendingFocus="hint-btn";render();if(state.showHint)announce("Hint: "+shuffledQuestions[state.qIdx].hint)}
 function toggleReview(){state.showReview=!state.showReview;pendingFocus=state.showReview?"review-back":"btn-review";render()}
 function getThemeQuestionCount(themeId){if(questionCache[themeId])return questionCache[themeId].length;return "40"}
+
 function render(){const app=document.getElementById("app");switch(state.screen){case"loading":app.innerHTML='<div class="loading"><div class="loading-spinner"></div><div>Vragen laden...</div></div>';break;case"home":app.innerHTML=renderHome();break;case"count-select":app.innerHTML=renderCountSelect();break;case"quiz":app.innerHTML=renderQuiz();break;case"results":app.innerHTML=state.showReview?renderReview():renderResults();break;}if(pendingFocus){requestAnimationFrame(()=>{const el=document.getElementById(pendingFocus);if(el)el.focus();pendingFocus=null})}}
-function renderHome(){const themeCards = THEMES.map(function(t,idx){var c=getThemeQuestionCount(t.id);return '<button class="theme-card" id="theme-'+idx+'" onclick="startQuiz(\''+t.id+'\')" aria-label="'+t.label+'"><div class="theme-accent" style="background:'+t.color+'"></div><div class="theme-emoji" style="background:'+t.color+'15">'+t.emoji+'</div><div class="theme-info"><div class="theme-name">'+t.label+'</div><div class="theme-desc">'+t.description+'</div></div><div class="theme-count">'+c+'</div><div class="theme-arrow">›</div></button>'}).join("");const mixCard = '<button class="theme-card" id="theme-mix" onclick="openCountSelect()" aria-label="Alles door elkaar"><div class="theme-accent" style="background:'+MIX_THEME.color+'"></div><div class="theme-emoji" style="background:'+MIX_THEME.color+'15">'+MIX_THEME.emoji+'</div><div class="theme-info"><div class="theme-name">'+MIX_THEME.label+'</div><div class="theme-desc">'+MIX_THEME.description+'</div></div><div class="theme-count">Mix</div><div class="theme-arrow">›</div></button>';return '<div class="home"><div class="home-header"><div class="home-label">Oefening</div><div class="home-title">Samengestelde<br>Werkwoorden</div><div class="home-subtitle">Kies een thema en oefen met meerkeuzevragen op B1+ niveau.</div></div><nav class="theme-grid" aria-label="Themakeuze">'+themeCards+mixCard+'</nav><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Tab</span> navigeren</span><span class="kbd-hint"><span class="kbd">Enter</span> selecteren</span></div></div>'}
-function renderCountSelect() {return '<div class="count-select"><div class="count-title">Hoeveel vragen?</div><div class="count-desc">Kies een aantal vragen uit alle thema\'s.</div><div class="count-grid"><button class="count-btn" id="count-10" onclick="startMixQuiz(10)">10<span>vragen</span></button><button class="count-btn" onclick="startMixQuiz(20)">20<span>vragen</span></button><button class="count-btn" onclick="startMixQuiz(50)" style="grid-column:span 2">50<span>vragen</span></button></div><button class="quiz-back" onclick="goHome()" style="margin-top:32px;width:auto;padding:0 20px;height:44px;gap:8px">← Terug</button></div>'}
+
+function renderHome(){
+  const themeCards = THEMES.map(function(t,idx){
+    var c=getThemeQuestionCount(t.id);
+    return '<button class="theme-card" id="theme-'+idx+'" onclick="openThemeCountSelect(\''+t.id+'\')" aria-label="'+t.label+'"><div class="theme-accent" style="background:'+t.color+'"></div><div class="theme-emoji" style="background:'+t.color+'15">'+t.emoji+'</div><div class="theme-info"><div class="theme-name">'+t.label+'</div><div class="theme-desc">'+t.description+'</div></div><div class="theme-count">'+c+'</div><div class="theme-arrow">›</div></button>';
+  }).join("");
+  const mixCard = '<button class="theme-card" id="theme-mix" onclick="openCountSelect()" aria-label="Alles door elkaar"><div class="theme-accent" style="background:'+MIX_THEME.color+'"></div><div class="theme-emoji" style="background:'+MIX_THEME.color+'15">'+MIX_THEME.emoji+'</div><div class="theme-info"><div class="theme-name">'+MIX_THEME.label+'</div><div class="theme-desc">'+MIX_THEME.description+'</div></div><div class="theme-count">Mix</div><div class="theme-arrow">›</div></button>';
+  return '<div class="home"><div class="home-header"><div class="home-label">Oefening</div><div class="home-title">Samengestelde Werkwoorden</div><div class="home-subtitle">Kies een thema en oefen met meerkeuzevragen op B1+ niveau.</div></div><nav class="theme-grid" aria-label="Themakeuze">'+themeCards+mixCard+'</nav><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Tab</span> navigeren</span><span class="kbd-hint"><span class="kbd">Enter</span> selecteren</span></div></div>';
+}
+
+function renderCountSelect() {
+  var isMix = (state.pendingTheme === "mix");
+  var t = isMix ? MIX_THEME : THEMES.find(function(x){return x.id===state.pendingTheme});
+  var themeLabel = t ? (t.emoji + " " + t.label) : "";
+  var startFn = isMix ? "startMixQuiz" : "startThemeQuiz.bind(null,'"+state.pendingTheme+"')";
+  var totalCount = isMix ? "160+" : getThemeQuestionCount(state.pendingTheme);
+
+  // Build count options — 10, 20, and "All" for individual themes, or 10, 20, 50 for mix
+  var buttons = '';
+  buttons += '<button class="count-btn" id="count-10" onclick="'+(isMix?"startMixQuiz(10)":"startThemeQuiz('"+state.pendingTheme+"',10)")+'">10<span>vragen</span></button>';
+  buttons += '<button class="count-btn" onclick="'+(isMix?"startMixQuiz(20)":"startThemeQuiz('"+state.pendingTheme+"',20)")+'">20<span>vragen</span></button>';
+
+  if (isMix) {
+    buttons += '<button class="count-btn" onclick="startMixQuiz(50)" style="grid-column:span 2">50<span>vragen</span></button>';
+  } else {
+    buttons += '<button class="count-btn" onclick="startThemeQuiz(\''+state.pendingTheme+'\',\'all\')" style="grid-column:span 2">'+totalCount+'<span>alle vragen</span></button>';
+  }
+
+  return '<div class="count-select"><div class="count-theme-label" style="color:'+t.color+'">'+themeLabel+'</div><div class="count-title">Hoeveel vragen?</div><div class="count-desc">'+(isMix ? "Kies een aantal vragen uit alle thema's." : "Kies hoeveel vragen je wilt oefenen.")+'</div><div class="count-grid">'+buttons+'</div><button class="quiz-back" onclick="goHome()" style="margin-top:32px;width:auto;padding:0 20px;height:44px;gap:8px;font-size:15px">← Terug</button></div>';
+}
+
 function renderQuiz(){var t = (state.theme === "mix") ? MIX_THEME : THEMES.find(function(x){return x.id===state.theme});var q=shuffledQuestions[state.qIdx],total=shuffledQuestions.length,pct=((state.qIdx+(state.answered?1:0))/total*100).toFixed(1);var fb="";if(state.answered){var isC=state.answered==="correct",label=isC?"✓ Goed!":"✗ Niet helemaal",text=isC?q.explanation:((q.wrongExplanations[state.selectedIdx]||"")+"<br><br>"+q.explanation);fb='<div class="feedback '+state.answered+'" role="alert"><div class="feedback-label">'+label+'</div><div class="feedback-text">'+text+'</div></div>'}var hi="";if(!state.answered){hi='<button class="hint-btn'+(state.showHint?" open":"")+'" id="hint-btn" onclick="toggleHint()" aria-expanded="'+(state.showHint?"true":"false")+'" aria-controls="hint-box"><span class="hint-icon">💡</span><span>Hint</span><span class="kbd hint-kbd" style="margin-left:4px">H</span><span class="hint-chevron">▾</span></button>';if(state.showHint)hi+='<div class="hint-box" id="hint-box" role="region" aria-label="Hint"><div class="hint-label">Hint</div>'+q.hint+'</div>'}var kbdBar='<div class="kbd-hints"><span class="kbd-hint"><span class="kbd">A</span><span class="kbd">B</span><span class="kbd">C</span><span class="kbd">D</span> kies</span><span class="kbd-hint"><span class="kbd">H</span> hint</span><span class="kbd-hint"><span class="kbd">Enter</span> volgende</span><span class="kbd-hint"><span class="kbd">Esc</span> terug</span></div>';return '<div class="quiz"><div class="quiz-top"><div class="quiz-nav"><button class="quiz-back" onclick="goHome()" aria-label="Terug naar thema\'s (Escape)">←</button><div class="quiz-theme" style="color:'+t.color+'">'+t.emoji+" "+t.label+'</div><div class="quiz-counter" aria-label="Voortgang">'+(state.qIdx+1)+" / "+total+'</div></div><div class="progress-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="'+pct+'" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" style="width:'+pct+"%;background:"+t.color+'"></div></div><div class="score-pills" aria-label="Score"><div class="score-pill correct" aria-label="'+state.score+' goed"><span class="dot"></span>'+state.score+'</div><div class="score-pill wrong" aria-label="'+state.wrong+' fout"><span class="dot"></span>'+state.wrong+'</div></div></div></div><div class="quiz-body"><div class="question-num">'+t.label+" · Vraag "+(state.qIdx+1)+'</div><div class="question-text" id="question-text">'+q.sentence+'</div><div class="options" role="group" aria-labelledby="question-text">'+q.options.map(function(opt,i){var cls="option-btn";var ariaLabel=KEYS[i]+": "+opt;if(state.answered){cls+=" answered";if(i===q.correct){cls+=" is-correct is-actual-correct";ariaLabel+=" (juist antwoord)"}else if(i===state.selectedIdx&&state.answered==="wrong"){cls+=" is-wrong";ariaLabel+=" (jouw foute antwoord)"}}return '<button class="'+cls+'" id="option-'+i+'" onclick="selectAnswer('+i+')" aria-label="'+ariaLabel+'"'+(state.answered?' tabindex="-1"':'')+'><span class="option-key">'+KEYS[i]+'</span><span class="option-text">'+opt+"</span></button>"}).join("")+"</div>"+fb+hi+'</div><div class="quiz-footer">'+kbdBar+'<button class="btn-next '+(state.answered?"primary":"disabled")+'" id="btn-next" onclick="nextQuestion()"'+(state.answered?'':' tabindex="-1" aria-disabled="true"')+'>'+(state.qIdx>=total-1&&state.answered?"Resultaten bekijken":"Volgende →")+"</button></div></div>"}
-function renderResults(){var total=shuffledQuestions.length,pct=Math.round(state.score/total*100),emoji="🎉",msg="Uitstekend! Je beheerst deze werkwoorden goed.";if(pct<50){emoji="📚";msg="Blijf oefenen! Herhaling is de sleutel tot succes."}else if(pct<70){emoji="💪";msg="Goed bezig! Nog een paar rondes en je hebt het onder de knie."}else if(pct<90){emoji="🌟";msg="Heel goed! Je bent er bijna."}var t = (state.theme === "mix") ? MIX_THEME : THEMES.find(function(x){return x.id===state.theme});var retryAction = (state.theme === "mix") ? "openCountSelect()" : "startQuiz('"+state.theme+"')";return '<div class="results"><div class="results-emoji">'+emoji+'</div><div class="results-score" style="color:'+t.color+'">'+pct+'%</div><div class="results-label">'+state.score+" van "+total+' goed</div><div class="results-msg">'+msg+'</div><div class="results-stats"><div class="stat"><div class="stat-val g">'+state.score+'</div><div class="stat-label">Goed</div></div><div class="stat"><div class="stat-val r">'+state.wrong+'</div><div class="stat-label">Fout</div></div><div class="stat"><div class="stat-val" style="color:'+t.color+'">'+total+'</div><div class="stat-label">Totaal</div></div></div><div class="results-actions"><button class="btn-result primary" id="btn-retry" onclick="'+retryAction+'">Opnieuw proberen</button>'+(state.wrong>0?'<button class="btn-result secondary" id="btn-review" onclick="toggleReview()">Foute antwoorden bekijken ('+state.wrong+")</button>":"")+'<button class="btn-result link" onclick="goHome()">← Terug naar thema\'s</button></div><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Enter</span> opnieuw</span><span class="kbd-hint"><span class="kbd">Esc</span> terug</span></div></div>'}
-function renderReview(){var retryAction = (state.theme === "mix") ? "openCountSelect()" : "startQuiz('"+state.theme+"')";return '<div class="review"><div class="review-header"><button class="quiz-back" id="review-back" onclick="toggleReview()" aria-label="Terug naar resultaten (Escape)">←</button><div class="review-title">Foute antwoorden ('+state.wrongAnswers.length+')</div></div>'+state.wrongAnswers.map(function(w,i){return '<div class="review-card"><div class="review-q">'+(i+1)+". "+w.q+'</div><div class="review-answer"><span class="wrong-text">Jouw antwoord: '+w.selected+"</span><br><strong>Correct: "+w.correct+"</strong><br>"+w.explanation+"</div></div>"}).join("")+'<div style="padding:16px 0"><button class="btn-result primary" onclick="'+retryAction+'" style="width:100%">Opnieuw proberen</button></div></div>'}
-document.addEventListener("keydown",function(e){if(e.target.tagName==="INPUT"||e.target.tagName==="TEXTAREA")return;var key=e.key.toLowerCase();if(state.screen==="quiz"){if(key in KEY_MAP&&state.answered===null){e.preventDefault();selectAnswer(KEY_MAP[key]);return}if((key==="enter"||key===" ")&&state.answered!==null){var active=document.activeElement;if(!active||active===document.body||active.classList.contains("btn-next")){e.preventDefault();nextQuestion();return}}if(key==="h"&&state.answered===null){e.preventDefault();toggleHint();return}if(key==="escape"){e.preventDefault();goHome();return}if((key==="arrowdown"||key==="arrowup")&&state.answered===null){e.preventDefault();var opts=document.querySelectorAll(".option-btn:not(.answered)");if(opts.length===0)return;var currentIdx=-1;opts.forEach(function(o,i){if(o===document.activeElement)currentIdx=i});if(key==="arrowdown"){currentIdx=(currentIdx+1)%opts.length}else{currentIdx=(currentIdx-1+opts.length)%opts.length}opts[currentIdx].focus();return}}if(state.screen==="home"){if(key==="arrowdown"||key==="arrowup"){e.preventDefault();var cards=document.querySelectorAll(".theme-card");if(cards.length===0)return;var ci=-1;cards.forEach(function(c,i){if(c===document.activeElement)ci=i});if(key==="arrowdown"){ci=(ci+1)%cards.length}else{ci=(ci-1+cards.length)%cards.length}cards[ci].focus();return}}if(state.screen==="count-select"){if(key==="escape"){e.preventDefault();goHome();return}}if(state.screen==="results"){if(key==="enter"){var af=document.activeElement;if(!af||af===document.body){e.preventDefault();if(state.theme === "mix") openCountSelect();else startQuiz(state.theme);return}}if(key==="escape"){e.preventDefault();if(state.showReview){toggleReview()}else{goHome()}return}}});
+
+function renderResults(){var total=shuffledQuestions.length,pct=Math.round(state.score/total*100),emoji="🎉",msg="Uitstekend! Je beheerst deze werkwoorden goed.";if(pct<50){emoji="📚";msg="Blijf oefenen! Herhaling is de sleutel tot succes."}else if(pct<70){emoji="💪";msg="Goed bezig! Nog een paar rondes en je hebt het onder de knie."}else if(pct<90){emoji="🌟";msg="Heel goed! Je bent er bijna."}var t = (state.theme === "mix") ? MIX_THEME : THEMES.find(function(x){return x.id===state.theme});var retryAction = (state.theme === "mix") ? "openCountSelect()" : "openThemeCountSelect('"+state.theme+"')";return '<div class="results"><div class="results-emoji">'+emoji+'</div><div class="results-score" style="color:'+t.color+'">'+pct+'%</div><div class="results-label">'+state.score+" van "+total+' goed</div><div class="results-msg">'+msg+'</div><div class="results-stats"><div class="stat"><div class="stat-val g">'+state.score+'</div><div class="stat-label">Goed</div></div><div class="stat"><div class="stat-val r">'+state.wrong+'</div><div class="stat-label">Fout</div></div><div class="stat"><div class="stat-val" style="color:'+t.color+'">'+total+'</div><div class="stat-label">Totaal</div></div></div><div class="results-actions"><button class="btn-result primary" id="btn-retry" onclick="'+retryAction+'">Opnieuw proberen</button>'+(state.wrong>0?'<button class="btn-result secondary" id="btn-review" onclick="toggleReview()">Foute antwoorden bekijken ('+state.wrong+")</button>":"")+'<button class="btn-result link" onclick="goHome()">← Terug naar thema\'s</button></div><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Enter</span> opnieuw</span><span class="kbd-hint"><span class="kbd">Esc</span> terug</span></div></div>'}
+
+function renderReview(){var retryAction = (state.theme === "mix") ? "openCountSelect()" : "openThemeCountSelect('"+state.theme+"')";return '<div class="review"><div class="review-header"><button class="quiz-back" id="review-back" onclick="toggleReview()" aria-label="Terug naar resultaten (Escape)">←</button><div class="review-title">Foute antwoorden ('+state.wrongAnswers.length+')</div></div>'+state.wrongAnswers.map(function(w,i){return '<div class="review-card"><div class="review-q">'+(i+1)+". "+w.q+'</div><div class="review-answer"><span class="wrong-text">Jouw antwoord: '+w.selected+"</span><br><strong>Correct: "+w.correct+"</strong><br>"+w.explanation+"</div></div>"}).join("")+'<div style="padding:16px 0"><button class="btn-result primary" onclick="'+retryAction+'" style="width:100%">Opnieuw proberen</button></div></div>'}
+
+document.addEventListener("keydown",function(e){if(e.target.tagName==="INPUT"||e.target.tagName==="TEXTAREA")return;var key=e.key.toLowerCase();if(state.screen==="quiz"){if(key in KEY_MAP&&state.answered===null){e.preventDefault();selectAnswer(KEY_MAP[key]);return}if((key==="enter"||key===" ")&&state.answered!==null){var active=document.activeElement;if(!active||active===document.body||active.classList.contains("btn-next")){e.preventDefault();nextQuestion();return}}if(key==="h"&&state.answered===null){e.preventDefault();toggleHint();return}if(key==="escape"){e.preventDefault();goHome();return}if((key==="arrowdown"||key==="arrowup")&&state.answered===null){e.preventDefault();var opts=document.querySelectorAll(".option-btn:not(.answered)");if(opts.length===0)return;var currentIdx=-1;opts.forEach(function(o,i){if(o===document.activeElement)currentIdx=i});if(key==="arrowdown"){currentIdx=(currentIdx+1)%opts.length}else{currentIdx=(currentIdx-1+opts.length)%opts.length}opts[currentIdx].focus();return}}if(state.screen==="home"){if(key==="arrowdown"||key==="arrowup"){e.preventDefault();var cards=document.querySelectorAll(".theme-card");if(cards.length===0)return;var ci=-1;cards.forEach(function(c,i){if(c===document.activeElement)ci=i});if(key==="arrowdown"){ci=(ci+1)%cards.length}else{ci=(ci-1+cards.length)%cards.length}cards[ci].focus();return}}if(state.screen==="count-select"){if(key==="escape"){e.preventDefault();goHome();return}}if(state.screen==="results"){if(key==="enter"){var af=document.activeElement;if(!af||af===document.body){e.preventDefault();if(state.theme === "mix") openCountSelect();else openThemeCountSelect(state.theme);return}}if(key==="escape"){e.preventDefault();if(state.showReview){toggleReview()}else{goHome()}return}}});
+
 loadThemes();
 </script>
 </body>
