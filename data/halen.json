@@ -19,7 +19,7 @@
   {
     "sentence": "Zullen we vanavond Chinees ______?",
     "options": [
-      "ophalen",
+      "weghalen",
       "afhalen",
       "inhalen",
       "uithalen"
@@ -27,7 +27,7 @@
     "correct": 1,
     "explanation": "'Afhalen' = eten ophalen (takeaway).",
     "wrongExplanations": {
-      "0": "Ophalen = iemand van een locatie halen. Chinees eten is geen persoon die ergens staat.",
+      "0": "Weghalen = verwijderen. Je gaat het eten niet weggooien, maar halen om te eten.",
       "2": "Inhalen = voorbijgaan of achterstand. Je gaat eten halen — je passeert niets.",
       "3": "Uithalen = streken uithalen. Chinees uithalen bestaat niet als combinatie."
     },
@@ -54,16 +54,16 @@
     "sentence": "Kun je even diep ______?",
     "options": [
       "ophalen",
+      "doorhalen",
       "afhalen",
-      "inademen",
       "ademhalen"
     ],
     "correct": 3,
     "explanation": "'Ademhalen' = ademen.",
     "wrongExplanations": {
-      "0": "Ophalen = iemand ergens halen. Je haalt geen persoon op — je ademt.",
-      "1": "Afhalen = eten meenemen. Lucht haal je niet af als maaltijd.",
-      "2": "Inademen kan, maar 'diep ademhalen' is de vaste uitdrukking voor rustig ademen."
+      "0": "Ophalen = ophalen van je schouders of neus. Niet 'diep ophalen'.",
+      "1": "Doorhalen = strepen ergens door zetten of nachten niet slapen.",
+      "2": "Afhalen = eten meenemen. Lucht haal je niet af als maaltijd."
     },
     "hint": "Je haalt diep adem om te ontspannen. Welk werkwoord is de vaste combinatie voor ademen?"
   },
