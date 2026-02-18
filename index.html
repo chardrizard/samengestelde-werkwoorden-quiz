@@ -4,13 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
 <title>Werkwoorden Quiz — Samengestelde Werkwoorden oefenen</title>
-<meta name="description" content="Oefen 160 meerkeuzevragen over samengestelde werkwoorden. Gratis quiz op B1+ niveau.">
+<meta name="description" content="Oefen 160+ meerkeuzevragen over samengestelde werkwoorden en preposities. Gratis quiz op B1+ niveau.">
 <meta name="theme-color" content="#0F1117">
 <meta name="color-scheme" content="dark">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Werkwoorden Quiz — Samengestelde Werkwoorden oefenen">
-<meta property="og:description" content="Oefen 160 meerkeuzevragen over samengestelde werkwoorden. Gratis quiz op B1+ niveau.">
+<meta property="og:description" content="Oefen 160+ meerkeuzevragen over samengestelde werkwoorden en preposities. Gratis quiz op B1+ niveau.">
 <meta property="og:image" content="og-image.png">
 <meta property="og:type" content="website">
 
@@ -59,6 +59,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .theme-info{flex:1;min-width:0}
 .theme-name{font-size:17px;font-weight:600;letter-spacing:-0.2px}
 .theme-desc{font-size:13px;color:var(--ink-3);margin-top:3px;font-family:var(--mono);letter-spacing:-0.3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.theme-badge{font-size:11px;font-weight:600;padding:2px 7px;border-radius:4px;color:var(--ink-2);background:var(--surface-3);margin-top:4px;display:inline-block;letter-spacing:0.3px;font-family:var(--mono)}
 .theme-count{font-size:13px;color:var(--ink-3);font-family:var(--mono);flex-shrink:0}
 .theme-arrow{color:var(--ink-3);font-size:18px;flex-shrink:0}
 .theme-accent{position:absolute;left:0;top:0;bottom:0;width:3px;border-radius:0 3px 3px 0}
@@ -109,6 +110,21 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .option-btn.is-wrong .option-key{background:var(--wrong);color:#fff}
 .option-btn.is-actual-correct{background:var(--correct-bg);border-color:var(--correct-border)}
 .option-btn.is-actual-correct .option-key{background:var(--correct);color:#fff}
+
+/* ── FILL-IN INPUT ── */
+.fill-input-wrap{display:flex;gap:10px;align-items:stretch}
+.fill-input{flex:1;padding:14px 16px;border-radius:var(--radius);background:var(--surface);border:1.5px solid var(--border-2);font-size:20px;font-weight:500;font-family:var(--mono);color:var(--ink);letter-spacing:0.5px;transition:all 0.15s;caret-color:var(--ink)}
+.fill-input::placeholder{color:var(--ink-4);font-weight:400;letter-spacing:0}
+.fill-input:focus{border-color:rgba(120,160,255,0.5);background:var(--surface-2);outline:none}
+.fill-input:disabled{opacity:0.5;cursor:not-allowed}
+.fill-input.is-correct{border-color:var(--correct-border);background:var(--correct-bg);color:#52B788}
+.fill-input.is-wrong{border-color:var(--wrong-border);background:var(--wrong-bg);color:#E8776C}
+.fill-submit{padding:14px 20px;border-radius:var(--radius);background:var(--ink);color:var(--bg);font-size:16px;font-weight:600;transition:all 0.15s;flex-shrink:0;letter-spacing:-0.2px}
+.fill-submit:hover{opacity:0.9}
+.fill-submit:active{transform:scale(0.97)}
+.fill-submit:disabled{background:var(--surface-3);color:var(--ink-4);pointer-events:none}
+.fill-correct-answer{margin-top:10px;font-size:15px;font-family:var(--mono);color:#52B788;font-weight:600;animation:feedbackIn 0.25s ease}
+.fill-your-answer{color:#E8776C;font-family:var(--mono);font-weight:500}
 
 /* ── FEEDBACK ── */
 .feedback{margin-top:16px;padding:14px 16px;border-radius:var(--radius);font-size:15px;line-height:1.6;animation:feedbackIn 0.25s ease}
@@ -233,9 +249,26 @@ let THEMES=[];
 const MIX_THEME = {id: "mix", label: "Alles door elkaar", description: "Test je kennis van alle thema's", emoji: "🎲", color: "#E09F3E"};
 let questionCache={};
 let shuffledQuestions=[];
-let state={screen:"loading",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null};
+let state={screen:"loading",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null,fillInput:""};
 let pendingFocus=null;
+
 function announce(text){const el=document.getElementById("sr-announce");if(el){el.textContent="";requestAnimationFrame(()=>{el.textContent=text})}}
+
+function getQuizType(themeId){
+  if(themeId==="mix")return "mc";
+  var t=THEMES.find(function(x){return x.id===themeId});
+  return (t&&t.type)?t.type:"mc";
+}
+
+function getCurrentQuizType(){
+  // For mix mode, check the individual question
+  if(state.theme==="mix"){
+    // Mix only includes MC themes for now
+    return "mc";
+  }
+  return getQuizType(state.theme);
+}
+
 async function loadThemes(){try{const res=await fetch("data/themes.json");if(!res.ok)throw new Error("HTTP "+res.status);THEMES=await res.json();console.log("Loaded "+THEMES.length+" themes");state.screen="home";render()}catch(err){console.error("Failed to load themes:",err);document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de thema\'s niet laden.</p><p style="font-size:14px;color:var(--ink-3)">'+esc(err.message)+'</p><button onclick="loadThemes()">Opnieuw proberen</button></div>'}}
 async function loadThemeQuestions(themeId){if(questionCache[themeId])return questionCache[themeId];const res=await fetch("data/"+encodeURIComponent(themeId)+".json");if(!res.ok)throw new Error("HTTP "+res.status);const questions=await res.json();questionCache[themeId]=questions;return questions}
 function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
@@ -251,7 +284,7 @@ function openThemeCountSelect(themeId) {
 }
 
 async function startThemeQuiz(themeId, count) {
-  state={screen:"loading",theme:themeId,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null};
+  state={screen:"loading",theme:themeId,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null,fillInput:""};
   render();
   try {
     const questions = await loadThemeQuestions(themeId);
@@ -260,7 +293,7 @@ async function startThemeQuiz(themeId, count) {
       shuffledQuestions = shuffledQuestions.slice(0, count);
     }
     state.screen = "quiz";
-    pendingFocus = "option-0";
+    pendingFocus = getQuizType(themeId)==="fill" ? "fill-input" : "option-0";
     render();
     announce("Quiz gestart. Vraag 1 van " + shuffledQuestions.length + ".");
   } catch(err) {
@@ -282,10 +315,12 @@ function openCountSelect() {
 }
 
 async function startMixQuiz(count) {
-  state={screen:"loading",theme:"mix",qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null};
+  state={screen:"loading",theme:"mix",qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null,fillInput:""};
   render();
   try {
-    const promises = THEMES.map(t => loadThemeQuestions(t.id));
+    // Only include MC themes in mix mode
+    const mcThemes = THEMES.filter(function(t){return (t.type||"mc")==="mc"});
+    const promises = mcThemes.map(t => loadThemeQuestions(t.id));
     const results = await Promise.all(promises);
     let allQuestions = results.flat();
     shuffledQuestions = shuffle(allQuestions);
@@ -302,19 +337,43 @@ async function startMixQuiz(count) {
   }
 }
 
-function goHome(){state={screen:"home",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null};pendingFocus="theme-0";render();}
+function goHome(){state={screen:"home",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null,fillInput:""};pendingFocus="theme-0";render();}
+
 function selectAnswer(idx){if(state.answered!==null)return;const q=shuffledQuestions[state.qIdx],isC=idx===q.correct;state.answered=isC?"correct":"wrong";state.selectedIdx=idx;if(isC){state.score++;announce("Goed! "+q.explanation)}else{state.wrong++;state.wrongAnswers.push({q:q.sentence,selected:q.options[idx],correct:q.options[q.correct],explanation:q.explanation});announce("Fout. "+q.options[q.correct])}pendingFocus="btn-next";render()}
-function nextQuestion(){if(state.qIdx>=shuffledQuestions.length-1){state.screen="results";pendingFocus="btn-retry";render();announce("Quiz afgelopen. Score: "+Math.round(state.score/shuffledQuestions.length*100)+"%");return}state.qIdx++;state.answered=null;state.selectedIdx=null;state.showHint=false;pendingFocus="option-0";render();announce("Vraag "+(state.qIdx+1))}
+
+function submitFillAnswer(){
+  if(state.answered!==null)return;
+  var q=shuffledQuestions[state.qIdx];
+  var input=(state.fillInput||"").trim().toLowerCase();
+  if(!input)return;
+  var isCorrect=q.acceptedAnswers.some(function(a){return a.toLowerCase()===input});
+  state.answered=isCorrect?"correct":"wrong";
+  state.selectedIdx=input;
+  if(isCorrect){
+    state.score++;
+    announce("Goed! "+q.explanation);
+  }else{
+    state.wrong++;
+    state.wrongAnswers.push({q:q.sentence,selected:input,correct:q.answer,explanation:q.explanation});
+    announce("Fout. Het juiste antwoord is: "+q.answer);
+  }
+  pendingFocus="btn-next";
+  render();
+}
+
+function nextQuestion(){if(state.qIdx>=shuffledQuestions.length-1){state.screen="results";pendingFocus="btn-retry";render();announce("Quiz afgelopen. Score: "+Math.round(state.score/shuffledQuestions.length*100)+"%");return}state.qIdx++;state.answered=null;state.selectedIdx=null;state.showHint=false;state.fillInput="";var type=getCurrentQuizType();pendingFocus=type==="fill"?"fill-input":"option-0";render();announce("Vraag "+(state.qIdx+1))}
 function toggleHint(){state.showHint=!state.showHint;pendingFocus=state.showHint?"hint-close-btn":"hint-btn";render();if(state.showHint)announce("Hint: "+shuffledQuestions[state.qIdx].hint)}
 function toggleReview(){state.showReview=!state.showReview;pendingFocus=state.showReview?"review-back":"btn-review";render()}
-function getThemeQuestionCount(themeId){if(questionCache[themeId])return questionCache[themeId].length;return "40"}
+function getThemeQuestionCount(themeId){if(questionCache[themeId])return questionCache[themeId].length;return "~40"}
 
-function render(){const app=document.getElementById("app");switch(state.screen){case"loading":app.innerHTML='<div class="loading"><div class="loading-spinner"></div><div>Vragen laden...</div></div>';break;case"home":app.innerHTML=renderHome();break;case"count-select":app.innerHTML=renderCountSelect();break;case"quiz":app.innerHTML=renderQuiz();break;case"results":app.innerHTML=state.showReview?renderReview():renderResults();break;}if(pendingFocus){requestAnimationFrame(()=>{const el=document.getElementById(pendingFocus);if(el)el.focus();pendingFocus=null})}}
+function render(){const app=document.getElementById("app");switch(state.screen){case"loading":app.innerHTML='<div class="loading"><div class="loading-spinner"></div><div>Vragen laden...</div></div>';break;case"home":app.innerHTML=renderHome();break;case"count-select":app.innerHTML=renderCountSelect();break;case"quiz":app.innerHTML=renderQuiz();break;case"results":app.innerHTML=state.showReview?renderReview():renderResults();break;}if(pendingFocus){requestAnimationFrame(()=>{const el=document.getElementById(pendingFocus);if(el){el.focus();// Restore fill input value after render
+if(pendingFocus==="fill-input"&&state.fillInput){el.value=state.fillInput}}pendingFocus=null})}}
 
 function renderHome(){
   const themeCards = THEMES.map(function(t,idx){
     var c=getThemeQuestionCount(t.id);
-    return '<button class="theme-card" id="theme-'+idx+'" onclick="openThemeCountSelect(\''+esc(t.id)+'\')" aria-label="'+esc(t.label)+'"><div class="theme-accent" style="background:'+esc(t.color)+'"></div><div class="theme-emoji" style="background:'+esc(t.color)+'15">'+esc(t.emoji)+'</div><div class="theme-info"><div class="theme-name">'+esc(t.label)+'</div><div class="theme-desc">'+esc(t.description)+'</div></div><div class="theme-count">'+esc(String(c))+'</div><div class="theme-arrow">›</div></button>';
+    var badge=(t.type==="fill")?'<div class="theme-badge">INVULLEN</div>':"";
+    return '<button class="theme-card" id="theme-'+idx+'" onclick="openThemeCountSelect(\''+esc(t.id)+'\')" aria-label="'+esc(t.label)+'"><div class="theme-accent" style="background:'+esc(t.color)+'"></div><div class="theme-emoji" style="background:'+esc(t.color)+'15">'+esc(t.emoji)+'</div><div class="theme-info"><div class="theme-name">'+esc(t.label)+'</div><div class="theme-desc">'+esc(t.description)+'</div>'+badge+'</div><div class="theme-count">'+esc(String(c))+'</div><div class="theme-arrow">›</div></button>';
   }).join("");
   const mixCard = '<button class="theme-card" id="theme-mix" onclick="openCountSelect()" aria-label="Alles door elkaar"><div class="theme-accent" style="background:'+MIX_THEME.color+'"></div><div class="theme-emoji" style="background:'+MIX_THEME.color+'15">'+MIX_THEME.emoji+'</div><div class="theme-info"><div class="theme-name">'+MIX_THEME.label+'</div><div class="theme-desc">'+MIX_THEME.description+'</div></div><div class="theme-count">Mix</div><div class="theme-arrow">›</div></button>';
   return '<div class="home"><div class="home-header"><div class="home-label">Oefening</div><div class="home-title">Samengestelde Werkwoorden</div><div class="home-subtitle">Kies een thema en oefen met meerkeuzevragen op B1+ niveau.</div></div><nav class="theme-grid" aria-label="Themakeuze">'+themeCards+mixCard+'</nav><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Tab</span> navigeren</span><span class="kbd-hint"><span class="kbd">Enter</span> selecteren</span></div></div>';
@@ -326,6 +385,8 @@ function renderCountSelect() {
   var themeLabel = t ? (t.emoji + " " + t.label) : "";
   var totalCount = isMix ? "160+" : getThemeQuestionCount(state.pendingTheme);
   var safeThemeId = esc(state.pendingTheme);
+  var isFill = !isMix && t && t.type === "fill";
+  var desc = isFill ? "Vul het juiste voorzetsel in bij elke zin." : (isMix ? "Kies een aantal vragen uit alle thema's." : "Kies hoeveel vragen je wilt oefenen.");
 
   var buttons = '';
   buttons += '<button class="count-btn" id="count-10" onclick="'+(isMix?"startMixQuiz(10)":"startThemeQuiz('"+safeThemeId+"',10)")+'">10<span>vragen</span></button>';
@@ -337,30 +398,129 @@ function renderCountSelect() {
     buttons += '<button class="count-btn" onclick="startThemeQuiz(\''+safeThemeId+'\',\'all\')" style="grid-column:span 2">'+esc(String(totalCount))+'<span>alle vragen</span></button>';
   }
 
-  return '<div class="count-select"><div class="count-theme-label" style="color:'+esc(t.color)+'">'+esc(themeLabel)+'</div><div class="count-title">Hoeveel vragen?</div><div class="count-desc">'+(isMix ? "Kies een aantal vragen uit alle thema's." : "Kies hoeveel vragen je wilt oefenen.")+'</div><div class="count-grid">'+buttons+'</div><button class="quiz-back" onclick="goHome()" style="margin-top:32px;width:auto;padding:0 20px;height:44px;gap:8px;font-size:15px">← Terug</button></div>';
+  return '<div class="count-select"><div class="count-theme-label" style="color:'+esc(t.color)+'">'+esc(themeLabel)+'</div><div class="count-title">Hoeveel vragen?</div><div class="count-desc">'+desc+'</div><div class="count-grid">'+buttons+'</div><button class="quiz-back" onclick="goHome()" style="margin-top:32px;width:auto;padding:0 20px;height:44px;gap:8px;font-size:15px">← Terug</button></div>';
 }
 
-function renderQuiz(){var t = (state.theme === "mix") ? MIX_THEME : THEMES.find(function(x){return x.id===state.theme});var q=shuffledQuestions[state.qIdx],total=shuffledQuestions.length,pct=((state.qIdx+(state.answered?1:0))/total*100).toFixed(1);
-// Feedback (shown in quiz-body after answering)
-var fb="";if(state.answered){var isC=state.answered==="correct",label=isC?"✓ Goed!":"✗ Niet helemaal",text=isC?esc(q.explanation):(esc(q.wrongExplanations[state.selectedIdx]||"")+"<br><br>"+esc(q.explanation));fb='<div class="feedback '+state.answered+'" role="alert"><div class="feedback-label">'+label+'</div><div class="feedback-text">'+text+'</div></div>'}
-// Keyboard hints (desktop only)
-var kbdBar='<div class="kbd-hints"><span class="kbd-hint"><span class="kbd">A</span><span class="kbd">B</span><span class="kbd">C</span><span class="kbd">D</span> kies</span><span class="kbd-hint"><span class="kbd">H</span> hint</span><span class="kbd-hint"><span class="kbd">Enter</span> volgende</span><span class="kbd-hint"><span class="kbd">Esc</span> terug</span></div>';
-// Hint popover (floats above footer)
-var hintPopover="";
-if(!state.answered){
-  var popoverContent="";
-  if(state.showHint){popoverContent='<div class="hint-overlay" onclick="toggleHint()"></div><div class="hint-popover" id="hint-box" role="region" aria-label="Hint"><div class="hint-header"><div class="hint-label"><span>💡</span> Hint</div><button class="hint-close" onclick="toggleHint()" aria-label="Hint sluiten" id="hint-close-btn">✕</button></div>'+esc(q.hint)+'</div>'}
-  hintPopover='<div class="hint-popover-wrap">'+popoverContent+'<button class="hint-btn'+(state.showHint?" open":"")+'" id="hint-btn" onclick="toggleHint()" aria-expanded="'+(state.showHint?"true":"false")+'" aria-controls="hint-box"><span class="hint-icon">💡</span><span>Hint</span><span class="kbd hint-kbd" style="margin-left:4px">H</span><span class="hint-chevron">▾</span></button></div>';
+function renderQuiz(){
+  var quizType=getCurrentQuizType();
+  var t = (state.theme === "mix") ? MIX_THEME : THEMES.find(function(x){return x.id===state.theme});
+  var q=shuffledQuestions[state.qIdx],total=shuffledQuestions.length,pct=((state.qIdx+(state.answered?1:0))/total*100).toFixed(1);
+
+  // Build question area based on type
+  var questionArea="";
+  if(quizType==="fill"){
+    questionArea=renderFillQuestion(q,t);
+  }else{
+    questionArea=renderMCQuestion(q,t);
+  }
+
+  // Feedback
+  var fb="";
+  if(state.answered){
+    var isC=state.answered==="correct";
+    var label=isC?"✓ Goed!":"✗ Niet helemaal";
+    var text="";
+    if(quizType==="fill"){
+      text=esc(q.explanation);
+      if(!isC){
+        text='<span class="fill-your-answer">Jouw antwoord: '+esc(String(state.selectedIdx))+'</span><br><br>'+text;
+      }
+    }else{
+      text=isC?esc(q.explanation):(esc(q.wrongExplanations[state.selectedIdx]||"")+"<br><br>"+esc(q.explanation));
+    }
+    fb='<div class="feedback '+state.answered+'" role="alert"><div class="feedback-label">'+label+'</div><div class="feedback-text">'+text+'</div></div>';
+  }
+
+  // Correct answer display for fill-in after wrong
+  var correctDisplay="";
+  if(quizType==="fill"&&state.answered==="wrong"){
+    var allAnswers=q.acceptedAnswers.join(" / ");
+    correctDisplay='<div class="fill-correct-answer">Juiste antwoord: '+esc(allAnswers)+'</div>';
+  }
+
+  // Keyboard hints
+  var kbdBar="";
+  if(quizType==="fill"){
+    kbdBar='<div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Enter</span> controleer / volgende</span><span class="kbd-hint"><span class="kbd">H</span> hint</span><span class="kbd-hint"><span class="kbd">Esc</span> terug</span></div>';
+  }else{
+    kbdBar='<div class="kbd-hints"><span class="kbd-hint"><span class="kbd">A</span><span class="kbd">B</span><span class="kbd">C</span><span class="kbd">D</span> kies</span><span class="kbd-hint"><span class="kbd">H</span> hint</span><span class="kbd-hint"><span class="kbd">Enter</span> volgende</span><span class="kbd-hint"><span class="kbd">Esc</span> terug</span></div>';
+  }
+
+  // Hint popover
+  var hintPopover="";
+  if(!state.answered){
+    var popoverContent="";
+    if(state.showHint){popoverContent='<div class="hint-overlay" onclick="toggleHint()"></div><div class="hint-popover" id="hint-box" role="region" aria-label="Hint"><div class="hint-header"><div class="hint-label"><span>💡</span> Hint</div><button class="hint-close" onclick="toggleHint()" aria-label="Hint sluiten" id="hint-close-btn">✕</button></div>'+esc(q.hint)+'</div>'}
+    hintPopover='<div class="hint-popover-wrap">'+popoverContent+'<button class="hint-btn'+(state.showHint?" open":"")+'" id="hint-btn" onclick="toggleHint()" aria-expanded="'+(state.showHint?"true":"false")+'" aria-controls="hint-box"><span class="hint-icon">💡</span><span>Hint</span><span class="kbd hint-kbd" style="margin-left:4px">H</span><span class="hint-chevron">▾</span></button></div>';
+  }
+
+  // Footer
+  var footerRow='<div class="quiz-footer-row">'+hintPopover+'<button class="btn-next '+(state.answered?"primary":"disabled")+'" id="btn-next" onclick="nextQuestion()"'+(state.answered?'':' tabindex="-1" aria-disabled="true"')+'>'+(state.qIdx>=total-1&&state.answered?"Resultaten bekijken":"Volgende →")+'</button></div>';
+
+  return '<div class="quiz"><div class="quiz-top"><div class="quiz-nav"><button class="quiz-back" onclick="goHome()" aria-label="Terug naar thema\'s (Escape)">←</button><div class="quiz-theme" style="color:'+esc(t.color)+'">'+esc(t.emoji)+" "+esc(t.label)+'</div><div class="quiz-counter" aria-label="Voortgang">'+(state.qIdx+1)+" / "+total+'</div></div><div class="progress-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="'+pct+'" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" style="width:'+pct+"%;background:"+esc(t.color)+'"></div></div><div class="score-pills" aria-label="Score"><div class="score-pill correct" aria-label="'+state.score+' goed"><span class="dot"></span>'+state.score+'</div><div class="score-pill wrong" aria-label="'+state.wrong+' fout"><span class="dot"></span>'+state.wrong+'</div></div></div></div><div class="quiz-body"><div class="question-num">'+esc(t.label)+" · Vraag "+(state.qIdx+1)+'</div><div class="question-text" id="question-text">'+esc(q.sentence)+'</div>'+questionArea+correctDisplay+fb+'</div><div class="quiz-footer">'+kbdBar+footerRow+"</div></div>";
 }
-// Footer row: hint button + next button
-var footerRow='<div class="quiz-footer-row">'+hintPopover+'<button class="btn-next '+(state.answered?"primary":"disabled")+'" id="btn-next" onclick="nextQuestion()"'+(state.answered?'':' tabindex="-1" aria-disabled="true"')+'>'+(state.qIdx>=total-1&&state.answered?"Resultaten bekijken":"Volgende →")+'</button></div>';
-return '<div class="quiz"><div class="quiz-top"><div class="quiz-nav"><button class="quiz-back" onclick="goHome()" aria-label="Terug naar thema\'s (Escape)">←</button><div class="quiz-theme" style="color:'+esc(t.color)+'">'+esc(t.emoji)+" "+esc(t.label)+'</div><div class="quiz-counter" aria-label="Voortgang">'+(state.qIdx+1)+" / "+total+'</div></div><div class="progress-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="'+pct+'" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" style="width:'+pct+"%;background:"+esc(t.color)+'"></div></div><div class="score-pills" aria-label="Score"><div class="score-pill correct" aria-label="'+state.score+' goed"><span class="dot"></span>'+state.score+'</div><div class="score-pill wrong" aria-label="'+state.wrong+' fout"><span class="dot"></span>'+state.wrong+'</div></div></div></div><div class="quiz-body"><div class="question-num">'+esc(t.label)+" · Vraag "+(state.qIdx+1)+'</div><div class="question-text" id="question-text">'+esc(q.sentence)+'</div><div class="options" role="group" aria-labelledby="question-text">'+q.options.map(function(opt,i){var cls="option-btn";var ariaLabel=KEYS[i]+": "+esc(opt);if(state.answered){cls+=" answered";if(i===q.correct){cls+=" is-correct is-actual-correct";ariaLabel+=" (juist antwoord)"}else if(i===state.selectedIdx&&state.answered==="wrong"){cls+=" is-wrong";ariaLabel+=" (jouw foute antwoord)"}}return '<button class="'+cls+'" id="option-'+i+'" onclick="selectAnswer('+i+')" aria-label="'+ariaLabel+'"'+(state.answered?' tabindex="-1"':'')+'><span class="option-key">'+KEYS[i]+'</span><span class="option-text">'+esc(opt)+"</span></button>"}).join("")+"</div>"+fb+'</div><div class="quiz-footer">'+kbdBar+footerRow+"</div></div>"}
+
+function renderFillQuestion(q,t){
+  var inputCls="fill-input";
+  var inputDisabled="";
+  var btnDisabled="";
+  if(state.answered){
+    inputCls+=" "+(state.answered==="correct"?"is-correct":"is-wrong");
+    inputDisabled=' disabled';
+    btnDisabled=' disabled';
+  }
+  var inputVal=state.answered?esc(String(state.selectedIdx)):'';
+  return '<div class="fill-input-wrap"><input type="text" class="'+inputCls+'" id="fill-input" placeholder="Typ het voorzetsel..." autocomplete="off" autocapitalize="none" spellcheck="false" value="'+inputVal+'"'+inputDisabled+' oninput="state.fillInput=this.value"><button class="fill-submit" id="fill-submit" onclick="submitFillAnswer()"'+btnDisabled+'>Check</button></div>';
+}
+
+function renderMCQuestion(q,t){
+  return '<div class="options" role="group" aria-labelledby="question-text">'+q.options.map(function(opt,i){var cls="option-btn";var ariaLabel=KEYS[i]+": "+esc(opt);if(state.answered){cls+=" answered";if(i===q.correct){cls+=" is-correct is-actual-correct";ariaLabel+=" (juist antwoord)"}else if(i===state.selectedIdx&&state.answered==="wrong"){cls+=" is-wrong";ariaLabel+=" (jouw foute antwoord)"}}return '<button class="'+cls+'" id="option-'+i+'" onclick="selectAnswer('+i+')" aria-label="'+ariaLabel+'"'+(state.answered?' tabindex="-1"':'')+'><span class="option-key">'+KEYS[i]+'</span><span class="option-text">'+esc(opt)+"</span></button>"}).join("")+"</div>";
+}
 
 function renderResults(){var total=shuffledQuestions.length,pct=Math.round(state.score/total*100),emoji="🎉",msg="Uitstekend! Je beheerst deze werkwoorden goed.";if(pct<50){emoji="📚";msg="Blijf oefenen! Herhaling is de sleutel tot succes."}else if(pct<70){emoji="💪";msg="Goed bezig! Nog een paar rondes en je hebt het onder de knie."}else if(pct<90){emoji="🌟";msg="Heel goed! Je bent er bijna."}var t = (state.theme === "mix") ? MIX_THEME : THEMES.find(function(x){return x.id===state.theme});var retryAction = (state.theme === "mix") ? "openCountSelect()" : "openThemeCountSelect('"+esc(state.theme)+"')";return '<div class="results"><div class="results-emoji">'+emoji+'</div><div class="results-score" style="color:'+esc(t.color)+'">'+pct+'%</div><div class="results-label">'+state.score+" van "+total+' goed</div><div class="results-msg">'+msg+'</div><div class="results-stats"><div class="stat"><div class="stat-val g">'+state.score+'</div><div class="stat-label">Goed</div></div><div class="stat"><div class="stat-val r">'+state.wrong+'</div><div class="stat-label">Fout</div></div><div class="stat"><div class="stat-val" style="color:'+esc(t.color)+'">'+total+'</div><div class="stat-label">Totaal</div></div></div><div class="results-actions"><button class="btn-result primary" id="btn-retry" onclick="'+retryAction+'">Opnieuw proberen</button>'+(state.wrong>0?'<button class="btn-result secondary" id="btn-review" onclick="toggleReview()">Foute antwoorden bekijken ('+state.wrong+")</button>":"")+'<button class="btn-result link" onclick="goHome()">← Terug naar thema\'s</button></div><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Enter</span> opnieuw</span><span class="kbd-hint"><span class="kbd">Esc</span> terug</span></div></div>'}
 
 function renderReview(){var retryAction = (state.theme === "mix") ? "openCountSelect()" : "openThemeCountSelect('"+esc(state.theme)+"')";return '<div class="review"><div class="review-header"><button class="quiz-back" id="review-back" onclick="toggleReview()" aria-label="Terug naar resultaten (Escape)">←</button><div class="review-title">Foute antwoorden ('+state.wrongAnswers.length+')</div></div>'+state.wrongAnswers.map(function(w,i){return '<div class="review-card"><div class="review-q">'+(i+1)+". "+esc(w.q)+'</div><div class="review-answer"><span class="wrong-text">Jouw antwoord: '+esc(w.selected)+"</span><br><strong>Correct: "+esc(w.correct)+"</strong><br>"+esc(w.explanation)+"</div></div>"}).join("")+'<div style="padding:16px 0"><button class="btn-result primary" onclick="'+retryAction+'" style="width:100%">Opnieuw proberen</button></div></div>'}
 
-document.addEventListener("keydown",function(e){if(e.target.tagName==="INPUT"||e.target.tagName==="TEXTAREA")return;var key=e.key.toLowerCase();if(state.screen==="quiz"){if(key in KEY_MAP&&state.answered===null){e.preventDefault();selectAnswer(KEY_MAP[key]);return}if((key==="enter"||key===" ")&&state.answered!==null){var active=document.activeElement;if(!active||active===document.body||active.classList.contains("btn-next")){e.preventDefault();nextQuestion();return}}if(key==="h"&&state.answered===null){e.preventDefault();toggleHint();return}if(key==="escape"){e.preventDefault();if(state.showHint){toggleHint()}else{goHome()}return}if((key==="arrowdown"||key==="arrowup")&&state.answered===null){e.preventDefault();var opts=document.querySelectorAll(".option-btn:not(.answered)");if(opts.length===0)return;var currentIdx=-1;opts.forEach(function(o,i){if(o===document.activeElement)currentIdx=i});if(key==="arrowdown"){currentIdx=(currentIdx+1)%opts.length}else{currentIdx=(currentIdx-1+opts.length)%opts.length}opts[currentIdx].focus();return}}if(state.screen==="home"){if(key==="arrowdown"||key==="arrowup"){e.preventDefault();var cards=document.querySelectorAll(".theme-card");if(cards.length===0)return;var ci=-1;cards.forEach(function(c,i){if(c===document.activeElement)ci=i});if(key==="arrowdown"){ci=(ci+1)%cards.length}else{ci=(ci-1+cards.length)%cards.length}cards[ci].focus();return}}if(state.screen==="count-select"){if(key==="escape"){e.preventDefault();goHome();return}}if(state.screen==="results"){if(key==="enter"){var af=document.activeElement;if(!af||af===document.body){e.preventDefault();if(state.theme === "mix") openCountSelect();else openThemeCountSelect(state.theme);return}}if(key==="escape"){e.preventDefault();if(state.showReview){toggleReview()}else{goHome()}return}}});
+document.addEventListener("keydown",function(e){
+  if(e.target.tagName==="TEXTAREA")return;
+  var key=e.key.toLowerCase();
+
+  // Special handling for fill-in input
+  if(e.target.id==="fill-input"){
+    if(key==="enter"){
+      e.preventDefault();
+      if(state.answered===null){
+        submitFillAnswer();
+      }else{
+        nextQuestion();
+      }
+      return;
+    }
+    if(key==="escape"){
+      e.preventDefault();
+      if(state.showHint){toggleHint()}else{goHome()}
+      return;
+    }
+    if(key==="h"&&e.ctrlKey&&state.answered===null){
+      e.preventDefault();
+      toggleHint();
+      return;
+    }
+    return; // Let other keys type normally
+  }
+
+  if(state.screen==="quiz"){
+    var quizType=getCurrentQuizType();
+    if(quizType==="mc"&&key in KEY_MAP&&state.answered===null){e.preventDefault();selectAnswer(KEY_MAP[key]);return}
+    if((key==="enter"||key===" ")&&state.answered!==null){var active=document.activeElement;if(!active||active===document.body||active.classList.contains("btn-next")){e.preventDefault();nextQuestion();return}}
+    if(key==="h"&&state.answered===null){e.preventDefault();toggleHint();return}
+    if(key==="escape"){e.preventDefault();if(state.showHint){toggleHint()}else{goHome()}return}
+    if(quizType==="mc"&&(key==="arrowdown"||key==="arrowup")&&state.answered===null){e.preventDefault();var opts=document.querySelectorAll(".option-btn:not(.answered)");if(opts.length===0)return;var currentIdx=-1;opts.forEach(function(o,i){if(o===document.activeElement)currentIdx=i});if(key==="arrowdown"){currentIdx=(currentIdx+1)%opts.length}else{currentIdx=(currentIdx-1+opts.length)%opts.length}opts[currentIdx].focus();return}
+  }
+  if(state.screen==="home"){if(key==="arrowdown"||key==="arrowup"){e.preventDefault();var cards=document.querySelectorAll(".theme-card");if(cards.length===0)return;var ci=-1;cards.forEach(function(c,i){if(c===document.activeElement)ci=i});if(key==="arrowdown"){ci=(ci+1)%cards.length}else{ci=(ci-1+cards.length)%cards.length}cards[ci].focus();return}}
+  if(state.screen==="count-select"){if(key==="escape"){e.preventDefault();goHome();return}}
+  if(state.screen==="results"){if(key==="enter"){var af=document.activeElement;if(!af||af===document.body){e.preventDefault();if(state.theme === "mix") openCountSelect();else openThemeCountSelect(state.theme);return}}if(key==="escape"){e.preventDefault();if(state.showReview){toggleReview()}else{goHome()}return}}
+});
 
 loadThemes();
 </script>
