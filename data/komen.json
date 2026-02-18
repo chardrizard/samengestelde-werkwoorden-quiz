@@ -87,7 +87,7 @@
   {
     "sentence": "Ik ben de afgelopen maand twee kilo ______.",
     "options": [
-      "bijgekomen",
+      "doorgekomen",
       "aangekomen",
       "opgekomen",
       "omgekomen"
@@ -95,7 +95,7 @@
     "correct": 1,
     "explanation": "'Aankomen' = in gewicht toenemen.",
     "wrongExplanations": {
-      "0": "Bijkomen = herstellen na ziekte of schrik. Voor gewicht gebruik je altijd aankomen.",
+      "0": "Doorkomen = een moeilijke tijd overleven of ergens doorheen komen (bv. tanden).",
       "2": "Opkomen = verschijnen of opstaan voor iets. Kilo's verschijnen niet.",
       "3": "Omkomen = sterven bij een ongeluk. Zeker niet van twee kilo."
     },
