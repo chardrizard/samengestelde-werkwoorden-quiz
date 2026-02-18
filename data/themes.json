@@ -26,5 +26,13 @@
     "description": "ophalen · afhalen · inhalen · achterhalen",
     "emoji": "🎯",
     "color": "#C44536"
+  },
+  {
+    "id": "preposities",
+    "label": "Preposities",
+    "description": "wachten op · denken aan · zorgen voor · houden van",
+    "emoji": "🔗",
+    "color": "#D4A373",
+    "type": "fill"
   }
 ]
