@@ -1,0 +1,30 @@
+[
+  {
+    "id": "komen",
+    "label": "-komen",
+    "description": "aankomen · opkomen · bijkomen · uitkomen",
+    "emoji": "🚪",
+    "color": "#2D6A4F"
+  },
+  {
+    "id": "zetten",
+    "label": "-zetten",
+    "description": "aanzetten · opzetten · afzetten · doorzetten",
+    "emoji": "📌",
+    "color": "#7B2D8B"
+  },
+  {
+    "id": "nemen",
+    "label": "-nemen",
+    "description": "opnemen · aannemen · afnemen · innemen",
+    "emoji": "🤲",
+    "color": "#1B4965"
+  },
+  {
+    "id": "halen",
+    "label": "-halen",
+    "description": "ophalen · afhalen · inhalen · achterhalen",
+    "emoji": "🎯",
+    "color": "#C44536"
+  }
+]
