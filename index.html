@@ -12,21 +12,21 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Werkwoorden Quiz — Samengestelde Werkwoorden">
 <meta property="og:description" content="160 meerkeuzevragen over samengestelde werkwoorden met -komen, -zetten, -nemen en -halen. Gratis B1+ quiz.">
-<meta property="og:image" content="https://raw.githubusercontent.com/chardrizard/werkwoorden-quiz/main/assets/icons/og-image.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/chardrizard/werkwoorden-quiz/main/og-image.png">
 <meta property="og:url" content="https://chardrizard.github.io/werkwoorden-quiz/">
 <meta property="og:locale" content="nl_NL">
 <meta property="og:site_name" content="Werkwoorden Quiz">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Werkwoorden Quiz — Samengestelde Werkwoorden">
 <meta name="twitter:description" content="160 meerkeuzevragen over samengestelde werkwoorden. Gratis B1+ quiz.">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/chardrizard/werkwoorden-quiz/main/assets/icons/og-image.png">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/chardrizard/werkwoorden-quiz/main/og-image.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Werkwoorden">
-<link rel="icon" href="assets/icons/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
 <link rel="canonical" href="https://chardrizard.github.io/werkwoorden-quiz/">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -119,8 +119,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .hint-box{margin-top:10px;padding:13px 16px;border-radius:var(--radius);background:var(--hint-bg);border:1px solid var(--hint-border);font-size:13px;color:var(--ink-2);line-height:1.6;position:relative;animation:feedbackIn 0.2s ease}
 .hint-box::before{content:'';position:absolute;top:-5px;left:16px;width:9px;height:9px;background:var(--hint-bg);border-left:1px solid var(--hint-border);border-top:1px solid var(--hint-border);transform:rotate(45deg)}
 .hint-box .hint-label{font-size:11px;font-weight:600;color:var(--ink-3);margin-bottom:5px;font-family:var(--mono);letter-spacing:0.3px}
-.quiz-footer{padding:16px 20px 24px;flex-shrink:0;display:flex;gap:10px}
-.btn-next{flex:1;padding:14px;border-radius:var(--radius);font-size:15px;font-weight:600;text-align:center;transition:all 0.15s ease;letter-spacing:-0.2px}
+.quiz-footer{padding:16px 20px 24px;flex-shrink:0;display:flex;flex-direction:column;gap:10px;align-items:stretch}
+.btn-next{padding:14px;border-radius:var(--radius);font-size:15px;font-weight:600;text-align:center;transition:all 0.15s ease;letter-spacing:-0.2px;width:100%}
 .btn-next.primary{background:var(--ink);color:var(--bg)}
 .btn-next.primary:hover{opacity:0.9}
 .btn-next.primary:active{transform:scale(0.98)}
@@ -154,7 +154,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .review-answer .wrong-text{color:#E8776C}
 
 /* Keyboard shortcut hints — hidden on touch/mobile */
-.kbd-hints{display:none;gap:6px;flex-wrap:wrap;margin-top:16px;justify-content:center}
+.kbd-hints{display:none;gap:6px 12px;flex-wrap:wrap;justify-content:center;padding:0;margin:0}
+.quiz-footer .kbd-hints{margin-bottom:2px}
 .kbd-hint{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--ink-3);font-family:var(--mono)}
 .kbd{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:20px;padding:0 5px;border-radius:4px;background:var(--surface-3);border:1px solid var(--ink-4);font-size:10px;font-weight:600;color:var(--ink-2);font-family:var(--mono);line-height:1}
 /* Only show kbd hints on devices with a fine pointer (mouse/trackpad) */
@@ -177,9 +178,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 <script>
 const KEYS=["A","B","C","D"];
 const KEY_MAP={a:0,b:1,c:2,d:3,"1":0,"2":1,"3":2,"4":3};
-let THEMES=[];
-let questionCache={};  // Cache loaded theme questions: { themeId: [...questions] }
-let shuffledQuestions=[];
+let THEMES=[],Q={},shuffledQuestions=[];
 let state={screen:"loading",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};
 
 // Track what to focus after render
@@ -190,49 +189,29 @@ function announce(text){
   if(el){el.textContent="";requestAnimationFrame(()=>{el.textContent=text})}
 }
 
-// Load themes metadata (lightweight — just theme labels, colors, etc.)
-async function loadThemes(){
+async function loadQuestions(){
   try{
-    const res=await fetch("data/themes.json");
+    const res=await fetch("questions.json");
     if(!res.ok)throw new Error("HTTP "+res.status);
-    THEMES=await res.json();
-    console.log("Loaded "+THEMES.length+" themes");
+    const data=await res.json();
+    THEMES=data.themes;Q=data.questions;
+    let total=0;for(const k of Object.keys(Q))total+=Q[k].length;
+    console.log("Loaded "+total+" questions across "+Object.keys(Q).length+" themes");
     state.screen="home";render();
   }catch(err){
-    console.error("Failed to load themes:",err);
-    document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de thema\'s niet laden.</p><p style="font-size:13px;color:var(--ink-3)">'+err.message+'</p><button onclick="loadThemes()">Opnieuw proberen</button></div>';
+    console.error("Failed to load questions:",err);
+    document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de vragen niet laden.</p><p style="font-size:13px;color:var(--ink-3)">'+err.message+'</p><button onclick="loadQuestions()">Opnieuw proberen</button></div>';
   }
-}
-
-// Load questions for a specific theme (lazy, cached)
-async function loadThemeQuestions(themeId){
-  if(questionCache[themeId])return questionCache[themeId];
-  const res=await fetch("data/"+themeId+".json");
-  if(!res.ok)throw new Error("HTTP "+res.status);
-  const questions=await res.json();
-  questionCache[themeId]=questions;
-  console.log("Loaded "+questions.length+" questions for theme: "+themeId);
-  return questions;
 }
 
 function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
 
-async function startQuiz(id){
-  // Show loading state
-  state={screen:"loading",theme:id,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};
+function startQuiz(id){
+  shuffledQuestions=shuffle(Q[id]);
+  state={screen:"quiz",theme:id,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false};
+  pendingFocus="option-0";
   render();
-
-  try{
-    const questions=await loadThemeQuestions(id);
-    shuffledQuestions=shuffle(questions);
-    state.screen="quiz";
-    pendingFocus="option-0";
-    render();
-    announce("Quiz gestart. Vraag 1 van "+shuffledQuestions.length+". Gebruik A, B, C, D om een antwoord te kiezen.");
-  }catch(err){
-    console.error("Failed to load questions for theme:",id,err);
-    document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de vragen niet laden.</p><p style="font-size:13px;color:var(--ink-3)">'+err.message+'</p><button onclick="startQuiz(\''+id+'\')">Opnieuw proberen</button></div>';
-  }
+  announce("Quiz gestart. Vraag 1 van "+shuffledQuestions.length+". Gebruik A, B, C, D om een antwoord te kiezen.");
 }
 
 function goHome(){
@@ -263,15 +242,9 @@ function nextQuestion(){
 function toggleHint(){state.showHint=!state.showHint;pendingFocus="hint-btn";render();if(state.showHint)announce("Hint: "+shuffledQuestions[state.qIdx].hint)}
 function toggleReview(){state.showReview=!state.showReview;pendingFocus=state.showReview?"review-back":"btn-review";render()}
 
-function getThemeQuestionCount(themeId){
-  if(questionCache[themeId])return questionCache[themeId].length;
-  return "40"; // Default expected count; updates after loading
-}
-
 function render(){
   const app=document.getElementById("app");
   switch(state.screen){
-    case"loading":app.innerHTML='<div class="loading"><div class="loading-spinner"></div><div>Vragen laden...</div></div>';break;
     case"home":app.innerHTML=renderHome();break;
     case"quiz":app.innerHTML=renderQuiz();break;
     case"results":app.innerHTML=state.showReview?renderReview():renderResults();break;
@@ -288,9 +261,9 @@ function render(){
 
 function renderHome(){
   return '<div class="home"><div class="home-header"><div class="home-label">Oefening</div><div class="home-title">Samengestelde<br>Werkwoorden</div><div class="home-subtitle">Kies een thema en oefen met 40 meerkeuzevragen op B1+ niveau.</div></div><nav class="theme-grid" aria-label="Themakeuze">'+THEMES.map(function(t,idx){
-    var c=getThemeQuestionCount(t.id);
+    var c=Q[t.id]?Q[t.id].length:0;
     return '<button class="theme-card" id="theme-'+idx+'" onclick="startQuiz(\''+t.id+'\')" aria-label="'+t.label+' — '+c+' vragen: '+t.description+'"><div class="theme-accent" style="background:'+t.color+'"></div><div class="theme-emoji" style="background:'+t.color+'15">'+t.emoji+'</div><div class="theme-info"><div class="theme-name">'+t.label+'</div><div class="theme-desc">'+t.description+'</div></div><div class="theme-count">'+c+'</div><div class="theme-arrow">›</div></button>';
-  }).join("")+'</nav><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Tab</span> navigeren</span><span class="kbd-hint"><span class="kbd">Enter</span> selecteren</span></div></div>';
+  }).join("")+'</nav><div class="kbd-hints" style="margin-top:16px"><span class="kbd-hint"><span class="kbd">Tab</span> navigeren</span><span class="kbd-hint"><span class="kbd">Enter</span> selecteren</span></div></div>';
 }
 
 function renderQuiz(){
@@ -422,7 +395,7 @@ document.addEventListener("keydown",function(e){
   }
 });
 
-loadThemes();
+loadQuestions();
 </script>
 </body>
 </html>
