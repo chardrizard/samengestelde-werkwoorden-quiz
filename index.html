@@ -111,19 +111,22 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .option-btn.is-actual-correct{background:var(--correct-bg);border-color:var(--correct-border)}
 .option-btn.is-actual-correct .option-key{background:var(--correct);color:#fff}
 
-/* ── FILL-IN INPUT ── */
-.fill-input-wrap{display:flex;gap:10px;align-items:stretch}
-.fill-input{flex:1;padding:14px 16px;border-radius:var(--radius);background:var(--surface);border:1.5px solid var(--border-2);font-size:20px;font-weight:500;font-family:var(--mono);color:var(--ink);letter-spacing:0.5px;transition:all 0.15s;caret-color:var(--ink)}
-.fill-input::placeholder{color:var(--ink-4);font-weight:400;letter-spacing:0}
-.fill-input:focus{border-color:rgba(120,160,255,0.5);background:var(--surface-2);outline:none}
-.fill-input:disabled{opacity:0.5;cursor:not-allowed}
-.fill-input.is-correct{border-color:var(--correct-border);background:var(--correct-bg);color:#52B788}
-.fill-input.is-wrong{border-color:var(--wrong-border);background:var(--wrong-bg);color:#E8776C}
-.fill-submit{padding:14px 20px;border-radius:var(--radius);background:var(--ink);color:var(--bg);font-size:16px;font-weight:600;transition:all 0.15s;flex-shrink:0;letter-spacing:-0.2px}
-.fill-submit:hover{opacity:0.9}
-.fill-submit:active{transform:scale(0.97)}
+/* ── FILL-IN INPUT (compact pill) ── */
+.fill-input-wrap{display:inline-flex;gap:6px;align-items:center;background:var(--surface);border:1.5px solid var(--border-2);border-radius:28px;padding:4px 4px 4px 16px;transition:all 0.15s;max-width:220px}
+.fill-input-wrap:focus-within{border-color:rgba(120,160,255,0.45);background:var(--surface-2)}
+.fill-input-wrap.is-correct{border-color:var(--correct-border);background:var(--correct-bg)}
+.fill-input-wrap.is-wrong{border-color:var(--wrong-border);background:var(--wrong-bg)}
+.fill-input{flex:1;padding:6px 0;border:none;background:transparent;font-size:17px;font-weight:600;font-family:var(--mono);color:var(--ink);letter-spacing:0.3px;caret-color:var(--ink);min-width:0;width:100%}
+.fill-input::placeholder{color:var(--ink-4);font-weight:400;font-size:15px;letter-spacing:0;font-family:var(--font)}
+.fill-input:focus{outline:none}
+.fill-input:disabled{opacity:0.6;cursor:not-allowed}
+.fill-input-wrap.is-correct .fill-input{color:#52B788}
+.fill-input-wrap.is-wrong .fill-input{color:#E8776C}
+.fill-submit{width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--bg);font-size:16px;display:flex;align-items:center;justify-content:center;transition:all 0.15s;flex-shrink:0;padding:0;line-height:1}
+.fill-submit:hover{opacity:0.85}
+.fill-submit:active{transform:scale(0.92)}
 .fill-submit:disabled{background:var(--surface-3);color:var(--ink-4);pointer-events:none}
-.fill-correct-answer{margin-top:10px;font-size:15px;font-family:var(--mono);color:#52B788;font-weight:600;animation:feedbackIn 0.25s ease}
+.fill-correct-answer{margin-top:12px;font-size:15px;font-family:var(--mono);color:#52B788;font-weight:600;animation:feedbackIn 0.25s ease}
 .fill-your-answer{color:#E8776C;font-family:var(--mono);font-weight:500}
 
 /* ── FEEDBACK ── */
@@ -136,17 +139,15 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .feedback.wrong .feedback-label{color:#E8776C}
 .feedback-text{color:var(--ink-2)}
 
-/* ── HINT (footer-anchored popover) ── */
+/* ── HINT (full-width footer popover) ── */
 .hint-btn{display:inline-flex;align-items:center;gap:6px;padding:7px 13px 7px 10px;border-radius:8px;background:var(--hint-bg);border:1px solid var(--hint-border);font-size:14px;font-weight:500;color:var(--ink-3);transition:all 0.18s ease;line-height:1;flex-shrink:0}
 .hint-btn:hover{background:var(--hint-bg-hover);border-color:var(--hint-border-hover);color:var(--hint-color)}
 .hint-btn.open{background:var(--hint-bg-hover);border-color:var(--hint-border-hover);color:var(--hint-color)}
 .hint-btn .hint-icon{font-size:14px;line-height:1;display:flex;align-items:center}
 .hint-btn .hint-chevron{font-size:9px;margin-left:2px;opacity:0.5;transition:transform 0.2s ease;display:inline-block}
 .hint-btn.open .hint-chevron{transform:rotate(180deg)}
-.hint-popover-wrap{position:relative}
-.hint-popover{position:absolute;bottom:calc(100% + 10px);left:0;right:0;padding:14px 16px;border-radius:var(--radius);background:var(--surface-3);border:1px solid var(--border-2);font-size:15px;color:var(--ink-2);line-height:1.6;box-shadow:0 8px 32px rgba(0,0,0,0.5);animation:hintPopIn 0.2s ease;z-index:10}
+.hint-popover{padding:14px 16px;border-radius:var(--radius);background:var(--surface-3);border:1px solid var(--border-2);font-size:15px;color:var(--ink-2);line-height:1.6;box-shadow:0 8px 32px rgba(0,0,0,0.5);animation:hintPopIn 0.2s ease;z-index:10}
 @keyframes hintPopIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
-.hint-popover::after{content:'';position:absolute;bottom:-5px;left:20px;width:10px;height:10px;background:var(--surface-3);border-right:1px solid var(--border-2);border-bottom:1px solid var(--border-2);transform:rotate(45deg)}
 .hint-popover .hint-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
 .hint-popover .hint-label{font-size:12px;font-weight:600;color:var(--ink-3);font-family:var(--mono);letter-spacing:0.3px;display:flex;align-items:center;gap:5px}
 .hint-close{width:28px;height:28px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:16px;color:var(--ink-2);background:var(--surface);border:1px solid var(--border);cursor:pointer;transition:all 0.15s;flex-shrink:0}
@@ -446,31 +447,31 @@ function renderQuiz(){
     kbdBar='<div class="kbd-hints"><span class="kbd-hint"><span class="kbd">A</span><span class="kbd">B</span><span class="kbd">C</span><span class="kbd">D</span> kies</span><span class="kbd-hint"><span class="kbd">H</span> hint</span><span class="kbd-hint"><span class="kbd">Enter</span> volgende</span><span class="kbd-hint"><span class="kbd">Esc</span> terug</span></div>';
   }
 
-  // Hint popover
-  var hintPopover="";
+  // Hint popover (full-width, separate row above button row)
+  var hintPopoverRow="";
+  var hintButton="";
   if(!state.answered){
-    var popoverContent="";
-    if(state.showHint){popoverContent='<div class="hint-overlay" onclick="toggleHint()"></div><div class="hint-popover" id="hint-box" role="region" aria-label="Hint"><div class="hint-header"><div class="hint-label"><span>💡</span> Hint</div><button class="hint-close" onclick="toggleHint()" aria-label="Hint sluiten" id="hint-close-btn">✕</button></div>'+esc(q.hint)+'</div>'}
-    hintPopover='<div class="hint-popover-wrap">'+popoverContent+'<button class="hint-btn'+(state.showHint?" open":"")+'" id="hint-btn" onclick="toggleHint()" aria-expanded="'+(state.showHint?"true":"false")+'" aria-controls="hint-box"><span class="hint-icon">💡</span><span>Hint</span><span class="kbd hint-kbd" style="margin-left:4px">H</span><span class="hint-chevron">▾</span></button></div>';
+    if(state.showHint){hintPopoverRow='<div class="hint-overlay" onclick="toggleHint()"></div><div class="hint-popover" id="hint-box" role="region" aria-label="Hint"><div class="hint-header"><div class="hint-label"><span>💡</span> Hint</div><button class="hint-close" onclick="toggleHint()" aria-label="Hint sluiten" id="hint-close-btn">✕</button></div>'+esc(q.hint)+'</div>'}
+    hintButton='<button class="hint-btn'+(state.showHint?" open":"")+'" id="hint-btn" onclick="toggleHint()" aria-expanded="'+(state.showHint?"true":"false")+'" aria-controls="hint-box"><span class="hint-icon">💡</span><span>Hint</span><span class="kbd hint-kbd" style="margin-left:4px">H</span><span class="hint-chevron">▾</span></button>';
   }
 
   // Footer
-  var footerRow='<div class="quiz-footer-row">'+hintPopover+'<button class="btn-next '+(state.answered?"primary":"disabled")+'" id="btn-next" onclick="nextQuestion()"'+(state.answered?'':' tabindex="-1" aria-disabled="true"')+'>'+(state.qIdx>=total-1&&state.answered?"Resultaten bekijken":"Volgende →")+'</button></div>';
+  var footerRow='<div class="quiz-footer-row">'+hintButton+'<button class="btn-next '+(state.answered?"primary":"disabled")+'" id="btn-next" onclick="nextQuestion()"'+(state.answered?'':' tabindex="-1" aria-disabled="true"')+'>'+(state.qIdx>=total-1&&state.answered?"Resultaten bekijken":"Volgende →")+'</button></div>';
 
-  return '<div class="quiz"><div class="quiz-top"><div class="quiz-nav"><button class="quiz-back" onclick="goHome()" aria-label="Terug naar thema\'s (Escape)">←</button><div class="quiz-theme" style="color:'+esc(t.color)+'">'+esc(t.emoji)+" "+esc(t.label)+'</div><div class="quiz-counter" aria-label="Voortgang">'+(state.qIdx+1)+" / "+total+'</div></div><div class="progress-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="'+pct+'" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" style="width:'+pct+"%;background:"+esc(t.color)+'"></div></div><div class="score-pills" aria-label="Score"><div class="score-pill correct" aria-label="'+state.score+' goed"><span class="dot"></span>'+state.score+'</div><div class="score-pill wrong" aria-label="'+state.wrong+' fout"><span class="dot"></span>'+state.wrong+'</div></div></div></div><div class="quiz-body"><div class="question-num">'+esc(t.label)+" · Vraag "+(state.qIdx+1)+'</div><div class="question-text" id="question-text">'+esc(q.sentence)+'</div>'+questionArea+correctDisplay+fb+'</div><div class="quiz-footer">'+kbdBar+footerRow+"</div></div>";
+  return '<div class="quiz"><div class="quiz-top"><div class="quiz-nav"><button class="quiz-back" onclick="goHome()" aria-label="Terug naar thema\'s (Escape)">←</button><div class="quiz-theme" style="color:'+esc(t.color)+'">'+esc(t.emoji)+" "+esc(t.label)+'</div><div class="quiz-counter" aria-label="Voortgang">'+(state.qIdx+1)+" / "+total+'</div></div><div class="progress-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="'+pct+'" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" style="width:'+pct+"%;background:"+esc(t.color)+'"></div></div><div class="score-pills" aria-label="Score"><div class="score-pill correct" aria-label="'+state.score+' goed"><span class="dot"></span>'+state.score+'</div><div class="score-pill wrong" aria-label="'+state.wrong+' fout"><span class="dot"></span>'+state.wrong+'</div></div></div></div><div class="quiz-body"><div class="question-num">'+esc(t.label)+" · Vraag "+(state.qIdx+1)+'</div><div class="question-text" id="question-text">'+esc(q.sentence)+'</div>'+questionArea+correctDisplay+fb+'</div><div class="quiz-footer">'+kbdBar+hintPopoverRow+footerRow+"</div></div>";
 }
 
 function renderFillQuestion(q,t){
-  var inputCls="fill-input";
+  var wrapCls="fill-input-wrap";
   var inputDisabled="";
   var btnDisabled="";
   if(state.answered){
-    inputCls+=" "+(state.answered==="correct"?"is-correct":"is-wrong");
+    wrapCls+=" "+(state.answered==="correct"?"is-correct":"is-wrong");
     inputDisabled=' disabled';
     btnDisabled=' disabled';
   }
   var inputVal=state.answered?esc(String(state.selectedIdx)):'';
-  return '<div class="fill-input-wrap"><input type="text" class="'+inputCls+'" id="fill-input" placeholder="Typ het voorzetsel..." autocomplete="off" autocapitalize="none" spellcheck="false" value="'+inputVal+'"'+inputDisabled+' oninput="state.fillInput=this.value"><button class="fill-submit" id="fill-submit" onclick="submitFillAnswer()"'+btnDisabled+'>Check</button></div>';
+  return '<div class="'+wrapCls+'"><input type="text" class="fill-input" id="fill-input" placeholder="voorzetsel..." autocomplete="off" autocapitalize="none" spellcheck="false" value="'+inputVal+'"'+inputDisabled+' oninput="state.fillInput=this.value"><button class="fill-submit" id="fill-submit" onclick="submitFillAnswer()"'+btnDisabled+' aria-label="Controleer">→</button></div>';
 }
 
 function renderMCQuestion(q,t){
