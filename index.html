@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
 <title>Werkwoorden Quiz — Samengestelde Werkwoorden oefenen</title>
 <meta name="description" content="Oefen 160 meerkeuzevragen over samengestelde werkwoorden. Gratis quiz op B1+ niveau.">
 <meta name="theme-color" content="#0F1117">
@@ -27,7 +27,8 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--bg:#0F1117;--surface:#181A20;--surface-2:#1E2028;--surface-3:#252830;--ink:#E8E9ED;--ink-2:#A0A3AD;--ink-3:#6B6F7B;--ink-4:#3E414B;--border:rgba(255,255,255,0.06);--border-2:rgba(255,255,255,0.10);--correct:#2D6A4F;--correct-bg:rgba(45,106,79,0.12);--correct-border:rgba(45,106,79,0.4);--wrong:#C44536;--wrong-bg:rgba(196,69,54,0.12);--wrong-border:rgba(196,69,54,0.4);--radius:12px;--radius-lg:16px;--font:'DM Sans',system-ui,sans-serif;--mono:'DM Mono',monospace;--hint-color:rgba(180,190,210,0.85);--hint-bg:rgba(180,190,210,0.06);--hint-border:rgba(180,190,210,0.12);--hint-bg-hover:rgba(180,190,210,0.10);--hint-border-hover:rgba(180,190,210,0.18);--focus-ring:rgba(120,160,255,0.6)}
 html{font-size:16px;-webkit-text-size-adjust:100%}
-body{font-family:var(--font);background:var(--bg);color:var(--ink);min-height:100dvh;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+html{height:-webkit-fill-available}
+body{font-family:var(--font);background:var(--bg);color:var(--ink);min-height:100vh;min-height:100svh;min-height:-webkit-fill-available;overflow-x:hidden;-webkit-font-smoothing:antialiased}
 button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
 *:focus{outline:none}
 *:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px;border-radius:var(--radius)}
@@ -35,7 +36,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .theme-card:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px;box-shadow:0 0 0 4px rgba(120,160,255,0.15)}
 .skip-link{position:absolute;top:-40px;left:0;background:var(--ink);color:var(--bg);padding:8px 16px;z-index:100;font-size:15px;font-weight:600;border-radius:0 0 var(--radius) 0;transition:top 0.2s}
 .skip-link:focus{top:0}
-.app{max-width:480px;margin:0 auto;min-height:100dvh;display:flex;flex-direction:column;padding:0;transition:max-width 0.2s ease}
+.app{max-width:480px;margin:0 auto;min-height:100vh;min-height:100svh;min-height:-webkit-fill-available;display:flex;flex-direction:column;padding:0;transition:max-width 0.2s ease}
 .app>main{display:flex;flex-direction:column;flex:1;min-height:0}
 .app>main>#app{display:flex;flex-direction:column;flex:1;min-height:0}
 .loading{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:var(--ink-3);font-size:16px}
@@ -45,7 +46,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .loading-error button{color:var(--ink);text-decoration:underline;margin-top:12px;font-size:16px}
 
 /* ── HOME ── */
-.home{padding:24px 20px;flex:1;display:flex;flex-direction:column}
+.home{padding:24px 20px calc(24px + env(safe-area-inset-bottom, 0px));flex:1;display:flex;flex-direction:column}
 .home-header{padding:32px 0 24px}
 .home-label{font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px}
 .home-title{font-size:34px;font-weight:700;letter-spacing:-0.5px;line-height:1.12;color:var(--ink)}
@@ -75,7 +76,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .count-btn:active{transform:scale(0.96)}
 
 /* ── QUIZ ── */
-.quiz{flex:1;display:flex;flex-direction:column}
+.quiz{flex:1;display:flex;flex-direction:column;min-height:0;overflow:hidden}
 .quiz-top{padding:16px 20px 0;flex-shrink:0}
 .quiz-nav{display:flex;align-items:center;gap:12px;margin-bottom:16px}
 .quiz-back{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:var(--surface);border:1px solid var(--border);font-size:17px;transition:all 0.15s}
@@ -92,7 +93,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .score-pill .dot{width:6px;height:6px;border-radius:50%}
 .score-pill.correct .dot{background:#52B788}
 .score-pill.wrong .dot{background:#E8776C}
-.quiz-body{flex:1;padding:20px;display:flex;flex-direction:column}
+.quiz-body{flex:1;padding:20px;display:flex;flex-direction:column;overflow-y:auto;-webkit-overflow-scrolling:touch;min-height:0}
 .question-num{font-size:13px;font-weight:600;color:var(--ink-3);font-family:var(--mono);margin-bottom:12px}
 .question-text{font-size:22px;font-weight:500;line-height:1.45;letter-spacing:-0.2px;margin-bottom:28px;min-height:60px}
 .options{display:flex;flex-direction:column;gap:8px}
@@ -131,7 +132,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .hint-box .hint-label{font-size:12px;font-weight:600;color:var(--ink-3);margin-bottom:5px;font-family:var(--mono);letter-spacing:0.3px}
 
 /* ── QUIZ FOOTER ── */
-.quiz-footer{padding:16px 20px 24px;flex-shrink:0;display:flex;flex-direction:column;gap:12px}
+.quiz-footer{padding:16px 20px calc(24px + env(safe-area-inset-bottom, 0px));flex-shrink:0;display:flex;flex-direction:column;gap:12px;background:var(--bg)}
 .btn-next{width:100%;padding:15px;border-radius:var(--radius);font-size:17px;font-weight:600;text-align:center;transition:all 0.15s ease;letter-spacing:-0.2px}
 .btn-next.primary{background:var(--ink);color:var(--bg)}
 .btn-next.primary:hover{opacity:0.9}
@@ -139,7 +140,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .btn-next.disabled{background:var(--surface-3);color:var(--ink-3);pointer-events:none}
 
 /* ── RESULTS ── */
-.results{padding:24px 20px;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.results{padding:24px 20px calc(24px + env(safe-area-inset-bottom, 0px));flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
 .results-emoji{font-size:64px;margin-bottom:20px;animation:pop 0.4s cubic-bezier(0.34,1.56,0.64,1)}
 @keyframes pop{from{transform:scale(0)}to{transform:scale(1)}}
 .results-score{font-size:56px;font-weight:700;letter-spacing:-2px;font-family:var(--mono)}
@@ -160,7 +161,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .btn-result.link:hover{color:var(--ink-2)}
 
 /* ── REVIEW ── */
-.review{padding:20px;flex:1}
+.review{padding:20px 20px calc(20px + env(safe-area-inset-bottom, 0px));flex:1}
 .review-header{display:flex;align-items:center;gap:12px;margin-bottom:20px}
 .review-title{font-size:20px;font-weight:600}
 .review-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px;margin-bottom:10px}
