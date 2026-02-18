@@ -85,7 +85,7 @@
     "hint": "Je hebt lessen gemist en moet de achterstand wegwerken. Welk prefix past bij bijhalen?"
   },
   {
-    "sentence": "Ze kon haar diploma niet ______.",
+    "sentence": "Ze is gezakt voor het examen en heeft haar diploma dus niet ______.",
     "options": [
       "ophalen",
       "afhalen",
@@ -95,7 +95,7 @@
     "correct": 3,
     "explanation": "'Halen' = slagen voor een examen.",
     "wrongExplanations": {
-      "0": "Ophalen = iemand of iets ergens gaan halen. Ze is niet geslaagd — ze slaagt niet voor een examen door iemand op te halen.",
+      "0": "Ophalen = fysiek ergens gaan halen. Omdat ze gezakt is, heeft ze het diploma niet verdiend (halen).",
       "1": "Afhalen = eten meenemen. Een diploma is geen maaltijd.",
       "2": "Inhalen = voorbijgaan of achterstand. Ze is gezakt — ze heeft niets in te halen."
     },
