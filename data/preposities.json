@@ -1,601 +1,556 @@
 [
   {
-    "id": 1,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ik wacht al een uur ___ de bus.",
     "answer": "op",
-    "acceptedAnswers": ["op"],
+    "acceptedAnswers": [
+      "op"
+    ],
     "explanation": "'Wachten op' = wachten totdat iets of iemand komt. Altijd met 'op'.",
     "hint": "Je staat bij de halte en de bus is er nog niet. Welk voorzetsel hoort bij 'wachten'?"
   },
   {
-    "id": 2,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ze denkt vaak ___ haar familie in het buitenland.",
     "answer": "aan",
-    "acceptedAnswers": ["aan"],
+    "acceptedAnswers": [
+      "aan"
+    ],
     "explanation": "'Denken aan' = in je gedachten hebben. Altijd met 'aan'.",
     "hint": "Haar familie is ver weg, maar ze heeft hen in haar gedachten. Welk voorzetsel hoort bij 'denken'?"
   },
   {
-    "id": 3,
-    "level": "B1",
-    "register": "office",
     "sentence": "Kun je ___ mij zorgen terwijl ik op vakantie ben?",
     "answer": "voor",
-    "acceptedAnswers": ["voor"],
+    "acceptedAnswers": [
+      "voor"
+    ],
     "explanation": "'Zorgen voor' = de verantwoordelijkheid nemen voor iemand of iets.",
     "hint": "Iemand moet de verantwoordelijkheid nemen. Welk voorzetsel hoort bij 'zorgen' als je iemand helpt?"
   },
   {
-    "id": 4,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ik ben het helemaal ___ je eens over dit plan.",
     "answer": "met",
-    "acceptedAnswers": ["met"],
+    "acceptedAnswers": [
+      "met"
+    ],
     "explanation": "'Het eens zijn met' = dezelfde mening hebben als iemand anders.",
     "hint": "Jullie hebben dezelfde mening. Welk voorzetsel hoort bij 'eens zijn'?"
   },
   {
-    "id": 5,
-    "level": "B1",
-    "register": "office",
     "sentence": "We hebben het ___ het nieuwe project gehad in de vergadering.",
     "answer": "over",
-    "acceptedAnswers": ["over"],
+    "acceptedAnswers": [
+      "over"
+    ],
     "explanation": "'Het hebben over' = praten over een onderwerp.",
     "hint": "Het gesprek ging over een bepaald onderwerp. Welk voorzetsel hoort bij 'het hebben' als je ergens over praat?"
   },
   {
-    "id": 6,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ik kijk erg uit ___ de vakantie.",
     "answer": "naar",
-    "acceptedAnswers": ["naar"],
+    "acceptedAnswers": [
+      "naar"
+    ],
     "explanation": "'Uitkijken naar' = ergens naar verlangen, je erop verheugen.",
     "hint": "Je bent enthousiast over iets dat nog gaat komen. Welk voorzetsel hoort bij 'uitkijken'?"
   },
   {
-    "id": 7,
-    "level": "B1",
-    "register": "office",
     "sentence": "Hij is geïnteresseerd ___ de nieuwe ontwikkelingen in zijn vakgebied.",
     "answer": "in",
-    "acceptedAnswers": ["in"],
+    "acceptedAnswers": [
+      "in"
+    ],
     "explanation": "'Geïnteresseerd zijn in' = interesse hebben voor een onderwerp.",
     "hint": "Hij vindt het onderwerp interessant. Welk voorzetsel hoort bij 'geïnteresseerd'?"
   },
   {
-    "id": 8,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ze heeft me ___ hulp gevraagd met het verhuizen.",
     "answer": "om",
-    "acceptedAnswers": ["om"],
+    "acceptedAnswers": [
+      "om"
+    ],
     "explanation": "'Vragen om' = verzoeken, een verzoek doen voor iets.",
     "hint": "Ze had iets nodig en deed een verzoek. Welk voorzetsel hoort bij 'vragen' als je iets nodig hebt?"
   },
   {
-    "id": 9,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ik houd ___ koffie drinken met collega's 's ochtends.",
     "answer": "van",
-    "acceptedAnswers": ["van"],
+    "acceptedAnswers": [
+      "van"
+    ],
     "explanation": "'Houden van' = leuk vinden, van iets genieten. Altijd met 'van'.",
     "hint": "Je vindt het leuk. Welk voorzetsel hoort bij 'houden' als je iets leuk vindt?"
   },
   {
-    "id": 10,
-    "level": "B1",
-    "register": "office",
     "sentence": "We moeten ons voorbereiden ___ de presentatie van volgende week.",
     "answer": "op",
-    "acceptedAnswers": ["op"],
+    "acceptedAnswers": [
+      "op"
+    ],
     "explanation": "'Zich voorbereiden op' = klaar maken voor iets dat gaat komen.",
     "hint": "De presentatie is volgende week en je moet je klaarmaken. Welk voorzetsel hoort bij 'voorbereiden'?"
   },
   {
-    "id": 11,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ik moet nog wennen ___ het Nederlandse weer.",
     "answer": "aan",
-    "acceptedAnswers": ["aan"],
+    "acceptedAnswers": [
+      "aan"
+    ],
     "explanation": "'Wennen aan' = ergens aan gewend raken, je aanpassen.",
     "hint": "Het weer is anders dan je gewend bent. Welk voorzetsel hoort bij 'wennen'?"
   },
   {
-    "id": 12,
-    "level": "B1",
-    "register": "office",
     "sentence": "De manager klaagt altijd ___ de trage resultaten.",
     "answer": "over",
-    "acceptedAnswers": ["over"],
+    "acceptedAnswers": [
+      "over"
+    ],
     "explanation": "'Klagen over' = ontevreden zijn en dat uiten. Altijd met 'over'.",
     "hint": "Hij is niet tevreden en zegt dat steeds. Welk voorzetsel hoort bij 'klagen'?"
   },
   {
-    "id": 13,
-    "level": "B1",
-    "register": "office",
     "sentence": "We zijn ___ de conclusie gekomen dat het plan niet werkt.",
     "answer": "tot",
-    "acceptedAnswers": ["tot"],
+    "acceptedAnswers": [
+      "tot"
+    ],
     "explanation": "'Tot een conclusie komen' = uiteindelijk iets vaststellen na overleg.",
     "hint": "Na lang nadenken hebben jullie iets vastgesteld. Welk voorzetsel hoort bij 'een conclusie komen'?"
   },
   {
-    "id": 14,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ze feliciteert hem ___ zijn nieuwe baan bij het bedrijf.",
     "answer": "met",
-    "acceptedAnswers": ["met"],
+    "acceptedAnswers": [
+      "met"
+    ],
     "explanation": "'Feliciteren met' = iemand gelukwensen. Altijd met 'met'.",
     "hint": "Hij heeft goed nieuws en ze wenst hem geluk. Welk voorzetsel hoort bij 'feliciteren'?"
   },
   {
-    "id": 15,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ik zoek ___ mijn sleutels. Heb jij ze gezien?",
     "answer": "naar",
-    "acceptedAnswers": ["naar"],
+    "acceptedAnswers": [
+      "naar"
+    ],
     "explanation": "'Zoeken naar' = proberen iets te vinden.",
     "hint": "De sleutels zijn kwijt en je probeert ze te vinden. Welk voorzetsel hoort bij 'zoeken'?"
   },
   {
-    "id": 16,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Hij lijkt erg ___ zijn vader — zelfde manier van praten.",
     "answer": "op",
-    "acceptedAnswers": ["op"],
+    "acceptedAnswers": [
+      "op"
+    ],
     "explanation": "'Lijken op' = gelijkenis vertonen met iemand.",
     "hint": "Vader en zoon zien er hetzelfde uit. Welk voorzetsel hoort bij 'lijken'?"
   },
   {
-    "id": 17,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ik twijfel ___ of ik de goede keuze heb gemaakt.",
     "answer": "aan",
-    "acceptedAnswers": ["aan"],
+    "acceptedAnswers": [
+      "aan"
+    ],
     "explanation": "'Twijfelen aan' = niet zeker zijn van iets.",
     "hint": "Je bent niet zeker van jezelf. Welk voorzetsel hoort bij 'twijfelen'?"
   },
   {
-    "id": 18,
-    "level": "B1",
-    "register": "office",
     "sentence": "Dit rapport bestaat ___ drie delen en een bijlage.",
     "answer": "uit",
-    "acceptedAnswers": ["uit"],
+    "acceptedAnswers": [
+      "uit"
+    ],
     "explanation": "'Bestaan uit' = samengesteld zijn uit delen.",
     "hint": "Het rapport is opgebouwd uit meerdere onderdelen. Welk voorzetsel hoort bij 'bestaan' als het over onderdelen gaat?"
   },
   {
-    "id": 19,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ze zijn trots ___ hun team na het goede resultaat.",
     "answer": "op",
-    "acceptedAnswers": ["op"],
+    "acceptedAnswers": [
+      "op"
+    ],
     "explanation": "'Trots zijn op' = een gevoel van trots hebben over iemand of iets.",
     "hint": "Het team heeft iets goeds gedaan. Welk voorzetsel hoort bij 'trots'?"
   },
   {
-    "id": 20,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ik heb me aangemeld ___ de cursus Nederlands.",
     "answer": "voor",
-    "acceptedAnswers": ["voor"],
+    "acceptedAnswers": [
+      "voor"
+    ],
     "explanation": "'Zich aanmelden voor' = je inschrijven voor iets.",
     "hint": "Je gaat je inschrijven voor iets. Welk voorzetsel hoort bij 'aanmelden'?"
   },
   {
-    "id": 21,
-    "level": "B1",
-    "register": "office",
     "sentence": "Kun je rekening houden ___ mijn agenda volgende week?",
     "answer": "met",
-    "acceptedAnswers": ["met"],
+    "acceptedAnswers": [
+      "met"
+    ],
     "explanation": "'Rekening houden met' = ergens aan denken, iets meenemen in je overwegingen.",
     "hint": "Je vraagt of iemand aan iets wil denken bij het plannen. Welk voorzetsel hoort bij 'rekening houden'?"
   },
   {
-    "id": 22,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ze reageerde rustig ___ de kritiek van haar collega.",
     "answer": "op",
-    "acceptedAnswers": ["op"],
+    "acceptedAnswers": [
+      "op"
+    ],
     "explanation": "'Reageren op' = antwoorden op iets, een reactie geven.",
     "hint": "Er was kritiek en ze gaf een reactie. Welk voorzetsel hoort bij 'reageren'?"
   },
   {
-    "id": 23,
-    "level": "B1",
-    "register": "office",
     "sentence": "Hij bedankt zijn collega ___ de hulp met het rapport.",
     "answer": "voor",
-    "acceptedAnswers": ["voor"],
+    "acceptedAnswers": [
+      "voor"
+    ],
     "explanation": "'Bedanken voor' = dankbaarheid uiten voor iets. Altijd met 'voor'.",
     "hint": "Zijn collega heeft hem geholpen en hij zegt dank je wel. Welk voorzetsel hoort bij 'bedanken'?"
   },
   {
-    "id": 24,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ik vergelijk de aanpak van dit team ___ die van het andere team.",
     "answer": "met",
-    "acceptedAnswers": ["met"],
+    "acceptedAnswers": [
+      "met"
+    ],
     "explanation": "'Vergelijken met' = twee dingen naast elkaar zetten om verschillen of overeenkomsten te zien.",
     "hint": "Je bekijkt twee dingen naast elkaar. Welk voorzetsel hoort bij 'vergelijken'?"
   },
   {
-    "id": 25,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ze maakt zich zorgen ___ de toekomst van het bedrijf.",
     "answer": "over",
-    "acceptedAnswers": ["over", "om"],
+    "acceptedAnswers": [
+      "over",
+      "om"
+    ],
     "explanation": "'Zich zorgen maken over' of 'zich zorgen maken om' = bezorgd zijn. Beide zijn correct.",
     "hint": "De toekomst maakt haar ongerust. Welk voorzetsel hoort bij 'zich zorgen maken'?"
   },
   {
-    "id": 26,
-    "level": "B1",
-    "register": "office",
     "sentence": "Hij heeft gesolliciteerd ___ de functie van projectmanager.",
     "answer": "naar",
-    "acceptedAnswers": ["naar"],
+    "acceptedAnswers": [
+      "naar"
+    ],
     "explanation": "'Solliciteren naar' = een sollicitatie indienen voor een baan.",
     "hint": "Hij wil die baan graag hebben. Welk voorzetsel hoort bij 'solliciteren'?"
   },
   {
-    "id": 27,
-    "level": "B1",
-    "register": "office",
     "sentence": "Mijn collega's helpen me altijd ___ moeilijke taken.",
     "answer": "bij",
-    "acceptedAnswers": ["bij", "met"],
+    "acceptedAnswers": [
+      "bij",
+      "met"
+    ],
     "explanation": "'Helpen bij' of 'helpen met' = assisteren. Beide zijn correct: 'bij' benadrukt het meedoen, 'met' benadrukt het onderwerp.",
     "hint": "Ze assisteren je. Welk voorzetsel hoort bij 'helpen'? Er zijn twee mogelijkheden."
   },
   {
-    "id": 28,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ze heeft lang nagedacht ___ het voorstel van haar manager.",
     "answer": "over",
-    "acceptedAnswers": ["over"],
+    "acceptedAnswers": [
+      "over"
+    ],
     "explanation": "'Nadenken over' = goed over iets denken, overwegen.",
     "hint": "Ze heeft het voorstel goed overwogen. Welk voorzetsel hoort bij 'nadenken'?"
   },
   {
-    "id": 29,
-    "level": "B1",
-    "register": "office",
     "sentence": "We zijn ___ de oplossing gekomen na een lange vergadering.",
     "answer": "tot",
-    "acceptedAnswers": ["tot", "op"],
+    "acceptedAnswers": [
+      "tot",
+      "op"
+    ],
     "explanation": "'Tot een oplossing komen' of 'op een oplossing komen'. 'Tot' is formeler en gebruikelijker in professionele context.",
     "hint": "Na lang overleg hebben jullie een antwoord gevonden. Welk voorzetsel hoort bij 'een oplossing komen'?"
   },
   {
-    "id": 30,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ik verheug me ___ het feest van volgende week.",
     "answer": "op",
-    "acceptedAnswers": ["op"],
+    "acceptedAnswers": [
+      "op"
+    ],
     "explanation": "'Zich verheugen op' = ergens naar uitkijken, er blij mee zijn.",
     "hint": "Je kijkt uit naar iets leuks. Welk voorzetsel hoort bij 'verheugen'?"
   },
   {
-    "id": 31,
-    "level": "B1",
-    "register": "office",
     "sentence": "De stad staat bekend ___ zijn grachten en fietscultur.",
     "answer": "om",
-    "acceptedAnswers": ["om"],
+    "acceptedAnswers": [
+      "om"
+    ],
     "explanation": "'Bekendstaan om' = ergens beroemd om zijn.",
     "hint": "De stad is beroemd vanwege iets. Welk voorzetsel hoort bij 'bekendstaan'?"
   },
   {
-    "id": 32,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Ze luistert graag ___ muziek als ze werkt.",
     "answer": "naar",
-    "acceptedAnswers": ["naar"],
+    "acceptedAnswers": [
+      "naar"
+    ],
     "explanation": "'Luisteren naar' = aandachtig horen. Altijd met 'naar'.",
     "hint": "Ze zet muziek op en geniet ervan. Welk voorzetsel hoort bij 'luisteren'?"
   },
   {
-    "id": 33,
-    "level": "B1",
-    "register": "office",
     "sentence": "We zijn gewend ___ vroeg beginnen op maandag.",
     "answer": "aan",
-    "acceptedAnswers": ["aan"],
+    "acceptedAnswers": [
+      "aan"
+    ],
     "explanation": "'Gewend zijn aan' = het is normaal geworden voor je.",
     "hint": "Vroeg beginnen is voor jullie normaal geworden. Welk voorzetsel hoort bij 'gewend'?"
   },
   {
-    "id": 34,
-    "level": "B1",
-    "register": "office",
     "sentence": "Het bedrijf is erg tevreden ___ de resultaten van dit kwartaal.",
     "answer": "over",
-    "acceptedAnswers": ["over", "met"],
+    "acceptedAnswers": [
+      "over",
+      "met"
+    ],
     "explanation": "'Tevreden zijn over' of 'tevreden zijn met' = blij zijn met het resultaat. Beide zijn correct.",
     "hint": "Ze zijn blij met wat er bereikt is. Welk voorzetsel hoort bij 'tevreden'?"
   },
   {
-    "id": 35,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ze heeft zich verontschuldigd ___ haar gedrag tijdens de vergadering.",
     "answer": "voor",
-    "acceptedAnswers": ["voor"],
+    "acceptedAnswers": [
+      "voor"
+    ],
     "explanation": "'Zich verontschuldigen voor' = sorry zeggen voor iets.",
     "hint": "Ze heeft sorry gezegd. Welk voorzetsel hoort bij 'verontschuldigen'?"
   },
   {
-    "id": 36,
-    "level": "B1",
-    "register": "office",
     "sentence": "De collega's protesteren ___ de nieuwe werkregels.",
     "answer": "tegen",
-    "acceptedAnswers": ["tegen"],
+    "acceptedAnswers": [
+      "tegen"
+    ],
     "explanation": "'Protesteren tegen' = je verzetten tegen iets. Altijd met 'tegen'.",
     "hint": "Ze zijn het niet eens met de regels en laten dat merken. Welk voorzetsel hoort bij 'protesteren'?"
   },
   {
-    "id": 37,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ik moet me concentreren ___ mijn werk — er zijn te veel afleidingen.",
     "answer": "op",
-    "acceptedAnswers": ["op"],
+    "acceptedAnswers": [
+      "op"
+    ],
     "explanation": "'Zich concentreren op' = al je aandacht richten op iets.",
     "hint": "Je richt al je aandacht op één ding. Welk voorzetsel hoort bij 'concentreren'?"
   },
   {
-    "id": 38,
-    "level": "B1",
-    "register": "office",
     "sentence": "Hij stemt ___ met het besluit van de directeur.",
     "answer": "in",
-    "acceptedAnswers": ["in"],
+    "acceptedAnswers": [
+      "in"
+    ],
     "explanation": "'Instemmen met' = het eens zijn met een besluit, akkoord gaan. Let op: 'instemmen' is scheidbaar — 'hij stemt in met'.",
     "hint": "Hij gaat akkoord. Welk voorzetsel hoort bij 'instemmen'? Let op: dit is een scheidbaar werkwoord."
   },
   {
-    "id": 39,
-    "level": "B1",
-    "register": "office",
     "sentence": "Het hangt ___ het budget af of we nieuwe mensen kunnen aannemen.",
     "answer": "van",
-    "acceptedAnswers": ["van"],
+    "acceptedAnswers": [
+      "van"
+    ],
     "explanation": "'Afhangen van' = bepaald worden door iets. Altijd met 'van'.",
     "hint": "Het budget bepaalt de beslissing. Welk voorzetsel hoort bij 'afhangen'?"
   },
   {
-    "id": 40,
-    "level": "B1",
-    "register": "office",
     "sentence": "We hebben besloten ___ een ander systeem te kiezen.",
     "answer": "om",
-    "acceptedAnswers": ["om"],
+    "acceptedAnswers": [
+      "om"
+    ],
     "explanation": "'Besluiten om te + infinitief' = de beslissing nemen om iets te doen.",
     "hint": "Er is een beslissing genomen. Welk voorzetsel hoort bij 'besluiten' + te + infinitief?"
   },
   {
-    "id": 41,
-    "level": "B1",
-    "register": "office",
     "sentence": "Kun je ___ mij beginnen met de rondvraag?",
     "answer": "met",
-    "acceptedAnswers": ["met"],
+    "acceptedAnswers": [
+      "met"
+    ],
     "explanation": "'Beginnen met' = starten met een activiteit of persoon.",
     "hint": "De rondvraag moet starten. Welk voorzetsel hoort bij 'beginnen'?"
   },
   {
-    "id": 42,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ze is begonnen ___ een nieuwe opleiding naast haar werk.",
     "answer": "met",
-    "acceptedAnswers": ["met", "aan"],
+    "acceptedAnswers": [
+      "met",
+      "aan"
+    ],
     "explanation": "'Beginnen met' of 'beginnen aan' = starten. Beide zijn correct: 'met' benadrukt de activiteit, 'aan' benadrukt het project of traject.",
     "hint": "Ze is gestart. Welk voorzetsel hoort bij 'beginnen'? Er zijn twee mogelijkheden."
   },
   {
-    "id": 43,
-    "level": "B1",
-    "register": "office",
     "sentence": "De dokter waarschuwt ___ te veel stress op het werk.",
     "answer": "voor",
-    "acceptedAnswers": ["voor"],
+    "acceptedAnswers": [
+      "voor"
+    ],
     "explanation": "'Waarschuwen voor' = iemand op een gevaar of risico wijzen.",
     "hint": "De dokter wijst je op een risico. Welk voorzetsel hoort bij 'waarschuwen'?"
   },
   {
-    "id": 44,
-    "level": "B1",
-    "register": "spoken",
     "sentence": "Hij droomt ___ een baan waarbij hij meer kan reizen.",
     "answer": "van",
-    "acceptedAnswers": ["van", "over"],
+    "acceptedAnswers": [
+      "van",
+      "over"
+    ],
     "explanation": "'Dromen van' of 'dromen over' = in je fantasie zien. Beide zijn correct: 'van' is gebruikelijker in gesproken Nederlands.",
     "hint": "Hij fantaseert over iets moois. Welk voorzetsel hoort bij 'dromen'?"
   },
   {
-    "id": 45,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ik heb me aangemeld ___ de cursus en ik kijk er al ___ uit.",
     "answer": "voor / naar",
-    "acceptedAnswers": ["voor / naar", "voor/naar"],
+    "acceptedAnswers": [
+      "voor / naar",
+      "voor/naar"
+    ],
     "explanation": "'Aanmelden voor' = inschrijven. 'Uitkijken naar' = verlangen naar iets dat komt. Twee vaste combinaties in één zin.",
     "hint": "De eerste gaat over inschrijven, de tweede over iets verwachten. Welke twee voorzetsels horen hier?"
   },
   {
-    "id": 46,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ik heb er gisteren nog ___ gedacht — we moeten dat aanpak veranderen.",
     "answer": "aan",
-    "acceptedAnswers": ["aan"],
+    "acceptedAnswers": [
+      "aan"
+    ],
     "explanation": "'Eraan denken' = aan iets denken waarbij het onderwerp al bekend is. 'Er + aan' vervangt 'aan + het onderwerp'. Dit is de er+prep constructie.",
     "hint": "Je dacht aan iets dat al bekend is in het gesprek. 'Er' + welk voorzetsel hoort bij 'denken'?"
   },
   {
-    "id": 47,
-    "level": "B1",
-    "register": "office",
     "sentence": "Het nieuwe plan? We hebben ___ gesproken in de vergadering van dinsdag.",
     "answer": "erover",
-    "acceptedAnswers": ["erover", "er over"],
+    "acceptedAnswers": [
+      "erover",
+      "er over"
+    ],
     "explanation": "'Erover spreken' = over dat onderwerp spreken. 'Er + over' vervangt 'over + het onderwerp' wanneer het onderwerp al bekend is.",
     "hint": "Je verwijst naar het nieuwe plan dat al bekend is. Gebruik 'er' + het voorzetsel dat bij 'spreken' hoort als je over iets praat."
   },
   {
-    "id": 48,
-    "level": "B1",
-    "register": "office",
     "sentence": "Die vergadering was nuttig — ik kijk ___ terug als een goede sessie.",
     "answer": "erop",
-    "acceptedAnswers": ["erop", "er op"],
+    "acceptedAnswers": [
+      "erop",
+      "er op"
+    ],
     "explanation": "'Erop terugkijken' = terugkijken op iets dat al bekend is. 'Er + op' vervangt 'op + het onderwerp'.",
     "hint": "Je kijkt terug op de vergadering. Gebruik 'er' + het voorzetsel dat bij 'terugkijken' hoort."
   },
   {
-    "id": 49,
-    "level": "B2",
-    "register": "office",
     "sentence": "Het nieuwe systeem? Ik ben ___ gewend — het werkt prima.",
     "answer": "eraan",
-    "acceptedAnswers": ["eraan", "er aan"],
+    "acceptedAnswers": [
+      "eraan",
+      "er aan"
+    ],
     "explanation": "'Eraan gewend zijn' = aan dat ding gewend zijn. 'Er + aan' vervangt 'aan + het onderwerp' als het onderwerp al bekend is.",
     "hint": "Je bent gewend aan het systeem dat al besproken is. Gebruik 'er' + het voorzetsel dat bij 'gewend zijn' hoort."
   },
   {
-    "id": 50,
-    "level": "B2",
-    "register": "spoken",
     "sentence": "Dat voorstel van Wouter? Ik heb ___ nagedacht en ik vind het goed.",
     "answer": "erover",
-    "acceptedAnswers": ["erover", "er over"],
+    "acceptedAnswers": [
+      "erover",
+      "er over"
+    ],
     "explanation": "'Erover nadenken' = nadenken over dat onderwerp. 'Er + over' vervangt 'over + het onderwerp'.",
     "hint": "Je hebt nagedacht over het voorstel dat al bekend is. Welke er+prep combinatie hoort bij 'nadenken'?"
   },
   {
-    "id": 51,
-    "level": "B2",
-    "register": "office",
     "sentence": "De deadline is volgende week. Ik maak me ___ zorgen want we zijn nog niet klaar.",
     "answer": "erover",
-    "acceptedAnswers": ["erover", "er over"],
+    "acceptedAnswers": [
+      "erover",
+      "er over"
+    ],
     "explanation": "'Zich erover zorgen maken' = bezorgd zijn over iets dat al bekend is in het gesprek.",
     "hint": "Je maakt je zorgen over de deadline die al besproken is. Welke er+prep combinatie past hier?"
   },
   {
-    "id": 52,
-    "level": "B1",
-    "register": "office",
     "sentence": "We moeten goed ___ omgaan met de feedback van klanten.",
     "answer": "mee",
-    "acceptedAnswers": ["mee"],
+    "acceptedAnswers": [
+      "mee"
+    ],
     "explanation": "'Omgaan met' = iets op een bepaalde manier behandelen of aanpakken. Bij 'er' wordt het 'ermee omgaan'.",
     "hint": "Je moet de feedback aanpakken. Welk voorzetsel hoort bij 'omgaan' als je iets behandelt?"
   },
   {
-    "id": 53,
-    "level": "B1",
-    "register": "office",
     "sentence": "Hij past zich goed ___ de nieuwe situatie aan.",
     "answer": "aan",
-    "acceptedAnswers": ["aan"],
+    "acceptedAnswers": [
+      "aan"
+    ],
     "explanation": "'Zich aanpassen aan' = je gedrag of aanpak veranderen zodat het past bij een nieuwe situatie.",
     "hint": "De situatie is nieuw maar hij past zijn gedrag aan. Welk voorzetsel hoort bij 'aanpassen'?"
   },
   {
-    "id": 54,
-    "level": "B1",
-    "register": "office",
     "sentence": "De manager wees ___ het probleem met de planning.",
     "answer": "op",
-    "acceptedAnswers": ["op"],
+    "acceptedAnswers": [
+      "op"
+    ],
     "explanation": "'Wijzen op' = de aandacht vestigen op iets, iets laten zien of noemen.",
     "hint": "De manager liet iedereen zien dat er een probleem was. Welk voorzetsel hoort bij 'wijzen' als je de aandacht ergens op vestigt?"
   },
   {
-    "id": 55,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ik ga ___ het voorstel van Femke in — dat is een goed idee.",
     "answer": "in op",
-    "acceptedAnswers": ["in op", "in"],
+    "acceptedAnswers": [
+      "in op",
+      "in"
+    ],
     "explanation": "'Ingaan op' = reageren op iets, er dieper op ingaan. Dit is een scheidbaar werkwoord: 'ik ga in op het voorstel'.",
     "hint": "Je reageert inhoudelijk op een voorstel. Welke combinatie hoort bij 'ingaan'? Het is een scheidbaar werkwoord."
   },
   {
-    "id": 56,
-    "level": "B1",
-    "register": "office",
     "sentence": "Ze is verantwoordelijk ___ de communicatie met stakeholders.",
     "answer": "voor",
-    "acceptedAnswers": ["voor"],
+    "acceptedAnswers": [
+      "voor"
+    ],
     "explanation": "'Verantwoordelijk zijn voor' = de taak of plicht hebben om iets te doen of te regelen.",
     "hint": "Het is haar taak. Welk voorzetsel hoort bij 'verantwoordelijk'?"
   },
   {
-    "id": 57,
-    "level": "B1",
-    "register": "office",
     "sentence": "Het team is afhankelijk ___ de beslissing van de directie.",
     "answer": "van",
-    "acceptedAnswers": ["van"],
+    "acceptedAnswers": [
+      "van"
+    ],
     "explanation": "'Afhankelijk zijn van' = iets of iemand nodig hebben om verder te kunnen.",
     "hint": "De directie moet eerst beslissen voor het team verder kan. Welk voorzetsel hoort bij 'afhankelijk'?"
   },
   {
-    "id": 58,
-    "level": "B1",
-    "register": "office",
     "sentence": "De kinderen zijn bang ___ grote honden.",
     "answer": "voor",
-    "acceptedAnswers": ["voor"],
+    "acceptedAnswers": [
+      "voor"
+    ],
     "explanation": "'Bang zijn voor' = angst hebben voor iets. Altijd met 'voor'.",
     "hint": "Ze voelen angst voor iets. Welk voorzetsel hoort bij 'bang zijn'?"
   },
   {
-    "id": 59,
-    "level": "B2",
-    "register": "office",
     "sentence": "De nieuwe aanpak? Ik ben ___ overtuigd dat het gaat werken.",
     "answer": "ervan",
-    "acceptedAnswers": ["ervan", "er van"],
+    "acceptedAnswers": [
+      "ervan",
+      "er van"
+    ],
     "explanation": "'Ervan overtuigd zijn' = overtuigd zijn van iets dat al bekend is. 'Er + van' vervangt 'van + het onderwerp'.",
     "hint": "Je bent overtuigd van de aanpak die al besproken is. Welke er+prep combinatie hoort bij 'overtuigd zijn van'?"
   },
   {
-    "id": 60,
-    "level": "B2",
-    "register": "office",
     "sentence": "Het nieuwe kantoor? Ik heb ___ gehoord dat het in Utrecht is.",
     "answer": "ervan",
-    "acceptedAnswers": ["ervan", "er van"],
+    "acceptedAnswers": [
+      "ervan",
+      "er van"
+    ],
     "explanation": "'Ervan horen' = over iets horen dat al bekend is in het gesprek. 'Er + van' vervangt 'van + het onderwerp'.",
     "hint": "Je hebt iets gehoord over het kantoor dat al besproken is. Welke er+prep combinatie past hier?"
   }
