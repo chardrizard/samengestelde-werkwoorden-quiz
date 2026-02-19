@@ -8,81 +8,30 @@
       "bijgekomen"
     ],
     "correct": 0,
-    "explanation": "'Aankomen' = ergens arriveren.",
+    "explanation": "'Aankomen' = ergens arriveren. Standaard woord voor het bereiken van een bestemming.",
     "wrongExplanations": {
-      "1": "Opkomen = naar boven komen (zon, idee). Hier gaat het over thuiskomen na een reis.",
-      "2": "Voorkomen = plaatsvinden of lijken. Een reis vindt niet 'plaats' — je arriveert.",
-      "3": "Bijkomen = herstellen na ziekte of schrik. Thuis aankomen is arriveren, niet herstellen."
+      "1": "'Opkomen' = omhoog verschijnen (zon, idee). Hier gaat het over thuiskomen na een reis.",
+      "2": "'Voorkomen' = plaatsvinden of lijken. Je arriveert thuis — het vindt niet 'plaats'.",
+      "3": "'Bijkomen' = herstellen na ziekte of schrik. Thuis aankomen is arriveren, niet herstellen."
     },
-    "hint": "De trein was onderweg en is nu op zijn bestemming. Welk prefix past bij een beweging die een punt bereikt?"
+    "hint": "Je was onderweg en bent nu thuis. Welk prefix past bij het bereiken van een bestemming?"
   },
   {
-    "sentence": "De zon is vandaag vroeg ______.",
+    "sentence": "De trein uit Amsterdam is net ______.",
     "options": [
+      "terechtgekomen",
       "aangekomen",
-      "opgekomen",
-      "afgekomen",
-      "meegekomen"
+      "meegekomen",
+      "opgekomen"
     ],
     "correct": 1,
-    "explanation": "'Opkomen' = verschijnen (zon, maan).",
+    "explanation": "'Aankomen' = arriveren. Standaard voor treinen, vluchten, pakketten.",
     "wrongExplanations": {
-      "0": "Aankomen = arriveren op een bestemming. De zon reist niet naar een punt toe.",
-      "2": "Afkomen = van boven naar beneden. De zon gaat juist omhóóg aan de horizon.",
-      "3": "Meekomen = samen met iemand gaan. De zon beweegt niet met iemand mee."
+      "0": "'Terechtkomen' = ergens belanden. Een trein belandt niet — hij arriveert volgens schema.",
+      "2": "'Meekomen' = samen met iemand gaan. De trein rijdt zelf.",
+      "3": "'Opkomen' = omhoog komen. Treinen rijden horizontaal."
     },
-    "hint": "Denk aan de bewegingsrichting: omhoog of omlaag? Welk prefix past daarbij?"
-  },
-  {
-    "sentence": "Dat woord komt me heel bekend ______.",
-    "options": [
-      "over",
-      "bij",
-      "voor",
-      "aan"
-    ],
-    "correct": 2,
-    "explanation": "'Voorkomen' = de indruk geven, lijken.",
-    "wrongExplanations": {
-      "0": "Overkomen = een indruk maken op anderen. Hier gaat het om jouw eigen herkenning, niet de indruk op anderen.",
-      "1": "Bijkomen = herstellen. Je herstelt niet van een bekend woord.",
-      "3": "Aankomen = arriveren of gewicht aankomen. Past niet bij herkenning."
-    },
-    "hint": "Je herkent iets — welk prefix past bij 'voor je gevoel'?"
-  },
-  {
-    "sentence": "Na de operatie moest hij langzaam ______.",
-    "options": [
-      "uitkomen",
-      "aankomen",
-      "opkomen",
-      "bijkomen"
-    ],
-    "correct": 3,
-    "explanation": "'Bijkomen' = herstellen na een operatie.",
-    "wrongExplanations": {
-      "1": "Aankomen = arriveren of zwaarder worden. Na een operatie herstel je — je komt niet ergens aan.",
-      "2": "Opkomen = verschijnen of opstaan voor iets. Past niet bij herstel na narcose.",
-      "0": "Uitkomen = openbaar worden of kloppen. Past niet bij lichamelijk herstel."
-    },
-    "hint": "Na narcose moet je weer tot jezelf komen. Welk prefix past bij 'er weer bij komen'?"
-  },
-  {
-    "sentence": "De waarheid is eindelijk ______.",
-    "options": [
-      "uitgekomen",
-      "meegekomen",
-      "afgekomen",
-      "terechtgekomen"
-    ],
-    "correct": 0,
-    "explanation": "'Uitkomen' = openbaar worden.",
-    "wrongExplanations": {
-      "2": "Afkomen = naar beneden komen. Een waarheid daalt niet.",
-      "1": "Meekomen = samen met iemand gaan. De waarheid reist niet mee.",
-      "3": "Terechtkomen = ergens belanden. De waarheid belandt nergens — ze wordt onthuld."
-    },
-    "hint": "De waarheid was lang verborgen. Welk prefix past bij iets dat naar buiten komt?"
+    "hint": "De trein was onderweg en is nu op zijn bestemming. Welk prefix past bij het bereiken van een punt?"
   },
   {
     "sentence": "Ik ben de afgelopen maand twee kilo ______.",
@@ -93,13 +42,132 @@
       "omgekomen"
     ],
     "correct": 1,
-    "explanation": "'Aankomen' = in gewicht toenemen.",
+    "explanation": "'Aankomen' = in gewicht toenemen. Niets met reizen — het gaat om lichaamsgewicht.",
     "wrongExplanations": {
-      "0": "Doorkomen = een moeilijke tijd overleven of ergens doorheen komen.",
-      "2": "Opkomen = verschijnen of opstaan voor iets. Kilo's verschijnen niet.",
-      "3": "Omkomen = sterven bij een ongeluk. Zeker niet van twee kilo."
+      "0": "'Doorkomen' = een moeilijke tijd overleven. Je hebt een moeilijke maand gehad met een weegschaal.",
+      "2": "'Opkomen' = verschijnen of opstaan voor iets. Kilo's verschijnen niet.",
+      "3": "'Omkomen' = sterven. Zeker niet van twee kilo erbij."
     },
     "hint": "Dit heeft niets met reizen te maken. Welk werkwoord gebruik je als gewicht bij je lichaam 'aankomt'?"
+  },
+  {
+    "sentence": "De zon is vandaag vroeg ______.",
+    "options": [
+      "aangekomen",
+      "opgekomen",
+      "afgekomen",
+      "meegekomen"
+    ],
+    "correct": 1,
+    "explanation": "'Opkomen' = verschijnen aan de horizon. Altijd omhoogwaartse beweging.",
+    "wrongExplanations": {
+      "0": "'Aankomen' = arriveren op een bestemming. De zon reist niet naar een punt.",
+      "2": "'Afkomen' = naar beneden komen. De zon gaat juist omhóóg aan de horizon.",
+      "3": "'Meekomen' = samen met iemand gaan. De zon beweegt niet met iemand mee."
+    },
+    "hint": "Denk aan de bewegingsrichting: omhoog of omlaag? Welk prefix past bij omhoog?"
+  },
+  {
+    "sentence": "Er is een goed idee bij me ______.",
+    "options": [
+      "afgekomen",
+      "overkomen",
+      "opgekomen",
+      "bijgekomen"
+    ],
+    "correct": 2,
+    "explanation": "'Opkomen' = in je hoofd verschijnen (idee, gedachte). Beweging van beneden naar boven.",
+    "wrongExplanations": {
+      "0": "'Afkomen' = naar beneden. Een idee daalt niet.",
+      "1": "'Overkomen' = een indruk maken op anderen. Een idee maakt geen indruk — het verschijnt.",
+      "3": "'Bijkomen' = herstellen of erbij komen. Een idee herstelt niet."
+    },
+    "hint": "Een idee verschijnt ineens in je hoofd. Welk prefix past bij iets dat 'omhoog borrelt'?"
+  },
+  {
+    "sentence": "Hoe ben je op dat idee ______?",
+    "options": [
+      "aangekomen",
+      "gekomen",
+      "afgekomen",
+      "opgekomen"
+    ],
+    "correct": 1,
+    "explanation": "'Op een idee komen' = een idee krijgen. Basisvorm.",
+    "wrongExplanations": {
+      "0": "'Aankomen' = arriveren. Een idee is geen bestemming.",
+      "2": "'Afkomen' = naar beneden. Ideeën dalen niet.",
+      "3": "'Opkomen' zou ook kunnen maar 'op een idee opkomen' is niet de standaardformulering."
+    },
+    "hint": "Je vraagt hoe iemand dit idee heeft gekregen. Welk werkwoord past bij 'op een idee komen'?"
+  },
+  {
+    "sentence": "We moeten ______ tegen discriminatie.",
+    "options": [
+      "opkomen",
+      "aankomen",
+      "meekomen",
+      "uitkomen"
+    ],
+    "correct": 0,
+    "explanation": "'Opkomen tegen' = protesteren, je inzetten tegen iets onrechtvaardig.",
+    "wrongExplanations": {
+      "1": "'Aankomen' = arriveren. Je arriveert niet tégen discriminatie.",
+      "2": "'Meekomen' = samen gaan. Je gaat niet samen mét discriminatie.",
+      "3": "'Uitkomen' = openbaar worden. Je komt niet uit tégen discriminatie — je komt ervoor op."
+    },
+    "hint": "Je stelt je op tégen iets oneerlijks. Welk prefix past bij opstaan voor een zaak?"
+  },
+  {
+    "sentence": "Ze is voor haar rechten ______.",
+    "options": [
+      "aangekomen",
+      "binnengekomen",
+      "meegekomen",
+      "opgekomen"
+    ],
+    "correct": 3,
+    "explanation": "'Opkomen voor' = je inzetten voor, verdedigen.",
+    "wrongExplanations": {
+      "0": "'Aankomen' = arriveren. Je arriveert niet voor rechten.",
+      "1": "'Binnenkomen' = naar binnen gaan. Ze gaat nergens naar binnen — ze verdedigt iets.",
+      "2": "'Meekomen' = samen gaan. Ze gaat niet ergens naartoe — ze strijdt."
+    },
+    "hint": "Ze stelt zich op voor haar rechten. Welk prefix past bij opstaan voor een zaak?"
+  },
+  {
+    "sentence": "Na de operatie moest hij langzaam ______.",
+    "options": [
+      "uitkomen",
+      "aankomen",
+      "opkomen",
+      "bijkomen"
+    ],
+    "correct": 3,
+    "explanation": "'Bijkomen' = herstellen na een operatie, ziekte of schrik.",
+    "wrongExplanations": {
+      "0": "'Uitkomen' = openbaar worden of kloppen. Past niet bij lichamelijk herstel.",
+      "1": "'Aankomen' = arriveren of zwaarder worden. Na een operatie herstel je.",
+      "2": "'Opkomen' = verschijnen of opstaan. Past niet bij herstel na narcose."
+    },
+    "hint": "Na narcose moet je weer tot jezelf komen. Welk prefix past bij 'er weer bij komen'?"
+  },
+  {
+    "sentence": "Ze is helemaal ______ van de schrik.",
+    "options": [
+      "aangekomen",
+      "bijgekomen",
+      "opgekomen",
+      "terechtgekomen"
+    ],
+    "correct": 1,
+    "explanation": "'Bijkomen van' = herstellen van een schrik of emotie.",
+    "wrongExplanations": {
+      "0": "'Aankomen' = arriveren of zwaarder worden. Van een schrik arriveert of word je niet zwaarder.",
+      "2": "'Opkomen' = verschijnen of opstaan. Je staat niet op van een schrik.",
+      "3": "'Terechtkomen' = ergens belanden. Je belandt nergens door schrik."
+    },
+    "hint": "Ze was geschrokken en is nu weer zichzelf. Welk werkwoord gebruik je voor herstel na een emotie?"
   },
   {
     "sentence": "Er zijn nog extra kosten ______.",
@@ -110,11 +178,11 @@
       "meegekomen"
     ],
     "correct": 2,
-    "explanation": "'Bijkomen' = er extra bij komen.",
+    "explanation": "'Bijkomen' = er extra bij komen. Iets extra's dat wordt toegevoegd.",
     "wrongExplanations": {
-      "0": "Afkomen = naar beneden komen. Kosten dalen hier niet — ze worden toegevoegd.",
-      "1": "Terechtkomen = ergens belanden. Kosten belanden nergens — ze worden toegevoegd aan een totaal.",
-      "3": "Meekomen = samen met iemand bewegen. Kosten reizen nergens naartoe."
+      "0": "'Afkomen' = naar beneden komen. Kosten dalen hier niet — ze worden toegevoegd.",
+      "1": "'Terechtkomen' = ergens belanden. Kosten belanden nergens — ze worden toegevoegd.",
+      "3": "'Meekomen' = samen bewegen. Kosten reizen nergens naartoe."
     },
     "hint": "De kosten worden toegevoegd aan iets wat er al was. Welk prefix past bij 'erbij'?"
   },
@@ -129,11 +197,130 @@
     "correct": 3,
     "explanation": "'Meekomen' = samen met iemand gaan.",
     "wrongExplanations": {
-      "0": "Aankomen = arriveren. De vraag is of je mégaat — niet of je aankomt.",
-      "2": "Opkomen = verschijnen of opstaan voor iets. Niet geschikt voor een uitnodiging om samen te gaan.",
-      "1": "Terugkomen = teruggaan naar een eerdere plek. Je nodigt iemand uit om mee te gaan, niet om terug te komen."
+      "0": "'Aankomen' = arriveren. De vraag is of je mégaat — niet of je aankomt.",
+      "2": "'Opkomen' = verschijnen. Niet geschikt voor een uitnodiging om samen te gaan.",
+      "1": "'Terugkomen' = teruggaan. Je nodigt iemand uit om mee te gaan, niet om terug te komen."
     },
     "hint": "Je vraagt iemand om samen met jou te gaan. Welk prefix past bij 'samen met'?"
+  },
+  {
+    "sentence": "Ze kon niet ______ met de rest van de groep.",
+    "options": [
+      "meekomen",
+      "aankomen",
+      "terugkomen",
+      "afgekomen"
+    ],
+    "correct": 0,
+    "explanation": "'Meekomen' = bijhouden, het tempo volgen van een groep of uitleg.",
+    "wrongExplanations": {
+      "1": "'Aankomen' = arriveren. Ze is onderweg met de groep — er is geen aankomstpunt.",
+      "2": "'Terugkomen' = teruggaan. Ze wil niet terug — ze wil bijhouden.",
+      "3": "'Afkomen' = naar beneden. Er is geen hoogteverschil in deze situatie."
+    },
+    "hint": "De groep gaat te snel voor haar. Welk prefix past bij 'samen bewegen' of 'bijhouden'?"
+  },
+  {
+    "sentence": "De waarheid is eindelijk ______.",
+    "options": [
+      "uitgekomen",
+      "meegekomen",
+      "afgekomen",
+      "terechtgekomen"
+    ],
+    "correct": 0,
+    "explanation": "'Uitkomen' = openbaar worden, naar buiten komen.",
+    "wrongExplanations": {
+      "1": "'Meekomen' = samen met iemand gaan. De waarheid reist niet mee.",
+      "2": "'Afkomen' = naar beneden komen. Een waarheid daalt niet.",
+      "3": "'Terechtkomen' = ergens belanden. De waarheid belandt nergens — ze wordt onthuld."
+    },
+    "hint": "De waarheid was lang verborgen. Welk prefix past bij iets dat naar buiten komt?"
+  },
+  {
+    "sentence": "Zijn nieuwe boek is vorige week ______.",
+    "options": [
+      "uitgekomen",
+      "binnengekomen",
+      "aangekomen",
+      "opgekomen"
+    ],
+    "correct": 0,
+    "explanation": "'Uitkomen' = gepubliceerd worden. Standaard voor boeken, albums, films.",
+    "wrongExplanations": {
+      "1": "'Binnenkomen' = naar binnen gaan. Een boek komt niet binnen — het komt uit.",
+      "2": "'Aankomen' = arriveren. Het boek is niet bezorgd — het is gepubliceerd.",
+      "3": "'Opkomen' = verschijnen (zon) of opstaan. Boeken komen niet op zoals de zon."
+    },
+    "hint": "Het boek bestaat nu officieel. Welk prefix past bij iets dat naar buiten komt voor het publiek?"
+  },
+  {
+    "sentence": "De berekening is precies ______.",
+    "options": [
+      "voorgekomen",
+      "uitgekomen",
+      "bijgekomen",
+      "overgekomen"
+    ],
+    "correct": 1,
+    "explanation": "'Uitkomen' = kloppen, het juiste resultaat geven.",
+    "wrongExplanations": {
+      "0": "'Voorkomen' = plaatsvinden. Een berekening vindt niet 'plaats' — ze klopt.",
+      "2": "'Bijkomen' = herstellen. Een berekening herstelt niet.",
+      "3": "'Overkomen' = een indruk maken. Een berekening maakt geen indruk — ze klopt."
+    },
+    "hint": "De uitkomst is precies goed. Welk prefix past bij een resultaat dat 'eruit komt'?"
+  },
+  {
+    "sentence": "Dat komt goed ______!",
+    "options": [
+      "bij",
+      "over",
+      "uit",
+      "voor"
+    ],
+    "correct": 2,
+    "explanation": "'Uitkomen' = goed aflopen, goed kloppen.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen. Hier gaat het over een goede afloop, niet herstel.",
+      "1": "'Overkomen' = een indruk maken. Dit gaat over een resultaat, niet een indruk.",
+      "3": "'Voorkomen' = plaatsvinden of vermijden. Je zegt niet dat iets plaatsvindt — je zegt dat het goed afloopt."
+    },
+    "hint": "De situatie loopt goed af. Welk prefix past bij iets dat 'eruit komt'?"
+  },
+  {
+    "sentence": "Ze is eindelijk ______ voor haar mening.",
+    "options": [
+      "afgekomen",
+      "bijgekomen",
+      "uitgekomen",
+      "binnengekomen"
+    ],
+    "correct": 2,
+    "explanation": "'Uitkomen voor' = openlijk toegeven of verdedigen. Je durft nu te zeggen wat je echt denkt.",
+    "wrongExplanations": {
+      "0": "'Afkomen' = naar beneden. Je daalt niet voor je mening.",
+      "1": "'Bijkomen' = herstellen. Je herstelt niet van je mening.",
+      "3": "'Binnenkomen' = naar binnen gaan. Je gaat nergens naar binnen."
+    },
+    "hint": "Ze zegt nu openlijk wat ze echt vindt. Welk prefix past bij 'openlijk toegeven of verdedigen'?"
+  },
+  {
+    "sentence": "Hij durft niet ______ voor zijn keuze.",
+    "options": [
+      "bij te komen",
+      "mee te komen",
+      "uit te komen",
+      "op te komen"
+    ],
+    "correct": 2,
+    "explanation": "'Uitkomen voor' = openlijk zeggen of erkennen. Je durft je keuze niet openlijk te erkennen.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen. Je herstelt niet van een keuze.",
+      "1": "'Meekomen' = samen gaan. Je gaat nergens mee naartoe.",
+      "3": "'Opkomen voor' = verdedigen. Subtiel verschil: 'opkomen voor' = actief verdedigen, 'uitkomen voor' = openlijk erkennen."
+    },
+    "hint": "Hij schaamt zich voor zijn keuze en wil het niet openlijk zeggen. Welk prefix past bij 'openlijk erkennen'?"
   },
   {
     "sentence": "Het ongeluk is op de snelweg ______.",
@@ -146,164 +333,45 @@
     "correct": 0,
     "explanation": "'Voorkomen' = gebeuren, plaatsvinden.",
     "wrongExplanations": {
-      "2": "Bijkomen = herstellen. Een ongeluk herstelt niet — het vindt plaats.",
-      "1": "Uitkomen = openbaar worden of kloppen. Een ongeluk wordt niet onthuld — het gebeurt.",
-      "3": "Meekomen = samen met iemand bewegen. Een ongeluk reist niet mee — het gebeurt op een plek."
+      "1": "'Uitkomen' = openbaar worden. Een ongeluk wordt niet onthuld — het gebeurt.",
+      "2": "'Bijkomen' = herstellen. Een ongeluk herstelt niet — het vindt plaats.",
+      "3": "'Meekomen' = samen bewegen. Een ongeluk reist niet mee — het gebeurt op een plek."
     },
     "hint": "Het ongeluk heeft plaatsgevonden. Welk werkwoord gebruik je als iets ergens gebeurt?"
   },
   {
-    "sentence": "De berekening is precies ______.",
+    "sentence": "Dat woord komt me heel bekend ______.",
     "options": [
-      "voorgekomen",
-      "uitgekomen",
-      "bijgekomen",
-      "overgekomen"
-    ],
-    "correct": 1,
-    "explanation": "'Uitkomen' = kloppen.",
-    "wrongExplanations": {
-      "0": "Voorkomen = plaatsvinden. Een berekening vindt niet 'plaats' — ze klopt of klopt niet.",
-      "2": "Bijkomen = herstellen of erbij komen. Een berekening herstelt niet.",
-      "3": "Overkomen = een indruk maken. Een berekening maakt geen indruk — ze klopt of klopt niet."
-    },
-    "hint": "De uitkomst is precies goed. Welk prefix past bij een resultaat dat 'eruit komt'?"
-  },
-  {
-    "sentence": "Ze is van de trap ______.",
-    "options": [
-      "opgekomen",
-      "bijgekomen",
-      "afgekomen",
-      "terechtgekomen"
-    ],
-    "correct": 2,
-    "explanation": "'Afkomen' = naar beneden komen.",
-    "wrongExplanations": {
-      "1": "Bijkomen = herstellen. Ze beweegt — ze herstelt niet.",
-      "0": "Opkomen = omhoog komen. Ze gaat juist naar benéden van de trap.",
-      "3": "Terechtkomen = ergens belanden. Ze loopt van de trap — ze belandt niet ergens onverwacht."
-    },
-    "hint": "Ze staat boven en beweegt naar beneden. Welk prefix past bij een neerwaartse beweging?"
-  },
-  {
-    "sentence": "Hij komt altijd heel aardig ______.",
-    "options": [
-      "voor",
-      "aan",
+      "over",
       "bij",
-      "over"
-    ],
-    "correct": 3,
-    "explanation": "'Overkomen' = de indruk wekken.",
-    "wrongExplanations": {
-      "0": "Voorkomen = lijken voor jezelf ('dat komt me bekend voor'). Hier gaat het om de indruk op anderen.",
-      "2": "Bijkomen = herstellen. Je herstelt niet van aardig zijn.",
-      "1": "Aankomen = arriveren of zwaarder worden. Past niet bij een indruk maken."
-    },
-    "hint": "Anderen zien hem als aardig. Welk prefix past bij een indruk die op iemand 'overkomt'?"
-  },
-  {
-    "sentence": "We moeten ______ tegen discriminatie.",
-    "options": [
-      "opkomen",
-      "aankomen",
-      "meekomen",
-      "uitkomen"
-    ],
-    "correct": 0,
-    "explanation": "'Opkomen tegen' = protesteren, je inzetten tegen.",
-    "wrongExplanations": {
-      "1": "Aankomen = arriveren. Je arriveert niet tégen discriminatie.",
-      "2": "Meekomen = samen gaan. Je gaat niet samen mét discriminatie.",
-      "3": "Uitkomen = openbaar worden. Je komt niet uit tegen discriminatie — je komt ervoor op."
-    },
-    "hint": "Je stelt je op tégen iets. Welk prefix past bij opstaan voor een zaak?"
-  },
-  {
-    "sentence": "Veel mensen zijn bij het ongeluk ______.",
-    "options": [
-      "aangekomen",
-      "omgekomen",
-      "terechtgekomen",
-      "uitgekomen"
-    ],
-    "correct": 1,
-    "explanation": "'Omkomen' = sterven bij een ongeluk.",
-    "wrongExplanations": {
-      "0": "Aankomen = arriveren. Mensen arriveren niet bij een ongeluk in deze tragische zin.",
-      "2": "Terechtkomen = ergens belanden. De mensen zijn niet ergens beland — het is een definitief gevolg.",
-      "3": "Uitkomen = openbaar worden of kloppen. Een ongeluk wordt niet 'onthuld'."
-    },
-    "hint": "Dit is een onomkeerbaar gevolg. Welk prefix geeft een complete, definitieve beweging aan?"
-  },
-  {
-    "sentence": "Ik ben er net ______ dat hij gelogen heeft.",
-    "options": [
-      "bijgekomen",
-      "terechtgekomen",
-      "achtergekomen",
-      "voorgekomen"
+      "voor",
+      "aan"
     ],
     "correct": 2,
-    "explanation": "'Achterkomen' = ontdekken.",
+    "explanation": "'Voorkomen' = de indruk geven voor jezelf, lijken. 'Dat komt me bekend voor' = dat herken ik.",
     "wrongExplanations": {
-      "0": "Bijkomen = herstellen. Je herstelt niet van een ontdekking — je doet hem.",
-      "1": "Terechtkomen = ergens belanden. Je belandt nergens — je ontdekt iets.",
-      "3": "Voorkomen = plaatsvinden. De leugen vond eerder plaats — jij ontdekt hem nu pas."
+      "0": "'Overkomen' = een indruk maken op anderen. Hier gaat het om jouw eigen herkenning.",
+      "1": "'Bijkomen' = herstellen. Je herstelt niet van een bekend woord.",
+      "3": "'Aankomen' = arriveren of zwaarder worden. Past niet bij herkenning."
     },
-    "hint": "Iets was verborgen en jij hebt het nu ontdekt. Welk prefix past bij 'van achteren iets te pakken krijgen'?"
+    "hint": "Je herkent iets. Welk prefix past bij 'voor jou lijken'?"
   },
   {
-    "sentence": "De buurman is even ______ voor koffie.",
+    "sentence": "Dat komt me niet bekend ______.",
     "options": [
-      "meegekomen",
-      "terechtgekomen",
-      "opgekomen",
-      "langsgekomen"
+      "over",
+      "bij",
+      "voor",
+      "uit"
     ],
-    "correct": 3,
-    "explanation": "'Langskomen' = op bezoek komen.",
+    "correct": 2,
+    "explanation": "'Voorkomen' = lijken, de indruk geven. 'Dat komt me niet voor' = dat herken ik niet.",
     "wrongExplanations": {
-      "0": "Meekomen = samen met iemand anders gaan. De buurman komt zelf — hij gaat niet mee met iemand.",
-      "1": "Terechtkomen = ergens belanden. De buurman belandt niet bij jou — hij bezoekt je bewust.",
-      "2": "Opkomen = verschijnen of opstaan voor iets. De buurman verschijnt niet als de zon."
+      "0": "'Overkomen' = een indruk maken op anderen. Hier gaat het om jouw eigen herkenning.",
+      "1": "'Bijkomen' = herstellen. Je herkent het woord niet.",
+      "3": "'Uitkomen' = openbaar worden. Het woord wordt niet onthuld — het komt je al dan niet bekend voor."
     },
-    "hint": "De buurman bezoekt je even. Welk prefix past bij iemand die even langskomt?"
-  },
-  {
-    "sentence": "Ze kon niet ______ met de rest van de groep.",
-    "options": [
-      "meekomen",
-      "aankomen",
-      "terugkomen",
-      "afgekomen"
-    ],
-    "correct": 0,
-    "explanation": "'Meekomen' = bijhouden, het tempo volgen.",
-    "wrongExplanations": {
-      "1": "Aankomen = arriveren. Ze is onderweg met de groep — er is geen aankomstpunt.",
-      "2": "Terugkomen = teruggaan. Ze wil niet terug — ze wil bijhouden.",
-      "3": "Afkomen = naar beneden komen. Er is geen hoogteverschil in deze situatie."
-    },
-    "hint": "De groep gaat te snel voor haar. Welk prefix past bij 'samen bewegen' of 'bijhouden'?"
-  },
-  {
-    "sentence": "Ze is helemaal ______ van de schrik.",
-    "options": [
-      "aangekomen",
-      "bijgekomen",
-      "opgekomen",
-      "terechtgekomen"
-    ],
-    "correct": 1,
-    "explanation": "'Bijkomen van' = herstellen van een schrik.",
-    "wrongExplanations": {
-      "0": "Aankomen = arriveren of zwaarder worden. Van een schrik arriveert of word je niet zwaarder.",
-      "2": "Opkomen = verschijnen of opstaan. Je staat niet op van een schrik.",
-      "3": "Terechtkomen = ergens belanden. Je belandt nergens door schrik — je herstelt ervan."
-    },
-    "hint": "Ze was geschrokken en is nu weer zichzelf. Welk werkwoord gebruik je voor herstel na een emotie?"
+    "hint": "Je herkent het niet. Welk prefix past bij 'voor jou lijken'?"
   },
   {
     "sentence": "Dit probleem moet niet meer ______.",
@@ -314,98 +382,47 @@
       "aankomen"
     ],
     "correct": 2,
-    "explanation": "'Voorkomen' = vermijden, verhinderen.",
+    "explanation": "'Voorkomen' = vermijden, verhinderen dat iets gebeurt.",
     "wrongExplanations": {
-      "0": "Meekomen = samen bewegen. Een probleem reist niet mee — je wilt het stoppen.",
-      "1": "Bijkomen = herstellen of erbij komen. Je wilt juist dat het probleem er níet bijkomt.",
-      "3": "Aankomen = arriveren. Je wilt voorkomen dat het probleem er ooit is — niet dat het aankomt."
+      "0": "'Meekomen' = samen bewegen. Een probleem reist niet mee — je wilt het stoppen.",
+      "1": "'Bijkomen' = erbij komen. Je wilt juist dat het er níet bijkomt.",
+      "3": "'Aankomen' = arriveren. Je wilt voorkomen dat het probleem er ooit is."
     },
-    "hint": "Je wilt dit probleem stoppen vóórdat het gebeurt. Welk prefix past bij 'voor iets uit gaan'?"
+    "hint": "Je wilt dit probleem stoppen vóórdat het weer gebeurt. Welk prefix past bij 'voorkomen dat iets gebeurt'?"
   },
   {
-    "sentence": "Waar komt dat geluid ______?",
+    "sentence": "We moeten fouten in de communicatie ______.",
     "options": [
-      "af",
-      "bij",
-      "mee",
-      "vandaan"
-    ],
-    "correct": 3,
-    "explanation": "'Ergens vandaan komen' = de oorsprong.",
-    "wrongExplanations": {
-      "0": "Afkomen = naar beneden. Het geluid daalt niet — het heeft een bron.",
-      "1": "Bijkomen = herstellen. Een geluid herstelt niet.",
-      "2": "Meekomen = samen bewegen. Je vraagt naar de bron, niet naar het gezelschap van het geluid."
-    },
-    "hint": "Je vraagt naar de oorsprong. Welk woord past bij 'ergens vandaan komen'?"
-  },
-  {
-    "sentence": "Zijn nieuwe boek is vorige week ______.",
-    "options": [
-      "uitgekomen",
-      "binnengekomen",
-      "aangekomen",
-      "opgekomen"
-    ],
-    "correct": 0,
-    "explanation": "'Uitkomen' = gepubliceerd worden.",
-    "wrongExplanations": {
-      "2": "Aankomen = arriveren. Het boek is niet bezorgd — het is gepubliceerd.",
-      "1": "Binnenkomen = naar binnen gaan. Een boek komt niet binnen — het komt uit.",
-      "3": "Opkomen = verschijnen (zon) of opstaan voor iets. Boeken komen niet op zoals de zon."
-    },
-    "hint": "Het boek bestaat nu officieel. Welk prefix past bij iets dat naar buiten komt voor het publiek?"
-  },
-  {
-    "sentence": "De trein uit Amsterdam is net ______.",
-    "options": [
-      "terechtgekomen",
-      "aangekomen",
-      "meegekomen",
-      "opgekomen"
+      "bijkomen",
+      "voorkomen",
+      "meekomen",
+      "uitkomen"
     ],
     "correct": 1,
-    "explanation": "'Aankomen' = arriveren.",
+    "explanation": "'Voorkomen' = verhinderen dat iets slechts gebeurt.",
     "wrongExplanations": {
-      "0": "Terechtkomen = ergens belanden. Een trein belandt niet — hij arriveert volgens schema.",
-      "2": "Meekomen = samen met iemand gaan. De trein rijdt zelf — hij gaat niet mee met iemand.",
-      "3": "Opkomen = omhoog komen. Treinen rijden horizontaal — ze stijgen niet."
+      "0": "'Bijkomen' = herstellen of erbij komen. Je wilt juist dat fouten er níet bijkomen.",
+      "2": "'Meekomen' = samen bewegen. Fouten reizen niet mee.",
+      "3": "'Uitkomen' = openbaar worden. Je wilt fouten stoppen — niet ze openbaar laten worden."
     },
-    "hint": "De trein was onderweg en is nu op zijn bestemming. Welk prefix past bij het bereiken van een punt?"
+    "hint": "Je wilt fouten vermijden. Welk prefix past bij 'verhinderen dat iets gebeurt'?"
   },
   {
-    "sentence": "Dat komt goed ______!",
+    "sentence": "Hij komt altijd heel aardig ______.",
     "options": [
+      "voor",
+      "aan",
       "bij",
-      "over",
-      "uit",
-      "voor"
-    ],
-    "correct": 2,
-    "explanation": "'Uitkomen' = goed aflopen.",
-    "wrongExplanations": {
-      "0": "Bijkomen = herstellen. Hier gaat het over een goede afloop, niet herstel.",
-      "1": "Overkomen = een indruk maken. Dit gaat over een resultaat, niet een indruk.",
-      "3": "Voorkomen = plaatsvinden of vermijden. Je zegt niet dat iets plaatsvindt — je zegt dat het goed afloopt."
-    },
-    "hint": "De situatie loopt goed af. Welk prefix past bij iets dat 'eruit komt'?"
-  },
-  {
-    "sentence": "Ze is voor haar rechten ______.",
-    "options": [
-      "aangekomen",
-      "binnengekomen",
-      "meegekomen",
-      "opgekomen"
+      "over"
     ],
     "correct": 3,
-    "explanation": "'Opkomen voor' = je inzetten voor.",
+    "explanation": "'Overkomen' = de indruk wekken op anderen. Anderen zien hem als aardig.",
     "wrongExplanations": {
-      "0": "Aankomen = arriveren. Je arriveert niet voor rechten.",
-      "2": "Meekomen = samen gaan. Ze gaat niet ergens naartoe — ze strijdt.",
-      "1": "Binnenkomen = naar binnen gaan. Ze gaat nergens naar binnen — ze verdedigt iets."
+      "0": "'Voorkomen' = lijken voor jezelf. Hier gaat het om de indruk op anderen.",
+      "2": "'Bijkomen' = herstellen. Je herstelt niet van aardig zijn.",
+      "1": "'Aankomen' = arriveren. Past niet bij een indruk maken."
     },
-    "hint": "Ze stelt zich op voor haar rechten. Welk prefix past bij opstaan voor een zaak?"
+    "hint": "Anderen zien hem als aardig. Welk prefix past bij een indruk die op iemand 'overkomt'?"
   },
   {
     "sentence": "Zijn verhaal is niet goed ______.",
@@ -418,45 +435,62 @@
     "correct": 0,
     "explanation": "'Overkomen' = de indruk wekken op anderen.",
     "wrongExplanations": {
-      "1": "Uitkomen = openbaar worden of kloppen. Een verhaal wordt niet 'onthuld' — het maakt een indruk.",
-      "2": "Bijkomen = herstellen. Een verhaal herstelt niet.",
-      "3": "Afkomen = naar beneden. Een verhaal daalt niet."
+      "1": "'Uitkomen' = openbaar worden. Een verhaal wordt niet 'onthuld' — het maakt een indruk.",
+      "2": "'Bijkomen' = herstellen. Een verhaal herstelt niet.",
+      "3": "'Afkomen' = naar beneden. Een verhaal daalt niet."
     },
     "hint": "Het verhaal maakte een slechte indruk op de luisteraars. Welk prefix past bij een indruk die op iemand overkomt?"
   },
   {
-    "sentence": "Hoe ben je op dat idee ______?",
+    "sentence": "Hoe komt jouw boodschap ______ bij de klanten?",
     "options": [
-      "aangekomen",
-      "gekomen",
-      "afgekomen",
-      "opgekomen"
+      "aan",
+      "over",
+      "bij",
+      "voor"
     ],
     "correct": 1,
-    "explanation": "'Op een idee komen' = een idee krijgen.",
+    "explanation": "'Overkomen' = de indruk maken, begrepen worden door anderen.",
     "wrongExplanations": {
-      "0": "Aankomen = arriveren op een plek. Een idee is geen bestemming.",
-      "2": "Afkomen = naar beneden. Ideeën dalen niet.",
-      "3": "Opkomen = naar boven verschijnen. 'Op een idee opkomen' is geen standaard combinatie."
+      "0": "'Aankomen' kan ook in informele zin ('je boodschap komt aan') maar 'overkomen' is specifieker voor de indruk.",
+      "2": "'Bijkomen' = herstellen. Klanten herstellen niet van een boodschap.",
+      "3": "'Voorkomen' = voor jezelf lijken. Hier gaat het om anderen."
     },
-    "hint": "Je vraagt hoe iemand dit idee heeft gekregen. Welk werkwoord past bij 'op een idee komen'?"
+    "hint": "Je vraagt welke indruk jouw communicatie maakt op klanten. Welk prefix past bij 'de indruk die iemand krijgt'?"
   },
   {
-    "sentence": "Ik kan er niet ______ wat er gebeurd is.",
+    "sentence": "Zoiets kan iedereen ______.",
     "options": [
       "bijkomen",
+      "overkomen",
       "meekomen",
-      "achterkomen",
       "uitkomen"
     ],
-    "correct": 2,
-    "explanation": "'Achterkomen' = ontdekken, te weten komen.",
+    "correct": 1,
+    "explanation": "'Overkomen' = iemand overkomen = iets meemaken, iets dat jou overkomt.",
     "wrongExplanations": {
-      "0": "Bijkomen = herstellen. Je wilt iets ontdekken — niet herstellen.",
-      "1": "Meekomen = samen gaan. Je gaat nergens naartoe — je probeert iets te begrijpen.",
-      "3": "Uitkomen = openbaar worden. Het gaat niet vanzelf openbaar worden — jíj probeert het te ontdekken."
+      "0": "'Bijkomen' = herstellen. Dat is wat je doet nádát iets je is overkomen.",
+      "2": "'Meekomen' = samen gaan. Iets gaat niet 'mee' met iemand.",
+      "3": "'Uitkomen' = openbaar worden. Dingen die je meemaken worden niet 'onthuld'."
     },
-    "hint": "Je probeert te ontdekken wat er is gebeurd. Welk prefix past bij 'van achteren iets te pakken krijgen'?"
+    "hint": "Het kan iedereen gebeuren. Welk prefix past bij 'iemand overkomen' als iets iemand overkomt?"
+  },
+  {
+    "sentence": "Ze is van de trap ______.",
+    "options": [
+      "opgekomen",
+      "bijgekomen",
+      "afgekomen",
+      "terechtgekomen"
+    ],
+    "correct": 2,
+    "explanation": "'Afkomen' = naar beneden komen, van een hoogte aflopen.",
+    "wrongExplanations": {
+      "0": "'Opkomen' = omhoog komen. Ze gaat juist naar benéden van de trap.",
+      "1": "'Bijkomen' = herstellen. Ze beweegt — ze herstelt niet.",
+      "3": "'Terechtkomen' = ergens belanden. Ze loopt van de trap af — ze belandt niet ergens onverwacht."
+    },
+    "hint": "Ze staat boven en beweegt naar beneden. Welk prefix past bij een neerwaartse beweging?"
   },
   {
     "sentence": "De muzikant is het podium ______.",
@@ -467,64 +501,149 @@
       "afgekomen"
     ],
     "correct": 3,
-    "explanation": "'Afkomen' = naar beneden komen (van het podium).",
+    "explanation": "'Afkomen' = naar beneden komen of het podium verlaten.",
     "wrongExplanations": {
-      "1": "Binnenkomen = naar binnen gaan. De muzikant gaat niet naar binnen — hij verlaat het podium.",
-      "2": "Opkomen = het podium opkomen. Dat is het tegenovergestelde — hij verlaat het podium.",
-      "0": "Meekomen = samen gaan. De muzikant vertrekt zelf — hij gaat niet mee met iemand."
+      "0": "'Meekomen' = samen gaan. De muzikant vertrekt zelf.",
+      "1": "'Binnenkomen' = naar binnen gaan. De muzikant verlaat het podium.",
+      "2": "'Opkomen' = het podium opkomen. Dat is het tegenovergestelde."
     },
     "hint": "De muzikant staat op het podium en verlaat het. Welk prefix past bij een neerwaartse beweging?"
   },
   {
-    "sentence": "Ik weet niet hoe ik aan die informatie moet ______.",
+    "sentence": "Kom je morgen ook naar het feest ______?",
     "options": [
-      "komen",
-      "meekomen",
-      "bijkomen",
-      "terugkomen"
+      "af",
+      "mee",
+      "bij",
+      "op"
     ],
     "correct": 0,
-    "explanation": "'Aan iets komen' = iets verkrijgen, bemachtigen.",
+    "explanation": "'Afkomen' = ergens naartoe komen, verschijnen op een afspraak. 'Erop afkomen' = ernaartoe gaan.",
     "wrongExplanations": {
-      "2": "Bijkomen = herstellen of erbij komen. Je wilt informatie verkrijgen — niet herstellen.",
-      "1": "Meekomen = samen gaan. Je vraagt hoe je iets kunt verkrijgen, niet hoe je ergens naartoe gaat.",
-      "3": "Terugkomen = teruggaan of op iets terugkomen. Je zoekt informatie — je gaat niet terug."
+      "1": "'Meekomen' = samen met iemand gaan. 'Kom je mee?' zou anders geformuleerd zijn.",
+      "2": "'Bijkomen' = herstellen. Je herstelt niet bij een feest.",
+      "3": "'Opkomen' = verschijnen (zon) of opstaan. Past niet bij een feest bezoeken."
     },
-    "hint": "Je wilt de informatie in handen krijgen. Welk werkwoord past bij 'aan iets komen'?"
+    "hint": "Je vraagt of iemand naar het feest toe komt. 'Erop afkomen' = ernaartoe gaan."
   },
   {
-    "sentence": "De kinderen mogen niet bij het vuur ______.",
+    "sentence": "Hoe ben je bij dit bedrijf ______?",
     "options": [
-      "aankomen",
-      "komen",
-      "opkomen",
-      "terugkomen"
+      "terechtgekomen",
+      "aangekomen",
+      "opgekomen",
+      "meegekomen"
+    ],
+    "correct": 0,
+    "explanation": "'Terechtkomen' = ergens belanden, via een weg of toeval ergens uitkomen.",
+    "wrongExplanations": {
+      "1": "'Aankomen' = arriveren. Je vraagt niet hoe iemand fysiek arriveerde — je vraagt naar het verhaal erachter.",
+      "2": "'Opkomen' = verschijnen of opstaan. Je komt niet op bij een bedrijf — je belandt er.",
+      "3": "'Meekomen' = samen gaan. Je bent er zelf beland."
+    },
+    "hint": "Je vraagt naar iemands carrièrepad. Welk werkwoord past bij 'ergens belanden'?"
+  },
+  {
+    "sentence": "Waar zijn mijn sleutels ______?",
+    "options": [
+      "aangekomen",
+      "terechtgekomen",
+      "meegekomen",
+      "bijgekomen"
     ],
     "correct": 1,
-    "explanation": "'In de buurt komen' = dichtbij komen.",
+    "explanation": "'Terechtkomen' = ergens belanden, na zoeken of verliezen.",
     "wrongExplanations": {
-      "0": "Aankomen = arriveren op een bestemming. Het vuur is geen bestemming — het is een gevaar.",
-      "3": "Terugkomen = teruggaan. De kinderen zijn er nog niet geweest — ze mogen er niet naartoe.",
-      "2": "Opkomen = omhoog komen of opstaan. Ze bewegen niet omhoog."
+      "0": "'Aankomen' = arriveren. Sleutels arriveren niet op een bestemming.",
+      "2": "'Meekomen' = samen bewegen. Sleutels reizen niet bewust mee.",
+      "3": "'Bijkomen' = herstellen. Sleutels herstellen nergens van."
     },
-    "hint": "De kinderen moeten uit de buurt blijven. Welk werkwoord gebruik je zonder prefix voor 'dichtbij komen'?"
+    "hint": "Je bent je sleutels kwijt en vraagt waar ze beland zijn. Welk werkwoord past bij 'ergens belanden'?"
   },
   {
-    "sentence": "Dat woord komt me niet bekend ______.",
+    "sentence": "Ken je een plek waar ik vanavond ______ kan?",
     "options": [
-      "over",
-      "bij",
-      "voor",
-      "uit"
+      "aankomen",
+      "bijkomen",
+      "opgekomen",
+      "terechtkomen"
+    ],
+    "correct": 3,
+    "explanation": "'Terechtkomen' = ergens onderdak vinden, ergens belanden voor de nacht.",
+    "wrongExplanations": {
+      "0": "'Aankomen' = arriveren. Je vraagt niet alleen om aan te komen — je zoekt een plek.",
+      "1": "'Bijkomen' = herstellen. Je zoekt onderdak — je herstelt niet van iets.",
+      "2": "'Opgekomen' is voltooid deelwoord en grammaticaal onjuist hier."
+    },
+    "hint": "Je zoekt een plek om vanavond te slapen. Welk werkwoord past bij 'ergens onderdak vinden'?"
+  },
+  {
+    "sentence": "Ik ben er net ______ dat hij gelogen heeft.",
+    "options": [
+      "bijgekomen",
+      "terechtgekomen",
+      "achtergekomen",
+      "voorgekomen"
     ],
     "correct": 2,
-    "explanation": "'Voorkomen' = lijken, de indruk geven.",
+    "explanation": "'Achterkomen' = ontdekken, te weten komen.",
     "wrongExplanations": {
-      "0": "Overkomen = een indruk maken op anderen. Hier gaat het om jouw eigen herkenning — of iets jou bekend voorkomt.",
-      "1": "Bijkomen = herstellen. Je herkent het woord niet — je herstelt niet van iets.",
-      "3": "Uitkomen = openbaar worden. Het woord wordt niet onthuld — het komt je al dan niet bekend voor."
+      "0": "'Bijkomen' = herstellen. Je wilt iets ontdekken — niet herstellen.",
+      "1": "'Terechtkomen' = ergens belanden. Je belandt nergens — je ontdekt iets.",
+      "3": "'Voorkomen' = plaatsvinden. De leugen vond eerder plaats — jíj ontdekt hem nu."
     },
-    "hint": "Je herkent het woord niet. Welk prefix past bij 'voor jou lijken'?"
+    "hint": "Iets was verborgen en jij hebt het nu ontdekt. Welk prefix past bij 'van achteren iets te pakken krijgen'?"
+  },
+  {
+    "sentence": "Ik kan er niet ______ wat er precies is gebeurd.",
+    "options": [
+      "bijkomen",
+      "meekomen",
+      "achterkomen",
+      "uitkomen"
+    ],
+    "correct": 2,
+    "explanation": "'Achterkomen' = ontdekken, te weten komen.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen. Je wilt iets ontdekken — niet herstellen.",
+      "1": "'Meekomen' = samen gaan. Je gaat nergens naartoe.",
+      "3": "'Uitkomen' = openbaar worden. Het gaat niet vanzelf openbaar — jíj probeert het te ontdekken."
+    },
+    "hint": "Je probeert te ontdekken wat er is gebeurd. Welk prefix past bij 'van achteren iets te pakken krijgen'?"
+  },
+  {
+    "sentence": "De buurman is even ______ voor koffie.",
+    "options": [
+      "meegekomen",
+      "terechtgekomen",
+      "opgekomen",
+      "langsgekomen"
+    ],
+    "correct": 3,
+    "explanation": "'Langskomen' = op bezoek komen, even aanlopen.",
+    "wrongExplanations": {
+      "0": "'Meekomen' = samen met iemand anders gaan. De buurman komt zelf.",
+      "1": "'Terechtkomen' = ergens belanden. De buurman belandt niet bij jou — hij bezoekt je bewust.",
+      "2": "'Opkomen' = verschijnen of opstaan. De buurman verschijnt niet als de zon."
+    },
+    "hint": "De buurman bezoekt je even. Welk prefix past bij iemand die even langsloopt?"
+  },
+  {
+    "sentence": "Ik kom volgende week even ______ om de documenten te tekenen.",
+    "options": [
+      "aan",
+      "langs",
+      "bij",
+      "voor"
+    ],
+    "correct": 1,
+    "explanation": "'Langskomen' = even op bezoek komen voor een bepaald doel.",
+    "wrongExplanations": {
+      "0": "'Aankomen' = arriveren op een bestemming. Je komt even langs — niet als officieel bezoek.",
+      "2": "'Bijkomen' = herstellen. Je herstelt niet van documenten.",
+      "3": "'Voorkomen' = plaatsvinden of lijken. Past niet bij een kort bezoek."
+    },
+    "hint": "Je gaat even naar kantoor voor de handtekening. Welk prefix past bij 'even op bezoek komen'?"
   },
   {
     "sentence": "Ik ben Lisa gisteren in de stad ______.",
@@ -537,28 +656,62 @@
     "correct": 3,
     "explanation": "'Tegenkomen' = toevallig ontmoeten.",
     "wrongExplanations": {
-      "0": "Aankomen = arriveren. Je arriveert niet bij Lisa — je komt haar toevallig tegen.",
-      "2": "Bijkomen = herstellen. Je herstelt niet van Lisa.",
-      "1": "Voorkomen = plaatsvinden of lijken. Je ontmoet haar toevallig — het 'vindt niet plaats'."
+      "0": "'Aankomen' = arriveren. Je arriveert niet bij Lisa — je komt haar toevallig tegen.",
+      "1": "'Voorkomen' = plaatsvinden of lijken. Je ontmoet haar toevallig.",
+      "2": "'Bijkomen' = herstellen. Je herstelt niet van Lisa."
     },
     "hint": "Je liep door de stad en zag Lisa toevallig. Welk prefix past bij 'per ongeluk ontmoeten'?"
   },
   {
-    "sentence": "Hoe ben je bij dit bedrijf ______?",
+    "sentence": "Welke problemen kom je ______ in jouw werk?",
     "options": [
-      "terechtgekomen",
-      "aangekomen",
-      "opgekomen",
-      "meegekomen"
+      "bij",
+      "aan",
+      "tegen",
+      "voor"
     ],
-    "correct": 0,
-    "explanation": "'Terechtkomen' = ergens belanden, ergens uitkomen.",
+    "correct": 2,
+    "explanation": "'Tegenkomen' = tegenkomen als in stuiten op, ontdekken in de praktijk.",
     "wrongExplanations": {
-      "1": "Aankomen = arriveren. Je vraagt niet hoe iemand fysiek arriveerde — je vraagt naar het verhaal erachter.",
-      "2": "Opkomen = verschijnen of opstaan. Je komt niet op bij een bedrijf — je belandt er.",
-      "3": "Meekomen = samen gaan. Je bent niet met iemand meegegaan — je bent er zelf beland."
+      "0": "'Bijkomen' = herstellen of erbij komen. Je herstelt niet van problemen.",
+      "1": "'Aankomen' = arriveren of zwaarder worden. Je arriveert niet bij problemen.",
+      "3": "'Voorkomen' = plaatsvinden. 'Welke problemen komen voor' gaat over het bestaan ervan, niet jouw eigen ervaring ermee."
     },
-    "hint": "Je vraagt naar iemands carrièrepad. Welk werkwoord past bij 'ergens belanden'?"
+    "hint": "Je vraagt welke problemen iemand zelf tegenkomt in zijn werk. Welk prefix past bij 'stuiten op'?"
+  },
+  {
+    "sentence": "Veel mensen zijn bij het ongeluk ______.",
+    "options": [
+      "aangekomen",
+      "omgekomen",
+      "terechtgekomen",
+      "uitgekomen"
+    ],
+    "correct": 1,
+    "explanation": "'Omkomen' = sterven bij een ongeluk of ramp. Altijd ongeluk of ramp — niet op natuurlijke wijze.",
+    "wrongExplanations": {
+      "0": "'Aankomen' = arriveren. Mensen arriveren niet bij een ongeluk in deze tragische zin.",
+      "2": "'Terechtkomen' = ergens belanden. Dit is een definitief gevolg.",
+      "3": "'Uitkomen' = openbaar worden. Een ongeluk wordt niet 'onthuld'."
+    },
+    "hint": "Dit is een onomkeerbaar gevolg van een ongeluk. Welk prefix geeft dit aan?"
+  },
+  {
+    "sentence": "Waar komt dat geluid ______?",
+    "options": [
+      "af",
+      "bij",
+      "mee",
+      "vandaan"
+    ],
+    "correct": 3,
+    "explanation": "'Ergens vandaan komen' = de oorsprong, de bron hebben op een bepaalde plek.",
+    "wrongExplanations": {
+      "0": "'Afkomen' = naar beneden. Het geluid daalt niet — het heeft een bron.",
+      "1": "'Bijkomen' = herstellen. Een geluid herstelt niet.",
+      "2": "'Meekomen' = samen bewegen. Je vraagt naar de bron, niet naar het gezelschap van het geluid."
+    },
+    "hint": "Je vraagt naar de oorsprong van het geluid. Welk woord past bij 'ergens vandaan komen'?"
   },
   {
     "sentence": "Er is een klacht van een klant ______.",
@@ -569,13 +722,30 @@
       "voorgekomen"
     ],
     "correct": 1,
-    "explanation": "'Binnenkomen' = ontvangen worden (e-mail, klacht, bericht).",
+    "explanation": "'Binnenkomen' = ontvangen worden. Standaard voor e-mails, klachten, berichten.",
     "wrongExplanations": {
-      "0": "Aankomen = arriveren. Past bij een pakket, maar een klacht 'komt binnen' bij de klantenservice.",
-      "2": "Opkomen = verschijnen of opstaan. Een klacht verschijnt niet als de zon.",
-      "3": "Voorkomen = plaatsvinden of lijken. Een klacht vindt niet 'plaats' — ze wordt ontvangen."
+      "0": "'Aankomen' = arriveren. Past bij een pakket, maar een klacht 'komt binnen' bij de klantenservice.",
+      "2": "'Opkomen' = verschijnen. Een klacht verschijnt niet als de zon.",
+      "3": "'Voorkomen' = plaatsvinden. Een klacht vindt niet 'plaats' — ze wordt ontvangen."
     },
     "hint": "De klacht is bij het bedrijf ontvangen. Welk prefix past bij iets dat van buiten naar binnen gaat?"
+  },
+  {
+    "sentence": "Er zijn al twintig reacties op de vacature ______.",
+    "options": [
+      "terechtgekomen",
+      "overgekomen",
+      "binnengekomen",
+      "uitgekomen"
+    ],
+    "correct": 2,
+    "explanation": "'Binnenkomen' = ontvangen worden. Standaard voor reacties, sollicitaties, berichten.",
+    "wrongExplanations": {
+      "0": "'Terechtkomen' = ergens belanden. Reacties belanden niet — ze worden ontvangen.",
+      "1": "'Overkomen' = een indruk maken. Reacties maken geen indruk — ze komen binnen.",
+      "3": "'Uitkomen' = openbaar worden. Reacties worden niet onthuld — ze worden ontvangen."
+    },
+    "hint": "De sollicitaties zijn bij het bedrijf ontvangen. Welk prefix past bij 'ontvangen worden'?"
   },
   {
     "sentence": "Ik kom hier in de volgende vergadering op ______.",
@@ -586,13 +756,64 @@
       "mee"
     ],
     "correct": 2,
-    "explanation": "'Terugkomen op' = een onderwerp later opnieuw bespreken.",
+    "explanation": "'Terugkomen op' = een onderwerp later opnieuw bespreken. Vaste kantooruitdrukking.",
     "wrongExplanations": {
-      "0": "Afkomen = naar beneden. Je gaat niet naar beneden op een onderwerp.",
-      "1": "Bijkomen = herstellen. Je herstelt niet van een vergaderonderwerp.",
-      "3": "Meekomen = samen gaan. Je gaat niet mee met het onderwerp."
+      "0": "'Afkomen' = naar beneden. Je gaat niet naar beneden op een onderwerp.",
+      "1": "'Bijkomen' = herstellen. Je herstelt niet van een vergaderonderwerp.",
+      "3": "'Meekomen' = samen gaan. Je gaat niet mee met het onderwerp."
     },
     "hint": "Je belooft later over dit onderwerp te praten. Welk prefix past bij 'opnieuw bespreken'?"
+  },
+  {
+    "sentence": "Kan ik daar later op ______?",
+    "options": [
+      "bijkomen",
+      "terugkomen",
+      "meekomen",
+      "uitkomen"
+    ],
+    "correct": 1,
+    "explanation": "'Terugkomen op' = later op een punt reageren of terugpakken.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen. Je herstelt niet van een punt.",
+      "2": "'Meekomen' = samen gaan. Je gaat nergens naartoe.",
+      "3": "'Uitkomen' = openbaar worden. Je maakt het punt niet openbaar — je reageert erop."
+    },
+    "hint": "Je wilt later reageren op een punt in de vergadering. Welk prefix past bij 'later opnieuw pakken'?"
+  },
+  {
+    "sentence": "Je moet je afspraken altijd ______.",
+    "options": [
+      "bijkomen",
+      "nakomen",
+      "terugkomen",
+      "binnenkomen"
+    ],
+    "correct": 1,
+    "explanation": "'Nakomen' = naleven, doen wat je hebt beloofd. Vaste uitdrukking in zakelijke context.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen of erbij komen. Je herstelt niet van afspraken.",
+      "2": "'Terugkomen' = teruggaan. Afspraken haal je niet terug — je komt ze na.",
+      "3": "'Binnenkomen' = naar binnen gaan. Afspraken komen niet naar binnen."
+    },
+    "hint": "Je moet doen wat je hebt beloofd. Welk prefix past bij 'beloften waarmaken'?"
+  },
+  {
+    "sentence": "Het bedrijf is zijn verplichtingen niet ______.",
+    "options": [
+      "bijgekomen",
+      "meegekomen",
+      "nagekomen",
+      "uitgekomen"
+    ],
+    "correct": 2,
+    "explanation": "'Nakomen' = naleven, voldoen aan verplichtingen of afspraken.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen. Je herstelt niet van verplichtingen.",
+      "1": "'Meekomen' = samen gaan. Verplichtingen reizen niet mee.",
+      "3": "'Uitkomen' = openbaar worden. Verplichtingen worden niet onthuld — ze worden nageleefd of niet."
+    },
+    "hint": "Het bedrijf heeft zijn beloften niet nagekomen. Welk prefix past bij 'naleven'?"
   },
   {
     "sentence": "We zijn ______ dat de deadline wordt verlengd.",
@@ -605,78 +826,197 @@
     "correct": 3,
     "explanation": "'Overeenkomen' = het eens worden, afspreken.",
     "wrongExplanations": {
-      "1": "Aankomen = arriveren. Je arriveert niet bij een afspraak — je maakt hem.",
-      "2": "Terechtkomen = ergens belanden. Je belandt niet bij een beslissing — je neemt hem samen.",
-      "0": "Uitkomen = openbaar worden. De deadline wordt niet onthuld — jullie spreken hem af."
+      "1": "'Aankomen' = arriveren. Je arriveert niet bij een afspraak — je maakt hem.",
+      "2": "'Terechtkomen' = ergens belanden. Je belandt niet bij een beslissing — je neemt hem.",
+      "0": "'Uitkomen' = openbaar worden. De deadline wordt niet onthuld — jullie spreken hem af."
     },
     "hint": "Jullie hebben samen besloten. Welk prefix past bij 'het eens worden'?"
   },
   {
-    "sentence": "Kom je morgen ook naar het feest ______?",
+    "sentence": "Dat komt me vreemd ______.",
     "options": [
-      "af",
-      "mee",
       "bij",
-      "op"
-    ],
-    "correct": 0,
-    "explanation": "'Afkomen' = naar een plek toe komen, verschijnen.",
-    "wrongExplanations": {
-      "1": "Meekomen = samen met iemand gaan. 'Kom je naar het feest mee?' zou anders geformuleerd zijn — hier vraag je of ze verschijnt.",
-      "2": "Bijkomen = herstellen. Je herstelt niet bij een feest.",
-      "3": "Opkomen = verschijnen (zon) of opstaan. Past niet bij een feest bezoeken."
-    },
-    "hint": "Je vraagt of iemand naar het feest toe komt. 'Erop afkomen' = ernaartoe gaan."
-  },
-  {
-    "sentence": "Waar zijn mijn sleutels ______?",
-    "options": [
-      "aangekomen",
-      "terechtgekomen",
-      "meegekomen",
-      "bijgekomen"
-    ],
-    "correct": 1,
-    "explanation": "'Terechtkomen' = ergens belanden (na zoeken/verliezen).",
-    "wrongExplanations": {
-      "0": "Aankomen = arriveren. Sleutels arriveren niet op een bestemming.",
-      "2": "Meekomen = samen met iemand bewegen. Sleutels reizen niet bewust mee.",
-      "3": "Bijkomen = herstellen. Sleutels herstellen nergens van."
-    },
-    "hint": "Je bent je sleutels kwijt en vraagt waar ze beland zijn. Welk werkwoord past bij 'ergens belanden'?"
-  },
-  {
-    "sentence": "Er kwam een goed idee bij mij ______.",
-    "options": [
-      "af",
+      "aan",
       "over",
-      "op",
-      "bij"
-    ],
-    "correct": 2,
-    "explanation": "'Opkomen' = in je hoofd verschijnen (idee, gedachte).",
-    "wrongExplanations": {
-      "0": "Afkomen = naar beneden. Een idee daalt niet.",
-      "1": "Overkomen = een indruk maken. Een idee maakt geen indruk op jou — het verschijnt in je hoofd.",
-      "3": "Bijkomen = herstellen of erbij komen. Een idee herstelt niet — het verschijnt."
-    },
-    "hint": "Een idee verschijnt ineens in je hoofd. Welk prefix past bij iets dat 'omhoog borrelt'?"
-  },
-  {
-    "sentence": "Ken je een plek waar ik vanavond ______ kan?",
-    "options": [
-      "aankomen",
-      "bijkomen",
-      "opgekomen",
-      "terechtkomen"
+      "voor"
     ],
     "correct": 3,
-    "explanation": "'Terechtkomen' = ergens onderdak vinden, ergens belanden.",
+    "explanation": "'Voorkomen' = lijken, de indruk geven voor jezelf. 'Dat komt me vreemd voor' = dat vindt ik vreemd.",
     "wrongExplanations": {
-      "0": "Aankomen = arriveren. Je vraagt niet alleen om aan te komen — je zoekt een plek om te verblijven.",
-      "1": "Bijkomen = herstellen. Je zoekt onderdak — je herstelt niet van iets.",
-      "2": "Opgekomen = verschenen. Past grammaticaal niet en slaat nergens op in deze zin."
+      "0": "'Bijkomen' = herstellen. Je herstelt niet van iets vreemds.",
+      "1": "'Aankomen' = arriveren. Past niet bij een oordeel.",
+      "2": "'Overkomen' = een indruk maken op anderen. Hier gaat het om jouw eigen ervaring."
     },
-    "hint": "Je zoekt een plek om vanavond te slapen. Welk werkwoord past bij 'ergens onderdak vinden'?"
+    "hint": "Je vindt iets vreemd. Welk prefix past bij 'voor jou lijken'?"
+  },
+  {
+    "sentence": "Hij vindt het moeilijk om ______ van zijn oude gewoonten.",
+    "options": [
+      "bij te komen",
+      "los te komen",
+      "mee te komen",
+      "voor te komen"
+    ],
+    "correct": 1,
+    "explanation": "'Loskomen van' = je vrijmaken van iets dat je vasthoudt. Figuurlijk gebruik.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen. Je herstelt niet van gewoonten.",
+      "2": "'Meekomen' = samen gaan. Je gaat nergens naartoe.",
+      "3": "'Voorkomen' = verhinderen. Je voorkomt de gewoonten niet — je wil los ervan komen."
+    },
+    "hint": "Hij wil zich bevrijden van iets dat hem vasthoudt. Welk prefix past bij 'vrij worden van'?"
+  },
+  {
+    "sentence": "Na jaren therapie begon ze eindelijk ______ van haar verleden.",
+    "options": [
+      "los te komen",
+      "mee te komen",
+      "voor te komen",
+      "bij te komen"
+    ],
+    "correct": 0,
+    "explanation": "'Loskomen van' = je bevrijden van iets dat je heeft vastgehouden — emotioneel of psychologisch.",
+    "wrongExplanations": {
+      "1": "'Meekomen' = samen gaan. Ze gaat nergens naartoe.",
+      "2": "'Voorkomen' = verhinderen. Ze voorkomt haar verleden niet — ze laat het los.",
+      "3": "'Bijkomen' = herstellen. 'Bijkomen' is korter herstel — 'loskomen' is een langdurig proces."
+    },
+    "hint": "Ze bevrijdt zich langzaam van haar verleden. Welk prefix past bij 'je bevrijden van iets dat je vasthoudt'?"
+  },
+  {
+    "sentence": "Kun je mij even bellen? Ik kan niet ______ via e-mail.",
+    "options": [
+      "bijkomen",
+      "doorkomen",
+      "uitkomen",
+      "meekomen"
+    ],
+    "correct": 1,
+    "explanation": "'Doorkomen' = je kunt iemand bereiken, contact krijgen. Gebruikt voor telefoon, e-mail, systemen.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen. Je herstelt niet van e-mail.",
+      "2": "'Uitkomen' = openbaar worden. De e-mail wordt niet 'onthuld'.",
+      "3": "'Meekomen' = samen gaan of bijhouden. Je volgt niemand."
+    },
+    "hint": "Je kunt iemand niet bereiken via e-mail. Welk prefix past bij 'contact krijgen'?"
+  },
+  {
+    "sentence": "Hoe ben je door de moeilijke periode ______?",
+    "options": [
+      "bijgekomen",
+      "opgekomen",
+      "doorgekomen",
+      "meegekomen"
+    ],
+    "correct": 2,
+    "explanation": "'Doorkomen' = een moeilijke tijd overleven, er doorheen komen.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen. Bijkomen is herstel nádát het voorbij is — doorkomen is het overlevenprocesses.",
+      "1": "'Opkomen' = verschijnen of opstaan. Je staat niet op voor een moeilijke periode.",
+      "3": "'Meekomen' = samen gaan of bijhouden. Je gaat nergens mee naartoe."
+    },
+    "hint": "Je vraagt hoe iemand een moeilijke tijd heeft overleefd. Welk prefix past bij 'er doorheen komen'?"
+  },
+  {
+    "sentence": "Het komt ______ op samenwerking — niet op individuele prestaties.",
+    "options": [
+      "aan",
+      "bij",
+      "voor",
+      "mee"
+    ],
+    "correct": 0,
+    "explanation": "'Aankomen op' = wat echt telt, waar het om draait. 'Het komt aan op X' = X is het beslissende factor.",
+    "wrongExplanations": {
+      "1": "'Bijkomen' = herstellen. Je herstelt niet van samenwerking.",
+      "2": "'Voorkomen' = plaatsvinden. Samenwerking vindt niet 'plaats' — het is een waarde.",
+      "3": "'Meekomen' = samen gaan. Je gaat nergens naartoe."
+    },
+    "hint": "Je zegt wat het beslissende element is. Welk prefix past bij 'waar het op neerkomt'?"
+  },
+  {
+    "sentence": "Op het moment dat het ______ aan, wil ik een team dat ik kan vertrouwen.",
+    "options": [
+      "voor",
+      "bij",
+      "aan",
+      "mee"
+    ],
+    "correct": 2,
+    "explanation": "'Aankomen op' = het beslissende moment. 'Als het erop aankomt' = als het er echt toe doet.",
+    "wrongExplanations": {
+      "0": "'Voorkomen' = plaatsvinden. 'Als het eraan voorkomt' is geen standaarduitdrukking.",
+      "1": "'Bijkomen' = herstellen. 'Als het erbij aankomt' is geen standaarduitdrukking.",
+      "3": "'Meekomen' = samen gaan. 'Als het eraan meekomt' is geen standaarduitdrukking."
+    },
+    "hint": "Je beschrijft het moment dat er echt iets op het spel staat. Welk prefix past bij 'als het erop ___komt'?"
+  },
+  {
+    "sentence": "Hij is ______ voor zijn fouten — dat vind ik knap.",
+    "options": [
+      "bijgekomen",
+      "meegekomen",
+      "overgekomen",
+      "uitgekomen"
+    ],
+    "correct": 3,
+    "explanation": "'Uitkomen voor' = openlijk erkennen of bekennen. 'Uitkomen voor je fouten' = toegeven dat je iets fout hebt gedaan.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen. Hij herstelt niet van fouten — hij geeft ze toe.",
+      "1": "'Meekomen' = samen gaan. Hij gaat nergens naartoe.",
+      "2": "'Overkomen' = een indruk maken. Hij maakt een goede indruk — maar het gaat om zijn daden."
+    },
+    "hint": "Hij erkent zijn fouten openlijk. Welk prefix past bij 'openlijk toegeven'?"
+  },
+  {
+    "sentence": "Wij ______ altijd onze contractuele verplichtingen na.",
+    "options": [
+      "bijkomen",
+      "overeenkomen",
+      "nakomen",
+      "uitkomen"
+    ],
+    "correct": 2,
+    "explanation": "'Nakomen' = naleven, doen wat contractueel of moreel is afgesproken.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen. Je herstelt niet van verplichtingen.",
+      "1": "'Overeenkomen' = het eens worden. Je hebt al afgesproken — nu kom je het na.",
+      "3": "'Uitkomen' = openbaar worden. Verplichtingen worden niet onthuld — ze worden nageleefd."
+    },
+    "hint": "Je doet wat contractueel is afgesproken. Welk prefix past bij 'naleven'?"
+  },
+  {
+    "sentence": "De vergadering loopt uit — we kunnen er niet ______ van het onderwerp.",
+    "options": [
+      "bijkomen",
+      "vandaan komen",
+      "meekomen",
+      "uitkomen"
+    ],
+    "correct": 1,
+    "explanation": "'Ergens vandaan komen' = je losmaken, het verlaten. 'We kunnen er niet vandaan komen' = we raken niet klaar.",
+    "wrongExplanations": {
+      "0": "'Bijkomen' = herstellen. Je herstelt niet van een vergadering.",
+      "2": "'Meekomen' = samen gaan. Je gaat nergens naartoe.",
+      "3": "'Uitkomen' = openbaar worden. Het onderwerp wordt niet onthuld."
+    },
+    "hint": "Jullie kunnen de vergadering niet verlaten. Welk woord past bij 'je ergens van losmaken'?"
+  },
+  {
+    "sentence": "Slechts drie kandidaten zijn ______ naar de tweede ronde.",
+    "options": [
+      "meegekomen",
+      "bijgekomen",
+      "doorgekomen",
+      "terechtgekomen"
+    ],
+    "correct": 2,
+    "explanation": "'Doorkomen' = de selectie halen, naar de volgende fase gaan.",
+    "wrongExplanations": {
+      "0": "'Meekomen' = samen gaan of bijhouden. Ze gaan niet mee met iemand — ze halen de selectie.",
+      "1": "'Bijkomen' = herstellen of erbij komen. Ze komen er niet bij — ze gaan door.",
+      "3": "'Terechtkomen' = ergens belanden. Ze belanden er niet toevallig — ze halen de selectie."
+    },
+    "hint": "Ze halen de selectie en gaan naar de volgende ronde. Welk prefix past bij 'een fase halen'?"
   }
 ]
