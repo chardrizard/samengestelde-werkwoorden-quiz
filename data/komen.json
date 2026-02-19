@@ -935,23 +935,6 @@
     "hint": "Je zegt wat het beslissende element is. Welk prefix past bij 'waar het op neerkomt'?"
   },
   {
-    "sentence": "Als het er ______ aankomt, wil ik een team dat ik kan vertrouwen.",
-    "options": [
-      "op",
-      "aan",
-      "bij",
-      "mee"
-    ],
-    "correct": 0,
-    "explanation": "'Erop aankomen' = het beslissende moment; als het er echt toe doet.",
-    "wrongExplanations": {
-      "0": "'Eraan aankomen' is hier geen vaste uitdrukking. In deze betekenis gebruik je 'erop aankomen'.",
-      "1": "'Erbij aankomen' is geen vaste uitdrukking in deze betekenis.",
-      "3": "'Ermee aankomen' past niet: 'mee' gebruik je bij 'meekomen' (samen gaan/kunnen volgen), niet bij dit idioom.""
-    },
-    "hint": "Het gaat om het beslissende moment: welke vaste uitdrukking betekent 'als het er echt toe doet'?"
-  },
-  {
     "sentence": "Hij is ______ voor zijn fouten — dat vind ik knap.",
     "options": [
       "bijgekomen",
