@@ -198,7 +198,7 @@
     "explanation": "'Risico nemen' = een gevaarlijke keuze maken. Vaste uitdrukking met de basisvorm.",
     "wrongExplanations": {
       "0": "Opnemen = in het ziekenhuis of op video. Risico wordt niet opgenomen.",
-      "1": "Afnemen = verminderen. Risico vermindert niet — hij neemt het bewust.",
+      "1": "Afnemen’ betekent hier ‘minder worden’. Maar hier gaat het om een bewuste keuze maken.",
       "2": "Innemen = slikken of een positie innemen. Risico slik je niet."
     },
     "hint": "Hij maakt een onzekere keuze. Welk werkwoord gebruik je zonder prefix bij 'risico'?"
@@ -408,7 +408,7 @@
     "hint": "De dokter neemt iets weg uit je lichaam. Welk prefix past bij 'wegnemen'?"
   },
   {
-    "sentence": "Het standpunt dat de minister heeft ______.",
+    "sentence": "Het standpunt dat de minister heeft ______, zorgde voor veel discussie.",
     "options": [
       "ingenomen",
       "opgenomen",
