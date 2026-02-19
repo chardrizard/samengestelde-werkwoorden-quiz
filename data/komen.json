@@ -935,19 +935,6 @@
     "hint": "Je zegt wat het beslissende element is. Welk prefix past bij 'waar het op neerkomt'?"
   },
   {
-  "sentence": "Op het moment dat ik ______ het kantoor aankom, bel ik je.",
-  "options": ["voor", "bij", "aan", "mee"],
-  "correct": 1,
-  "explanation": "'Aankomen bij' = arriveren bij een plek.",
-  "wrongExplanations": {
-    "0": "'Voor' past hier niet: je komt niet 'voor' het kantoor aan.",
-    "2": "'Aan' gebruik je niet zo met 'aankomen' en een plek.",
-    "3": "'Mee' betekent 'samen', dat past hier niet."
-  }
-},
-    "hint": "Je beschrijft het moment dat er echt iets op het spel staat. Welk prefix past bij 'als het erop ___komt'?"
-  },
-  {
     "sentence": "Hij is ______ voor zijn fouten — dat vind ik knap.",
     "options": [
       "bijgekomen",
