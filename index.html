@@ -56,20 +56,19 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .theme-card:hover{background:var(--surface-2);border-color:var(--border-2)}
 .theme-card:active{transform:scale(0.985)}
 .theme-emoji{font-size:28px;width:48px;height:48px;display:flex;align-items:center;justify-content:center;border-radius:10px;flex-shrink:0}
-.theme-info{flex:1;min-width:0}
+.theme-info{flex:1;min-width:0;text-align:left}
 .theme-name{font-size:17px;font-weight:600;letter-spacing:-0.2px}
 .theme-desc{font-size:13px;color:var(--ink-3);margin-top:3px;font-family:var(--mono);letter-spacing:-0.3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .theme-badge{font-size:11px;font-weight:600;padding:2px 7px;border-radius:4px;color:var(--ink-2);background:var(--surface-3);margin-top:4px;display:inline-block;letter-spacing:0.3px;font-family:var(--mono)}
-.theme-count{font-size:13px;color:var(--ink-3);font-family:var(--mono);flex-shrink:0}
 .theme-arrow{color:var(--ink-3);font-size:18px;flex-shrink:0}
 .theme-accent{position:absolute;left:0;top:0;bottom:0;width:3px;border-radius:0 3px 3px 0}
 
 /* ── COUNT SELECT ── */
-.count-select{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 20px;text-align:center}
+.count-select{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 20px calc(24px + env(safe-area-inset-bottom, 0px));text-align:center}
 .count-title{font-size:28px;font-weight:700;margin-bottom:6px;color:var(--ink);letter-spacing:-0.3px}
 .count-theme-label{font-size:15px;font-weight:600;margin-bottom:6px;display:inline-flex;align-items:center;gap:6px}
 .count-desc{font-size:17px;color:var(--ink-2);margin-bottom:32px}
-.count-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%;max-width:320px}
+.count-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%;max-width:360px}
 .count-grid .btn-result.primary{grid-column:span 2}
 .count-btn{background:var(--surface);border:1px solid var(--border);padding:20px;border-radius:var(--radius-lg);font-size:22px;font-weight:600;font-family:var(--mono);color:var(--ink);transition:all 0.15s;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px}
 .count-btn span{font-size:13px;font-weight:400;color:var(--ink-3);font-family:var(--font)}
@@ -111,18 +110,18 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .option-btn.is-actual-correct{background:var(--correct-bg);border-color:var(--correct-border)}
 .option-btn.is-actual-correct .option-key{background:var(--correct);color:#fff}
 
-/* ── FILL-IN INPUT (compact pill) ── */
-.fill-input-wrap{display:inline-flex;gap:6px;align-items:center;background:var(--surface);border:1.5px solid var(--border-2);border-radius:28px;padding:4px 4px 4px 16px;transition:all 0.15s;max-width:220px}
+/* ── FILL-IN INPUT ── */
+.fill-input-wrap{display:flex;gap:0;align-items:center;background:var(--surface);border:1px solid var(--border-2);border-radius:var(--radius);padding:4px 4px 4px 16px;transition:all 0.15s}
 .fill-input-wrap:focus-within{border-color:rgba(120,160,255,0.45);background:var(--surface-2)}
 .fill-input-wrap.is-correct{border-color:var(--correct-border);background:var(--correct-bg)}
 .fill-input-wrap.is-wrong{border-color:var(--wrong-border);background:var(--wrong-bg)}
-.fill-input{flex:1;padding:6px 0;border:none;background:transparent;font-size:17px;font-weight:600;font-family:var(--mono);color:var(--ink);letter-spacing:0.3px;caret-color:var(--ink);min-width:0;width:100%}
-.fill-input::placeholder{color:var(--ink-4);font-weight:400;font-size:15px;letter-spacing:0;font-family:var(--font)}
+.fill-input{flex:1;padding:10px 0;border:none;background:transparent;font-size:17px;font-weight:500;color:var(--ink);letter-spacing:0.2px;caret-color:var(--ink);min-width:0;width:100%}
+.fill-input::placeholder{color:var(--ink-4);font-weight:400;font-size:16px;letter-spacing:0}
 .fill-input:focus{outline:none}
 .fill-input:disabled{opacity:0.6;cursor:not-allowed}
 .fill-input-wrap.is-correct .fill-input{color:#52B788}
 .fill-input-wrap.is-wrong .fill-input{color:#E8776C}
-.fill-submit{width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--bg);font-size:16px;display:flex;align-items:center;justify-content:center;transition:all 0.15s;flex-shrink:0;padding:0;line-height:1}
+.fill-submit{width:38px;height:38px;border-radius:10px;background:var(--ink);color:var(--bg);font-size:17px;display:flex;align-items:center;justify-content:center;transition:all 0.15s;flex-shrink:0;padding:0;line-height:1}
 .fill-submit:hover{opacity:0.85}
 .fill-submit:active{transform:scale(0.92)}
 .fill-submit:disabled{background:var(--surface-3);color:var(--ink-4);pointer-events:none}
@@ -140,10 +139,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .feedback-text{color:var(--ink-2)}
 
 /* ── HINT (full-width footer popover) ── */
-.hint-btn{display:inline-flex;align-items:center;gap:6px;padding:7px 13px 7px 10px;border-radius:8px;background:var(--hint-bg);border:1px solid var(--hint-border);font-size:14px;font-weight:500;color:var(--ink-3);transition:all 0.18s ease;line-height:1;flex-shrink:0}
+.hint-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:15px 18px;border-radius:var(--radius);background:var(--hint-bg);border:1px solid var(--hint-border);font-size:15px;font-weight:500;color:var(--ink-3);transition:all 0.18s ease;line-height:1;flex-shrink:0;white-space:nowrap}
 .hint-btn:hover{background:var(--hint-bg-hover);border-color:var(--hint-border-hover);color:var(--hint-color)}
 .hint-btn.open{background:var(--hint-bg-hover);border-color:var(--hint-border-hover);color:var(--hint-color)}
-.hint-btn .hint-icon{font-size:14px;line-height:1;display:flex;align-items:center}
+.hint-btn .hint-icon{font-size:15px;line-height:1;display:flex;align-items:center}
 .hint-btn .hint-chevron{font-size:9px;margin-left:2px;opacity:0.5;transition:transform 0.2s ease;display:inline-block}
 .hint-btn.open .hint-chevron{transform:rotate(180deg)}
 .hint-popover{padding:14px 16px;border-radius:var(--radius);background:var(--surface-3);border:1px solid var(--border-2);font-size:15px;color:var(--ink-2);line-height:1.6;box-shadow:0 8px 32px rgba(0,0,0,0.5);animation:hintPopIn 0.2s ease;z-index:10}
@@ -372,11 +371,10 @@ if(pendingFocus==="fill-input"&&state.fillInput){el.value=state.fillInput}}pendi
 
 function renderHome(){
   const themeCards = THEMES.map(function(t,idx){
-    var c=getThemeQuestionCount(t.id);
     var badge=(t.type==="fill")?'<div class="theme-badge">INVULLEN</div>':"";
-    return '<button class="theme-card" id="theme-'+idx+'" onclick="openThemeCountSelect(\''+esc(t.id)+'\')" aria-label="'+esc(t.label)+'"><div class="theme-accent" style="background:'+esc(t.color)+'"></div><div class="theme-emoji" style="background:'+esc(t.color)+'15">'+esc(t.emoji)+'</div><div class="theme-info"><div class="theme-name">'+esc(t.label)+'</div><div class="theme-desc">'+esc(t.description)+'</div>'+badge+'</div><div class="theme-count">'+esc(String(c))+'</div><div class="theme-arrow">›</div></button>';
+    return '<button class="theme-card" id="theme-'+idx+'" onclick="openThemeCountSelect(\''+esc(t.id)+'\')" aria-label="'+esc(t.label)+'"><div class="theme-accent" style="background:'+esc(t.color)+'"></div><div class="theme-emoji" style="background:'+esc(t.color)+'15">'+esc(t.emoji)+'</div><div class="theme-info"><div class="theme-name">'+esc(t.label)+'</div><div class="theme-desc">'+esc(t.description)+'</div>'+badge+'</div><div class="theme-arrow">›</div></button>';
   }).join("");
-  const mixCard = '<button class="theme-card" id="theme-mix" onclick="openCountSelect()" aria-label="Alles door elkaar"><div class="theme-accent" style="background:'+MIX_THEME.color+'"></div><div class="theme-emoji" style="background:'+MIX_THEME.color+'15">'+MIX_THEME.emoji+'</div><div class="theme-info"><div class="theme-name">'+MIX_THEME.label+'</div><div class="theme-desc">'+MIX_THEME.description+'</div></div><div class="theme-count">Mix</div><div class="theme-arrow">›</div></button>';
+  const mixCard = '<button class="theme-card" id="theme-mix" onclick="openCountSelect()" aria-label="Alles door elkaar"><div class="theme-accent" style="background:'+MIX_THEME.color+'"></div><div class="theme-emoji" style="background:'+MIX_THEME.color+'15">'+MIX_THEME.emoji+'</div><div class="theme-info"><div class="theme-name">'+MIX_THEME.label+'</div><div class="theme-desc">'+MIX_THEME.description+'</div></div><div class="theme-arrow">›</div></button>';
   return '<div class="home"><div class="home-header"><div class="home-label">Oefening</div><div class="home-title">Samengestelde Werkwoorden</div><div class="home-subtitle">Kies een thema en oefen met meerkeuzevragen op B1+ niveau.</div></div><nav class="theme-grid" aria-label="Themakeuze">'+themeCards+mixCard+'</nav><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Tab</span> navigeren</span><span class="kbd-hint"><span class="kbd">Enter</span> selecteren</span></div></div>';
 }
 
@@ -396,7 +394,7 @@ function renderCountSelect() {
   if (isMix) {
     buttons += '<button class="count-btn" onclick="startMixQuiz(50)" style="grid-column:span 2">50<span>vragen</span></button>';
   } else {
-    buttons += '<button class="count-btn" onclick="startThemeQuiz(\''+safeThemeId+'\',\'all\')" style="grid-column:span 2">'+esc(String(totalCount))+'<span>alle vragen</span></button>';
+    buttons += '<button class="count-btn" onclick="startThemeQuiz(\''+safeThemeId+'\',\'all\')" style="grid-column:span 2">Alles<span>alle vragen</span></button>';
   }
 
   return '<div class="count-select"><div class="count-theme-label" style="color:'+esc(t.color)+'">'+esc(themeLabel)+'</div><div class="count-title">Hoeveel vragen?</div><div class="count-desc">'+desc+'</div><div class="count-grid">'+buttons+'</div><button class="quiz-back" onclick="goHome()" style="margin-top:32px;width:auto;padding:0 20px;height:44px;gap:8px;font-size:15px">← Terug</button></div>';
@@ -449,11 +447,8 @@ function renderQuiz(){
 
   // Hint popover (full-width, separate row above button row)
   var hintPopoverRow="";
-  var hintButton="";
-  if(!state.answered){
-    if(state.showHint){hintPopoverRow='<div class="hint-overlay" onclick="toggleHint()"></div><div class="hint-popover" id="hint-box" role="region" aria-label="Hint"><div class="hint-header"><div class="hint-label"><span>💡</span> Hint</div><button class="hint-close" onclick="toggleHint()" aria-label="Hint sluiten" id="hint-close-btn">✕</button></div>'+esc(q.hint)+'</div>'}
-    hintButton='<button class="hint-btn'+(state.showHint?" open":"")+'" id="hint-btn" onclick="toggleHint()" aria-expanded="'+(state.showHint?"true":"false")+'" aria-controls="hint-box"><span class="hint-icon">💡</span><span>Hint</span><span class="kbd hint-kbd" style="margin-left:4px">H</span><span class="hint-chevron">▾</span></button>';
-  }
+  var hintButton='<button class="hint-btn'+(state.showHint?" open":"")+'" id="hint-btn" onclick="toggleHint()" aria-expanded="'+(state.showHint?"true":"false")+'" aria-controls="hint-box"'+(state.answered?' disabled':'')+' style="'+(state.answered?'opacity:0.4;pointer-events:none':'')+'"><span class="hint-icon">💡</span><span>Hint</span><span class="hint-chevron">▾</span></button>';
+  if(!state.answered&&state.showHint){hintPopoverRow='<div class="hint-overlay" onclick="toggleHint()"></div><div class="hint-popover" id="hint-box" role="region" aria-label="Hint"><div class="hint-header"><div class="hint-label"><span>💡</span> Hint</div><button class="hint-close" onclick="toggleHint()" aria-label="Hint sluiten" id="hint-close-btn">✕</button></div>'+esc(q.hint)+'</div>'}
 
   // Footer
   var footerRow='<div class="quiz-footer-row">'+hintButton+'<button class="btn-next '+(state.answered?"primary":"disabled")+'" id="btn-next" onclick="nextQuestion()"'+(state.answered?'':' tabindex="-1" aria-disabled="true"')+'>'+(state.qIdx>=total-1&&state.answered?"Resultaten bekijken":"Volgende →")+'</button></div>';
