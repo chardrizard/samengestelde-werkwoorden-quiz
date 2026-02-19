@@ -935,20 +935,16 @@
     "hint": "Je zegt wat het beslissende element is. Welk prefix past bij 'waar het op neerkomt'?"
   },
   {
-    "sentence": "Op het moment dat het ______ aan, wil ik een team dat ik kan vertrouwen.",
-    "options": [
-      "voor",
-      "bij",
-      "aan",
-      "mee"
-    ],
-    "correct": 2,
-    "explanation": "'Aankomen op' = het beslissende moment. 'Als het erop aankomt' = als het er echt toe doet.",
-    "wrongExplanations": {
-      "0": "'Voorkomen' = plaatsvinden. 'Als het eraan voorkomt' is geen standaarduitdrukking.",
-      "1": "'Bijkomen' = herstellen. 'Als het erbij aankomt' is geen standaarduitdrukking.",
-      "3": "'Meekomen' = samen gaan. 'Als het eraan meekomt' is geen standaarduitdrukking."
-    },
+  "sentence": "Op het moment dat ik ______ het kantoor aankom, bel ik je.",
+  "options": ["voor", "bij", "aan", "mee"],
+  "correct": 1,
+  "explanation": "'Aankomen bij' = arriveren bij een plek.",
+  "wrongExplanations": {
+    "0": "'Voor' past hier niet: je komt niet 'voor' het kantoor aan.",
+    "2": "'Aan' gebruik je niet zo met 'aankomen' en een plek.",
+    "3": "'Mee' betekent 'samen', dat past hier niet."
+  }
+},
     "hint": "Je beschrijft het moment dat er echt iets op het spel staat. Welk prefix past bij 'als het erop ___komt'?"
   },
   {
