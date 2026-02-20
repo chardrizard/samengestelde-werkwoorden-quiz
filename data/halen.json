@@ -8,16 +8,16 @@
       "uithalen"
     ],
     "correct": 0,
-    "explanation": "'Ophalen' = iemand ergens gaan halen met de auto of fiets.",
+    "explanation": "'Ophalen' = iemand ergens gaan halen met de auto of fiets. De beweging is: jij gaat naartoe en brengt iemand mee terug.",
     "wrongExplanations": {
-      "1": "'Afhalen' = eten meenemen of iets verwijderen. Je haalt iemand niet áf — je haalt hem óp.",
-      "2": "'Inhalen' = voorbijgaan of achterstand wegwerken. Dat past hier niet.",
-      "3": "'Uithalen' = streken uithalen of iets eruit halen. Past niet bij iemand halen."
+      "1": "'Afhalen' = eten meenemen vanuit een restaurant, of iets verwijderen van een oppervlak. Je haalt iemand niet áf — je haalt hem óp.",
+      "2": "'Inhalen' = voorbijgaan in het verkeer, of achterstand wegwerken. Dat past hier niet.",
+      "3": "'Uithalen' = streken uithalen of iets eruit halen. Past niet bij iemand ophalen."
     },
     "hint": "Je gaat met de auto naar het station om iemand mee te nemen. Welk prefix past bij 'ergens naartoe gaan om iemand te halen'?"
   },
   {
-    "sentence": "Kun je de kinderen na school ______?",
+    "sentence": "Ik ben nog op het werk — kun je de kinderen straks na school ______?",
     "options": [
       "inhalen",
       "ophalen",
@@ -25,13 +25,13 @@
       "meehalen"
     ],
     "correct": 1,
-    "explanation": "'Ophalen' = iemand ergens gaan halen, ook kinderen van school of opvang.",
+    "explanation": "'Ophalen' = speciaal ergens naartoe gaan om iemand te halen. Je maakt een aparte rit naar school — dat is het verschil met 'meehalen'.",
     "wrongExplanations": {
       "0": "'Inhalen' = voorbijgaan of achterstand bijwerken. Kinderen haal je niet in.",
-      "2": "'Afhalen' = eten meenemen of iets verwijderen. Kinderen haal je óp, niet áf.",
-      "3": "'Meehalen' = iets of iemand meenemen terwijl je toch gaat. Dat kan, maar vraagt om een andere context."
+      "2": "'Afhalen' = eten meenemen of iets van een oppervlak verwijderen. Kinderen haal je óp, niet áf.",
+      "3": "'Meehalen' gebruik je alleen als je toch al gaat. Hier ga je speciaal voor de kinderen — dat is ophalen."
     },
-    "hint": "Je gaat naar school om de kinderen mee te nemen naar huis. Welk prefix past bij iemand ergens gaan halen?"
+    "hint": "Je gaat speciaal naar school voor de kinderen. Je maakt een aparte rit. Welk prefix past bij 'ergens speciaal naartoe gaan om iemand te halen'?"
   },
   {
     "sentence": "Zullen we vanavond Chinees ______?",
@@ -42,13 +42,13 @@
       "uithalen"
     ],
     "correct": 1,
-    "explanation": "'Afhalen' = eten meenemen vanuit een restaurant (takeaway).",
+    "explanation": "'Afhalen' = eten meenemen vanuit een restaurant. Je haalt het eten op bij het restaurant en neemt het mee naar huis — dat heet afhalen.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens gaan halen. Eten haal je niet óp als een persoon.",
-      "2": "'Inhalen' = voorbijgaan of achterstand. Eten inhalen slaat nergens op.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Eten inhalen slaat nergens op.",
       "3": "'Uithalen' = streken uithalen. Eten haal je niet uit."
     },
-    "hint": "Je gaat eten meenemen vanuit een restaurant. Welk prefix past bij takeaway?"
+    "hint": "Je gaat eten meenemen vanuit een restaurant. Je haalt het op en neemt het mee naar huis. Welk prefix past hierbij?"
   },
   {
     "sentence": "Ik ga de pizza ______ — wil jij vast de tafel dekken?",
@@ -61,31 +61,31 @@
     "correct": 2,
     "explanation": "'Afhalen' = eten meenemen vanuit een restaurant. Vaste combinatie voor takeaway.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens gaan halen. Een pizza is geen persoon.",
-      "1": "'Weghalen' = verwijderen. De pizza is er nog niet — je kunt hem niet weghalen.",
+      "0": "'Ophalen' = iemand ergens gaan halen. Een pizza is geen persoon — je haalt hem áf, niet óp.",
+      "1": "'Weghalen' = verwijderen van een plek. De pizza is er nog niet — je kunt hem niet weghalen.",
       "3": "'Inhalen' = voorbijgaan of achterstand bijwerken. Past niet bij eten halen."
     },
-    "hint": "Je gaat naar de pizzeria om eten mee te nemen. Takeaway = welk prefix?"
+    "hint": "Je gaat naar de pizzeria om eten mee naar huis te nemen. Welk prefix gebruik je als je eten ophaalt bij een restaurant?"
   },
   {
-    "sentence": "Je kunt je bestelling morgen ______ bij de balie.",
+    "sentence": "Je kunt je bestelling morgen ______ bij de balie — scan je QR-code bij aankomst.",
     "options": [
       "inhalen",
       "afhalen",
-      "ophalen",
+      "meehalen",
       "binnenhalen"
     ],
     "correct": 1,
-    "explanation": "'Afhalen' = iets ophalen dat voor je klaarligt op een locatie, zoals click & collect.",
+    "explanation": "'Afhalen' = iets ophalen dat voor je klaarligt op een locatie, zoals bij click & collect of een afhaalpunt. Dit is de standaardformulering bij winkels en balie-ophaallocaties.",
     "wrongExplanations": {
       "0": "'Inhalen' = voorbijgaan of achterstand bijwerken. Een bestelling werk je niet bij.",
-      "2": "'Ophalen' kan ook, maar 'afhalen bij de balie' is de standaardformulering bij winkels en afhaalpunten.",
-      "3": "'Binnenhalen' = succesvol verkrijgen (contract, klant). Niet voor een bestelling ophalen."
+      "2": "'Meehalen' = iets meenemen terwijl je toch ergens naartoe gaat. Hier ga je speciaal voor je bestelling — dat is afhalen.",
+      "3": "'Binnenhalen' = succesvol verkrijgen, zoals een contract of klant. Niet voor een bestelling ophalen."
     },
     "hint": "Je bestelling ligt klaar aan de balie. Welk prefix gebruiken winkels bij 'click & collect'?"
   },
   {
-    "sentence": "Kun je wat brood ______ van de supermarkt?",
+    "sentence": "Ik ga toch langs de supermarkt — kun je wat brood ______?",
     "options": [
       "ophalen",
       "meehalen",
@@ -93,10 +93,10 @@
       "inhalen"
     ],
     "correct": 1,
-    "explanation": "'Meehalen' = iets meenemen terwijl je toch ergens naartoe gaat. Heel gewoon in gesproken Nederlands.",
+    "explanation": "'Meehalen' = iets meenemen terwijl je toch ergens naartoe gaat. Heel gewoon in gesproken Nederlands. De sleutelzin is: 'ik ga toch langs' — je gaat niet speciaal voor het brood.",
     "wrongExplanations": {
-      "0": "'Ophalen' = naar een plek gaan speciaal om iemand/iets te halen. Je gaat toch al naar de supermarkt.",
-      "2": "'Afhalen' = takeaway eten of iets van een oppervlak halen. Brood haal je niet áf.",
+      "0": "'Ophalen' = speciaal ergens naartoe gaan om iets te halen. Hier ga je toch al naar de supermarkt — dat is meehalen, niet ophalen.",
+      "2": "'Afhalen' = takeaway eten van een restaurant, of iets van een oppervlak halen. Brood haal je niet áf.",
       "3": "'Inhalen' = voorbijgaan of achterstand bijwerken. Brood haal je niet in."
     },
     "hint": "Je gaat sowieso naar de supermarkt. Je neemt brood mee — niet speciaal ervoor. Welk prefix past bij iets meenemen terwijl je toch gaat?"
@@ -110,11 +110,11 @@
       "afhalen"
     ],
     "correct": 2,
-    "explanation": "'Meehalen' = iets extra meenemen terwijl je toch ergens bent. 'Wil je iets meehalen?' = wil je iets meenemen terwijl ik toch ga?",
+    "explanation": "'Meehalen' = iets extra meenemen terwijl je toch ergens bent of naartoe gaat. Meehalen = je gaat toch al. Ophalen = je gaat speciaal ervoor.",
     "wrongExplanations": {
-      "0": "'Binnenhalen' = succesvol verkrijgen. Niet voor een kopje koffie.",
-      "1": "'Ophalen' = speciaal ergens naartoe gaan om iets te halen. Je gaat toch al koffie zetten.",
-      "3": "'Afhalen' = takeaway of van een oppervlak halen. Past niet hier."
+      "0": "'Binnenhalen' = succesvol verkrijgen, zoals een contract of klant. Niet voor een kopje koffie meenemen.",
+      "1": "'Ophalen' = speciaal ergens naartoe gaan om iets te halen. Je gaat toch al koffie zetten — dat is meehalen.",
+      "3": "'Afhalen' = takeaway eten of van een oppervlak halen. Past niet in deze context."
     },
     "hint": "Je gaat toch al koffie zetten. Welk prefix gebruik je als je iemand vraagt of ze iets mee willen nemen?"
   },
@@ -127,9 +127,9 @@
       "uithalen"
     ],
     "correct": 0,
-    "explanation": "'Inhalen' = achterstand wegwerken, bijwerken.",
+    "explanation": "'Inhalen' = achterstand wegwerken, bijkomen na een gemiste periode. Je werkt de achterstand weg totdat je weer op hetzelfde niveau zit als de rest.",
     "wrongExplanations": {
-      "1": "'Afhalen' = eten meenemen. Lessen zijn geen takeaway.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Lessen zijn geen takeaway.",
       "2": "'Ophalen' = iemand ergens halen. Gemiste lessen haal je niet op als een persoon.",
       "3": "'Uithalen' = streken uithalen. Lessen haal je niet uit."
     },
@@ -141,16 +141,16 @@
       "inhalen",
       "afhalen",
       "ophalen",
-      "uithalen"
+      "meehalen"
     ],
     "correct": 0,
-    "explanation": "'Inhalen' = achterstand bijwerken. Standaard uitdrukking op het werk.",
+    "explanation": "'Inhalen' = achterstand bijwerken na afwezigheid. Op het werk gebruik je 'inhalen' voor alles wat je hebt gemist: e-mails, vergaderingen, deadlines.",
     "wrongExplanations": {
-      "1": "'Afhalen' = eten meenemen. Werk is geen takeaway.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Werk is geen takeaway.",
       "2": "'Ophalen' = iemand ergens halen. Werk haal je niet op als een pakket.",
-      "3": "'Uithalen' = streken uithalen. Werk haal je niet uit."
+      "3": "'Meehalen' = iets meenemen terwijl je toch gaat. Dat past hier niet — ze wil achterstand bijwerken."
     },
-    "hint": "Ze was weg en heeft nu veel achterstand. Welk prefix past bij 'achterstand bijwerken'?"
+    "hint": "Ze was weg en heeft nu veel achterstand op het werk. Welk prefix past bij 'achterstand bijwerken'?"
   },
   {
     "sentence": "Ze heeft de verloren tijd weer ______.",
@@ -161,10 +161,10 @@
       "uitgehaald"
     ],
     "correct": 1,
-    "explanation": "'Inhalen' = achterstand wegwerken.",
+    "explanation": "'Inhalen' = achterstand wegwerken. 'De verloren tijd inhalen' is een vaste uitdrukking. Je kunt ook zeggen: 'de achterstand inhalen'.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens halen. Tijd haal je niet op als een persoon.",
-      "2": "'Afhalen' = eten meenemen. Tijd is geen takeaway.",
+      "2": "'Afhalen' = eten meenemen of van een oppervlak halen. Tijd is geen takeaway.",
       "3": "'Uithalen' = streken uithalen. Tijd haal je niet uit."
     },
     "hint": "Ze was achter maar heeft het bijgewerkt. Welk prefix past bij 'achterstand wegwerken'?"
@@ -178,10 +178,10 @@
       "uithaalde"
     ],
     "correct": 2,
-    "explanation": "'Inhalen' = voorbijgaan, iemand passeren in het verkeer.",
+    "explanation": "'Inhalen' = voorbijgaan, iemand passeren in het verkeer. In het verkeer is 'inhalen' het standaardwoord voor voorbijrijden. Let op: in België zeggen ze ook wel 'voorbijsteken'.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens gaan halen. De auto haalt ons niet op — hij rijdt ons voorbij.",
-      "1": "'Afhalen' = eten meenemen. De auto haalt ons niet af.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. De auto haalt ons niet af.",
       "3": "'Uithalen' = streken uithalen. De auto haalt niets uit — hij passeert ons."
     },
     "hint": "De auto rijdt ons voorbij op de snelweg. Welk prefix past bij 'passeren in het verkeer'?"
@@ -195,16 +195,16 @@
       "uitgehaald"
     ],
     "correct": 0,
-    "explanation": "'Inhalen' = voorbijgaan, passeren.",
+    "explanation": "'Inhalen' = voorbijgaan, passeren. Let op de passieve vorm: 'werd ingehaald' = een andere renner ging hem voorbij.",
     "wrongExplanations": {
-      "1": "'Afhalen' = eten meenemen. De renner is geen takeaway.",
-      "2": "'Ophalen' = iemand ergens gaan halen. De renner wordt niet opgehaald.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. De renner is geen takeaway.",
+      "2": "'Ophalen' = iemand ergens gaan halen. De renner wordt niet opgehaald — hij wordt gepasseerd.",
       "3": "'Uithalen' = streken uithalen. De renner wordt niet uitgehaald."
     },
     "hint": "Een andere renner gaat hem voorbij net voor de finish. Welk prefix past bij 'passeren'?"
   },
   {
-    "sentence": "Het verleden heeft haar ______.",
+    "sentence": "Ze dacht dat ze was ontsnapt, maar het verleden heeft haar ______.",
     "options": [
       "ingehaald",
       "afgehaald",
@@ -212,45 +212,45 @@
       "uitgehaald"
     ],
     "correct": 0,
-    "explanation": "'Het verleden haalt je in' = je kunt niet ontsnappen aan je verleden. Vaste uitdrukking.",
+    "explanation": "'Het verleden haalt je in' = je kunt niet ontsnappen aan je verleden. Vaste uitdrukking. Figuurlijk gebruik van 'inhalen': iets achtervolgt je en haalt je uiteindelijk bij.",
     "wrongExplanations": {
-      "1": "'Afhalen' = eten meenemen. Het verleden is geen takeaway.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Het verleden is geen takeaway.",
       "2": "'Ophalen' = iemand ergens halen. Het verleden haalt je niet op als een persoon.",
       "3": "'Uithalen' = streken uithalen. Het verleden haalt geen streken uit."
     },
-    "hint": "Het verleden achtervolgt haar en haalt haar uiteindelijk bij. Welk prefix past bij 'bijhalen'?"
+    "hint": "Soms kun je niet ontsnappen aan je verleden. Het achtervolgt je en haalt je uiteindelijk bij. Welk prefix past bij dit 'bijhalen'?"
   },
   {
-    "sentence": "Ze kon haar diploma niet ______.",
+    "sentence": "Ze had te weinig punten en kon haar diploma niet ______.",
     "options": [
-      "ophalen",
+      "binnenhalen",
       "halen",
       "inhalen",
       "afhalen"
     ],
     "correct": 1,
-    "explanation": "'Halen' = slagen voor een examen. Basisvorm zonder prefix.",
+    "explanation": "'Halen' zonder prefix = slagen voor een examen. 'Ze heeft haar diploma gehaald' = ze is geslaagd. Let op het verschil: 'diploma halen' (slagen) vs. 'diploma ophalen' (het document gaan ophalen bij de school).",
     "wrongExplanations": {
-      "0": "'Ophalen' = het document fysiek gaan halen. Maar hier gaat het om slagen — niet het document ophalen.",
+      "0": "'Binnenhalen' = succesvol verkrijgen, zoals een contract. Je zegt niet 'een diploma binnenhalen'.",
       "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Een diploma haal je niet in.",
-      "3": "'Afhalen' = eten meenemen. Een diploma is geen takeaway."
+      "3": "'Afhalen' = eten meenemen of iets van een oppervlak halen. Een diploma is geen takeaway."
     },
     "hint": "Ze is niet geslaagd voor het examen. Welk werkwoord gebruik je zonder prefix voor 'slagen'?"
   },
   {
     "sentence": "Ze heeft haar rijbewijs in één keer ______.",
     "options": [
-      "opgehaald",
+      "binnengehaald",
       "afgehaald",
       "gehaald",
       "ingehaald"
     ],
     "correct": 2,
-    "explanation": "'Halen' = slagen voor een examen. Basisvorm.",
+    "explanation": "'Halen' zonder prefix = slagen voor een examen. Vergelijk: 'Ze heeft haar rijbewijs gehaald' (= geslaagd bij het examen) vs. 'Ze is haar rijbewijs gaan ophalen bij het CBR' (= het document ophalen).",
     "wrongExplanations": {
-      "0": "'Ophalen' = het document gaan halen. Maar hier gaat het om slagen bij het examen.",
-      "1": "'Afhalen' = eten meenemen. Een rijbewijs is geen takeaway.",
-      "3": "'Inhalen' = voorbijgaan. Een examen haal je niet in — je haalt het."
+      "0": "'Binnenhalen' = succesvol verkrijgen, zoals een contract of klant. Je zegt niet 'een rijbewijs binnenhalen'.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Een rijbewijs is geen takeaway.",
+      "3": "'Inhalen' = voorbijgaan of achterstand bijwerken. Een examen haal je niet in — je haalt het."
     },
     "hint": "Ze is geslaagd bij de eerste poging. Welk werkwoord gebruik je zonder prefix voor 'slagen'?"
   },
@@ -263,7 +263,7 @@
       "ophalen"
     ],
     "correct": 2,
-    "explanation": "'Een deadline halen' = de deadline op tijd bereiken. Basisvorm.",
+    "explanation": "'Een deadline halen' = de deadline op tijd bereiken. Basisvorm zonder prefix. Let op de woordvolgorde in de bijzin: '...dat hij de deadline niet gaat halen' — het werkwoord staat aan het einde.",
     "wrongExplanations": {
       "0": "'Inhalen' = achterstand bijwerken. Je werkt achterstand bij — je haalt een deadline.",
       "1": "'Binnenhalen' = succesvol verkrijgen. Een deadline haal je niet binnen — je haalt hem.",
@@ -272,7 +272,7 @@
     "hint": "Hij twijfelt of hij op tijd klaar is. Welk werkwoord gebruik je als je een deadline 'bereikt'?"
   },
   {
-    "sentence": "Het team heeft een goed resultaat ______.",
+    "sentence": "Het team heeft een goed resultaat ______ bij de presentatie.",
     "options": [
       "afgehaald",
       "opgehaald",
@@ -280,7 +280,7 @@
       "gehaald"
     ],
     "correct": 3,
-    "explanation": "'Een resultaat halen' = een resultaat bereiken of behalen. Basisvorm.",
+    "explanation": "'Een resultaat halen' = een resultaat bereiken of behalen. Basisvorm zonder prefix. Vergelijk: 'resultaat halen' (bereiken) vs. 'binnenhalen' (klinkt actiever, gebruik je voor contracten of klanten, niet voor resultaten).",
     "wrongExplanations": {
       "0": "'Afhalen' = eten meenemen of van een oppervlak halen. Resultaten haal je niet af.",
       "1": "'Ophalen' = iemand ergens gaan halen. Resultaten haal je niet op als een persoon.",
@@ -291,36 +291,36 @@
   {
     "sentence": "Hij gaat even brood ______ bij de bakker.",
     "options": [
-      "ophalen",
+      "meehalen",
       "afhalen",
       "inhalen",
       "halen"
     ],
     "correct": 3,
-    "explanation": "'Halen' = gaan kopen of meenemen. Basisvorm voor dagelijkse boodschappen.",
+    "explanation": "'Halen' = gaan kopen of meenemen. Basisvorm voor dagelijkse boodschappen. Bij de bakker koop je brood gewoon — je gebruikt 'halen' zonder prefix.",
     "wrongExplanations": {
-      "0": "'Ophalen' = speciaal ergens naartoe gaan om iets te halen dat klaarligt. Bij de bakker koop je brood — je haalt het gewoon.",
-      "1": "'Afhalen' = specifiek takeaway-eten van een restaurant. Bij de bakker haal je brood.",
-      "2": "'Inhalen' = voorbijgaan. Brood haal je niet in."
+      "0": "'Meehalen' = iets meenemen terwijl je toch ergens naartoe gaat. Hier gaat hij speciaal voor het brood — dat is gewoon 'halen'.",
+      "1": "'Afhalen' = specifiek takeaway-eten van een restaurant meenemen. Bij een bakker koop en haal je brood gewoon — 'afhalen' gebruik je niet voor een bakker.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Brood haal je niet in."
     },
-    "hint": "Je gaat naar de bakker om brood te kopen. Welk werkwoord gebruik je zonder prefix?"
+    "hint": "Je gaat naar de bakker om brood te kopen. Welk werkwoord gebruik je zonder prefix voor een dagelijkse boodschap?"
   },
   {
-    "sentence": "Ze moest even adem ______ na het hardlopen.",
+    "sentence": "Ze kon nauwelijks meer ______ na het hardlopen.",
     "options": [
       "ophalen",
-      "halen",
       "afhalen",
+      "inhalen",
       "ademhalen"
     ],
     "correct": 3,
-    "explanation": "'Ademhalen' = ademen. Altijd als één woord geschreven in samengestelde vorm.",
+    "explanation": "'Ademhalen' = ademen. Altijd als één samengesteld werkwoord geschreven.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand halen. Adem haal je niet op als een pakket.",
-      "1": "'Adem halen' (los) is ook correct in informele taal, maar als samengesteld werkwoord schrijf je het aan elkaar.",
-      "2": "'Afhalen' = eten meenemen. Adem is geen takeaway."
+      "0": "'Ophalen' = iemand ergens halen. Je haalt adem niet op als een pakket.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Past niet bij ademen.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Je haalt adem niet in."
     },
-    "hint": "Na inspanning moet je weer normaal ademen. Welk samengesteld werkwoord beschrijft dit?"
+    "hint": "Na inspanning moet je weer normaal ademen. Welk samengesteld werkwoord beschrijft de actie van ademen?"
   },
   {
     "sentence": "Kun je even diep ______?",
@@ -331,11 +331,11 @@
       "ademhalen"
     ],
     "correct": 3,
-    "explanation": "'Ademhalen' = ademen. Een samengesteld werkwoord.",
+    "explanation": "'Ademhalen' = ademen. Een samengesteld werkwoord dat altijd aan elkaar geschreven wordt: niet 'adem halen' maar 'ademhalen'.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens halen. Je haalt adem niet op als een persoon.",
       "1": "'Afhalen' = eten meenemen. Adem is geen takeaway.",
-      "2": "'Inhalen' = voorbijgaan of achterstand. Je haalt adem niet in."
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Je haalt adem niet in."
     },
     "hint": "Je moet diep ademen. Welk samengesteld werkwoord past bij de actie van ademen?"
   },
@@ -348,11 +348,11 @@
       "inhalen"
     ],
     "correct": 0,
-    "explanation": "'Ophalen' = afval laten ophalen door de vuilnisdienst. Standaard gebruik.",
+    "explanation": "'Ophalen' = afval laten ophalen door de vuilnisdienst. 'Laten ophalen' = je regelt dat iemand anders het komt halen. De vuilnisdienst haalt het vuil op.",
     "wrongExplanations": {
-      "1": "'Afhalen' = eten meenemen. Vuil haal je niet af als takeaway.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Vuil haal je niet af als takeaway.",
       "2": "'Uithalen' = streken uithalen. Vuil haal je niet uit.",
-      "3": "'Inhalen' = voorbijgaan. Vuil haal je niet in."
+      "3": "'Inhalen' = voorbijgaan of achterstand bijwerken. Vuil haal je niet in."
     },
     "hint": "De vuilniswagen komt het afval halen. Welk prefix past bij 'komen ophalen'?"
   },
@@ -360,21 +360,21 @@
     "sentence": "Ik ga het pakket bij het postkantoor ______.",
     "options": [
       "uithalen",
-      "afhalen",
+      "meehalen",
       "inhalen",
       "ophalen"
     ],
     "correct": 3,
-    "explanation": "'Ophalen' = iets ergens gaan halen dat klaarligt. Pakket ophalen bij postkantoor is standaard.",
+    "explanation": "'Ophalen' = iets ergens gaan halen dat klaarligt. Pakket ophalen bij het postkantoor is de standaardformulering in Nederland.",
     "wrongExplanations": {
       "0": "'Uithalen' = streken uithalen. Een pakket haal je niet uit.",
-      "1": "'Afhalen' kan hier ook, maar 'ophalen' is gebruikelijker voor pakketten.",
-      "2": "'Inhalen' = achterstand bijwerken. Een pakket werk je niet bij."
+      "1": "'Meehalen' = iets meenemen terwijl je toch ergens naartoe gaat. Hier ga je speciaal voor het pakket — dat is ophalen.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Een pakket werk je niet bij."
     },
-    "hint": "Het pakket ligt klaar en je gaat het halen. Welk prefix past bij 'ergens naartoe gaan om iets te halen'?"
+    "hint": "Het pakket ligt klaar en je gaat er speciaal voor. Welk prefix past bij 'ergens naartoe gaan om iets te halen'?"
   },
   {
-    "sentence": "Kun je even herinneringen ______?",
+    "sentence": "Zullen we straks even herinneringen ______ bij een kopje koffie?",
     "options": [
       "afhalen",
       "inhalen",
@@ -382,13 +382,13 @@
       "uithalen"
     ],
     "correct": 2,
-    "explanation": "'Herinneringen ophalen' = terugdenken aan het verleden. Vaste uitdrukking.",
+    "explanation": "'Herinneringen ophalen' = samen terugdenken aan vroeger. Vaste uitdrukking. Vergelijkbaar met 'oude tijden ophalen'.",
     "wrongExplanations": {
       "0": "'Afhalen' = eten meenemen of van een oppervlak halen. Herinneringen haal je niet af.",
-      "1": "'Inhalen' = voorbijgaan. Herinneringen haal je niet in.",
+      "1": "'Inhalen' = voorbijgaan of achterstand bijwerken. Herinneringen haal je niet in.",
       "3": "'Uithalen' = streken uithalen. Herinneringen haal je niet uit."
     },
-    "hint": "Je denkt terug aan vroeger. Welk prefix past bij 'terugdenken aan het verleden'?"
+    "hint": "Je denkt samen terug aan vroeger. Welk prefix past bij 'terugdenken aan het verleden'?"
   },
   {
     "sentence": "De oude tijden werden tijdens het diner ______.",
@@ -399,13 +399,13 @@
       "uitgehaald"
     ],
     "correct": 2,
-    "explanation": "'Herinneringen ophalen' = terugdenken aan vroeger. Vaste uitdrukking.",
+    "explanation": "'Oude tijden ophalen' en 'herinneringen ophalen' zijn beide vaste uitdrukkingen voor samen terugdenken aan vroeger.",
     "wrongExplanations": {
-      "0": "'Afhalen' = eten meenemen. Oude tijden haal je niet af.",
-      "1": "'Inhalen' = voorbijgaan. Oude tijden haal je niet in.",
+      "0": "'Afhalen' = eten meenemen of van een oppervlak halen. Oude tijden haal je niet af.",
+      "1": "'Inhalen' = voorbijgaan of achterstand bijwerken. Oude tijden haal je niet in.",
       "3": "'Uithalen' = streken uithalen. Oude tijden haal je niet uit."
     },
-    "hint": "Mensen denken terug aan vroeger. Welk prefix past bij 'terugdenken'?"
+    "hint": "Mensen denken samen terug aan vroeger. Welk prefix past bij 'terugdenken'?"
   },
   {
     "sentence": "De kinderen hebben weer kattenkwaad ______.",
@@ -416,11 +416,11 @@
       "uitgehaald"
     ],
     "correct": 3,
-    "explanation": "'Uithalen' = streken uithalen, kattenkwaad doen. Vaste uitdrukking.",
+    "explanation": "'Uithalen' = streken uithalen, kattenkwaad doen. Vaste uitdrukking. Andere combinaties: streken uithalen, trucs uithalen.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens halen. Kattenkwaad haal je niet op.",
-      "1": "'Afhalen' = eten meenemen. Kattenkwaad is geen takeaway.",
-      "2": "'Inhalen' = voorbijgaan. Kattenkwaad haal je niet in."
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Kattenkwaad is geen takeaway.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Kattenkwaad haal je niet in."
     },
     "hint": "De kinderen doen stoute dingen. Welk prefix past bij 'streken uithalen'?"
   },
@@ -433,11 +433,11 @@
       "ingehaald"
     ],
     "correct": 2,
-    "explanation": "'Uithalen' = streken uithalen, kattenkwaad doen.",
+    "explanation": "'Uithalen' = streken uithalen, kattenkwaad doen. Zonder het woord 'kattenkwaad' werkt 'uithalen' nog steeds. 'Wat heb je nu weer uitgehaald?' = wat voor stunt heb je nu weer gedaan?",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens halen. De jongen haalt niemand op.",
-      "1": "'Afhalen' = eten meenemen. De jongen haalt geen eten af.",
-      "3": "'Inhalen' = voorbijgaan. De jongen haalt niemand in."
+      "0": "'Ophalen' = iemand ergens gaan halen. De jongen haalt niemand op.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. De jongen haalt geen eten af.",
+      "3": "'Inhalen' = voorbijgaan of achterstand bijwerken. De jongen haalt niemand in."
     },
     "hint": "De jongen heeft weer iets stouts gedaan. Welk prefix past bij 'streken uithalen'?"
   },
@@ -450,11 +450,11 @@
       "op"
     ],
     "correct": 0,
-    "explanation": "'Uithalen' = nut hebben, zin hebben. 'Het haalt niets uit' = het heeft geen zin.",
+    "explanation": "'Het haalt niets uit' = het heeft geen zin, het helpt niet. Vaste uitdrukking. Synoniemen: 'het heeft geen nut', 'het helpt niets'.",
     "wrongExplanations": {
-      "1": "'Het haalt niets af' is geen standaarduitdrukking.",
-      "2": "'Het haalt niets in' is geen standaarduitdrukking.",
-      "3": "'Het haalt niets op' is geen standaarduitdrukking."
+      "1": "'Het haalt niets af' is geen standaarduitdrukking in het Nederlands.",
+      "2": "'Het haalt niets in' is geen standaarduitdrukking in het Nederlands.",
+      "3": "'Het haalt niets op' is geen standaarduitdrukking in het Nederlands."
     },
     "hint": "Klagen heeft geen zin. Welk prefix past bij de vaste uitdrukking 'het haalt niets ___'?"
   },
@@ -467,10 +467,10 @@
       "uitgehaald"
     ],
     "correct": 2,
-    "explanation": "'Afhalen' = verwijderen van een oppervlak. Je haalt het laken van het bed af.",
+    "explanation": "'Afhalen' = verwijderen van een oppervlak. Je haalt het laken van het bed áf. Let op: 'afhalen' heeft twee hoofdbetekenissen: (1) eten meenemen uit een restaurant, (2) iets verwijderen van een oppervlak. Hier is het betekenis 2.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens halen. Een laken haal je niet op.",
-      "1": "'Inhalen' = voorbijgaan. Een laken haal je niet in.",
+      "0": "'Ophalen' = iemand ergens gaan halen. Een laken haal je niet op als een persoon.",
+      "1": "'Inhalen' = voorbijgaan of achterstand bijwerken. Een laken haal je niet in.",
       "3": "'Uithalen' = streken uithalen. Een laken haal je niet uit."
     },
     "hint": "Het laken wordt van het bed verwijderd. Welk prefix past bij 'van een oppervlak halen'?"
@@ -484,16 +484,16 @@
       "worden uitgehaald"
     ],
     "correct": 2,
-    "explanation": "'Afhalen' = van een oppervlak verwijderen. Ook voor stickers, behang, verf.",
+    "explanation": "'Afhalen' = van een oppervlak verwijderen. Net als het laken van het bed — je haalt iets áf van een oppervlak. De beweging is altijd: van het oppervlak af. Ook voor behang, verf, stickers.",
     "wrongExplanations": {
-      "0": "'Inhalen' = voorbijgaan. Stickers haal je niet in.",
-      "1": "'Ophalen' = iemand ergens halen. Stickers haal je niet op als een persoon.",
+      "0": "'Inhalen' = voorbijgaan of achterstand bijwerken. Stickers haal je niet in.",
+      "1": "'Ophalen' = iemand ergens gaan halen. Stickers haal je niet op als een persoon.",
       "3": "'Uithalen' = streken uithalen. Stickers haal je niet uit."
     },
     "hint": "De stickers zitten op het raam en moeten worden verwijderd. Welk prefix past bij 'van een oppervlak halen'?"
   },
   {
-    "sentence": "De was moet van de lijn ______ worden.",
+    "sentence": "Het gaat regenen — de was moet snel van de lijn ______ worden.",
     "options": [
       "opgehaald",
       "afgehaald",
@@ -501,13 +501,13 @@
       "binnengehaald"
     ],
     "correct": 3,
-    "explanation": "'Binnenhalen' = van buiten naar binnen halen (was, oogst). Bewegingsrichting naar binnen.",
+    "explanation": "'Binnenhalen' = van buiten naar binnen halen. De bewegingsrichting is essentieel: je haalt het naar binnen toe. Gebruik ook voor: de oogst binnenhalen, de was binnenhalen.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens halen. De was wordt niet opgehaald als een persoon.",
-      "1": "'Afhalen' = van een oppervlak halen. De was hangt buiten — je haalt het naar bínnen.",
-      "2": "'Inhalen' = voorbijgaan. De was haal je niet in."
+      "0": "'Ophalen' = iemand ergens gaan halen. De was wordt niet opgehaald als een persoon.",
+      "1": "'Afhalen' = van een oppervlak halen of takeaway eten. De was hangt buiten — je haalt het naar bínnen, niet er gewoon af.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. De was haal je niet in."
     },
-    "hint": "De was hangt buiten en moet naar binnen. Welk prefix past bij 'van buiten naar binnen'?"
+    "hint": "De was hangt buiten en moet snel naar binnen vanwege de regen. Welk prefix past bij 'van buiten naar binnen'?"
   },
   {
     "sentence": "Het bedrijf heeft een grote klant ______.",
@@ -518,13 +518,13 @@
       "uitgehaald"
     ],
     "correct": 1,
-    "explanation": "'Binnenhalen' = succesvol verkrijgen, winnen — zoals een klant, contract of subsidie.",
+    "explanation": "'Binnenhalen' = succesvol verkrijgen, winnen. Gebruik voor: klanten, contracten, subsidies, opdrachten, prijzen.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens halen. Een klant haal je niet op bij het station.",
-      "2": "'Afhalen' = eten meenemen. Een klant is geen takeaway.",
+      "0": "'Ophalen' = iemand ergens gaan halen. Een klant haal je niet op bij het station.",
+      "2": "'Afhalen' = eten meenemen of van een oppervlak halen. Een klant is geen takeaway.",
       "3": "'Uithalen' = streken uithalen. Een klant haal je niet uit."
     },
-    "hint": "Het bedrijf heeft de klant succesvol gewonnen. Welk prefix past bij 'naar binnen halen' in zakelijke context?"
+    "hint": "Het bedrijf heeft de klant succesvol gewonnen. Welk prefix past bij 'succesvol verkrijgen' in zakelijke context?"
   },
   {
     "sentence": "Ze heeft een grote subsidie voor het project ______.",
@@ -535,11 +535,11 @@
       "afgehaald"
     ],
     "correct": 2,
-    "explanation": "'Binnenhalen' = succesvol verkrijgen. Vaak voor contracten, subsidies, prijzen.",
+    "explanation": "'Binnenhalen' = succesvol verkrijgen. Vaak voor contracten, subsidies, prijzen. Zie ook: 'een klant binnenhalen', 'een opdracht binnenhalen'.",
     "wrongExplanations": {
       "0": "'Inhalen' = voorbijgaan of achterstand bijwerken. Een subsidie haal je niet in.",
       "1": "'Ophalen' = iemand ergens halen. Een subsidie haal je niet op.",
-      "3": "'Afhalen' = eten meenemen. Een subsidie is geen takeaway."
+      "3": "'Afhalen' = eten meenemen of van een oppervlak halen. Een subsidie is geen takeaway."
     },
     "hint": "Ze heeft de subsidie gekregen na een aanvraag. Welk prefix past bij 'succesvol verkrijgen'?"
   },
@@ -552,13 +552,13 @@
       "binnengehaald"
     ],
     "correct": 3,
-    "explanation": "'Binnenhalen' = winnen, een prijs of titel succesvol verkrijgen.",
+    "explanation": "'Binnenhalen' = winnen, een prijs of titel succesvol verkrijgen. Gebruik: klanten, contracten, subsidies, en ook prijzen of titels zoals het WK.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens halen. Het WK wordt niet opgehaald.",
-      "1": "'Afhalen' = eten meenemen. Het WK is geen takeaway.",
+      "0": "'Ophalen' = iemand ergens gaan halen. Het WK wordt niet opgehaald als een persoon.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Het WK is geen takeaway.",
       "2": "'Uithalen' = streken uithalen. Het WK haal je niet uit."
     },
-    "hint": "Nederland probeerde het toernooi te winnen. Welk prefix past bij 'succesvol verkrijgen'?"
+    "hint": "Nederland probeerde het toernooi te winnen. Welk prefix past bij 'succesvol verkrijgen of winnen'?"
   },
   {
     "sentence": "De politie heeft de gestolen auto ______.",
@@ -569,13 +569,13 @@
       "uitgehaald"
     ],
     "correct": 2,
-    "explanation": "'Achterhalen' = opsporen, terugvinden.",
+    "explanation": "'Achterhalen' heeft twee betekenissen: (1) opsporen of terugvinden (een auto, een persoon), (2) te weten komen (de waarheid, een identiteit). Hier is het betekenis 1.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens gaan halen. De auto wordt niet opgehaald — hij wordt opgespoord.",
-      "1": "'Afhalen' = eten meenemen. Een auto is geen takeaway.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Een auto is geen takeaway.",
       "3": "'Uithalen' = streken uithalen. De auto haalt geen streken uit."
     },
-    "hint": "De politie heeft de auto opgespoord. Welk prefix past bij 'opsporen'?"
+    "hint": "De politie heeft de auto opgespoord. Welk prefix past bij 'opsporen of terugvinden'?"
   },
   {
     "sentence": "Het is moeilijk om de waarheid te ______.",
@@ -586,11 +586,11 @@
       "achterhalen"
     ],
     "correct": 3,
-    "explanation": "'Achterhalen' = te weten komen, ontdekken.",
+    "explanation": "'Achterhalen' = te weten komen, ontdekken. Hier gaat het om informatie achterhalen — te weten komen wat er echt is gebeurd. Verschil met 'een auto achterhalen': daar gaat het om een object terugvinden.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens halen. De waarheid haal je niet op als een pakket.",
-      "1": "'Afhalen' = eten meenemen. De waarheid is geen takeaway.",
-      "2": "'Inhalen' = voorbijgaan. De waarheid haal je niet in."
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. De waarheid is geen takeaway.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. De waarheid haal je niet in."
     },
     "hint": "Je probeert iets verborgens te ontdekken. Welk prefix past bij 'te weten komen'?"
   },
@@ -603,16 +603,16 @@
       "binnenhalen"
     ],
     "correct": 2,
-    "explanation": "'Achterhalen' = ontdekken, vaststellen wie iemand is.",
+    "explanation": "'Achterhalen' = ontdekken, vaststellen wie iemand is. Te weten komen wat verborgen is.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens halen. Een identiteit haal je niet op.",
-      "1": "'Afhalen' = eten meenemen. Een identiteit is geen takeaway.",
-      "3": "'Binnenhalen' = succesvol verkrijgen. Een identiteit haal je niet binnen."
+      "0": "'Ophalen' = iemand ergens gaan halen. Een identiteit haal je niet op.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Een identiteit is geen takeaway.",
+      "3": "'Binnenhalen' = succesvol verkrijgen, zoals een contract. Een identiteit haal je niet binnen."
     },
     "hint": "De politie probeert te ontdekken wie iemand is. Welk prefix past bij 'te weten komen'?"
   },
   {
-    "sentence": "Het is niet meer te ______.",
+    "sentence": "De originele bedoeling van de wet is niet meer te ______.",
     "options": [
       "ophalen",
       "achterhalen",
@@ -620,16 +620,16 @@
       "inhalen"
     ],
     "correct": 1,
-    "explanation": "'Achterhalen' = ontdekken, te weten komen.",
+    "explanation": "'Achterhalen' = ontdekken, te weten komen. 'Dat is niet meer te achterhalen' is een veelgebruikte vaste uitdrukking.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens halen. Je haalt het niet op — je kunt het niet meer ontdekken.",
-      "2": "'Afhalen' = eten meenemen. Past niet bij ontdekken.",
-      "3": "'Inhalen' = achterstand wegwerken. Het gaat niet om achterstand hier."
+      "0": "'Ophalen' = iemand ergens halen. Je haalt de bedoeling niet op — je kunt hem niet meer ontdekken.",
+      "2": "'Afhalen' = eten meenemen of van een oppervlak halen. Past niet bij ontdekken.",
+      "3": "'Inhalen' = achterstand wegwerken. Het gaat hier niet om achterstand."
     },
     "hint": "Iets dat niet meer te ontdekken is. Welk prefix past bij 'te weten komen'?"
   },
   {
-    "sentence": "Ze heeft haar schouders ______.",
+    "sentence": "Ze wist het antwoord niet en heeft haar schouders ______.",
     "options": [
       "opgehaald",
       "afgehaald",
@@ -637,10 +637,10 @@
       "uitgehaald"
     ],
     "correct": 0,
-    "explanation": "'Schouders ophalen' = het gebaar van onverschilligheid of 'ik weet het niet'. Vaste uitdrukking.",
+    "explanation": "'Schouders ophalen' = het gebaar van onverschilligheid of 'ik weet het niet'. Vaste uitdrukking. Je kunt ook zeggen: 'ze haalde haar schouders op'.",
     "wrongExplanations": {
       "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Schouders haal je niet af.",
-      "2": "'Inhalen' = voorbijgaan. Schouders haal je niet in.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Schouders haal je niet in.",
       "3": "'Uithalen' = streken uithalen. Schouders haal je niet uit."
     },
     "hint": "Het gebaar van 'ik weet het niet' of 'mij maakt het niet uit'. Welk prefix past bij de opwaartse beweging van schouders?"
@@ -654,13 +654,13 @@
       "ophalen"
     ],
     "correct": 3,
-    "explanation": "'Je neus ophalen voor iets' = minachtend zijn over iets. Vaste uitdrukking.",
+    "explanation": "'Je neus ophalen voor iets' = minachtend zijn over iets, je te goed voelen voor iets. Vaste uitdrukking. Voorbeeld: 'Ze haalt haar neus op voor goedkoop eten'.",
     "wrongExplanations": {
-      "0": "'Uithalen' = streken uithalen. Je neus uithalen is geen uitdrukking.",
-      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Je neus afhalen is geen uitdrukking.",
-      "2": "'Inhalen' = voorbijgaan. Je neus inhalen is geen uitdrukking."
+      "0": "'Uithalen' = streken uithalen. 'Je neus uithalen' is geen uitdrukking.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. 'Je neus afhalen' is geen uitdrukking.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. 'Je neus inhalen' is geen uitdrukking."
     },
-    "hint": "Je kijkt neer op dat soort werk. Welk prefix past bij dit gebaar van minachting?"
+    "hint": "Je kijkt neer op dat soort werk — je voelt je er te goed voor. Welk prefix past bij dit gebaar van minachting?"
   },
   {
     "sentence": "Ze heeft me ______ om mee te gaan naar het feest.",
@@ -671,13 +671,13 @@
       "uitgehaald"
     ],
     "correct": 1,
-    "explanation": "'Overhalen' = overtuigen, iemand zo ver krijgen dat hij iets doet.",
+    "explanation": "'Overhalen' = iemand ompraten, overtuigen. Synoniemen: overtuigen, ompraten, zo ver krijgen.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens gaan halen. Ze haalt me niet op — ze overtuigt me.",
-      "2": "'Afhalen' = eten meenemen. Ze haalt me niet af.",
+      "0": "'Ophalen' = iemand ergens gaan halen. Ze haalt me niet op bij het station — ze overtuigt me.",
+      "2": "'Afhalen' = eten meenemen of van een oppervlak halen. Ze haalt me niet af.",
       "3": "'Uithalen' = streken uithalen. Ze haalt geen streken uit."
     },
-    "hint": "Ze heeft je overtuigd om mee te gaan. Welk prefix past bij 'overtuigen'?"
+    "hint": "Ze heeft je overtuigd om mee te gaan. Welk prefix past bij 'overtuigen of ompraten'?"
   },
   {
     "sentence": "De verkoper probeerde me ______ een duurder model te kopen.",
@@ -688,7 +688,7 @@
       "te afhalen"
     ],
     "correct": 1,
-    "explanation": "'Overhalen' = overtuigen of ompraten. De verkoper probeerde je te overtuigen.",
+    "explanation": "'Overhalen' = overtuigen of ompraten. Let op de constructie: 'probeerde me te overhalen te kopen' — twee keer 'te'. Dit is correct Nederlands bij twee opeenvolgende infinitieven.",
     "wrongExplanations": {
       "0": "'Inhalen' = voorbijgaan of achterstand bijwerken. De verkoper haalt je niet in.",
       "2": "'Ophalen' = iemand ergens gaan halen. De verkoper haalt je niet op.",
@@ -705,13 +705,13 @@
       "uit"
     ],
     "correct": 2,
-    "explanation": "'Aanhalen' = citeren, noemen als bewijs of ter ondersteuning.",
+    "explanation": "'Aanhalen' = citeren of noemen als bewijs. Gebruik: 'een onderzoek aanhalen', 'een voorbeeld aanhalen', 'een uitspraak aanhalen'.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens gaan halen. Je haalt een onderzoek niet op tijdens een presentatie.",
-      "1": "'Afhalen' = eten meenemen. Een onderzoek is geen takeaway.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Een onderzoek is geen takeaway.",
       "3": "'Uithalen' = streken uithalen. Een onderzoek haal je niet uit."
     },
-    "hint": "De manager citeert een onderzoek als bewijs. Welk prefix past bij 'citeren'?"
+    "hint": "De manager citeert een onderzoek als bewijs. Welk prefix past bij 'citeren of noemen ter ondersteuning'?"
   },
   {
     "sentence": "Ze haalde een interessant voorbeeld ______ uit de praktijk.",
@@ -722,13 +722,13 @@
       "in"
     ],
     "correct": 2,
-    "explanation": "'Aanhalen' = noemen, citeren als ondersteuning van een argument.",
+    "explanation": "'Aanhalen' = noemen of citeren als ondersteuning van een argument. Net als 'een onderzoek aanhalen' — je gebruikt aanhalen altijd als je iets noemt ter ondersteuning van wat je zegt.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens gaan halen. Een voorbeeld haal je niet op.",
       "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Een voorbeeld is geen takeaway.",
-      "3": "'Inhalen' = voorbijgaan. Een voorbeeld haal je niet in."
+      "3": "'Inhalen' = voorbijgaan of achterstand bijwerken. Een voorbeeld haal je niet in."
     },
-    "hint": "Ze noemt een voorbeeld ter ondersteuning. Welk prefix past bij 'citeren'?"
+    "hint": "Ze noemt een voorbeeld ter ondersteuning van haar argument. Welk prefix past bij 'citeren'?"
   },
   {
     "sentence": "Kun je die fout even uit het document ______?",
@@ -739,13 +739,13 @@
       "weghalen"
     ],
     "correct": 3,
-    "explanation": "'Weghalen' = verwijderen.",
+    "explanation": "'Weghalen' = verwijderen van een plek. Vergelijk: 'afhalen' (van een oppervlak), 'weghalen' (van een locatie, document of systeem). Beide betekenen verwijderen, maar de context verschilt.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens halen. Een fout haal je niet op.",
-      "1": "'Afhalen' = eten meenemen. Een fout is geen takeaway.",
+      "1": "'Afhalen' = van een oppervlak halen of takeaway eten. Een fout in een document verwijder je — dat is weghalen.",
       "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Een fout haal je niet in."
     },
-    "hint": "De fout moet worden verwijderd. Welk prefix past bij 'verwijderen'?"
+    "hint": "De fout moet worden verwijderd uit het document. Welk prefix past bij 'verwijderen'?"
   },
   {
     "sentence": "De IT-afdeling heeft de oude software ______ van alle computers.",
@@ -758,8 +758,8 @@
     "correct": 2,
     "explanation": "'Weghalen' = verwijderen van een plek of systeem.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand of iets ergens gaan halen. Software wordt niet opgehaald.",
-      "1": "'Inhalen' = voorbijgaan. Software haal je niet in.",
+      "0": "'Ophalen' = iemand of iets ergens gaan halen. Software wordt niet opgehaald als een persoon.",
+      "1": "'Inhalen' = voorbijgaan of achterstand bijwerken. Software haal je niet in.",
       "3": "'Uithalen' = streken uithalen. Software haal je niet uit."
     },
     "hint": "De software wordt verwijderd van de computers. Welk prefix past bij 'verwijderen'?"
@@ -773,11 +773,11 @@
       "inhalen"
     ],
     "correct": 0,
-    "explanation": "'Terughalen' = herstellen, ongedaan maken — digitaal of fysiek.",
+    "explanation": "'Terughalen' = herstellen of doen terugkomen — digitaal of fysiek. Gebruik: 'een bestand terughalen', 'een beslissing terughalen', 'iemand terughalen'.",
     "wrongExplanations": {
       "1": "'Ophalen' = iemand ergens gaan halen. Een e-mail haal je niet op als een pakket.",
-      "2": "'Afhalen' = eten meenemen. Een e-mail is geen takeaway.",
-      "3": "'Inhalen' = voorbijgaan. Een e-mail haal je niet in."
+      "2": "'Afhalen' = eten meenemen of van een oppervlak halen. Een e-mail is geen takeaway.",
+      "3": "'Inhalen' = voorbijgaan of achterstand bijwerken. Een e-mail haal je niet in."
     },
     "hint": "De e-mail is weg en je wilt hem terug. Welk prefix past bij 'terug herstellen'?"
   },
@@ -790,16 +790,16 @@
       "weg te halen"
     ],
     "correct": 2,
-    "explanation": "'Terughalen' = iemand doen terugkomen, terugwinnen.",
+    "explanation": "'Terughalen' = iemand doen terugkomen, terugwinnen. Let op de splitsing: 'terug te halen' — bij samengestelde werkwoorden met 'te' komt 'te' tussen het prefix en het werkwoord.",
     "wrongExplanations": {
       "0": "'Inhalen' = voorbijgaan of achterstand bijwerken. De medewerker haal je niet in.",
-      "1": "'Ophalen' = iemand ergens gaan halen. De medewerker is al weg — je wilt hem terug.",
+      "1": "'Ophalen' = iemand ergens gaan halen. De medewerker is al weg — je wilt hem terug, niet ophalen.",
       "3": "'Weghalen' = verwijderen. Dat is het tegenovergestelde van wat je wilt."
     },
     "hint": "Het bedrijf wil de vertrokken medewerker laten terugkomen. Welk prefix past bij 'laten terugkomen'?"
   },
   {
-    "sentence": "De ambtenaar heeft alle documenten ______.",
+    "sentence": "De ambtenaar heeft alle documenten van de verschillende afdelingen ______ voor het rapport.",
     "options": [
       "binnengehaald",
       "afgehaald",
@@ -807,13 +807,13 @@
       "opgehaald"
     ],
     "correct": 0,
-    "explanation": "'Binnenhalen' = verzamelen en ontvangen — ook voor documenten, offertes, aanvragen.",
+    "explanation": "'Binnenhalen' = van buiten naar binnen verzamelen. Hier gaat het om documenten die vanuit verschillende bronnen zijn verzameld en binnengebracht.",
     "wrongExplanations": {
-      "1": "'Afhalen' = eten meenemen. Documenten zijn geen takeaway.",
-      "2": "'Inhalen' = voorbijgaan. Documenten worden niet ingehaald.",
-      "3": "'Ophalen' = iemand ergens gaan halen. Documenten worden niet opgehaald als personen."
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Documenten zijn geen takeaway.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Documenten worden niet ingehaald.",
+      "3": "'Ophalen' = iemand ergens gaan halen. Hier gaat het om verzamelen vanuit meerdere bronnen — dat is binnenhalen."
     },
-    "hint": "De ambtenaar heeft alles verzameld en ontvangen. Welk prefix past bij 'van buiten naar binnen halen'?"
+    "hint": "De ambtenaar heeft alles verzameld van verschillende afdelingen en naar binnen gebracht. Welk prefix past bij 'van buiten naar binnen verzamelen'?"
   },
   {
     "sentence": "Laten we er een specialist bij ______.",
@@ -824,13 +824,13 @@
       "halen"
     ],
     "correct": 3,
-    "explanation": "'Erbij halen' = iemand extra inschakelen voor hulp. Basisvorm.",
+    "explanation": "'Erbij halen' = iemand extra inschakelen voor hulp. Vaste combinatie. Andere voorbeelden: 'een advocaat erbij halen', 'de baas erbij halen'.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens gaan halen. Je haalt de specialist niet op — je haalt hem erbij.",
-      "1": "'Afhalen' = eten meenemen. Een specialist is geen takeaway.",
-      "2": "'Inhalen' = voorbijgaan. Een specialist haal je niet in."
+      "0": "'Ophalen' = iemand ergens gaan halen. Je haalt de specialist niet op bij het station — je haalt hem erbij voor advies.",
+      "1": "'Afhalen' = eten meenemen of van een oppervlak halen. Een specialist is geen takeaway.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Een specialist haal je niet in."
     },
-    "hint": "Je wilt een extra persoon inschakelen voor hulp. Welk werkwoord pas bij 'erbij halen'?"
+    "hint": "Je wilt een extra persoon inschakelen voor hulp. Welk werkwoord past bij 'erbij halen'?"
   },
   {
     "sentence": "Ze kon de finish niet meer ______.",
@@ -841,11 +841,11 @@
       "afhalen"
     ],
     "correct": 1,
-    "explanation": "'De finish halen' = de eindstreep bereiken. Basisvorm.",
+    "explanation": "'De finish halen' = de eindstreep bereiken. Basisvorm zonder prefix. Combinaties: de finish halen, de deadline halen, de trein halen, het doel halen.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens gaan halen. De finish haal je niet op.",
       "2": "'Inhalen' = voorbijgaan. Ze haalt niemand in — ze probeert de finish te bereiken.",
-      "3": "'Afhalen' = eten meenemen. De finish is geen takeaway."
+      "3": "'Afhalen' = eten meenemen of van een oppervlak halen. De finish is geen takeaway."
     },
     "hint": "Ze probeert de eindstreep te bereiken. Welk werkwoord gebruik je zonder prefix?"
   },
@@ -858,16 +858,16 @@
       "afhaalt"
     ],
     "correct": 2,
-    "explanation": "'De trein halen' = de trein op tijd bereiken. Basisvorm.",
+    "explanation": "'De trein halen' = de trein op tijd bereiken. Basisvorm. Let op de woordvolgorde in de bijzin: '...dat hij de trein nog haalt' — het werkwoord staat aan het einde.",
     "wrongExplanations": {
       "0": "'Inhalen' = voorbijgaan. Je haalt de trein niet in — je probeert hem op tijd te bereiken.",
       "1": "'Ophalen' = iemand ergens gaan halen. De trein haal je niet op.",
-      "3": "'Afhalen' = eten meenemen. De trein is geen takeaway."
+      "3": "'Afhalen' = eten meenemen of van een oppervlak halen. De trein is geen takeaway."
     },
     "hint": "Hij loopt te laat en twijfelt of hij op tijd bij het station is. Welk werkwoord gebruik je als je een vervoermiddel 'bereikt'?"
   },
   {
-    "sentence": "Hij moet nog geld ______ bij de bank.",
+    "sentence": "Hij moet even snel geld ______ bij de geldautomaat.",
     "options": [
       "ophalen",
       "halen",
@@ -875,13 +875,13 @@
       "afhalen"
     ],
     "correct": 1,
-    "explanation": "'Geld halen' = geld opnemen bij de bank. Basisvorm.",
+    "explanation": "'Geld halen' = geld opnemen bij de bank of geldautomaat. Basisvorm. Let op: in België zeggen ze 'geld afhalen' — in Nederland gebruik je 'geld halen'.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens gaan halen. Geld staat niet klaar als een persoon.",
-      "2": "'Inhalen' = voorbijgaan. Geld wordt niet ingehaald.",
-      "3": "'Afhalen' = eten meenemen. Geld is geen takeaway."
+      "0": "'Ophalen' = speciaal ergens naartoe gaan om iemand of iets te halen. Geld opnemen doe je gewoon — je gebruikt 'geld halen'.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Geld wordt niet ingehaald.",
+      "3": "'Afhalen' is de Belgische variant voor 'geld halen'. In Nederland zeg je 'geld halen'."
     },
-    "hint": "Hij neemt geld op bij de bank. Welk werkwoord gebruik je zonder prefix?"
+    "hint": "Hij neemt geld op bij de geldautomaat. Welk werkwoord gebruik je in Nederland zonder prefix?"
   },
   {
     "sentence": "Het verhaal ______ de krant.",
@@ -892,11 +892,11 @@
       "afhaalde"
     ],
     "correct": 1,
-    "explanation": "'De krant halen' = in de krant komen, gepubliceerd worden. Basisvorm.",
+    "explanation": "'De krant halen' = in de krant komen, gepubliceerd worden. Basisvorm. Vergelijk: 'het nieuws halen', 'de media halen'.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens halen. Het verhaal haalt niemand op.",
-      "2": "'Inhalen' = voorbijgaan. Het verhaal haalt de krant niet in.",
-      "3": "'Afhalen' = eten meenemen. Het verhaal is geen takeaway."
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Het verhaal haalt de krant niet in.",
+      "3": "'Afhalen' = eten meenemen of van een oppervlak halen. Het verhaal is geen takeaway."
     },
     "hint": "Het verhaal werd gepubliceerd. Welk werkwoord gebruik je zonder prefix voor 'in de krant komen'?"
   },
@@ -909,30 +909,30 @@
       "afhalen"
     ],
     "correct": 2,
-    "explanation": "'Eruit halen' = het maximale of waardevolle uit iets halen. Zakelijke context.",
+    "explanation": "'Eruit halen' = het maximale of waardevolle onttrekken aan iets. Zakelijke context. Vergelijk: 'het beste eruit halen', 'meer uit je tijd halen', 'waarde eruit halen'.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens gaan halen. Data haal je niet op als een persoon.",
-      "1": "'Binnenhalen' = succesvol verkrijgen. Je hebt de data al — nu wil je er meer uit halen.",
-      "3": "'Afhalen' = eten meenemen. Data is geen takeaway."
+      "1": "'Binnenhalen' = succesvol verkrijgen. Je hebt de data al — nu wil je er meer waarde uit halen.",
+      "3": "'Afhalen' = eten meenemen of van een oppervlak halen. Data is geen takeaway."
     },
-    "hint": "Je wilt de maximale waarde uit bestaande data halen. Welke prefix+richting past bij 'het beste halen uit'?"
+    "hint": "Je wilt de maximale waarde uit bestaande data halen. Welke uitdrukking past bij 'het beste halen uit iets'?"
   },
   {
     "sentence": "De coach weet altijd het beste ______ zijn team.",
     "options": [
-      "op te halen bij",
+      "op te halen uit",
       "weg te halen van",
-      "eruit te halen bij",
-      "binnen te halen met"
+      "eruit te halen uit",
+      "binnen te halen bij"
     ],
     "correct": 2,
-    "explanation": "'Het beste eruit halen' = het maximale bereiken. Vaste uitdrukking.",
+    "explanation": "'Het beste eruit halen' = het maximale bereiken, zorgen dat iemand optimaal presteert. Vaste uitdrukking.",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens gaan halen. Je haalt het beste niet op.",
-      "1": "'Weghalen' = verwijderen. Je wilt het beste juist nú laten zien — niet weghalen.",
-      "3": "'Binnenhalen' = succesvol verkrijgen. Hier gaat het om het beste presteren, niet verkrijgen."
+      "0": "'Ophalen' = iemand ergens gaan halen. Je haalt het beste niet op — je haalt het eruit.",
+      "1": "'Weghalen' = verwijderen. Je wilt het beste juist laten zien — niet weghalen.",
+      "3": "'Binnenhalen' = succesvol verkrijgen. Hier gaat het om presteren, niet om iets verkrijgen."
     },
-    "hint": "De coach zorgt ervoor dat het team maximaal presteert. Welke uitdrukking past bij 'het maximale bereiken'?"
+    "hint": "De coach zorgt ervoor dat het team maximaal presteert. Welke uitdrukking past bij 'het maximale bereiken uit iets'?"
   },
   {
     "sentence": "De oppositie probeerde het imago van de minister te ______.",
@@ -943,11 +943,11 @@
       "binnenhalen"
     ],
     "correct": 1,
-    "explanation": "'Neerhalen' = afkraken, beschadigen (reputatie, imago). Figuurlijk gebruik.",
+    "explanation": "'Neerhalen' = afkraken, beschadigen (reputatie, imago). Figuurlijk gebruik. Tegenover 'neerhalen' staat 'ophalen' (omhoog) en 'binnenhalen' (naar binnen).",
     "wrongExplanations": {
-      "0": "'Ophalen' = iemand ergens gaan halen. Een imago haal je niet op.",
-      "2": "'Inhalen' = voorbijgaan. Een imago haal je niet in.",
-      "3": "'Binnenhalen' = succesvol verkrijgen. Het tegenovergestelde van wat de oppositie wil."
+      "0": "'Ophalen' = iemand ergens gaan halen, of omhoog bewegen. Een imago haal je niet op.",
+      "2": "'Inhalen' = voorbijgaan of achterstand bijwerken. Een imago haal je niet in.",
+      "3": "'Binnenhalen' = succesvol verkrijgen. Dat is het tegenovergestelde van wat de oppositie wil."
     },
     "hint": "De oppositie wil de reputatie van de minister beschadigen. Welk prefix past bij 'afkraken'?"
   },
@@ -960,11 +960,11 @@
       "weg te halen"
     ],
     "correct": 2,
-    "explanation": "'Jezelf neerhalen' = jezelf afkraken, negatief over jezelf spreken.",
+    "explanation": "'Jezelf neerhalen' = jezelf afkraken, negatief over jezelf spreken. Synoniemen: jezelf afkraken, jezelf kleiner maken dan je bent.",
     "wrongExplanations": {
       "0": "'Ophalen' = iemand ergens gaan halen. Jezelf haal je niet op.",
-      "1": "'Inhalen' = voorbijgaan. Jezelf haal je niet in.",
-      "3": "'Weghalen' = verwijderen. Jezelf haal je niet weg."
+      "1": "'Inhalen' = voorbijgaan of achterstand bijwerken. Jezelf haal je niet in.",
+      "3": "'Weghalen' = verwijderen van een plek. Jezelf haal je niet weg."
     },
     "hint": "Iemand spreekt negatief over zichzelf. Welk prefix past bij 'jezelf afkraken'?"
   },
@@ -977,16 +977,16 @@
       "afhalen we"
     ],
     "correct": 1,
-    "explanation": "'Halen' = bereiken, realiseren. 'Dat halen we niet' = dat lukt ons niet.",
+    "explanation": "'Halen' = bereiken, realiseren. 'Dat halen we niet' = dat lukt ons niet. Let op de woordvolgorde: 'Met dit team...' staat voorop (inversie), dus: 'halen we' — niet 'we halen'.",
     "wrongExplanations": {
-      "0": "'Inhalen' = voorbijgaan. De planning haal je niet in.",
+      "0": "'Inhalen' = voorbijgaan of achterstand bijwerken. De planning haal je niet in.",
       "2": "'Ophalen' = iemand ergens gaan halen. De planning haal je niet op.",
-      "3": "'Afhalen' = eten meenemen. Een planning is geen takeaway."
+      "3": "'Afhalen' = eten meenemen of van een oppervlak halen. Een planning is geen takeaway."
     },
-    "hint": "Je betwijfelt of het doel bereikbaar is. Welk werkwoord gebruik je als je zegt dat iets niet lukt?"
+    "hint": "Je betwijfelt of het doel bereikbaar is. Let ook op de woordvolgorde na 'Met dit team...'. Welk werkwoord gebruik je als je zegt dat iets niet lukt?"
   },
   {
-    "sentence": "De trein heeft de bus ______.",
+    "sentence": "De sportwagen heeft de vrachtwagen ingehaald op de snelweg.",
     "options": [
       "afgehaald",
       "opgehaald",
@@ -996,11 +996,11 @@
     "correct": 2,
     "explanation": "'Inhalen' = voorbijgaan, passeren. Ook voor voertuigen.",
     "wrongExplanations": {
-      "0": "'Afhalen' = eten meenemen. De trein haalt de bus niet af.",
-      "1": "'Ophalen' = iemand halen. De trein haalt de bus niet op.",
-      "3": "'Uithalen' = streken uithalen. De trein haalt niets uit."
+      "0": "'Afhalen' = eten meenemen of van een oppervlak halen. De sportwagen haalt de vrachtwagen niet af.",
+      "1": "'Ophalen' = iemand ergens gaan halen. De sportwagen haalt de vrachtwagen niet op.",
+      "3": "'Uithalen' = streken uithalen. De sportwagen haalt niets uit."
     },
-    "hint": "De trein is sneller en gaat de bus voorbij. Welk prefix past bij 'passeren'?"
+    "hint": "De sportwagen is sneller en gaat de vrachtwagen voorbij. Welk prefix past bij 'passeren'?"
   },
   {
     "sentence": "Laat me even ______ wat we vorige week hebben besproken.",
@@ -1011,12 +1011,12 @@
       "binnenhalen"
     ],
     "correct": 2,
-    "explanation": "'Ophalen' = samenvatten of in herinnering brengen wat eerder is gezegd. Figuurlijk gebruik in vergaderingen.",
+    "explanation": "'Ophalen' = samenvatten of in herinnering brengen wat eerder is gezegd. Figuurlijk gebruik in vergaderingen. Je kunt ook zeggen: 'even recappen' of 'even terugblikken'.",
     "wrongExplanations": {
       "0": "'Afhalen' = eten meenemen of van een oppervlak halen. Dat past niet bij samenvatten.",
-      "1": "'Inhalen' = voorbijgaan of achterstand bijwerken. Je werkt niets bij — je herhaalt.",
-      "3": "'Binnenhalen' = succesvol verkrijgen. Je haalt niets binnen — je herinnert iets."
+      "1": "'Inhalen' = voorbijgaan of achterstand bijwerken. Je werkt niets bij — je brengt iets in herinnering.",
+      "3": "'Binnenhalen' = succesvol verkrijgen. Je haalt niets binnen — je herinnert aan eerder besproken punten."
     },
-    "hint": "Je wil een samenvatting geven van een vorige vergadering. Welk prefix past bij 'herinneren aan het verleden'?"
+    "hint": "Je wil een samenvatting geven van een vorige vergadering. Welk prefix past bij 'in herinnering brengen'?"
   }
 ]
