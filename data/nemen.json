@@ -312,7 +312,7 @@
     "hint": "Iedereen was het eens en het voorstel werd goedgekeurd. Welk prefix past bij 'officieel accepteren'?"
   },
   {
-    "sentence": "Hij heeft het ______ voor zijn kleine broertje.",
+    "sentence": "Hij heeft het ______ voor zijn kleine broertje toen hij werd aangevallen.",
     "options": ["afgenomen", "aangenomen", "opgenomen", "ingenomen"],
     "correct": 2,
     "explanation": "'Het opnemen voor' = iemand verdedigen die het moeilijk heeft. Gebruik: het opnemen voor een collega, het opnemen voor iemand die aangevallen wordt.",
