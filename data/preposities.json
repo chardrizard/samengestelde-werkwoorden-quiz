@@ -364,7 +364,7 @@
     "hint": "Er is een beslissing genomen. Welk voorzetsel hoort bij 'besluiten' + te + infinitief?"
   },
   {
-    "sentence": "Kun je ___ mij beginnen met de rondvraag?",
+    "sentence": "Kun je beginnen ___ de rondvraag?",
     "answer": "met",
     "acceptedAnswers": [
       "met"
@@ -471,13 +471,13 @@
     "hint": "Je maakt je zorgen over de deadline die al besproken is. Welke er+prep combinatie past hier?"
   },
   {
-    "sentence": "We moeten goed ___ omgaan met de feedback van klanten.",
-    "answer": "mee",
+    "sentence": "We moeten goed omgaan ___ de feedback van klanten.",
+    "answer": "met",
     "acceptedAnswers": [
-      "mee"
+      "met"
     ],
     "explanation": "'Omgaan met' = iets op een bepaalde manier behandelen of aanpakken. Bij 'er' wordt het 'ermee omgaan'.",
-    "hint": "Je moet de feedback aanpakken. Welk voorzetsel hoort bij 'omgaan' als je iets behandelt?"
+    "hint": "Welk voorzetsel hoort bij 'omgaan'?"
   },
   {
     "sentence": "Hij past zich goed ___ de nieuwe situatie aan.",
