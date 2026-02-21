@@ -144,7 +144,7 @@
     "hint": "Hij maakt een onzekere keuze. Welk werkwoord gebruik je zonder prefix bij 'risico'?"
   },
   {
-    "sentence": "De wind is in kracht ______.",
+    "sentence": "Na de storm is de wind in kracht ______.",
     "options": ["afgenomen", "aangenomen", "toegenomen", "opgenomen"],
     "correct": 0,
     "explanation": "'Afnemen' = minder worden, dalen. Gebruik: de wind neemt af, de pijn neemt af, de interesse neemt af.",
@@ -673,7 +673,7 @@
   },
   {
     "sentence": "De agent nam de getuigenverklaring zorgvuldig ______.",
-    "options": ["meegenomen", "ingenomen", "opgenomen", "afgenomen"],
+    "options": ["mee", "in", "op", "af"],
     "correct": 2,
     "explanation": "'Opnemen' = officieel vastleggen, noteren. Gebruik: een getuigenverklaring opnemen, een aangifte opnemen.",
     "wrongExplanations": {
