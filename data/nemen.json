@@ -192,7 +192,7 @@
     "hint": "De familie verwelkomt hen hartelijk. Welk prefix past bij 'in een groep opnemen'?"
   },
   {
-    "sentence": "De kosten zijn flink ______.",
+    "sentence": "Door de inflatie zijn de kosten flink ______.",
     "options": ["toegenomen", "aangenomen", "afgenomen", "ingenomen"],
     "correct": 0,
     "explanation": "'Toenemen' = stijgen, meer worden. Gebruik: kosten nemen toe, het aantal neemt toe, de druk neemt toe.",
