@@ -516,7 +516,7 @@
     "hint": "Je gaat punt voor punt de lijst bekijken. Welk prefix past bij 'stap voor stap bespreken'?"
   },
   {
-    "sentence": "Ze heeft zich ______ vaker pauzes te nemen op het werk.",
+    "sentence": "Na een gesprek met haar leidinggevende heeft ze zich ______ vaker pauzes te nemen op het werk.",
     "options": ["meegenomen", "opgenomen", "voorgenomen", "aangenomen"],
     "correct": 2,
     "explanation": "'Zich voornemen' = van plan zijn, een goed voornemen maken. Gebruik: zich voornemen om te stoppen, zich voornemen om meer te bewegen.",
