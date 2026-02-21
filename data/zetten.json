@@ -850,21 +850,21 @@
     "hint": "Je wilt stoppen met aan iets te denken. Welk prefix past bij 'mentaal loslaten'?"
   },
   {
-    "sentence": "De werksfeer wordt negatief ______ door de onzekerheid over de reorganisatie.",
+    "sentence": "De werksfeer wordt door de onzekerheid over de reorganisatie onder druk ______.",
     "options": [
       "doorgezet",
       "neergezet",
-      "beïnvloed",
+      "gezet",
       "opgezet"
     ],
     "correct": 2,
-    "explanation": "'Beïnvloeden' = effect hebben op. Let op: dit is geen -zetten werkwoord. 'Neerzetten' beschrijft hoe iemand iets presenteert — niet hoe iets van buitenaf wordt beïnvloed.",
+    "explanation": "'Onder druk zetten' = zorgen dat iets/mensen meer stress of spanning ervaren. In de lijdende vorm: 'wordt ... onder druk gezet'.",
     "wrongExplanations": {
       "0": "'Doorzetten' = volhouden. De sfeer houdt niet vol — het wordt van buitenaf beïnvloed.",
       "1": "'Neerzetten' = presenteren of plaatsen. De sfeer wordt niet gepresenteerd — ze wordt beïnvloed door de onzekerheid.",
       "3": "'Opzetten' = oprichten of manipuleren. De sfeer wordt niet opgericht — ze wordt aangetast door externe factoren."
     },
-    "hint": "De onzekerheid heeft een negatief effect op de sfeer. Welk werkwoord past bij 'effect hebben op'?"
+    "hint": "De onzekerheid zorgt voor spanning en druk. Welke vaste uitdrukking met '-zetten' betekent dat iets meer stress krijgt?"
   },
   {
     "sentence": "De manager wil de nieuwe werkwijze ______ binnen het team.",
