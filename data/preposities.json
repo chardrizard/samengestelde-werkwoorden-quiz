@@ -5,7 +5,7 @@
     "acceptedAnswers": [
       "op"
     ],
-    "explanation": "'Wachten op' = wachten totdat iets of iemand komt. Altijd met 'op'.",
+    "explanation": "'Wachten op' = wachten totdat iets of iemand komt. Altijd met 'op'. Let op: in het Engels zeg je 'wait for', maar in het Nederlands is het 'wachten op' — niet 'wachten voor'!",
     "hint": "Je staat bij de halte en de bus is er nog niet. Welk voorzetsel hoort bij 'wachten'?"
   },
   {
@@ -14,8 +14,8 @@
     "acceptedAnswers": [
       "aan"
     ],
-    "explanation": "'Denken aan' = in je gedachten hebben. Altijd met 'aan'.",
-    "hint": "Haar familie is ver weg, maar ze heeft hen in haar gedachten. Welk voorzetsel hoort bij 'denken'?"
+    "explanation": "'Denken aan' = in je gedachten hebben. Altijd met 'aan'. Let op het verschil: 'denken aan' = iemand in je hoofd hebben, 'denken over' = iets overwegen.",
+    "hint": "Haar familie is ver weg, maar ze heeft hen in haar gedachten. Welk voorzetsel hoort bij 'denken' als je iemand in je hoofd hebt?"
   },
   {
     "sentence": "Kun je ___ mij zorgen terwijl ik op vakantie ben?",
@@ -23,7 +23,7 @@
     "acceptedAnswers": [
       "voor"
     ],
-    "explanation": "'Zorgen voor' = de verantwoordelijkheid nemen voor iemand of iets.",
+    "explanation": "'Zorgen voor' = de verantwoordelijkheid nemen voor iemand of iets. Let op het verschil: 'zorgen voor' = verzorgen, 'zorgen over/om' = je ongerust maken.",
     "hint": "Iemand moet de verantwoordelijkheid nemen. Welk voorzetsel hoort bij 'zorgen' als je iemand helpt?"
   },
   {
@@ -68,7 +68,7 @@
     "acceptedAnswers": [
       "om"
     ],
-    "explanation": "'Vragen om' = een verzoek doen voor iets. Let op: niet 'vragen voor' — 'voor' verandert de betekenis.",
+    "explanation": "'Vragen om' = een verzoek doen voor iets. Let op: 'vragen om' = iets nodig hebben, 'vragen naar' = informeren over iemand, 'vragen aan' = een vraag stellen aan iemand.",
     "hint": "Ze had iets nodig en deed een verzoek. Welk voorzetsel hoort bij 'vragen' als je iets nodig hebt?"
   },
   {
@@ -149,8 +149,8 @@
     "acceptedAnswers": [
       "aan"
     ],
-    "explanation": "'Twijfelen aan' = niet zeker zijn van iets.",
-    "hint": "Je bent niet zeker van jezelf. Welk voorzetsel hoort bij 'twijfelen'?"
+    "explanation": "'Twijfelen aan' = niet zeker zijn van iets, het in vraag stellen. Let op het verschil: 'twijfelen aan' = iets betwijfelen (je gelooft het niet helemaal), 'twijfelen over' = nog niet besloten hebben.",
+    "hint": "Je bent niet zeker van jezelf. Welk voorzetsel hoort bij 'twijfelen' als je iets in vraag stelt?"
   },
   {
     "sentence": "Dit rapport bestaat ___ drie delen en een bijlage.",
@@ -222,7 +222,7 @@
       "over",
       "om"
     ],
-    "explanation": "'Zich zorgen maken over' of 'zich zorgen maken om' = bezorgd zijn. Beide zijn correct.",
+    "explanation": "'Zich zorgen maken over' of 'zich zorgen maken om' = bezorgd zijn. Beide zijn correct. Let op het verschil: 'zorgen over/om' = ongerust zijn, 'zorgen voor' = verzorgen.",
     "hint": "De toekomst maakt haar ongerust. Welk voorzetsel hoort bij 'zich zorgen maken'?"
   },
   {
@@ -388,8 +388,8 @@
     "acceptedAnswers": [
       "voor"
     ],
-    "explanation": "'Waarschuwen voor' = iemand op een gevaar of risico wijzen.",
-    "hint": "De dokter wijst je op een risico. Welk voorzetsel hoort bij 'waarschuwen'?"
+    "explanation": "'Waarschuwen voor' = iemand op een gevaar of risico wijzen. Let op het verschil: 'waarschuwen voor' = wijzen op gevaar, 'waarschuwen tegen' = ontmoedigen van gedrag.",
+    "hint": "De dokter wijst je op een risico. Welk voorzetsel hoort bij 'waarschuwen' als je op gevaar wijst?"
   },
   {
     "sentence": "Hij droomt ___ een baan waarbij hij meer kan reizen.",
@@ -730,17 +730,17 @@
     "acceptedAnswers": [
       "voor"
     ],
-    "explanation": "'Zorgen voor' = de verantwoordelijkheid dragen voor iemand.",
+    "explanation": "'Zorgen voor' = de verantwoordelijkheid dragen voor iemand. Let op het verschil: 'zorgen voor' = verzorgen, 'zorgen over/om' = je ongerust maken.",
     "hint": "Je vraagt om toezicht. Welk voorzetsel hoort bij 'zorgen' als je iemand tijdelijk verzorgt?"
   },
   {
     "sentence": "Ik ben vergeten ___ het afval buiten te zetten gisteravond.",
-    "answer": "aan",
+    "answer": "om",
     "acceptedAnswers": [
-      "aan"
+      "om"
     ],
-    "explanation": "'Vergeten aan' is hier: 'vergeten eraan te denken iets te doen'. In combinatie met 'te + infinitief': 'vergeten te' is ook correct, maar 'ik ben vergeten aan het afval' verwijst naar het aan iets denken.",
-    "hint": "Je bent iets vergeten te doen. 'Vergeten' + 'aan' = je hebt er niet aan gedacht. Welk voorzetsel past hier?"
+    "explanation": "'Vergeten om te + infinitief' = vergeten iets te doen. De constructie 'vergeten om te...' is standaard in het Nederlands.",
+    "hint": "Je bent iets vergeten te doen. Welk voorzetsel past bij 'vergeten' + te + infinitief?"
   },
   {
     "sentence": "Ze gaat elke zondag fietsen ___ haar partner.",
@@ -833,7 +833,7 @@
     "acceptedAnswers": [
       "over"
     ],
-    "explanation": "'Twijfelen over' = onzeker zijn bij het beoordelen van iets. Vergelijk: 'twijfelen aan' = niet zeker zijn van iets/jezelf.",
+    "explanation": "'Twijfelen over' = onzeker zijn bij het kiezen of afwegen. Vergelijk: 'twijfelen aan' = iets betwijfelen, niet geloven. 'Twijfelen over' = nog niet besloten hebben.",
     "hint": "Hij is nog niet zeker over zijn keuze. Welk voorzetsel hoort bij 'twijfelen' als je iets afweegt?"
   },
   {
@@ -863,5 +863,275 @@
     ],
     "explanation": "'Rekenen op' = ervan uitgaan dat iemand er voor je is, op iemand bouwen.",
     "hint": "Hij verwacht steun. Welk voorzetsel hoort bij 'rekenen' als je op iemand bouwt?"
+  },
+  {
+    "sentence": "Ik heb spijt ___ mijn beslissing om die baan niet te accepteren.",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Spijt hebben van' = berouw hebben over iets dat je hebt gedaan of niet hebt gedaan. Altijd met 'van'.",
+    "hint": "Je hebt berouw. Welk voorzetsel hoort bij 'spijt hebben'?"
+  },
+  {
+    "sentence": "Mijn dochter is boos ___ haar broer omdat hij haar fiets heeft gepakt.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Boos zijn op' = kwaad zijn op een persoon. Let op: 'boos op' = kwaad op een persoon, 'boos over' = kwaad over een situatie.",
+    "hint": "Ze is kwaad op een persoon. Welk voorzetsel hoort bij 'boos' als het om een persoon gaat?"
+  },
+  {
+    "sentence": "Het feest van gisteren? Daar kijk ik met plezier ___ terug.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Daar ... op terugkijken' = terugkijken op dat ding. 'Daar' vervangt het onderwerp, 'op' blijft bij het werkwoord 'terugkijken op'.",
+    "hint": "'Terugkijken op' — maar nu met 'daar'. Welk voorzetsel hoort bij 'terugkijken'?"
+  },
+  {
+    "sentence": "Ik denk ___ de beste aanpak voor dit probleem — geef me even de tijd.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Denken over' = overwegen, nadenken over mogelijkheden. Vergelijk: 'denken aan' = iemand of iets in je gedachten hebben. Hier overweeg je een aanpak, dus 'over'.",
+    "hint": "Je bent iets aan het overwegen, niet aan iemand aan het denken. Welk voorzetsel hoort bij 'denken' als je iets overweegt?"
+  },
+  {
+    "sentence": "Ze vraagt ___ haar oma — hoe gaat het met haar gezondheid?",
+    "answer": "naar",
+    "acceptedAnswers": [
+      "naar"
+    ],
+    "explanation": "'Vragen naar' = informeren over iemand of iets, navraag doen. Vergelijk: 'vragen om' = een verzoek doen, 'vragen aan' = een vraag stellen aan iemand.",
+    "hint": "Ze wil weten hoe het met iemand gaat. Welk voorzetsel hoort bij 'vragen' als je naar iemand informeert?"
+  },
+  {
+    "sentence": "Mag ik iets ___ je vragen?",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Vragen aan' = een vraag richten tot iemand. Vergelijk de drie: 'vragen aan' (vraag stellen aan persoon), 'vragen om' (verzoek doen), 'vragen naar' (informeren over).",
+    "hint": "Je richt een vraag tot iemand. Welk voorzetsel hoort bij 'vragen' als je een vraag aan iemand stelt?"
+  },
+  {
+    "sentence": "Ik kijk even ___ mijn telefoon — misschien is er een bericht.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Kijken op' = kijken naar een scherm, horloge of apparaat. Vergelijk: 'kijken naar' = in de richting kijken, 'kijken op' = op een scherm/display kijken.",
+    "hint": "Je kijkt naar een scherm. Welk voorzetsel hoort bij 'kijken' als je naar een scherm of horloge kijkt?"
+  },
+  {
+    "sentence": "Heb je ervaring ___ het werken met Figma of Sketch?",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Ervaring hebben met' = praktische kennis hebben over iets. Altijd met 'met'.",
+    "hint": "Je vraagt of iemand praktische kennis heeft. Welk voorzetsel hoort bij 'ervaring hebben'?"
+  },
+  {
+    "sentence": "Hij is ___ zichzelf teleurgesteld na het slechte examen.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'Teleurgesteld zijn in' = teleurgesteld zijn in een persoon (inclusief jezelf). Vergelijk: 'teleurgesteld over' = teleurgesteld over een situatie of resultaat.",
+    "hint": "Hij is teleurgesteld in een persoon (zichzelf). Welk voorzetsel hoort bij 'teleurgesteld' als het om een persoon gaat?"
+  },
+  {
+    "sentence": "Ze is boos ___ de situatie, maar niet op haar collega.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Boos zijn over' = kwaad zijn over een situatie of gebeurtenis. Vergelijk: 'boos op' = gericht op een persoon, 'boos over' = gericht op een situatie.",
+    "hint": "Ze is kwaad, maar niet op een persoon — op de situatie. Welk voorzetsel hoort bij 'boos' als het om een situatie gaat?"
+  },
+  {
+    "sentence": "Hij is verliefd ___ zijn nieuwe buurvrouw.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Verliefd zijn op' = romantische gevoelens hebben voor iemand. Altijd met 'op'.",
+    "hint": "Hij heeft romantische gevoelens. Welk voorzetsel hoort bij 'verliefd zijn'?"
+  },
+  {
+    "sentence": "Ik heb een hekel ___ files op de snelweg.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Een hekel hebben aan' = een sterke afkeer hebben van iets. Altijd met 'aan'.",
+    "hint": "Je vindt iets heel vervelend. Welk voorzetsel hoort bij 'een hekel hebben'?"
+  },
+  {
+    "sentence": "De hele afdeling neemt ___ het jaarlijkse teamuitje deel.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Deelnemen aan' = meedoen met een activiteit of evenement. 'Deelnemen' is scheidbaar: 'neemt deel aan'.",
+    "hint": "Ze doen mee met het uitje. Welk voorzetsel hoort bij 'deelnemen'? Let op: scheidbaar werkwoord."
+  },
+  {
+    "sentence": "Die kleur past goed ___ je jas — mooi combinatie.",
+    "answer": "bij",
+    "acceptedAnswers": [
+      "bij"
+    ],
+    "explanation": "'Passen bij' = goed samengaan met, bij iets horen.",
+    "hint": "De kleur gaat goed samen met de jas. Welk voorzetsel hoort bij 'passen' als dingen goed samengaan?"
+  },
+  {
+    "sentence": "We moeten ons houden ___ de regels van de gemeente.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Zich houden aan' = de regels volgen, je aan afspraken houden. Vergelijk: 'houden van' = leuk vinden/liefhebben — heel andere betekenis!",
+    "hint": "Je moet de regels volgen. Welk voorzetsel hoort bij 'zich houden' als het gaat om regels naleven?"
+  },
+  {
+    "sentence": "Geef niet ___ aan de druk — blijf bij je eigen plan.",
+    "answer": "toe",
+    "acceptedAnswers": [
+      "toe"
+    ],
+    "explanation": "'Toegeven aan' = bezwijken onder druk, meegaan met iets. 'Toegeven' is scheidbaar: 'geef toe aan'.",
+    "hint": "Je moet sterk blijven en niet meegaan met de druk. Welk deel van 'toegeven' ontbreekt hier?"
+  },
+  {
+    "sentence": "De huisarts heeft me ___ een specialist verwezen voor verder onderzoek.",
+    "answer": "naar",
+    "acceptedAnswers": [
+      "naar"
+    ],
+    "explanation": "'Verwijzen naar' = doorsturen naar een andere persoon of instantie. Veel gebruikt in de gezondheidszorg.",
+    "hint": "De huisarts stuurt je door naar iemand anders. Welk voorzetsel hoort bij 'verwijzen'?"
+  },
+  {
+    "sentence": "Ik heb een klacht ingediend ___ de verhuurder over het lekkende dak.",
+    "answer": "bij",
+    "acceptedAnswers": [
+      "bij"
+    ],
+    "explanation": "'Een klacht indienen bij' = een officiële klacht melden bij een instantie of persoon. 'Bij' geeft aan waar je de klacht neerlegt.",
+    "hint": "Je meldt een probleem bij een instantie. Welk voorzetsel hoort bij 'indienen' als je een klacht doet?"
+  },
+  {
+    "sentence": "Ze heeft recht ___ een uitkering na het verlies van haar baan.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Recht hebben op' = aanspraak kunnen maken op iets. Veel gebruikt bij uitkeringen, toeslagen en regelingen.",
+    "hint": "Ze mag aanspraak maken op iets. Welk voorzetsel hoort bij 'recht hebben'?"
+  },
+  {
+    "sentence": "De medicijnen beschermen hem ___ ernstige klachten.",
+    "answer": "tegen",
+    "acceptedAnswers": [
+      "tegen"
+    ],
+    "explanation": "'Beschermen tegen' = iemand behoeden voor schade of gevaar. Altijd met 'tegen'.",
+    "hint": "De medicijnen voorkomen iets ergs. Welk voorzetsel hoort bij 'beschermen'?"
+  },
+  {
+    "sentence": "Zij lijdt ___ chronische rugpijn en kan niet lang zitten.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Lijden aan' = een ziekte of aandoening hebben. Altijd met 'aan'. Veel gebruikt in medische context.",
+    "hint": "Ze heeft een medische aandoening. Welk voorzetsel hoort bij 'lijden'?"
+  },
+  {
+    "sentence": "Ik moet me ___ de gemeente melden voor een nieuw adres.",
+    "answer": "bij",
+    "acceptedAnswers": [
+      "bij"
+    ],
+    "explanation": "'Zich melden bij' = je registreren of aanmelden bij een instantie. Belangrijk bij verhuizen in Nederland!",
+    "hint": "Je moet je registreren bij een instantie. Welk voorzetsel hoort bij 'zich melden' bij een organisatie?"
+  },
+  {
+    "sentence": "De vergadering is ___ drie uur vanmiddag.",
+    "answer": "om",
+    "acceptedAnswers": [
+      "om"
+    ],
+    "explanation": "'Om' geeft een exact tijdstip aan: 'om drie uur', 'om half vijf'. In het Engels gebruik je 'at', in het Nederlands 'om'.",
+    "hint": "Er is een exact tijdstip. Welk voorzetsel gebruik je voor een specifiek uur?"
+  },
+  {
+    "sentence": "We gaan ___ de zomer op vakantie naar Italië.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'In' gebruik je bij seizoenen (in de zomer, in de winter), maanden (in januari), en jaren (in 2025).",
+    "hint": "Het gaat over een seizoen. Welk voorzetsel gebruik je bij seizoenen?"
+  },
+  {
+    "sentence": "Ik woon ___ Nederland ___ 2019.",
+    "answer": "sinds",
+    "acceptedAnswers": [
+      "sinds"
+    ],
+    "explanation": "'Sinds' geeft een startpunt in de tijd aan dat nog steeds geldig is: 'sinds 2019' = van 2019 tot nu. Let op: het eerste blanco is 'in' (land), het tweede is 'sinds' (tijd). Hier is alleen het tweede gevraagd.",
+    "hint": "Je woont er nog steeds, en het begon in 2019. Welk voorzetsel geeft een startpunt aan dat nog steeds geldt?"
+  },
+  {
+    "sentence": "Ik heb ___ 9 uur 's ochtends ___ 5 uur 's middags gewerkt.",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Van ... tot ...' geeft een tijdsperiode aan met een begin- en eindpunt. Hier is het eerste voorzetsel gevraagd: 'van 9 uur tot 5 uur'.",
+    "hint": "Je beschrijft een tijdsperiode met een beginpunt. Welk voorzetsel geeft het startpunt aan in 'van ... tot ...'?"
+  },
+  {
+    "sentence": "Ze zit al een uur ___ de wachtkamer bij de huisarts.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'In de wachtkamer' = je bent binnen in een ruimte. 'In' gebruik je voor gesloten ruimtes: in de kamer, in het gebouw, in de auto.",
+    "hint": "Ze is binnen in een ruimte. Welk voorzetsel gebruik je als je binnen in een ruimte bent?"
+  },
+  {
+    "sentence": "Het schilderij hangt ___ de muur boven de bank.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Aan de muur' = bevestigd aan een verticaal oppervlak. Vergelijk: 'op de tafel' (horizontaal) vs. 'aan de muur' (verticaal).",
+    "hint": "Het schilderij is bevestigd aan een verticaal oppervlak. Welk voorzetsel gebruik je als iets aan een muur hangt?"
+  },
+  {
+    "sentence": "Die baan? Ik heb er lang ___ nagedacht, maar ik ga het niet doen.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Er ... over nadenken' = nadenken over iets. In deze zin is 'er' gescheiden van 'over' door 'lang'. Dit is normaal in het Nederlands: 'er lang over nadenken'.",
+    "hint": "Dit is 'erover nadenken' maar met 'lang' ertussen. Welk voorzetsel hoort bij 'nadenken'?"
+  },
+  {
+    "sentence": "Ze kijkt ___ het schilderij aan de muur — wat mooi!",
+    "answer": "naar",
+    "acceptedAnswers": [
+      "naar"
+    ],
+    "explanation": "'Kijken naar' = je blik richten op iets. Vergelijk: 'kijken naar' = ergens naar kijken, 'kijken op' = scherm/horloge checken, 'uitkijken naar' = ergens naar verlangen.",
+    "hint": "Ze richt haar blik op iets. Welk voorzetsel hoort bij 'kijken' als je ergens naar kijkt?"
   }
 ]
