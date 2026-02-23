@@ -1898,16 +1898,6 @@
     "hint": "Je wordt gevraagd om ergens bij te zijn. Welk voorzetsel hoort bij 'uitnodigen'?"
   },
   {
-    "sentence": "De winkel is gesloten ___ verbouwing — volgende maand gaat hij weer open.",
-    "answer": "wegens",
-    "acceptedAnswers": [
-      "wegens",
-      "vanwege"
-    ],
-    "explanation": "'Wegens verbouwing' of 'vanwege verbouwing' = door, om reden van. 'Wegens' is formeler en wordt vaak op borden en in officiële mededelingen gebruikt.",
-    "hint": "De verbouwing is de reden. Welk formeel voorzetsel zie je vaak op borden bij gesloten winkels?"
-  },
-  {
     "sentence": "Ze heeft het boek ___ één dag uitgelezen — zo spannend was het.",
     "answer": "in",
     "acceptedAnswers": [
