@@ -1090,7 +1090,7 @@
     "hint": "Je woont er nog steeds, en het begon in 2019. Welk voorzetsel geeft een startpunt aan dat nog steeds geldt?"
   },
   {
-    "sentence": "Ik heb ___ 9 uur 's ochtends ___ 5 uur 's middags gewerkt.",
+    "sentence": "Ik heb ___ 9 uur 's ochtends tot 5 uur 's middags gewerkt.",
     "answer": "van",
     "acceptedAnswers": [
       "van"
@@ -1631,15 +1631,6 @@
     ],
     "explanation": "'Op tijd' = niet te laat, punctueel. Een vaste uitdrukking: altijd 'op tijd'. Vergelijk: 'op tijd' (punctueel) vs. 'met de tijd' (na verloop van tijd).",
     "hint": "Je moet punctueel zijn. Welk voorzetsel hoort bij de uitdrukking '___ tijd'?"
-  },
-  {
-    "sentence": "Hij gaat altijd ___ akkoord met wat de manager voorstelt.",
-    "answer": "akkoord",
-    "acceptedAnswers": [
-      "akkoord"
-    ],
-    "explanation": "'Akkoord gaan met' = instemmen met. Let op: hier is 'akkoord' geen voorzetsel maar deel van de vaste uitdrukking 'akkoord gaan met'. Het blanco is niet altijd een voorzetsel!",
-    "hint": "Hij stemt altijd in. Zoek het woord dat bij 'gaan met' hoort om 'instemmen' uit te drukken."
   },
   {
     "sentence": "Ze is verrast ___ de snelle reactie van de gemeente.",
