@@ -1880,15 +1880,6 @@
     "hint": "'Op zoek zijn naar' in een bijzin met 'waar'. Welk voorzetsel hoort bij 'op zoek'?"
   },
   {
-    "sentence": "Ze heeft de hele nacht ___ gelegen maar kon niet slapen.",
-    "answer": "wakker",
-    "acceptedAnswers": [
-      "wakker"
-    ],
-    "explanation": "'Wakker liggen' = niet kunnen slapen. Hier is weer geen voorzetsel nodig maar een bijvoeglijk naamwoord! Net als bij 'gewoon doorgaan' — niet elk blanco is een voorzetsel.",
-    "hint": "Ze kon niet slapen. Zoek een woord dat het tegenovergestelde van 'slapen' beschrijft. Het is geen voorzetsel!"
-  },
-  {
     "sentence": "Het verschil ___ theorie en praktijk is in dit geval erg groot.",
     "answer": "tussen",
     "acceptedAnswers": [
