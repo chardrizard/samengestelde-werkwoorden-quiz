@@ -1081,12 +1081,12 @@
     "hint": "Het gaat over een seizoen. Welk voorzetsel gebruik je bij seizoenen?"
   },
   {
-    "sentence": "Ik woon ___ Nederland ___ 2019.",
+    "sentence": "Ik woon in Nederland ___ 2019.",
     "answer": "sinds",
     "acceptedAnswers": [
       "sinds"
     ],
-    "explanation": "'Sinds' geeft een startpunt in de tijd aan dat nog steeds geldig is: 'sinds 2019' = van 2019 tot nu. Let op: het eerste blanco is 'in' (land), het tweede is 'sinds' (tijd). Hier is alleen het tweede gevraagd.",
+    "explanation": "'Sinds' geeft een startpunt in de tijd aan dat nog steeds geldig is: 'sinds 2019' = van 2019 tot nu.",
     "hint": "Je woont er nog steeds, en het begon in 2019. Welk voorzetsel geeft een startpunt aan dat nog steeds geldt?"
   },
   {
