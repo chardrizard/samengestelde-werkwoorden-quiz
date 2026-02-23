@@ -1559,15 +1559,6 @@
     "hint": "Het beleid gaat tegen de regels in. Welk voorzetsel hoort bij '___ strijd met'?"
   },
   {
-    "sentence": "Ze hebben het plan doorgezet ___ bezwaren van de bewoners.",
-    "answer": "ondanks",
-    "acceptedAnswers": [
-      "ondanks"
-    ],
-    "explanation": "'Ondanks' = hoewel er iets tegenwerkt. 'Ondanks de bezwaren' = ook al waren er bezwaren. Let op: 'ondanks' is geen voorzetsel van een werkwoord, maar een zelfstandig voorzetsel van tegenstelling.",
-    "hint": "Er waren bezwaren, maar ze zijn toch doorgegaan. Welk voorzetsel drukt uit dat iets gebeurde hoewel er tegenstand was?"
-  },
-  {
     "sentence": "Het feest gaat ___ door — ook als het regent.",
     "answer": "gewoon",
     "acceptedAnswers": [
