@@ -1403,5 +1403,280 @@
     ],
     "explanation": "'Onder druk werken' = werken terwijl er stress of tijdsdruk is. 'Onder' geeft hier een omstandigheid aan: onder druk, onder toezicht, onder invloed.",
     "hint": "Er is stress maar ze blijft rustig. Welk voorzetsel hoort bij 'werken' als het gaat om druk of stress?"
+  },
+  {
+    "sentence": "Ze ergert zich ___ het lawaai van de buren elke avond.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Zich ergeren aan' = geïrriteerd raken door iets. Altijd met 'aan'. Vergelijk: 'boos op/over' = sterker gevoel, 'ergeren aan' = irritatie.",
+    "hint": "Ze is geïrriteerd door iets. Welk voorzetsel hoort bij 'zich ergeren'?"
+  },
+  {
+    "sentence": "Het ontwerp voldoet niet ___ de eisen van de opdrachtgever.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Voldoen aan' = aan de eisen of verwachtingen beantwoorden. Altijd met 'aan'.",
+    "hint": "Het ontwerp beantwoordt niet aan de eisen. Welk voorzetsel hoort bij 'voldoen'?"
+  },
+  {
+    "sentence": "Hij zet zich al jaren ___ voor betere arbeidsomstandigheden.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'Zich inzetten voor' = je best doen voor een doel. 'Inzetten' is scheidbaar: 'hij zet zich in voor'. Let op: het voorzetsel dat bij 'inzetten' hoort is 'voor', maar hier ontbreekt 'in' van het scheidbare werkwoord.",
+    "hint": "Hij doet zijn best voor iets. 'Zich inzetten' is scheidbaar. Welk deel ontbreekt: 'hij zet zich ___ voor'?"
+  },
+  {
+    "sentence": "Iedereen heeft bijgedragen ___ het succes van het project.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Bijdragen aan' = een positieve rol spelen bij iets. Altijd met 'aan'.",
+    "hint": "Iedereen heeft een bijdrage geleverd. Welk voorzetsel hoort bij 'bijdragen'?"
+  },
+  {
+    "sentence": "We staan open ___ nieuwe ideeën en suggesties.",
+    "answer": "voor",
+    "acceptedAnswers": [
+      "voor"
+    ],
+    "explanation": "'Openstaan voor' = bereid zijn om iets te overwegen. 'Openstaan' is scheidbaar: 'we staan open voor'.",
+    "hint": "We zijn bereid nieuwe ideeën te overwegen. Welk voorzetsel hoort bij 'openstaan'?"
+  },
+  {
+    "sentence": "Ik waardeer haar ___ haar eerlijkheid en directheid.",
+    "answer": "om",
+    "acceptedAnswers": [
+      "om"
+    ],
+    "explanation": "'Waarderen om' = iemand respecteren vanwege een eigenschap. Vergelijk: 'bekendstaan om' — 'om' geeft de reden of eigenschap aan.",
+    "hint": "Je respecteert haar vanwege een eigenschap. Welk voorzetsel hoort bij 'waarderen' als je de reden noemt?"
+  },
+  {
+    "sentence": "Ben je ___ de hoogte van de nieuwe regels rondom thuiswerken?",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Op de hoogte zijn van' = geïnformeerd zijn over. Een vaste uitdrukking: altijd 'op de hoogte van'. Veel gebruikt op de werkvloer.",
+    "hint": "Je vraagt of iemand geïnformeerd is. Welk voorzetsel hoort bij '___ de hoogte zijn van'?"
+  },
+  {
+    "sentence": "Ze is ___ staat om het project alleen af te ronden.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'In staat zijn om' = de capaciteit hebben om iets te doen. Een vaste uitdrukking: altijd 'in staat'.",
+    "hint": "Ze heeft de capaciteit om iets te doen. Welk voorzetsel hoort bij '___ staat zijn om'?"
+  },
+  {
+    "sentence": "De fietsenstalling is ___ het gebouw — je moet eromheen lopen.",
+    "answer": "achter",
+    "acceptedAnswers": [
+      "achter"
+    ],
+    "explanation": "'Achter het gebouw' = aan de achterkant van. Vergelijk: 'voor' (voorkant), 'achter' (achterkant), 'naast' (zijkant).",
+    "hint": "Het is aan de achterkant. Welk voorzetsel geeft de positie aan de achterkant aan?"
+  },
+  {
+    "sentence": "Het vliegtuig vliegt ___ de wolken — je kunt het niet meer zien.",
+    "answer": "boven",
+    "acceptedAnswers": [
+      "boven"
+    ],
+    "explanation": "'Boven de wolken' = hoger dan. 'Boven' geeft een positie hoger dan iets aan. Vergelijk: 'onder' (lager), 'boven' (hoger).",
+    "hint": "Het vliegtuig is hoger dan de wolken. Welk voorzetsel geeft een hogere positie aan?"
+  },
+  {
+    "sentence": "De bushalte is recht ___ het ziekenhuis — je kunt het niet missen.",
+    "answer": "tegenover",
+    "acceptedAnswers": [
+      "tegenover"
+    ],
+    "explanation": "'Tegenover' = aan de andere kant, recht tegenover. Veel gebruikt bij het beschrijven van locaties in de stad.",
+    "hint": "De bushalte is aan de andere kant van de straat. Welk voorzetsel geeft aan dat iets recht aan de overkant is?"
+  },
+  {
+    "sentence": "Er liep een hond ___ de straat — de auto moest hard remmen.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Over de straat lopen' = van de ene kant naar de andere kant oversteken. 'Over' geeft hier beweging over een oppervlak aan. Vergelijk: 'door' = dwars door een ruimte, 'over' = over een oppervlak heen.",
+    "hint": "De hond stak de straat over. Welk voorzetsel gebruik je bij beweging over een oppervlak?"
+  },
+  {
+    "sentence": "Ze is ___ de deur vertrokken zonder iets te zeggen.",
+    "answer": "door",
+    "acceptedAnswers": [
+      "door"
+    ],
+    "explanation": "'Door de deur vertrekken' = via de deur naar buiten gaan. 'Door' geeft hier de passage aan waar je doorheen gaat.",
+    "hint": "Ze ging via de deur naar buiten. Welk voorzetsel geeft aan dat je ergens doorheen gaat?"
+  },
+  {
+    "sentence": "Denk ___ je paraplu mee te nemen — het gaat regenen.",
+    "answer": "erom",
+    "acceptedAnswers": [
+      "erom",
+      "er om"
+    ],
+    "explanation": "'Ergens om denken' / 'erom denken' = niet vergeten iets te doen. Dit is anders dan 'denken aan' (iemand in gedachten hebben) en 'denken over' (overwegen). 'Erom denken' = een herinnering, een taak.",
+    "hint": "Je moet iets niet vergeten. Dit is niet 'denken aan' (in je gedachten) maar 'denken om' (niet vergeten). Welke er+prep combinatie past?"
+  },
+  {
+    "sentence": "Hij is geslaagd ___ zijn rijexamen na drie pogingen.",
+    "answer": "voor",
+    "acceptedAnswers": [
+      "voor"
+    ],
+    "explanation": "'Slagen voor' = een examen of toets halen. Let op het verschil: 'slagen voor' = een examen halen, 'slagen in' = succes hebben in een taak of opdracht.",
+    "hint": "Hij heeft zijn examen gehaald. Welk voorzetsel hoort bij 'slagen' als het om een examen gaat?"
+  },
+  {
+    "sentence": "Het bedrijf is erin geslaagd ___ de kosten met 20% te verlagen.",
+    "answer": "om",
+    "acceptedAnswers": [
+      "om"
+    ],
+    "explanation": "'Erin slagen om' = succes hebben bij het doen van iets. Vergelijk: 'slagen voor' = een examen halen, 'erin slagen om' = lukken om iets te doen.",
+    "hint": "Het is ze gelukt iets te bereiken. Welk voorzetsel hoort bij 'erin slagen ___ te + infinitief'?"
+  },
+  {
+    "sentence": "Het nieuwe beleid is ___ strijd met de Europese regelgeving.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'In strijd met' = in tegenspraak met, niet verenigbaar met. Een vaste uitdrukking in formele en juridische taal.",
+    "hint": "Het beleid gaat tegen de regels in. Welk voorzetsel hoort bij '___ strijd met'?"
+  },
+  {
+    "sentence": "Ze hebben het plan doorgezet ___ bezwaren van de bewoners.",
+    "answer": "ondanks",
+    "acceptedAnswers": [
+      "ondanks"
+    ],
+    "explanation": "'Ondanks' = hoewel er iets tegenwerkt. 'Ondanks de bezwaren' = ook al waren er bezwaren. Let op: 'ondanks' is geen voorzetsel van een werkwoord, maar een zelfstandig voorzetsel van tegenstelling.",
+    "hint": "Er waren bezwaren, maar ze zijn toch doorgegaan. Welk voorzetsel drukt uit dat iets gebeurde hoewel er tegenstand was?"
+  },
+  {
+    "sentence": "Het feest gaat ___ door — ook als het regent.",
+    "answer": "gewoon",
+    "acceptedAnswers": [
+      "gewoon",
+      "sowieso"
+    ],
+    "explanation": "'Gewoon doorgaan' = doorgaan zoals gepland, ondanks omstandigheden. Hier is geen voorzetsel nodig maar een bijwoord! Niet elk blanco is een voorzetsel — soms is het antwoord een ander soort woord.",
+    "hint": "Het feest gaat door ondanks de regen. Je zoekt een woord dat 'normaal, zoals gepland' betekent. Het is geen voorzetsel!"
+  },
+  {
+    "sentence": "Dat is een probleem waar we ___ moeten nadenken voordat we beslissen.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Waar ... over nadenken' = 'nadenken over' in een bijzin. In bijzinnen met 'waar' wordt het voorzetsel gescheiden en staat het voor het werkwoord aan het einde.",
+    "hint": "'Nadenken over' in een bijzin met 'waar'. Welk voorzetsel staat er voor 'moeten nadenken'?"
+  },
+  {
+    "sentence": "Is er iets waar ik je ___ kan helpen?",
+    "answer": "mee",
+    "acceptedAnswers": [
+      "mee",
+      "bij"
+    ],
+    "explanation": "'Waar ... mee helpen' = 'helpen met' in een bijzin. 'Waar ... bij helpen' is ook correct. In bijzinnen verandert 'met' naar 'mee'.",
+    "hint": "'Helpen met/bij' in een bijzin met 'waar'. Let op: 'met' verandert naar 'mee' in combinatie met 'waar'. Welk woord past?"
+  },
+  {
+    "sentence": "De training waar ze zich ___ heeft voorbereid, begint morgen.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Waar ... op voorbereiden' = 'zich voorbereiden op' in een bijzin. Het voorzetsel 'op' staat gescheiden van 'waar'.",
+    "hint": "'Zich voorbereiden op' in een bijzin met 'waar'. Welk voorzetsel hoort erbij?"
+  },
+  {
+    "sentence": "Het onderwerp? Daar wil ik het nu niet ___ hebben.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Daar ... over hebben' = 'het hebben over' met verwijzing via 'daar'. Het voorzetsel 'over' staat aan het einde van de zin.",
+    "hint": "'Het hebben over' — maar met 'daar' als verwijswoord. Welk voorzetsel staat aan het einde?"
+  },
+  {
+    "sentence": "Die vergadering? Ik heb er niet ___ gevraagd — het stond ineens in mijn agenda.",
+    "answer": "om",
+    "acceptedAnswers": [
+      "om"
+    ],
+    "explanation": "'Er ... om vragen' = 'vragen om' met verwijzing. 'Ik heb er niet om gevraagd' = ik heb het niet gevraagd/gewild. Een veelgebruikte uitdrukking.",
+    "hint": "'Vragen om' met 'er' als verwijswoord. Welk voorzetsel hoort erbij?"
+  },
+  {
+    "sentence": "We moeten ___ de tijd op kantoor zijn — de vergadering begint stipt.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Op tijd' = niet te laat, punctueel. Een vaste uitdrukking: altijd 'op tijd'. Vergelijk: 'op tijd' (punctueel) vs. 'met de tijd' (na verloop van tijd).",
+    "hint": "Je moet punctueel zijn. Welk voorzetsel hoort bij de uitdrukking '___ tijd'?"
+  },
+  {
+    "sentence": "Hij gaat altijd ___ akkoord met wat de manager voorstelt.",
+    "answer": "akkoord",
+    "acceptedAnswers": [
+      "akkoord"
+    ],
+    "explanation": "'Akkoord gaan met' = instemmen met. Let op: hier is 'akkoord' geen voorzetsel maar deel van de vaste uitdrukking 'akkoord gaan met'. Het blanco is niet altijd een voorzetsel!",
+    "hint": "Hij stemt altijd in. Zoek het woord dat bij 'gaan met' hoort om 'instemmen' uit te drukken."
+  },
+  {
+    "sentence": "Ze is verrast ___ de snelle reactie van de gemeente.",
+    "answer": "door",
+    "acceptedAnswers": [
+      "door",
+      "over"
+    ],
+    "explanation": "'Verrast door' = verrast door een oorzaak of actie. 'Verrast over' = verrast over een feit. Beide zijn correct: 'door' benadrukt de oorzaak, 'over' benadrukt het onderwerp.",
+    "hint": "Ze had de snelle reactie niet verwacht. Welk voorzetsel hoort bij 'verrast' als je de oorzaak noemt?"
+  },
+  {
+    "sentence": "Het succes gaat ___ koste van haar gezondheid — ze werkt te hard.",
+    "answer": "ten",
+    "acceptedAnswers": [
+      "ten"
+    ],
+    "explanation": "'Ten koste van' = met schade aan, ten nadele van. Een vaste uitdrukking: altijd 'ten koste van'. 'Ten' is een oude naamvalsvorm die je nog in vaste uitdrukkingen ziet.",
+    "hint": "Haar gezondheid lijdt eronder. Welk woord hoort bij '___ koste van'? Het is een oud Nederlands woord."
+  },
+  {
+    "sentence": "Hij werkt ___ een internationaal bedrijf met kantoren in tien landen.",
+    "answer": "bij",
+    "acceptedAnswers": [
+      "bij",
+      "voor"
+    ],
+    "explanation": "'Werken bij' of 'werken voor' = in dienst zijn van. Beide zijn correct: 'bij' benadrukt de locatie/organisatie, 'voor' benadrukt de dienstverlening. Vergelijk: 'werken aan' = bezig zijn met een project.",
+    "hint": "Hij is in dienst van een bedrijf. Welk voorzetsel hoort bij 'werken' als je in dienst bent?"
+  },
+  {
+    "sentence": "Ze wacht al drie maanden ___ een reactie van de immigratiedienst.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Wachten op' = wachten totdat iets komt. Altijd met 'op'. Een herkenbare situatie voor iedereen die met de IND te maken heeft!",
+    "hint": "Ze wacht totdat er een reactie komt. Welk voorzetsel hoort bij 'wachten'?"
   }
 ]
