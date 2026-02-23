@@ -1081,12 +1081,12 @@
     "hint": "Het gaat over een seizoen. Welk voorzetsel gebruik je bij seizoenen?"
   },
   {
-    "sentence": "Ik woon in Nederland ___ 2019.",
+    "sentence": "Ik woon ___ Nederland ___ 2019.",
     "answer": "sinds",
     "acceptedAnswers": [
       "sinds"
     ],
-    "explanation": "'Sinds' geeft een startpunt in de tijd aan dat nog steeds geldig is: 'sinds 2019' = van 2019 tot nu.",
+    "explanation": "'Sinds' geeft een startpunt in de tijd aan dat nog steeds geldig is: 'sinds 2019' = van 2019 tot nu. Let op: het eerste blanco is 'in' (land), het tweede is 'sinds' (tijd). Hier is alleen het tweede gevraagd.",
     "hint": "Je woont er nog steeds, en het begon in 2019. Welk voorzetsel geeft een startpunt aan dat nog steeds geldt?"
   },
   {
@@ -1678,5 +1678,279 @@
     ],
     "explanation": "'Wachten op' = wachten totdat iets komt. Altijd met 'op'. Een herkenbare situatie voor iedereen die met de IND te maken heeft!",
     "hint": "Ze wacht totdat er een reactie komt. Welk voorzetsel hoort bij 'wachten'?"
+  },
+  {
+    "sentence": "Je hebt je vergist ___ de datum — de vergadering is pas volgende week.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'Zich vergissen in' = een fout maken over iets. Altijd met 'in'. Let op: niet 'vergissen over' of 'vergissen met'.",
+    "hint": "Je maakte een fout over iets. Welk voorzetsel hoort bij 'zich vergissen'?"
+  },
+  {
+    "sentence": "De vakbond komt ___ voor de rechten van de werknemers.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Opkomen voor' = verdedigen, strijden voor iemands belangen. 'Opkomen' is scheidbaar: 'komt op voor'. Het voorzetsel is 'voor', maar hier ontbreekt het scheidbare deel 'op'.",
+    "hint": "De vakbond verdedigt de werknemers. 'Opkomen voor' is scheidbaar. Welk deel ontbreekt: 'komt ___ voor'?"
+  },
+  {
+    "sentence": "Uiteindelijk komt het ___ neer dat we meer budget nodig hebben.",
+    "answer": "er",
+    "acceptedAnswers": [
+      "er"
+    ],
+    "explanation": "'Erop neerkomen dat' = het komt erop neer = samengevat betekent het. 'Er' verwijst hier naar de hele situatie. 'Neerkomen op' = samengevat zijn als.",
+    "hint": "Je vat iets samen. 'Neerkomen op' — met een verwijswoord ervoor. Wat ontbreekt?"
+  },
+  {
+    "sentence": "Ik wil graag terugkomen ___ wat je eerder zei over het budget.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Terugkomen op' = een eerder onderwerp opnieuw bespreken. Altijd met 'op'. Veel gebruikt in vergaderingen.",
+    "hint": "Je wilt een eerder besproken punt opnieuw bespreken. Welk voorzetsel hoort bij 'terugkomen'?"
+  },
+  {
+    "sentence": "Het team moet beter inspelen ___ de veranderingen in de markt.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Inspelen op' = reageren en je aanpassen aan veranderingen. Altijd met 'op'.",
+    "hint": "Het team moet reageren op veranderingen. Welk voorzetsel hoort bij 'inspelen'?"
+  },
+  {
+    "sentence": "Ze heeft haar succes te danken ___ haar doorzettingsvermogen.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Te danken hebben aan' = het gevolg zijn van, veroorzaakt door iets positiefs. Altijd met 'aan'.",
+    "hint": "Haar doorzettingsvermogen is de reden voor haar succes. Welk voorzetsel hoort bij 'te danken hebben'?"
+  },
+  {
+    "sentence": "Hij bemoeit zich altijd ___ zaken die hem niet aangaan.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Zich bemoeien met' = je mengen in andermans zaken. Altijd met 'met'. Heeft een negatieve connotatie.",
+    "hint": "Hij mengt zich in andermans zaken. Welk voorzetsel hoort bij 'zich bemoeien'?"
+  },
+  {
+    "sentence": "Wil je je ___ bij onze werkgroep? We kunnen extra hulp gebruiken.",
+    "answer": "aansluiten",
+    "acceptedAnswers": [
+      "aansluiten"
+    ],
+    "explanation": "'Zich aansluiten bij' = lid worden van, je voegen bij een groep. Hier ontbreekt het werkwoord, niet het voorzetsel! 'Bij' staat er al.",
+    "hint": "Je wordt lid van een groep. Het voorzetsel 'bij' staat er al — welk werkwoord ontbreekt?"
+  },
+  {
+    "sentence": "Deze aanpak wijkt ___ van wat we normaal doen.",
+    "answer": "af",
+    "acceptedAnswers": [
+      "af"
+    ],
+    "explanation": "'Afwijken van' = anders zijn dan, verschillen van. 'Afwijken' is scheidbaar: 'wijkt af van'. Het voorzetsel is 'van', maar hier ontbreekt het scheidbare deel 'af'.",
+    "hint": "De aanpak is anders dan normaal. 'Afwijken van' is scheidbaar. Welk deel ontbreekt: 'wijkt ___ van'?"
+  },
+  {
+    "sentence": "We moeten ___ van dat plan — het is te duur en te risicovol.",
+    "answer": "afzien",
+    "acceptedAnswers": [
+      "afzien",
+      "af"
+    ],
+    "explanation": "'Afzien van' = besluiten iets niet te doen, opgeven. 'Afzien' is scheidbaar. Hier kun je het hele werkwoord of alleen het scheidbare deel invullen.",
+    "hint": "Jullie besluiten het plan niet door te zetten. Welk (deel van het) werkwoord hoort bij '___ van dat plan'?"
+  },
+  {
+    "sentence": "___ de klachten van bewoners heeft de gemeente het plan aangepast.",
+    "answer": "vanwege",
+    "acceptedAnswers": [
+      "vanwege"
+    ],
+    "explanation": "'Vanwege' = wegens, door, om reden van. Een formeel voorzetsel voor oorzaak. Vergelijk: 'door' (informeler), 'vanwege' (formeler), 'dankzij' (positieve oorzaak).",
+    "hint": "De klachten waren de reden voor de aanpassing. Welk formeel voorzetsel geeft een oorzaak aan?"
+  },
+  {
+    "sentence": "Het bedrijf is gegroeid ___ de inzet van het hele team.",
+    "answer": "dankzij",
+    "acceptedAnswers": [
+      "dankzij"
+    ],
+    "explanation": "'Dankzij' = door (positieve oorzaak). Vergelijk: 'dankzij' = positief resultaat, 'ondanks' = ondanks tegenwerking, 'vanwege' = neutraal. 'Dankzij' gebruik je alleen als het resultaat positief is.",
+    "hint": "Het hele team heeft bijgedragen — positief! Welk voorzetsel geeft een positieve oorzaak aan?"
+  },
+  {
+    "sentence": "___ de vergadering kwamen er meerdere vragen van medewerkers.",
+    "answer": "tijdens",
+    "acceptedAnswers": [
+      "tijdens"
+    ],
+    "explanation": "'Tijdens' = gedurende, in de loop van. Een tijdsvoorzetsel dat aangeeft dat iets gelijktijdig plaatsvindt. Vergelijk: 'voor' (ervoor), 'tijdens' (erbij), 'na' (erna).",
+    "hint": "De vragen kwamen op het moment van de vergadering. Welk voorzetsel geeft aan dat iets op hetzelfde moment gebeurt?"
+  },
+  {
+    "sentence": "___ het gesprek met HR heeft ze besloten de baan te accepteren.",
+    "answer": "na",
+    "acceptedAnswers": [
+      "na"
+    ],
+    "explanation": "'Na' = nadat iets is afgelopen. Geeft tijdsvolgorde aan. Vergelijk: 'voor' (ervoor), 'tijdens' (tegelijkertijd), 'na' (erna).",
+    "hint": "Eerst het gesprek, daarna de beslissing. Welk voorzetsel geeft aan dat iets later gebeurt?"
+  },
+  {
+    "sentence": "De brief is verstuurd ___ aanleiding van uw klacht van 5 januari.",
+    "answer": "naar",
+    "acceptedAnswers": [
+      "naar"
+    ],
+    "explanation": "'Naar aanleiding van' = als reactie op, in verband met. Een formele uitdrukking veel gebruikt in brieven van overheid en bedrijven.",
+    "hint": "De brief is een reactie op uw klacht. Welk voorzetsel hoort bij '___ aanleiding van'?"
+  },
+  {
+    "sentence": "Kun je ___ vrijdag het rapport inleveren? Dan heb ik het weekend om het te lezen.",
+    "answer": "voor",
+    "acceptedAnswers": [
+      "voor"
+    ],
+    "explanation": "'Voor vrijdag' = vóór dat moment, eerder dan. 'Voor' als tijdsvoorzetsel geeft een deadline aan. Vergelijk: 'op vrijdag' = op die dag, 'voor vrijdag' = eerder dan die dag.",
+    "hint": "Het moet eerder dan vrijdag klaar zijn. Welk voorzetsel geeft een deadline aan?"
+  },
+  {
+    "sentence": "Ik ben ___ de pauze even naar de supermarkt geweest.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in",
+      "tijdens"
+    ],
+    "explanation": "'In de pauze' of 'tijdens de pauze' = gedurende de pauze. 'In' gebruik je bij afgebakende tijdsperiodes: in de pauze, in het weekend, in de vakantie.",
+    "hint": "Het gebeurde gedurende de pauze. Welk voorzetsel gebruik je bij een afgebakende tijdsperiode?"
+  },
+  {
+    "sentence": "Het gebouw is ___ de jaren vijftig gebouwd en nu een monument.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'In de jaren vijftig' = gedurende dat decennium. 'In' gebruik je bij jaren, decennia, eeuwen en seizoenen: in 2024, in de jaren tachtig, in de zomer.",
+    "hint": "Het gaat over een decennium. Welk voorzetsel gebruik je bij jaren en decennia?"
+  },
+  {
+    "sentence": "Ik heb drie jaar ___ het buitenland gewoond.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'In het buitenland' = in een ander land. Vergelijk: 'naar het buitenland' = richting (beweging), 'in het buitenland' = locatie (verblijf), 'uit het buitenland' = oorsprong.",
+    "hint": "Je woonde daar — het gaat om de locatie, niet de richting. Welk voorzetsel gebruik je voor verblijf?"
+  },
+  {
+    "sentence": "Ze vertrekt morgen ___ het buitenland voor een congres.",
+    "answer": "naar",
+    "acceptedAnswers": [
+      "naar"
+    ],
+    "explanation": "'Naar het buitenland' = richting een ander land. Vergelijk: 'in het buitenland' = je bent daar, 'naar het buitenland' = je gaat erheen. Bij beweging gebruik je 'naar'.",
+    "hint": "Ze gaat erheen — het gaat om richting/beweging. Welk voorzetsel gebruik je bij beweging naar een bestemming?"
+  },
+  {
+    "sentence": "Hij komt oorspronkelijk ___ het buitenland — uit Turkije, geloof ik.",
+    "answer": "uit",
+    "acceptedAnswers": [
+      "uit"
+    ],
+    "explanation": "'Uit het buitenland' = oorsprong, waar iemand vandaan komt. Vergelijk het trio: 'in' (locatie), 'naar' (richting), 'uit' (oorsprong). Drie voorzetsels, drie betekenissen!",
+    "hint": "Het gaat om waar hij vandaan komt — oorsprong. Welk voorzetsel gebruik je voor herkomst?"
+  },
+  {
+    "sentence": "De kosten zijn gestegen ___ 10% vergeleken met vorig jaar.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Stijgen met' = toenemen met een bepaald percentage of bedrag. Vergelijk: 'stijgen met 10%' (het verschil), 'stijgen tot 10%' (het eindniveau), 'stijgen van 5% naar 10%' (begin naar eind).",
+    "hint": "De kosten zijn toegenomen. Welk voorzetsel gebruik je bij het percentage waarmee iets stijgt?"
+  },
+  {
+    "sentence": "Dat is precies het soort uitdaging waar ik ___ zoek ben.",
+    "answer": "naar",
+    "acceptedAnswers": [
+      "naar"
+    ],
+    "explanation": "'Waar ... naar op zoek zijn' = 'op zoek zijn naar' in een bijzin met 'waar'. Het voorzetsel 'naar' hoort bij 'op zoek zijn naar' en wordt gescheiden in de bijzin.",
+    "hint": "'Op zoek zijn naar' in een bijzin met 'waar'. Welk voorzetsel hoort bij 'op zoek'?"
+  },
+  {
+    "sentence": "Ze heeft de hele nacht ___ gelegen maar kon niet slapen.",
+    "answer": "wakker",
+    "acceptedAnswers": [
+      "wakker"
+    ],
+    "explanation": "'Wakker liggen' = niet kunnen slapen. Hier is weer geen voorzetsel nodig maar een bijvoeglijk naamwoord! Net als bij 'gewoon doorgaan' — niet elk blanco is een voorzetsel.",
+    "hint": "Ze kon niet slapen. Zoek een woord dat het tegenovergestelde van 'slapen' beschrijft. Het is geen voorzetsel!"
+  },
+  {
+    "sentence": "Het verschil ___ theorie en praktijk is in dit geval erg groot.",
+    "answer": "tussen",
+    "acceptedAnswers": [
+      "tussen"
+    ],
+    "explanation": "'Het verschil tussen A en B' = het onderscheid tussen twee dingen. 'Tussen' wordt altijd gevolgd door twee elementen met 'en' ertussen.",
+    "hint": "Je vergelijkt twee dingen met elkaar. Welk voorzetsel gebruik je als je een onderscheid maakt?"
+  },
+  {
+    "sentence": "De manager heeft ons uitgenodigd ___ een borrel na het werk.",
+    "answer": "voor",
+    "acceptedAnswers": [
+      "voor"
+    ],
+    "explanation": "'Uitnodigen voor' = iemand vragen om ergens bij te zijn. Altijd met 'voor'. Vergelijk: 'aanmelden voor', 'kiezen voor' — dezelfde structuur.",
+    "hint": "Je wordt gevraagd om ergens bij te zijn. Welk voorzetsel hoort bij 'uitnodigen'?"
+  },
+  {
+    "sentence": "De winkel is gesloten ___ verbouwing — volgende maand gaat hij weer open.",
+    "answer": "wegens",
+    "acceptedAnswers": [
+      "wegens",
+      "vanwege"
+    ],
+    "explanation": "'Wegens verbouwing' of 'vanwege verbouwing' = door, om reden van. 'Wegens' is formeler en wordt vaak op borden en in officiële mededelingen gebruikt.",
+    "hint": "De verbouwing is de reden. Welk formeel voorzetsel zie je vaak op borden bij gesloten winkels?"
+  },
+  {
+    "sentence": "Ze heeft het boek ___ één dag uitgelezen — zo spannend was het.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in",
+      "binnen"
+    ],
+    "explanation": "'In één dag' of 'binnen één dag' = het kostte niet meer dan één dag. 'In' + tijdsduur = de tijd die iets kostte. Vergelijk: 'over één dag' = na één dag (toekomst), 'in één dag' = het duurde zo lang.",
+    "hint": "Het kostte haar maar één dag. Welk voorzetsel gebruik je voor de tijd die iets duurt?"
+  },
+  {
+    "sentence": "De app is speciaal ontwikkeld ___ mensen die Nederlands willen leren.",
+    "answer": "voor",
+    "acceptedAnswers": [
+      "voor"
+    ],
+    "explanation": "'Ontwikkeld voor' = gemaakt ten behoeve van een doelgroep. 'Voor' geeft hier het doel of de ontvanger aan.",
+    "hint": "De app is gemaakt voor een specifieke groep. Welk voorzetsel geeft de doelgroep aan?"
+  },
+  {
+    "sentence": "Ze liep ___ het raam en keek naar buiten — het sneeuwde!",
+    "answer": "naar",
+    "acceptedAnswers": [
+      "naar"
+    ],
+    "explanation": "'Lopen naar' = bewegen in de richting van. 'Naar' geeft een bestemming aan bij beweging. Vergelijk: 'bij het raam staan' (locatie) vs. 'naar het raam lopen' (beweging).",
+    "hint": "Ze bewoog richting het raam. Welk voorzetsel geeft richting/bestemming aan bij beweging?"
   }
 ]
