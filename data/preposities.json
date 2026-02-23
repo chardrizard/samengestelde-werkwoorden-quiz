@@ -1133,5 +1133,275 @@
     ],
     "explanation": "'Kijken naar' = je blik richten op iets. Vergelijk: 'kijken naar' = ergens naar kijken, 'kijken op' = scherm/horloge checken, 'uitkijken naar' = ergens naar verlangen.",
     "hint": "Ze richt haar blik op iets. Welk voorzetsel hoort bij 'kijken' als je ergens naar kijkt?"
+  },
+  {
+    "sentence": "Zijn slechte planning heeft ___ veel vertraging geleid.",
+    "answer": "tot",
+    "acceptedAnswers": [
+      "tot"
+    ],
+    "explanation": "'Leiden tot' = als gevolg hebben, resulteren in. Altijd met 'tot'. Vergelijk: 'lijden aan' = een ziekte hebben.",
+    "hint": "Iets heeft een gevolg. Welk voorzetsel hoort bij 'leiden' als het gaat om een resultaat?"
+  },
+  {
+    "sentence": "De nieuwe wet heeft veel invloed ___ de woningmarkt gehad.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Invloed hebben op' = iets beïnvloeden, effect hebben op. Altijd met 'op'.",
+    "hint": "De wet heeft effect op iets. Welk voorzetsel hoort bij 'invloed hebben'?"
+  },
+  {
+    "sentence": "Ik heb behoefte ___ een rustig weekend zonder verplichtingen.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Behoefte hebben aan' = iets nodig hebben, ergens naar verlangen. Altijd met 'aan'.",
+    "hint": "Je hebt iets nodig. Welk voorzetsel hoort bij 'behoefte hebben'?"
+  },
+  {
+    "sentence": "Ze is de hele dag bezig ___ het opruimen van haar appartement.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Bezig zijn met' = actief werken aan iets. Altijd met 'met'.",
+    "hint": "Ze is actief ergens mee bezig. Welk voorzetsel hoort bij 'bezig zijn'?"
+  },
+  {
+    "sentence": "Hij heeft last ___ hoofdpijn sinds gisteravond.",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Last hebben van' = ergens hinder van ondervinden. Altijd met 'van'. Veel gebruikt bij gezondheidsklachten.",
+    "hint": "Hij heeft hinder van iets. Welk voorzetsel hoort bij 'last hebben'?"
+  },
+  {
+    "sentence": "Ze houdt zich dagelijks bezig ___ het verbeteren van de website.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Zich bezighouden met' = je tijd besteden aan iets. Altijd met 'met'. Vergelijk: 'bezig zijn met' — zelfde voorzetsel.",
+    "hint": "Ze besteedt haar tijd aan iets. Welk voorzetsel hoort bij 'zich bezighouden'?"
+  },
+  {
+    "sentence": "Ze komt ___ aanmerking voor een hogere functie binnen het bedrijf.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'In aanmerking komen voor' = kans maken op, in overweging genomen worden. Veel gebruikt bij sollicitaties en toeslagen.",
+    "hint": "Ze maakt kans op iets. Welk voorzetsel hoort bij 'aanmerking komen'?"
+  },
+  {
+    "sentence": "De regio kan profiteren ___ de nieuwe treinverbinding.",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Profiteren van' = voordeel halen uit iets. Altijd met 'van'.",
+    "hint": "De regio heeft voordeel bij iets. Welk voorzetsel hoort bij 'profiteren'?"
+  },
+  {
+    "sentence": "Het project is ___ een succes geworden dankzij goede samenwerking.",
+    "answer": "tot",
+    "acceptedAnswers": [
+      "tot"
+    ],
+    "explanation": "'Tot een succes worden' = uiteindelijk succesvol worden. 'Tot' geeft hier een eindresultaat aan, net als 'tot een conclusie komen'.",
+    "hint": "Het project is uiteindelijk iets geworden. Welk voorzetsel hoort bij 'tot een [resultaat] worden'?"
+  },
+  {
+    "sentence": "De politie heeft het gebouw ___ voorzorg ontruimd.",
+    "answer": "uit",
+    "acceptedAnswers": [
+      "uit"
+    ],
+    "explanation": "'Uit voorzorg' = als voorzorgsmaatregel. 'Uit' geeft hier de reden of motivatie aan: uit angst, uit nieuwsgierigheid, uit voorzorg.",
+    "hint": "Het is een voorzorgsmaatregel. Welk voorzetsel geeft een reden of motivatie aan?"
+  },
+  {
+    "sentence": "Hij heeft ___ eigen ervaring geleerd hoe moeilijk het is.",
+    "answer": "uit",
+    "acceptedAnswers": [
+      "uit"
+    ],
+    "explanation": "'Uit ervaring' = op basis van persoonlijke ervaring. 'Uit' wordt veel gebruikt bij bronnen: uit ervaring, uit onderzoek, uit de krant.",
+    "hint": "Hij heeft het zelf meegemaakt. Welk voorzetsel gebruik je voor 'op basis van ervaring'?"
+  },
+  {
+    "sentence": "Dit vaccin biedt bescherming ___ meerdere varianten van het virus.",
+    "answer": "tegen",
+    "acceptedAnswers": [
+      "tegen"
+    ],
+    "explanation": "'Bescherming bieden tegen' = beschermen tegen iets. Zowel het werkwoord als het zelfstandig naamwoord gebruiken 'tegen'.",
+    "hint": "Het vaccin beschermt tegen iets. Welk voorzetsel hoort bij 'bescherming bieden'?"
+  },
+  {
+    "sentence": "Ze heeft ___ de gemeente een vergunning aangevraagd voor de verbouwing.",
+    "answer": "bij",
+    "acceptedAnswers": [
+      "bij"
+    ],
+    "explanation": "'Aanvragen bij' = een verzoek indienen bij een instantie. 'Bij' geeft aan waar je het verzoek doet. Vergelijk: 'een klacht indienen bij', 'zich melden bij'.",
+    "hint": "Ze dient een verzoek in bij een instantie. Welk voorzetsel hoort bij 'aanvragen' als het gaat om een organisatie?"
+  },
+  {
+    "sentence": "We moeten ons beperken ___ de belangrijkste punten — er is weinig tijd.",
+    "answer": "tot",
+    "acceptedAnswers": [
+      "tot"
+    ],
+    "explanation": "'Zich beperken tot' = niet verder gaan dan, alleen focussen op. 'Tot' geeft hier een grens of limiet aan.",
+    "hint": "Je moet je focussen op alleen de belangrijkste punten. Welk voorzetsel hoort bij 'zich beperken'?"
+  },
+  {
+    "sentence": "Het bedrijf richt zich ___ jonge professionals die net zijn afgestudeerd.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Zich richten op' = focussen op een doelgroep of doel. Vergelijk: 'zich richten tot' = een boodschap adresseren aan (formeler).",
+    "hint": "Het bedrijf focust op een specifieke groep. Welk voorzetsel hoort bij 'zich richten' als je op een doelgroep focust?"
+  },
+  {
+    "sentence": "We zijn ___ het park gelopen naar het station.",
+    "answer": "door",
+    "acceptedAnswers": [
+      "door"
+    ],
+    "explanation": "'Door het park lopen' = van de ene kant naar de andere kant lopen. 'Door' geeft beweging dwars door een ruimte aan.",
+    "hint": "Je loopt van de ene kant naar de andere kant. Welk voorzetsel geeft beweging dwars door een ruimte aan?"
+  },
+  {
+    "sentence": "De supermarkt zit ___ de apotheek en de kapper.",
+    "answer": "tussen",
+    "acceptedAnswers": [
+      "tussen"
+    ],
+    "explanation": "'Tussen' = in het midden van twee dingen of plaatsen. Altijd gevolgd door twee objecten of 'en'.",
+    "hint": "De supermarkt is in het midden van twee andere winkels. Welk voorzetsel gebruik je als iets in het midden is?"
+  },
+  {
+    "sentence": "De kat zit ___ de tafel en wil er niet vandaan komen.",
+    "answer": "onder",
+    "acceptedAnswers": [
+      "onder"
+    ],
+    "explanation": "'Onder de tafel' = beneden, aan de onderkant van. Vergelijk: 'op de tafel' (bovenop), 'onder de tafel' (eronder), 'aan de tafel' (eraan zitten).",
+    "hint": "De kat is beneden, aan de onderkant van de tafel. Welk voorzetsel geeft een positie aan de onderkant aan?"
+  },
+  {
+    "sentence": "Mag ik ___ je komen zitten? Die stoel is toch vrij?",
+    "answer": "naast",
+    "acceptedAnswers": [
+      "naast"
+    ],
+    "explanation": "'Naast' = aan de zijkant van, ernaast. Geeft een positie direct links of rechts van iets of iemand aan.",
+    "hint": "Je wilt aan de zijkant van iemand gaan zitten. Welk voorzetsel gebruik je voor 'aan de zijkant van'?"
+  },
+  {
+    "sentence": "We fietsen elke ochtend ___ de gracht naar het werk.",
+    "answer": "langs",
+    "acceptedAnswers": [
+      "langs"
+    ],
+    "explanation": "'Langs de gracht' = parallel aan, naast de gracht volgend. 'Langs' geeft aan dat je iets passeert of er parallel aan beweegt.",
+    "hint": "Je fietst parallel aan de gracht. Welk voorzetsel geeft aan dat je ergens langs beweegt?"
+  },
+  {
+    "sentence": "Ik ben benieuwd ___ het resultaat van het onderzoek.",
+    "answer": "naar",
+    "acceptedAnswers": [
+      "naar"
+    ],
+    "explanation": "'Benieuwd zijn naar' = nieuwsgierig zijn naar iets. Altijd met 'naar'. Let op: niet 'benieuwd over' of 'benieuwd voor'!",
+    "hint": "Je bent nieuwsgierig. Welk voorzetsel hoort bij 'benieuwd zijn'?"
+  },
+  {
+    "sentence": "Ze is jaloers ___ haar collega die promotie heeft gekregen.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Jaloers zijn op' = afgunstig zijn op iemand. Altijd met 'op'. In het Engels zeg je 'jealous of', maar in het Nederlands is het 'jaloers op'.",
+    "hint": "Ze is afgunstig. Welk voorzetsel hoort bij 'jaloers zijn'?"
+  },
+  {
+    "sentence": "Ben je bekend ___ de regels voor het aanvragen van een visum?",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Bekend zijn met' = kennis hebben van iets. Vergelijk: 'bekendstaan om' = ergens beroemd om zijn. Twee verschillende betekenissen!",
+    "hint": "Je vraagt of iemand de regels kent. Welk voorzetsel hoort bij 'bekend zijn' als het gaat om kennis?"
+  },
+  {
+    "sentence": "Ze is goed ___ wiskunde — ze haalt altijd de hoogste cijfers.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'Goed zijn in' = talent of vaardigheid hebben voor iets. Altijd met 'in'. Let op: in het Engels zeg je 'good at', maar in het Nederlands is het 'goed in'.",
+    "hint": "Ze heeft talent voor iets. Welk voorzetsel hoort bij 'goed zijn' als het gaat om een vaardigheid?"
+  },
+  {
+    "sentence": "Ik ben ___ zoek naar een betaalbare woning in de Randstad.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Op zoek zijn naar' = actief proberen iets te vinden. Dit is een vaste uitdrukking: altijd 'op zoek naar'. Vergelijk: 'zoeken naar' (werkwoord).",
+    "hint": "Je probeert iets te vinden. Welk voorzetsel hoort bij de uitdrukking '___ zoek zijn naar'?"
+  },
+  {
+    "sentence": "Je moet je ___ de IND aanmelden als je langer dan drie maanden in Nederland wilt blijven.",
+    "answer": "bij",
+    "acceptedAnswers": [
+      "bij"
+    ],
+    "explanation": "'Zich aanmelden bij' = je registreren bij een instantie. De IND (Immigratie- en Naturalisatiedienst) is de instantie voor verblijfsvergunningen.",
+    "hint": "Je moet je registreren bij een instantie. Welk voorzetsel hoort bij 'zich aanmelden' bij een organisatie?"
+  },
+  {
+    "sentence": "Het hangt ___ je situatie af welke toeslag je kunt krijgen.",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Afhangen van' = bepaald worden door. Scheidbaar: 'het hangt van je situatie af'. Veel gebruikt bij Belastingdienst-zaken en toeslagen.",
+    "hint": "Je situatie bepaalt het resultaat. Welk voorzetsel hoort bij 'afhangen'?"
+  },
+  {
+    "sentence": "Ze is ___ 2021 in Nederland en spreekt al goed Nederlands.",
+    "answer": "sinds",
+    "acceptedAnswers": [
+      "sinds"
+    ],
+    "explanation": "'Sinds' = vanaf een bepaald moment tot nu. 'Sinds 2021' = van 2021 tot nu, het geldt nog steeds. Vergelijk: 'van ... tot ...' = een afgesloten periode.",
+    "hint": "Ze is er nog steeds. Welk voorzetsel geeft aan dat iets begon op een moment en nog steeds geldt?"
+  },
+  {
+    "sentence": "Hij woont ___ loopafstand van het station — heel handig.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Op loopafstand' = dichtbij genoeg om te lopen. Een vaste uitdrukking met 'op': op loopafstand, op fietsafstand, op rijafstand.",
+    "hint": "Het is dichtbij genoeg om te lopen. Welk voorzetsel hoort bij de uitdrukking '___ loopafstand'?"
+  },
+  {
+    "sentence": "Ze kan goed ___ druk werken — ze blijft altijd rustig.",
+    "answer": "onder",
+    "acceptedAnswers": [
+      "onder"
+    ],
+    "explanation": "'Onder druk werken' = werken terwijl er stress of tijdsdruk is. 'Onder' geeft hier een omstandigheid aan: onder druk, onder toezicht, onder invloed.",
+    "hint": "Er is stress maar ze blijft rustig. Welk voorzetsel hoort bij 'werken' als het gaat om druk of stress?"
   }
 ]
