@@ -1734,13 +1734,13 @@
     "hint": "Hij mengt zich in andermans zaken. Welk voorzetsel hoort bij 'zich bemoeien'?"
   },
   {
-    "sentence": "Wil je je ___ bij onze werkgroep? We kunnen extra hulp gebruiken.",
-    "answer": "aansluiten",
+    "sentence": "Wil je je aansluiten ___ onze werkgroep? We kunnen extra hulp gebruiken.",
+    "answer": "bij",
     "acceptedAnswers": [
-      "aansluiten"
+      "bij"
     ],
-    "explanation": "'Zich aansluiten bij' = lid worden van, je voegen bij een groep. Hier ontbreekt het werkwoord, niet het voorzetsel! 'Bij' staat er al.",
-    "hint": "Je wordt lid van een groep. Het voorzetsel 'bij' staat er al — welk werkwoord ontbreekt?"
+    "explanation": "'Zich aansluiten bij' = lid worden van, je voegen bij een groep.",
+    "hint": "Je wordt lid van een groep."
   },
   {
     "sentence": "Deze aanpak wijkt ___ van wat we normaal doen.",
