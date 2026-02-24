@@ -1513,20 +1513,20 @@
     "hint": "Hij gebruikt zijn geld voor een specifiek doel. Welk prefix past bij 'besteden, ergens voor gebruiken'?"
   },
   {
-    "sentence": "Het bedrijf heeft een goed ______ neergezet dit jaar met recordwinst.",
+    "sentence": "Het bedrijf heeft een goed resultaat ___ dit jaar met recordwinst.",
     "options": [
-      "plan",
-      "resultaat",
-      "probleem",
-      "systeem"
+      "opgezet",
+      "neerzetten",
+      "ingezet",
+      "afgezet"
     ],
     "correct": 1,
     "explanation": "'Een resultaat neerzetten' = een goed resultaat behalen en presenteren. De hele 'neerzetten'-familie: een prestatie neerzetten, een resultaat neerzetten, jezelf goed neerzetten, een idee neerzetten — altijd iets goeds presenteren of leveren.",
     "wrongExplanations": {
-      "0": "'Een plan neerzetten' is minder gebruikelijk. Een plan 'opzetten' of 'uitwerken' past beter.",
-      "2": "'Een probleem neerzetten' slaat nergens op. Problemen zet je niet neer — je lost ze op.",
-      "3": "'Een systeem neerzetten' is ongebruikelijk. Een systeem 'opzetten' past beter."
+      "0": "'Opzetten' gebruik je voor het starten of organiseren van iets (een bedrijf opzetten, een project opzetten), niet voor een resultaat behalen.",
+      "2": "'Inzetten' betekent gebruiken of beginnen met inzetten (middelen inzetten, personeel inzetten), niet een resultaat behalen.",
+      "3": "'Afzetten' betekent verwijderen of verkopen (een minister afzetten, goederen afzetten), niet een resultaat bereiken."
     },
-    "hint": "Het bedrijf heeft iets goeds gepresteerd met recordwinst. Welk woord combineert met 'neerzetten' voor een prestatie?"
+    "hint": "Het bedrijf heeft iets goeds gepresteerd met recordwinst. Welk woord combineert voor een resultaat?"
   }
 ]
