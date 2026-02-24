@@ -1559,14 +1559,13 @@
     "hint": "Het beleid gaat tegen de regels in. Welk voorzetsel hoort bij '___ strijd met'?"
   },
   {
-    "sentence": "Het feest gaat ___ door — ook als het regent.",
-    "answer": "gewoon",
+    "sentence": "Het feest gaat gewoon ___ — ook als het regent.",
+    "answer": "door",
     "acceptedAnswers": [
-      "gewoon",
-      "sowieso"
+      "door"
     ],
-    "explanation": "'Gewoon doorgaan' = doorgaan zoals gepland, ondanks omstandigheden. Hier is geen voorzetsel nodig maar een bijwoord! Niet elk blanco is een voorzetsel — soms is het antwoord een ander soort woord.",
-    "hint": "Het feest gaat door ondanks de regen. Je zoekt een woord dat 'normaal, zoals gepland' betekent. Het is geen voorzetsel!"
+    "explanation": "'Gewoon doorgaan' = doorgaan zoals gepland, ondanks omstandigheden.",
+    "hint": "Het feest gaat door ondanks de regen. Je zoekt een woord dat 'normaal, zoals gepland' betekent."
   },
   {
     "sentence": "Dat is een probleem waar we ___ moeten nadenken voordat we beslissen.",
