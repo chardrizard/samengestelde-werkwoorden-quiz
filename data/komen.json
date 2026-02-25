@@ -1360,7 +1360,7 @@
     "hint": "De ontmoeting was niet gepland — het was toeval. Welk prefix past bij 'per ongeluk ontmoeten'?"
   },
   {
-    "sentence": "Wanneer komt de nieuwe medewerker ______ bij ons team?",
+    "sentence": "Wanneer komt de nieuwe medewerker er___ ons team?",
     "options": [
       "langs",
       "bij",
