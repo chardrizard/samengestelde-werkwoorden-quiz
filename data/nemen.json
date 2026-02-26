@@ -1358,5 +1358,515 @@
       "3": "'Innemen' = een positie bezetten of slikken. Een compliment neem je niet in."
     },
     "hint": "Hij accepteert het compliment en bedankt haar. Welk prefix past bij 'accepteren, ontvangen'?"
+  },
+  {
+    "sentence": "Ik moet even geld ______ bij de pinautomaat.",
+    "options": [
+      "afnemen",
+      "aannemen",
+      "opnemen",
+      "meenemen"
+    ],
+    "correct": 2,
+    "explanation": "'Opnemen' = geld van je rekening halen bij een geldautomaat. Gebruik: geld opnemen, contant geld opnemen, geld opnemen bij de bank.",
+    "wrongExplanations": {
+      "0": "'Afnemen' = verminderen of wegnemen. Je neemt geld niet af bij een automaat — je neemt het op.",
+      "1": "'Aannemen' = accepteren of in dienst nemen. Je neemt geld niet aan van een automaat — je neemt het op.",
+      "3": "'Meenemen' = met je meenemen. Je neemt geld niet mee van de automaat — je neemt het op van je rekening."
+    },
+    "hint": "Je haalt geld van je bankrekening bij een automaat. Welk prefix past bij 'geld van je rekening halen'?"
+  },
+  {
+    "sentence": "Ons bedrijf neemt al jaren IT-diensten ______ bij dezelfde leverancier.",
+    "options": [
+      "op",
+      "aan",
+      "mee",
+      "af"
+    ],
+    "correct": 3,
+    "explanation": "'Afnemen' = een product of dienst kopen bij een leverancier. Zakelijk gebruik: diensten afnemen, producten afnemen, stroom afnemen bij een energieleverancier.",
+    "wrongExplanations": {
+      "0": "'Opnemen' = vastleggen of contact starten. Diensten neem je niet op — je neemt ze af bij een leverancier.",
+      "1": "'Aannemen' = accepteren of in dienst nemen. Diensten neem je niet aan — je neemt ze af.",
+      "2": "'Meenemen' = met je meenemen. Diensten neem je niet fysiek mee."
+    },
+    "hint": "Het bedrijf koopt diensten bij een leverancier. Welk prefix past bij 'een dienst kopen/ontvangen'?"
+  },
+  {
+    "sentence": "De rechter heeft de eed ______ van de nieuwe minister.",
+    "options": [
+      "opgenomen",
+      "aangenomen",
+      "ingenomen",
+      "afgenomen"
+    ],
+    "correct": 3,
+    "explanation": "'Een eed afnemen' = als autoriteit iemand een eed laten afleggen. Gebruik: de eed afnemen, de gelofte afnemen. De rechter leidt de plechtigheid als autoriteit.",
+    "wrongExplanations": {
+      "0": "'Opnemen' = vastleggen op video. De eed wordt niet opgenomen — hij wordt afgenomen als officiële handeling.",
+      "1": "'Aannemen' = accepteren. De rechter accepteert de eed niet — hij neemt hem af.",
+      "2": "'Innemen' = een positie bezetten. Een eed wordt niet ingenomen — hij wordt afgenomen."
+    },
+    "hint": "De rechter leidt de eedaflegging als autoriteit. Welk prefix past bij 'als autoriteit laten afleggen'?"
+  },
+  {
+    "sentence": "Het leger heeft na een lang gevecht de stad ______.",
+    "options": [
+      "opgenomen",
+      "afgenomen",
+      "aangenomen",
+      "ingenomen"
+    ],
+    "correct": 3,
+    "explanation": "'Innemen' = veroveren, in bezit nemen door geweld of strategie. Gebruik: een stad innemen, een fort innemen, een vijandelijke positie innemen.",
+    "wrongExplanations": {
+      "0": "'Opnemen' = vastleggen of in een groep opnemen. Een stad wordt niet opgenomen — ze wordt veroverd.",
+      "1": "'Afnemen' = wegnemen. Hoewel vergelijkbaar, is 'innemen' de standaard term voor het veroveren van een stad of fort.",
+      "2": "'Aannemen' = accepteren. Een stad wordt niet aangenomen — ze wordt ingenomen."
+    },
+    "hint": "Het leger verovert de stad. Welk prefix past bij 'veroveren, in bezit nemen'?"
+  },
+  {
+    "sentence": "Met haar vriendelijke lach wist ze iedereen voor zich ______ te nemen.",
+    "options": [
+      "aan",
+      "op",
+      "mee",
+      "in"
+    ],
+    "correct": 3,
+    "explanation": "'Iemand voor zich innemen' = iemand charmeren, sympathie opwekken. Vaste uitdrukking. Gebruik: het publiek voor zich innemen, je collega's voor je innemen.",
+    "wrongExplanations": {
+      "0": "'Aannemen' = accepteren. Je neemt mensen niet voor je aan — je neemt ze voor je in.",
+      "1": "'Opnemen' = vastleggen of verdedigen. Je neemt mensen niet voor je op in deze context.",
+      "2": "'Meenemen' = met je meenemen. Je neemt mensen niet voor je mee — je wint hun sympathie."
+    },
+    "hint": "Ze charmeert iedereen met haar lach. Welk prefix past bij 'sympathie winnen'?"
+  },
+  {
+    "sentence": "De kampioen heeft de uitdaging van zijn rivaal ______.",
+    "options": [
+      "opgenomen",
+      "afgenomen",
+      "aangenomen",
+      "overgenomen"
+    ],
+    "correct": 2,
+    "explanation": "'Aannemen' = een uitdaging of weddenschap accepteren. Gebruik: een uitdaging aannemen, een weddenschap aannemen, een bod aannemen.",
+    "wrongExplanations": {
+      "0": "'Opnemen' = vastleggen. De uitdaging wordt niet opgenomen — ze wordt geaccepteerd.",
+      "1": "'Afnemen' = verminderen of wegnemen. De uitdaging wordt niet afgenomen — ze wordt aangenomen.",
+      "3": "'Overnemen' = van iemand anders overnemen. Een uitdaging neem je niet over — je neemt hem aan."
+    },
+    "hint": "De kampioen accepteert de uitdaging. Welk prefix past bij 'een uitdaging accepteren'?"
+  },
+  {
+    "sentence": "De student heeft hele paragrafen letterlijk uit het boek ______.",
+    "options": [
+      "doorgenomen",
+      "aangenomen",
+      "overgenomen",
+      "opgenomen"
+    ],
+    "correct": 2,
+    "explanation": "'Overnemen' = tekst kopiëren van een bron. Gebruik: een citaat overnemen, tekst overnemen uit een boek, gegevens overnemen. Vaak negatief bij plagiaat.",
+    "wrongExplanations": {
+      "0": "'Doornemen' = doorlezen. De student heeft het boek niet doorgenomen — hij heeft tekst gekopieerd.",
+      "1": "'Aannemen' = accepteren. De student accepteert de tekst niet — hij kopieert hem.",
+      "3": "'Opnemen' = vastleggen. De tekst is niet opgenomen op video — ze is letterlijk gekopieerd."
+    },
+    "hint": "De student heeft tekst gekopieerd uit het boek. Welk prefix past bij 'tekst kopiëren van een bron'?"
+  },
+  {
+    "sentence": "Na een lange dag wil ik alleen maar een warm bad ______.",
+    "options": [
+      "opnemen",
+      "innemen",
+      "nemen",
+      "aannemen"
+    ],
+    "correct": 2,
+    "explanation": "'Een bad nemen' = in bad gaan, een bad gebruiken. Vaste uitdrukking met de basisvorm. Vergelijk ook: een douche nemen.",
+    "wrongExplanations": {
+      "0": "'Opnemen' = vastleggen of in het ziekenhuis opnemen. Een bad neem je niet op.",
+      "1": "'Innemen' = medicijnen slikken of een positie bezetten. Een bad neem je niet in.",
+      "3": "'Aannemen' = accepteren. Een bad neem je niet aan — je neemt het."
+    },
+    "hint": "Je wilt in bad gaan. Welk werkwoord gebruik je zonder prefix bij 'een bad'?"
+  },
+  {
+    "sentence": "Laten we de trein ______ in plaats van de auto.",
+    "options": [
+      "meenemen",
+      "aannemen",
+      "opnemen",
+      "nemen"
+    ],
+    "correct": 3,
+    "explanation": "'De trein nemen' = met de trein reizen. Vaste uitdrukking met de basisvorm. Gebruik: de trein nemen, de bus nemen, een taxi nemen.",
+    "wrongExplanations": {
+      "0": "'Meenemen' = iets met je meenemen. Je neemt de trein niet mee — je reist ermee.",
+      "1": "'Aannemen' = accepteren. Je accepteert de trein niet — je reist ermee.",
+      "2": "'Opnemen' = vastleggen. Je neemt de trein niet op — je gebruikt hem."
+    },
+    "hint": "Je kiest ervoor om met de trein te reizen. Welk werkwoord gebruik je zonder prefix?"
+  },
+  {
+    "sentence": "De overheid moet dringend maatregelen ______ tegen klimaatverandering.",
+    "options": [
+      "ondernemen",
+      "aannemen",
+      "nemen",
+      "opnemen"
+    ],
+    "correct": 2,
+    "explanation": "'Maatregelen nemen' = actie ondernemen, ingrijpen. Vaste uitdrukking met de basisvorm. Let op het verschil: 'maatregelen nemen' (vaste uitdrukking) vs. 'stappen ondernemen' (andere vaste uitdrukking met vergelijkbare betekenis).",
+    "wrongExplanations": {
+      "0": "'Ondernemen' = actie zetten. 'Stappen ondernemen' kan, maar met 'maatregelen' is de vaste combinatie 'nemen'.",
+      "1": "'Aannemen' = goedkeuren. 'Maatregelen aannemen' zou kunnen in een parlementaire context, maar 'maatregelen nemen' is de standaard uitdrukking voor ingrijpen.",
+      "3": "'Opnemen' = vastleggen. Maatregelen worden niet opgenomen — ze worden genomen."
+    },
+    "hint": "De overheid moet ingrijpen. Welk werkwoord gebruik je in de vaste uitdrukking 'maatregelen ...'?"
+  },
+  {
+    "sentence": "De directeur is met pensioen gegaan en de adjunct-directeur heeft zijn functie ______.",
+    "options": [
+      "waargenomen",
+      "overgenomen",
+      "aangenomen",
+      "opgenomen"
+    ],
+    "correct": 1,
+    "explanation": "'Overnemen' = permanent de functie van iemand anders op je nemen. Vergelijk: 'waarnemen' = tijdelijk vervangen (de persoon komt terug), 'overnemen' = definitief vervangen (de persoon komt niet terug). Hier is het pensioen — dus definitief.",
+    "wrongExplanations": {
+      "0": "'Waarnemen' = tijdelijk vervangen. Bij pensioen is het definitief — dan gebruik je 'overnemen', niet 'waarnemen'.",
+      "2": "'Aannemen' = accepteren of in dienst nemen. Een functie neem je niet aan — je neemt hem over.",
+      "3": "'Opnemen' = vastleggen. Een functie wordt niet opgenomen — ze wordt overgenomen."
+    },
+    "hint": "De directeur komt niet terug (pensioen). Is de vervanging tijdelijk of definitief? Welk prefix past bij 'definitief vervangen'?"
+  },
+  {
+    "sentence": "De huisarts is twee weken op vakantie. Een collega zal haar praktijk ______.",
+    "options": [
+      "overnemen",
+      "waarnemen",
+      "aannemen",
+      "opnemen"
+    ],
+    "correct": 1,
+    "explanation": "'Waarnemen' = tijdelijk iemands functie of taken doen terwijl die persoon afwezig is. Vergelijk: 'waarnemen' (tijdelijk, persoon komt terug) vs. 'overnemen' (definitief). De huisarts komt terug — dus waarnemen.",
+    "wrongExplanations": {
+      "0": "'Overnemen' = definitief overnemen. De huisarts komt terug na vakantie — het is dus tijdelijk, niet definitief.",
+      "2": "'Aannemen' = in dienst nemen. De collega wordt niet aangenomen — ze neemt tijdelijk waar.",
+      "3": "'Opnemen' = vastleggen. Een praktijk wordt niet opgenomen — ze wordt waargenomen."
+    },
+    "hint": "De huisarts komt terug. Is de vervanging tijdelijk of definitief? Welk prefix past bij 'tijdelijk vervangen'?"
+  },
+  {
+    "sentence": "De universiteit heeft haar als student ______ voor het nieuwe studiejaar.",
+    "options": [
+      "overgenomen",
+      "opgenomen",
+      "meegenomen",
+      "aangenomen"
+    ],
+    "correct": 3,
+    "explanation": "'Aannemen' = iemand selecteren en toelaten. Gebruik: een student aannemen, een sollicitant aannemen. Vergelijk: 'opnemen in een programma' (includeren in een groep) vs. 'aannemen' (de selectiebeslissing nemen). Hier gaat het om de toelatingsbeslissing.",
+    "wrongExplanations": {
+      "0": "'Overnemen' = van iemand anders overnemen. De universiteit neemt de student niet over.",
+      "1": "'Opnemen' = in een groep opnemen. 'Opgenomen worden in een programma' kan ook, maar bij de selectiebeslissing van een student is 'aannemen' de standaard term.",
+      "2": "'Meenemen' = met je meenemen. Een student wordt niet meegenomen."
+    },
+    "hint": "De universiteit selecteert haar en laat haar toe. Welk prefix past bij 'selecteren en toelaten'?"
+  },
+  {
+    "sentence": "De Tweede Kamer heeft de wet met grote meerderheid ______, ondanks het standpunt dat de oppositie had ______.",
+    "options": [
+      "aangenomen / ingenomen",
+      "ingenomen / aangenomen",
+      "opgenomen / afgenomen",
+      "afgenomen / opgenomen"
+    ],
+    "correct": 0,
+    "explanation": "Twee verschillende werkwoorden: 'een wet aannemen' = goedkeuren, officieel accepteren. 'Een standpunt innemen' = een positie kiezen in een discussie. Let op het verschil: je neemt een wet aan (goedkeuren) maar je neemt een standpunt in (positie kiezen).",
+    "wrongExplanations": {
+      "1": "Omgekeerd: een wet wordt aangenomen (goedgekeurd), niet ingenomen. Een standpunt wordt ingenomen (positie kiezen), niet aangenomen.",
+      "2": "'Opnemen' en 'afnemen' passen hier allebei niet — een wet wordt niet opgenomen en een standpunt wordt niet afgenomen.",
+      "3": "'Afnemen' en 'opnemen' passen hier niet — een wet wordt niet afgenomen en een standpunt wordt niet opgenomen."
+    },
+    "hint": "Twee werkwoorden: de Kamer keurt de wet goed en de oppositie kiest een positie. Welke combinatie past?"
+  },
+  {
+    "sentence": "Niemand wilde het organiseren, dus heeft zij de taak op zich ______.",
+    "options": [
+      "aangenomen",
+      "genomen",
+      "ingenomen",
+      "opgenomen"
+    ],
+    "correct": 1,
+    "explanation": "'Op zich nemen' = vrijwillig een taak of verantwoordelijkheid aanvaarden. Vaste uitdrukking met de basisvorm. Gebruik: een taak op zich nemen, de organisatie op zich nemen, de kosten op zich nemen.",
+    "wrongExplanations": {
+      "0": "'Aannemen' = accepteren of in dienst nemen. 'Op zich aannemen' bestaat niet — de vaste uitdrukking is 'op zich nemen'.",
+      "2": "'Innemen' = een positie bezetten. 'Op zich innemen' bestaat niet als uitdrukking.",
+      "3": "'Opnemen' = vastleggen. 'Op zich opnemen' bestaat niet — het is 'op zich nemen'."
+    },
+    "hint": "Zij aanvaardt de taak vrijwillig. Welk werkwoord past bij 'op zich ...'? Let op: geen prefix!"
+  },
+  {
+    "sentence": "De bergbeklimmers hebben een nieuwe poging ______ om de top te bereiken.",
+    "options": [
+      "genomen",
+      "opgenomen",
+      "ondernomen",
+      "aangenomen"
+    ],
+    "correct": 2,
+    "explanation": "'Ondernemen' = een poging doen, iets proberen. Gebruik: een poging ondernemen, een expeditie ondernemen, een zoektocht ondernemen.",
+    "wrongExplanations": {
+      "0": "'Nemen' (basis) = past niet bij 'poging'. De vaste uitdrukking is 'een poging ondernemen' of 'een poging doen/wagen'.",
+      "1": "'Opnemen' = vastleggen. Een poging wordt niet opgenomen — ze wordt ondernomen.",
+      "3": "'Aannemen' = accepteren. Een poging wordt niet aangenomen — ze wordt ondernomen."
+    },
+    "hint": "Ze proberen het opnieuw. Welk prefix past bij 'een poging doen'?"
+  },
+  {
+    "sentence": "Graag ______ wij van u of de levering op schema ligt.",
+    "options": [
+      "nemen",
+      "vernemen",
+      "waarnemen",
+      "aannemen"
+    ],
+    "correct": 1,
+    "explanation": "'Vernemen' = horen, te weten komen — formeel/zakelijk register. 'Graag vernemen wij' is een zeer gebruikelijke zakelijke formulering in e-mails en brieven. Betekent: wij horen graag van u.",
+    "wrongExplanations": {
+      "0": "'Nemen' = basis werkwoord. Past niet in deze zakelijke context.",
+      "2": "'Waarnemen' = observeren of tijdelijk vervangen. Je waarneemt een levering niet — je verneemt erover.",
+      "3": "'Aannemen' = veronderstellen. 'Graag aannemen' past niet — je wilt iets horen, niet veronderstellen."
+    },
+    "hint": "Dit is een formele zakelijke zin: 'wij willen graag van u horen'. Welk prefix past bij 'te weten komen' in formeel register?"
+  },
+  {
+    "sentence": "Na het doktersbezoek heeft hij zich ______ om gezonder te gaan eten.",
+    "options": [
+      "meegenomen",
+      "aangenomen",
+      "opgenomen",
+      "voorgenomen"
+    ],
+    "correct": 3,
+    "explanation": "'Zich voornemen' = besluiten om iets te veranderen, een voornemen maken. Gebruik: zich voornemen om gezonder te leven, zich voornemen om te stoppen met roken.",
+    "wrongExplanations": {
+      "0": "'Meenemen' = met je meenemen. Hij neemt het advies niet letterlijk mee — hij maakt een voornemen.",
+      "1": "'Aannemen' = accepteren. Hij accepteert zichzelf niet — hij maakt een plan.",
+      "2": "'Opnemen' = vastleggen of in het ziekenhuis. Hij wordt niet opgenomen — hij maakt een voornemen."
+    },
+    "hint": "Hij besluit zijn leven te veranderen na het doktersbezoek. Welk prefix past bij 'besluiten om te veranderen'?"
+  },
+  {
+    "sentence": "De band heeft haar nieuwe album in een studio in Berlijn ______.",
+    "options": [
+      "aangenomen",
+      "afgenomen",
+      "opgenomen",
+      "meegenomen"
+    ],
+    "correct": 2,
+    "explanation": "'Opnemen' = vastleggen op audio in een studio. Gebruik: een album opnemen, een nummer opnemen, een podcast opnemen. Specifiek voor muziek- en audioproducties.",
+    "wrongExplanations": {
+      "0": "'Aannemen' = accepteren. Een album wordt niet aangenomen — het wordt opgenomen.",
+      "1": "'Afnemen' = verminderen of een toets afnemen. Een album wordt niet afgenomen — het wordt opgenomen.",
+      "3": "'Meenemen' = met je meenemen. Een album neem je niet mee naar de studio — je neemt het daar op."
+    },
+    "hint": "De band heeft muziek vastgelegd in de studio. Welk prefix past bij 'muziek vastleggen'?"
+  },
+  {
+    "sentence": "Mag ik mijn vriendin ______ naar het feest vanavond?",
+    "options": [
+      "aannemen",
+      "opnemen",
+      "meenemen",
+      "overnemen"
+    ],
+    "correct": 2,
+    "explanation": "'Meenemen' = iemand met je meenemen naar een plek of evenement. Gebruik: een vriend meenemen naar een feest, je partner meenemen naar een diner, een collega meenemen naar een vergadering.",
+    "wrongExplanations": {
+      "0": "'Aannemen' = accepteren of in dienst nemen. Je neemt je vriendin niet aan — je neemt haar mee.",
+      "1": "'Opnemen' = vastleggen of in het ziekenhuis. Je neemt je vriendin niet op — je neemt haar mee.",
+      "3": "'Overnemen' = van iemand overnemen. Je neemt je vriendin niet over — je neemt haar mee."
+    },
+    "hint": "Je wilt dat je vriendin met je meegaat. Welk prefix past bij 'iemand met je meenemen'?"
+  },
+  {
+    "sentence": "Hij heeft niet eens de moeite ______ om te antwoorden.",
+    "options": [
+      "aangenomen",
+      "opgenomen",
+      "ondernomen",
+      "genomen"
+    ],
+    "correct": 3,
+    "explanation": "'De moeite nemen' = de inspanning leveren om iets te doen. Vaste uitdrukking met de basisvorm. Gebruik: de moeite nemen om te bellen, de moeite nemen om het goed te doen.",
+    "wrongExplanations": {
+      "0": "'Aannemen' = accepteren. De moeite neem je niet aan — je neemt haar.",
+      "1": "'Opnemen' = vastleggen. De moeite wordt niet opgenomen.",
+      "2": "'Ondernemen' = actie zetten. 'De moeite ondernemen' bestaat niet — het is 'de moeite nemen'."
+    },
+    "hint": "Hij levert geen inspanning. Welk werkwoord gebruik je zonder prefix bij 'de moeite'?"
+  },
+  {
+    "sentence": "De spanning tussen de twee landen is de laatste maanden sterk ______.",
+    "options": [
+      "opgenomen",
+      "aangenomen",
+      "ingenomen",
+      "toegenomen"
+    ],
+    "correct": 3,
+    "explanation": "'Toenemen' = groter worden, intensiveren. Gebruik: spanning neemt toe, druk neemt toe, onrust neemt toe. Vaak gebruikt bij abstracte begrippen die sterker worden.",
+    "wrongExplanations": {
+      "0": "'Opnemen' = vastleggen. Spanning wordt niet opgenomen — ze neemt toe.",
+      "1": "'Aannemen' = veronderstellen. Spanning wordt niet aangenomen — ze intensiveert.",
+      "2": "'Innemen' = een positie bezetten. Spanning wordt niet ingenomen — ze neemt toe."
+    },
+    "hint": "De spanning is sterker geworden. Welk prefix past bij 'groter/sterker worden'?"
+  },
+  {
+    "sentence": "Voordat je tekent, moet je het contract zorgvuldig ______.",
+    "options": [
+      "aannemen",
+      "opnemen",
+      "doornemen",
+      "afnemen"
+    ],
+    "correct": 2,
+    "explanation": "'Doornemen' = aandachtig lezen en controleren. Gebruik: een contract doornemen, de kleine lettertjes doornemen, een overeenkomst doornemen. Belangrijk in juridische contexten.",
+    "wrongExplanations": {
+      "0": "'Aannemen' = accepteren. Je accepteert het contract niet zomaar — je leest het eerst door.",
+      "1": "'Opnemen' = vastleggen. Je neemt het contract niet op — je leest het door.",
+      "3": "'Afnemen' = verminderen of een toets afnemen. Je neemt een contract niet af — je leest het door."
+    },
+    "hint": "Je moet het contract aandachtig lezen. Welk prefix past bij 'aandachtig doorlezen'?"
+  },
+  {
+    "sentence": "Na de ruzie wilde hij zijn harde woorden ______, maar het was te laat.",
+    "options": [
+      "opnemen",
+      "terugnemen",
+      "aannemen",
+      "meenemen"
+    ],
+    "correct": 1,
+    "explanation": "'Terugnemen' = iets intrekken wat je eerder hebt gezegd. Gebruik: je woorden terugnemen, een bewering terugnemen. Het idee is dat je 'terugneemt' wat je hebt gezegd — alsof je het ongedaan wilt maken.",
+    "wrongExplanations": {
+      "0": "'Opnemen' = vastleggen of emotioneel verwerken. Hij verwerkt zijn woorden niet — hij wil ze intrekken.",
+      "2": "'Aannemen' = accepteren. Hij accepteert zijn woorden niet — hij wil ze terugtrekken.",
+      "3": "'Meenemen' = met je meenemen. Woorden neem je niet mee — je trekt ze terug."
+    },
+    "hint": "Hij wil ongedaan maken wat hij heeft gezegd. Welk prefix past bij 'intrekken'?"
+  },
+  {
+    "sentence": "Alle EU-lidstaten hebben ______ aan de stemming over het nieuwe verdrag.",
+    "options": [
+      "meegenomen",
+      "deelgenomen",
+      "aangenomen",
+      "overgenomen"
+    ],
+    "correct": 1,
+    "explanation": "'Deelnemen aan' = participeren, meedoen. Gebruik: deelnemen aan een stemming, deelnemen aan een debat, deelnemen aan onderhandelingen. Altijd met het voorzetsel 'aan'.",
+    "wrongExplanations": {
+      "0": "'Meenemen' = met je meenemen. Lidstaten nemen de stemming niet mee.",
+      "2": "'Aannemen' = goedkeuren. De lidstaten keuren hier niet goed — ze doen mee aan de stemming.",
+      "3": "'Overnemen' = van iemand overnemen. De lidstaten nemen de stemming niet over."
+    },
+    "hint": "Alle lidstaten doen mee. Welk werkwoord past bij 'participeren aan'?"
+  },
+  {
+    "sentence": "Er was zoveel informatie dat ik het niet allemaal kon ______.",
+    "options": [
+      "meenemen",
+      "doornemen",
+      "opnemen",
+      "aannemen"
+    ],
+    "correct": 2,
+    "explanation": "'Opnemen' = informatie verwerken, absorberen. Gebruik: informatie opnemen, kennis opnemen, het nieuws niet kunnen opnemen. Het idee is dat je brein de informatie 'opneemt' zoals een spons water opneemt.",
+    "wrongExplanations": {
+      "0": "'Meenemen' = met je meenemen of betrekken. Je neemt informatie niet letterlijk mee — je neemt het in je op.",
+      "1": "'Doornemen' = doorlezen. Je kunt informatie doornemen, maar hier gaat het om het verwerken, niet om het lezen.",
+      "3": "'Aannemen' = accepteren of veronderstellen. Het gaat hier niet om geloven — maar om cognitief verwerken."
+    },
+    "hint": "Er was te veel informatie om te verwerken. Welk prefix past bij 'informatie absorberen/verwerken'?"
+  },
+  {
+    "sentence": "Je zou een voorbeeld moeten ______ aan je oudere zus.",
+    "options": [
+      "aannemen",
+      "opnemen",
+      "meenemen",
+      "nemen"
+    ],
+    "correct": 3,
+    "explanation": "'Een voorbeeld nemen aan' = iemand als rolmodel zien. Vaste uitdrukking met de basisvorm en het voorzetsel 'aan'. Gebruik: een voorbeeld nemen aan een collega, een voorbeeld nemen aan je ouders.",
+    "wrongExplanations": {
+      "0": "'Aannemen' = accepteren. 'Een voorbeeld aannemen' bestaat niet als vaste uitdrukking.",
+      "1": "'Opnemen' = vastleggen. 'Een voorbeeld opnemen' bestaat niet.",
+      "2": "'Meenemen' = met je meenemen. 'Een voorbeeld meenemen' bestaat niet als uitdrukking."
+    },
+    "hint": "Je moet je zus als rolmodel zien. Welk werkwoord gebruik je zonder prefix bij 'een voorbeeld ... aan'?"
+  },
+  {
+    "sentence": "Terwijl het aantal bezoekers ______, zijn de online verkopen juist ______.",
+    "options": [
+      "is toegenomen / afgenomen",
+      "is afgenomen / toegenomen",
+      "heeft aangenomen / opgenomen",
+      "is opgenomen / afgenomen"
+    ],
+    "correct": 1,
+    "explanation": "Twee tegengestelde bewegingen: 'afnemen' = dalen (bezoekers worden minder) en 'toenemen' = stijgen (online verkopen worden meer). Het woord 'juist' signaleert het contrast. Bezoekers nemen af, verkopen nemen toe.",
+    "wrongExplanations": {
+      "0": "Omgekeerd: de context zegt dat bezoekers minder worden (afnemen) en online verkopen meer (toenemen). 'Juist' geeft het contrast aan.",
+      "2": "'Aannemen' en 'opnemen' passen niet bij het beschrijven van trends die stijgen of dalen.",
+      "3": "'Opnemen' past niet bij het beschrijven van een dalende trend."
+    },
+    "hint": "Bezoekers worden minder, online verkopen worden meer. 'Juist' geeft het contrast aan. Welk paar past?"
+  },
+  {
+    "sentence": "De rechter zal de persoonlijke omstandigheden van de verdachte ______ in zijn oordeel.",
+    "options": [
+      "opnemen",
+      "aannemen",
+      "meenemen",
+      "innemen"
+    ],
+    "correct": 2,
+    "explanation": "'Meenemen' = betrekken bij een afweging of beslissing. Formeel gebruik: omstandigheden meenemen in een oordeel, argumenten meenemen in een besluit, feedback meenemen bij de evaluatie.",
+    "wrongExplanations": {
+      "0": "'Opnemen' = vastleggen of in een groep includeren. Omstandigheden worden niet opgenomen in een oordeel — ze worden meegenomen.",
+      "1": "'Aannemen' = veronderstellen. De rechter veronderstelt de omstandigheden niet — hij weegt ze mee.",
+      "3": "'Innemen' = een positie bezetten. Omstandigheden nemen geen positie in — ze worden meegewogen."
+    },
+    "hint": "De rechter houdt rekening met de omstandigheden. Welk prefix past bij 'meewegen in een beslissing'?"
+  },
+  {
+    "sentence": "Het is vakantie — laten we er lekker van ______!",
+    "options": [
+      "opnemen",
+      "aannemen",
+      "meenemen",
+      "nemen"
+    ],
+    "correct": 3,
+    "explanation": "'Het ervan nemen' = genieten, je laten gaan, iets leuks doen. Informele, veelgebruikte uitdrukking. Gebruik: het ervan nemen op vakantie, het ervan nemen bij een feestje.",
+    "wrongExplanations": {
+      "0": "'Opnemen' = vastleggen. Je neemt de vakantie niet op (in deze informele zin).",
+      "1": "'Aannemen' = accepteren. 'Er lekker van aannemen' bestaat niet.",
+      "2": "'Meenemen' = met je meenemen. 'Er lekker van meenemen' bestaat niet."
+    },
+    "hint": "Jullie willen genieten van de vakantie! Welk werkwoord past bij de informele uitdrukking 'het ervan ...'?"
   }
 ]
