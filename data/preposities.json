@@ -1945,5 +1945,275 @@
     ],
     "explanation": "'Binnen' = aan de binnenkant, in het interieur. Vergelijk: 'binnen' (interieur, binnenkant) vs. 'buiten' (exterieur, buitenkant). 'In het huis' is ook mogelijk maar 'binnen' benadrukt de tegenstelling met buiten.",
     "hint": "Het regent buiten, dus ze spelen niet buiten maar... Welk voorzetsel is het tegenovergestelde van 'buiten'?"
+  },
+  {
+    "sentence": "De parkeerplaats ligt ___ de supermarkt — je moet er even naartoe rijden.",
+    "answer": "achter",
+    "acceptedAnswers": [
+      "achter"
+    ],
+    "explanation": "'Achter' = aan de achterkant van. Vergelijk: 'voor' (voorkant), 'achter' (achterkant), 'naast' (zijkant).",
+    "hint": "De parkeerplaats is aan de achterkant. Welk voorzetsel geeft de achterkant aan?"
+  },
+  {
+    "sentence": "Het restaurant zit ___ het hotel — je hoeft de straat niet over te steken.",
+    "answer": "naast",
+    "acceptedAnswers": [
+      "naast"
+    ],
+    "explanation": "'Naast' = direct aan de zijkant van. Vergelijk: 'naast' (zijkant), 'tegenover' (overkant), 'achter' (achterkant).",
+    "hint": "Het restaurant is direct ernaast, aan de zijkant. Welk voorzetsel geeft een positie aan de zijkant aan?"
+  },
+  {
+    "sentence": "De temperatuur is ___ nul vandaag — het vriest flink.",
+    "answer": "onder",
+    "acceptedAnswers": [
+      "onder"
+    ],
+    "explanation": "'Onder nul' = lager dan nul graden. 'Onder' geeft een positie lager dan iets aan, zowel letterlijk als figuurlijk.",
+    "hint": "De temperatuur is lager dan nul. Welk voorzetsel geeft 'lager dan' aan?"
+  },
+  {
+    "sentence": "Het vliegveld ligt net ___ de stad — het is maar twintig minuten rijden.",
+    "answer": "buiten",
+    "acceptedAnswers": [
+      "buiten"
+    ],
+    "explanation": "'Buiten de stad' = niet in de stad, maar er net naast. Vergelijk: 'binnen de stad' (erin), 'buiten de stad' (erbuiten).",
+    "hint": "Het vliegveld is niet in de stad, maar net erbuiten. Welk voorzetsel is het tegenovergestelde van 'binnen'?"
+  },
+  {
+    "sentence": "We reden ___ een tunnel van twee kilometer lang.",
+    "answer": "door",
+    "acceptedAnswers": [
+      "door"
+    ],
+    "explanation": "'Door een tunnel rijden' = van de ene kant naar de andere kant gaan. 'Door' geeft beweging dwars door een gesloten ruimte aan.",
+    "hint": "Je rijdt van de ene kant naar de andere kant van de tunnel. Welk voorzetsel geeft die beweging aan?"
+  },
+  {
+    "sentence": "Er hangt een lamp ___ de eettafel die mooi licht geeft.",
+    "answer": "boven",
+    "acceptedAnswers": [
+      "boven"
+    ],
+    "explanation": "'Boven de tafel' = hoger dan, erboven. Vergelijk: 'boven' (hoger), 'onder' (lager), 'op' (erop).",
+    "hint": "De lamp hangt hoger dan de tafel. Welk voorzetsel geeft een hogere positie aan?"
+  },
+  {
+    "sentence": "We lopen elke dag ___ het strand naar het centrum.",
+    "answer": "langs",
+    "acceptedAnswers": [
+      "langs"
+    ],
+    "explanation": "'Langs het strand' = parallel aan het strand, het strand volgend. 'Langs' geeft aan dat je iets passeert of er parallel aan beweegt.",
+    "hint": "Je loopt parallel aan het strand. Welk voorzetsel geeft aan dat je ergens langs beweegt?"
+  },
+  {
+    "sentence": "De bakker zit ___ de bibliotheek — je kunt het vanaf daar zien.",
+    "answer": "tegenover",
+    "acceptedAnswers": [
+      "tegenover"
+    ],
+    "explanation": "'Tegenover' = aan de overkant, recht ertegenover. Vergelijk: 'naast' (ernaast), 'tegenover' (overkant).",
+    "hint": "De bakker is aan de overkant. Welk voorzetsel geeft aan dat iets aan de andere kant is?"
+  },
+  {
+    "sentence": "Ze denkt ___ een nieuwe carrière — misschien iets in de IT.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Denken over' = overwegen, nadenken over mogelijkheden. Vergelijk: 'denken aan' = iemand of iets in je gedachten hebben (emotioneel). Hier overweegt ze, dus 'over'.",
+    "hint": "Ze overweegt een mogelijkheid — ze denkt niet aan een persoon. Welk voorzetsel hoort bij 'denken' als je iets overweegt?"
+  },
+  {
+    "sentence": "Hij is teleurgesteld ___ het resultaat van het project.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Teleurgesteld over' = teleurgesteld over een situatie of resultaat. Vergelijk: 'teleurgesteld in' = teleurgesteld in een persoon. Hier gaat het om een resultaat, dus 'over'.",
+    "hint": "Het gaat om een resultaat, niet om een persoon. Welk voorzetsel hoort bij 'teleurgesteld' als het om een situatie gaat?"
+  },
+  {
+    "sentence": "Ze twijfelt ___ welke opleiding ze moet kiezen — ze vindt beide interessant.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Twijfelen over' = onzeker zijn bij een keuze, nog niet besloten hebben. Vergelijk: 'twijfelen aan' = iets betwijfelen, niet geloven. Hier kiest ze, dus 'over'.",
+    "hint": "Ze moet kiezen en is nog onzeker. Welk voorzetsel hoort bij 'twijfelen' als je nog niet hebt besloten?"
+  },
+  {
+    "sentence": "Ze waarschuwt haar kinderen ___ het eten van onbekende bessen in het bos.",
+    "answer": "tegen",
+    "acceptedAnswers": [
+      "tegen"
+    ],
+    "explanation": "'Waarschuwen tegen' = adviseren iets niet te doen, gedrag ontmoedigen. Vergelijk: 'waarschuwen voor' = wijzen op een gevaar of risico. Hier ontmoedigt ze gedrag, dus 'tegen'.",
+    "hint": "Ze zegt dat ze het niet moeten doen. Welk voorzetsel hoort bij 'waarschuwen' als je gedrag wil ontmoedigen?"
+  },
+  {
+    "sentence": "Ik vraag ___ een verlenging van de deadline — twee weken extra zou genoeg zijn.",
+    "answer": "om",
+    "acceptedAnswers": [
+      "om"
+    ],
+    "explanation": "'Vragen om' = een verzoek doen voor iets. Vergelijk de drie: 'vragen om' = verzoek doen, 'vragen naar' = informeren over, 'vragen aan' = vraag stellen aan iemand.",
+    "hint": "Je doet een verzoek. Welk voorzetsel hoort bij 'vragen' als je een verzoek doet?"
+  },
+  {
+    "sentence": "Ik woon al vijf jaar ___ Amsterdam.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'In Amsterdam' = in een stad. In het Nederlands gebruik je 'in' voor steden en landen: in Amsterdam, in Nederland. Let op: in het Indonesisch gebruik je 'di' voor alles, maar in het Nederlands maakt het uit: 'in' (stad/land), 'op' (eiland), 'aan' (rivier/zee).",
+    "hint": "Je woont in een stad. Welk voorzetsel gebruik je bij steden?"
+  },
+  {
+    "sentence": "We gaan volgend jaar ___ Bali op vakantie.",
+    "answer": "naar",
+    "acceptedAnswers": [
+      "naar"
+    ],
+    "explanation": "'Naar Bali gaan' = richting een bestemming. Bij beweging gebruik je altijd 'naar', niet 'in'. Vergelijk: 'in Bali wonen' (locatie) vs. 'naar Bali gaan' (beweging). In het Indonesisch is dit 'ke', in het Nederlands 'naar'.",
+    "hint": "Je gaat erheen — het is een beweging. Welk voorzetsel gebruik je bij beweging naar een bestemming?"
+  },
+  {
+    "sentence": "Het boek ligt ___ de plank in de boekenkast.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Op de plank' = bovenop een horizontaal oppervlak. Let op het verschil: 'op' = horizontaal oppervlak (op de tafel, op de plank), 'aan' = verticaal (aan de muur), 'in' = erin (in de kast). In het Indonesisch is dit allemaal 'di'.",
+    "hint": "Het boek rust op een horizontaal oppervlak. Welk voorzetsel gebruik je voor 'bovenop'?"
+  },
+  {
+    "sentence": "Ze hangt haar jas ___ de kapstok bij de deur.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Aan de kapstok' = bevestigd aan een haak of stok. Vergelijk: 'aan de muur' (verticaal, bevestigd), 'op de tafel' (horizontaal). In het Indonesisch gebruik je 'di' voor alles, maar in het Nederlands kies je tussen 'aan', 'op' en 'in'.",
+    "hint": "De jas hangt eraan — ze is bevestigd. Welk voorzetsel gebruik je als iets aan een haak of stok hangt?"
+  },
+  {
+    "sentence": "Het team beschikt ___ voldoende kennis om het project af te ronden.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Beschikken over' = in bezit hebben van, toegang hebben tot. Altijd met 'over'. Veel gebruikt in professionele context.",
+    "hint": "Het team heeft voldoende kennis. Welk voorzetsel hoort bij 'beschikken'?"
+  },
+  {
+    "sentence": "De directeur dringt aan ___ een snellere oplevering van het product.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Aandringen op' = sterk verzoeken, druk uitoefenen. Altijd met 'op'. 'Aandringen' is scheidbaar: 'dringt aan op'.",
+    "hint": "De directeur verzoekt met nadruk. Welk voorzetsel hoort bij 'aandringen'?"
+  },
+  {
+    "sentence": "We moeten ons aanpassen ___ de nieuwe marktomstandigheden.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Zich aanpassen aan' = je veranderen om bij iets te passen. Altijd met 'aan'. Vergelijk: 'wennen aan' = eraan gewend raken — vergelijkbare structuur.",
+    "hint": "De omstandigheden zijn veranderd en jullie moeten meegaan. Welk voorzetsel hoort bij 'aanpassen'?"
+  },
+  {
+    "sentence": "Het resultaat hangt ___ van de kwaliteit van de data.",
+    "answer": "af",
+    "acceptedAnswers": [
+      "af"
+    ],
+    "explanation": "'Afhangen van' = bepaald worden door. 'Afhangen' is scheidbaar: 'hangt af van'. Hier ontbreekt het scheidbare deel 'af'. Het voorzetsel dat bij 'afhangen' hoort is 'van'.",
+    "hint": "De kwaliteit bepaalt het resultaat. 'Afhangen van' is scheidbaar: 'hangt ___ van'. Welk deel ontbreekt?"
+  },
+  {
+    "sentence": "Kun je mij ___ de details vertellen? Ik weet nog niet precies wat er is gebeurd.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Vertellen over' = informatie geven over een onderwerp. Vergelijk: 'vertellen aan' = iets vertellen aan een persoon, 'vertellen over' = informatie geven over een onderwerp.",
+    "hint": "Je wilt informatie over een onderwerp. Welk voorzetsel hoort bij 'vertellen' als het om het onderwerp gaat?"
+  },
+  {
+    "sentence": "Ik ga ___ voet naar het werk — het is maar tien minuten lopen.",
+    "answer": "te",
+    "acceptedAnswers": [
+      "te"
+    ],
+    "explanation": "'Te voet' = lopend, zonder vervoermiddel. Een vaste uitdrukking. Vergelijk: 'met de auto' (vervoermiddel), 'op de fiets' (fiets), 'te voet' (lopen). 'Te' is een oud voorzetsel dat je nog in vaste uitdrukkingen ziet.",
+    "hint": "Je loopt, zonder auto of fiets. Welk oud voorzetsel hoort bij '___ voet'?"
+  },
+  {
+    "sentence": "Ze is ___ vakantie en komt volgende week pas terug.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Op vakantie zijn' = met vakantie zijn. Een vaste uitdrukking: altijd 'op vakantie'. Vergelijk: 'op reis', 'op bezoek', 'op pad'.",
+    "hint": "Ze is weg, niet aan het werk. Welk voorzetsel hoort bij '___ vakantie zijn'?"
+  },
+  {
+    "sentence": "Ik ben ___ het moment erg druk met een groot project.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Op het moment' = nu, op dit moment. Een vaste uitdrukking: altijd 'op het moment'. Vergelijk: 'op dit moment', 'op dat moment'.",
+    "hint": "Je hebt het over nu. Welk voorzetsel hoort bij '___ het moment'?"
+  },
+  {
+    "sentence": "De winkel is gesloten ___ verband met een verbouwing.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'In verband met' = vanwege, als gevolg van. Een formele uitdrukking veel gebruikt in brieven en aankondigingen. Altijd 'in verband met'.",
+    "hint": "De verbouwing is de reden. Welk voorzetsel hoort bij '___ verband met'?"
+  },
+  {
+    "sentence": "We gaan ___ de auto naar Antwerpen — het is sneller dan de trein.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Met de auto' = per auto. 'Met' gebruik je bij vervoermiddelen: met de auto, met de trein, met de bus, met het vliegtuig. Let op: 'op de fiets' is een uitzondering!",
+    "hint": "Je gebruikt een vervoermiddel. Welk voorzetsel gebruik je bij vervoermiddelen zoals auto, trein of bus?"
+  },
+  {
+    "sentence": "Ze stuurt het document ___ e-mail naar alle collega's.",
+    "answer": "per",
+    "acceptedAnswers": [
+      "per"
+    ],
+    "explanation": "'Per e-mail' = via e-mail. 'Per' geeft het middel of de manier aan: per e-mail, per post, per ongeluk. Vergelijk: 'met' (vervoermiddel), 'per' (communicatiemiddel/manier).",
+    "hint": "E-mail is het middel waarmee ze het verstuurt. Welk voorzetsel geeft het middel of de manier aan?"
+  },
+  {
+    "sentence": "Hij is gek ___ Indonesisch eten — hij kookt elke week nasi goreng.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Gek zijn op' = heel erg van iets houden, dol zijn op. Altijd met 'op'. Vergelijk: 'houden van' (neutraal), 'gek zijn op' (sterker, informeel).",
+    "hint": "Hij houdt heel erg van iets. Welk voorzetsel hoort bij 'gek zijn' als je iets heel erg leuk vindt?"
+  },
+  {
+    "sentence": "Het bedrijf onderscheidt zich ___ de concurrentie door betere klantenservice.",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Zich onderscheiden van' = anders zijn dan, opvallen vergeleken met. Altijd met 'van'.",
+    "hint": "Het bedrijf is anders dan de concurrentie. Welk voorzetsel hoort bij 'zich onderscheiden'?"
   }
 ]
