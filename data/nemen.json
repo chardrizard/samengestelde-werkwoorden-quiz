@@ -835,10 +835,10 @@
   {
     "sentence": "De observator nam de situatie nauwkeurig ______.",
     "options": [
-      "afnemen",
-      "doornemen",
-      "waarnemen",
-      "opnemen"
+      "af",
+      "door",
+      "waar",
+      "op"
     ],
     "correct": 2,
     "explanation": "'Waarnemen' = observeren, met aandacht kijken en registreren. Gebruik: een situatie waarnemen, gedrag waarnemen, veranderingen waarnemen.",
