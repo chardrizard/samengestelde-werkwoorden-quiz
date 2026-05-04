@@ -1,0 +1,338 @@
+[
+  {
+    "sentence": "Ik heb alles ______, maar ik kan mijn portemonnee nergens vinden.",
+    "options": ["afgezocht", "bezocht", "opgezocht", "verzocht"],
+    "correct": 0,
+    "explanation": "'Afzoeken' = overal grondig zoeken. Je hebt op alle plekken gekeken, maar je portemonnee is nog steeds kwijt.",
+    "wrongExplanations": {
+      "1": "'Bezoeken' = naar een persoon of plek gaan. Je bezoekt geen portemonnee.",
+      "2": "'Opzoeken' = informatie zoeken in een bron, zoals online of in een woordenboek. Hier zoek je fysiek naar iets dat kwijt is.",
+      "3": "'Verzoeken' = beleefd vragen. Niemand vraagt hier iets."
+    },
+    "hint": "Je zoekt overal en heel grondig naar iets dat kwijt is."
+  },
+  {
+    "sentence": "De politie heeft het hele bos ______.",
+    "options": ["afgezocht", "onderzocht", "bezocht", "uitgezocht"],
+    "correct": 0,
+    "explanation": "'Afzoeken' = een gebied systematisch doorzoeken. Een bos afzoeken betekent dat je overal zoekt naar iemand of iets.",
+    "wrongExplanations": {
+      "1": "'Onderzoeken' = iets analyseren of medisch/wetenschappelijk bekijken. Hier gaat het vooral om zoeken in een gebied.",
+      "2": "'Bezoeken' = naar een plek gaan voor een bezoek. De politie bezoekt het bos niet als toerist.",
+      "3": "'Uitzoeken' = iets uitvinden of regelen. Hier zoeken ze fysiek in het bos."
+    },
+    "hint": "Het bos is het gebied waar overal gezocht wordt."
+  },
+  {
+    "sentence": "We hebben de hele kamer ______ naar mijn sleutels.",
+    "options": ["afgezocht", "opgezocht", "verzocht", "bezocht"],
+    "correct": 0,
+    "explanation": "'Afzoeken' = een plek helemaal doorzoeken. Je zoekt in de hele kamer naar sleutels.",
+    "wrongExplanations": {
+      "1": "'Opzoeken' = informatie opzoeken in een bron. Sleutels zoek je niet op in een woordenboek.",
+      "2": "'Verzoeken' = beleefd vragen. Je vraagt de kamer niets.",
+      "3": "'Bezoeken' = naar een plek of persoon gaan. Je bent al in de kamer en zoekt daar."
+    },
+    "hint": "Je zoekt in elke hoek van de kamer."
+  },
+  {
+    "sentence": "Na uren zoeken hadden ze de buurt helemaal ______.",
+    "options": ["afgezocht", "doorgezocht", "onderzocht", "uitgezocht"],
+    "correct": 0,
+    "explanation": "'Afzoeken' = een gebied helemaal nalopen om iets te vinden. De buurt is hier het gebied waar ze overal hebben gezocht.",
+    "wrongExplanations": {
+      "1": "'Doorzoeken' = grondig zoeken in iets, zoals een huis, tas of bagage. Bij een hele buurt past 'afzoeken' natuurlijker.",
+      "2": "'Onderzoeken' = analyseren of medisch/wetenschappelijk bestuderen. Hier gaat het om zoeken in een gebied.",
+      "3": "'Uitzoeken' = iets uitvinden of een keuze maken. Hier zoeken ze fysiek."
+    },
+    "hint": "Denk aan een heel gebied systematisch doorzoeken."
+  },
+  {
+    "sentence": "Welke steden in Europa heb je al ______?",
+    "options": ["bezocht", "afgezocht", "opgezocht", "onderzocht"],
+    "correct": 0,
+    "explanation": "'Bezoeken' = naar een plek gaan om die te zien of daar tijd door te brengen. Steden kun je bezoeken tijdens reizen.",
+    "wrongExplanations": {
+      "1": "'Afzoeken' = overal zoeken naar iets. Je zoekt steden niet af als toerist.",
+      "2": "'Opzoeken' = informatie zoeken. Je kunt steden online opzoeken, maar de vraag gaat over waar je bent geweest.",
+      "3": "'Onderzoeken' = analyseren of bestuderen. Dat klinkt wetenschappelijker dan reizen."
+    },
+    "hint": "De vraag gaat over plekken waar je bent geweest."
+  },
+  {
+    "sentence": "Tijdens onze vakantie hebben we een oud kasteel ______.",
+    "options": ["bezocht", "doorzocht", "verzocht", "uitgezocht"],
+    "correct": 0,
+    "explanation": "'Bezoeken' = naar een plek gaan om die te bekijken. Een kasteel bezoek je tijdens een vakantie.",
+    "wrongExplanations": {
+      "1": "'Doorzoeken' = grondig zoeken in een plek. Toeristen doorzoeken een kasteel meestal niet.",
+      "2": "'Verzoeken' = beleefd vragen. Een kasteel kun je niet verzoeken.",
+      "3": "'Uitzoeken' = iets uitvinden of kiezen. Hier gaat het om naar een plek gaan."
+    },
+    "hint": "Je gaat naar een plek om die te zien."
+  },
+  {
+    "sentence": "Mijn ouders komen ons dit weekend ______.",
+    "options": ["bezoeken", "onderzoeken", "opzoeken", "afzoeken"],
+    "correct": 0,
+    "explanation": "'Bezoeken' = bij iemand langsgaan. Je ouders komen dit weekend naar jullie toe.",
+    "wrongExplanations": {
+      "1": "'Onderzoeken' = controleren of analyseren. Ouders komen niet om jullie medisch of wetenschappelijk te bekijken.",
+      "2": "'Opzoeken' kan ook iemand gaan zien betekenen, maar bij familie die langskomt is 'bezoeken' neutraler en duidelijker.",
+      "3": "'Afzoeken' = overal zoeken. Je ouders zoeken jullie niet overal."
+    },
+    "hint": "Het gaat om bij iemand langsgaan."
+  },
+  {
+    "sentence": "We willen volgend jaar Japan ______.",
+    "options": ["bezoeken", "verzoeken", "doorzoeken", "uitzoeken"],
+    "correct": 0,
+    "explanation": "'Bezoeken' = naar een land of plek reizen. Japan bezoeken betekent dat je daarheen gaat.",
+    "wrongExplanations": {
+      "1": "'Verzoeken' = beleefd vragen. Je kunt een persoon verzoeken, geen land.",
+      "2": "'Doorzoeken' = grondig zoeken in iets. Je doorzoekt Japan niet als reisplan.",
+      "3": "'Uitzoeken' = iets uitvinden of kiezen. Hier gaat het om reizen naar een plek."
+    },
+    "hint": "Je praat over een reis naar een land."
+  },
+  {
+    "sentence": "Ik ken dit woord niet. Daarom ______.",
+    "options": ["zoek ik het op in het woordenboek", "zoek ik het uit in het woordenboek", "zoek ik het af in het woordenboek", "doorzoek ik het woordenboek"],
+    "correct": 0,
+    "explanation": "'Opzoeken' = informatie zoeken in een bron. Een onbekend woord zoek je op in een woordenboek.",
+    "wrongExplanations": {
+      "1": "'Uitzoeken' = iets uitvinden of uitpluizen. Bij een woord in een woordenboek is 'opzoeken' de vaste keuze.",
+      "2": "'Afzoeken' = overal grondig zoeken naar iets. Een woord zoek je niet 'af' in een woordenboek.",
+      "3": "'Doorzoeken' = grondig door iets heen zoeken. Hier gaat het om de betekenis van een woord vinden."
+    },
+    "hint": "Je gebruikt een bron om informatie te vinden."
+  },
+  {
+    "sentence": "Kun je het adres online ______?",
+    "options": ["opzoeken", "bezoeken", "verzoeken", "afzoeken"],
+    "correct": 0,
+    "explanation": "'Opzoeken' = informatie vinden in een bron, bijvoorbeeld online. Een adres kun je online opzoeken.",
+    "wrongExplanations": {
+      "1": "'Bezoeken' = naar een plek of persoon gaan. Je bezoekt het adres niet online.",
+      "2": "'Verzoeken' = beleefd vragen. Een adres vraag je misschien aan iemand, maar online zoek je het op.",
+      "3": "'Afzoeken' = overal grondig zoeken. Hier gaat het om informatie vinden."
+    },
+    "hint": "Online gebruik je als informatiebron."
+  },
+  {
+    "sentence": "Omdat ik de regels niet kende, heb ik ze gisteren ______.",
+    "options": ["opgezocht", "uitgezocht", "bezocht", "afgezocht"],
+    "correct": 0,
+    "explanation": "'Opzoeken' = bestaande informatie vinden in een bron. Je kent de regels niet en zoekt ze ergens na.",
+    "wrongExplanations": {
+      "1": "'Uitzoeken' = iets uitvinden of helder krijgen. Dat kan soms dichtbij liggen, maar regels die al bestaan zoek je meestal op.",
+      "2": "'Bezoeken' = naar een plek of persoon gaan. Regels bezoek je niet.",
+      "3": "'Afzoeken' = overal zoeken naar iets dat kwijt is. Regels zijn informatie, geen verloren voorwerp."
+    },
+    "hint": "De regels bestaan al; je moet ze vinden in een bron."
+  },
+  {
+    "sentence": "______ hoe laat de trein vertrekt.",
+    "options": ["Zoek even op", "Zoek even af", "Doorzoek even", "Bezoek even"],
+    "correct": 0,
+    "explanation": "'Opzoeken' = informatie vinden. De vertrektijd van een trein zoek je op in een app of op een website.",
+    "wrongExplanations": {
+      "1": "'Afzoeken' = overal grondig zoeken. Een vertrektijd zoek je niet af.",
+      "2": "'Doorzoeken' = grondig in iets zoeken, zoals een tas of huis. Hier gaat het om specifieke informatie.",
+      "3": "'Bezoeken' = naar een plek gaan. Een vertrektijd bezoek je niet."
+    },
+    "hint": "Je zoekt een feit in een bron."
+  },
+  {
+    "sentence": "De politie ______ het huis, maar vond niets.",
+    "options": ["doorzocht", "bezocht", "verzocht", "opzocht"],
+    "correct": 0,
+    "explanation": "'Doorzoeken' = grondig zoeken in een plek of object. De politie zoekt in het huis naar bewijs.",
+    "wrongExplanations": {
+      "1": "'Bezoeken' = ergens langsgaan. De politie komt hier niet voor een normaal bezoek.",
+      "2": "'Verzoeken' = beleefd vragen. De politie vraagt het huis niets.",
+      "3": "'Opzoeken' = informatie vinden in een bron of iemand gaan zien. Hier zoekt men fysiek in het huis."
+    },
+    "hint": "De politie zoekt grondig in een gebouw."
+  },
+  {
+    "sentence": "De douane heeft al zijn bagage grondig ______.",
+    "options": ["doorzocht", "afgezocht", "bezocht", "uitgezocht"],
+    "correct": 0,
+    "explanation": "'Doorzoeken' = grondig zoeken in iets. Bagage doorzoeken betekent dat je erin kijkt om iets te vinden.",
+    "wrongExplanations": {
+      "1": "'Afzoeken' = een gebied helemaal doorzoeken. Bagage is geen gebied zoals een bos of buurt.",
+      "2": "'Bezoeken' = naar een plek gaan. Bagage bezoek je niet.",
+      "3": "'Uitzoeken' = iets uitvinden of kiezen. De douane controleert de inhoud."
+    },
+    "hint": "Het gaat om zoeken in tassen of koffers."
+  },
+  {
+    "sentence": "Hij heeft mijn tas zonder toestemming ______.",
+    "options": ["doorzocht", "onderzocht", "opgezocht", "verzocht"],
+    "correct": 0,
+    "explanation": "'Doorzoeken' = in iets zoeken, vaak grondig. Een tas doorzoeken zonder toestemming is ongepast.",
+    "wrongExplanations": {
+      "1": "'Onderzoeken' = analyseren of medisch/wetenschappelijk bekijken. Een tas doorzoeken is praktischer en fysieker.",
+      "2": "'Opzoeken' = informatie zoeken. Een tas is geen informatiebron in deze betekenis.",
+      "3": "'Verzoeken' = beleefd vragen. Hij vraagt de tas niets."
+    },
+    "hint": "Iemand zoekt fysiek in jouw tas."
+  },
+  {
+    "sentence": "Na de inbraak werd het kantoor volledig ______.",
+    "options": ["doorzocht", "bezocht", "opgezocht", "verzocht"],
+    "correct": 0,
+    "explanation": "'Doorzoeken' = een ruimte grondig controleren door erin te zoeken. Na een inbraak zoekt men naar sporen of gestolen spullen.",
+    "wrongExplanations": {
+      "1": "'Bezoeken' = ergens langsgaan. Na een inbraak is dit geen gewoon bezoek.",
+      "2": "'Opzoeken' = informatie zoeken. Een kantoor na een inbraak wordt doorzocht.",
+      "3": "'Verzoeken' = beleefd vragen. Dat past niet bij een inbraak."
+    },
+    "hint": "Een ruimte wordt grondig gecontroleerd."
+  },
+  {
+    "sentence": "De arts wil me goed ______.",
+    "options": ["onderzoeken", "bezoeken", "afzoeken", "opzoeken"],
+    "correct": 0,
+    "explanation": "'Onderzoeken' = medisch bekijken om te weten wat er aan de hand is. Een arts onderzoekt een patiënt.",
+    "wrongExplanations": {
+      "1": "'Bezoeken' = bij iemand langsgaan. De arts doet meer dan alleen op bezoek komen.",
+      "2": "'Afzoeken' = overal zoeken. Een arts zoekt jou niet af.",
+      "3": "'Opzoeken' = informatie zoeken of iemand gaan zien. Medisch controleren is 'onderzoeken'."
+    },
+    "hint": "Dit is wat een arts doet om een klacht te begrijpen."
+  },
+  {
+    "sentence": "Wetenschappers hebben dat probleem jarenlang ______.",
+    "options": ["onderzocht", "verzocht", "afgezocht", "bezocht"],
+    "correct": 0,
+    "explanation": "'Onderzoeken' = systematisch bestuderen om iets te begrijpen. Wetenschappers onderzoeken problemen of fenomenen.",
+    "wrongExplanations": {
+      "1": "'Verzoeken' = beleefd vragen. Een probleem kun je niet verzoeken.",
+      "2": "'Afzoeken' = een gebied helemaal doorzoeken. Een probleem bestudeer je, je zoekt het niet af.",
+      "3": "'Bezoeken' = naar een plek of persoon gaan. Een probleem bezoek je niet."
+    },
+    "hint": "Wetenschappers bestuderen iets systematisch."
+  },
+  {
+    "sentence": "De monteur moet ______ waarom de machine steeds uitvalt.",
+    "options": ["onderzoeken", "bezoeken", "doorzoeken", "verzoeken"],
+    "correct": 0,
+    "explanation": "'Onderzoeken' = uitzoeken wat de oorzaak is door goed te kijken en te testen. De monteur onderzoekt het probleem.",
+    "wrongExplanations": {
+      "1": "'Bezoeken' = ergens langsgaan. De monteur kan het bedrijf bezoeken, maar het probleem onderzoekt hij.",
+      "2": "'Doorzoeken' = fysiek in iets zoeken. Hier gaat het om de oorzaak begrijpen.",
+      "3": "'Verzoeken' = beleefd vragen. Een machine kun je niet verzoeken waarom ze uitvalt."
+    },
+    "hint": "Je zoekt de oorzaak van een technisch probleem."
+  },
+  {
+    "sentence": "Na het ongeluk werd de oorzaak zorgvuldig ______.",
+    "options": ["onderzocht", "opgezocht", "bezocht", "afgezocht"],
+    "correct": 0,
+    "explanation": "'Onderzoeken' = zorgvuldig analyseren wat er gebeurd is. De oorzaak van een ongeluk wordt onderzocht.",
+    "wrongExplanations": {
+      "1": "'Opzoeken' = bestaande informatie vinden in een bron. De oorzaak moet hier nog worden vastgesteld.",
+      "2": "'Bezoeken' = naar een plek gaan. Een oorzaak bezoek je niet.",
+      "3": "'Afzoeken' = overal zoeken in een gebied. Hier gaat het om analyse."
+    },
+    "hint": "Men wil begrijpen wat de oorzaak was."
+  },
+  {
+    "sentence": "Ik weet het ook niet, maar ik zal het ______.",
+    "options": ["uitzoeken", "bezoeken", "afzoeken", "verzoeken"],
+    "correct": 0,
+    "explanation": "'Uitzoeken' = iets uitvinden of helder krijgen. Je weet het nog niet, maar je gaat het regelen of onderzoeken.",
+    "wrongExplanations": {
+      "1": "'Bezoeken' = naar een plek of persoon gaan. Een vraag bezoek je niet.",
+      "2": "'Afzoeken' = overal grondig zoeken naar iets. Hier gaat het om een antwoord vinden.",
+      "3": "'Verzoeken' = beleefd vragen. Je zegt niet dat je iemand gaat vragen, maar dat je het gaat uitzoeken."
+    },
+    "hint": "Je gaat proberen het antwoord of de oplossing te vinden."
+  },
+  {
+    "sentence": "Kun jij ______ welke trein we moeten nemen?",
+    "options": ["uitzoeken", "doorzoeken", "bezoeken", "afzoeken"],
+    "correct": 0,
+    "explanation": "'Uitzoeken' = informatie combineren om een keuze of oplossing te vinden. Je zoekt uit welke trein de juiste is.",
+    "wrongExplanations": {
+      "1": "'Doorzoeken' = grondig in iets zoeken. Je doorzoekt niet de trein, je zoekt uit welke trein nodig is.",
+      "2": "'Bezoeken' = naar een plek gaan. Een trein kun je nemen, niet bezoeken in deze zin.",
+      "3": "'Afzoeken' = een gebied helemaal doorzoeken. Hier gaat het om plannen."
+    },
+    "hint": "Je moet een praktische keuze helder krijgen."
+  },
+  {
+    "sentence": "We moeten eerst ______ hoeveel dit gaat kosten.",
+    "options": ["uitzoeken", "opzoeken", "verzoeken", "bezoeken"],
+    "correct": 0,
+    "explanation": "'Uitzoeken' = iets helder krijgen door informatie te verzamelen. De kosten zijn nog niet duidelijk.",
+    "wrongExplanations": {
+      "1": "'Opzoeken' = bestaande informatie in een bron vinden. Als het nog berekend of uitgezocht moet worden, past 'uitzoeken' beter.",
+      "2": "'Verzoeken' = beleefd vragen. Kosten kun je niet verzoeken.",
+      "3": "'Bezoeken' = naar een plek gaan. Kosten bezoek je niet."
+    },
+    "hint": "De kosten zijn nog onzeker en moeten duidelijk worden."
+  },
+  {
+    "sentence": "Hij heeft veel tijd besteed aan het ______ van het probleem.",
+    "options": ["uitzoeken", "bezoeken", "afzoeken", "verzoeken"],
+    "correct": 0,
+    "explanation": "'Uitzoeken' = begrijpen hoe iets zit of werkt. Hij besteedt tijd aan het vinden van de oplossing.",
+    "wrongExplanations": {
+      "1": "'Bezoeken' = ergens naartoe gaan. Een probleem bezoek je niet.",
+      "2": "'Afzoeken' = overal zoeken naar iets dat kwijt is. Hier gaat het om begrijpen hoe iets zit.",
+      "3": "'Verzoeken' = beleefd vragen. Dat past niet bij een probleem oplossen."
+    },
+    "hint": "Hij probeert te begrijpen wat er precies aan de hand is."
+  },
+  {
+    "sentence": "Mag ik u ______ om te gaan staan voor onze gasten?",
+    "options": ["verzoeken", "bezoeken", "onderzoeken", "doorzoeken"],
+    "correct": 0,
+    "explanation": "'Verzoeken' = beleefd vragen. 'Mag ik u verzoeken...' is een formele manier om iemand iets te vragen.",
+    "wrongExplanations": {
+      "1": "'Bezoeken' = bij iemand langsgaan. Je vraagt hier iemand om iets te doen.",
+      "2": "'Onderzoeken' = analyseren of medisch bekijken. Dat past niet bij een beleefd verzoek.",
+      "3": "'Doorzoeken' = grondig zoeken in iets. Je doorzoekt de gasten niet."
+    },
+    "hint": "Dit is een formele en beleefde vraag."
+  },
+  {
+    "sentence": "De voorzitter heeft iedereen ______ stil te zijn.",
+    "options": ["verzocht", "bezocht", "afgezocht", "uitgezocht"],
+    "correct": 0,
+    "explanation": "'Verzoeken' = beleefd of formeel vragen. De voorzitter vraagt iedereen om stil te zijn.",
+    "wrongExplanations": {
+      "1": "'Bezoeken' = naar iemand toe gaan. De voorzitter gaat niet bij iedereen langs.",
+      "2": "'Afzoeken' = overal zoeken. Iedereen wordt niet afgezocht.",
+      "3": "'Uitzoeken' = iets uitvinden of kiezen. De voorzitter vraagt om stilte."
+    },
+    "hint": "Iemand vraagt formeel om bepaald gedrag."
+  },
+  {
+    "sentence": "Wij ______ u vriendelijk om op tijd te komen.",
+    "options": ["verzoeken", "bezoeken", "opzoeken", "afzoeken"],
+    "correct": 0,
+    "explanation": "'Verzoeken' = formeel vragen. 'Wij verzoeken u vriendelijk...' zie je vaak in officiële communicatie.",
+    "wrongExplanations": {
+      "1": "'Bezoeken' = ergens of bij iemand langsgaan. Hier staat een formele vraag.",
+      "2": "'Opzoeken' = informatie zoeken of iemand gaan zien. Dat past niet bij 'u vriendelijk om'.",
+      "3": "'Afzoeken' = overal zoeken. Dat past niet bij een beleefde vraag."
+    },
+    "hint": "De woorden 'u vriendelijk om' wijzen op formeel vragen."
+  },
+  {
+    "sentence": "De medewerker werd ______ zijn telefoon uit te zetten.",
+    "options": ["verzocht", "onderzocht", "bezocht", "doorzocht"],
+    "correct": 0,
+    "explanation": "'Verzoeken' = beleefd of formeel vragen. De medewerker kreeg het verzoek om zijn telefoon uit te zetten.",
+    "wrongExplanations": {
+      "1": "'Onderzoeken' = analyseren of controleren. De medewerker wordt niet onderzocht.",
+      "2": "'Bezoeken' = naar iemand toe gaan. Dat past niet bij een telefoon uitzetten.",
+      "3": "'Doorzoeken' = grondig zoeken in iets. De medewerker wordt niet gefouilleerd in deze zin."
+    },
+    "hint": "Iemand krijgt een formele vraag om iets te doen."
+  }
+]

@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+AGENTS.md
+CLAUDE.md
+QUESTION_FRAMEWORK.md
+TODO.md

@@ -1,0 +1,194 @@
+[
+  {
+    "sentence": "Ik ben dikker geworden en ______.",
+    "options": ["krijg die broek niet meer aan", "krijg die broek niet meer door", "krijg die broek niet meer uit", "krijg die broek niet meer af"],
+    "correct": 0,
+    "explanation": "'Aankrijgen' = kleding of schoenen aan kunnen doen. De broek past niet meer, dus hij krijgt hem niet aan.",
+    "wrongExplanations": {
+      "1": "'Doorkrijgen' = iets gaan begrijpen. Een broek kun je niet begrijpen.",
+      "2": "'Uitkrijgen' = iets uit kunnen doen of een boek uitlezen. Hier moet de broek juist aan.",
+      "3": "'Afkrijgen' = iets afmaken. Een broek afkrijgen betekent hier niet hetzelfde."
+    },
+    "hint": "Het gaat om kleding op je lichaam krijgen."
+  },
+  {
+    "sentence": "Vanochtend ______.",
+    "options": ["kreeg ik mijn strakke laarzen bijna niet aan", "kreeg ik mijn strakke laarzen bijna niet door", "kreeg ik mijn strakke laarzen bijna niet af", "kreeg ik mijn strakke laarzen bijna niet uit"],
+    "correct": 0,
+    "explanation": "'Aankrijgen' = iets aan kunnen trekken. Strakke laarzen zijn moeilijk aan te krijgen.",
+    "wrongExplanations": {
+      "1": "'Doorkrijgen' = begrijpen. Laarzen begrijp je niet.",
+      "2": "'Afkrijgen' = iets afmaken. Dat past niet bij laarzen aantrekken.",
+      "3": "'Uitkrijgen' = iets uit kunnen doen. Hier probeer je ze juist aan te doen."
+    },
+    "hint": "Je probeert laarzen aan te trekken."
+  },
+  {
+    "sentence": "Kun je deze jas zelf ______, of moet ik helpen?",
+    "options": ["aankrijgen", "doorkrijgen", "uitkrijgen", "afkrijgen"],
+    "correct": 0,
+    "explanation": "'Aankrijgen' = kleding aan kunnen krijgen. De vraag is of iemand de jas zelf aan kan doen.",
+    "wrongExplanations": {
+      "1": "'Doorkrijgen' = iets begrijpen. Een jas is geen uitleg of spelregel.",
+      "2": "'Uitkrijgen' = kleding uit kunnen krijgen. Hier moet de jas aan.",
+      "3": "'Afkrijgen' = iets klaar krijgen. Een jas krijg je niet af in deze betekenis."
+    },
+    "hint": "Het gaat om een jas aantrekken."
+  },
+  {
+    "sentence": "Door de kou ______.",
+    "options": ["kreeg hij zijn handschoenen nauwelijks aan", "kreeg hij zijn handschoenen nauwelijks uit", "kreeg hij zijn handschoenen nauwelijks door", "kreeg hij zijn handschoenen nauwelijks af"],
+    "correct": 0,
+    "explanation": "'Aankrijgen' = kledingstukken aan kunnen doen. Door koude handen lukt het bijna niet om de handschoenen aan te krijgen.",
+    "wrongExplanations": {
+      "1": "'Uitkrijgen' = iets uit kunnen doen. De handschoenen moeten juist aan.",
+      "2": "'Doorkrijgen' = begrijpen. Handschoenen begrijp je niet.",
+      "3": "'Afkrijgen' = iets afmaken. Dat past niet bij handschoenen aantrekken."
+    },
+    "hint": "Hij probeert handschoenen aan te doen."
+  },
+  {
+    "sentence": "In het begin was dit spel moeilijk, maar nu ______.",
+    "options": ["krijg ik het door", "krijg ik het aan", "krijg ik het uit", "krijg ik het af"],
+    "correct": 0,
+    "explanation": "'Doorkrijgen' = iets beginnen te begrijpen. Je snapt nu hoe het spel werkt.",
+    "wrongExplanations": {
+      "1": "'Aankrijgen' = kleding aan kunnen doen. Een spel trek je niet aan.",
+      "2": "'Uitkrijgen' = iets uitdoen of uitlezen. Dat past niet bij spelregels begrijpen.",
+      "3": "'Afkrijgen' = iets afmaken. Hier gaat het niet om klaar zijn, maar om begrijpen."
+    },
+    "hint": "Eerst snapte je het niet, nu begin je het te begrijpen."
+  },
+  {
+    "sentence": "Pas later ______ wat ze bedoelde.",
+    "options": ["kreeg ik door", "kreeg ik aan", "kreeg ik af", "kreeg ik uit"],
+    "correct": 0,
+    "explanation": "'Doorkrijgen' = begrijpen wat er bedoeld wordt. Eerst was het onduidelijk, later snapte je het.",
+    "wrongExplanations": {
+      "1": "'Aankrijgen' = kleding aan kunnen doen. Dat past niet bij een betekenis begrijpen.",
+      "2": "'Afkrijgen' = iets afmaken. Hier maak je niets af.",
+      "3": "'Uitkrijgen' = iets uitlezen of uitdoen. Dat past niet bij begrijpen wat iemand bedoelt."
+    },
+    "hint": "Je begrijpt ineens wat iemand bedoelt."
+  },
+  {
+    "sentence": "Na een paar lessen ______ hoe de grammatica werkt.",
+    "options": ["kreeg ze eindelijk door", "kreeg ze eindelijk uit", "kreeg ze eindelijk aan", "kreeg ze eindelijk af"],
+    "correct": 0,
+    "explanation": "'Doorkrijgen' = iets gaan snappen. Na uitleg en oefening begrijpt ze de grammatica.",
+    "wrongExplanations": {
+      "1": "'Uitkrijgen' = uitlezen of uitdoen. Grammatica krijg je niet uit.",
+      "2": "'Aankrijgen' = kleding aantrekken. Grammatica trek je niet aan.",
+      "3": "'Afkrijgen' = iets klaar krijgen. Hier gaat het om begrijpen, niet om afmaken."
+    },
+    "hint": "Het gaat om iets begrijpen na oefenen."
+  },
+  {
+    "sentence": "Hij liegt vaak, maar ______.",
+    "options": ["ik kreeg zijn truc meteen door", "ik kreeg zijn truc meteen aan", "ik kreeg zijn truc meteen uit", "ik kreeg zijn truc meteen af"],
+    "correct": 0,
+    "explanation": "'Doorkrijgen' = doorhebben wat er echt gebeurt. Je merkt snel wat zijn truc is.",
+    "wrongExplanations": {
+      "1": "'Aankrijgen' = kleding aan doen. Een truc trek je niet aan.",
+      "2": "'Uitkrijgen' = uitdoen of uitlezen. Dat past niet bij een truc herkennen.",
+      "3": "'Afkrijgen' = iets afmaken. Je maakt de truc niet af, je begrijpt hem."
+    },
+    "hint": "Je doorziet wat iemand doet."
+  },
+  {
+    "sentence": "______ voor de les?",
+    "options": ["Krijg je het boek op tijd uit", "Krijg je het boek op tijd aan", "Krijg je het boek op tijd door", "Krijg je het boek op tijd af"],
+    "correct": 0,
+    "explanation": "'Uitkrijgen' = een boek helemaal kunnen uitlezen. De vraag is of je het boek voor de les af hebt gelezen.",
+    "wrongExplanations": {
+      "1": "'Aankrijgen' = kleding aan kunnen doen. Een boek trek je niet aan.",
+      "2": "'Doorkrijgen' = iets begrijpen. Hier gaat het om uitlezen.",
+      "3": "'Afkrijgen' = iets afmaken. Bij een boek lezen zeg je meestal 'uitkrijgen'."
+    },
+    "hint": "Het gaat om een boek helemaal lezen."
+  },
+  {
+    "sentence": "Ik had het handboek voor het examen niet ______.",
+    "options": ["uitgekregen", "aangekregen", "doorgekregen", "afgekregen"],
+    "correct": 0,
+    "explanation": "'Uitkrijgen' = iets helemaal uitlezen. Het handboek was niet op tijd helemaal gelezen.",
+    "wrongExplanations": {
+      "1": "'Aankrijgen' = kleding aan kunnen doen. Een handboek is geen kleding.",
+      "2": "'Doorkrijgen' = iets begrijpen. Je kunt de stof doorkrijgen, maar een handboek krijg je uit.",
+      "3": "'Afkrijgen' = iets afmaken. Bij lezen van een boek is 'uitkrijgen' natuurlijker."
+    },
+    "hint": "Je had het boek nog niet helemaal gelezen."
+  },
+  {
+    "sentence": "Deze ring zit vast; ______.",
+    "options": ["ik krijg hem niet meer uit", "ik krijg hem niet meer aan", "ik krijg hem niet meer door", "ik krijg hem niet meer af"],
+    "correct": 0,
+    "explanation": "'Uitkrijgen' = iets uit of van je lichaam kunnen krijgen. De ring zit vast en kan niet af.",
+    "wrongExplanations": {
+      "1": "'Aankrijgen' = iets aan kunnen doen. De ring zit al om je vinger.",
+      "2": "'Doorkrijgen' = iets begrijpen. Een ring begrijp je niet.",
+      "3": "'Afkrijgen' kan bij een ring soms ook natuurlijk zijn, maar binnen deze set testen we 'uitkrijgen': iets los krijgen van je lichaam."
+    },
+    "hint": "De ring zit vast en moet van je vinger."
+  },
+  {
+    "sentence": "De film was zo lang dat ik hem niet in een avond ______.",
+    "options": ["uitkreeg", "aankreeg", "doorkreeg", "afkreeg"],
+    "correct": 0,
+    "explanation": "'Uitkrijgen' = iets helemaal afkijken of uitlezen. De film was te lang om in een avond helemaal te kijken.",
+    "wrongExplanations": {
+      "1": "'Aankrijgen' = kleding aan kunnen doen. Een film trek je niet aan.",
+      "2": "'Doorkrijgen' = begrijpen. Misschien snap je de film, maar hier gaat het om hem helemaal kijken.",
+      "3": "'Afkrijgen' = werk afmaken. Bij een film past 'uitkrijgen' beter."
+    },
+    "hint": "Je krijgt iets niet helemaal afgekeken."
+  },
+  {
+    "sentence": "We hebben alle werkzaamheden op tijd ______.",
+    "options": ["afgekregen", "uitgekregen", "doorgekregen", "aangekregen"],
+    "correct": 0,
+    "explanation": "'Afkrijgen' = werk of een taak klaar krijgen. De werkzaamheden waren op tijd af.",
+    "wrongExplanations": {
+      "1": "'Uitkrijgen' = iets uitlezen, afkijken of uitdoen. Werkzaamheden krijg je af.",
+      "2": "'Doorkrijgen' = iets begrijpen. Hier gaat het om klaar zijn.",
+      "3": "'Aankrijgen' = kleding aan kunnen doen. Werkzaamheden trek je niet aan."
+    },
+    "hint": "Het gaat om taken klaar krijgen."
+  },
+  {
+    "sentence": "Denk je dat we dit verslag vandaag nog ______?",
+    "options": ["afkrijgen", "doorkrijgen", "aankrijgen", "uitkrijgen"],
+    "correct": 0,
+    "explanation": "'Afkrijgen' = iets klaar krijgen. Een verslag moet geschreven en afgerond worden.",
+    "wrongExplanations": {
+      "1": "'Doorkrijgen' = begrijpen. Een verslag moet hier niet begrepen worden, maar afgemaakt.",
+      "2": "'Aankrijgen' = kleding aan kunnen doen. Een verslag is geen kleding.",
+      "3": "'Uitkrijgen' = uitlezen of uitdoen. Een verslag schrijf je af."
+    },
+    "hint": "Het verslag moet vandaag klaar zijn."
+  },
+  {
+    "sentence": "Zonder overwerken hadden we die klus nooit ______.",
+    "options": ["afgekregen", "aangekregen", "uitgekregen", "doorgekregen"],
+    "correct": 0,
+    "explanation": "'Afkrijgen' = een klus of taak afmaken. Zonder extra werktijd was de klus niet klaar gekomen.",
+    "wrongExplanations": {
+      "1": "'Aankrijgen' = kleding aan kunnen doen. Een klus trek je niet aan.",
+      "2": "'Uitkrijgen' = uitlezen of uitdoen. Een klus krijg je af, niet uit.",
+      "3": "'Doorkrijgen' = begrijpen. Hier gaat het om werk voltooien."
+    },
+    "hint": "De klus moest afgemaakt worden."
+  },
+  {
+    "sentence": "Pas laat in de avond ______.",
+    "options": ["kreeg ik mijn huiswerk af", "kreeg ik mijn huiswerk door", "kreeg ik mijn huiswerk aan", "kreeg ik mijn huiswerk uit"],
+    "correct": 0,
+    "explanation": "'Afkrijgen' = iets klaar krijgen. Huiswerk krijg je af als het helemaal gemaakt is.",
+    "wrongExplanations": {
+      "1": "'Doorkrijgen' = begrijpen. Je kunt de uitleg doorkrijgen, maar huiswerk krijg je af.",
+      "2": "'Aankrijgen' = kleding aan kunnen doen. Huiswerk is geen kleding.",
+      "3": "'Uitkrijgen' = iets uitlezen of uitdoen. Huiswerk maak je af."
+    },
+    "hint": "Het huiswerk was uiteindelijk klaar."
+  }
+]

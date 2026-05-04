@@ -28,6 +28,27 @@
     "color": "#C44536"
   },
   {
+    "id": "kijken",
+    "label": "-kijken",
+    "description": "aankijken · bekijken · opkijken · verkijken",
+    "emoji": "👀",
+    "color": "#4A7C89"
+  },
+  {
+    "id": "zoeken",
+    "label": "-zoeken",
+    "description": "afzoeken · opzoeken · onderzoeken · uitzoeken",
+    "emoji": "🔎",
+    "color": "#8A6F3D"
+  },
+  {
+    "id": "krijgen",
+    "label": "-krijgen",
+    "description": "aankrijgen · doorkrijgen · uitkrijgen · afkrijgen",
+    "emoji": "🧩",
+    "color": "#5B6C9D"
+  },
+  {
     "id": "preposities",
     "label": "Preposities",
     "description": "wachten op · denken aan · zorgen voor · houden van",

@@ -1,0 +1,674 @@
+[
+  {
+    "sentence": "Wil je me even ______ als ik tegen je praat?",
+    "options": ["aankijken", "meekijken", "toekijken", "rondkijken"],
+    "correct": 0,
+    "explanation": "'Aankijken' = naar iemand kijken, vaak in het gezicht. Hier praat iemand direct met je en wil die oogcontact.",
+    "wrongExplanations": {
+      "1": "'Meekijken' = samen met iemand naar iets kijken. Hier gaat het niet om samen kijken, maar om oogcontact.",
+      "2": "'Toekijken' = kijken hoe iemand iets doet, zonder zelf mee te doen. Dat past niet bij direct praten met iemand.",
+      "3": "'Rondkijken' = om je heen kijken. Hier moet je juist naar een persoon kijken."
+    },
+    "hint": "De persoon vraagt om oogcontact. Welk werkwoord past bij iemand direct in het gezicht kijken?"
+  },
+  {
+    "sentence": "Ik weet nog niet of ik ga verhuizen. Ik wil het eerst even ______.",
+    "options": ["aankijken", "bekijken", "inkijken", "terugkijken"],
+    "correct": 0,
+    "explanation": "'Iets aankijken' = even wachten en zien hoe iets loopt voordat je beslist. Hier wil je nog geen snelle keuze maken.",
+    "wrongExplanations": {
+      "1": "'Bekijken' = iets bekijken of onderzoeken. Je kunt een woning bekijken, maar een situatie eerst afwachten is 'aankijken'.",
+      "2": "'Inkijken' = kort in een boek of dossier kijken. Een verhuizing is geen tekst die je even inkijkt.",
+      "3": "'Terugkijken' = opnieuw kijken of terugdenken aan vroeger. Hier gaat het om een toekomstige beslissing."
+    },
+    "hint": "Je beslist nog niet. Je wacht eerst af hoe de situatie gaat."
+  },
+  {
+    "sentence": "De arts wilde mijn klachten nog een paar dagen ______.",
+    "options": ["aankijken", "nakijken", "doorkijken", "afkijken"],
+    "correct": 0,
+    "explanation": "'Aankijken' = een situatie even volgen voordat je actie neemt. De arts wacht af of de klachten vanzelf minder worden.",
+    "wrongExplanations": {
+      "1": "'Nakijken' = controleren of corrigeren. Een arts kan iets nakijken, maar klachten een paar dagen volgen is 'aankijken'.",
+      "2": "'Doorkijken' = een tekst snel lezen. Klachten zijn geen document.",
+      "3": "'Afkijken' = spieken of iets van iemand overnemen. Dat past niet bij medische klachten."
+    },
+    "hint": "De arts neemt nog geen beslissing en volgt eerst wat er gebeurt."
+  },
+  {
+    "sentence": "Toen hij loog, durfde hij zijn moeder niet ______.",
+    "options": ["aankijken", "opkijken", "omkijken", "toekijken"],
+    "correct": 0,
+    "explanation": "'Aankijken' = iemand direct aankijken. Omdat hij liegt, durft hij zijn moeder niet in de ogen te kijken.",
+    "wrongExplanations": {
+      "1": "'Opkijken' = omhoog kijken of verbaasd zijn. Zijn moeder staat niet centraal als richting omhoog.",
+      "2": "'Omkijken' = achterom kijken. Hier staat zijn moeder voor hem, niet achter hem.",
+      "3": "'Toekijken' = kijken hoe iets gebeurt. Hier gaat het om direct oogcontact."
+    },
+    "hint": "Denk aan iemand in de ogen kijken."
+  },
+  {
+    "sentence": "Tijdens de toets heeft hij bij zijn buurman ______.",
+    "options": ["afgekeken", "nagekeken", "meegekeken", "toegekeken"],
+    "correct": 0,
+    "explanation": "'Afkijken' = spieken of antwoorden van iemand anders overnemen. Bij een toets is dat niet toegestaan.",
+    "wrongExplanations": {
+      "1": "'Nakijken' = controleren of corrigeren, bijvoorbeeld huiswerk of examens. Een leerling kijkt de toets niet na tijdens het maken.",
+      "2": "'Meekijken' = samen meekijken om te helpen of te volgen. Bij een toets is het overnemen van antwoorden 'afkijken'.",
+      "3": "'Toekijken' = alleen kijken hoe iets gebeurt. Hier neemt hij antwoorden over."
+    },
+    "hint": "Bij een toets betekent kijken naar de antwoorden van iemand anders: spieken."
+  },
+  {
+    "sentence": "Je mag tijdens het examen niet ______ van je buurvrouw.",
+    "options": ["afkijken", "meekijken", "doorkijken", "inkijken"],
+    "correct": 0,
+    "explanation": "'Afkijken' = antwoorden van iemand anders gebruiken. Dit is de vaste betekenis bij toetsen en examens.",
+    "wrongExplanations": {
+      "1": "'Meekijken' kan neutraal zijn: samen naar iets kijken. Bij een examen is het verboden gedrag specifiek 'afkijken'.",
+      "2": "'Doorkijken' = informatie snel lezen. Je kijkt niet door je buurvrouw heen.",
+      "3": "'Inkijken' = kort in een boek of dossier kijken. Dat past niet bij antwoorden overnemen van een buurvrouw."
+    },
+    "hint": "Het gaat om verboden hulp bij een examen."
+  },
+  {
+    "sentence": "Hij had de oplossing van internet ______ en deed alsof hij die zelf had bedacht.",
+    "options": ["afgekeken", "bekeken", "nagekeken", "doorgekeken"],
+    "correct": 0,
+    "explanation": "'Afkijken' = iets van iemand anders overnemen. Hier gebruikt hij de oplossing van internet alsof die van hem is.",
+    "wrongExplanations": {
+      "1": "'Bekijken' = ergens naar kijken. Alleen bekijken betekent nog niet dat je het overneemt.",
+      "2": "'Nakijken' = controleren. Hij controleert de oplossing niet, hij neemt die over.",
+      "3": "'Doorkijken' = snel doorlezen. Hier gaat het om kopiëren of overnemen."
+    },
+    "hint": "Hij neemt iets over en doet alsof het van hemzelf is."
+  },
+  {
+    "sentence": "De docent zag meteen dat drie leerlingen van elkaar hadden ______.",
+    "options": ["afgekeken", "meegekeken", "rondgekeken", "teruggekeken"],
+    "correct": 0,
+    "explanation": "'Afkijken' = spieken of antwoorden van anderen overnemen. Drie dezelfde fouten zijn vaak een teken van afkijken.",
+    "wrongExplanations": {
+      "1": "'Meekijken' = samen kijken. Dat kan helpen of volgen betekenen, maar hier gaat het om spieken.",
+      "2": "'Rondkijken' = om je heen kijken. Dat zegt niet dat je antwoorden overneemt.",
+      "3": "'Terugkijken' = opnieuw kijken of terugdenken. Dat past niet bij spieken tijdens een toets."
+    },
+    "hint": "De docent ontdekt verboden overnemen van antwoorden."
+  },
+  {
+    "sentence": "Morgen ga ik mijn nieuwe appartement ______.",
+    "options": ["bekijken", "inkijken", "aankijken", "doorkijken"],
+    "correct": 0,
+    "explanation": "'Bekijken' = goed naar iets kijken om een indruk te krijgen. Je bekijkt een appartement voordat je beslist.",
+    "wrongExplanations": {
+      "1": "'Inkijken' = kort in een tekst, boek of dossier kijken. Een appartement kun je niet inkijken.",
+      "2": "'Aankijken' = iemand aankijken of een situatie afwachten. Een appartement ga je meestal bekijken.",
+      "3": "'Doorkijken' = informatie snel lezen. Een woning is geen document."
+    },
+    "hint": "Je gaat naar de woning om te zien hoe die eruitziet."
+  },
+  {
+    "sentence": "We hebben het contract rustig ______ voordat we tekenden.",
+    "options": ["bekeken", "doorgekeken", "rondgekeken", "toegekeken"],
+    "correct": 0,
+    "explanation": "'Bekijken' = iets goed onderzoeken of beoordelen. Bij een contract kijk je zorgvuldig naar de inhoud voordat je tekent.",
+    "wrongExplanations": {
+      "1": "'Doorkijken' = snel of globaal doorlezen. Hier staat 'rustig' en het gaat om beoordelen voor een handtekening.",
+      "2": "'Rondkijken' = om je heen kijken in een ruimte. Een contract is geen plek.",
+      "3": "'Toekijken' = kijken hoe iemand anders iets doet. Hier beoordeel je zelf het contract."
+    },
+    "hint": "Je onderzoekt de inhoud voordat je akkoord gaat."
+  },
+  {
+    "sentence": "Kun je deze foto even ______ en zeggen wat je ervan vindt?",
+    "options": ["bekijken", "nakijken", "afkijken", "omkijken"],
+    "correct": 0,
+    "explanation": "'Bekijken' = naar iets kijken om er een mening over te vormen. Bij een foto past 'bekijken'.",
+    "wrongExplanations": {
+      "1": "'Nakijken' = controleren of corrigeren. Een foto kun je beoordelen, maar niet zoals huiswerk nakijken.",
+      "2": "'Afkijken' = spieken of overnemen. Dat past niet bij een mening geven over een foto.",
+      "3": "'Omkijken' = achterom kijken. De foto ligt voor je."
+    },
+    "hint": "Je kijkt naar iets om een indruk of mening te krijgen."
+  },
+  {
+    "sentence": "De politie wil de camerabeelden nog goed ______.",
+    "options": ["bekijken", "rondkijken", "inkijken", "meekijken"],
+    "correct": 0,
+    "explanation": "'Bekijken' = aandachtig naar beelden of informatie kijken. De politie onderzoekt wat er op de beelden staat.",
+    "wrongExplanations": {
+      "1": "'Rondkijken' = om je heen kijken. Camerabeelden zijn geen ruimte waar je rondkijkt.",
+      "2": "'Inkijken' = kort toegang nemen tot een tekst of dossier. Bij beelden past meestal 'bekijken'.",
+      "3": "'Meekijken' = samen met iemand anders kijken. Hier gaat het niet om samen kijken, maar om onderzoek."
+    },
+    "hint": "Het gaat om beelden onderzoeken."
+  },
+  {
+    "sentence": "Ik zal de informatie straks even ______.",
+    "options": ["doorkijken", "aankijken", "opkijken", "rondkijken"],
+    "correct": 0,
+    "explanation": "'Doorkijken' = een tekst of informatie snel lezen om te zien wat erin staat. Hier gaat het om informatie later even lezen.",
+    "wrongExplanations": {
+      "1": "'Aankijken' = iemand aankijken of een situatie afwachten. Informatie wacht je niet aan.",
+      "2": "'Opkijken' = omhoog kijken of verbaasd zijn. Dat past niet bij informatie lezen.",
+      "3": "'Rondkijken' = in een ruimte om je heen kijken. Informatie lees je door."
+    },
+    "hint": "Je leest de informatie later globaal door."
+  },
+  {
+    "sentence": "Voor de vergadering heb ik de agenda snel ______.",
+    "options": ["doorgekeken", "ingekeken", "toegekeken", "omgekeken"],
+    "correct": 0,
+    "explanation": "'Doorkijken' = iets snel van begin tot eind lezen. Een agenda kun je voor een vergadering even doorkijken.",
+    "wrongExplanations": {
+      "1": "'Inkijken' = kort in een boek of dossier kijken, vaak om toegang of eerste indruk. Bij een agenda past 'doorkijken' beter.",
+      "2": "'Toekijken' = kijken hoe iemand iets doet. Een agenda doet niets.",
+      "3": "'Omkijken' = achterom kijken of aandacht besteden aan iemand. Dat past niet bij een agenda."
+    },
+    "hint": "Je leest de agenda snel om voorbereid te zijn."
+  },
+  {
+    "sentence": "Kun jij mijn presentatie nog even ______ op rare fouten?",
+    "options": ["doorkijken", "afkijken", "rondkijken", "aankijken"],
+    "correct": 0,
+    "explanation": "'Doorkijken' = iets even doorlezen of bekijken om fouten te vinden. Hier vraag je om een snelle controle van de presentatie.",
+    "wrongExplanations": {
+      "1": "'Afkijken' = spieken of overnemen. Je wilt geen presentatie kopiëren.",
+      "2": "'Rondkijken' = om je heen kijken in een ruimte. Een presentatie is geen ruimte.",
+      "3": "'Aankijken' = iemand aankijken of een situatie afwachten. Je kijkt een presentatie niet aan."
+    },
+    "hint": "Je vraagt om een snelle check van de hele presentatie."
+  },
+  {
+    "sentence": "Ik heb het rapport nog niet helemaal gelezen, maar wel alvast ______.",
+    "options": ["doorgekeken", "teruggekeken", "meegekeken", "neergekeken op"],
+    "correct": 0,
+    "explanation": "'Doorkijken' = iets globaal lezen. Je kent de grote lijnen, maar hebt het rapport nog niet volledig gelezen.",
+    "wrongExplanations": {
+      "1": "'Terugkijken' = opnieuw kijken of terugdenken. Een rapport globaal lezen is niet terugkijken.",
+      "2": "'Meekijken' = samen met iemand anders kijken. Hier lees je zelf.",
+      "3": "'Neerkijken op' = je beter voelen dan iemand anders. Dat past niet bij een rapport."
+    },
+    "hint": "Je hebt het rapport globaal gelezen, niet diep bestudeerd."
+  },
+  {
+    "sentence": "Mag ik het boek even ______ voordat ik het koop?",
+    "options": ["inkijken", "bekijken", "aankijken", "afkijken"],
+    "correct": 0,
+    "explanation": "'Inkijken' = kort in een boek of tekst kijken. Je bladert even om te zien of je het wilt kopen.",
+    "wrongExplanations": {
+      "1": "'Bekijken' kan algemeen 'kijken naar' betekenen, maar bij een boek kort van binnen bekijken is 'inkijken' preciezer.",
+      "2": "'Aankijken' = iemand aankijken of een situatie afwachten. Een boek kijk je niet aan.",
+      "3": "'Afkijken' = spieken of overnemen. Je koopt het boek misschien, maar je spiekt niet."
+    },
+    "hint": "Je kijkt kort in het boek, niet alleen naar de buitenkant."
+  },
+  {
+    "sentence": "Alleen medewerkers mogen dit dossier ______.",
+    "options": ["inkijken", "rondkijken", "toekijken", "terugkijken"],
+    "correct": 0,
+    "explanation": "'Inkijken' = toegang hebben tot een document of dossier en erin kijken. Bij dossiers is dit een vaste combinatie.",
+    "wrongExplanations": {
+      "1": "'Rondkijken' = om je heen kijken. Een dossier is geen ruimte.",
+      "2": "'Toekijken' = observeren hoe iets gebeurt. Een dossier bekijk je zelf.",
+      "3": "'Terugkijken' = opnieuw kijken of terugdenken. Toegang tot een dossier is 'inkijken'."
+    },
+    "hint": "Het gaat om toegang tot de inhoud van een dossier."
+  },
+  {
+    "sentence": "Ik wil eerst de handleiding ______ voordat ik begin.",
+    "options": ["inkijken", "opkijken", "afkijken", "omkijken"],
+    "correct": 0,
+    "explanation": "'Inkijken' = kort in een tekst kijken om een eerste indruk te krijgen. Je kijkt even in de handleiding voordat je begint.",
+    "wrongExplanations": {
+      "1": "'Opkijken' = omhoog kijken of verbaasd zijn. Dat past niet bij een handleiding.",
+      "2": "'Afkijken' = spieken of overnemen van iemand anders. Een handleiding gebruik je gewoon als informatie.",
+      "3": "'Omkijken' = achterom kijken of aandacht besteden aan iemand. Dat past niet bij een handleiding."
+    },
+    "hint": "Je kijkt kort in een tekst voordat je iets doet."
+  },
+  {
+    "sentence": "De advocaat mocht het geheime document niet zomaar ______.",
+    "options": ["inkijken", "meekijken", "rondkijken", "aankijken"],
+    "correct": 0,
+    "explanation": "'Inkijken' = een document mogen openen en lezen. Bij geheime documenten gaat het om toestemming om ze in te zien.",
+    "wrongExplanations": {
+      "1": "'Meekijken' = samen met iemand kijken. Hier gaat het om toegang tot het document zelf.",
+      "2": "'Rondkijken' = om je heen kijken. Een document is geen omgeving.",
+      "3": "'Aankijken' = iemand aankijken of iets afwachten. Een document kijk je niet aan."
+    },
+    "hint": "Denk aan toestemming om een document te mogen lezen."
+  },
+  {
+    "sentence": "Ik ______ van mijn boek toen de deur openging.",
+    "options": ["keek op", "keek aan", "keek om", "keek toe"],
+    "correct": 0,
+    "explanation": "'Opkijken' = omhoog kijken vanuit iets waar je mee bezig bent. Je leest een boek en kijkt op naar de deur.",
+    "wrongExplanations": {
+      "1": "'Aankijken' = iemand direct aankijken. Hier kijk je omhoog van je boek.",
+      "2": "'Omkijken' = achterom kijken. De zin zegt niet dat de deur achter je is.",
+      "3": "'Toekijken' = kijken hoe iets gebeurt. Hier reageer je op een geluid."
+    },
+    "hint": "Je ogen gaan van het boek omhoog naar de deur."
+  },
+  {
+    "sentence": "Dat nieuws was onverwacht. Daar ______.",
+    "options": ["keek ik echt van op", "keek ik het nog even aan", "keek ik later op terug", "keek ik met je mee"],
+    "correct": 0,
+    "explanation": "'Van iets opkijken' = verbaasd zijn over iets. De spreker had dit niet verwacht.",
+    "wrongExplanations": {
+      "1": "'Iets aankijken' = afwachten. Hier gaat het om verbazing, niet om wachten.",
+      "2": "'Terugkijken op' = later nadenken over iets. Hier gaat het om directe verbazing.",
+      "3": "'Meekijken' = samen kijken. Hier is niemand die samen kijkt."
+    },
+    "hint": "'Ik had dat niet verwacht' wijst op verbazing."
+  },
+  {
+    "sentence": "Toen mijn naam werd genoemd, ______.",
+    "options": ["keek ik meteen op", "keek ik meteen rond", "keek ik meteen terug", "keek ik op iemand neer"],
+    "correct": 0,
+    "explanation": "'Opkijken' = omhoog kijken of je aandacht verplaatsen naar iets. Je hoort je naam en kijkt op.",
+    "wrongExplanations": {
+      "1": "'Rondkijken' = om je heen kijken. Hier reageer je direct door op te kijken.",
+      "2": "'Terugkijken' = opnieuw kijken of terugdenken. Dat past niet bij het horen van je naam.",
+      "3": "'Neerkijken op' = je beter voelen dan iemand anders. Dat past hier niet."
+    },
+    "hint": "Je stopt even met wat je deed en kijkt omhoog."
+  },
+  {
+    "sentence": "We hebben allemaal ______ van het plotselinge besluit.",
+    "options": ["opgekeken", "aangekeken", "nagekeken", "rondgekeken"],
+    "correct": 0,
+    "explanation": "'Opkijken van' = verbaasd zijn over iets. Een plotseling besluit kan mensen verrassen.",
+    "wrongExplanations": {
+      "1": "'Aankijken' = iemand aankijken of een situatie afwachten. Je kijkt niet 'van' een besluit aan.",
+      "2": "'Nakijken' = controleren. Een besluit controleer je niet met 'van'.",
+      "3": "'Rondkijken' = om je heen kijken. Dat past niet bij verbazing over een besluit."
+    },
+    "hint": "Het besluit kwam onverwacht. Welk werkwoord betekent 'verbaasd zijn'?"
+  },
+  {
+    "sentence": "Ik weet niet of ik dit goed doe. Wil je even ______?",
+    "options": ["meekijken", "toekijken", "afkijken", "rondkijken"],
+    "correct": 0,
+    "explanation": "'Meekijken' = samen met iemand kijken om te volgen of te helpen. Je vraagt iemand om mee te controleren.",
+    "wrongExplanations": {
+      "1": "'Toekijken' = alleen kijken hoe iemand iets doet. Hier wil je hulp of controle, niet alleen publiek.",
+      "2": "'Afkijken' = spieken of overnemen. Je vraagt om hulp, niet om verboden kopieerwerk.",
+      "3": "'Rondkijken' = om je heen kijken. Hier gaat het om samen naar hetzelfde kijken."
+    },
+    "hint": "Je wilt dat iemand naast je kijkt en helpt."
+  },
+  {
+    "sentence": "Mijn collega ______ terwijl ik de software installeerde.",
+    "options": ["keek met me mee", "keek alleen toe", "keek erop terug", "keek even om"],
+    "correct": 0,
+    "explanation": "'Meekijken' = samen meekijken terwijl iemand iets doet. De collega volgt het proces om fouten te voorkomen.",
+    "wrongExplanations": {
+      "1": "'Toekijken' = kijken zonder mee te doen. Hier kijkt de collega mee om te helpen.",
+      "2": "'Terugkijken' = opnieuw kijken of terugdenken. De installatie gebeurt nu.",
+      "3": "'Omkijken' = achterom kijken of aandacht besteden aan iemand. Dat past niet bij samen naar een scherm kijken."
+    },
+    "hint": "De collega kijkt samen met jou naar hetzelfde proces."
+  },
+  {
+    "sentence": "Als je je scherm deelt, kan ik live ______.",
+    "options": ["meekijken", "inkijken", "neerkijken op", "afkijken"],
+    "correct": 0,
+    "explanation": "'Meekijken' = op hetzelfde moment met iemand meekijken. Bij een gedeeld scherm kan iemand live meekijken.",
+    "wrongExplanations": {
+      "1": "'Inkijken' = in een document of dossier kijken. Een gedeeld scherm volg je live mee.",
+      "2": "'Neerkijken op' = je beter voelen dan iemand anders. Dat past niet bij een scherm delen.",
+      "3": "'Afkijken' = spieken of overnemen. Live volgen is hier niet hetzelfde als spieken."
+    },
+    "hint": "Je kijkt tegelijk met de ander naar hetzelfde scherm."
+  },
+  {
+    "sentence": "De monteur vroeg of ik even wilde ______, zodat ik het later zelf kon doen.",
+    "options": ["meekijken", "afkijken", "aankijken", "terugkijken"],
+    "correct": 0,
+    "explanation": "'Meekijken' = kijken terwijl iemand iets voordoet, zodat je het begrijpt. De monteur laat zien hoe het moet.",
+    "wrongExplanations": {
+      "1": "'Afkijken' = spieken of iets overnemen op een oneerlijke manier. Hier leer je openlijk mee.",
+      "2": "'Aankijken' = iemand aankijken of een situatie afwachten. Je kijkt niet de monteur aan, maar volgt zijn werk.",
+      "3": "'Terugkijken' = later opnieuw kijken of terugdenken. De uitleg gebeurt nu."
+    },
+    "hint": "Je kijkt mee om te leren hoe iets werkt."
+  },
+  {
+    "sentence": "Wil je mijn schrijfopdracht ______ voordat ik hem inlever?",
+    "options": ["nakijken", "afkijken", "bekijken", "toekijken"],
+    "correct": 0,
+    "explanation": "'Nakijken' = controleren en fouten verbeteren. Een schrijfopdracht laat je nakijken voordat je die inlevert.",
+    "wrongExplanations": {
+      "1": "'Afkijken' = spieken of overnemen. Je wilt juist controle, geen kopieergedrag.",
+      "2": "'Bekijken' = ernaar kijken of beoordelen. Bij fouten controleren is 'nakijken' preciezer.",
+      "3": "'Toekijken' = observeren hoe iemand iets doet. De opdracht zelf moet gecontroleerd worden."
+    },
+    "hint": "Je vraagt iemand om fouten te controleren."
+  },
+  {
+    "sentence": "De docent heeft alle examens gisteren ______.",
+    "options": ["nagekeken", "afgekeken", "ingekeken", "omgekeken"],
+    "correct": 0,
+    "explanation": "'Nakijken' = werk van leerlingen controleren en beoordelen. Docenten kijken examens na.",
+    "wrongExplanations": {
+      "1": "'Afkijken' = spieken. Een docent spiekt niet bij examens; hij beoordeelt ze.",
+      "2": "'Inkijken' = kort inzien of toegang hebben tot een document. Examens beoordelen is 'nakijken'.",
+      "3": "'Omkijken' = achterom kijken of aandacht besteden aan iemand. Dat past niet bij examens beoordelen."
+    },
+    "hint": "Wat doet een docent met gemaakte examens?"
+  },
+  {
+    "sentence": "Ik moet nog even ______ of de factuur klopt.",
+    "options": ["nakijken", "rondkijken", "opkijken", "terugkijken"],
+    "correct": 0,
+    "explanation": "'Nakijken' = controleren of iets klopt. Bij een factuur controleer je bedragen en gegevens.",
+    "wrongExplanations": {
+      "1": "'Rondkijken' = om je heen kijken. Een factuur controleer je, je kijkt er niet in rond.",
+      "2": "'Opkijken' = omhoog kijken of verbaasd zijn. Dat past niet bij bedragen controleren.",
+      "3": "'Terugkijken' = opnieuw kijken of terugdenken. Een factuur controleren is 'nakijken'."
+    },
+    "hint": "Je controleert of de informatie juist is."
+  },
+  {
+    "sentence": "Kun je mijn mail nog even ______ op taalfouten?",
+    "options": ["nakijken", "meekijken", "doorkijken", "neerkijken op"],
+    "correct": 0,
+    "explanation": "'Nakijken' = controleren en fouten zoeken. Bij taalfouten past 'nakijken'.",
+    "wrongExplanations": {
+      "1": "'Meekijken' = samen kijken terwijl iemand bezig is. Hier is de mail al geschreven en moet die gecontroleerd worden.",
+      "2": "'Doorkijken' = snel doorlezen. Dat kan, maar 'op taalfouten' maakt 'nakijken' preciezer.",
+      "3": "'Neerkijken op' = je beter voelen dan iemand anders. Dat past niet bij een mail controleren."
+    },
+    "hint": "De woorden 'op taalfouten' wijzen op controleren."
+  },
+  {
+    "sentence": "Mijn manager ______ mensen zonder diploma.",
+    "options": ["kijkt neer op", "kijkt op van", "kijkt om naar", "kijkt mee met"],
+    "correct": 0,
+    "explanation": "'Neerkijken op' = iemand minder waard vinden of je beter voelen dan die persoon. Hier gaat het om een negatieve houding tegenover mensen zonder diploma.",
+    "wrongExplanations": {
+      "1": "'Opkijken van' = verbaasd zijn over iets. Hier gaat het om een negatieve houding tegenover mensen.",
+      "2": "'Omkijken naar' = aandacht of zorg geven aan iemand. Dat is juist positiever dan neerkijken op iemand.",
+      "3": "'Meekijken met' = samen met iemand kijken. Dat past niet bij een oordeel over mensen."
+    },
+    "hint": "Het gaat om iemand minder waard vinden."
+  },
+  {
+    "sentence": "Hij ______ mensen met minder geld, maar nu schaamt hij zich daarvoor.",
+    "options": ["keek vroeger neer op", "keek later terug op", "keek het eerst aan", "keek rustig toe"],
+    "correct": 0,
+    "explanation": "'Neerkijken op' = minachtend denken over iemand. Hij voelde zich vroeger beter dan mensen met minder geld.",
+    "wrongExplanations": {
+      "1": "'Terugkijken op' = nadenken over iets uit het verleden. Hier gaat het om zijn houding tegenover mensen.",
+      "2": "'Aankijken' = iemand aankijken of iets afwachten. Hier gaat het niet om wachten.",
+      "3": "'Toekijken' = observeren. Hier gaat het om een minachtende houding."
+    },
+    "hint": "De zin zegt dat hij zich nu schaamt voor zijn oude houding."
+  },
+  {
+    "sentence": "Je hoeft niet ______ omdat zij ander werk doen.",
+    "options": ["neer te kijken op anderen", "mee te kijken met anderen", "terug te kijken op anderen", "rond te kijken naar anderen"],
+    "correct": 0,
+    "explanation": "'Neerkijken op' = anderen minder waard vinden. De zin zegt dat ander werk geen reden is om je beter te voelen.",
+    "wrongExplanations": {
+      "1": "'Meekijken met' = samen kijken. Dat gaat niet over respect of oordeel.",
+      "2": "'Terugkijken op' = terugdenken aan iets. Hier gaat het om je houding tegenover anderen.",
+      "3": "'Rondkijken naar' = zoeken of om je heen kijken. Dat past niet bij mensen minder waard vinden."
+    },
+    "hint": "Het gaat om respect voor anderen."
+  },
+  {
+    "sentence": "Ze doet vriendelijk, maar soms merk je dat ze op stagiairs ______.",
+    "options": ["neerkijkt", "meekijkt", "toekijkt", "rondkijkt"],
+    "correct": 0,
+    "explanation": "'Neerkijken op' = iemand minder waard vinden. 'Op stagiairs neerkijken' betekent dat ze zich beter voelt dan zij.",
+    "wrongExplanations": {
+      "1": "'Meekijken' = samen kijken of helpen. Dat is niet de negatieve houding in deze zin.",
+      "2": "'Toekijken' = kijken hoe iets gebeurt. Dat betekent niet dat je iemand minder waard vindt.",
+      "3": "'Rondkijken' = om je heen kijken. Dat zegt niets over haar houding tegenover stagiairs."
+    },
+    "hint": "Er zit een negatieve houding in de zin: zich beter voelen dan anderen."
+  },
+  {
+    "sentence": "Toen hij mijn naam riep, ______.",
+    "options": ["keek ik snel om", "keek ik snel op", "keek ik snel mee", "keek ik snel toe"],
+    "correct": 0,
+    "explanation": "'Omkijken' = achterom kijken. Iemand roept je naam, dus je draait je hoofd om.",
+    "wrongExplanations": {
+      "1": "'Opkijken' = omhoog kijken of verbaasd zijn. Hier draai je je om naar de stem.",
+      "2": "'Meekijken' = samen kijken. Je kijkt niet samen naar iets.",
+      "3": "'Toekijken' = observeren hoe iets gebeurt. Hier reageer je op iemand die roept."
+    },
+    "hint": "Je hoort iemand achter je en draait je hoofd."
+  },
+  {
+    "sentence": "Na de ruzie liep ze weg en heeft ze ______.",
+    "options": ["niet meer naar ons omgekeken", "niet meer van ons opgekeken", "niet meer op ons teruggekeken", "niet meer met ons meegekeken"],
+    "correct": 0,
+    "explanation": "'Niet meer naar iemand omkijken' = geen aandacht of zorg meer geven. Hier verbreekt ze het contact na de ruzie.",
+    "wrongExplanations": {
+      "1": "'Opkijken van' = verbaasd zijn. Hier gaat het om geen aandacht meer geven.",
+      "2": "'Terugkijken op' = terugdenken aan iets. De vaste uitdrukking is 'naar iemand omkijken'.",
+      "3": "'Meekijken' = samen kijken. Dat past niet bij geen aandacht meer geven."
+    },
+    "hint": "De uitdrukking betekent: geen aandacht meer geven aan iemand."
+  },
+  {
+    "sentence": "______ let op waar je loopt.",
+    "options": ["Kijk niet steeds om;", "Kijk niet steeds toe;", "Kijk niet steeds mee;", "Kijk niet steeds neer op iemand;"],
+    "correct": 0,
+    "explanation": "'Omkijken' = achterom kijken. Als je loopt, moet je vooruit kijken en niet steeds achterom.",
+    "wrongExplanations": {
+      "1": "'Toekijken' = observeren hoe iets gebeurt. Dat past niet bij de richting van je blik tijdens het lopen.",
+      "2": "'Meekijken' = samen kijken. Hier gaat het om achterom kijken.",
+      "3": "'Neerkijken op' = iemand minder waard vinden. Dat past niet bij lopen."
+    },
+    "hint": "Het gaat om kijken naar achteren."
+  },
+  {
+    "sentence": "Sinds hij verhuisd is, heeft hij nauwelijks nog naar zijn oude buren ______.",
+    "options": ["omgekeken", "opgekeken", "meegekeken", "rondgekeken"],
+    "correct": 0,
+    "explanation": "'Naar iemand omkijken' = aandacht of zorg geven aan iemand. Hij heeft bijna geen contact meer met zijn oude buren.",
+    "wrongExplanations": {
+      "1": "'Opkijken' = omhoog kijken of verbaasd zijn. Dat past niet bij contact houden met buren.",
+      "2": "'Meekijken' = samen kijken. Hier gaat het om aandacht geven na een verhuizing.",
+      "3": "'Rondkijken' = om je heen kijken. Dat past niet bij zorg of contact met buren."
+    },
+    "hint": "Denk aan aandacht blijven geven aan mensen."
+  },
+  {
+    "sentence": "Mag ik hier even ______?",
+    "options": ["rondkijken", "inkijken", "afkijken", "neerkijken op"],
+    "correct": 0,
+    "explanation": "'Rondkijken' = om je heen kijken in een ruimte of omgeving. Je vraagt of je even mag kijken wat er is.",
+    "wrongExplanations": {
+      "1": "'Inkijken' = in een boek of dossier kijken. Hier gaat het om een plek, niet om een document.",
+      "2": "'Afkijken' = spieken of overnemen. Dat past niet bij beleefd in een ruimte kijken.",
+      "3": "'Neerkijken op' = iemand minder waard vinden. Dat past niet bij een plek bekijken."
+    },
+    "hint": "Je bent op een plek en wilt om je heen kijken."
+  },
+  {
+    "sentence": "We hebben de hele middag in het museum ______.",
+    "options": ["rondgekeken", "doorgekeken", "aangekeken", "afgekeken"],
+    "correct": 0,
+    "explanation": "'Rondkijken' = op een plek om je heen kijken en dingen bekijken. In een museum loop je rond en kijkt naar kunst of objecten.",
+    "wrongExplanations": {
+      "1": "'Doorkijken' = een tekst of informatie snel lezen. Een museum lees je niet door.",
+      "2": "'Aankijken' = iemand aankijken of een situatie afwachten. Dat past niet bij een museumbezoek.",
+      "3": "'Afkijken' = spieken of overnemen. Dat past niet bij kunst bekijken."
+    },
+    "hint": "Je loopt door een plek en kijkt naar wat er te zien is."
+  },
+  {
+    "sentence": "Ik ben net verhuisd en wil morgen in de buurt ______.",
+    "options": ["rondkijken", "nakijken", "toekijken", "opkijken"],
+    "correct": 0,
+    "explanation": "'Rondkijken' = een nieuwe plek verkennen. Je wilt de buurt leren kennen door er rond te lopen en te kijken.",
+    "wrongExplanations": {
+      "1": "'Nakijken' = controleren. Een buurt controleer je niet zoals een tekst of factuur.",
+      "2": "'Toekijken' = kijken hoe iets gebeurt. Hier wil je zelf de buurt verkennen.",
+      "3": "'Opkijken' = omhoog kijken of verbaasd zijn. Dat past niet bij een buurt ontdekken."
+    },
+    "hint": "Je wilt een nieuwe omgeving verkennen."
+  },
+  {
+    "sentence": "In de winkel ______ voordat ze iets kocht.",
+    "options": ["keek ze rustig rond", "keek ze rustig terug", "keek ze rustig mee", "keek ze rustig toe"],
+    "correct": 0,
+    "explanation": "'Rondkijken' = rustig kijken wat er allemaal is. In een winkel kijk je rond voordat je iets kiest.",
+    "wrongExplanations": {
+      "1": "'Terugkijken' = opnieuw kijken of terugdenken. In een winkel kijk je meestal rond.",
+      "2": "'Meekijken' = samen met iemand kijken. De zin noemt geen andere persoon.",
+      "3": "'Toekijken' = observeren hoe iets gebeurt. Hier zoekt ze iets om te kopen."
+    },
+    "hint": "Ze kijkt wat de winkel allemaal heeft."
+  },
+  {
+    "sentence": "Ik heb de film gemist, maar ik wil hem vanavond ______.",
+    "options": ["terugkijken", "bekijken", "omkijken", "doorkijken"],
+    "correct": 0,
+    "explanation": "'Terugkijken' = een programma of film later opnieuw bekijken. Je hebt de film gemist en kijkt hem later terug.",
+    "wrongExplanations": {
+      "1": "'Bekijken' = algemeen naar iets kijken. Bij gemiste tv of film zeg je vaak 'terugkijken'.",
+      "2": "'Omkijken' = achterom kijken of aandacht geven aan iemand. Dat past niet bij een film.",
+      "3": "'Doorkijken' = informatie snel lezen. Een film lees je niet door."
+    },
+    "hint": "Je kijkt iets later omdat je het eerder hebt gemist."
+  },
+  {
+    "sentence": "Als we op dat jaar ______, zien we hoeveel we geleerd hebben.",
+    "options": ["terugkijken", "opkijken", "meekijken", "afkijken"],
+    "correct": 0,
+    "explanation": "'Terugkijken op' = nadenken over iets uit het verleden. Hier denk je terug aan een jaar en wat je hebt geleerd.",
+    "wrongExplanations": {
+      "1": "'Opkijken' = omhoog kijken of verbaasd zijn. 'Op dat jaar opkijken' is hier niet de juiste combinatie.",
+      "2": "'Meekijken' = samen kijken. Hier gaat het om reflectie op het verleden.",
+      "3": "'Afkijken' = spieken of overnemen. Dat past niet bij nadenken over een jaar."
+    },
+    "hint": "Je denkt terug aan een periode in het verleden."
+  },
+  {
+    "sentence": "Je kunt de uitzending tot zondag online ______.",
+    "options": ["terugkijken", "inkijken", "toekijken", "aankijken"],
+    "correct": 0,
+    "explanation": "'Terugkijken' = een uitzending later online bekijken. Dit wordt vaak gebruikt voor tv-programma's.",
+    "wrongExplanations": {
+      "1": "'Inkijken' = kort in een boek of dossier kijken. Een uitzending kijk je terug.",
+      "2": "'Toekijken' = observeren hoe iets gebeurt. Hier gaat het om later bekijken.",
+      "3": "'Aankijken' = iemand aankijken of een situatie afwachten. Een uitzending kijk je niet aan."
+    },
+    "hint": "De uitzending was eerder, maar staat nu online."
+  },
+  {
+    "sentence": "Later zullen we met trots op deze periode ______.",
+    "options": ["terugkijken", "rondkijken", "doorkijken", "afkijken"],
+    "correct": 0,
+    "explanation": "'Terugkijken op' = later nadenken over iets dat voorbij is. 'Met trots' laat zien dat het om reflectie gaat.",
+    "wrongExplanations": {
+      "1": "'Rondkijken' = om je heen kijken. Een periode is geen plek.",
+      "2": "'Doorkijken' = tekst of informatie snel lezen. Een periode lees je niet door.",
+      "3": "'Afkijken' = spieken of overnemen. Dat past niet bij trots op het verleden."
+    },
+    "hint": "Je denkt later terug aan wat er is gebeurd."
+  },
+  {
+    "sentence": "______ hoe ik het doe.",
+    "options": ["Kijk maar toe", "Kijk maar mee", "Kijk maar af", "Kijk maar rond"],
+    "correct": 0,
+    "explanation": "'Toekijken' = kijken hoe iemand iets doet, zonder zelf mee te doen. De ander moet eerst alleen observeren.",
+    "wrongExplanations": {
+      "1": "'Meekijken' = samen meekijken, vaak om te helpen of mee te volgen. Hier zegt de spreker: kijk hoe ik het doe.",
+      "2": "'Afkijken' = spieken of iets overnemen. Dat is te negatief voor deze instructie.",
+      "3": "'Rondkijken' = om je heen kijken. Hier moet je naar een handeling kijken."
+    },
+    "hint": "Je observeert hoe iemand iets voordoet."
+  },
+  {
+    "sentence": "De rest werkte hard, maar hij stond alleen maar ______.",
+    "options": ["toe te kijken", "mee te kijken", "na te kijken", "rond te kijken"],
+    "correct": 0,
+    "explanation": "'Toekijken' = kijken zonder zelf iets te doen. De zin contrasteert hard werken met alleen kijken.",
+    "wrongExplanations": {
+      "1": "'Meekijken' = samen kijken of helpen volgen. Hier helpt hij niet mee.",
+      "2": "'Nakijken' = controleren. Hij controleert niets; hij doet gewoon niet mee.",
+      "3": "'Rondkijken' = om je heen kijken. De nadruk ligt op passief kijken terwijl anderen werken."
+    },
+    "hint": "Hij doet niet mee, hij kijkt alleen."
+  },
+  {
+    "sentence": "We konden niet anders dan ______ terwijl het water langzaam steeg.",
+    "options": ["toekijken", "afkijken", "inkijken", "aankijken"],
+    "correct": 0,
+    "explanation": "'Toekijken' = machteloos kijken hoe iets gebeurt. Hier kunnen ze niets doen behalve kijken.",
+    "wrongExplanations": {
+      "1": "'Afkijken' = spieken of overnemen. Dat past niet bij water dat stijgt.",
+      "2": "'Inkijken' = in een tekst of dossier kijken. Water kun je niet inkijken.",
+      "3": "'Aankijken' = iemand aankijken of een situatie afwachten. Bij machteloos kijken naar een gebeurtenis past 'toekijken'."
+    },
+    "hint": "Je kunt niets doen en ziet alleen hoe het gebeurt."
+  },
+  {
+    "sentence": "De kinderen mochten ______ terwijl de kok de taart versierde.",
+    "options": ["toekijken", "nakijken", "omkijken", "neerkijken op"],
+    "correct": 0,
+    "explanation": "'Toekijken' = kijken hoe iemand iets doet. De kinderen kijken naar de kok terwijl hij werkt.",
+    "wrongExplanations": {
+      "1": "'Nakijken' = controleren of corrigeren. De kinderen controleren de taart niet.",
+      "2": "'Omkijken' = achterom kijken. De kok is niet per se achter hen.",
+      "3": "'Neerkijken op' = iemand minder waard vinden. Dat past niet bij kinderen die naar een kok kijken."
+    },
+    "hint": "Ze kijken naar iemand die iets voordoet of maakt."
+  },
+  {
+    "sentence": "Ik heb me erg ______ op dat examen; het was veel moeilijker dan ik dacht.",
+    "options": ["verkeken", "opgekeken", "bekeken", "nagekeken"],
+    "correct": 0,
+    "explanation": "'Zich verkijken op' = iets verkeerd inschatten. Je dacht dat het examen makkelijker zou zijn dan het was.",
+    "wrongExplanations": {
+      "1": "'Opkijken van' = verbaasd zijn. Hier ligt de nadruk op een verkeerde inschatting vooraf.",
+      "2": "'Bekijken' = iets bekijken of beoordelen. 'Ik heb me bekeken op' is geen goede combinatie.",
+      "3": "'Nakijken' = controleren. Je controleert het examen niet; je had het verkeerd ingeschat."
+    },
+    "hint": "Je had vooraf een verkeerde verwachting."
+  },
+  {
+    "sentence": "We hadden ons ______ op hoeveel tijd de verbouwing zou kosten.",
+    "options": ["verkeken", "teruggekeken", "doorgekeken", "aangekeken"],
+    "correct": 0,
+    "explanation": "'Zich verkijken op' = de moeite, tijd of grootte verkeerd inschatten. De verbouwing duurde waarschijnlijk langer dan verwacht.",
+    "wrongExplanations": {
+      "1": "'Terugkijken op' = later nadenken over iets. Hier gaat het om een verkeerde inschatting vooraf.",
+      "2": "'Doorkijken' = informatie snel lezen. Tijd voor een verbouwing lees je niet door.",
+      "3": "'Aankijken' = afwachten of iemand aankijken. Hier past de vaste combinatie 'zich verkijken op'."
+    },
+    "hint": "Het gaat om tijd verkeerd inschatten."
+  },
+  {
+    "sentence": "Ze heeft zich flink ______ op de kosten van haar studie.",
+    "options": ["verkeken", "ingekeken", "meegekeken", "afgekeken"],
+    "correct": 0,
+    "explanation": "'Zich verkijken op' = iets te laag, te makkelijk of verkeerd inschatten. De studiekosten vielen waarschijnlijk hoger uit dan verwacht.",
+    "wrongExplanations": {
+      "1": "'Inkijken' = in een document of boek kijken. Kosten kun je niet 'je inkijken op'.",
+      "2": "'Meekijken' = samen kijken. Hier gaat het niet om samen naar iets kijken.",
+      "3": "'Afkijken' = spieken of overnemen. Dat past niet bij kosten inschatten."
+    },
+    "hint": "De kosten waren anders dan ze vooraf dacht."
+  },
+  {
+    "sentence": "______ de afstand; het is verder dan het lijkt.",
+    "options": ["Verkijk je niet op", "Kijk niet aan", "Kijk niet om naar", "Kijk niet toe bij"],
+    "correct": 0,
+    "explanation": "'Zich verkijken op' = iets verkeerd inschatten. De vaste combinatie gebruikt 'op': je verkijken op de afstand.",
+    "wrongExplanations": {
+      "1": "'Aankijken' gebruikt 'aan' niet in deze betekenis. Bij verkeerd inschatten zeg je 'je verkijken op'.",
+      "2": "'Omkijken' gaat over achterom kijken of aandacht geven. Dat past niet bij afstand inschatten.",
+      "3": "'Toekijken' = observeren. Dat past niet bij een verkeerde inschatting."
+    },
+    "hint": "Welke vaste combinatie hoort bij verkeerd inschatten?"
+  }
+]
