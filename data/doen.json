@@ -1,0 +1,482 @@
+[
+  {
+    "sentence": "Ik wil vandaag ______ voor het feest.",
+    "options": ["iets moois aandoen", "iets moois uitdoen", "iets moois overdoen", "iets moois voordoen"],
+    "correct": 0,
+    "explanation": "'Aandoen' = kleding aantrekken. Voor een feest wil je iets moois aantrekken.",
+    "wrongExplanations": {
+      "1": "'Uitdoen' = kleding uittrekken. Voor het feest trek je juist iets moois aan.",
+      "2": "'Overdoen' = iets opnieuw doen. Kleding opnieuw doen is hier niet de bedoeling.",
+      "3": "'Voordoen' = laten zien hoe iets moet. Je demonstreert geen kleding voor het feest."
+    },
+    "hint": "Je kiest kleding en trekt die aan."
+  },
+  {
+    "sentence": "Het is koud buiten, dus ______.",
+    "options": ["doe je jas aan", "doe je jas uit", "doe je jas af", "doe je jas over"],
+    "correct": 0,
+    "explanation": "'Aandoen' = kleding aantrekken. Als het koud is, trek je je jas aan.",
+    "wrongExplanations": {
+      "1": "'Uitdoen' = kleding uittrekken. Dat past niet bij kou.",
+      "2": "'Afdoen' = iets verwijderen, zoals een horloge, pet of bril. Bij een jas zeg je meestal 'uitdoen'.",
+      "3": "'Overdoen' = opnieuw doen. Een jas doe je niet 'over' in deze betekenis."
+    },
+    "hint": "Bij kou trek je extra kleding aan."
+  },
+  {
+    "sentence": "Het is donker in de kamer. Kun je ______?",
+    "options": ["de lamp aandoen", "de lamp uitdoen", "de lamp afdoen", "de lamp overdoen"],
+    "correct": 0,
+    "explanation": "'Aandoen' = een apparaat of licht aanzetten. In een donkere kamer doe je de lamp aan.",
+    "wrongExplanations": {
+      "1": "'Uitdoen' = een lamp uitzetten. Dan wordt het juist donkerder.",
+      "2": "'Afdoen' = iets van je lichaam verwijderen. Een lamp doe je niet af.",
+      "3": "'Overdoen' = iets opnieuw doen. Dat past niet bij licht aanzetten."
+    },
+    "hint": "Je wilt meer licht."
+  },
+  {
+    "sentence": "Voor de wandeling had hij snel ______.",
+    "options": ["zijn regenjas aangedaan", "zijn regenjas uitgedaan", "zijn regenjas voorgedaan", "zijn regenjas meegedaan"],
+    "correct": 0,
+    "explanation": "'Aandoen' = kleding aantrekken. Voor een wandeling in slecht weer trek je een regenjas aan.",
+    "wrongExplanations": {
+      "1": "'Uitdoen' = kleding uittrekken. Voor regen is dat niet logisch.",
+      "2": "'Voordoen' = demonstreren hoe iets moet. Je demonstreert geen regenjas.",
+      "3": "'Meedoen' = deelnemen. Een regenjas doet niet mee."
+    },
+    "hint": "Hij trekt kleding aan voordat hij naar buiten gaat."
+  },
+  {
+    "sentence": "Wil je je schoenen even ______ voordat je binnenkomt?",
+    "options": ["uitdoen", "aandoen", "omdoen", "meedoen"],
+    "correct": 0,
+    "explanation": "'Uitdoen' = kleding of schoenen uittrekken. Je doet je schoenen uit voordat je naar binnen gaat.",
+    "wrongExplanations": {
+      "1": "'Aandoen' = kleding of schoenen aantrekken. Je hebt de schoenen al aan.",
+      "2": "'Omdoen' = iets om je nek, pols of lichaam doen. Schoenen doe je niet om.",
+      "3": "'Meedoen' = deelnemen. Schoenen kunnen niet meedoen."
+    },
+    "hint": "Je haalt je schoenen van je voeten."
+  },
+  {
+    "sentence": "Ik ga slapen, dus ______.",
+    "options": ["doe ik de lamp uit", "doe ik de lamp aan", "doe ik de lamp om", "doe ik de lamp op"],
+    "correct": 0,
+    "explanation": "'Uitdoen' = een lamp of apparaat uitzetten. Als je gaat slapen, doe je de lamp uit.",
+    "wrongExplanations": {
+      "1": "'Aandoen' = een lamp aanzetten. Dat past niet bij slapen.",
+      "2": "'Omdoen' = iets om je heen doen, zoals een sjaal. Een lamp doe je niet om.",
+      "3": "'Opdoen' = iets op je hoofd doen, zoals een pet. Een lamp doe je niet op."
+    },
+    "hint": "Voor slapen wil je het licht niet aan laten."
+  },
+  {
+    "sentence": "Tijdens de film moesten alle telefoons ______.",
+    "options": ["uitgedaan worden", "aangedaan worden", "omgedaan worden", "voorgedaan worden"],
+    "correct": 0,
+    "explanation": "'Uitdoen' = een apparaat uitzetten. Tijdens een film moeten telefoons meestal uit.",
+    "wrongExplanations": {
+      "1": "'Aandoen' = aanzetten. Dat zou juist storend zijn.",
+      "2": "'Omdoen' = iets om je lichaam doen. Een telefoon doe je niet om in deze zin.",
+      "3": "'Voordoen' = demonstreren. Telefoons worden hier niet voorgedaan."
+    },
+    "hint": "Het apparaat mag geen geluid of licht maken."
+  },
+  {
+    "sentence": "Het werd warm, dus hij ______.",
+    "options": ["deed zijn trui uit", "deed zijn trui aan", "deed zijn trui op", "deed zijn trui mee"],
+    "correct": 0,
+    "explanation": "'Uitdoen' = kleding uittrekken. Als het warm wordt, doe je vaak je trui uit.",
+    "wrongExplanations": {
+      "1": "'Aandoen' = kleding aantrekken. Dat past beter bij kou.",
+      "2": "'Opdoen' = iets op je hoofd zetten. Een trui doe je niet op.",
+      "3": "'Meedoen' = deelnemen. Een trui doet niet mee."
+    },
+    "hint": "Hij haalt een kledingstuk van zijn lichaam."
+  },
+  {
+    "sentence": "Voor de kou deed ze een dikke sjaal ______.",
+    "options": ["om", "op", "af", "over"],
+    "correct": 0,
+    "explanation": "'Omdoen' = iets om je nek, pols of lichaam doen. Een sjaal doe je om.",
+    "wrongExplanations": {
+      "1": "'Opdoen' = iets op je hoofd zetten, zoals een pet. Een sjaal gaat om je nek.",
+      "2": "'Afdoen' = iets verwijderen. Ze wil de sjaal juist dragen.",
+      "3": "'Overdoen' = iets opnieuw doen. Dat past niet bij een sjaal dragen."
+    },
+    "hint": "Een sjaal gaat om je nek."
+  },
+  {
+    "sentence": "Voor het gala had hij een nette stropdas ______.",
+    "options": ["omgedaan", "opgedaan", "uitgedaan", "overgedaan"],
+    "correct": 0,
+    "explanation": "'Omdoen' = iets om je nek of lichaam doen. Een stropdas doe je om.",
+    "wrongExplanations": {
+      "1": "'Opdoen' = iets op je hoofd zetten, zoals een pet. Een stropdas gaat niet op je hoofd.",
+      "2": "'Uitdoen' = kleding uittrekken. Voor een gala doe je de stropdas juist om.",
+      "3": "'Overdoen' = opnieuw doen. Dat past hier niet."
+    },
+    "hint": "Een stropdas draag je om je nek."
+  },
+  {
+    "sentence": "Doe je riem goed ______ voordat je gaat fietsen.",
+    "options": ["om", "af", "op", "uit"],
+    "correct": 0,
+    "explanation": "'Omdoen' = iets rond je lichaam vastmaken. Een riem doe je om je middel.",
+    "wrongExplanations": {
+      "1": "'Afdoen' = iets verwijderen. Hier moet de riem juist vast.",
+      "2": "'Opdoen' = iets op je hoofd zetten. Een riem gaat niet op je hoofd.",
+      "3": "'Uitdoen' = kleding uittrekken. Bij een riem zeg je eerder 'afdoen' als je hem verwijdert."
+    },
+    "hint": "Een riem gaat rond je middel."
+  },
+  {
+    "sentence": "Voor het douchen doe ik mijn horloge even ______.",
+    "options": ["af", "om", "op", "aan"],
+    "correct": 0,
+    "explanation": "'Afdoen' = iets verwijderen dat je draagt, zoals een horloge, bril of pet. Voor het douchen doe je je horloge af.",
+    "wrongExplanations": {
+      "1": "'Omdoen' = iets om je pols of nek doen. Het horloge zit al om je pols.",
+      "2": "'Opdoen' = iets op je hoofd zetten. Een horloge doe je niet op.",
+      "3": "'Aandoen' = kleding aantrekken of een lamp aanzetten. Een horloge doe je meestal om, niet aan."
+    },
+    "hint": "Je verwijdert iets dat je draagt."
+  },
+  {
+    "sentence": "In het formele gebouw deed iedereen zijn hoed ______.",
+    "options": ["af", "op", "om", "over"],
+    "correct": 0,
+    "explanation": "'Afdoen' = iets van je lichaam verwijderen. Uit beleefdheid doe je je hoed af.",
+    "wrongExplanations": {
+      "1": "'Opdoen' = iets op je hoofd zetten. De hoed zit al op je hoofd en moet juist weg.",
+      "2": "'Omdoen' = iets om je nek of lichaam doen. Een hoed doe je niet om.",
+      "3": "'Overdoen' = opnieuw doen. Dat past niet bij beleefdheid in een gebouw."
+    },
+    "hint": "Je haalt de hoed van je hoofd."
+  },
+  {
+    "sentence": "Omdat hij ging zwemmen, had hij zijn zonnebril veilig ______.",
+    "options": ["afgedaan", "opgedaan", "aangedaan", "meegedaan"],
+    "correct": 0,
+    "explanation": "'Afdoen' = iets verwijderen dat je draagt. Voor zwemmen doe je een zonnebril af.",
+    "wrongExplanations": {
+      "1": "'Opdoen' = iets opzetten, zoals een pet of bril. Hij wil de bril juist niet dragen tijdens het zwemmen.",
+      "2": "'Aandoen' = kleding aantrekken of een lamp aanzetten. Een zonnebril doe je meestal op of af.",
+      "3": "'Meedoen' = deelnemen. Een zonnebril doet niet mee."
+    },
+    "hint": "Hij haalt iets af voordat hij het water in gaat."
+  },
+  {
+    "sentence": "Je mag je jas aanhouden, maar je pet moet je ______.",
+    "options": ["afdoen", "meedoen", "voordoen", "overdoen"],
+    "correct": 0,
+    "explanation": "'Afdoen' = iets verwijderen dat je draagt. De pet moet van je hoofd.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. Een pet kan niet deelnemen.",
+      "2": "'Voordoen' = demonstreren. Je hoeft de pet niet voor te doen.",
+      "3": "'Overdoen' = opnieuw doen. De pet moet af, niet opnieuw."
+    },
+    "hint": "De pet moet van je hoofd."
+  },
+  {
+    "sentence": "Doe je pet ______, want de zon schijnt fel.",
+    "options": ["op", "af", "uit", "mee"],
+    "correct": 0,
+    "explanation": "'Opdoen' = iets op je hoofd zetten. Bij felle zon doe je een pet op.",
+    "wrongExplanations": {
+      "1": "'Afdoen' = iets van je hoofd of lichaam verwijderen. Bij felle zon wil je de pet juist dragen.",
+      "2": "'Uitdoen' = kleding uittrekken of een lamp uitzetten. Een pet doe je meestal op of af.",
+      "3": "'Meedoen' = deelnemen. Een pet doet niet mee."
+    },
+    "hint": "Een pet gaat op je hoofd."
+  },
+  {
+    "sentence": "In de keuken moet je een haarnetje ______.",
+    "options": ["opdoen", "afdoen", "overdoen", "voordoen"],
+    "correct": 0,
+    "explanation": "'Opdoen' = iets op je hoofd zetten. Een haarnetje doe je op in de keuken.",
+    "wrongExplanations": {
+      "1": "'Afdoen' = iets verwijderen. In de keuken moet het haarnetje juist op.",
+      "2": "'Overdoen' = iets opnieuw doen. Dat past niet bij een haarnetje dragen.",
+      "3": "'Voordoen' = demonstreren hoe iets moet. Hier gaat het om dragen."
+    },
+    "hint": "Het gaat om iets op je hoofd zetten."
+  },
+  {
+    "sentence": "Zet je fietshelm niet in je tas, maar ______.",
+    "options": ["doe hem op", "doe hem af", "doe hem uit", "doe hem over"],
+    "correct": 0,
+    "explanation": "'Opdoen' = iets op je hoofd zetten. Een fietshelm moet je opdoen voor veiligheid.",
+    "wrongExplanations": {
+      "1": "'Afdoen' = iets verwijderen. De helm zit nog niet op je hoofd.",
+      "2": "'Uitdoen' = kleding uittrekken of een apparaat uitzetten. Bij een helm zeg je meestal 'opdoen' of 'afdoen'.",
+      "3": "'Overdoen' = iets opnieuw doen. De helm moet op je hoofd."
+    },
+    "hint": "Een helm hoort op je hoofd."
+  },
+  {
+    "sentence": "Dit is niet goed. Doe het maar ______.",
+    "options": ["over", "mee", "voor", "af"],
+    "correct": 0,
+    "explanation": "'Overdoen' = iets opnieuw doen omdat het niet goed was. Je moet de taak opnieuw maken.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. Dat past niet bij iets opnieuw maken.",
+      "2": "'Voordoen' = demonstreren. Hier moet je het opnieuw doen.",
+      "3": "'Afdoen' = iets verwijderen. Dat past niet bij een fout herstellen."
+    },
+    "hint": "Het was fout, dus je doet het opnieuw."
+  },
+  {
+    "sentence": "Omdat de opname mislukte, moesten we de scène ______.",
+    "options": ["overdoen", "meedoen", "voordoen", "afdoen"],
+    "correct": 0,
+    "explanation": "'Overdoen' = opnieuw doen. Als een opname mislukt, neem je de scène opnieuw op.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. De scène moet niet deelnemen, maar opnieuw gedaan worden.",
+      "2": "'Voordoen' = laten zien hoe iets moet. Hier is de opname mislukt.",
+      "3": "'Afdoen' = iets verwijderen dat je draagt. Dat past niet bij een scène."
+    },
+    "hint": "Een mislukte opname moet opnieuw."
+  },
+  {
+    "sentence": "Mijn toets was kwijt, dus ik moest hem helemaal ______.",
+    "options": ["overdoen", "uitdoen", "omdoen", "aandoen"],
+    "correct": 0,
+    "explanation": "'Overdoen' = opnieuw maken of opnieuw doen. Als een toets kwijt is, moet je hem misschien opnieuw maken.",
+    "wrongExplanations": {
+      "1": "'Uitdoen' = kleding uittrekken of een apparaat uitzetten. Een toets doe je niet uit.",
+      "2": "'Omdoen' = iets om je lichaam doen. Een toets doe je niet om.",
+      "3": "'Aandoen' = kleding aantrekken of een lamp aanzetten. Een toets doe je niet aan."
+    },
+    "hint": "De toets moet opnieuw gemaakt worden."
+  },
+  {
+    "sentence": "Als je de opdracht slordig maakt, moet je die later ______.",
+    "options": ["overdoen", "voordoen", "opdoen", "verdoen"],
+    "correct": 0,
+    "explanation": "'Overdoen' = opnieuw doen. Slordig werk moet je soms opnieuw maken.",
+    "wrongExplanations": {
+      "1": "'Voordoen' = demonstreren hoe iets moet. Hier gaat het om opnieuw maken.",
+      "2": "'Opdoen' = iets op je hoofd zetten. Dat past niet bij een opdracht.",
+      "3": "'Tijd verdoen' = tijd verspillen. Een opdracht verdoe je niet in deze betekenis."
+    },
+    "hint": "Slecht gemaakt werk moet opnieuw."
+  },
+  {
+    "sentence": "We gaan buiten voetballen. Doe je ______?",
+    "options": ["mee", "voor", "over", "af"],
+    "correct": 0,
+    "explanation": "'Meedoen' = deelnemen aan een activiteit. De vraag is of je ook gaat voetballen.",
+    "wrongExplanations": {
+      "1": "'Voordoen' = laten zien hoe iets moet. Je hoeft voetbal niet te demonstreren.",
+      "2": "'Overdoen' = opnieuw doen. De vraag gaat over deelnemen.",
+      "3": "'Afdoen' = iets verwijderen. Dat past niet bij voetballen."
+    },
+    "hint": "De vraag is of je ook deelneemt."
+  },
+  {
+    "sentence": "Door een fout in de inschrijving mochten we niet ______.",
+    "options": ["meedoen", "overdoen", "aandoen", "uitdoen"],
+    "correct": 0,
+    "explanation": "'Meedoen' = deelnemen. Door de fout mochten jullie niet deelnemen aan het toernooi of de activiteit.",
+    "wrongExplanations": {
+      "1": "'Overdoen' = opnieuw doen. Het probleem is deelname, niet herhaling.",
+      "2": "'Aandoen' = kleding aantrekken of een lamp aanzetten. Dat past niet bij inschrijving.",
+      "3": "'Uitdoen' = kleding uittrekken of iets uitzetten. Dat past niet bij inschrijving."
+    },
+    "hint": "Een inschrijving bepaalt of je mag deelnemen."
+  },
+  {
+    "sentence": "Iedereen in de klas deed enthousiast ______ aan het spel.",
+    "options": ["mee", "voor", "om", "op"],
+    "correct": 0,
+    "explanation": "'Meedoen aan' = deelnemen aan iets. Iedereen deed enthousiast mee aan het spel.",
+    "wrongExplanations": {
+      "1": "'Voordoen' = demonstreren. De klas demonstreert het spel niet.",
+      "2": "'Omdoen' = iets om je lichaam doen. Dat past niet bij een spel.",
+      "3": "'Opdoen' = iets op je hoofd zetten. Dat past niet bij deelname."
+    },
+    "hint": "De klas neemt deel aan het spel."
+  },
+  {
+    "sentence": "Als je niet wilt ______, mag je ook alleen kijken.",
+    "options": ["meedoen", "afdoen", "omdoen", "verdoen"],
+    "correct": 0,
+    "explanation": "'Meedoen' = deelnemen. Als je niet mee wilt doen, kun je toekijken.",
+    "wrongExplanations": {
+      "1": "'Afdoen' = iets verwijderen dat je draagt. Dat past niet bij alleen kijken.",
+      "2": "'Omdoen' = iets om je lichaam doen. Dat past niet bij deelnemen.",
+      "3": "'Tijd verdoen' = tijd verspillen. Hier gaat het om wel of niet deelnemen."
+    },
+    "hint": "Het alternatief is alleen kijken, dus het gaat om deelnemen."
+  },
+  {
+    "sentence": "Weet je niet hoe het moet? Ik zal het even ______.",
+    "options": ["voordoen", "meedoen", "overdoen", "uitdoen"],
+    "correct": 0,
+    "explanation": "'Voordoen' = laten zien hoe iets moet. Iemand demonstreert de handeling.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. Hier wil iemand uitleg geven door het te laten zien.",
+      "2": "'Overdoen' = opnieuw doen. Het gaat niet om opnieuw, maar om demonstreren.",
+      "3": "'Uitdoen' = kleding uittrekken of iets uitzetten. Dat past niet bij uitleg geven."
+    },
+    "hint": "Iemand laat zien hoe je iets doet."
+  },
+  {
+    "sentence": "De instructeur heeft de veiligheidsprocedure duidelijk ______.",
+    "options": ["voorgedaan", "meegedaan", "overgedaan", "afgedaan"],
+    "correct": 0,
+    "explanation": "'Voordoen' = demonstreren hoe iets werkt of moet. De instructeur liet de procedure zien.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. De instructeur neemt niet alleen deel; hij demonstreert.",
+      "2": "'Overdoen' = opnieuw doen. De zin gaat niet over een mislukte eerste poging.",
+      "3": "'Afdoen' = iets verwijderen. Dat past niet bij een procedure."
+    },
+    "hint": "Een instructeur laat de juiste manier zien."
+  },
+  {
+    "sentence": "Kun je nog één keer ______ hoe ik deze knop gebruik?",
+    "options": ["voordoen", "meedoen", "afdoen", "opdoen"],
+    "correct": 0,
+    "explanation": "'Voordoen' = laten zien hoe iets moet. Je vraagt om een demonstratie van de knop.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. De vraag gaat om uitleg en demonstratie.",
+      "2": "'Afdoen' = iets verwijderen. Een knop doe je niet af.",
+      "3": "'Opdoen' = iets op je hoofd zetten. Dat past niet bij een knop gebruiken."
+    },
+    "hint": "Je wilt dat iemand het laat zien."
+  },
+  {
+    "sentence": "De docent deed de uitspraak langzaam ______.",
+    "options": ["voor", "over", "mee", "uit"],
+    "correct": 0,
+    "explanation": "'Voordoen' = iets als voorbeeld laten horen of zien. De docent zegt de uitspraak langzaam voor.",
+    "wrongExplanations": {
+      "1": "'Overdoen' = opnieuw doen. De docent geeft hier een voorbeeld.",
+      "2": "'Meedoen' = deelnemen. Dat past niet bij uitspraak uitleggen.",
+      "3": "'Uitdoen' = kleding uittrekken of iets uitzetten. Dat past niet bij spreken."
+    },
+    "hint": "De docent geeft een voorbeeld dat je kunt nadoen."
+  },
+  {
+    "sentence": "Ik heb in het ziekenhuis veel tijd ______ met wachten.",
+    "options": ["verdaan", "voorgedaan", "meegedaan", "afgedaan"],
+    "correct": 0,
+    "explanation": "'Tijd verdoen' = tijd verspillen of verliezen aan iets dat weinig oplevert. Wachten in het ziekenhuis kostte veel tijd.",
+    "wrongExplanations": {
+      "1": "'Voordoen' = demonstreren. Je demonstreert geen tijd.",
+      "2": "'Meedoen' = deelnemen. Tijd kan niet meedoen.",
+      "3": "'Afdoen' = iets verwijderen. Tijd doe je niet af."
+    },
+    "hint": "De tijd ging verloren door wachten."
+  },
+  {
+    "sentence": "We hebben uren ______ met details die er niet toe deden.",
+    "options": ["verdaan", "overgedaan", "uitgedaan", "omgedaan"],
+    "correct": 0,
+    "explanation": "'Tijd verdoen' = tijd verspillen. Uren praten over onbelangrijke details is tijd verdoen.",
+    "wrongExplanations": {
+      "1": "'Overdoen' = iets opnieuw doen. De uren zijn niet opnieuw gedaan, maar verspild.",
+      "2": "'Uitdoen' = kleding uittrekken of iets uitzetten. Dat past niet bij tijd.",
+      "3": "'Omdoen' = iets om je lichaam doen. Dat past niet bij tijd."
+    },
+    "hint": "De details waren niet belangrijk, dus de tijd was verspild."
+  },
+  {
+    "sentence": "Laten we geen tijd ______ en meteen beginnen.",
+    "options": ["verdoen", "voordoen", "meedoen", "opdoen"],
+    "correct": 0,
+    "explanation": "'Tijd verdoen' = tijd verspillen. De spreker wil meteen starten en geen tijd verliezen.",
+    "wrongExplanations": {
+      "1": "'Voordoen' = demonstreren. Je demonstreert geen tijd.",
+      "2": "'Meedoen' = deelnemen. Tijd neemt niet deel.",
+      "3": "'Opdoen' = iets op je hoofd zetten. Dat past niet bij tijd."
+    },
+    "hint": "Je wilt geen tijd verspillen."
+  },
+  {
+    "sentence": "Hij deed zich ______ als de directeur en iedereen geloofde hem.",
+    "options": ["voor", "mee", "over", "af"],
+    "correct": 0,
+    "explanation": "'Zich voordoen als' = doen alsof je iemand anders bent. Hij deed alsof hij de directeur was.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. Hij neemt niet deel; hij doet alsof hij iemand anders is.",
+      "2": "'Overdoen' = opnieuw doen. Dat past niet bij doen alsof.",
+      "3": "'Afdoen' = iets verwijderen. Dat past niet bij identiteit."
+    },
+    "hint": "Hij doet alsof hij een andere persoon is."
+  },
+  {
+    "sentence": "De oplichter had zich via de telefoon ______ als bankmedewerker.",
+    "options": ["voorgedaan", "meegedaan", "overgedaan", "uitgedaan"],
+    "correct": 0,
+    "explanation": "'Zich voordoen als' = je presenteren als iemand die je niet bent. De oplichter deed alsof hij bankmedewerker was.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. De oplichter neemt niet deel aan een spel.",
+      "2": "'Overdoen' = opnieuw doen. Het gaat om impersonatie, niet herhaling.",
+      "3": "'Uitdoen' = kleding uittrekken of iets uitzetten. Dat past niet bij een identiteit aannemen."
+    },
+    "hint": "Een oplichter gebruikt een valse identiteit."
+  },
+  {
+    "sentence": "Ze deed zich ______ als expert, maar ze wist er weinig van.",
+    "options": ["voor", "om", "op", "uit"],
+    "correct": 0,
+    "explanation": "'Zich voordoen als' = doen alsof je een bepaalde rol of status hebt. Ze deed alsof ze expert was.",
+    "wrongExplanations": {
+      "1": "'Omdoen' = iets om je lichaam doen. Dat past niet bij een rol spelen.",
+      "2": "'Opdoen' = iets op je hoofd zetten. Dat past niet bij doen alsof.",
+      "3": "'Uitdoen' = iets uittrekken of uitzetten. Dat past niet bij expert spelen."
+    },
+    "hint": "Ze speelt een rol die niet klopt."
+  },
+  {
+    "sentence": "______ wat hij ervan vindt.",
+    "options": ["Het doet er niet toe", "Het doet niet mee", "Het doet het niet voor", "Het doet het niet over"],
+    "correct": 0,
+    "explanation": "'Ertoe doen' = belangrijk zijn of uitmaken. 'Het doet er niet toe' betekent: het maakt niet uit.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. De mening neemt niet deel.",
+      "2": "'Voordoen' = demonstreren. Dat past niet bij belangrijk zijn.",
+      "3": "'Overdoen' = opnieuw doen. Dat past niet bij 'maakt niet uit'."
+    },
+    "hint": "De betekenis is: het maakt niet uit."
+  },
+  {
+    "sentence": "In deze discussie ______.",
+    "options": ["doet jouw ervaring er juist wel toe", "doet jouw ervaring juist mee", "doet jouw ervaring het juist voor", "doet jouw ervaring het juist over"],
+    "correct": 0,
+    "explanation": "'Ertoe doen' = belangrijk zijn. Jouw ervaring is in deze discussie wel relevant.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. Ervaring kan meetellen, maar de vaste uitdrukking is 'ertoe doen'.",
+      "2": "'Voordoen' = demonstreren. Ervaring demonstreert hier niets.",
+      "3": "'Overdoen' = opnieuw doen. Dat past niet bij relevantie."
+    },
+    "hint": "De ervaring is belangrijk voor de discussie."
+  },
+  {
+    "sentence": "Zijn kritiek ______.",
+    "options": ["deed er uiteindelijk niet toe", "deed uiteindelijk niet mee", "deed hij uiteindelijk af", "deed hij uiteindelijk op"],
+    "correct": 0,
+    "explanation": "'Ertoe doen' = belangrijk zijn. Zijn kritiek had uiteindelijk geen invloed of belang.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. Kritiek doet niet mee als persoon.",
+      "2": "'Afdoen' = iets verwijderen. Dat past niet bij belangrijk zijn.",
+      "3": "'Opdoen' = iets op je hoofd zetten. Dat past niet bij kritiek."
+    },
+    "hint": "De kritiek bleek niet belangrijk."
+  },
+  {
+    "sentence": "Voor deze functie ______.",
+    "options": ["doet leeftijd er minder toe dan ervaring", "doet leeftijd minder mee dan ervaring", "doet leeftijd minder voor dan ervaring", "doet leeftijd minder af dan ervaring"],
+    "correct": 0,
+    "explanation": "'Ertoe doen' = van belang zijn. Leeftijd is minder belangrijk dan ervaring.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. Leeftijd neemt niet deel aan de functie.",
+      "2": "'Voordoen' = demonstreren. Leeftijd demonstreert niets.",
+      "3": "'Afdoen' = iets verwijderen. Dat past niet bij belang of relevantie."
+    },
+    "hint": "Het gaat om wat belangrijk is voor de functie."
+  }
+]

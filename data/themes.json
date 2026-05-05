@@ -49,6 +49,20 @@
     "color": "#5B6C9D"
   },
   {
+    "id": "werken",
+    "label": "-werken",
+    "description": "bewerken · meewerken · samenwerken · verwerken",
+    "emoji": "🛠️",
+    "color": "#6B8F71"
+  },
+  {
+    "id": "doen",
+    "label": "-doen",
+    "description": "aandoen · uitdoen · meedoen · voordoen",
+    "emoji": "🎭",
+    "color": "#9A6B4F"
+  },
+  {
     "id": "preposities",
     "label": "Preposities",
     "description": "wachten op · denken aan · zorgen voor · houden van",

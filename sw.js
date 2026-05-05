@@ -1,4 +1,4 @@
-const CACHE_NAME = "werkwoorden-quiz-v2";
+const CACHE_NAME = "werkwoorden-quiz-v4";
 const APP_SHELL = [
   ".",
   "index.html",
@@ -18,6 +18,8 @@ const APP_SHELL = [
   "data/kijken.json",
   "data/zoeken.json",
   "data/krijgen.json",
+  "data/werken.json",
+  "data/doen.json",
   "data/preposities.json"
 ];
 
