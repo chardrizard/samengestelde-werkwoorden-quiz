@@ -219,7 +219,8 @@
     "sentence": "Ze maakt zich zorgen ___ de toekomst van het bedrijf.",
     "answer": "over",
     "acceptedAnswers": [
-      "over"
+      "over",
+      "om"
     ],
     "explanation": "'Zich zorgen maken over' = bezorgd zijn. 'Om' is ook mogelijk in spreektaal, maar 'over' is het meest standaard. Let op het verschil: 'zorgen over/om' = ongerust zijn, 'zorgen voor' = verzorgen.",
     "hint": "De toekomst maakt haar ongerust. Welk voorzetsel hoort bij 'zich zorgen maken'?"
@@ -237,7 +238,8 @@
     "sentence": "Mijn collega's helpen me altijd ___ moeilijke taken.",
     "answer": "met",
     "acceptedAnswers": [
-      "met"
+      "met",
+      "bij"
     ],
     "explanation": "'Helpen met' = assisteren bij een onderwerp. 'Helpen bij' is ook mogelijk en benadrukt het meedoen, maar 'met' is het meest standaard.",
     "hint": "Ze assisteren je met iets. Welk voorzetsel hoort bij 'helpen'?"
@@ -255,7 +257,8 @@
     "sentence": "We zijn ___ een oplossing gekomen na een lange vergadering.",
     "answer": "tot",
     "acceptedAnswers": [
-      "tot"
+      "tot",
+      "op"
     ],
     "explanation": "'Tot een oplossing komen' = uiteindelijk een antwoord vinden. In informeel Nederlands hoor je ook 'op een oplossing komen', maar 'tot' is standaard en het meest correct.",
     "hint": "Na lang overleg hebben jullie een antwoord gevonden. Welk voorzetsel hoort bij 'een oplossing komen'?"
@@ -300,7 +303,8 @@
     "sentence": "Het bedrijf is erg tevreden ___ de resultaten van dit kwartaal.",
     "answer": "over",
     "acceptedAnswers": [
-      "over"
+      "over",
+      "met"
     ],
     "explanation": "'Tevreden zijn over' = blij zijn met het resultaat. 'Tevreden met' is ook mogelijk, maar 'over' is standaard.",
     "hint": "Ze zijn blij met wat er bereikt is. Welk voorzetsel hoort bij 'tevreden'?"
@@ -372,7 +376,8 @@
     "sentence": "Ze is begonnen ___ een nieuwe opleiding naast haar werk.",
     "answer": "met",
     "acceptedAnswers": [
-      "met"
+      "met",
+      "aan"
     ],
     "explanation": "'Beginnen met' = starten met een activiteit. 'Beginnen aan' is ook mogelijk en benadrukt het traject, maar 'met' is het meest standaard.",
     "hint": "Ze is gestart met iets. Welk voorzetsel hoort bij 'beginnen'?"
@@ -390,7 +395,8 @@
     "sentence": "Hij droomt ___ een baan waarbij hij meer kan reizen.",
     "answer": "van",
     "acceptedAnswers": [
-      "van"
+      "van",
+      "over"
     ],
     "explanation": "'Dromen van' = in je fantasie zien, verlangen naar. 'Dromen over' is ook mogelijk, maar 'van' is gebruikelijker in gesproken Nederlands.",
     "hint": "Hij fantaseert over iets moois. Welk voorzetsel hoort bij 'dromen'?"
@@ -727,13 +733,13 @@
     "hint": "Je vraagt om toezicht. Welk voorzetsel hoort bij 'zorgen' als je iemand tijdelijk verzorgt?"
   },
   {
-    "sentence": "Ik ben vergeten ___ het afval buiten te zetten gisteravond.",
-    "answer": "om",
+    "sentence": "Ik dacht niet meer ___ de afspraak bij de gemeente.",
+    "answer": "aan",
     "acceptedAnswers": [
-      "om"
+      "aan"
     ],
-    "explanation": "'Vergeten om te + infinitief' = vergeten iets te doen. De constructie 'vergeten om te...' is standaard in het Nederlands.",
-    "hint": "Je bent iets vergeten te doen. Welk voorzetsel past bij 'vergeten' + te + infinitief?"
+    "explanation": "'Denken aan' = iets niet vergeten, iets in je hoofd houden. Hier gaat het om een afspraak die je had moeten onthouden.",
+    "hint": "Je vergat een afspraak. Welk voorzetsel hoort bij 'denken' als je iets moet onthouden?"
   },
   {
     "sentence": "Ze gaat elke zondag fietsen ___ haar partner.",
@@ -1533,13 +1539,13 @@
     "hint": "Hij heeft zijn examen gehaald. Welk voorzetsel hoort bij 'slagen' als het om een examen gaat?"
   },
   {
-    "sentence": "Het bedrijf is erin geslaagd ___ de kosten met 20% te verlagen.",
-    "answer": "om",
+    "sentence": "Het bedrijf is geslaagd ___ zijn plan om de kosten te verlagen.",
+    "answer": "in",
     "acceptedAnswers": [
-      "om"
+      "in"
     ],
-    "explanation": "'Erin slagen om' = succes hebben bij het doen van iets. Vergelijk: 'slagen voor' = een examen halen, 'erin slagen om' = lukken om iets te doen.",
-    "hint": "Het is ze gelukt iets te bereiken. Welk voorzetsel hoort bij 'erin slagen ___ te + infinitief'?"
+    "explanation": "'Slagen in' = succes hebben in een taak of plan. Vergelijk: 'slagen voor' = een examen halen, 'slagen in' = iets laten lukken.",
+    "hint": "Het plan is gelukt. Welk voorzetsel hoort bij 'slagen' als het om succes in een taak gaat?"
   },
   {
     "sentence": "Het nieuwe beleid is ___ strijd met de Europese regelgeving.",
@@ -1551,13 +1557,13 @@
     "hint": "Het beleid gaat tegen de regels in. Welk voorzetsel hoort bij '___ strijd met'?"
   },
   {
-    "sentence": "Het feest gaat gewoon ___ — ook als het regent.",
-    "answer": "door",
+    "sentence": "Het feest gaat gewoon door ___ de regen.",
+    "answer": "ondanks",
     "acceptedAnswers": [
-      "door"
+      "ondanks"
     ],
-    "explanation": "'Doorgaan' = doorgaan zoals gepland, ondanks omstandigheden. 'Door' is hier het scheidbare deel van 'doorgaan'.",
-    "hint": "Het feest vindt plaats ondanks de regen. Welk voorzetsel hoort bij 'doorgaan'?"
+    "explanation": "'Ondanks' = iets gebeurt toch, ook al is er een probleem of tegenwerking. Hier gaat het feest door, hoewel het regent.",
+    "hint": "De regen houdt het feest niet tegen. Welk voorzetsel betekent 'ook al is er'?"
   },
   {
     "sentence": "Dat is een probleem waar we ___ moeten nadenken voordat we beslissen.",
@@ -1617,7 +1623,8 @@
     "sentence": "Ze is verrast ___ de snelle reactie van de gemeente.",
     "answer": "door",
     "acceptedAnswers": [
-      "door"
+      "door",
+      "over"
     ],
     "explanation": "'Verrast door' = verrast door een oorzaak of actie. 'Door' benadrukt de oorzaak. 'Verrast over' is ook mogelijk en benadrukt het onderwerp.",
     "hint": "Ze had de snelle reactie niet verwacht. Welk voorzetsel hoort bij 'verrast' als je de oorzaak noemt?"
@@ -1635,7 +1642,8 @@
     "sentence": "Hij werkt ___ een internationaal bedrijf met kantoren in tien landen.",
     "answer": "bij",
     "acceptedAnswers": [
-      "bij"
+      "bij",
+      "voor"
     ],
     "explanation": "'Werken bij' = in dienst zijn van een bedrijf of organisatie. 'Werken voor' is ook mogelijk en benadrukt de dienstverlening. Vergelijk: 'werken aan' = bezig zijn met een project.",
     "hint": "Hij is in dienst van een bedrijf. Welk voorzetsel hoort bij 'werken' als je in dienst bent?"
@@ -1668,13 +1676,13 @@
     "hint": "De vakbond verdedigt de werknemers. Welk voorzetsel hoort bij 'opkomen voor'?"
   },
   {
-    "sentence": "Uiteindelijk komt het erop ___ dat we meer budget nodig hebben.",
-    "answer": "neer",
+    "sentence": "De discussie komt uiteindelijk ___ één vraag neer: hebben we meer budget nodig?",
+    "answer": "op",
     "acceptedAnswers": [
-      "neer"
+      "op"
     ],
-    "explanation": "'Erop neerkomen dat' = samengevat betekent het. 'Neerkomen op' = samengevat zijn als. 'Neer' is het scheidbare deel van 'neerkomen'.",
-    "hint": "Je vat iets samen. Welk deel van 'neerkomen' ontbreekt hier?"
+    "explanation": "'Neerkomen op' = samengevat zijn als. 'Op' hoort bij de samenvatting of kern waar alles uiteindelijk over gaat.",
+    "hint": "Je vat de discussie samen tot één kernvraag. Welk voorzetsel hoort bij 'neerkomen'?"
   },
   {
     "sentence": "Ik wil graag terugkomen ___ wat je eerder zei over het budget.",
@@ -1797,7 +1805,8 @@
     "sentence": "Ik ben ___ de pauze even naar de supermarkt geweest.",
     "answer": "in",
     "acceptedAnswers": [
-      "in"
+      "in",
+      "tijdens"
     ],
     "explanation": "'In de pauze' = gedurende de pauze. 'In' gebruik je bij afgebakende tijdsperiodes: in de pauze, in het weekend, in de vakantie. 'Tijdens' is ook mogelijk maar minder idiomatisch hier.",
     "hint": "Het gebeurde gedurende de pauze. Welk voorzetsel gebruik je bij een afgebakende tijdsperiode?"
@@ -1941,7 +1950,8 @@
     "sentence": "De kinderen spelen ___ het huis omdat het regent.",
     "answer": "binnen",
     "acceptedAnswers": [
-      "binnen"
+      "binnen",
+      "in"
     ],
     "explanation": "'Binnen' = aan de binnenkant, in het interieur. Vergelijk: 'binnen' (interieur, binnenkant) vs. 'buiten' (exterieur, buitenkant). 'In het huis' is ook mogelijk maar 'binnen' benadrukt de tegenstelling met buiten.",
     "hint": "Het regent buiten, dus ze spelen niet buiten maar... Welk voorzetsel is het tegenovergestelde van 'buiten'?"
@@ -2078,7 +2088,7 @@
     "acceptedAnswers": [
       "naar"
     ],
-    "explanation": "'Naar Bali gaan' = richting een bestemming. Bij beweging gebruik je altijd 'naar', niet 'in'. Vergelijk: 'in Bali wonen' (locatie) vs. 'naar Bali gaan' (beweging). In het Indonesisch is dit 'ke', in het Nederlands 'naar'.",
+    "explanation": "'Naar Bali gaan' = richting een bestemming. Bij beweging gebruik je 'naar'. Vergelijk: 'op Bali wonen' (locatie op een eiland) vs. 'naar Bali gaan' (beweging). In het Indonesisch is dit 'ke', in het Nederlands 'naar'.",
     "hint": "Je gaat erheen — het is een beweging. Welk voorzetsel gebruik je bij beweging naar een bestemming?"
   },
   {
@@ -2127,13 +2137,13 @@
     "hint": "De omstandigheden zijn veranderd en jullie moeten meegaan. Welk voorzetsel hoort bij 'aanpassen'?"
   },
   {
-    "sentence": "Het resultaat hangt ___ van de kwaliteit van de data.",
-    "answer": "af",
+    "sentence": "Het resultaat hangt af ___ de kwaliteit van de data.",
+    "answer": "van",
     "acceptedAnswers": [
-      "af"
+      "van"
     ],
-    "explanation": "'Afhangen van' = bepaald worden door. 'Afhangen' is scheidbaar: 'hangt af van'. Hier ontbreekt het scheidbare deel 'af'. Het voorzetsel dat bij 'afhangen' hoort is 'van'.",
-    "hint": "De kwaliteit bepaalt het resultaat. 'Afhangen van' is scheidbaar: 'hangt ___ van'. Welk deel ontbreekt?"
+    "explanation": "'Afhangen van' = bepaald worden door. 'Van' is het vaste voorzetsel bij 'afhangen'.",
+    "hint": "De kwaliteit bepaalt het resultaat. Welk voorzetsel hoort bij 'afhangen'?"
   },
   {
     "sentence": "Kun je mij ___ de details vertellen? Ik weet nog niet precies wat er is gebeurd.",
@@ -2215,5 +2225,365 @@
     ],
     "explanation": "'Zich onderscheiden van' = anders zijn dan, opvallen vergeleken met. Altijd met 'van'.",
     "hint": "Het bedrijf is anders dan de concurrentie. Welk voorzetsel hoort bij 'zich onderscheiden'?"
+  },
+  {
+    "sentence": "We moeten meer aandacht besteden ___ duidelijke communicatie met klanten.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Aandacht besteden aan' = bewust tijd en aandacht geven aan iets. Altijd met 'aan'.",
+    "hint": "Je geeft ergens bewust aandacht aan. Welk voorzetsel hoort bij 'aandacht besteden'?"
+  },
+  {
+    "sentence": "Ik heb morgen om tien uur afgesproken ___ mijn taalcoach.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Afspreken met' = een afspraak maken met een persoon. 'Met' geeft hier de persoon aan met wie je afspreekt.",
+    "hint": "Het gaat om de persoon met wie je een afspraak hebt. Welk voorzetsel hoort bij 'afspreken'?"
+  },
+  {
+    "sentence": "De beslissing is gebaseerd ___ de cijfers van vorig kwartaal.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Baseren op' = iets gebruiken als basis voor een keuze, mening of plan. Altijd met 'op'.",
+    "hint": "De cijfers vormen de basis van de beslissing. Welk voorzetsel hoort bij 'baseren'?"
+  },
+  {
+    "sentence": "Ik betaal liever ___ kwaliteit dan voor iets dat snel kapotgaat.",
+    "answer": "voor",
+    "acceptedAnswers": [
+      "voor"
+    ],
+    "explanation": "'Betalen voor' = geld geven voor iets dat je koopt of krijgt.",
+    "hint": "Je geeft geld voor iets. Welk voorzetsel hoort bij 'betalen'?"
+  },
+  {
+    "sentence": "Ben je je bewust ___ de risico's van deze keuze?",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Zich bewust zijn van' = weten dat iets bestaat of belangrijk is. Altijd met 'van'.",
+    "hint": "Je weet dat er risico's zijn. Welk voorzetsel hoort bij 'bewust zijn'?"
+  },
+  {
+    "sentence": "Ik ben dankbaar ___ alle hulp die ik van mijn buren heb gekregen.",
+    "answer": "voor",
+    "acceptedAnswers": [
+      "voor"
+    ],
+    "explanation": "'Dankbaar zijn voor' = blij zijn omdat iemand iets voor je heeft gedaan of omdat je iets hebt gekregen.",
+    "hint": "Je bent blij om de hulp. Welk voorzetsel hoort bij 'dankbaar zijn'?"
+  },
+  {
+    "sentence": "Tijdens de lunch discussieerden we ___ de nieuwe regels voor thuiswerken.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Discussiëren over' = verschillende meningen uitwisselen over een onderwerp.",
+    "hint": "De regels zijn het onderwerp van de discussie. Welk voorzetsel hoort bij 'discussiëren'?"
+  },
+  {
+    "sentence": "De studenten zijn enthousiast ___ de nieuwe cursus Nederlands.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Enthousiast zijn over' = positief en blij zijn over iets.",
+    "hint": "De cursus maakt hen enthousiast. Welk voorzetsel hoort bij 'enthousiast zijn'?"
+  },
+  {
+    "sentence": "Je kunt gratis gebruikmaken ___ de computers in de bibliotheek.",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Gebruikmaken van' = iets gebruiken dat beschikbaar is.",
+    "hint": "De computers zijn beschikbaar om te gebruiken. Welk voorzetsel hoort bij 'gebruikmaken'?"
+  },
+  {
+    "sentence": "Ik hoop ___ een snelle reactie van de gemeente.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Hopen op' = wensen dat iets gebeurt of komt.",
+    "hint": "Je wenst dat er snel een reactie komt. Welk voorzetsel hoort bij 'hopen'?"
+  },
+  {
+    "sentence": "Deze sleutel hoort ___ de voordeur, niet bij de schuur.",
+    "answer": "bij",
+    "acceptedAnswers": [
+      "bij"
+    ],
+    "explanation": "'Horen bij' = passen bij, onderdeel zijn van of verbonden zijn met iets.",
+    "hint": "De sleutel past bij een bepaalde deur. Welk voorzetsel hoort bij 'horen'?"
+  },
+  {
+    "sentence": "Volgende week maak ik kennis ___ mijn nieuwe collega's.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Kennismaken met' = iemand voor het eerst ontmoeten.",
+    "hint": "Je ontmoet nieuwe mensen voor het eerst. Welk voorzetsel hoort bij 'kennismaken'?"
+  },
+  {
+    "sentence": "Ik heb veel geleerd ___ mijn fouten in het vorige project.",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Leren van' = iets begrijpen of verbeteren door een ervaring, fout of persoon.",
+    "hint": "Je fouten waren de bron van de les. Welk voorzetsel hoort bij 'leren'?"
+  },
+  {
+    "sentence": "Let goed ___ de uitspraak van de docent.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Letten op' = aandacht geven aan iets zodat je het goed ziet, hoort of begrijpt.",
+    "hint": "Je moet aandacht geven aan de uitspraak. Welk voorzetsel hoort bij 'letten'?"
+  },
+  {
+    "sentence": "Veel cursisten hebben moeite ___ de woordvolgorde in bijzinnen.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Moeite hebben met' = iets lastig vinden.",
+    "hint": "De woordvolgorde is lastig voor hen. Welk voorzetsel hoort bij 'moeite hebben'?"
+  },
+  {
+    "sentence": "De universiteit doet onderzoek ___ taalverwerving bij volwassenen.",
+    "answer": "naar",
+    "acceptedAnswers": [
+      "naar"
+    ],
+    "explanation": "'Onderzoek doen naar' = iets systematisch bestuderen om meer informatie te krijgen.",
+    "hint": "Taalverwerving is het onderwerp van het onderzoek. Welk voorzetsel hoort bij 'onderzoek doen'?"
+  },
+  {
+    "sentence": "Ik moet eerst overleggen ___ mijn manager voordat ik ja kan zeggen.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Overleggen met' = samen met iemand bespreken wat je gaat doen. Vergelijk: 'overleggen over' = het onderwerp bespreken.",
+    "hint": "Je bespreekt het met een persoon. Welk voorzetsel hoort bij 'overleggen'?"
+  },
+  {
+    "sentence": "We overleggen morgen ___ de planning voor de komende maand.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Overleggen over' = samen een onderwerp bespreken. Vergelijk: 'overleggen met' = met een persoon praten.",
+    "hint": "De planning is het onderwerp van het overleg. Welk voorzetsel hoort bij 'overleggen'?"
+  },
+  {
+    "sentence": "Ik praat liever direct ___ mijn buurman als er een probleem is.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Praten met' = een gesprek voeren met een persoon. Vergelijk: 'praten over' = een onderwerp bespreken.",
+    "hint": "Je voert een gesprek met een persoon. Welk voorzetsel hoort bij 'praten'?"
+  },
+  {
+    "sentence": "Onze afdeling werkt veel samen ___ het team in België.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Samenwerken met' = samen met iemand of een groep aan iets werken.",
+    "hint": "Twee teams werken samen. Welk voorzetsel hoort bij 'samenwerken'?"
+  },
+  {
+    "sentence": "Ik schrijf vandaag nog ___ de verhuurder over de lekkage.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Schrijven aan' = een bericht of brief sturen aan een persoon of organisatie. Vergelijk: 'schrijven over' = een onderwerp behandelen.",
+    "hint": "De verhuurder is de ontvanger van je bericht. Welk voorzetsel hoort bij 'schrijven'?"
+  },
+  {
+    "sentence": "Ze schrijft een artikel ___ de woningmarkt in Utrecht.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Schrijven over' = een tekst maken met een onderwerp. Vergelijk: 'schrijven aan' = een bericht sturen aan iemand.",
+    "hint": "De woningmarkt is het onderwerp van het artikel. Welk voorzetsel hoort bij 'schrijven'?"
+  },
+  {
+    "sentence": "Hij wil stoppen ___ roken omdat hij gezonder wil leven.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Stoppen met' = niet verdergaan met een gewoonte of activiteit.",
+    "hint": "Hij wil de activiteit beëindigen. Welk voorzetsel hoort bij 'stoppen'?"
+  },
+  {
+    "sentence": "Ze streeft ___ een betere balans tussen werk en privé.",
+    "answer": "naar",
+    "acceptedAnswers": [
+      "naar"
+    ],
+    "explanation": "'Streven naar' = proberen een doel te bereiken.",
+    "hint": "Een betere balans is haar doel. Welk voorzetsel hoort bij 'streven'?"
+  },
+  {
+    "sentence": "We gaan ___ dezelfde cijfers uit, dus onze conclusie moet hetzelfde zijn.",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Uitgaan van' = iets als basis of aanname gebruiken. Het werkwoord is scheidbaar: 'we gaan van X uit'.",
+    "hint": "De cijfers zijn jullie basis. Welk voorzetsel hoort bij 'uitgaan'?"
+  },
+  {
+    "sentence": "Ondanks de kritiek houdt ze vast ___ haar oorspronkelijke plan.",
+    "answer": "aan",
+    "acceptedAnswers": [
+      "aan"
+    ],
+    "explanation": "'Vasthouden aan' = bij een plan, mening of afspraak blijven.",
+    "hint": "Ze blijft bij haar plan. Welk voorzetsel hoort bij 'vasthouden'?"
+  },
+  {
+    "sentence": "Verbind je laptop ___ de beamer voordat de presentatie begint.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Verbinden met' = twee dingen aan elkaar koppelen, technisch of figuurlijk.",
+    "hint": "Je koppelt twee apparaten aan elkaar. Welk voorzetsel hoort bij 'verbinden'?"
+  },
+  {
+    "sentence": "Wat verwacht je ___ deze training?",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Verwachten van' = denken dat iemand of iets iets zal geven, doen of opleveren.",
+    "hint": "Je vraagt wat de training moet opleveren. Welk voorzetsel hoort bij 'verwachten'?"
+  },
+  {
+    "sentence": "De oude software wordt volgend jaar vervangen ___ een nieuw systeem.",
+    "answer": "door",
+    "acceptedAnswers": [
+      "door"
+    ],
+    "explanation": "'Vervangen door' = iets ouds weghalen en er iets nieuws voor in de plaats zetten.",
+    "hint": "Een nieuw systeem komt in de plaats van de oude software. Welk voorzetsel hoort bij 'vervangen'?"
+  },
+  {
+    "sentence": "Ik werk vaak ___ grote datasets, dus structuur is belangrijk.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Werken met' = iets gebruiken of ermee omgaan tijdens je werk. Vergelijk: 'werken aan' = bezig zijn met een project.",
+    "hint": "Datasets zijn het materiaal waarmee je werkt. Welk voorzetsel hoort bij 'werken'?"
+  },
+  {
+    "sentence": "Hij worstelt ___ de uitspraak van lange Nederlandse woorden.",
+    "answer": "met",
+    "acceptedAnswers": [
+      "met"
+    ],
+    "explanation": "'Worstelen met' = veel moeite hebben met iets.",
+    "hint": "De uitspraak is moeilijk voor hem. Welk voorzetsel hoort bij 'worstelen'?"
+  },
+  {
+    "sentence": "Ze zei ___ haar collega dat de vergadering was verplaatst.",
+    "answer": "tegen",
+    "acceptedAnswers": [
+      "tegen"
+    ],
+    "explanation": "'Zeggen tegen' = iets zeggen aan een persoon. Vergelijk: 'zeggen over' = iets zeggen over een onderwerp of persoon.",
+    "hint": "Haar collega is de persoon die het hoort. Welk voorzetsel hoort bij 'zeggen'?"
+  },
+  {
+    "sentence": "Wat zei de docent ___ jouw uitspraak?",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Zeggen over' = een mening of informatie geven over een onderwerp.",
+    "hint": "Jouw uitspraak is het onderwerp. Welk voorzetsel hoort bij 'zeggen'?"
+  },
+  {
+    "sentence": "Tijdens het gesprek zweeg hij ___ het echte probleem.",
+    "answer": "over",
+    "acceptedAnswers": [
+      "over"
+    ],
+    "explanation": "'Zwijgen over' = niets zeggen over een onderwerp.",
+    "hint": "Hij zei niets over een bepaald onderwerp. Welk voorzetsel hoort bij 'zwijgen'?"
+  },
+  {
+    "sentence": "Deze regel heeft betrekking ___ alle medewerkers, ook freelancers.",
+    "answer": "op",
+    "acceptedAnswers": [
+      "op"
+    ],
+    "explanation": "'Betrekking hebben op' = gaan over of gelden voor iets of iemand. Veel gebruikt in officiële taal.",
+    "hint": "De regel geldt voor een bepaalde groep. Welk voorzetsel hoort bij 'betrekking hebben'?"
+  },
+  {
+    "sentence": "Ze is nauw betrokken ___ de organisatie van het evenement.",
+    "answer": "bij",
+    "acceptedAnswers": [
+      "bij"
+    ],
+    "explanation": "'Betrokken zijn bij' = actief meedoen aan of verbonden zijn met iets.",
+    "hint": "Ze doet actief mee met de organisatie. Welk voorzetsel hoort bij 'betrokken zijn'?"
+  },
+  {
+    "sentence": "De politie beschuldigt hem ___ fraude met subsidies.",
+    "answer": "van",
+    "acceptedAnswers": [
+      "van"
+    ],
+    "explanation": "'Beschuldigen van' = zeggen dat iemand iets verkeerds of strafbaars heeft gedaan.",
+    "hint": "Fraude is waarvan hij beschuldigd wordt. Welk voorzetsel hoort bij 'beschuldigen'?"
+  },
+  {
+    "sentence": "Dit bureau is gespecialiseerd ___ toegankelijk ontwerp.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'Gespecialiseerd zijn in' = veel kennis of ervaring hebben op een bepaald gebied.",
+    "hint": "Toegankelijk ontwerp is hun specialisatie. Welk voorzetsel hoort bij 'gespecialiseerd zijn'?"
+  },
+  {
+    "sentence": "Door het onderzoek kregen we meer inzicht ___ het gedrag van gebruikers.",
+    "answer": "in",
+    "acceptedAnswers": [
+      "in"
+    ],
+    "explanation": "'Inzicht hebben in' = iets beter begrijpen. Je kunt ook 'inzicht krijgen in' gebruiken.",
+    "hint": "Je begrijpt het gedrag beter. Welk voorzetsel hoort bij 'inzicht'?"
+  },
+  {
+    "sentence": "De nieuwe website is toegankelijk ___ mensen met een visuele beperking.",
+    "answer": "voor",
+    "acceptedAnswers": [
+      "voor"
+    ],
+    "explanation": "'Toegankelijk zijn voor' = goed te gebruiken of bereikbaar zijn voor een bepaalde groep.",
+    "hint": "De website moet bruikbaar zijn voor deze groep. Welk voorzetsel hoort bij 'toegankelijk zijn'?"
   }
 ]
