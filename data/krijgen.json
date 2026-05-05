@@ -190,5 +190,533 @@
       "3": "'Uitkrijgen' = iets uitlezen of uitdoen. Huiswerk maak je af."
     },
     "hint": "Het huiswerk was uiteindelijk klaar."
+  },
+  {
+    "sentence": "Na de reparatie kreeg ik mijn telefoon dezelfde dag nog ______.",
+    "options": ["terug", "mee", "binnen", "open"],
+    "correct": 0,
+    "explanation": "'Terugkrijgen' = iets weer krijgen dat je eerder kwijt was of had afgegeven. De telefoon was bij de reparateur en komt terug.",
+    "wrongExplanations": {
+      "1": "'Meekrijgen' = iets mee mogen nemen of iets begrijpen. Hier krijg je je eigen telefoon weer.",
+      "2": "'Binnenkrijgen' = iets ontvangen of naar binnen krijgen. De nadruk ligt hier op terug naar jou.",
+      "3": "'Openkrijgen' = iets open kunnen maken. De telefoon wordt niet geopend."
+    },
+    "hint": "Je had de telefoon afgegeven en krijgt hem weer."
+  },
+  {
+    "sentence": "Als je het huis netjes achterlaat, krijg je de borg ______.",
+    "options": ["terug", "rond", "los", "op"],
+    "correct": 0,
+    "explanation": "'Terugkrijgen' = geld weer ontvangen dat je eerder hebt betaald. Borg krijg je terug als er geen schade is.",
+    "wrongExplanations": {
+      "1": "'Rondkrijgen' = iets geregeld krijgen, zoals financiering. Borg wordt niet rondgekregen.",
+      "2": "'Loskrijgen' = iets losmaken of informatie krijgen. Geld krijg je hier terug.",
+      "3": "'Opkrijgen' = iets helemaal eten, drinken of gebruiken. Borg eet je niet op."
+    },
+    "hint": "Je hebt dit geld eerder betaald en ontvangt het weer."
+  },
+  {
+    "sentence": "Na zijn leugen duurde het lang voordat hij haar vertrouwen ______.",
+    "options": ["terugkreeg", "meekreeg", "openkreeg", "opkreeg"],
+    "correct": 0,
+    "explanation": "'Terugkrijgen' = iets weer krijgen dat verloren was. Vertrouwen kan je verliezen en later terugkrijgen.",
+    "wrongExplanations": {
+      "1": "'Meekrijgen' = meekrijgen als boodschap of iets mee mogen nemen. Vertrouwen krijg je niet mee.",
+      "2": "'Openkrijgen' = iets open kunnen maken. Vertrouwen openkrijgen is hier niet de vaste combinatie.",
+      "3": "'Opkrijgen' = iets helemaal opmaken. Vertrouwen krijg je niet op."
+    },
+    "hint": "Het vertrouwen was weg en moet weer terugkomen."
+  },
+  {
+    "sentence": "Door de fout in de factuur krijg je vijftig euro ______.",
+    "options": ["terug", "binnen", "dicht", "los"],
+    "correct": 0,
+    "explanation": "'Terugkrijgen' = geld terug ontvangen. Je hebt te veel betaald en krijgt een bedrag terug.",
+    "wrongExplanations": {
+      "1": "'Binnenkrijgen' = ontvangen, maar hier gaat het specifiek om geld dat naar jou teruggaat.",
+      "2": "'Dichtkrijgen' = iets kunnen sluiten. Geld sluit je niet.",
+      "3": "'Loskrijgen' = iets losmaken of informatie verkrijgen. Hier gaat het om terugbetaling."
+    },
+    "hint": "Je krijgt geld weer omdat er te veel betaald is."
+  },
+  {
+    "sentence": "Wanneer krijgen we de uitslag van het examen ______?",
+    "options": ["terug", "open", "op", "los"],
+    "correct": 0,
+    "explanation": "'Terugkrijgen' = feedback of resultaten ontvangen na beoordeling. Een toets of uitslag krijg je terug.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets open kunnen maken. Een uitslag krijg je niet open.",
+      "2": "'Opkrijgen' = iets helemaal eten, drinken of gebruiken. Dat past niet bij een examen.",
+      "3": "'Loskrijgen' = iets losmaken of informatie uit iemand krijgen. De vaste combinatie is de uitslag terugkrijgen."
+    },
+    "hint": "Na beoordeling ontvang je je resultaat."
+  },
+  {
+    "sentence": "Bij de conferentie kreeg iedereen een notitieboekje ______.",
+    "options": ["mee", "terug", "open", "dicht"],
+    "correct": 0,
+    "explanation": "'Meekrijgen' = iets krijgen om mee te nemen. De deelnemers krijgen een notitieboekje mee naar huis.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer ontvangen. Ze hadden het notitieboekje niet eerder.",
+      "2": "'Openkrijgen' = iets open kunnen maken. Het boekje wordt niet geopend.",
+      "3": "'Dichtkrijgen' = iets kunnen sluiten. Dat past niet bij krijgen als cadeau."
+    },
+    "hint": "Je krijgt iets dat je mag meenemen."
+  },
+  {
+    "sentence": "Heb jij tijdens de uitleg ______ wat de docent bedoelde?",
+    "options": ["meegekregen", "teruggekregen", "opgekregen", "dichtgekregen"],
+    "correct": 0,
+    "explanation": "'Meekrijgen' = iets horen, begrijpen of opvangen. De vraag is of je de uitleg hebt begrepen.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer krijgen. Een uitleg krijg je hier niet terug.",
+      "2": "'Opkrijgen' = iets helemaal eten of gebruiken. Een uitleg krijg je niet op.",
+      "3": "'Dichtkrijgen' = iets kunnen sluiten. Dat past niet bij begrijpen."
+    },
+    "hint": "Het gaat om of je de boodschap hebt opgevangen."
+  },
+  {
+    "sentence": "Van huis uit heeft ze veel respect voor ouderen ______.",
+    "options": ["meegekregen", "binnengekregen", "losgekregen", "opengekregen"],
+    "correct": 0,
+    "explanation": "'Meekrijgen' = waarden of gewoontes leren vanuit je opvoeding. Ze heeft respect voor ouderen van thuis meegekregen.",
+    "wrongExplanations": {
+      "1": "'Binnenkrijgen' = ontvangen of naar binnen krijgen. Waarden uit opvoeding krijg je mee.",
+      "2": "'Loskrijgen' = iets losmaken of informatie uit iemand krijgen. Respect krijg je hier niet los.",
+      "3": "'Openkrijgen' = iets open kunnen maken. Dat past niet bij opvoeding."
+    },
+    "hint": "Denk aan iets dat je in je opvoeding leert."
+  },
+  {
+    "sentence": "De assistent kreeg duidelijke instructies ______ voor de vergadering.",
+    "options": ["mee", "terug", "op", "dicht"],
+    "correct": 0,
+    "explanation": "'Meekrijgen' = instructies of informatie ontvangen om mee te nemen in je taak. De assistent krijgt uitleg mee.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer ontvangen. De instructies waren niet eerder van hem.",
+      "2": "'Opkrijgen' = iets helemaal opmaken. Instructies krijg je niet op.",
+      "3": "'Dichtkrijgen' = iets sluiten. Dat past niet bij instructies."
+    },
+    "hint": "Je krijgt informatie mee om je taak goed te doen."
+  },
+  {
+    "sentence": "Ik kreeg maar de helft van het gesprek ______ door de slechte verbinding.",
+    "options": ["mee", "terug", "open", "rond"],
+    "correct": 0,
+    "explanation": "'Meekrijgen' = horen of opvangen wat er gebeurt. Door de slechte verbinding hoorde je maar een deel.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer ontvangen. Een gesprek krijg je hier niet terug.",
+      "2": "'Openkrijgen' = iets open kunnen maken. De verbinding wordt niet geopend.",
+      "3": "'Rondkrijgen' = iets geregeld krijgen. Dat past niet bij horen."
+    },
+    "hint": "De vraag is hoeveel je hebt kunnen horen."
+  },
+  {
+    "sentence": "We hebben gisteren eindelijk de bevestiging van de gemeente ______.",
+    "options": ["binnengekregen", "teruggekregen", "opgekregen", "losgekregen"],
+    "correct": 0,
+    "explanation": "'Binnenkrijgen' = iets ontvangen, vaak een bericht of document. De bevestiging is binnengekomen bij jullie.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer ontvangen. De bevestiging was niet eerder van jullie.",
+      "2": "'Opkrijgen' = iets helemaal opmaken. Een bevestiging krijg je niet op.",
+      "3": "'Loskrijgen' = iets losmaken of informatie uit iemand krijgen. Hier ontvang je een officieel bericht."
+    },
+    "hint": "Een bericht of document komt binnen."
+  },
+  {
+    "sentence": "Door de griep kreeg hij bijna geen eten ______.",
+    "options": ["binnen", "terug", "open", "rond"],
+    "correct": 0,
+    "explanation": "'Binnenkrijgen' = eten of drinken in je lichaam krijgen. Door de griep lukt eten bijna niet.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer ontvangen. Eten ontvang je hier niet terug.",
+      "2": "'Openkrijgen' = iets open kunnen maken. Eten moet niet open.",
+      "3": "'Rondkrijgen' = iets geregeld krijgen. Dat past niet bij eten."
+    },
+    "hint": "Het gaat om eten in je lichaam krijgen."
+  },
+  {
+    "sentence": "De klantenservice kreeg vandaag meer dan honderd klachten ______.",
+    "options": ["binnen", "mee", "dicht", "op"],
+    "correct": 0,
+    "explanation": "'Binnenkrijgen' = berichten of reacties ontvangen. Klachten kunnen bij een klantenservice binnenkomen.",
+    "wrongExplanations": {
+      "1": "'Meekrijgen' = iets mee mogen nemen of opvangen. Klachten komen hier als berichten binnen.",
+      "2": "'Dichtkrijgen' = iets sluiten. Klachten sluit je niet.",
+      "3": "'Opkrijgen' = iets helemaal opmaken. Klachten krijg je niet op."
+    },
+    "hint": "De klachten worden ontvangen door de klantenservice."
+  },
+  {
+    "sentence": "Heb je mijn mail van vanochtend al ______?",
+    "options": ["binnengekregen", "rondgekregen", "losgekregen", "opgekregen"],
+    "correct": 0,
+    "explanation": "'Binnenkrijgen' = een bericht ontvangen. De vraag is of de mail is aangekomen.",
+    "wrongExplanations": {
+      "1": "'Rondkrijgen' = iets geregeld krijgen. Een mail krijg je niet rond.",
+      "2": "'Loskrijgen' = iets losmaken of informatie krijgen. Hier gaat het om ontvangst.",
+      "3": "'Opkrijgen' = iets helemaal opmaken. Een mail krijg je niet op."
+    },
+    "hint": "Een mail komt in je inbox binnen."
+  },
+  {
+    "sentence": "Na de training kreeg ik de nieuwe werkwijze eindelijk goed ______.",
+    "options": ["door", "binnen", "open", "op"],
+    "correct": 0,
+    "explanation": "'Doorkrijgen' = iets gaan begrijpen. Na de training snap je hoe de nieuwe werkwijze werkt.",
+    "wrongExplanations": {
+      "1": "'Binnenkrijgen' = ontvangen of eten naar binnen krijgen. Hier gaat het om begrijpen.",
+      "2": "'Openkrijgen' = iets open kunnen maken. Een werkwijze maak je niet open.",
+      "3": "'Opkrijgen' = iets helemaal eten of gebruiken. Dat past niet bij begrijpen."
+    },
+    "hint": "Eerst was het lastig, daarna begrijp je het."
+  },
+  {
+    "sentence": "De peuter kreeg zijn bord pasta helemaal ______.",
+    "options": ["op", "terug", "los", "rond"],
+    "correct": 0,
+    "explanation": "'Opkrijgen' = eten of drinken helemaal op kunnen krijgen. Het bord pasta is helemaal leeg.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer ontvangen. Pasta krijg je niet terug in deze zin.",
+      "2": "'Loskrijgen' = iets losmaken. Pasta hoeft niet los.",
+      "3": "'Rondkrijgen' = iets geregeld krijgen. Dat past niet bij eten."
+    },
+    "hint": "Het bord wordt helemaal leeg gegeten."
+  },
+  {
+    "sentence": "Ik kreeg die bittere medicijnen bijna niet ______.",
+    "options": ["op", "open", "rond", "terug"],
+    "correct": 0,
+    "explanation": "'Opkrijgen' = iets helemaal innemen, eten of drinken. Bittere medicijnen zijn moeilijk op te krijgen.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets open kunnen maken. Het probleem is niet de verpakking.",
+      "2": "'Rondkrijgen' = iets geregeld krijgen. Medicijnen krijg je niet rond.",
+      "3": "'Terugkrijgen' = iets weer ontvangen. Medicijnen krijg je hier niet terug."
+    },
+    "hint": "Je moet het innemen, maar het lukt bijna niet."
+  },
+  {
+    "sentence": "De kinderen kregen de taart in vijf minuten ______.",
+    "options": ["op", "mee", "dicht", "los"],
+    "correct": 0,
+    "explanation": "'Opkrijgen' = eten helemaal opeten. De taart was na vijf minuten weg.",
+    "wrongExplanations": {
+      "1": "'Meekrijgen' = iets mee mogen nemen. De kinderen eten de taart juist daar op.",
+      "2": "'Dichtkrijgen' = iets sluiten. Een taart sluit je niet.",
+      "3": "'Loskrijgen' = iets losmaken. Dat past niet bij eten."
+    },
+    "hint": "Het eten is helemaal op."
+  },
+  {
+    "sentence": "Ik krijg de deksel van deze pot niet ______.",
+    "options": ["los", "terug", "binnen", "rond"],
+    "correct": 0,
+    "explanation": "'Loskrijgen' = iets los kunnen maken. De deksel zit vast en moet los.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer krijgen. De deksel is niet weg.",
+      "2": "'Binnenkrijgen' = iets ontvangen of eten. Dat past niet bij een deksel.",
+      "3": "'Rondkrijgen' = iets geregeld krijgen. Hier gaat het om losmaken."
+    },
+    "hint": "Iets zit vast en moet los."
+  },
+  {
+    "sentence": "De journalist kreeg weinig informatie ______ bij de woordvoerder.",
+    "options": ["los", "open", "op", "dicht"],
+    "correct": 0,
+    "explanation": "'Informatie loskrijgen' = informatie uit iemand krijgen, vaak met moeite. De woordvoerder zei weinig.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets open kunnen maken. Je krijgt informatie niet letterlijk open.",
+      "2": "'Opkrijgen' = iets helemaal opmaken. Informatie krijg je niet op.",
+      "3": "'Dichtkrijgen' = iets sluiten. De journalist wil juist informatie krijgen."
+    },
+    "hint": "Je probeert iemand iets te laten vertellen."
+  },
+  {
+    "sentence": "Met veel kracht kreeg hij de vastgeroeste schroef ______.",
+    "options": ["los", "mee", "terug", "binnen"],
+    "correct": 0,
+    "explanation": "'Loskrijgen' = iets losmaken dat vastzit. Een vastgeroeste schroef krijg je met moeite los.",
+    "wrongExplanations": {
+      "1": "'Meekrijgen' = iets mee mogen nemen of opvangen. De schroef zit vast.",
+      "2": "'Terugkrijgen' = iets weer ontvangen. De schroef was niet uitgeleend.",
+      "3": "'Binnenkrijgen' = iets ontvangen. Dat past niet bij een schroef losmaken."
+    },
+    "hint": "De schroef zit vast en komt los."
+  },
+  {
+    "sentence": "De coach kreeg het team moeilijk ______ uit de oude manier van werken.",
+    "options": ["los", "open", "op", "dicht"],
+    "correct": 0,
+    "explanation": "'Loskrijgen uit' = iemand of iets bevrijden uit een vaste gewoonte. Het team moet de oude manier loslaten.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets open maken. Een team krijg je hier niet open.",
+      "2": "'Opkrijgen' = iets helemaal opmaken. Dat past niet bij een werkgewoonte.",
+      "3": "'Dichtkrijgen' = iets sluiten. De coach wil juist beweging krijgen."
+    },
+    "hint": "Het team zit vast in een oude gewoonte."
+  },
+  {
+    "sentence": "Krijg jij deze deur ______? Mijn sleutel draait niet.",
+    "options": ["open", "op", "terug", "rond"],
+    "correct": 0,
+    "explanation": "'Openkrijgen' = iets open kunnen maken. De deur zit dicht en de sleutel werkt niet goed.",
+    "wrongExplanations": {
+      "1": "'Opkrijgen' = iets opeten of opmaken. Een deur krijg je niet op.",
+      "2": "'Terugkrijgen' = iets weer ontvangen. De deur is niet uitgeleend.",
+      "3": "'Rondkrijgen' = iets geregeld krijgen. Hier gaat het om openen."
+    },
+    "hint": "De deur moet open."
+  },
+  {
+    "sentence": "Ik krijg het document niet ______; mijn computer zegt dat het bestand kapot is.",
+    "options": ["open", "dicht", "mee", "op"],
+    "correct": 0,
+    "explanation": "'Openkrijgen' = een bestand of deur open kunnen maken. Het document opent niet op de computer.",
+    "wrongExplanations": {
+      "1": "'Dichtkrijgen' = iets sluiten. Het document is nog niet open.",
+      "2": "'Meekrijgen' = iets mee mogen nemen of begrijpen. Dat past niet bij een kapot bestand.",
+      "3": "'Opkrijgen' = iets helemaal opmaken. Een document krijg je niet op."
+    },
+    "hint": "Het bestand moet openen, maar dat lukt niet."
+  },
+  {
+    "sentence": "Na een lange nacht kreeg ik mijn ogen bijna niet ______.",
+    "options": ["open", "dicht", "rond", "terug"],
+    "correct": 0,
+    "explanation": "'Je ogen openkrijgen' = je ogen open kunnen doen, vaak als je moe bent. Na een lange nacht lukt dat bijna niet.",
+    "wrongExplanations": {
+      "1": "'Dichtkrijgen' = sluiten. Als je moe wakker wordt, probeer je je ogen juist open te krijgen.",
+      "2": "'Rondkrijgen' = iets geregeld krijgen. Ogen krijg je niet rond.",
+      "3": "'Terugkrijgen' = iets weer ontvangen. Dat past niet bij ogen openen."
+    },
+    "hint": "Je bent moe en probeert wakker te worden."
+  },
+  {
+    "sentence": "Deze rits zit vast; ik krijg mijn jas niet ______.",
+    "options": ["open", "terug", "binnen", "rond"],
+    "correct": 0,
+    "explanation": "'Openkrijgen' = iets open kunnen maken. Door de vaste rits kan de jas niet open.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer krijgen. De jas is niet weg.",
+      "2": "'Binnenkrijgen' = iets ontvangen of naar binnen krijgen. Dat past niet bij een rits.",
+      "3": "'Rondkrijgen' = iets geregeld krijgen. Hier gaat het om openen."
+    },
+    "hint": "De rits moet open."
+  },
+  {
+    "sentence": "Kun je het raam goed ______ voordat we weggaan?",
+    "options": ["dichtkrijgen", "openkrijgen", "opkrijgen", "meekrijgen"],
+    "correct": 0,
+    "explanation": "'Dichtkrijgen' = iets kunnen sluiten. Het raam moet goed dicht voordat jullie weggaan.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets open kunnen maken. Hier moet het raam juist dicht.",
+      "2": "'Opkrijgen' = iets opeten of opmaken. Een raam krijg je niet op.",
+      "3": "'Meekrijgen' = iets mee mogen nemen of horen. Een raam neem je niet mee."
+    },
+    "hint": "Je sluit het raam."
+  },
+  {
+    "sentence": "De koffer zat zo vol dat ik hem bijna niet ______.",
+    "options": ["dichtkreeg", "openkreeg", "terugkreeg", "meekreeg"],
+    "correct": 0,
+    "explanation": "'Dichtkrijgen' = iets kunnen sluiten. Een te volle koffer is moeilijk dicht te krijgen.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets open kunnen maken. Het probleem is sluiten, niet openen.",
+      "2": "'Terugkrijgen' = iets weer ontvangen. De koffer is niet uitgeleend.",
+      "3": "'Meekrijgen' = iets mee mogen nemen. Hier gaat het om dichtdoen."
+    },
+    "hint": "De koffer moet sluiten."
+  },
+  {
+    "sentence": "Door de harde wind kreeg ze de voordeur niet ______.",
+    "options": ["dicht", "mee", "terug", "op"],
+    "correct": 0,
+    "explanation": "'Dichtkrijgen' = iets dicht kunnen doen. Door de wind lukt het niet om de deur te sluiten.",
+    "wrongExplanations": {
+      "1": "'Meekrijgen' = iets mee mogen nemen of opvangen. De deur gaat niet mee.",
+      "2": "'Terugkrijgen' = iets weer ontvangen. Dat past niet bij een deur.",
+      "3": "'Opkrijgen' = iets opeten of opmaken. Een deur krijg je niet op."
+    },
+    "hint": "De deur moet sluiten, maar de wind werkt tegen."
+  },
+  {
+    "sentence": "We kregen de financiering voor het buurtproject eindelijk ______.",
+    "options": ["rond", "open", "op", "terug"],
+    "correct": 0,
+    "explanation": "'Rondkrijgen' = iets geregeld krijgen, vooral financiering, planning of afspraken. De financiering is eindelijk geregeld.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets open maken. Financiering maak je niet open.",
+      "2": "'Opkrijgen' = iets opmaken. Geld kun je opmaken, maar financiering rondkrijgen betekent regelen.",
+      "3": "'Terugkrijgen' = iets weer ontvangen. Hier gaat het om regelen, niet terugbetaling."
+    },
+    "hint": "De financiering wordt geregeld."
+  },
+  {
+    "sentence": "Het kostte veel overleg om de planning ______ te krijgen.",
+    "options": ["rond", "los", "binnen", "op"],
+    "correct": 0,
+    "explanation": "'Iets rondkrijgen' = iets helemaal geregeld krijgen. De planning is pas klaar na veel overleg.",
+    "wrongExplanations": {
+      "1": "'Loskrijgen' = iets losmaken of informatie uit iemand krijgen. Een planning krijg je niet los.",
+      "2": "'Binnenkrijgen' = iets ontvangen. De planning wordt hier gemaakt en geregeld.",
+      "3": "'Opkrijgen' = iets opmaken. Dat past niet bij planning."
+    },
+    "hint": "Alle afspraken moeten passen en geregeld zijn."
+  },
+  {
+    "sentence": "De onderzoeker heeft toestemming van alle deelnemers ______.",
+    "options": ["verkregen", "teruggekregen", "opgekregen", "dichtgekregen"],
+    "correct": 0,
+    "explanation": "'Verkrijgen' = iets krijgen op een formele manier. Toestemming verkrijgen klinkt officieel en past bij onderzoek.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer ontvangen. De toestemming was niet eerder van de onderzoeker.",
+      "2": "'Opkrijgen' = iets opmaken. Toestemming krijg je niet op.",
+      "3": "'Dichtkrijgen' = iets sluiten. Dat past niet bij toestemming."
+    },
+    "hint": "Dit is formeel taalgebruik voor toestemming krijgen."
+  },
+  {
+    "sentence": "Voor deze reis moet je eerst een visum ______.",
+    "options": ["verkrijgen", "meekrijgen", "opkrijgen", "loskrijgen"],
+    "correct": 0,
+    "explanation": "'Verkrijgen' = officieel krijgen of bemachtigen. Een visum verkrijg je via een formele aanvraag.",
+    "wrongExplanations": {
+      "1": "'Meekrijgen' = iets mee mogen nemen of begrijpen. Een visum krijg je niet zomaar mee.",
+      "2": "'Opkrijgen' = iets opeten of opmaken. Dat past niet bij een visum.",
+      "3": "'Loskrijgen' kan soms 'bemachtigen' betekenen, maar bij een visum is 'verkrijgen' netter en officiëler."
+    },
+    "hint": "Een visum krijg je via een officiële procedure."
+  },
+  {
+    "sentence": "Met citroensap kreeg ze de vlek uit haar shirt ______.",
+    "options": ["weg", "open", "rond", "mee"],
+    "correct": 0,
+    "explanation": "'Wegkrijgen' = iets laten verdwijnen of verwijderen. De vlek verdwijnt uit het shirt.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets openen. Een vlek open je niet.",
+      "2": "'Rondkrijgen' = iets regelen. Dat past niet bij een vlek.",
+      "3": "'Meekrijgen' = iets meenemen of opvangen. De vlek moet juist weg."
+    },
+    "hint": "Je probeert iets te verwijderen."
+  },
+  {
+    "sentence": "Ik kreeg die nare smaak maar niet ______ uit mijn mond.",
+    "options": ["weg", "terug", "dicht", "rond"],
+    "correct": 0,
+    "explanation": "'Wegkrijgen' = iets laten verdwijnen. De nare smaak blijft, ook al wil je die weg hebben.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer ontvangen. De smaak moet niet terugkomen.",
+      "2": "'Dichtkrijgen' = iets sluiten. Een smaak sluit je niet.",
+      "3": "'Rondkrijgen' = iets regelen. Dat past niet bij een smaak."
+    },
+    "hint": "Je wilt dat iets verdwijnt."
+  },
+  {
+    "sentence": "De nieuwe medewerker kreeg zijn laptop pas na een week ______.",
+    "options": ["mee", "op", "dicht", "rond"],
+    "correct": 0,
+    "explanation": "'Meekrijgen' = iets krijgen om mee te nemen of te gebruiken. De medewerker krijgt de laptop mee voor zijn werk.",
+    "wrongExplanations": {
+      "1": "'Opkrijgen' = iets opmaken. Een laptop krijg je niet op.",
+      "2": "'Dichtkrijgen' = iets sluiten. De laptop krijgen is hier belangrijk, niet dichtdoen.",
+      "3": "'Rondkrijgen' = iets geregeld krijgen. De laptop zelf krijg je mee."
+    },
+    "hint": "Hij ontvangt iets dat hij voor zijn werk mag gebruiken."
+  },
+  {
+    "sentence": "Door de drukte kreeg ik de nieuwsbrief pas laat ______.",
+    "options": ["binnen", "terug", "open", "los"],
+    "correct": 0,
+    "explanation": "'Binnenkrijgen' = iets ontvangen. De nieuwsbrief kwam pas laat binnen.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer ontvangen. De nieuwsbrief was niet eerder van jou.",
+      "2": "'Openkrijgen' = iets openen. De zin zegt dat je hem laat ontving.",
+      "3": "'Loskrijgen' = iets losmaken of informatie uit iemand krijgen. Dat past niet bij een nieuwsbrief ontvangen."
+    },
+    "hint": "Een bericht wordt ontvangen."
+  },
+  {
+    "sentence": "Hij kreeg het niet voor elkaar om de projector ______ te krijgen.",
+    "options": ["aan", "terug", "rond", "weg"],
+    "correct": 0,
+    "explanation": "'Aankrijgen' = een apparaat aan kunnen zetten. De projector moest aan, maar dat lukte niet.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer ontvangen. De projector is niet kwijt.",
+      "2": "'Rondkrijgen' = iets geregeld krijgen. Hier gaat het concreet om het apparaat aanzetten.",
+      "3": "'Wegkrijgen' = iets laten verdwijnen. De projector moet juist werken."
+    },
+    "hint": "Het apparaat moet aan."
+  },
+  {
+    "sentence": "Na veel oefenen kreeg ze de lastige uitspraak eindelijk ______.",
+    "options": ["voor elkaar", "binnen", "dicht", "terug"],
+    "correct": 0,
+    "explanation": "'Iets voor elkaar krijgen' = iets laten lukken. De uitspraak lukte pas na veel oefenen.",
+    "wrongExplanations": {
+      "1": "'Binnenkrijgen' = iets ontvangen of eten. Een uitspraak ontvang je niet.",
+      "2": "'Dichtkrijgen' = iets sluiten. Dat past niet bij uitspraak oefenen.",
+      "3": "'Terugkrijgen' = iets weer ontvangen. De uitspraak was niet weg."
+    },
+    "hint": "Na oefenen lukt het eindelijk."
+  },
+  {
+    "sentence": "We kregen de hele groep ______ voordat de presentatie begon.",
+    "options": ["stil", "open", "op", "terug"],
+    "correct": 0,
+    "explanation": "'Iemand stil krijgen' = zorgen dat iemand stil wordt. De groep werd rustig voor de presentatie.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets open maken. Een groep krijg je hier niet open.",
+      "2": "'Opkrijgen' = iets opmaken. Dat past niet bij mensen.",
+      "3": "'Terugkrijgen' = iets weer ontvangen. De groep wordt niet teruggegeven."
+    },
+    "hint": "Je zorgt dat mensen ophouden met praten."
+  },
+  {
+    "sentence": "De leraar kreeg de klas na de pauze moeilijk ______.",
+    "options": ["rustig", "open", "op", "terug"],
+    "correct": 0,
+    "explanation": "'Iemand rustig krijgen' = zorgen dat iemand rustig wordt. De klas was druk na de pauze.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets open maken. Een klas krijg je hier niet open.",
+      "2": "'Opkrijgen' = iets helemaal opmaken. Dat past niet bij een klas.",
+      "3": "'Terugkrijgen' = iets weer ontvangen. De klas wordt niet teruggegeven."
+    },
+    "hint": "Je probeert een drukke groep rustig te maken."
+  },
+  {
+    "sentence": "Ik kreeg de oude software niet meer ______ op mijn nieuwe laptop.",
+    "options": ["aan de praat", "terug", "op", "dicht"],
+    "correct": 0,
+    "explanation": "'Iets aan de praat krijgen' = zorgen dat iets weer werkt. De oude software werkt niet op de nieuwe laptop.",
+    "wrongExplanations": {
+      "1": "'Terugkrijgen' = iets weer ontvangen. De software is niet kwijt.",
+      "2": "'Opkrijgen' = iets opeten of opmaken. Software krijg je niet op.",
+      "3": "'Dichtkrijgen' = iets sluiten. Het probleem is dat de software moet werken."
+    },
+    "hint": "Je probeert software werkend te krijgen."
+  },
+  {
+    "sentence": "Na drie herinneringen kregen we eindelijk antwoord ______ van de leverancier.",
+    "options": ["terug", "open", "op", "dicht"],
+    "correct": 0,
+    "explanation": "'Antwoord terugkrijgen' = een reactie ontvangen nadat je iets hebt gevraagd. De leverancier reageerde pas na herinneringen.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets open maken. Een antwoord krijg je niet open.",
+      "2": "'Opkrijgen' = iets opmaken. Dat past niet bij een antwoord.",
+      "3": "'Dichtkrijgen' = iets sluiten. Je wilt juist een reactie."
+    },
+    "hint": "Je hebt iets gevraagd en ontvangt later een reactie."
+  },
+  {
+    "sentence": "De stichting kreeg genoeg vrijwilligers ______ voor het festival.",
+    "options": ["bij elkaar", "open", "op", "dicht"],
+    "correct": 0,
+    "explanation": "'Iets of mensen bij elkaar krijgen' = genoeg verzamelen. De stichting vond genoeg vrijwilligers voor het festival.",
+    "wrongExplanations": {
+      "1": "'Openkrijgen' = iets open maken. Vrijwilligers krijg je niet open.",
+      "2": "'Opkrijgen' = iets opmaken. Dat past niet bij vrijwilligers verzamelen.",
+      "3": "'Dichtkrijgen' = iets sluiten. De stichting wil mensen verzamelen."
+    },
+    "hint": "Je verzamelt genoeg mensen voor een doel."
   }
 ]

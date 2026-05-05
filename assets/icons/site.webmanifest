@@ -1,7 +1,7 @@
 {
-  "name": "Werkwoorden Quiz",
-  "short_name": "Werkwoorden",
-  "description": "Oefen samengestelde werkwoorden op B1+ niveau",
+  "name": "Taalbits",
+  "short_name": "Taalbits",
+  "description": "Korte oefeningen voor lastig Nederlands op B1+ niveau",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0F1117",

@@ -1,77 +1,85 @@
-# 🇳🇱 Werkwoorden Quiz
+# Taalbits
 
-A mobile-friendly multiple-choice quiz app for Dutch learners, focusing on **samengestelde werkwoorden** (compound/separable verbs) at B1+ level.
+Short Dutch practice sessions for things that stay tricky: compound verbs, separable verbs, prepositions, and fixed combinations.
 
-**[→ Try the live quiz](https://chardrizard.github.io/samengestelde-werkwoorden-quiz/)**
+**[Try Taalbits](https://chardrizard.github.io/taalbits/)**
 
-![Screenshot](og-image.png)
-
----
+![Taalbits preview](og-image.png)
 
 ## What is this?
 
-Dutch compound verbs are notoriously tricky — *opnemen*, *aannemen*, *afnemen*, and *innemen* all use "nemen" but mean completely different things. This quiz helps you practice distinguishing between them through contextual sentences.
+Taalbits is a mobile-friendly quiz app for Dutch learners at **B1+ / B2** level. It helps you practice the small language patterns that often look familiar but behave differently in real sentences.
 
-**160+ questions** across multiple verb themes including:
+Examples:
 
-| Theme | Verbs covered |
-|-------|--------------|
-| 🚪 **-komen** | aankomen · opkomen · bijkomen · uitkomen · voorkomen · meekomen · achterkomen · langskomen |
-| 📌 **-zetten** | aanzetten · opzetten · afzetten · doorzetten · neerzetten · inzetten · voortzetten · uitzetten |
-| 🤲 **-nemen** | opnemen · aannemen · afnemen · innemen · meenemen · toenemen |
-| 🎯 **-halen** | ophalen · afhalen · inhalen · achterhalen · binnenhalen · uithalen |
+- *opnemen*, *aannemen*, *afnemen*, and *innemen* all use **nemen**, but mean different things.
+- *wachten op*, *denken aan*, *zorgen voor*, and *houden van* need fixed prepositions.
+- Some exercises use multiple choice; others ask you to type the missing word.
 
-New themes are added by dropping a JSON file into `data/` — see [Adding themes](#adding-a-new-theme) below.
+The goal is not grammar theory. The goal is fast, contextual practice with clear feedback.
+
+## Content
+
+Taalbits currently includes **900+ exercises** across verb themes and preposition practice.
+
+| Theme | Practice |
+|-------|----------|
+| 🚪 **-komen** | aankomen · opkomen · bijkomen · uitkomen |
+| 📌 **-zetten** | aanzetten · opzetten · afzetten · doorzetten |
+| 🤲 **-nemen** | opnemen · aannemen · afnemen · innemen |
+| 🎯 **-halen** | ophalen · afhalen · inhalen · achterhalen |
+| 👀 **-kijken** | aankijken · bekijken · opkijken · verkijken |
+| 🔎 **-zoeken** | afzoeken · opzoeken · onderzoeken · uitzoeken |
+| 🧩 **-krijgen** | aankrijgen · doorkrijgen · uitkrijgen · afkrijgen |
+| 🛠️ **-werken** | bewerken · meewerken · samenwerken · verwerken |
+| 🎭 **-doen** | aandoen · uitdoen · meedoen · voordoen |
+| 🔗 **Preposities** | wachten op · denken aan · zorgen voor · houden van |
+
+New themes are added by dropping a JSON file into `data/` and registering it in `data/themes.json`.
 
 ## Features
 
-- **Mobile-first dark UI** — designed for phone-in-hand study sessions
-- **Choose your session length** — 10, 20, or all questions per theme
-- **Mix mode** — random questions from all themes combined
-- **Instant feedback** — correct/wrong explanations for every answer, including why the wrong options are wrong
-- **Hints** — optional hints if you're stuck
-- **Shuffled questions** — different order every attempt
-- **Review wrong answers** — see all mistakes at the end with explanations
-- **Full keyboard navigation** — A/B/C/D to answer, H for hint, Enter/Escape to navigate
-- **Separated data & UI** — themes and questions live in `data/`, independently editable
-- **Zero dependencies** — single HTML file + JSON, no build step, no backend
-- **Works offline** — once loaded, no internet needed
-
-## Target level
-
-**B1+ / B2** — suitable for learners who already know basic Dutch grammar and are working on expanding vocabulary and understanding idiomatic usage of separable verbs.
+- Mobile-first dark UI for quick study sessions
+- Theme-based practice for specific Dutch patterns
+- Mix mode for random multiple-choice practice across themes
+- Multiple-choice and fill-in question types
+- Optional hints
+- Instant feedback for correct and wrong answers
+- Wrong-answer review at the end of a session
+- Shuffled questions and answer options
+- Keyboard navigation on desktop
+- Offline support after the first load
+- Zero build step: vanilla HTML, CSS, JavaScript, and JSON
 
 ## Project structure
 
-```
-werkwoorden-quiz/
-├── index.html                  ← UI (HTML + CSS + JS, fetches from data/)
-├── site.webmanifest            ← PWA manifest
-├── og-image.png                ← Social sharing preview image
+```text
+taalbits/
+├── index.html                  # UI, routing, and quiz logic
+├── site.webmanifest            # PWA manifest
+├── sw.js                       # Service worker
+├── og-image.png                # Social sharing preview image
 ├── data/
-│   ├── themes.json             ← Theme registry (id, label, emoji, color)
-│   ├── komen.json              ← Questions for -komen theme
-│   ├── zetten.json             ← Questions for -zetten theme
-│   ├── nemen.json              ← Questions for -nemen theme
-│   └── halen.json              ← Questions for -halen theme
-├── assets/
-│   └── icons/                  ← Favicons and PWA icons
-│       ├── favicon-16x16.png
-│       ├── favicon-32x32.png
-│       ├── apple-touch-icon.png
-│       ├── android-chrome-192x192.png
-│       ├── android-chrome-512x512.png
-│       └── site.webmanifest    ← (unused, kept for reference)
+│   ├── themes.json             # Theme registry
+│   ├── komen.json              # Questions for -komen
+│   ├── zetten.json             # Questions for -zetten
+│   ├── nemen.json              # Questions for -nemen
+│   ├── halen.json              # Questions for -halen
+│   ├── kijken.json             # Questions for -kijken
+│   ├── zoeken.json             # Questions for -zoeken
+│   ├── krijgen.json            # Questions for -krijgen
+│   ├── werken.json             # Questions for -werken
+│   ├── doen.json               # Questions for -doen
+│   └── preposities.json        # Fill-in preposition questions
+├── assets/icons/               # Favicons and PWA icons
 ├── README.md
 ├── LICENSE
 └── .gitignore
 ```
 
-**Architecture:** `index.html` loads `data/themes.json` on startup to build the home screen, then lazily fetches `data/{themeId}.json` when the user starts a quiz. This means you can add new themes without touching the UI code, and the browser caches each file independently.
+## Question data
 
-## Adding or editing questions
-
-Open the relevant file in `data/` (e.g. `data/nemen.json`). Each question looks like this:
+Multiple-choice themes use this format:
 
 ```json
 {
@@ -80,71 +88,55 @@ Open the relevant file in `data/` (e.g. `data/nemen.json`). Each question looks 
   "correct": 0,
   "explanation": "'Opnemen' = in het ziekenhuis laten blijven.",
   "wrongExplanations": {
-    "1": "'Aangenomen' = geaccepteerd (baan).",
-    "2": "'Ingenomen' = medicijn slikken.",
-    "3": "'Afgenomen' = verminderen."
+    "1": "'Aangenomen' = geaccepteerd, bijvoorbeeld voor een baan.",
+    "2": "'Ingenomen' = een medicijn geslikt.",
+    "3": "'Afgenomen' = minder geworden."
   },
   "hint": "Denk aan wat er in een ziekenhuis gebeurt."
 }
 ```
 
-- `correct` is the 0-based index of the right answer in the `options` array
-- `wrongExplanations` keys are the string indices of wrong options
-- Save, commit, push — GitHub Pages updates automatically
+Fill-in themes use `answer`, `acceptedAnswers`, `explanation`, and `hint` instead of answer options.
 
 ## Adding a new theme
 
-1. Create a new question file in `data/`, e.g. `data/geven.json` with an array of questions
-2. Add the theme to `data/themes.json`:
+1. Create a new question file in `data/`, for example `data/geven.json`.
+2. Add the theme to `data/themes.json`.
+3. Commit and push. GitHub Pages updates automatically.
+
+Example:
 
 ```json
 {
   "id": "geven",
   "label": "-geven",
-  "description": "meegeven · opgeven · aangeven · uitgeven · doorgeven · afgeven",
+  "description": "meegeven · opgeven · aangeven · uitgeven",
   "emoji": "🎁",
   "color": "#8B5CF6"
 }
 ```
 
-3. That's it — the home screen picks it up automatically
-
-## Tech stack
-
-Intentionally minimal:
-
-- Single HTML file with inline CSS and vanilla JS
-- External JSON files in `data/` for all quiz content
-- No framework, no build tools, no npm
-- Google Fonts (DM Sans + DM Mono)
-- Hosted on GitHub Pages (free)
-
 ## Run locally
 
 ```bash
-git clone https://github.com/chardrizard/samengestelde-werkwoorden-quiz.git
-cd samengestelde-werkwoorden-quiz
-# Need a local server because of fetch() — opening file:// won't work
+git clone https://github.com/chardrizard/taalbits.git
+cd taalbits
 python3 -m http.server 8000
-# Then visit http://localhost:8000
 ```
 
-## Roadmap
+Then visit `http://localhost:8000`.
 
-- [ ] Add more verb themes (-geven, -staan, -slaan, -vallen)
-- [ ] localStorage progress tracking
-- [ ] Spaced repetition for wrong answers
-- [ ] PWA support for install-to-homescreen
-- [ ] Custom domain
+Opening the app directly through `file://` will not work because the app fetches JSON files from `data/`.
 
-## Contributing
+## Tech stack
 
-Found a question with a wrong explanation or an unnatural sentence? Edit the relevant JSON file in `data/` and open a PR. Native speaker corrections are especially welcome.
+- Vanilla HTML, CSS, and JavaScript
+- External JSON files for all quiz content
+- No framework
+- No build tools
+- No npm dependencies
+- GitHub Pages hosting
 
 ## License
 
-MIT — use it, fork it, adapt it for other languages.
-
----
-
-Built as a study tool for the Dutch diaspora community 🧡
+MIT

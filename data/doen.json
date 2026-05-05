@@ -478,5 +478,245 @@
       "3": "'Afdoen' = iets verwijderen. Dat past niet bij belang of relevantie."
     },
     "hint": "Het gaat om wat belangrijk is voor de functie."
+  },
+  {
+    "sentence": "De kinderen proberen precies ______ wat de dansleraar doet.",
+    "options": ["na te doen", "mee te doen", "over te doen", "uit te doen"],
+    "correct": 0,
+    "explanation": "'Nadoen' = iemand imiteren. De kinderen kopiëren de bewegingen van de dansleraar.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. De kinderen doen mee, maar de nadruk ligt op imiteren.",
+      "2": "'Overdoen' = opnieuw doen. Ze doen het niet opnieuw, maar kopiëren iemand.",
+      "3": "'Uitdoen' = kleding uittrekken of iets uitzetten. Dat past niet bij dansbewegingen."
+    },
+    "hint": "Ze kopiëren wat iemand anders doet."
+  },
+  {
+    "sentence": "Kun je deze zin langzaam ______? Dan kan ik de uitspraak oefenen.",
+    "options": ["voordoen", "nadoen", "meedoen", "overdoen"],
+    "correct": 0,
+    "explanation": "'Voordoen' = laten zien of horen hoe iets moet. Iemand geeft eerst het voorbeeld van de uitspraak.",
+    "wrongExplanations": {
+      "1": "'Nadoen' = imiteren. De leerling doet na; de spreker doet voor.",
+      "2": "'Meedoen' = deelnemen. Hier gaat het om een voorbeeld geven.",
+      "3": "'Overdoen' = opnieuw doen. De vraag is niet om herhaling, maar om een voorbeeld."
+    },
+    "hint": "Iemand geeft een voorbeeld dat jij daarna kunt volgen."
+  },
+  {
+    "sentence": "Die oude stoel gebruiken we nooit meer. We kunnen hem beter ______.",
+    "options": ["wegdoen", "aandoen", "voordoen", "meedoen"],
+    "correct": 0,
+    "explanation": "'Wegdoen' = iets verwijderen, weggeven of weggooien. De oude stoel wordt niet meer gebruikt.",
+    "wrongExplanations": {
+      "1": "'Aandoen' = kleding aantrekken of een apparaat aanzetten. Een stoel doe je niet aan.",
+      "2": "'Voordoen' = demonstreren. Je demonstreert de stoel niet.",
+      "3": "'Meedoen' = deelnemen. Een stoel doet niet mee."
+    },
+    "hint": "Je wilt iets niet meer houden."
+  },
+  {
+    "sentence": "Hij heeft veel ervaring ______ tijdens zijn stage.",
+    "options": ["opgedaan", "aangedaan", "uitgedaan", "weggedaan"],
+    "correct": 0,
+    "explanation": "'Ervaring opdoen' = ervaring krijgen door iets te doen. Tijdens een stage leer je in de praktijk.",
+    "wrongExplanations": {
+      "1": "'Aandoen' = kleding aantrekken of iemand iets veroorzaken. Ervaring doe je op.",
+      "2": "'Uitdoen' = kleding uittrekken of iets uitzetten. Dat past niet bij ervaring.",
+      "3": "'Wegdoen' = verwijderen. Ervaring wil je juist krijgen, niet wegdoen."
+    },
+    "hint": "Je krijgt ervaring door praktijk."
+  },
+  {
+    "sentence": "De harde woorden hebben haar veel pijn ______.",
+    "options": ["aangedaan", "opgedaan", "afgedaan", "meegedaan"],
+    "correct": 0,
+    "explanation": "'Iemand pijn aandoen' = iemand pijn of verdriet geven. De woorden hebben haar gekwetst.",
+    "wrongExplanations": {
+      "1": "'Opdoen' = ervaring krijgen of iets op je hoofd zetten. Pijn wordt iemand aangedaan.",
+      "2": "'Afdoen' = iets verwijderen of kort behandelen. Dat past niet bij kwetsen.",
+      "3": "'Meedoen' = deelnemen. Woorden nemen niet deel."
+    },
+    "hint": "Iemand wordt gekwetst door wat er gezegd is."
+  },
+  {
+    "sentence": "Wat kunnen we ______ aan dit probleem?",
+    "options": ["doen", "meedoen", "voordoen", "uitdoen"],
+    "correct": 0,
+    "explanation": "'Iets doen aan' = actie ondernemen om een probleem te verbeteren. De vraag is welke actie mogelijk is.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. Je doet niet mee aan een probleem; je doet er iets aan.",
+      "2": "'Voordoen' = demonstreren. Het probleem vraagt om actie, niet om een voorbeeld.",
+      "3": "'Uitdoen' = uitzetten of uittrekken. Een probleem doe je niet uit."
+    },
+    "hint": "Je zoekt een actie om het probleem te verbeteren."
+  },
+  {
+    "sentence": "Kun je de deur even ______? Het tocht.",
+    "options": ["dichtdoen", "opendoen", "aandoen", "meedoen"],
+    "correct": 0,
+    "explanation": "'Dichtdoen' = sluiten. Omdat het tocht, moet de deur dicht.",
+    "wrongExplanations": {
+      "1": "'Opendoen' = openen. Dan wordt de tocht juist erger.",
+      "2": "'Aandoen' = kleding aantrekken of een apparaat aanzetten. Een deur doe je niet aan.",
+      "3": "'Meedoen' = deelnemen. Een deur doet niet mee."
+    },
+    "hint": "Je wilt de opening sluiten."
+  },
+  {
+    "sentence": "Doe je de deur even ______? Er staat iemand buiten.",
+    "options": ["open", "dicht", "af", "mee"],
+    "correct": 0,
+    "explanation": "'Opendoen' = openen, vaak omdat iemand voor de deur staat. Je laat iemand binnen.",
+    "wrongExplanations": {
+      "1": "'Dichtdoen' = sluiten. De deur is juist nodig om iemand binnen te laten.",
+      "2": "'Afdoen' = iets verwijderen. Een deur doe je niet af in deze situatie.",
+      "3": "'Meedoen' = deelnemen. Dat past niet bij een deur."
+    },
+    "hint": "Iemand staat buiten en moet naar binnen kunnen."
+  },
+  {
+    "sentence": "Zijn opmerking deed niets ______ aan het probleem.",
+    "options": ["af", "mee", "voor", "op"],
+    "correct": 0,
+    "explanation": "'Afdoen aan' = iets minder sterk of minder belangrijk maken. Zijn opmerking veranderde niets aan het probleem.",
+    "wrongExplanations": {
+      "1": "'Meedoen aan' = deelnemen aan iets. Een opmerking doet niet mee aan een probleem.",
+      "2": "'Voordoen' = demonstreren. Dat past niet bij invloed op een probleem.",
+      "3": "'Opdoen' = ervaring krijgen of iets opzetten. Dat past hier niet."
+    },
+    "hint": "De betekenis is: het maakt het probleem niet minder."
+  },
+  {
+    "sentence": "We moeten deze klacht vandaag nog ______.",
+    "options": ["afdoen", "voordoen", "aandoen", "omdoen"],
+    "correct": 0,
+    "explanation": "'Afdoen' kan betekenen: afhandelen of afronden. De klacht moet vandaag behandeld en afgesloten worden.",
+    "wrongExplanations": {
+      "1": "'Voordoen' = demonstreren. Je demonstreert een klacht niet.",
+      "2": "'Aandoen' = kleding aantrekken of iemand iets veroorzaken. Een klacht doe je niet aan.",
+      "3": "'Omdoen' = iets om je lichaam doen. Dat past niet bij een klacht."
+    },
+    "hint": "De klacht moet afgehandeld worden."
+  },
+  {
+    "sentence": "Ik wil graag ______ aan de workshop, maar ik heb nog geen ticket.",
+    "options": ["meedoen", "nadoen", "wegdoen", "uitdoen"],
+    "correct": 0,
+    "explanation": "'Meedoen aan' = deelnemen aan iets. Je wilt deelnemen aan de workshop.",
+    "wrongExplanations": {
+      "1": "'Nadoen' = imiteren. Een workshop doe je niet na in deze zin.",
+      "2": "'Wegdoen' = verwijderen. Je wilt de workshop niet wegdoen.",
+      "3": "'Uitdoen' = uittrekken of uitzetten. Dat past niet bij deelname."
+    },
+    "hint": "Je wilt deelnemen aan een activiteit."
+  },
+  {
+    "sentence": "Na de fout moest de designer het hele scherm opnieuw ______.",
+    "options": ["overdoen", "meedoen", "afdoen", "aandoen"],
+    "correct": 0,
+    "explanation": "'Overdoen' = opnieuw doen of maken. Door de fout moet het scherm opnieuw gemaakt worden.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. Het scherm neemt niet deel.",
+      "2": "'Afdoen' = verwijderen of afhandelen. Hier moet het werk opnieuw.",
+      "3": "'Aandoen' = kleding aantrekken of aanzetten. Een scherm doe je niet aan in deze betekenis."
+    },
+    "hint": "Door een fout moet het opnieuw."
+  },
+  {
+    "sentence": "Hij deed alsof hij niets wist, maar hij had gewoon ______.",
+    "options": ["meegedaan", "uitgedaan", "opgedaan", "weggedaan"],
+    "correct": 0,
+    "explanation": "'Meedoen' = deelnemen. Hij deed alsof hij buiten de situatie stond, maar hij nam wel deel.",
+    "wrongExplanations": {
+      "1": "'Uitdoen' = kleding uittrekken of iets uitzetten. Dat past niet bij betrokken zijn.",
+      "2": "'Opdoen' = ervaring krijgen. De zin gaat om deelname.",
+      "3": "'Wegdoen' = verwijderen. Dat past niet bij meedoen aan iets."
+    },
+    "hint": "Hij was toch betrokken bij wat er gebeurde."
+  },
+  {
+    "sentence": "De arts deed het verband voorzichtig ______.",
+    "options": ["af", "op", "mee", "voor"],
+    "correct": 0,
+    "explanation": "'Afdoen' = iets verwijderen dat ergens op zit. De arts haalt het verband weg.",
+    "wrongExplanations": {
+      "1": "'Opdoen' = iets opzetten of ervaring krijgen. Het verband gaat juist weg.",
+      "2": "'Meedoen' = deelnemen. Verband doet niet mee.",
+      "3": "'Voordoen' = demonstreren. De arts verwijdert het verband."
+    },
+    "hint": "Iets wordt verwijderd."
+  },
+  {
+    "sentence": "Als je naar buiten gaat, doe dan je muts ______.",
+    "options": ["op", "af", "uit", "over"],
+    "correct": 0,
+    "explanation": "'Opdoen' = iets op je hoofd zetten. Een muts doe je op als het koud is.",
+    "wrongExplanations": {
+      "1": "'Afdoen' = iets van je hoofd of lichaam verwijderen. Buiten wil je de muts juist dragen.",
+      "2": "'Uitdoen' = kleding uittrekken. Bij een muts zeg je meestal opdoen of afdoen.",
+      "3": "'Overdoen' = opnieuw doen. Dat past niet bij een muts dragen."
+    },
+    "hint": "Een muts gaat op je hoofd."
+  },
+  {
+    "sentence": "Ze deed haar ketting ______ voordat ze naar het feest ging.",
+    "options": ["om", "op", "uit", "mee"],
+    "correct": 0,
+    "explanation": "'Omdoen' = iets om je nek, pols of lichaam doen. Een ketting doe je om.",
+    "wrongExplanations": {
+      "1": "'Opdoen' = iets op je hoofd zetten. Een ketting gaat om je nek.",
+      "2": "'Uitdoen' = kleding uittrekken of iets uitzetten. Hier gaat de ketting juist aan.",
+      "3": "'Meedoen' = deelnemen. Een ketting doet niet mee."
+    },
+    "hint": "Een ketting draag je om je nek."
+  },
+  {
+    "sentence": "Zijn gedrag doet me denken ______ mijn oude buurman.",
+    "options": ["aan", "mee", "voor", "uit"],
+    "correct": 0,
+    "explanation": "'Doen denken aan' = iemand of iets herinneren aan iets anders. Zijn gedrag lijkt op dat van je oude buurman.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. Denken mee is hier geen vaste combinatie.",
+      "2": "'Voordoen' = demonstreren. Hij demonstreert je buurman niet.",
+      "3": "'Uitdoen' = uitzetten of uittrekken. Dat past niet bij herinnering."
+    },
+    "hint": "Iets roept een herinnering of vergelijking op."
+  },
+  {
+    "sentence": "De leerling deed de leraar grappig ______.",
+    "options": ["na", "voor", "mee", "af"],
+    "correct": 0,
+    "explanation": "'Nadoen' = iemand imiteren. De leerling imiteert de leraar op een grappige manier.",
+    "wrongExplanations": {
+      "1": "'Voordoen' = een voorbeeld geven. De leerling geeft hier geen instructie.",
+      "2": "'Meedoen' = deelnemen. De leerling doet niet mee, maar imiteert.",
+      "3": "'Afdoen' = verwijderen of afhandelen. Dat past niet bij imiteren."
+    },
+    "hint": "Hij imiteert iemand."
+  },
+  {
+    "sentence": "We hebben de oude dossiers veilig ______.",
+    "options": ["weggedaan", "meegedaan", "voorgedaan", "opgedaan"],
+    "correct": 0,
+    "explanation": "'Wegdoen' = verwijderen of weggooien. Oude dossiers kun je veilig wegdoen als ze niet meer nodig zijn.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. Dossiers doen niet mee.",
+      "2": "'Voordoen' = demonstreren. Je demonstreert dossiers niet.",
+      "3": "'Opdoen' = ervaring krijgen of iets opzetten. Dossiers doe je niet op."
+    },
+    "hint": "Je verwijdert iets dat niet meer nodig is."
+  },
+  {
+    "sentence": "De nieuwe baan heeft hem zichtbaar goed ______.",
+    "options": ["gedaan", "meegedaan", "uitgedaan", "nagedaan"],
+    "correct": 0,
+    "explanation": "'Iemand goed doen' = een positief effect op iemand hebben. De baan heeft hem zichtbaar geholpen.",
+    "wrongExplanations": {
+      "1": "'Meedoen' = deelnemen. De baan neemt niet deel.",
+      "2": "'Uitdoen' = uittrekken of uitzetten. Dat past niet bij een positief effect.",
+      "3": "'Nadoen' = imiteren. De baan imiteert hem niet."
+    },
+    "hint": "Iets heeft een positief effect op iemand."
   }
 ]

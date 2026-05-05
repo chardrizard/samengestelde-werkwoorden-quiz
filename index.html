@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
-<title>Werkwoorden Quiz — Samengestelde Werkwoorden oefenen</title>
-<meta name="description" content="Oefen 160+ meerkeuzevragen over samengestelde werkwoorden en preposities. Gratis quiz op B1+ niveau.">
+<title>Taalbits — Korte oefeningen voor lastig Nederlands</title>
+<meta name="description" content="Oefen werkwoorden, preposities en vaste combinaties met korte Nederlandse quizzen op B1+ niveau.">
 <meta name="theme-color" content="#0F1117">
 <meta name="color-scheme" content="dark">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Werkwoorden">
+<meta name="apple-mobile-web-app-title" content="Taalbits">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Werkwoorden Quiz — Samengestelde Werkwoorden oefenen">
-<meta property="og:description" content="Oefen 160+ meerkeuzevragen over samengestelde werkwoorden en preposities. Gratis quiz op B1+ niveau.">
+<meta property="og:title" content="Taalbits — Korte oefeningen voor lastig Nederlands">
+<meta property="og:description" content="Oefen werkwoorden, preposities en vaste combinaties met korte Nederlandse quizzen op B1+ niveau.">
 <meta property="og:image" content="og-image.png">
 <meta property="og:type" content="website">
 
@@ -233,7 +233,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 <noscript>
   <div style="padding:40px 20px;text-align:center;color:#A0A3AD;font-family:system-ui,sans-serif;">
     <p style="font-size:18px;margin-bottom:8px;">JavaScript is vereist</p>
-    <p>Schakel JavaScript in om de Werkwoorden Quiz te gebruiken.</p>
+    <p>Schakel JavaScript in om Taalbits te gebruiken.</p>
   </div>
 </noscript>
 <div id="sr-announce" class="sr-only" aria-live="polite" aria-atomic="true"></div>
@@ -275,6 +275,7 @@ function getCurrentQuizType(){
 async function loadThemes(){try{const res=await fetch("data/themes.json");if(!res.ok)throw new Error("HTTP "+res.status);THEMES=await res.json();console.log("Loaded "+THEMES.length+" themes");state.screen="home";render()}catch(err){console.error("Failed to load themes:",err);document.getElementById("app").innerHTML='<div class="loading-error"><p>Kon de thema\'s niet laden.</p><p style="font-size:14px;color:var(--ink-3)">'+esc(err.message)+'</p><button onclick="loadThemes()">Opnieuw proberen</button></div>'}}
 async function loadThemeQuestions(themeId){if(questionCache[themeId])return questionCache[themeId];const res=await fetch("data/"+encodeURIComponent(themeId)+".json");if(!res.ok)throw new Error("HTTP "+res.status);const questions=await res.json();questionCache[themeId]=questions;return questions}
 function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
+function shuffleQuestionOptions(q){if(!q.options||!Number.isInteger(q.correct))return q;const shuffled=shuffle(q.options.map(function(option,oldIndex){return{option,oldIndex}}));const wrongExplanations={};shuffled.forEach(function(item,newIndex){if(item.oldIndex!==q.correct&&q.wrongExplanations&&q.wrongExplanations[String(item.oldIndex)]){wrongExplanations[String(newIndex)]=q.wrongExplanations[String(item.oldIndex)]}});return Object.assign({},q,{options:shuffled.map(function(item){return item.option}),correct:shuffled.findIndex(function(item){return item.oldIndex===q.correct}),wrongExplanations:wrongExplanations})}
 
 // ── Count selection for individual themes ──
 function openThemeCountSelect(themeId) {
@@ -294,6 +295,9 @@ async function startThemeQuiz(themeId, count) {
     shuffledQuestions = shuffle(questions);
     if (count !== 'all') {
       shuffledQuestions = shuffledQuestions.slice(0, count);
+    }
+    if (getQuizType(themeId) === "mc") {
+      shuffledQuestions = shuffledQuestions.map(shuffleQuestionOptions);
     }
     state.screen = "quiz";
     pendingFocus = getQuizType(themeId)==="fill" ? "fill-input" : "option-0";
@@ -330,6 +334,7 @@ async function startMixQuiz(count) {
     if(count !== 'all') {
       shuffledQuestions = shuffledQuestions.slice(0, count);
     }
+    shuffledQuestions = shuffledQuestions.map(shuffleQuestionOptions);
     state.screen = "quiz";
     pendingFocus = "option-0";
     render();
@@ -378,14 +383,14 @@ function renderHome(){
     return '<button class="theme-card" id="theme-'+idx+'" onclick="openThemeCountSelect(\''+esc(t.id)+'\')" aria-label="'+esc(t.label)+'"><div class="theme-accent" style="background:'+esc(t.color)+'"></div><div class="theme-emoji" style="background:'+esc(t.color)+'15">'+esc(t.emoji)+'</div><div class="theme-info"><div class="theme-name">'+esc(t.label)+'</div><div class="theme-desc">'+esc(t.description)+'</div>'+badge+'</div><div class="theme-arrow">›</div></button>';
   }).join("");
   const mixCard = '<button class="theme-card" id="theme-mix" onclick="openCountSelect()" aria-label="Alles door elkaar"><div class="theme-accent" style="background:'+MIX_THEME.color+'"></div><div class="theme-emoji" style="background:'+MIX_THEME.color+'15">'+MIX_THEME.emoji+'</div><div class="theme-info"><div class="theme-name">'+MIX_THEME.label+'</div><div class="theme-desc">'+MIX_THEME.description+'</div></div><div class="theme-arrow">›</div></button>';
-  return '<div class="home"><div class="home-header"><div class="home-label">Oefening</div><div class="home-title">Samengestelde Werkwoorden</div><div class="home-subtitle">Kies een thema en oefen met meerkeuzevragen op B1+ niveau.</div></div><nav class="theme-grid" aria-label="Themakeuze">'+themeCards+mixCard+'</nav><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Tab</span> navigeren</span><span class="kbd-hint"><span class="kbd">Enter</span> selecteren</span></div></div>';
+  return '<div class="home"><div class="home-header"><div class="home-label">Taalbits</div><div class="home-title">Korte oefeningen voor lastig Nederlands.</div><div class="home-subtitle">Oefen werkwoorden, preposities en vaste combinaties op B1+ niveau.</div></div><nav class="theme-grid" aria-label="Themakeuze">'+themeCards+mixCard+'</nav><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Tab</span> navigeren</span><span class="kbd-hint"><span class="kbd">Enter</span> selecteren</span></div></div>';
 }
 
 function renderCountSelect() {
   var isMix = (state.pendingTheme === "mix");
   var t = isMix ? MIX_THEME : THEMES.find(function(x){return x.id===state.pendingTheme});
   var themeLabel = t ? (t.emoji + " " + t.label) : "";
-  var totalCount = isMix ? "160+" : getThemeQuestionCount(state.pendingTheme);
+  var totalCount = isMix ? "alles" : getThemeQuestionCount(state.pendingTheme);
   var safeThemeId = esc(state.pendingTheme);
   var isFill = !isMix && t && t.type === "fill";
   var desc = isFill ? "Vul het juiste voorzetsel in bij elke zin." : (isMix ? "Kies een aantal vragen uit alle thema's." : "Kies hoeveel vragen je wilt oefenen.");

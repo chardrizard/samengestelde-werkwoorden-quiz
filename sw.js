@@ -1,4 +1,4 @@
-const CACHE_NAME = "werkwoorden-quiz-v4";
+const CACHE_NAME = "taalbits-v1";
 const APP_SHELL = [
   ".",
   "index.html",

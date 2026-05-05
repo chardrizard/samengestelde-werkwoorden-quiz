@@ -731,7 +731,7 @@
     "hint": "Je verandert een idee in iets uitvoerbaar. Welk prefix past bij 'transformeren'?"
   },
   {
-    "sentence": "Hij heeft zijn euros ______ naar dollars voor de reis.",
+    "sentence": "Hij heeft zijn euro's ______ naar dollars voor de reis.",
     "options": [
       "ingezet",
       "neergezet",
@@ -741,9 +741,9 @@
     "correct": 2,
     "explanation": "'Omzetten' = wisselen, converteren. Gebruik voor valuta, formaten en transformaties.",
     "wrongExplanations": {
-      "0": "'Inzetten' = gebruiken voor een doel. Je gebruikt de euros niet — je wisselt ze.",
-      "1": "'Neerzetten' = plaatsen. Je plaatst de euros niet — je wisselt ze.",
-      "3": "'Voortzetten' = doorgaan. Je gaat niet door met euros — je wisselt ze."
+      "0": "'Inzetten' = gebruiken voor een doel. Je gebruikt de euro's niet — je wisselt ze.",
+      "1": "'Neerzetten' = plaatsen. Je plaatst de euro's niet — je wisselt ze.",
+      "3": "'Voortzetten' = doorgaan. Je gaat niet door met euro's — je wisselt ze."
     },
     "hint": "Hij wisselt de ene valuta voor de andere. Welk prefix past bij 'wisselen, converteren'?"
   },
@@ -1513,10 +1513,10 @@
     "hint": "Hij gebruikt zijn geld voor een specifiek doel. Welk prefix past bij 'besteden, ergens voor gebruiken'?"
   },
   {
-    "sentence": "Het bedrijf heeft een goed resultaat ___ dit jaar met recordwinst.",
+    "sentence": "Het bedrijf heeft een goed resultaat ______ dit jaar met recordwinst.",
     "options": [
       "opgezet",
-      "neerzetten",
+      "neergezet",
       "ingezet",
       "afgezet"
     ],
