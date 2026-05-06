@@ -39,7 +39,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .theme-card:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px;box-shadow:0 0 0 4px rgba(120,160,255,0.15)}
 .skip-link{position:absolute;top:-40px;left:0;background:var(--ink);color:var(--bg);padding:8px 16px;z-index:100;font-size:15px;font-weight:600;border-radius:0 0 var(--radius) 0;transition:top 0.2s}
 .skip-link:focus{top:0}
-.app{max-width:480px;margin:0 auto;min-height:100vh;min-height:100svh;min-height:-webkit-fill-available;display:flex;flex-direction:column;padding:var(--safe-top) 0 0;transition:max-width 0.2s ease}
+.app{max-width:680px;margin:0 auto;min-height:100vh;min-height:100svh;min-height:-webkit-fill-available;display:flex;flex-direction:column;padding:var(--safe-top) 0 0;transition:max-width 0.2s ease}
 .app>main{display:flex;flex-direction:column;flex:1;min-height:0}
 .app>main>#app{display:flex;flex-direction:column;flex:1;min-height:0}
 .loading{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:var(--ink-3);font-size:16px}
@@ -54,8 +54,20 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .home-label{font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px}
 .home-title{font-size:34px;font-weight:700;letter-spacing:-0.5px;line-height:1.12;color:var(--ink)}
 .home-subtitle{font-size:17px;color:var(--ink-2);margin-top:10px;line-height:1.47}
-.theme-grid{display:flex;flex-direction:column;gap:10px;margin-top:24px}
-.theme-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px 20px;display:flex;align-items:center;gap:16px;transition:all 0.15s ease;position:relative;overflow:hidden}
+/* Category sections */
+.theme-categories{display:flex;flex-direction:column;gap:0}
+.category-section{margin-top:4px}
+.category-header{font-size:11px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink-3);font-family:var(--mono);padding:20px 0 10px}
+/* 2-col compact grid for homogeneous verb themes */
+.theme-grid-2col{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.theme-card-compact{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:14px 12px;display:flex;flex-direction:column;align-items:flex-start;gap:8px;position:relative;overflow:hidden;cursor:pointer;transition:all 0.15s ease;text-align:left;width:100%}
+.theme-card-compact:hover{background:var(--surface-2);border-color:var(--border-2)}
+.theme-card-compact:active{transform:scale(0.985)}
+.theme-emoji-sm{font-size:20px;width:36px;height:36px;display:flex;align-items:center;justify-content:center;border-radius:8px;flex-shrink:0}
+.theme-name-sm{font-size:14px;font-weight:600;letter-spacing:-0.2px;color:var(--ink)}
+/* Full-width cards for special/fill themes */
+.theme-grid{display:flex;flex-direction:column;gap:8px}
+.theme-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px 20px;display:flex;align-items:center;gap:16px;transition:all 0.15s ease;position:relative;overflow:hidden;width:100%}
 .theme-card:hover{background:var(--surface-2);border-color:var(--border-2)}
 .theme-card:active{transform:scale(0.985)}
 .theme-emoji{font-size:28px;width:48px;height:48px;display:flex;align-items:center;justify-content:center;border-radius:10px;flex-shrink:0}
@@ -65,6 +77,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .theme-badge{font-size:11px;font-weight:600;padding:2px 7px;border-radius:4px;color:var(--ink-2);background:var(--surface-3);margin-top:4px;display:inline-block;letter-spacing:0.3px;font-family:var(--mono)}
 .theme-arrow{color:var(--ink-3);font-size:18px;flex-shrink:0}
 .theme-accent{position:absolute;left:0;top:0;bottom:0;width:3px;border-radius:0 3px 3px 0}
+/* Mix section gets extra breathing room */
+.mix-section{margin-top:28px}
 
 /* ── COUNT SELECT ── */
 .count-select{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 20px calc(24px + var(--safe-bottom));text-align:center}
@@ -216,8 +230,6 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   .question-num{margin-bottom:8px}
 }
 
-@media(min-width:768px){.app{max-width:50vw}}
-@media(min-width:1400px){.app{max-width:640px}}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 </style>
 </head>
@@ -378,12 +390,28 @@ function render(){const app=document.getElementById("app");switch(state.screen){
 if(pendingFocus==="fill-input"&&state.fillInput){el.value=state.fillInput}}pendingFocus=null})}}
 
 function renderHome(){
-  const themeCards = THEMES.map(function(t,idx){
-    var badge=(t.type==="fill")?'<div class="theme-badge">INVULLEN</div>':"";
-    return '<button class="theme-card" id="theme-'+idx+'" onclick="openThemeCountSelect(\''+esc(t.id)+'\')" aria-label="'+esc(t.label)+'"><div class="theme-accent" style="background:'+esc(t.color)+'"></div><div class="theme-emoji" style="background:'+esc(t.color)+'15">'+esc(t.emoji)+'</div><div class="theme-info"><div class="theme-name">'+esc(t.label)+'</div><div class="theme-desc">'+esc(t.description)+'</div>'+badge+'</div><div class="theme-arrow">›</div></button>';
+  var mcThemes=THEMES.filter(function(t){return (t.type||"mc")==="mc"});
+  var fillThemes=THEMES.filter(function(t){return t.type==="fill"});
+
+  // Samengestelde werkwoorden — 2-column compact grid
+  var verbCards=mcThemes.map(function(t,idx){
+    return '<button class="theme-card-compact" id="theme-'+idx+'" onclick="openThemeCountSelect(\''+esc(t.id)+'\')" aria-label="'+esc(t.label)+'"><div class="theme-accent" style="background:'+esc(t.color)+'"></div><div class="theme-emoji-sm" style="background:'+esc(t.color)+'15">'+esc(t.emoji)+'</div><div class="theme-name-sm">'+esc(t.label)+'</div></button>';
   }).join("");
-  const mixCard = '<button class="theme-card" id="theme-mix" onclick="openCountSelect()" aria-label="Alles door elkaar"><div class="theme-accent" style="background:'+MIX_THEME.color+'"></div><div class="theme-emoji" style="background:'+MIX_THEME.color+'15">'+MIX_THEME.emoji+'</div><div class="theme-info"><div class="theme-name">'+MIX_THEME.label+'</div><div class="theme-desc">'+MIX_THEME.description+'</div></div><div class="theme-arrow">›</div></button>';
-  return '<div class="home"><div class="home-header"><div class="home-label">Taalbits</div><div class="home-title">Korte oefeningen voor lastig Nederlands.</div><div class="home-subtitle">Oefen werkwoorden, preposities en vaste combinaties op B1+ niveau.</div></div><nav class="theme-grid" aria-label="Themakeuze">'+themeCards+mixCard+'</nav><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Tab</span> navigeren</span><span class="kbd-hint"><span class="kbd">Enter</span> selecteren</span></div></div>';
+  var werkwoordenSection='<div class="category-section"><div class="category-header">Samengestelde werkwoorden</div><div class="theme-grid-2col">'+verbCards+'</div></div>';
+
+  // Fill-in themes — full-width cards under their own header
+  var fillSection="";
+  if(fillThemes.length>0){
+    var fillCards=fillThemes.map(function(t){
+      return '<button class="theme-card" onclick="openThemeCountSelect(\''+esc(t.id)+'\')" aria-label="'+esc(t.label)+'"><div class="theme-accent" style="background:'+esc(t.color)+'"></div><div class="theme-emoji" style="background:'+esc(t.color)+'15">'+esc(t.emoji)+'</div><div class="theme-info"><div class="theme-name">'+esc(t.label)+'</div><div class="theme-desc">'+esc(t.description)+'</div><div class="theme-badge">INVULLEN</div></div><div class="theme-arrow">›</div></button>';
+    }).join("");
+    fillSection='<div class="category-section"><div class="category-header">Preposities</div><div class="theme-grid">'+fillCards+'</div></div>';
+  }
+
+  // Mix — own section with extra top spacing
+  var mixSection='<div class="mix-section"><div class="category-header">Gemengd</div><button class="theme-card" id="theme-mix" onclick="openCountSelect()" aria-label="Alles door elkaar"><div class="theme-accent" style="background:'+MIX_THEME.color+'"></div><div class="theme-emoji" style="background:'+MIX_THEME.color+'15">'+MIX_THEME.emoji+'</div><div class="theme-info"><div class="theme-name">'+MIX_THEME.label+'</div><div class="theme-desc">'+MIX_THEME.description+'</div></div><div class="theme-arrow">›</div></button></div>';
+
+  return '<div class="home"><div class="home-header"><div class="home-label">Taalbits</div><div class="home-title">Korte oefeningen voor lastig Nederlands.</div><div class="home-subtitle">Oefen werkwoorden, preposities en vaste combinaties op B1+ niveau.</div></div><nav class="theme-categories" aria-label="Themakeuze">'+werkwoordenSection+fillSection+mixSection+'</nav><div class="kbd-hints"><span class="kbd-hint"><span class="kbd">Tab</span> navigeren</span><span class="kbd-hint"><span class="kbd">Enter</span> selecteren</span></div></div>';
 }
 
 function renderCountSelect() {
