@@ -272,20 +272,6 @@ let shuffledQuestions=[];
 let state={screen:"loading",theme:null,qIdx:0,score:0,wrong:0,answered:null,selectedIdx:null,showHint:false,wrongAnswers:[],showReview:false,pendingTheme:null,fillInput:""};
 let pendingFocus=null;
 
-function setAppHeight(){
-  var viewportHeight=window.innerHeight;
-  if(window.visualViewport&&window.visualViewport.height){
-    viewportHeight=window.visualViewport.height;
-  }
-  document.documentElement.style.setProperty("--app-height",Math.round(viewportHeight)+"px");
-}
-setAppHeight();
-window.addEventListener("resize",setAppHeight);
-window.addEventListener("orientationchange",function(){setTimeout(setAppHeight,250)});
-if(window.visualViewport){
-  window.visualViewport.addEventListener("resize",setAppHeight);
-}
-
 function announce(text){const el=document.getElementById("sr-announce");if(el){el.textContent="";requestAnimationFrame(()=>{el.textContent=text})}}
 
 function getQuizType(themeId){
