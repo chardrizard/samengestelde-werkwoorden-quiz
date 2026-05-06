@@ -1,4 +1,4 @@
-const CACHE_NAME = "taalbits-v1";
+const CACHE_NAME = "taalbits-v3";
 const APP_SHELL = [
   ".",
   "index.html",
@@ -49,6 +49,26 @@ self.addEventListener("activate", function(event) {
 
 self.addEventListener("fetch", function(event) {
   if (event.request.method !== "GET") return;
+
+  if (event.request.mode === "navigate" || event.request.destination === "document") {
+    event.respondWith(
+      fetch(event.request).then(function(response) {
+        if (response && response.status === 200) {
+          var copy = response.clone();
+          caches.open(CACHE_NAME).then(function(cache) {
+            cache.put(event.request, copy);
+            cache.put(scopedUrl("index.html"), response.clone());
+          });
+        }
+        return response;
+      }).catch(function() {
+        return caches.match(event.request).then(function(cached) {
+          return cached || caches.match(scopedUrl("index.html"));
+        });
+      })
+    );
+    return;
+  }
 
   event.respondWith(
     caches.match(event.request).then(function(cached) {
