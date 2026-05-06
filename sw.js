@@ -1,4 +1,4 @@
-const CACHE_NAME = "taalbits-v3";
+const CACHE_NAME = "taalbits-v4";
 const APP_SHELL = [
   ".",
   "index.html",
