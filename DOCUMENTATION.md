@@ -156,6 +156,11 @@ No database. The runtime types are JSON shapes loaded from `data/`.
 | `explanation` | string | Shown after answering |
 | `wrongExplanations` | `{ [index: string]: string }` | Per-wrong-option rationale; keys remapped after option shuffle ([index.html:295](index.html:295)) |
 | `hint` | string | Revealed via the Hint button / `H` key |
+| `tense` | `"infinitive"` \| `"perfectum"` \| `"imperfectum"` \| `"present"` | Optional. Tags the verb form the gap tests. Defaults to `"infinitive"`. |
+| `wordOrder` | `"standard"` \| `"inversion"` \| `"bijzin"` | Optional. Tags the Dutch sentence structure. Defaults to `"standard"`. |
+| `register` | `"neutraal"` \| `"formeel"` \| `"spreektaal"` | Optional. Tags the language register. Defaults to `"neutraal"`. |
+
+The three tag fields are forward-compatible: present in JSON, ignored by the current UI, and reserved for future filter chips and stats. Authoring guidance for distributions is in [Authoring guide](#authoring-guide) below.
 
 **Fill-in question** ([data/preposities.json](data/preposities.json))
 
@@ -185,6 +190,79 @@ No database. The runtime types are JSON shapes loaded from `data/`.
 | **Total** |  | **1027** |
 
 Mix mode pools only `type === "mc"` themes ([index.html:346](index.html:346)) — currently 742 questions across 10 verb themes.
+
+## Authoring guide
+
+How to write a good question file. Follow this when adding a new verb theme or expanding an existing one. Aimed at humans and at LLMs prompted to draft items.
+
+### Target audience and level
+
+B1+ Dutch learners crossing into B2. Sentences should be natural, current, and unambiguous in context. No textbook stiltaal. No archaic phrasing. Vocabulary outside the gap should stay around B1 — the gap is the hard part, the rest of the sentence should not be.
+
+### Item count per file
+
+Target ~20-30 items for a new verb theme. Existing high-coverage themes (komen, halen, nemen) sit at 90-110 and are fine; do not pad below ~15.
+
+### Tag distributions per file (target, not strict)
+
+| Tag | Distribution |
+|---|---|
+| `tense: "infinitive"` | ~55-65% |
+| `tense: "perfectum"` | ~25-35% |
+| `tense: "imperfectum"` | ~5-10% |
+| `tense: "present"` | ~5-10% |
+| `wordOrder: "standard"` | ~65-75% |
+| `wordOrder: "inversion"` | ~15-25% (split placement, e.g. *"Morgen leg ik het rapport op je bureau neer."*) |
+| `wordOrder: "bijzin"` | ~10-15% (verb cluster at end, e.g. *"...omdat hij het rapport heeft neergelegd."*) |
+| `register: "neutraal"` | default, ~80-90% |
+| `register: "spreektaal"` | use deliberately for idioms (*doorhebben*, *afzien*, *meekrijgen*) |
+| `register: "formeel"` | reserve for genuinely formal contexts (legal, administrative, news) |
+
+These are guides, not gates. If a verb has no good `imperfectum` items, skip the tense rather than force it.
+
+### Distractor (options) rules
+
+- All four options must be real Dutch verbs in the same conjugation as the answer. No nonsense distractors.
+- All four should share the same base verb stem where possible (e.g. `aanleggen / neerleggen / omleggen / wegleggen`). The wrong answers should be *plausibly* tempting — same family, different prefix.
+- Exactly one correct answer. If two prefixes both fit the sentence, rewrite the sentence to disambiguate.
+- Avoid options that are minor spelling variants of each other — that tests typing, not comprehension.
+
+### Sentence rules
+
+- One gap per sentence, marked with `______` (six underscores, the literal characters rendered in the UI).
+- Context in the sentence must make the answer determinable without prior knowledge of the test-maker's intent. A native speaker should be able to fill the gap.
+- Prefer concrete, everyday scenes over abstract ones. *"De gemeente legt een nieuw fietspad aan"* over *"Men legt iets aan."*
+- For `wordOrder: "inversion"`: write the sentence with the prefix landing in its natural separated position, and the gap on either the conjugated verb or the prefix — pick the one that tests the harder choice.
+- For `wordOrder: "bijzin"`: the verb cluster goes to the end. Use *omdat / dat / als / terwijl* clauses.
+
+### Explanation rules
+
+- `explanation`: one short sentence defining the correct verb's meaning, plus one sentence linking it to the sentence's context. State the meaning before the justification, not after.
+- `wrongExplanations`: one short sentence per wrong option. Format: *"'X' = [meaning]. [Why it doesn't fit here.]"* Do not just say "wrong" — say what the wrong verb actually means and why this sentence rejects it.
+- `hint`: nudges the learner toward the semantic field without naming the answer or its prefix. Good: *"Het gaat om een schip dat bij de kant stopt."* Bad: *"Het begint met 'aan'."*
+
+### Scheidbaar vs onscheidbaar contrast items
+
+For verbs that exist in both forms (*voorkómen* vs *vóórkomen*, *ondergáán* vs *óndergaan*, *overnémen* vs *óvernemen*), include 1-2 items that force the learner to distinguish them. Mark the stress in the explanation using acute accents on the stressed vowel, since the UI does not render IPA.
+
+### Common pitfalls to avoid
+
+- **Ambiguous context.** If you wrote a sentence and two of your four options both work, the sentence is the problem — rewrite.
+- **Telegraphing the answer in the hint.** Hints should narrow the meaning, not the form.
+- **Distractor laziness.** Random unrelated verbs as wrong options. Always same-family.
+- **Tense mismatch between options.** All four options must be in the same form (all infinitive, or all past participles, or all present-tense conjugated).
+- **Register drift in `wrongExplanations`.** If the sentence is `neutraal`, do not explain it in `spreektaal`.
+
+### Authoring checklist (per item)
+
+- [ ] Sentence reads naturally to a native speaker
+- [ ] Exactly one option fits the context
+- [ ] All four options are same-family, same conjugation
+- [ ] `correct` index matches the right option
+- [ ] `explanation` states meaning first, then context fit
+- [ ] Every wrong option has a `wrongExplanations` entry that names what it *does* mean
+- [ ] `hint` narrows meaning without naming form
+- [ ] `tense`, `wordOrder`, `register` tags set deliberately (not just copied from the previous item)
 
 ## Directory Structure
 
