@@ -1,0 +1,287 @@
+[
+  {
+    "sentence": "Op vrijdagavond wil hij altijd ______; hij houdt van gezelligheid en muziek.",
+    "options": ["uitgaan", "weggaan", "doorgaan", "overgaan"],
+    "correct": 0,
+    "explanation": "'Uitgaan' = 's avonds naar buiten gaan voor vermaak, zoals naar een café, restaurant of club. De context 'gezelligheid en muziek' maakt duidelijk dat het om een sociale avond gaat.",
+    "wrongExplanations": {
+      "1": "'Weggaan' = vertrekken van een plek. Dat zegt niets over wat je gaat doen of waar je naartoe gaat.",
+      "2": "'Doorgaan' = verdergaan of iets voortzetten. Dat past niet bij een avond uit.",
+      "3": "'Overgaan' = overstappen naar iets anders of rinkelen. Dat past niet bij sociaal uitgaan."
+    },
+    "hint": "Hij gaat de avond door in de stad voor vermaak. Welk prefix past bij 'naar buiten gaan voor plezier'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "We kunnen er niet van ______ dat het congres op tijd begint.",
+    "options": ["uitgaan", "doorgaan", "overgaan", "weggaan"],
+    "correct": 0,
+    "explanation": "'Uitgaan van' = iets aannemen als startpunt, iets als gegeven beschouwen. 'Er van uitgaan' is een vaste combinatie voor het maken van een aanname.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = verdergaan of plaatsvinden. 'Doorgaan van' is geen vaste combinatie voor aannames.",
+      "2": "'Overgaan' = overstappen of een volgende fase ingaan. 'Overgaan van' past niet in deze betekenis.",
+      "3": "'Weggaan' = vertrekken. 'Weggaan van' past niet bij het maken van een aanname."
+    },
+    "hint": "Je behandelt iets als zeker zonder het te weten. 'Er ___ van' is een vaste combinatie voor aannames.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Nadat het licht was ______, konden we niets meer zien.",
+    "options": ["uitgegaan", "doorgegaan", "overgegaan", "weggegaan"],
+    "correct": 0,
+    "explanation": "'Uitgaan' = ophouden met branden of stralen, zoals een lamp of kaars. Als een licht uitgaat, stopt het met geven van licht.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = verdergaan of plaatsvinden. Een licht gaat niet 'door'.",
+      "2": "'Overgaan' = overstappen of een overgang maken. Een licht gaat niet 'over'.",
+      "3": "'Weggaan' = vertrekken. Een licht vertrekt niet — het gaat uit."
+    },
+    "hint": "Na dit moment is er geen licht meer. Het licht stopt met branden. Welk prefix past bij 'ophouden met stralen'?",
+    "tense": "perfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De vergadering begint over vijf minuten. Je moet nu ______.",
+    "options": ["weggaan", "uitgaan", "doorgaan", "overgaan"],
+    "correct": 0,
+    "explanation": "'Weggaan' = vertrekken, de huidige plek verlaten. Je moet nu de deur uit om op tijd bij de vergadering te zijn.",
+    "wrongExplanations": {
+      "1": "'Uitgaan' = naar buiten gaan voor vermaak. Dat is voor een sociale avond, niet voor een zakelijke afspraak.",
+      "2": "'Doorgaan' = verdergaan of iets voortzetten. Hier wil je juist stoppen met wat je doet en vertrekken.",
+      "3": "'Overgaan' = overstappen of een volgende fase ingaan. Dat past niet bij het verlaten van een plek."
+    },
+    "hint": "Je verlaat de huidige plek om ergens anders op tijd te zijn. Welk prefix betekent 'vertrekken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Na de ruzie is zij direct ______.",
+    "options": ["weggegaan", "uitgegaan", "doorgegaan", "overgegaan"],
+    "correct": 0,
+    "explanation": "'Weggaan' = vertrekken, de plek verlaten. Na een ruzie kun je direct vertrekken zonder verdere uitleg.",
+    "wrongExplanations": {
+      "1": "'Uitgaan' = voor vermaak de deur uitgaan. Dat past niet bij een emotionele situatie na een ruzie.",
+      "2": "'Doorgaan' = verdergaan. Na een ruzie ga je niet 'door' — je vertrekt.",
+      "3": "'Overgaan' = een overgang maken of rinkelen. Dat past niet bij iemand die vertrekt."
+    },
+    "hint": "Ze verliet de plek meteen na het conflict. Welk prefix past bij 'de plek verlaten'?",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Toch moet je ______; opgeven is geen optie.",
+    "options": ["doorgaan", "weggaan", "uitgaan", "overgaan"],
+    "correct": 0,
+    "explanation": "'Doorgaan' = verdergaan, niet stoppen, iets voortzetten. Ondanks de moeilijkheden ga je verder met wat je aan het doen bent.",
+    "wrongExplanations": {
+      "1": "'Weggaan' = vertrekken. Hier gaat het juist om niet stoppen, niet om weggaan.",
+      "2": "'Uitgaan' = voor vermaak de avond ingaan. Dat past niet bij een context van doorzetten.",
+      "3": "'Overgaan' = een overgang maken. Hier gaat het om voortgaan, niet om overstappen."
+    },
+    "hint": "Opgeven is geen optie — je zet door. Welk prefix past bij 'niet stoppen, verdergaan'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Ondanks de hevige regen is het festival toch ______.",
+    "options": ["doorgegaan", "uitgegaan", "overgegaan", "weggegaan"],
+    "correct": 0,
+    "explanation": "'Doorgaan' = toch plaatsvinden, niet afgelast worden. Als een evenement doorgaat, vindt het gewoon plaats ondanks obstakels.",
+    "wrongExplanations": {
+      "1": "'Uitgaan' = voor vermaak uitgaan of een licht dat stopt. Een festival gaat niet 'uit'.",
+      "2": "'Overgaan' = overstappen naar iets anders. Hier gaat het om of het festival plaatsvindt, niet om een overgang.",
+      "3": "'Weggaan' = vertrekken. Een festival gaat niet weg — het vindt al dan niet plaats."
+    },
+    "hint": "Het festival werd niet afgelast — het vond toch plaats. Welk prefix past bij 'toch plaatsvinden ondanks obstakels'?",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De twee bedrijven willen volgende maand een samenwerking ______.",
+    "options": ["aangaan", "doorgaan", "overgaan", "uitgaan"],
+    "correct": 0,
+    "explanation": "'Aangaan' = een verbintenis of overeenkomst sluiten. 'Een samenwerking aangaan' is een vaste combinatie voor het formeel starten van een samenwerking.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = verdergaan. Je kunt een samenwerking niet 'doorgaan'.",
+      "2": "'Overgaan' = overstappen. Je gaat geen samenwerking 'over'.",
+      "3": "'Uitgaan' = voor vermaak uitgaan of een licht dat stopt. Dat past niet bij het sluiten van een overeenkomst."
+    },
+    "hint": "Ze sluiten een formele verbintenis. Welk prefix hoort bij het afsluiten van een overeenkomst?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "formeel"
+  },
+  {
+    "sentence": "Hij zei dat de kritiek hem totaal niet ______.",
+    "options": ["aanging", "doorging", "overging", "uitging"],
+    "correct": 0,
+    "explanation": "'Aangaan' = betrekking hebben op iemand, iemand raken of aangaan. 'Dat gaat mij aan' is een vaste uitdrukking voor iets dat jou betreft of jouw zaak is.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = verdergaan of plaatsvinden. 'Doorgaan' met 'hem' als object werkt niet in deze betekenis.",
+      "2": "'Overgaan' = overstappen of rinkelen. Dat past niet bij de betekenis 'betrekking hebben op'.",
+      "3": "'Uitgaan' = voor vermaak uitgaan of een licht dat stopt. Dat past niet bij deze betekenis."
+    },
+    "hint": "De kritiek had niets met hem te maken — het raakte hem niet. Welk prefix past bij 'betrekking hebben op iemand'?",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Als hij dit jaar genoeg punten haalt, mag hij ______.",
+    "options": ["overgaan", "doorgaan", "uitgaan", "weggaan"],
+    "correct": 0,
+    "explanation": "'Overgaan' = naar de volgende klas of het volgende niveau gaan. In het onderwijs gebruik je 'overgaan' als een leerling voldoende resultaten heeft om door te stromen.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = verdergaan. 'Doorgaan' zou hier betekenen dat je in dezelfde situatie verdergaat, niet dat je doorstroomt.",
+      "2": "'Uitgaan' = voor vermaak uitgaan. Dat past niet bij een schoolcontext.",
+      "3": "'Weggaan' = vertrekken. Dat past niet bij promotie naar de volgende klas."
+    },
+    "hint": "Hij heeft genoeg punten voor de volgende klas. Welk prefix past bij 'doorstromen naar het volgende niveau'?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Iedereen was stil totdat de bel ______.",
+    "options": ["overging", "doorging", "uitging", "wegging"],
+    "correct": 0,
+    "explanation": "'Overgaan' = rinkelen, klinken. Als een bel of telefoon 'overgaat', maakt het geluid. Dit is een vaste combinatie in het Nederlands.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = verdergaan of plaatsvinden. Dat past niet bij een bel die rinkelt.",
+      "2": "'Uitgaan' = ophouden te branden of voor vermaak uitgaan. Dat past niet bij het geluid van een bel.",
+      "3": "'Weggaan' = vertrekken. Een bel gaat niet weg — die rinkelt."
+    },
+    "hint": "De bel maakte geluid. Welk prefix gebruik je als een bel of telefoon rinkelt?",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Na tien jaar als zelfstandige is zij in loondienst ______.",
+    "options": ["overgegaan", "doorgegaan", "weggegaan", "uitgegaan"],
+    "correct": 0,
+    "explanation": "'Overgaan' = overstappen naar iets anders, een overgang maken. 'Overgaan naar loondienst' betekent dat je van werkvorm verandert.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = verdergaan. Als je 'doorgaat' ga je juist verder als zelfstandige, niet naar loondienst.",
+      "2": "'Weggaan' = vertrekken. Dat beschrijft een vertrek, niet een overgang naar een andere werkvorm.",
+      "3": "'Uitgaan' = voor vermaak uitgaan of een licht dat stopt. Dat past niet bij een carrièreverandering."
+    },
+    "hint": "Ze stapte over van de ene werkvorm naar de andere. Welk prefix past bij 'een overgang maken naar iets nieuws'?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De pijn in mijn been is na een paar dagen vanzelf ______.",
+    "options": ["overgegaan", "doorgegaan", "voorbijgegaan", "weggegaan"],
+    "correct": 0,
+    "explanation": "'Overgaan' = ophouden, niet meer aanwezig zijn. Als pijn overgaat, stopt die vanzelf. Dit is de vaste combinatie voor pijn of klachten die verdwijnen.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = verdergaan. Dat is het tegenovergestelde — de pijn zou dan juist aanhouden.",
+      "2": "'Voorbijgaan' = passeren of iets laten passeren. Voor pijn die stopt is 'overgaan' de meest natuurlijke en vaste keuze.",
+      "3": "'Weggaan' = vertrekken. Pijn 'gaat weg' klinkt begrijpelijk, maar 'overgaan' is de vaste uitdrukking voor het verdwijnen van pijn of klachten."
+    },
+    "hint": "De pijn stopt na een paar dagen. Welk prefix gebruik je als pijn of klachten vanzelf verdwijnen?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Je kunt die kans niet laten ______; dit is je enige keer.",
+    "options": ["voorbijgaan", "weggaan", "doorgaan", "overgaan"],
+    "correct": 0,
+    "explanation": "'Voorbijgaan' = passeren zonder te benutten. 'Een kans laten voorbijgaan' is een vaste uitdrukking voor het missen van een gelegenheid.",
+    "wrongExplanations": {
+      "1": "'Weggaan' = vertrekken. 'Een kans laten weggaan' is geen gebruikelijke combinatie.",
+      "2": "'Doorgaan' = verdergaan of plaatsvinden. Dat past niet bij het missen van een kans.",
+      "3": "'Overgaan' = overstappen of pijn die verdwijnt. 'Een kans laten overgaan' is geen vaste combinatie."
+    },
+    "hint": "De kans komt niet terug — laat hem niet passeren. Welk prefix past bij 'laten passeren zonder te benutten'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De rechter is volledig ______ aan de bezwaren van de verdachte.",
+    "options": ["voorbijgegaan", "doorgegaan", "overgegaan", "weggegaan"],
+    "correct": 0,
+    "explanation": "'Voorbijgaan aan' = negeren of niet ingaan op iets. Als iemand aan bezwaren voorbijgaat, worden die bezwaren genegeerd of niet behandeld.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = verdergaan. 'Doorgaan aan' is geen vaste combinatie in dit betekenisveld.",
+      "2": "'Overgaan' = overstappen of pijn die verdwijnt. 'Overgaan aan' past niet bij het negeren van bezwaren.",
+      "3": "'Weggaan' = vertrekken. 'Weggaan aan' is geen gebruikelijke combinatie."
+    },
+    "hint": "De rechter negeerde de bezwaren volledig. Welk prefix hoort bij 'ergens aan voorbijgaan' als vaste combinatie voor negeren?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "formeel"
+  },
+  {
+    "sentence": "De zomervakantie is dit jaar heel snel ______.",
+    "options": ["voorbijgegaan", "doorgegaan", "overgegaan", "uitgegaan"],
+    "correct": 0,
+    "explanation": "'Voorbijgaan' = passeren, eindigen. Als tijd voorbijgaat, verstrijkt die en is die periode afgelopen.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = plaatsvinden of verdergaan. 'Doorgegaan' over een vakantie suggereert dat die toch plaatsvond, niet dat die snel verstreek.",
+      "2": "'Overgaan' = overstappen of pijn die verdwijnt. Dat past niet bij een vakantie die voorbij is.",
+      "3": "'Uitgaan' = voor vermaak uitgaan of een licht dat stopt. Dat past niet bij een vakantie die verstreek."
+    },
+    "hint": "De vakantie is snel verstreken — de tijd vloog voorbij. Welk prefix past bij 'een periode die voorbij is'?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De patiënt moet morgen een zware operatie ______.",
+    "options": ["ondergaan", "doorgaan", "overgaan", "uitgaan"],
+    "correct": 0,
+    "explanation": "'Ondergaan' = iets meemaken of ervaren, vaak iets moeilijks of ingrijpends. 'Een operatie ondergaan' is een vaste combinatie voor het ondergaan van een medische ingreep.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = verdergaan of plaatsvinden. Je kunt een operatie niet 'doorgaan'.",
+      "2": "'Overgaan' = overstappen of pijn die verdwijnt. Je gaat geen operatie 'over'.",
+      "3": "'Uitgaan' = voor vermaak uitgaan of een licht dat stopt. Dat past niet bij een operatie."
+    },
+    "hint": "De patiënt ervaart de operatie — het overkomt hem. Welk prefix past bij 'iets meemaken of ervaren, vaak iets ingrijpends'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "We keken hoe de zon langzaam boven de zee ______.",
+    "options": ["onderging", "doorging", "overging", "uitging"],
+    "correct": 0,
+    "explanation": "'Ondergaan' = zakken onder de horizon. Als de zon ondergaat, verdwijnt die aan de horizon en wordt het donker.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = plaatsvinden of verdergaan. Dat past niet bij een zon die zakt.",
+      "2": "'Overgaan' = overstappen of rinkelen. Dat past niet bij een zon die ondergaat.",
+      "3": "'Uitgaan' = ophouden te branden. De vaste uitdrukking voor de zon is 'ondergaan', niet 'uitgaan'."
+    },
+    "hint": "De zon verdwijnt aan de horizon. Welk prefix gebruik je als de zon zakt?",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Na het ontslag heeft zij een zeer moeilijke periode ______.",
+    "options": ["ondergaan", "doorgegaan", "overgegaan", "weggegaan"],
+    "correct": 0,
+    "explanation": "'Ondergaan' = iets meemaken of doorstaan, met name iets moeilijks of pijnlijks. Let op: 'ondergaan' is onscheidbaar, dus het perfectum is 'ondergaan' — zonder 'ge-' prefix.",
+    "wrongExplanations": {
+      "1": "'Doorgaan' = plaatsvinden of verdergaan. 'Een periode doorgaan' is geen natuurlijke combinatie.",
+      "2": "'Overgaan' = overstappen of pijn die verdwijnt. 'Een periode overgaan' werkt niet in deze betekenis.",
+      "3": "'Weggaan' = vertrekken. Dat beschrijft een vertrek, geen doorstane ervaring."
+    },
+    "hint": "Ze doorstond een zware periode. Welk prefix past bij 'iets moeilijks meemaken of doorstaan'?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  }
+]

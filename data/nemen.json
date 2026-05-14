@@ -14,7 +14,10 @@
       "2": "'Aannemen' = accepteren of in dienst nemen — een examen wordt niet aangenomen; je zegt bijv. 'het voorstel is aangenomen'.",
       "3": "'Innemen' = een positie bezetten — een examen wordt niet ingenomen; je zegt bijv. 'de troepen hebben de positie ingenomen'."
     },
-    "hint": "De leraar is de beoordelaar die het examen leidt. Welk prefix past bij 'als autoriteit een toets leiden'?"
+    "hint": "De leraar is de beoordelaar die het examen leidt. Welk prefix past bij 'als autoriteit een toets leiden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De nieuwe patiënt is gisteren in het ziekenhuis ______, en ligt nu op de afdeling cardiologie.",
@@ -31,7 +34,10 @@
       "2": "'Innemen' = medicijnen slikken of een ruimte bezetten — je gebruikt het bijv. als 'de patiënt neemt zijn medicijnen in', niet bij ziekenhuisopname.",
       "3": "'Afnemen' = iets wegnemen of verminderen — je zegt bijv. 'de dokter heeft bloed afgenomen', niet bij het toelaten van een patiënt."
     },
-    "hint": "De patiënt gaat het ziekenhuis in voor een langere behandeling. Welk prefix past bij 'officieel toelaten in een instelling'?"
+    "hint": "De patiënt gaat het ziekenhuis in voor een langere behandeling. Welk prefix past bij 'officieel toelaten in een instelling'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na de storm is de wind langzaam in kracht ______, en nu is het weer rustig buiten.",
@@ -44,11 +50,14 @@
     "correct": 1,
     "explanation": "'Afnemen' = minder worden, dalen — ook voor kracht, intensiteit of hoeveelheid. De context 'rustig buiten' bevestigt dat de wind zwakker is geworden.",
     "wrongExplanations": {
-      "3": "'Toenemen' = sterker of meer worden — dat is het tegenovergestelde van wat er hier gebeurt; de wind wordt juist zwakker.",
       "0": "'Aannemen' = veronderstellen of in dienst nemen — wind neemt geen houding of veronderstelling aan; je zegt bijv. 'hij neemt aan dat het klopt'.",
-      "2": "'Opnemen' = vastleggen of toelaten — wind wordt niet opgenomen; je zegt bijv. 'de patiënt is opgenomen in het ziekenhuis'."
+      "2": "'Opnemen' = vastleggen of toelaten — wind wordt niet opgenomen; je zegt bijv. 'de patiënt is opgenomen in het ziekenhuis'.",
+      "3": "'Toenemen' = sterker of meer worden — dat is het tegenovergestelde van wat er hier gebeurt; de wind wordt juist zwakker."
     },
-    "hint": "De wind wordt zwakker en het is nu rustig. Welk prefix past bij 'minder worden, dalen in kracht'?"
+    "hint": "De wind wordt zwakker en het is nu rustig. Welk prefix past bij 'minder worden, dalen in kracht'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Tijdens de vergadering nam de financieel directeur het woord ______ om de resultaten toe te lichten.",
@@ -65,7 +74,10 @@
       "2": "'Overnemen' = van iemand anders iets overnemen — 'het woord overnemen' zou betekenen dat je de spreekbeurt van iemand anders overneemt, wat hier niet de bedoeling is.",
       "3": "'Innemen' = een positie bezetten of medicijnen slikken — 'het woord innemen' bestaat niet als vaste uitdrukking."
     },
-    "hint": "De directeur begint te spreken in de vergadering. Welk prefix hoort bij de uitdrukking 'het woord ... nemen'?"
+    "hint": "De directeur begint te spreken in de vergadering. Welk prefix hoort bij de uitdrukking 'het woord ... nemen'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Het sollicitatiegesprek is door de HR-manager ______ als officieel beoordelingsmoment, niet als een informeel gesprek.",
@@ -82,7 +94,10 @@
       "2": "'Aannemen' = accepteren of in dienst nemen — de sollicitant wordt hier niet aangenomen; het gesprek vindt nog plaats.",
       "3": "'Innemen' = een positie of ruimte bezetten — een gesprek wordt niet ingenomen; je zegt bijv. 'de troepen hebben de stad ingenomen'."
     },
-    "hint": "De HR-manager leidt het gesprek als officieel beoordelaar. Welk prefix past bij 'als autoriteit een gesprek leiden'?"
+    "hint": "De HR-manager leidt het gesprek als officieel beoordelaar. Welk prefix past bij 'als autoriteit een gesprek leiden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik ga morgen contact met de leverancier ______ over de vertraagde levering.",
@@ -99,7 +114,10 @@
       "2": "'Afnemen' = verminderen of wegnemen — je zegt bijv. 'de pijn neemt af', niet 'contact afnemen'.",
       "3": "'Meenemen' = iets meenemen naar een andere plek — 'contact meenemen' bestaat niet; je neemt contact op."
     },
-    "hint": "Je wilt de leverancier bellen of mailen. Welk prefix past bij 'communicatie starten met iemand'?"
+    "hint": "Je wilt de leverancier bellen of mailen. Welk prefix past bij 'communicatie starten met iemand'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Wij nemen IT-diensten al drie jaar ______ bij dezelfde leverancier, omdat we tevreden zijn over de kwaliteit.",
@@ -116,7 +134,10 @@
       "1": "'Aannemen' = accepteren of in dienst nemen — 'diensten aannemen' past niet; je neemt diensten af bij een leverancier, niet aan.",
       "3": "'Meenemen' = meenemen naar een andere plek — 'diensten meenemen' bestaat niet in zakelijke context."
     },
-    "hint": "Het bedrijf koopt diensten bij een leverancier. Welk prefix hoort bij 'producten of diensten kopen bij'?"
+    "hint": "Het bedrijf koopt diensten bij een leverancier. Welk prefix hoort bij 'producten of diensten kopen bij'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het concert van vorig jaar is op video ______, zodat fans het later terug kunnen kijken.",
@@ -133,7 +154,10 @@
       "2": "'Aannemen' = accepteren of in dienst nemen — een concert wordt niet aangenomen; je zegt bijv. 'het voorstel is aangenomen'.",
       "3": "'Innemen' = een positie bezetten — een concert wordt niet ingenomen; je zegt bijv. 'de soldaten hebben de stad ingenomen'."
     },
-    "hint": "Het concert is gefilmd zodat mensen het later kunnen terugkijken. Welk prefix past bij 'vastleggen op video'?"
+    "hint": "Het concert is gefilmd zodat mensen het later kunnen terugkijken. Welk prefix past bij 'vastleggen op video'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het voorstel voor de nieuwe kantoorindeling is gisteren door het management ______.",
@@ -150,7 +174,10 @@
       "2": "'Afnemen' = verminderen of wegnemen — een voorstel neemt niet af; je zegt bijv. 'een examen afnemen'.",
       "3": "'Opnemen' = vastleggen of toelaten — een voorstel wordt niet opgenomen; je zegt bijv. 'de klacht is opgenomen in het systeem'."
     },
-    "hint": "Het management heeft het voorstel goedgekeurd. Welk prefix past bij 'officieel goedkeuren'?"
+    "hint": "Het management heeft het voorstel goedgekeurd. Welk prefix past bij 'officieel goedkeuren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De politie heeft bij de verdachte zijn telefoon en sleutels ______ als bewijsmateriaal.",
@@ -167,7 +194,10 @@
       "2": "'Aannemen' = accepteren of in dienst nemen — de politie accepteert de spullen niet; ze neemt ze af als bewijs.",
       "3": "'Innemen' = een positie bezetten of medicijnen slikken — 'spullen innemen' is minder gebruikelijk; 'afnemen' is de standaard term voor het wegnemen van bezittingen door autoriteiten."
     },
-    "hint": "De politie pakt spullen weg van de verdachte voor het onderzoek. Welk prefix past bij 'wegnemen van iemand'?"
+    "hint": "De politie pakt spullen weg van de verdachte voor het onderzoek. Welk prefix past bij 'wegnemen van iemand'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze heeft de kritiek van haar manager slecht ______ en is de rest van de dag stil geweest.",
@@ -180,11 +210,14 @@
     "correct": 0,
     "explanation": "'Iets slecht opnemen' = iets emotioneel moeilijk verwerken, er moeite mee hebben. De context 'de rest van de dag stil' bevestigt een negatieve emotionele reactie.",
     "wrongExplanations": {
-      "2": "'Aannemen' = accepteren of veronderstellen — 'kritiek aannemen' zou betekenen dat ze het accepteert, maar hier verwerkt ze het juist slecht.",
       "1": "'Afnemen' = verminderen of wegnemen — 'kritiek afnemen' bestaat niet als emotionele reactie; je zegt bijv. 'de pijn neemt af'.",
+      "2": "'Aannemen' = accepteren of veronderstellen — 'kritiek aannemen' zou betekenen dat ze het accepteert, maar hier verwerkt ze het juist slecht.",
       "3": "'Innemen' = een positie bezetten — 'kritiek innemen' bestaat niet; je zegt bijv. 'een standpunt innemen'."
     },
-    "hint": "Ze had moeite met de kritiek en reageerde er negatief op. Welk prefix past bij 'emotioneel moeilijk verwerken'?"
+    "hint": "Ze had moeite met de kritiek en reageerde er negatief op. Welk prefix past bij 'emotioneel moeilijk verwerken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De kat nam een dreigende houding ______ zodra de hond de tuin in liep.",
@@ -201,7 +234,10 @@
       "2": "'Afnemen' = verminderen — een houding neemt niet af; je zegt bijv. 'de pijn neemt af'.",
       "3": "'Innemen' = een positie bezetten — hoewel vergelijkbaar, is 'een houding aannemen' de vaste uitdrukking, niet 'innemen'."
     },
-    "hint": "De kat laat een bepaald gedrag zien als reactie op de hond. Welk prefix hoort bij de vaste uitdrukking 'een houding ... nemen'?"
+    "hint": "De kat laat een bepaald gedrag zien als reactie op de hond. Welk prefix hoort bij de vaste uitdrukking 'een houding ... nemen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De luchtvochtigheid ______ terwijl de temperatuur stijgt — dat is normaal in de zomer.",
@@ -218,7 +254,10 @@
       "2": "'Aannemen' = veronderstellen of een houding aannemen — luchtvochtigheid neemt geen aanname; ze stijgt of daalt.",
       "3": "'Opnemen' = vastleggen — luchtvochtigheid wordt niet opgenomen; ze neemt toe of af."
     },
-    "hint": "Als de temperatuur stijgt, doet de luchtvochtigheid het tegenovergestelde. Welk prefix past bij 'dalen, minder worden'?"
+    "hint": "Als de temperatuur stijgt, doet de luchtvochtigheid het tegenovergestelde. Welk prefix past bij 'dalen, minder worden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De minister nam tijdens het debat een duidelijk ______ over de belastingplannen.",
@@ -235,7 +274,10 @@
       "1": "'Aannemen' = accepteren of veronderstellen — 'een standpunt aannemen' bestaat niet; je neemt een standpunt in.",
       "3": "'Afnemen' = verminderen — een standpunt neemt niet af; je zegt bijv. 'de pijn neemt af'."
     },
-    "hint": "De minister kiest een positie in het debat. Welk prefix hoort bij de vaste uitdrukking 'een standpunt ... nemen'?"
+    "hint": "De minister kiest een positie in het debat. Welk prefix hoort bij de vaste uitdrukking 'een standpunt ... nemen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De politie heeft de getuige zijn verklaring laten geven, en alles is zorgvuldig ______ in het systeem.",
@@ -252,7 +294,10 @@
       "2": "'Aannemen' = accepteren — een verklaring wordt niet aangenomen in een systeem; ze wordt geregistreerd.",
       "3": "'Meenemen' = meenemen naar een andere plek — de verklaring wordt niet meegenomen; ze wordt ingevoerd in het systeem."
     },
-    "hint": "De verklaring wordt ingevoerd en bewaard in een systeem. Welk prefix past bij 'officieel registreren, vastleggen'?"
+    "hint": "De verklaring wordt ingevoerd en bewaard in een systeem. Welk prefix past bij 'officieel registreren, vastleggen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het grote techbedrijf heeft de kleine startup vorig jaar ______ voor twintig miljoen euro.",
@@ -269,7 +314,10 @@
       "2": "'Opnemen' = in een groep includeren of vastleggen — hoewel een startup in een bedrijf kan worden opgenomen, is 'overnemen' de standaard term voor een bedrijfsaankoop.",
       "3": "'Innemen' = een ruimte of positie bezetten — 'een bedrijf innemen' bestaat niet; je zegt bijv. 'de troepen hebben de stad ingenomen'."
     },
-    "hint": "Het grote bedrijf koopt de startup voor een bepaald bedrag. Welk prefix past bij 'een bedrijf kopen en overnemen'?"
+    "hint": "Het grote bedrijf koopt de startup voor een bepaald bedrag. Welk prefix past bij 'een bedrijf kopen en overnemen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het probleem heeft inmiddels een ernstigere vorm ______ dan we in het begin verwachtten.",
@@ -286,7 +334,10 @@
       "2": "'Opnemen' = vastleggen — een vorm wordt niet opgenomen; je zegt bijv. 'de documentaire is opgenomen'.",
       "3": "'Afnemen' = verminderen — het probleem vermindert hier niet; het wordt erger."
     },
-    "hint": "Het probleem heeft zich ontwikkeld en is nu ernstiger van aard. Welk prefix past bij 'een gedaante of vorm krijgen'?"
+    "hint": "Het probleem heeft zich ontwikkeld en is nu ernstiger van aard. Welk prefix past bij 'een gedaante of vorm krijgen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij heeft bij zijn arts gevraagd of het mogelijk is om zelf bloed te ______ voor een bloedtest.",
@@ -303,7 +354,10 @@
       "2": "'Meenemen' = meenemen naar een andere plek — bloed neem je niet mee; het wordt afgenomen.",
       "3": "'Innemen' = medicijnen slikken — bloed slik je niet; het wordt afgenomen voor onderzoek."
     },
-    "hint": "De arts neemt iets uit je lichaam voor een test. Welk prefix past bij 'wegnemen uit het lichaam voor onderzoek'?"
+    "hint": "De arts neemt iets uit je lichaam voor een test. Welk prefix past bij 'wegnemen uit het lichaam voor onderzoek'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Die grote vergadertafel neemt veel ruimte ______ in ons kleine kantoor; misschien moeten we hem vervangen.",
@@ -320,7 +374,10 @@
       "2": "'Opnemen' = vastleggen — 'ruimte opnemen' bestaat niet in deze betekenis.",
       "3": "'Aannemen' = accepteren — 'ruimte aannemen' bestaat niet als vaste uitdrukking."
     },
-    "hint": "De tafel bezet een groot deel van het kantoor. Welk prefix past bij 'ruimte bezetten'?"
+    "hint": "De tafel bezet een groot deel van het kantoor. Welk prefix past bij 'ruimte bezetten'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Je vakantiedagen moeten voor het einde van het jaar ______ worden, anders vervallen ze.",
@@ -337,7 +394,10 @@
       "2": "'Meenemen' = meenemen naar een plek — vakantiedagen neem je niet fysiek mee; je neemt ze op bij je werkgever.",
       "3": "'Afnemen' = verminderen of wegnemen — vakantiedagen worden niet afgepakt; je neemt ze op."
     },
-    "hint": "Je moet je vrije dagen officieel gebruiken voordat ze verlopen. Welk prefix past bij 'verlof gebruiken' in formele HR-taal?"
+    "hint": "Je moet je vrije dagen officieel gebruiken voordat ze verlopen. Welk prefix past bij 'verlof gebruiken' in formele HR-taal?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De directeur is met pensioen gegaan, en zijn adjunct heeft zijn functie definitief ______.",
@@ -354,7 +414,10 @@
       "2": "'Aannemen' = accepteren of in dienst nemen — een functie neem je niet aan; je neemt hem over van je voorganger.",
       "3": "'Opnemen' = vastleggen of toelaten — een functie wordt niet opgenomen; je zegt bijv. 'de patiënt is opgenomen'."
     },
-    "hint": "De directeur gaat definitief weg en de adjunct neemt het permanent over. Is de vervanging tijdelijk of permanent?"
+    "hint": "De directeur gaat definitief weg en de adjunct neemt het permanent over. Is de vervanging tijdelijk of permanent?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik ga ervan ______ dat de vergadering om negen uur begint, tenzij je me iets anders stuurt.",
@@ -371,7 +434,10 @@
       "1": "'Afnemen' = verminderen — 'ervan afnemen' bestaat niet in deze context.",
       "3": "'Uitgaan van' = ook mogelijk, maar in deze zin staat 'ervan', wat specifiek bij 'aannemen' hoort als vaste combinatie 'ervan aannemen'."
     },
-    "hint": "Je gaat ergens van uit zonder zeker te zijn. Welk prefix past bij 'veronderstellen, ergens van uitgaan'?"
+    "hint": "Je gaat ergens van uit zonder zeker te zijn. Welk prefix past bij 'veronderstellen, ergens van uitgaan'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De rechter heeft de nieuwe advocaat de eed ______ bij de beëdiging vorige week.",
@@ -388,7 +454,10 @@
       "1": "'Aannemen' = accepteren — de rechter accepteert de eed niet; hij neemt haar af als officiële handeling.",
       "2": "'Innemen' = een positie bezetten — een eed wordt niet ingenomen; ze wordt afgenomen."
     },
-    "hint": "De rechter is de autoriteit die de eed officieel leidt. Welk prefix past bij 'als autoriteit een formele handeling leiden'?"
+    "hint": "De rechter is de autoriteit die de eed officieel leidt. Welk prefix past bij 'als autoriteit een formele handeling leiden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Meer dan 200 medewerkers nemen dit jaar ______ aan het interne leiderschapsprogramma.",
@@ -405,7 +474,10 @@
       "1": "'Afnemen' = verminderen — medewerkers verminderen niet; ze doen mee aan het programma.",
       "2": "'Innemen' = een positie bezetten — medewerkers nemen geen positie in bij een programma; ze nemen er deel aan."
     },
-    "hint": "De medewerkers doen mee aan het programma. Welk prefix hoort bij 'participeren, meedoen aan'?"
+    "hint": "De medewerkers doen mee aan het programma. Welk prefix hoort bij 'participeren, meedoen aan'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Voordat je dit contract tekent, moet je het zorgvuldig ______ om alle voorwaarden te begrijpen.",
@@ -422,7 +494,10 @@
       "2": "'Aannemen' = accepteren — 'het contract aannemen' betekent dat je het al ondertekent; hier gaat het om lezen vóór het tekenen.",
       "3": "'Afnemen' = verminderen of een toets leiden — een contract wordt niet afgenomen; je zegt bijv. 'een examen afnemen'."
     },
-    "hint": "Je moet het contract lezen en alles begrijpen vóór je tekent. Welk prefix past bij 'aandachtig doorlezen'?"
+    "hint": "Je moet het contract lezen en alles begrijpen vóór je tekent. Welk prefix past bij 'aandachtig doorlezen'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De troepen hebben na een lang gevecht de strategische brug ______ en bewaken haar nu.",
@@ -435,11 +510,14 @@
     "correct": 3,
     "explanation": "'Innemen' = een positie, stad of strategisch object veroveren en in bezit nemen. De context 'lang gevecht' en 'bewaken haar nu' bevestigen een militaire verovering.",
     "wrongExplanations": {
-      "1": "'Afnemen' = wegnemen van een persoon — hoewel vergelijkbaar, is 'innemen' de standaard militaire term voor het veroveren van een positie of object.",
       "0": "'Opnemen' = vastleggen of toelaten — een brug wordt niet opgenomen; je zegt bijv. 'de patiënt is opgenomen'.",
+      "1": "'Afnemen' = wegnemen van een persoon — hoewel vergelijkbaar, is 'innemen' de standaard militaire term voor het veroveren van een positie of object.",
       "2": "'Aannemen' = accepteren — een brug wordt niet aangenomen; je zegt bijv. 'het voorstel is aangenomen'."
     },
-    "hint": "De troepen veroveren de brug na een gevecht. Welk prefix past bij 'veroveren, in bezit nemen'?"
+    "hint": "De troepen veroveren de brug na een gevecht. Welk prefix past bij 'veroveren, in bezit nemen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze werden hartelijk door de familie ______ en mochten twee weken logeren.",
@@ -456,7 +534,10 @@
       "1": "'Meenemen' = iets meenemen naar een plek — de familie neemt hen niet mee; ze verwelkomt hen.",
       "2": "'Innemen' = een positie bezetten — mensen worden niet ingenomen; ze worden opgenomen in een groep."
     },
-    "hint": "De familie verwelkomt hen warmhartig. Welk prefix past bij 'iemand in een groep of huis verwelkomen'?"
+    "hint": "De familie verwelkomt hen warmhartig. Welk prefix past bij 'iemand in een groep of huis verwelkomen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Mijn dochter heeft de gewoonte van haar grootmoeder ______ om elke ochtend thee te drinken.",
@@ -473,7 +554,10 @@
       "2": "'Meenemen' = iets meenemen naar een plek — een gewoonte neem je niet mee; je neemt haar over.",
       "3": "'Opnemen' = vastleggen of toelaten — een gewoonte wordt niet opgenomen; je neemt haar over van iemand."
     },
-    "hint": "De dochter doet iets wat ze van haar grootmoeder heeft geleerd. Welk prefix past bij 'van iemand anders kopiëren'?"
+    "hint": "De dochter doet iets wat ze van haar grootmoeder heeft geleerd. Welk prefix past bij 'van iemand anders kopiëren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Door de hogere energieprijzen zijn de maandelijkse kosten van ons bedrijf flink ______.",
@@ -486,11 +570,14 @@
     "correct": 0,
     "explanation": "'Toenemen' = groter of meer worden, stijgen. De context 'hogere energieprijzen' en 'flink' signaleren dat de kosten zijn gestegen.",
     "wrongExplanations": {
-      "2": "'Afnemen' = minder worden, dalen — dat is het tegenovergestelde; hogere prijzen leiden tot hogere kosten, niet lagere.",
       "1": "'Aannemen' = veronderstellen of in dienst nemen — kosten worden niet aangenomen; je zegt bijv. 'ik neem aan dat het klopt'.",
+      "2": "'Afnemen' = minder worden, dalen — dat is het tegenovergestelde; hogere prijzen leiden tot hogere kosten, niet lagere.",
       "3": "'Opnemen' = vastleggen of toelaten — kosten worden niet opgenomen; je zegt bijv. 'de patiënt is opgenomen'."
     },
-    "hint": "Door hogere energieprijzen zijn de kosten hoger geworden. Welk prefix past bij 'stijgen, meer worden'?"
+    "hint": "Door hogere energieprijzen zijn de kosten hoger geworden. Welk prefix past bij 'stijgen, meer worden'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Het bedrijf heeft drie nieuwe junior developers ______ na een selectieprocedure van zes weken.",
@@ -507,7 +594,10 @@
       "2": "'Afnemen' = verminderen of een toets leiden — de developers worden niet afgenomen; ze worden in dienst genomen.",
       "3": "'Innemen' = een positie bezetten — developers worden niet ingenomen; je zegt bijv. 'een standpunt innemen'."
     },
-    "hint": "Het bedrijf geeft drie nieuwe mensen een baan. Welk prefix past bij 'in dienst nemen na selectie'?"
+    "hint": "Het bedrijf geeft drie nieuwe mensen een baan. Welk prefix past bij 'in dienst nemen na selectie'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De politie heeft de ooggetuigen van het ongeluk nauwkeurig ______ in een apart kamertje.",
@@ -524,7 +614,10 @@
       "2": "'Doornemen' = doorlezen of bespreken — je neemt getuigen niet door; je neemt hun verklaringen af.",
       "3": "'Meenemen' = meenemen naar een andere plek — getuigen worden niet meegenomen in deze context; hun verklaringen worden afgenomen."
     },
-    "hint": "De politie ondervraagt de getuigen officieel. Welk prefix past bij 'als autoriteit een verklaring verzamelen'?"
+    "hint": "De politie ondervraagt de getuigen officieel. Welk prefix past bij 'als autoriteit een verklaring verzamelen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Wil jij ook ______ aan het klantonderzoek dat volgende maand start?",
@@ -541,7 +634,10 @@
       "2": "'Innemen' = een positie bezetten — je neemt geen positie in bij een onderzoek; je participeert.",
       "3": "'Meenemen' = iets meenemen naar een plek — het onderzoek neem je niet mee; je neemt eraan deel."
     },
-    "hint": "Je wordt gevraagd om mee te doen aan het onderzoek. Welk werkwoord past bij 'participeren aan'?"
+    "hint": "Je wordt gevraagd om mee te doen aan het onderzoek. Welk werkwoord past bij 'participeren aan'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "We hebben de agenda voor de vergadering van morgen al ______; alles staat vast.",
@@ -558,7 +654,10 @@
       "2": "'Aannemen' = goedkeuren of accepteren — een agenda neem je niet aan; in een parlementaire context neem je een motie aan.",
       "3": "'Overnemen' = van iemand anders overnemen — de agenda wordt niet van iemand anders overgenomen; jullie hebben hem samen bekeken."
     },
-    "hint": "Jullie hebben de agenda samen bekeken en besproken. Welk prefix past bij 'samen punt voor punt bespreken'?"
+    "hint": "Jullie hebben de agenda samen bekeken en besproken. Welk prefix past bij 'samen punt voor punt bespreken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De werknemer heeft zijn medicijnen al drie weken niet ______ zoals de dokter had voorgeschreven.",
@@ -575,7 +674,10 @@
       "1": "'Afnemen' = wegnemen of verminderen — medicijnen worden niet afgenomen; ze worden ingenomen.",
       "2": "'Aannemen' = accepteren — je accepteert medicijnen niet; je neemt ze in als je ze slikt."
     },
-    "hint": "Hij moet zijn pillen slikken zoals voorgeschreven. Welk prefix past bij 'medicijnen tot je nemen'?"
+    "hint": "Hij moet zijn pillen slikken zoals voorgeschreven. Welk prefix past bij 'medicijnen tot je nemen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Als u klachten heeft over de levering, kunt u contact ______ met onze afdeling klantenservice.",
@@ -592,7 +694,10 @@
       "1": "'Meenemen' = meenemen naar een andere plek — contact neem je niet mee; je neemt het op.",
       "3": "'Afnemen' = verminderen of wegnemen — contact wordt niet afgenomen; je neemt het op."
     },
-    "hint": "U wilt de klantenservice bereiken. Welk prefix past bij 'communicatie starten met'?"
+    "hint": "U wilt de klantenservice bereiken. Welk prefix past bij 'communicatie starten met'?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Mijn collega heeft haar taken ______ terwijl ik twee weken met zwangerschapsverlof was.",
@@ -609,7 +714,10 @@
       "2": "'Innemen' = een positie bezetten — taken worden niet ingenomen; ze worden overgenomen.",
       "3": "'Meenemen' = meenemen naar een andere plek — taken worden niet meegenomen; ze worden overgenomen."
     },
-    "hint": "Je collega deed jouw werk terwijl jij afwezig was. Welk prefix past bij 'de taken van iemand anders op je nemen'?"
+    "hint": "Je collega deed jouw werk terwijl jij afwezig was. Welk prefix past bij 'de taken van iemand anders op je nemen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij wil zijn woorden ______ die hij in boosheid heeft gezegd, maar zijn collega is al weg.",
@@ -626,7 +734,10 @@
       "2": "'Aannemen' = accepteren — hij trekt zijn woorden niet aan; hij wil ze terugnemen.",
       "3": "'Meenemen' = iets meenemen naar een plek — woorden neem je niet mee; je neemt ze terug."
     },
-    "hint": "Hij heeft spijt van wat hij zei en wil het ongedaan maken. Welk prefix past bij 'intrekken wat je hebt gezegd'?"
+    "hint": "Hij heeft spijt van wat hij zei en wil het ongedaan maken. Welk prefix past bij 'intrekken wat je hebt gezegd'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De spanning tussen de twee afdelingen is de afgelopen weken sterk ______ door slechte communicatie.",
@@ -643,7 +754,10 @@
       "1": "'Opnemen' = vastleggen of toelaten — spanning wordt niet opgenomen; je zegt bijv. 'de patiënt is opgenomen'.",
       "2": "'Aannemen' = veronderstellen — spanning wordt niet aangenomen; je zegt bijv. 'ik neem aan dat het klopt'."
     },
-    "hint": "Door slechte communicatie is de spanning groter geworden. Welk prefix past bij 'sterker of groter worden'?"
+    "hint": "Door slechte communicatie is de spanning groter geworden. Welk prefix past bij 'sterker of groter worden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De huisarts is twee weken op vakantie; een collega-arts zal haar praktijk in die tijd ______.",
@@ -660,7 +774,10 @@
       "2": "'Aannemen' = in dienst nemen — de collega wordt niet aangenomen; ze vervangt tijdelijk.",
       "3": "'Opnemen' = vastleggen of toelaten — een praktijk wordt niet opgenomen; je zegt bijv. 'de patiënt is opgenomen'."
     },
-    "hint": "De huisarts komt terug na vakantie. Is de vervanging tijdelijk of definitief? Welk prefix past bij 'tijdelijk vervangen'?"
+    "hint": "De huisarts komt terug na vakantie. Is de vervanging tijdelijk of definitief? Welk prefix past bij 'tijdelijk vervangen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Er staat iemand aan de deur met een pakket. Kun je het even ______?",
@@ -677,7 +794,10 @@
       "2": "'Meenemen' = iets meenemen naar een andere plek — je neemt het pakket niet mee; je ontvangt het ter plekke.",
       "3": "'Afnemen' = wegnemen van iemand — je pakt het pakket niet af van de bezorger; je ontvangt het vriendelijk."
     },
-    "hint": "De bezorger geeft je iets. Welk prefix past bij 'ontvangen wat iemand je aanreikt'?"
+    "hint": "De bezorger geeft je iets. Welk prefix past bij 'ontvangen wat iemand je aanreikt'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Door de economische crisis is de vraag naar luxeproducten sterk ______.",
@@ -694,7 +814,10 @@
       "1": "'Aannemen' = veronderstellen — vraag wordt niet aangenomen; ze stijgt of daalt.",
       "2": "'Opnemen' = vastleggen — vraag wordt niet opgenomen; ze neemt af."
     },
-    "hint": "Mensen kopen minder luxeproducten tijdens de crisis. Welk prefix past bij 'dalen, minder worden'?"
+    "hint": "Mensen kopen minder luxeproducten tijdens de crisis. Welk prefix past bij 'dalen, minder worden'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De populairste artiest neemt ______ aan zeven optredens dit jaar, waaronder een groot festival.",
@@ -711,7 +834,10 @@
       "2": "'Afnemen' = verminderen — de artiest vermindert niet; ze doet mee.",
       "3": "'Innemen' = een positie bezetten — de artiest neemt geen positie in bij optredens; ze neemt eraan deel."
     },
-    "hint": "De artiest doet mee aan de optredens. Welk prefix hoort bij 'meedoen, participeren'?"
+    "hint": "De artiest doet mee aan de optredens. Welk prefix hoort bij 'meedoen, participeren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De vergadering heeft lang geduurd: ze hebben de jaarresultaten uitgebreid ______.",
@@ -728,7 +854,10 @@
       "1": "'Aannemen' = goedkeuren — jaarresultaten worden niet aangenomen; ze worden doorgenomen.",
       "2": "'Opnemen' = vastleggen — jaarresultaten worden niet opgenomen op video; ze worden besproken."
     },
-    "hint": "Ze hebben de jaarresultaten punt voor punt besproken. Welk prefix past bij 'samen grondig bespreken'?"
+    "hint": "Ze hebben de jaarresultaten punt voor punt besproken. Welk prefix past bij 'samen grondig bespreken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze is erg ______ met de reacties op haar presentatie; iedereen was enthousiast.",
@@ -745,7 +874,10 @@
       "2": "'Aangenomen' = geaccepteerd of in dienst genomen — ze is niet aangenomen; ze is tevreden met de reacties.",
       "3": "'Afgenomen' = verminderd — reacties nemen niet af; ze is blij met de reacties."
     },
-    "hint": "Ze is heel tevreden en blij. Welk prefix past bij 'blij zijn met, tevreden zijn over'?"
+    "hint": "Ze is heel tevreden en blij. Welk prefix past bij 'blij zijn met, tevreden zijn over'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De projectmanager heeft besloten een aantal nieuwe stappen ______ om de deadline te halen.",
@@ -762,7 +894,10 @@
       "2": "'Innemen' = een positie bezetten — stappen worden niet ingenomen; je zegt bijv. 'een standpunt innemen'.",
       "3": "'Aannemen' = accepteren — stappen worden niet aangenomen; je neemt stappen aan in een dans, niet in een projectplan."
     },
-    "hint": "De projectmanager gaat actief iets doen om het probleem op te lossen. Welk prefix past bij 'actie zetten'?"
+    "hint": "De projectmanager gaat actief iets doen om het probleem op te lossen. Welk prefix past bij 'actie zetten'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Er was zoveel nieuwe informatie tijdens de training dat ik niet alles kon ______.",
@@ -779,7 +914,10 @@
       "1": "'Doornemen' = iets doorlezen of bespreken — je leest de informatie niet door; je verwerkt hem.",
       "3": "'Aannemen' = accepteren of veronderstellen — je veronderstelt de informatie niet; je verwerkt hem."
     },
-    "hint": "Er was te veel informatie om allemaal te verwerken. Welk prefix past bij 'informatie cognitief absorberen'?"
+    "hint": "Er was te veel informatie om allemaal te verwerken. Welk prefix past bij 'informatie cognitief absorberen'?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "De nieuwe medewerker heeft de gewoonte van haar team ______ om elke ochtend te beginnen met een korte standup.",
@@ -796,7 +934,10 @@
       "1": "'Meenemen' = meenemen naar een plek — een gewoonte neem je niet mee; je neemt haar over.",
       "2": "'Opnemen' = vastleggen — een gewoonte wordt niet opgenomen; ze wordt overgenomen."
     },
-    "hint": "Ze doet nu iets wat ze van haar team heeft geleerd. Welk prefix past bij 'iets van een ander kopiëren'?"
+    "hint": "Ze doet nu iets wat ze van haar team heeft geleerd. Welk prefix past bij 'iets van een ander kopiëren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De winkel heeft het defecte koffiezetapparaat zonder problemen ______, en het geld is al teruggestort.",
@@ -813,7 +954,10 @@
       "1": "'Aannemen' = accepteren in het algemeen — voor retourproducten is 'terugnemen' de specifieke term, niet 'aannemen'.",
       "3": "'Opnemen' = vastleggen of toelaten — een product wordt niet opgenomen; je zegt bijv. 'de patiënt is opgenomen'."
     },
-    "hint": "De klant brengt een kapot product terug en de winkel accepteert het. Welk prefix past bij 'een retour accepteren'?"
+    "hint": "De klant brengt een kapot product terug en de winkel accepteert het. Welk prefix past bij 'een retour accepteren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het aantal mensen dat thuis werkt, is de afgelopen vijf jaar enorm ______.",
@@ -830,7 +974,10 @@
       "1": "'Overnemen' = van iemand anders overnemen — thuiswerkers worden niet overgenomen; hun aantal stijgt.",
       "2": "'Aannemen' = veronderstellen of in dienst nemen — het aantal wordt niet aangenomen; het groeit."
     },
-    "hint": "Er zijn veel meer thuiswerkers dan vijf jaar geleden. Welk prefix past bij 'groeien, meer worden'?"
+    "hint": "Er zijn veel meer thuiswerkers dan vijf jaar geleden. Welk prefix past bij 'groeien, meer worden'?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Van de gemeente hebben we ______ dat de vergunning is goedgekeurd.",
@@ -847,7 +994,10 @@
       "1": "'Aannemen' = veronderstellen — je veronderstelt het niet; je hebt de bevestiging officieel ontvangen.",
       "3": "'Meenemen' = meenemen naar een plek — nieuws neem je niet mee; je verneemt het."
     },
-    "hint": "Jullie hebben het nieuws officieel gehoord van een instantie. Welk prefix past bij 'officieel te weten komen'?"
+    "hint": "Jullie hebben het nieuws officieel gehoord van een instantie. Welk prefix past bij 'officieel te weten komen'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De wetenschapper heeft tijdens het experiment een onverwacht verschijnsel nauwkeurig ______.",
@@ -864,7 +1014,10 @@
       "1": "'Aannemen' = veronderstellen of accepteren — 'aannemen' gaat over een veronderstelling, niet over directe observatie.",
       "2": "'Doorgaan' = verdergaan of ergens mee verder gaan — dat heeft niets te maken met observeren in een experiment."
     },
-    "hint": "De wetenschapper ziet en registreert iets nieuws in zijn experiment. Welk prefix past bij 'observeren, met aandacht registreren'?"
+    "hint": "De wetenschapper ziet en registreert iets nieuws in zijn experiment. Welk prefix past bij 'observeren, met aandacht registreren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De Tweede Kamer heeft de nieuwe wet gisteren met een grote meerderheid ______.",
@@ -881,7 +1034,10 @@
       "2": "'Afnemen' = verminderen of wegnemen — een wet wordt niet afgenomen; je zegt bijv. 'een toets afnemen'.",
       "3": "'Opnemen' = vastleggen of toelaten — een wet wordt niet opgenomen in een stemming; ze wordt aangenomen."
     },
-    "hint": "Het parlement stemt voor de wet. Welk prefix past bij 'officieel goedkeuren door stemming'?"
+    "hint": "Het parlement stemt voor de wet. Welk prefix past bij 'officieel goedkeuren door stemming'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het bedrijf neemt jaarlijks diensten ______ bij drie vaste leveranciers voor IT, schoonmaak en beveiliging.",
@@ -898,7 +1054,10 @@
       "1": "'Aannemen' = accepteren — 'diensten aannemen' past niet; je neemt diensten af bij een leverancier.",
       "2": "'Meenemen' = meenemen naar een plek — diensten neem je niet mee; je neemt ze af."
     },
-    "hint": "Het bedrijf koopt diensten bij leveranciers. Welk prefix hoort bij 'diensten kopen bij een leverancier'?"
+    "hint": "Het bedrijf koopt diensten bij leveranciers. Welk prefix hoort bij 'diensten kopen bij een leverancier'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De studenten nemen dit semester ______ aan een internationaal uitwisselingsprogramma in Brussel.",
@@ -915,7 +1074,10 @@
       "1": "'Opnemen' = vastleggen of contact starten — de studenten nemen het programma niet op; ze nemen eraan deel.",
       "3": "'Innemen' = een positie bezetten — de studenten nemen geen positie in; ze participeren."
     },
-    "hint": "De studenten gaan mee naar het programma in Brussel. Welk prefix hoort bij 'meedoen aan, participeren'?"
+    "hint": "De studenten gaan mee naar het programma in Brussel. Welk prefix hoort bij 'meedoen aan, participeren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De docent heeft haar leerlingen gevraagd de tekst thuis ______ voor de les van morgen.",
@@ -932,7 +1094,10 @@
       "2": "'Aannemen' = accepteren — leerlingen accepteren de tekst niet; ze lezen hem door.",
       "3": "'Afnemen' = wegnemen of een toets leiden — de tekst wordt niet afgenomen; leerlingen lezen hem door."
     },
-    "hint": "De leerlingen moeten de tekst lezen als huiswerk. Welk prefix past bij 'lezen en bestuderen'?"
+    "hint": "De leerlingen moeten de tekst lezen als huiswerk. Welk prefix past bij 'lezen en bestuderen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij nam in de discussie duidelijk het ______ dat meer investering in onderwijs nodig is.",
@@ -949,7 +1114,10 @@
       "2": "'Opnemen' = vastleggen — een standpunt wordt niet opgenomen; het wordt ingenomen.",
       "3": "'Aannemen' = veronderstellen of accepteren — een standpunt wordt aangenomen als anderen het accepteren, maar men neemt zelf een standpunt in."
     },
-    "hint": "Hij kiest een duidelijke positie in de discussie. Welk prefix hoort bij 'een standpunt ... nemen'?"
+    "hint": "Hij kiest een duidelijke positie in de discussie. Welk prefix hoort bij 'een standpunt ... nemen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "We moeten alle risico's ______ in onze beslissing voordat we tekenen.",
@@ -966,7 +1134,10 @@
       "1": "'Aannemen' = veronderstellen — risico's worden niet verondersteld; ze worden meegenomen in de afweging.",
       "3": "'Innemen' = een positie bezetten — risico's nemen geen positie in; ze worden meegewogen."
     },
-    "hint": "Je moet rekening houden met alle risico's bij het nemen van de beslissing. Welk prefix past bij 'betrekken bij een overweging'?"
+    "hint": "Je moet rekening houden met alle risico's bij het nemen van de beslissing. Welk prefix past bij 'betrekken bij een overweging'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze hebben samen een lange expeditie ______ door de bergen van Nepal.",
@@ -983,7 +1154,10 @@
       "1": "'Opnemen' = vastleggen — een expeditie wordt niet opgenomen op video (in deze zin); je onderneemt haar.",
       "3": "'Meenemen' = iets meenemen naar een plek — een expeditie neem je niet mee; je onderneemt haar."
     },
-    "hint": "Ze zijn samen aan een groot avontuur begonnen. Welk prefix past bij 'iets groots beginnen en uitvoeren'?"
+    "hint": "Ze zijn samen aan een groot avontuur begonnen. Welk prefix past bij 'iets groots beginnen en uitvoeren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De feedback van de klant is erg nuttig; laten we die ______ in de volgende versie van het product.",
@@ -1000,7 +1174,10 @@
       "2": "'Innemen' = een positie bezetten of medicijnen slikken — feedback wordt niet ingenomen; je neemt het op in het product.",
       "3": "'Afnemen' = verminderen of wegnemen — feedback wordt niet afgenomen; je verwerkt het."
     },
-    "hint": "De feedback moet worden verwerkt en toegevoegd aan het product. Welk prefix past bij 'iets includeren in iets anders'?"
+    "hint": "De feedback moet worden verwerkt en toegevoegd aan het product. Welk prefix past bij 'iets includeren in iets anders'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ons bedrijf heeft besloten de activiteiten van een concurrent ______ om marktaandeel te winnen.",
@@ -1017,7 +1194,10 @@
       "1": "'Opnemen' = toelaten of vastleggen — activiteiten worden niet opgenomen; ze worden overgenomen.",
       "3": "'Innemen' = een positie bezetten — activiteiten worden niet ingenomen; ze worden overgenomen."
     },
-    "hint": "Het bedrijf koopt de activiteiten van een concurrent. Welk prefix past bij 'kopen en in bezit nemen'?"
+    "hint": "Het bedrijf koopt de activiteiten van een concurrent. Welk prefix past bij 'kopen en in bezit nemen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De advocaat heeft haar uitspraken later ______ omdat ze juridisch onjuist bleken te zijn.",
@@ -1034,7 +1214,10 @@
       "1": "'Afnemen' = verminderen of wegnemen — uitspraken worden niet afgenomen; je zegt bijv. 'de pijn neemt af'.",
       "3": "'Opnemen' = vastleggen of emotioneel verwerken — de uitspraken worden hier ingetrokken, niet vastgelegd."
     },
-    "hint": "Ze zei iets wat niet klopte en heeft het ingetrokken. Welk prefix past bij 'intrekken wat je eerder hebt gezegd'?"
+    "hint": "Ze zei iets wat niet klopte en heeft het ingetrokken. Welk prefix past bij 'intrekken wat je eerder hebt gezegd'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De populariteit van de nieuwe app is de afgelopen maand explosief ______.",
@@ -1051,7 +1234,10 @@
       "1": "'Overnemen' = van iemand anders overnemen — populariteit wordt niet overgenomen; ze groeit.",
       "2": "'Aannemen' = veronderstellen — populariteit wordt niet aangenomen; ze neemt toe."
     },
-    "hint": "De app heeft steeds meer gebruikers gekregen. Welk prefix past bij 'groeien, populairder worden'?"
+    "hint": "De app heeft steeds meer gebruikers gekregen. Welk prefix past bij 'groeien, populairder worden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Graag ______ wij van u of de bestelling op tijd zal aankomen.",
@@ -1068,7 +1254,10 @@
       "1": "'Waarnemen' = observeren of tijdelijk vervangen — je observeert de bestelling niet; je wilt er informatie over ontvangen.",
       "3": "'Aannemen' = veronderstellen — je veronderstelt het niet; je wilt het weten."
     },
-    "hint": "Dit is een formele zakelijke zin: jullie willen graag van hen horen. Welk prefix past bij 'informatie ontvangen' in formeel register?"
+    "hint": "Dit is een formele zakelijke zin: jullie willen graag van hen horen. Welk prefix past bij 'informatie ontvangen' in formeel register?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik heb me ______ om dit jaar vaker te sporten, want ik beweeg te weinig.",
@@ -1085,7 +1274,10 @@
       "1": "'Opnemen' = vastleggen of toelaten — je wordt niet opgenomen; je maakt een voornemen.",
       "3": "'Meenemen' = iets meenemen naar een plek — een voornemen neem je niet mee; je neemt het je voor."
     },
-    "hint": "Je hebt een persoonlijk plan gemaakt voor de toekomst. Welk prefix past bij 'een besluit nemen voor jezelf'?"
+    "hint": "Je hebt een persoonlijk plan gemaakt voor de toekomst. Welk prefix past bij 'een besluit nemen voor jezelf'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun jij volgende week mijn taken ______ terwijl ik op cursus ben? Ik ben dan drie dagen weg.",
@@ -1102,7 +1294,10 @@
       "2": "'Innemen' = een positie bezetten of medicijnen slikken — taken worden niet ingenomen; je zegt bijv. 'een standpunt innemen'.",
       "3": "'Afnemen' = wegnemen of verminderen — taken worden niet afgepakt van een collega in vriendelijke context; je zegt bijv. 'bloed afnemen'."
     },
-    "hint": "Je vraagt een collega om jouw werk tijdelijk te doen terwijl jij weg bent. Welk prefix past bij 'tijdelijk vervangen'?"
+    "hint": "Je vraagt een collega om jouw werk tijdelijk te doen terwijl jij weg bent. Welk prefix past bij 'tijdelijk vervangen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij nam de uitdaging van zijn collega ______ om het project in drie weken af te ronden.",
@@ -1119,7 +1314,10 @@
       "2": "'Meenemen' = meenemen naar een plek — een uitdaging neem je niet mee; je neemt haar aan.",
       "3": "'Innemen' = een positie bezetten — een uitdaging wordt niet ingenomen; ze wordt aangenomen."
     },
-    "hint": "Hij zegt 'ja' op de uitdaging van zijn collega. Welk prefix past bij 'een uitdaging accepteren'?"
+    "hint": "Hij zegt 'ja' op de uitdaging van zijn collega. Welk prefix past bij 'een uitdaging accepteren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De verpleegkundige heeft 's ochtends vroeg bloed bij alle patiënten op de afdeling ______.",
@@ -1136,7 +1334,10 @@
       "1": "'Opnemen' = in het ziekenhuis toelaten — de patiënten liggen al op de afdeling; hier gaat het om bloedprikken.",
       "2": "'Aannemen' = accepteren — bloed wordt niet aangenomen; het wordt afgenomen door de verpleegkundige."
     },
-    "hint": "De verpleegkundige prikt bloed bij de patiënten. Welk prefix past bij 'bloed wegnemen voor onderzoek'?"
+    "hint": "De verpleegkundige prikt bloed bij de patiënten. Welk prefix past bij 'bloed wegnemen voor onderzoek'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze nemen dit jaar ______ aan het EK voetbal, maar de kans op de finale is klein.",
@@ -1153,7 +1354,10 @@
       "1": "'Innemen' = veroveren of bezetten — een toernooi wordt niet ingenomen; je doet eraan deel.",
       "3": "'Opnemen' = vastleggen — het toernooi wordt hier niet gefilmd; het team neemt eraan deel."
     },
-    "hint": "Het team doet mee aan het toernooi. Welk prefix hoort bij 'participeren, meedoen aan'?"
+    "hint": "Het team doet mee aan het toernooi. Welk prefix hoort bij 'participeren, meedoen aan'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De trainer besprak de wedstrijd uitgebreid met zijn spelers: ze hebben elke fase samen ______.",
@@ -1170,7 +1374,10 @@
       "1": "'Aannemen' = accepteren — een wedstrijd wordt niet aangenomen; ze wordt besproken.",
       "3": "'Opnemen' = vastleggen op video — de wedstrijd was al gespeeld; hier gaat het om de nabespreking."
     },
-    "hint": "De trainer analyseert de wedstrijd fase voor fase met zijn spelers. Welk prefix past bij 'samen stap voor stap bespreken'?"
+    "hint": "De trainer analyseert de wedstrijd fase voor fase met zijn spelers. Welk prefix past bij 'samen stap voor stap bespreken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De verpleegkundige vroeg of hij zijn antibiotica al had ______, want ze mogen niet op een lege maag worden genomen.",
@@ -1187,7 +1394,10 @@
       "1": "'Afnemen' = wegnemen — antibiotica worden niet afgepakt; je slikt ze.",
       "2": "'Aannemen' = accepteren — medicijnen neem je niet aan; je neemt ze in."
     },
-    "hint": "Hij moet zijn pillen elke dag slikken. Welk prefix past bij 'medicijnen tot je nemen'?"
+    "hint": "Hij moet zijn pillen elke dag slikken. Welk prefix past bij 'medicijnen tot je nemen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze heeft haar collega ______ zodat hij ook bij het gesprek met de klant aanwezig kon zijn.",
@@ -1204,7 +1414,10 @@
       "1": "'Opnemen' = vastleggen of toelaten — de collega wordt niet opgenomen; hij gaat mee.",
       "3": "'Overnemen' = van iemand anders overnemen — de collega neemt niets over; hij gaat mee."
     },
-    "hint": "Ze neemt haar collega mee zodat hij erbij kan zijn. Welk prefix past bij 'iemand met je meenemen'?"
+    "hint": "Ze neemt haar collega mee zodat hij erbij kan zijn. Welk prefix past bij 'iemand met je meenemen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het team heeft een nieuw project ______ op verzoek van de internationale afdeling.",
@@ -1221,7 +1434,10 @@
       "1": "'Opnemen' = vastleggen of toelaten — een project wordt niet opgenomen; je neemt het op je of onderneemt het.",
       "3": "'Innemen' = een positie bezetten — een project wordt niet ingenomen; je onderneemt het."
     },
-    "hint": "Het team is actief begonnen met het nieuwe project. Welk prefix past bij 'actief beginnen en uitvoeren'?"
+    "hint": "Het team is actief begonnen met het nieuwe project. Welk prefix past bij 'actief beginnen en uitvoeren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Bij de pinautomaat wil ik honderd euro ______ voor de boodschappen van het weekend.",
@@ -1238,7 +1454,10 @@
       "1": "'Aannemen' = accepteren of in dienst nemen — geld neem je niet aan van een automaat; je neemt het op.",
       "3": "'Meenemen' = meenemen naar een plek — geld neem je niet mee van de automaat in technische zin; je neemt het op van je rekening."
     },
-    "hint": "Je haalt geld van je bankrekening via de automaat. Welk prefix past bij 'geld van je rekening halen'?"
+    "hint": "Je haalt geld van je bankrekening via de automaat. Welk prefix past bij 'geld van je rekening halen'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De student heeft hele paragrafen letterlijk uit het bronnenboek ______, zonder de bron te vermelden.",
@@ -1255,7 +1474,10 @@
       "2": "'Opnemen' = vastleggen of toelaten — paragrafen worden niet opgenomen op video; ze worden gekopieerd.",
       "3": "'Aannemen' = accepteren of veronderstellen — paragrafen worden niet aangenomen; ze worden letterlijk overgenomen."
     },
-    "hint": "De student kopieert tekst van iemand anders zonder bronvermelding. Welk prefix past bij 'tekst kopiëren van een bron'?"
+    "hint": "De student kopieert tekst van iemand anders zonder bronvermelding. Welk prefix past bij 'tekst kopiëren van een bron'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na de ruzie wilde hij zijn harde woorden ______, maar zijn vriendin had de telefoon al neergelegd.",
@@ -1272,7 +1494,10 @@
       "1": "'Aannemen' = accepteren — hij accepteert zijn woorden niet; hij wil ze terugnemen.",
       "3": "'Meenemen' = meenemen naar een plek — woorden neem je niet mee; je neemt ze terug."
     },
-    "hint": "Hij heeft spijt en wil ongedaan maken wat hij zei. Welk prefix past bij 'intrekken wat je hebt gezegd'?"
+    "hint": "Hij heeft spijt en wil ongedaan maken wat hij zei. Welk prefix past bij 'intrekken wat je hebt gezegd'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De interesse in duurzame energie is de afgelopen tien jaar enorm ______ in Nederland.",
@@ -1289,7 +1514,10 @@
       "1": "'Opnemen' = vastleggen of toelaten — interesse wordt niet opgenomen; ze groeit.",
       "2": "'Aannemen' = veronderstellen — interesse wordt niet aangenomen; ze neemt toe."
     },
-    "hint": "Steeds meer mensen zijn geïnteresseerd in duurzame energie. Welk prefix past bij 'groeien, meer worden'?"
+    "hint": "Steeds meer mensen zijn geïnteresseerd in duurzame energie. Welk prefix past bij 'groeien, meer worden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Wij hebben van de directie ______ dat het budget voor volgend jaar wordt verhoogd.",
@@ -1306,7 +1534,10 @@
       "1": "'Meenemen' = meenemen of betrekken in een overweging — nieuws verneemt je, niet meenemen.",
       "2": "'Opnemen' = vastleggen of contact starten — je hebt het nieuws niet gefilmd; je hebt het gehoord."
     },
-    "hint": "Jullie hebben het nieuws officieel gehoord van de directie. Welk prefix past bij 'officieel te weten komen'?"
+    "hint": "Jullie hebben het nieuws officieel gehoord van de directie. Welk prefix past bij 'officieel te weten komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze heeft zich ______ om dit jaar elke maand een boek te lezen.",
@@ -1323,7 +1554,10 @@
       "1": "'Opnemen' = vastleggen — je wordt niet opgenomen; je neemt je iets voor.",
       "2": "'Meenemen' = meenemen naar een plek — een voornemen neem je niet mee; je neemt het je voor."
     },
-    "hint": "Ze heeft een persoonlijk doel gesteld voor dit jaar. Welk prefix past bij 'een besluit nemen voor jezelf'?"
+    "hint": "Ze heeft een persoonlijk doel gesteld voor dit jaar. Welk prefix past bij 'een besluit nemen voor jezelf'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De manager belt met de leverancier. Kun jij intussen de vergadering ______?",
@@ -1340,7 +1574,10 @@
       "2": "'Ondernemen' = actie zetten — je onderneemt de vergadering niet; je leidt haar tijdelijk.",
       "3": "'Innemen' = een positie bezetten — je neemt de vergadering niet in; je waarneemt de rol van de manager."
     },
-    "hint": "De manager is even weg en jij moet tijdelijk zijn rol invullen. Welk prefix past bij 'tijdelijk iemands functie vervullen'?"
+    "hint": "De manager is even weg en jij moet tijdelijk zijn rol invullen. Welk prefix past bij 'tijdelijk iemands functie vervullen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het product van de startup heeft in korte tijd enorm grote proporties ______.",
@@ -1357,7 +1594,10 @@
       "1": "'Opnemen' = vastleggen — proporties worden niet opgenomen; ze worden aangenomen.",
       "3": "'Afnemen' = verminderen — het product groeit juist; het neemt geen proporties af."
     },
-    "hint": "Het product is snel gegroeid. Welk prefix hoort bij de uitdrukking 'grote proporties ... nemen'?"
+    "hint": "Het product is snel gegroeid. Welk prefix hoort bij de uitdrukking 'grote proporties ... nemen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De journalist heeft het interview met de bekende schrijver helemaal ______ en er later een artikel over geschreven.",
@@ -1374,7 +1614,10 @@
       "2": "'Aannemen' = accepteren — het interview wordt niet aangenomen; de journalist leidt het als interviewer.",
       "3": "'Doornemen' = doorlezen of bespreken — een interview neem je door als je het later leest; hier leidt de journalist het gesprek actief."
     },
-    "hint": "De journalist leidt het gesprek met de schrijver als interviewer. Welk prefix past bij 'een interview leiden als journalist'?"
+    "hint": "De journalist leidt het gesprek met de schrijver als interviewer. Welk prefix past bij 'een interview leiden als journalist'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze nemen ______ aan een intensief taalcursusprogramma van zes weken in Amsterdam.",
@@ -1391,7 +1634,10 @@
       "2": "'Opnemen' = vastleggen of contact starten — de cursus wordt niet opgenomen; ze nemen eraan deel.",
       "3": "'Innemen' = een positie bezetten — de deelnemers nemen geen positie in; ze participeren."
     },
-    "hint": "Ze doen mee aan het cursusprogramma. Welk prefix hoort bij 'meedoen, participeren'?"
+    "hint": "Ze doen mee aan het cursusprogramma. Welk prefix hoort bij 'meedoen, participeren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze heeft het kind meegenomen naar de markt en onderweg een boodschappenlijstje ______.",
@@ -1408,7 +1654,10 @@
       "1": "'Opnemen' = vastleggen op video — een boodschappenlijstje wordt niet gefilmd; je bekijkt het snel.",
       "2": "'Aannemen' = accepteren of in dienst nemen — een boodschappenlijstje neem je niet aan; je neemt het door."
     },
-    "hint": "Ze bekijkt snel de boodschappenlijst terwijl ze loopt. Welk prefix past bij 'iets snel bekijken'?"
+    "hint": "Ze bekijkt snel de boodschappenlijst terwijl ze loopt. Welk prefix past bij 'iets snel bekijken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Met haar open houding en goede vragen wist ze het publiek volledig voor zich ______ te nemen.",
@@ -1425,7 +1674,10 @@
       "1": "'Aannemen' = accepteren — 'iemand voor zich aannemen' bestaat niet; je neemt iemand voor je in.",
       "2": "'Opnemen' = vastleggen of verdedigen — 'het publiek voor zich opnemen' bestaat niet als uitdrukking."
     },
-    "hint": "Ze charmeert het publiek en wint hun sympathie. Welk prefix hoort bij de uitdrukking 'iemand voor zich ... nemen'?"
+    "hint": "Ze charmeert het publiek en wint hun sympathie. Welk prefix hoort bij de uitdrukking 'iemand voor zich ... nemen'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Alle feedback die we tijdens de presentatie hebben gekregen, moeten we ______ in onze planning.",
@@ -1442,7 +1694,10 @@
       "2": "'Afnemen' = verminderen of wegnemen — feedback wordt niet afgenomen; je verwerkt het in je plan.",
       "3": "'Vernemen' = officieel horen — feedback wordt hier niet gehoord; het is al ontvangen en moet worden meegenomen."
     },
-    "hint": "De feedback moet onderdeel worden van het plan. Welk prefix past bij 'iets betrekken bij een overweging'?"
+    "hint": "De feedback moet onderdeel worden van het plan. Welk prefix past bij 'iets betrekken bij een overweging'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De gemeente heeft besloten extra maatregelen ______ om de veiligheid op de fietspaden te verbeteren.",
@@ -1459,7 +1714,10 @@
       "2": "'Innemen' = een positie bezetten — maatregelen worden niet ingenomen; ze worden ondernomen.",
       "3": "'Aannemen' = officieel goedkeuren — 'maatregelen aannemen' past in een parlementaire context, maar 'ondernemen' benadrukt de actieve uitvoering."
     },
-    "hint": "De gemeente gaat actief iets doen om de situatie te verbeteren. Welk prefix past bij 'actie zetten, uitvoeren'?"
+    "hint": "De gemeente gaat actief iets doen om de situatie te verbeteren. Welk prefix past bij 'actie zetten, uitvoeren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De nieuwe teamleider heeft snel alle namen en gezichten van zijn collega's ______.",
@@ -1476,7 +1734,10 @@
       "1": "'Aannemen' = accepteren — namen worden niet aangenomen; ze worden onthouden.",
       "2": "'Doornemen' = doorlezen of bespreken — namen lees je niet door; je neemt ze op in je geheugen."
     },
-    "hint": "De teamleider onthoudt snel alle namen. Welk prefix past bij 'informatie snel verwerken en onthouden'?"
+    "hint": "De teamleider onthoudt snel alle namen. Welk prefix past bij 'informatie snel verwerken en onthouden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De aannemer heeft het bouwproject ______ van de vorige aannemer, die failliet was gegaan.",
@@ -1493,7 +1754,10 @@
       "1": "'Aannemen' = in dienst nemen of accepteren — een project neem je niet aan van een failliet bedrijf; je neemt het over.",
       "2": "'Afnemen' = verminderen of wegnemen — het project wordt niet afgenomen; het wordt overgenomen."
     },
-    "hint": "Een nieuwe aannemer zet het werk voort dat een ander heeft achtergelaten. Welk prefix past bij 'het werk van een ander voortzetten'?"
+    "hint": "Een nieuwe aannemer zet het werk voort dat een ander heeft achtergelaten. Welk prefix past bij 'het werk van een ander voortzetten'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De oud-werknemer heeft zijn beschuldiging uiteindelijk ______ nadat zijn advocaat hem had geadviseerd.",
@@ -1510,7 +1774,10 @@
       "1": "'Teruggaan' = ergens naar terugkeren — de oud-werknemer gaat niet ergens naartoe; hij trekt zijn beschuldiging in.",
       "3": "'Terugbrengen' = iets fysiek terugbrengen — een beschuldiging breng je niet terug; je neemt hem terug."
     },
-    "hint": "Hij zei iets wat hij nu intrekt op advies van zijn advocaat. Welk werkwoord past bij 'een uitspraak intrekken'?"
+    "hint": "Hij zei iets wat hij nu intrekt op advies van zijn advocaat. Welk werkwoord past bij 'een uitspraak intrekken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het gebruik van sociale media onder tieners is de afgelopen jaren sterk ______, ondanks de zorgen van ouders.",
@@ -1527,7 +1794,10 @@
       "1": "'Overnemen' = van iemand anders overnemen — gebruik wordt niet overgenomen; het neemt toe.",
       "3": "'Opnemen' = vastleggen — gebruik wordt niet opgenomen; het groeit."
     },
-    "hint": "Tieners gebruiken steeds meer sociale media. Welk prefix past bij 'groter worden, stijgen'?"
+    "hint": "Tieners gebruiken steeds meer sociale media. Welk prefix past bij 'groter worden, stijgen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Van het ministerie hebben we ______ dat de subsidieaanvraag is goedgekeurd.",
@@ -1544,7 +1814,10 @@
       "1": "'Meenemen' = meenemen naar een plek — nieuws verneemt je; je neemt het niet mee.",
       "2": "'Aannemen' = veronderstellen — je veronderstelt het niet; je hebt de officiële bevestiging ontvangen."
     },
-    "hint": "Jullie hebben officieel bericht ontvangen van het ministerie. Welk prefix past bij 'officieel te weten komen'?"
+    "hint": "Jullie hebben officieel bericht ontvangen van het ministerie. Welk prefix past bij 'officieel te weten komen'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik heb me goed ______ om dit jaar geen overuren meer te maken.",
@@ -1561,7 +1834,10 @@
       "2": "'Opnemen' = vastleggen of toelaten — je wordt niet opgenomen; je maakt een persoonlijk besluit.",
       "3": "'Meenemen' = meenemen naar een plek — een voornemen neem je niet mee; je neemt het je voor."
     },
-    "hint": "Je hebt een persoonlijk besluit genomen over je werkgewoonten. Welk prefix past bij 'een besluit nemen voor jezelf'?"
+    "hint": "Je hebt een persoonlijk besluit genomen over je werkgewoonten. Welk prefix past bij 'een besluit nemen voor jezelf'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij heeft de rol van projectleider ______ omdat zijn manager plotseling ziek werd.",
@@ -1578,6 +1854,9 @@
       "1": "'Opnemen' = vastleggen of toelaten — de rol wordt niet opgenomen; hij waarneemt hem tijdelijk.",
       "3": "'Aannemen' = permanent accepteren of in dienst nemen — de manager komt terug na ziekte, dus het is tijdelijk; 'aannemen' suggereert een permanente overname."
     },
-    "hint": "De manager is ziek en hij vult de rol tijdelijk in. Is de situatie tijdelijk of permanent? Welk prefix past bij 'tijdelijk vervangen'?"
+    "hint": "De manager is ziek en hij vult de rol tijdelijk in. Is de situatie tijdelijk of permanent? Welk prefix past bij 'tijdelijk vervangen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   }
 ]

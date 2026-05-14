@@ -1,0 +1,272 @@
+[
+  {
+    "sentence": "De politie wil de verdachte ___ voor nader verhoor.",
+    "options": ["aanhouden", "ophouden", "tegenhouden", "bijhouden"],
+    "correct": 0,
+    "explanation": "'Aanhouden' = iemand arresteren of staande houden. Dit is de vaste politieterm voor het in hechtenis nemen van een verdachte voor verhoor.",
+    "wrongExplanations": {
+      "1": "'Ophouden' = stoppen. Je houdt iemand niet 'op' voor verhoor — dat is geen vaste politieterm.",
+      "2": "'Tegenhouden' = blokkeren of verhinderen. Je kunt iemand tegenhouden om door te gaan, maar 'aanhouden' is de vaste term voor een arrestatie.",
+      "3": "'Bijhouden' = iets volgen of registreren. Je houdt geen verdachte 'bij' voor verhoor."
+    },
+    "hint": "De politie wil de verdachte niet laten gaan. Welk prefix is de vaste politieterm voor iemand arresteren?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Zou je even ___ met dat lawaai? Ik kan me totaal niet concentreren.",
+    "options": ["ophouden", "aanhouden", "bijhouden", "volhouden"],
+    "correct": 0,
+    "explanation": "'Ophouden met' = stoppen met iets. 'Houd op met dat lawaai' is de vaste combinatie als je iemand vraagt iets te staken.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = iemand arresteren of iets laten voortduren. Dat is het tegenovergestelde van stoppen.",
+      "2": "'Bijhouden' = iets volgen of registreren. Je houdt lawaai niet 'bij'.",
+      "3": "'Volhouden' = doorzetten. Dat is ook het tegenovergestelde — je wilt juist dat iemand stopt."
+    },
+    "hint": "Je wilt dat iemand stopt met iets. 'Houd ___ met dat lawaai' — welk prefix past bij stoppen?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "spreektaal"
+  },
+  {
+    "sentence": "Ze wil een dagboek ___ om haar ervaringen vast te leggen.",
+    "options": ["bijhouden", "aanhouden", "ophouden", "inhouden"],
+    "correct": 0,
+    "explanation": "'Bijhouden' = regelmatig invullen of updaten. Een dagboek 'bijhouden' is de vaste combinatie voor het regelmatig schrijven van je ervaringen.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = iemand arresteren of iets laten voortduren. Je houdt een dagboek niet 'aan'.",
+      "2": "'Ophouden' = stoppen. Dat is het tegenovergestelde van regelmatig schrijven.",
+      "3": "'Inhouden' = bevatten of impliceren. Je houdt een dagboek niet 'in'."
+    },
+    "hint": "Ze schrijft regelmatig in haar dagboek. Welk prefix past bij 'iets regelmatig updaten of invullen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De bewaker kon de opgewonden menigte niet meer ___.",
+    "options": ["tegenhouden", "aanhouden", "ophouden", "bijhouden"],
+    "correct": 0,
+    "explanation": "'Tegenhouden' = verhinderen dat iemand of iets doorkomt. De bewaker kon de massa niet langer blokkeren of stoppen.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = arresteren. Één persoon kun je aanhouden, maar een menigte 'tegenhouden' is de vaste term voor blokkeren.",
+      "2": "'Ophouden' = stoppen (intransitief). Je houdt iets niet 'op' als je het blokkeert.",
+      "3": "'Bijhouden' = registreren of gelijke tred houden. Je houdt een menigte niet 'bij'."
+    },
+    "hint": "De bewaker probeert te voorkomen dat de menigte doorkomt. Welk prefix past bij 'blokkeren of verhinderen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Toch moet je ___; de finish is al bijna in zicht.",
+    "options": ["volhouden", "aanhouden", "bijhouden", "ophouden"],
+    "correct": 0,
+    "explanation": "'Volhouden' = doorzetten, niet opgeven. Als de finish in zicht is, moet je doorzetten en niet stoppen.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = iemand arresteren of iets laten voortduren. Dat past niet bij doorzetten in een race.",
+      "2": "'Bijhouden' = iets registreren of bijblijven. 'Bijhouden' gaat over iets volgen, niet over doorzetten.",
+      "3": "'Ophouden' = stoppen. Dat is het tegenovergestelde — je wilt juist niet opgeven."
+    },
+    "hint": "Je bent bijna bij de finish — geef niet op. Welk prefix past bij 'doorzetten ondanks moeilijkheden'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Deze beslissing kan grote gevolgen voor ons ___.",
+    "options": ["inhouden", "aanhouden", "bijhouden", "tegenhouden"],
+    "correct": 0,
+    "explanation": "'Inhouden' = betekenen of impliceren. 'Dat houdt in dat...' is de vaste combinatie voor het aangeven van gevolgen of consequenties.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = iemand arresteren of iets laten voortduren. Dat past niet bij het aangeven van gevolgen.",
+      "2": "'Bijhouden' = iets registreren of bijblijven. Je houdt gevolgen niet 'bij' in deze betekenis.",
+      "3": "'Tegenhouden' = blokkeren. Je houdt gevolgen niet 'tegen'."
+    },
+    "hint": "De beslissing impliceert iets — er zijn gevolgen aan verbonden. Welk prefix past bij 'betekenen of impliceren'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Het slechte weer heeft de hele week ___.",
+    "options": ["aangehouden", "opgehouden", "bijgehouden", "tegengehouden"],
+    "correct": 0,
+    "explanation": "'Aanhouden' = voortduren, blijven bestaan. Als slecht weer aanhoudt, duurt het langer dan verwacht en stopt het niet.",
+    "wrongExplanations": {
+      "1": "'Ophouden' = stoppen. Als het slechte weer ophoudt, stopt het juist — dat is het tegenovergestelde.",
+      "2": "'Bijhouden' = iets registreren. Je houdt slecht weer niet 'bij'.",
+      "3": "'Tegenhouden' = blokkeren. Je houdt slecht weer niet 'tegen' in deze betekenis."
+    },
+    "hint": "Het slechte weer bleef de hele week duren. Welk prefix past bij 'blijven voortduren'?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Gelukkig is de regen na een uur ___.",
+    "options": ["opgehouden", "aangehouden", "bijgehouden", "volgehouden"],
+    "correct": 0,
+    "explanation": "'Ophouden' = stoppen. Als de regen ophoudt, stopt die met vallen. Dit is de vaste combinatie voor regen of een activiteit die eindigt.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = voortduren. Dan zou de regen zijn doorgegaan — dat is het tegenovergestelde.",
+      "2": "'Bijhouden' = iets registreren. Regen houdt niets 'bij'.",
+      "3": "'Volhouden' = doorzetten. 'De regen heeft volgehouden' is geen gebruikelijke combinatie."
+    },
+    "hint": "Na een uur stopte de regen. Welk prefix past bij 'stoppen, eindigen'?",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De accountant heeft alle uitgaven nauwkeurig ___.",
+    "options": ["bijgehouden", "aangehouden", "ingehouden", "tegengehouden"],
+    "correct": 0,
+    "explanation": "'Bijhouden' = nauwkeurig registreren of documenteren. Uitgaven 'bijhouden' is de vaste combinatie voor het documenteren van financiële gegevens.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = iemand arresteren of iets laten voortduren. Je houdt uitgaven niet 'aan'.",
+      "2": "'Inhouden' = bevatten of impliceren. Je houdt uitgaven niet 'in' in boekhoudkundige zin.",
+      "3": "'Tegenhouden' = blokkeren. Je houdt uitgaven niet 'tegen'."
+    },
+    "hint": "De accountant registreerde elke uitgave. Welk prefix past bij 'nauwkeurig registreren of documenteren'?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De douane heeft de verdachte zending bij de grens ___.",
+    "options": ["tegengehouden", "aangehouden", "opgehouden", "ingehouden"],
+    "correct": 0,
+    "explanation": "'Tegenhouden' = verhinderen dat iets doorkomt. De douane blokkeerde de zending en liet die niet passeren.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = arresteren (een persoon) of voortduren. Voor het blokkeren van een zending bij de grens is 'tegenhouden' de vaste term.",
+      "2": "'Ophouden' = stoppen (intransitief). Als transitief werkwoord voor het blokkeren van een zending gebruik je 'tegenhouden'.",
+      "3": "'Inhouden' = bevatten of impliceren. Je houdt een zending niet 'in'."
+    },
+    "hint": "De douane liet de zending niet door. Welk prefix past bij 'verhinderen dat iets doorkomt'?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Ondanks alle kritiek heeft zij haar standpunt ___.",
+    "options": ["volgehouden", "aangehouden", "bijgehouden", "tegengehouden"],
+    "correct": 0,
+    "explanation": "'Volhouden' = iets blijven beweren of handhaven. Een standpunt 'volhouden' betekent dat je erbij blijft, ook onder druk.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = iemand arresteren of iets laten voortduren. Je houdt een standpunt niet 'aan' in deze betekenis.",
+      "2": "'Bijhouden' = iets registreren of gelijke tred houden. Je houdt een standpunt niet 'bij'.",
+      "3": "'Tegenhouden' = blokkeren. Je houdt een standpunt niet 'tegen'."
+    },
+    "hint": "Ze bleef bij haar standpunt, ondanks alle kritiek. Welk prefix past bij 'een bewering of standpunt blijven handhaven'?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De werkgever liet weten dat hij een deel van het loon heeft ___ wegens het verzuim.",
+    "options": ["ingehouden", "aangehouden", "bijgehouden", "tegengehouden"],
+    "correct": 0,
+    "explanation": "'Inhouden' = een deel van het loon niet uitbetalen. 'Loon inhouden' is de juridisch-formele term voor het achterhouden van salaris.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = iemand arresteren of iets laten voortduren. Je houdt loon niet 'aan'.",
+      "2": "'Bijhouden' = iets registreren. Je houdt loon niet 'bij' in deze betekenis.",
+      "3": "'Tegenhouden' = blokkeren. Je houdt loon niet 'tegen' — daarvoor gebruik je 'inhouden'."
+    },
+    "hint": "De werkgever betaalde het salaris niet volledig uit. Welk prefix is de vaste term voor het achterhouden van loon?",
+    "tense": "perfectum",
+    "wordOrder": "bijzin",
+    "register": "formeel"
+  },
+  {
+    "sentence": "Hij klaagde dat de hoofdpijn al drie dagen ___.",
+    "options": ["aanhield", "ophield", "bijhield", "tegenhield"],
+    "correct": 0,
+    "explanation": "'Aanhouden' = voortduren, blijven bestaan. 'Aanhield' is de imperfectumvorm. Aanhoudende hoofdpijn duurt langer dan verwacht en stopt niet vanzelf.",
+    "wrongExplanations": {
+      "1": "'Ophouden' = stoppen. Als de hoofdpijn ophield, zou die gestopt zijn — het tegenovergestelde.",
+      "2": "'Bijhouden' = registreren of bijblijven. Hoofdpijn houdt niets 'bij'.",
+      "3": "'Tegenhouden' = blokkeren. Dat past niet bij pijn die blijft duren."
+    },
+    "hint": "De hoofdpijn bleef maar drie dagen doorgaan. Welk prefix past bij 'voortduren, niet ophouden'?",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Ze moest haar adem ___ toen de rechter het vonnis voorlas.",
+    "options": ["inhouden", "ophouden", "tegenhouden", "bijhouden"],
+    "correct": 0,
+    "explanation": "'Inhouden' = niet naar buiten laten, binnenhouden. 'Adem inhouden' is de vaste combinatie voor het stoppen van je ademhaling, vaak uit spanning of concentratie.",
+    "wrongExplanations": {
+      "1": "'Ophouden' = stoppen. 'Adem ophouden' klinkt begrijpelijk, maar 'adem inhouden' is de vaste Nederlandse uitdrukking.",
+      "2": "'Tegenhouden' = blokkeren. 'Adem tegenhouden' is geen gebruikelijke combinatie.",
+      "3": "'Bijhouden' = registreren of bijblijven. 'Adem bijhouden' is geen vaste uitdrukking in deze context."
+    },
+    "hint": "Ze ademde even niet terwijl ze luisterde. Welk prefix is de vaste uitdrukking voor 'je adem vasthouden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Hij merkte dat hij de snel veranderende markt niet meer kon ___.",
+    "options": ["bijhouden", "aanhouden", "tegenhouden", "volhouden"],
+    "correct": 0,
+    "explanation": "'Bijhouden' = gelijke tred houden met iets, niet achterblijven. Als je een markt niet kunt bijhouden, loop je achter op de laatste ontwikkelingen.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = iemand arresteren of iets laten voortduren. Dat past niet bij het volgen van een markt.",
+      "2": "'Tegenhouden' = blokkeren. Je houdt een markt niet 'tegen'.",
+      "3": "'Volhouden' = doorzetten of een standpunt handhaven. Dat is niet hetzelfde als bijblijven in een snel veranderende situatie."
+    },
+    "hint": "De markt verandert zo snel dat hij er niet meer op kan reageren. Welk prefix past bij 'gelijke tred houden, niet achterblijven'?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De journalist vroeg of hij echt ___ dat hij van niets wist.",
+    "options": ["volhield", "bijhield", "aanhield", "tegenhield"],
+    "correct": 0,
+    "explanation": "'Volhouden' = iets blijven beweren, bij een standpunt blijven. 'Volhield' is de imperfectumvorm. 'Volhouden dat...' is de vaste combinatie voor een bewering hardnekkig aanhouden.",
+    "wrongExplanations": {
+      "1": "'Bijhouden' = registreren of gelijke tred houden. 'Bijhouden dat hij van niets wist' is geen gebruikelijke combinatie.",
+      "2": "'Aanhouden' = voortduren of iemand arresteren. 'Aanhouden dat...' is geen vaste combinatie in deze betekenis.",
+      "3": "'Tegenhouden' = blokkeren. Dat past niet bij een bewering handhaven."
+    },
+    "hint": "Hij bleef beweren dat hij niets wist, ook al geloofde de journalist hem niet. Welk prefix past bij 'een bewering hardnekkig blijven handhaven'?",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Hij was zo vastberaden dat niets hem ___.",
+    "options": ["tegenhield", "bijhield", "volhield", "aanhield"],
+    "correct": 0,
+    "explanation": "'Tegenhouden' = verhinderen of stoppen. 'Tegenhield' is de imperfectumvorm. Niets kon hem tegenhouden — hij ging door ondanks alle obstakels.",
+    "wrongExplanations": {
+      "1": "'Bijhouden' = registreren of bijblijven. 'Niets hield hem bij' is geen gebruikelijke combinatie.",
+      "2": "'Volhouden' = doorzetten of een standpunt beweren. 'Niets hield hem vol' past niet in deze context.",
+      "3": "'Aanhouden' = voortduren of arresteren. Dat past niet bij 'verhinderen'."
+    },
+    "hint": "Niets kon hem stoppen. Welk prefix past bij 'verhinderen of stoppen'?",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Ze wachtten tot de muziek ___.",
+    "options": ["ophield", "aanhield", "bijhield", "tegenhield"],
+    "correct": 0,
+    "explanation": "'Ophouden' = stoppen. Als muziek ophoudt, stopt die met spelen. 'Ophield' is de imperfectumvorm in de bijzin na 'tot'.",
+    "wrongExplanations": {
+      "1": "'Aanhouden' = voortduren. Dan zou de muziek zijn blijven spelen — dat is het tegenovergestelde.",
+      "2": "'Bijhouden' = registreren of bijblijven. Muziek houdt niets 'bij'.",
+      "3": "'Tegenhouden' = blokkeren. Muziek houd je niet 'tegen'."
+    },
+    "hint": "Ze wachtten tot de muziek stopte. Welk prefix past bij 'stoppen, eindigen'?",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  }
+]

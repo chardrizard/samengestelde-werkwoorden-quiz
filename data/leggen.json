@@ -1,7 +1,12 @@
 [
   {
     "sentence": "Door de harde wind kon de boot niet veilig in de haven ______.",
-    "options": ["aanleggen", "neerleggen", "omleggen", "wegleggen"],
+    "options": [
+      "aanleggen",
+      "neerleggen",
+      "omleggen",
+      "wegleggen"
+    ],
     "correct": 0,
     "explanation": "'Aanleggen' = met een boot of schip naar de kant gaan en daar stoppen. De haven is hier de duidelijke context.",
     "wrongExplanations": {
@@ -9,11 +14,19 @@
       "2": "'Omleggen' = een route veranderen of iemand doden. Dat past niet bij een boot in de haven.",
       "3": "'Wegleggen' = iets opbergen of aan de kant leggen. Een boot leg je niet weg."
     },
-    "hint": "Het gaat om een schip dat bij de kant stopt."
+    "hint": "Het gaat om een schip dat bij de kant stopt.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Het schip heeft vannacht in Rotterdam ______.",
-    "options": ["aangelegd", "afgelegd", "opgelegd", "vastgelegd"],
+    "options": [
+      "aangelegd",
+      "afgelegd",
+      "opgelegd",
+      "vastgelegd"
+    ],
     "correct": 0,
     "explanation": "'Aangelegd' = gedokt of bij de kant gestopt. Bij een schip en een haven gebruik je 'aanleggen'.",
     "wrongExplanations": {
@@ -21,11 +34,19 @@
       "2": "'Opgelegd' = verplicht gemaakt of als straf gegeven. Dat past niet bij een schip.",
       "3": "'Vastgelegd' = geregistreerd of officieel genoteerd. Hier gaat het om stoppen in de haven."
     },
-    "hint": "Let op de combinatie: schip + haven/stad aan het water."
+    "hint": "Let op de combinatie: schip + haven/stad aan het water.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De gemeente wil naast het station een nieuw fietspad ______.",
-    "options": ["aanleggen", "verleggen", "afleggen", "voorleggen"],
+    "options": [
+      "aanleggen",
+      "verleggen",
+      "afleggen",
+      "voorleggen"
+    ],
     "correct": 0,
     "explanation": "'Aanleggen' = iets bouwen of maken, zoals een weg, park of fietspad. Hier komt er een nieuw fietspad.",
     "wrongExplanations": {
@@ -33,11 +54,19 @@
       "2": "'Afleggen' = een afstand reizen of een examen doen. Je legt geen fietspad af.",
       "3": "'Voorleggen' = een voorstel aan iemand laten zien. Dat past niet bij het bouwen van een fietspad."
     },
-    "hint": "Er komt iets nieuws in de openbare ruimte."
+    "hint": "Er komt iets nieuws in de openbare ruimte.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "In dit gebied is vorig jaar een klein park ______.",
-    "options": ["aangelegd", "omgelegd", "neergelegd", "bijgelegd"],
+    "options": [
+      "aangelegd",
+      "omgelegd",
+      "neergelegd",
+      "bijgelegd"
+    ],
     "correct": 0,
     "explanation": "'Aangelegd' = gemaakt of gebouwd. Een park, tuin, weg of fietspad kun je aanleggen.",
     "wrongExplanations": {
@@ -45,11 +74,19 @@
       "2": "'Neergelegd' = ergens op de grond of tafel gelegd. Een park wordt niet neergelegd.",
       "3": "'Bijgelegd' = een ruzie opgelost. Dat past niet bij een park."
     },
-    "hint": "Denk aan maken of bouwen, niet aan iets op tafel leggen."
+    "hint": "Denk aan maken of bouwen, niet aan iets op tafel leggen.",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Welke afstand ______ jij elke dag naar je werk?",
-    "options": ["leg af", "leg aan", "leg neer", "leg vast"],
+    "options": [
+      "leg af",
+      "leg aan",
+      "leg neer",
+      "leg vast"
+    ],
     "correct": 0,
     "explanation": "'Afleggen' = een afstand reizen of overbruggen. Je legt een afstand af naar je werk.",
     "wrongExplanations": {
@@ -57,11 +94,19 @@
       "2": "'Neerleggen' = iets ergens op leggen. Een afstand leg je niet neer.",
       "3": "'Vastleggen' = noteren of documenteren. Je kunt een afstand vastleggen in een app, maar de zin vraagt welke afstand je reist."
     },
-    "hint": "De vaste combinatie is: een afstand ergens heen ..."
+    "hint": "De vaste combinatie is: een afstand ergens heen ...",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Tijdens de fietstocht hebben we bijna vijftig kilometer ______.",
-    "options": ["afgelegd", "uitgelegd", "opgelegd", "klaargelegd"],
+    "options": [
+      "afgelegd",
+      "uitgelegd",
+      "opgelegd",
+      "klaargelegd"
+    ],
     "correct": 0,
     "explanation": "'Afgelegd' = een afstand gereisd. Vijftig kilometer is de afstand die je hebt gedaan.",
     "wrongExplanations": {
@@ -69,11 +114,19 @@
       "2": "'Opgelegd' = verplicht gemaakt of als straf gegeven. Dat past niet bij fietsen.",
       "3": "'Klaargelegd' = voorbereid door iets klaar te leggen. Kilometers kun je niet klaarleggen."
     },
-    "hint": "Het getal in kilometers is de beslissende cue."
+    "hint": "Het getal in kilometers is de beslissende cue.",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij heeft een deel van zijn spaargeld in aandelen ______.",
-    "options": ["belegd", "opgelegd", "opzijgelegd", "vastgelegd"],
+    "options": [
+      "belegd",
+      "opgelegd",
+      "opzijgelegd",
+      "vastgelegd"
+    ],
     "correct": 0,
     "explanation": "'Beleggen' = geld investeren, bijvoorbeeld in aandelen. Spaargeld en aandelen wijzen op investeren.",
     "wrongExplanations": {
@@ -81,11 +134,19 @@
       "2": "'Opzijleggen' = geld bewaren voor later. Hier gaat het geld juist naar aandelen.",
       "3": "'Vastleggen' = iets noteren of officieel documenteren. Dat is niet hetzelfde als investeren."
     },
-    "hint": "Aandelen horen bij investeren."
+    "hint": "Aandelen horen bij investeren.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik wil niet alles uitgeven; ik wil elke maand een beetje geld ______.",
-    "options": ["opzijleggen", "beleggen", "opleggen", "voorleggen"],
+    "options": [
+      "opzijleggen",
+      "beleggen",
+      "opleggen",
+      "voorleggen"
+    ],
     "correct": 0,
     "explanation": "'Opzijleggen' = geld bewaren voor later. Elke maand een beetje sparen past hierbij.",
     "wrongExplanations": {
@@ -93,11 +154,19 @@
       "2": "'Opleggen' = verplicht maken of als straf geven. Dat past niet bij je eigen spaargeld.",
       "3": "'Voorleggen' = iets aan iemand presenteren. Geld leg je in deze betekenis niet voor."
     },
-    "hint": "Je bewaart geld voor later."
+    "hint": "Je bewaart geld voor later.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Zij heeft haar brood met kaas en tomaat ______.",
-    "options": ["belegd", "klaargelegd", "neergelegd", "weggelegd"],
+    "options": [
+      "belegd",
+      "klaargelegd",
+      "neergelegd",
+      "weggelegd"
+    ],
     "correct": 0,
     "explanation": "'Beleggen' = iets op brood doen, zoals kaas, tomaat of vlees. Brood met toppings is de context.",
     "wrongExplanations": {
@@ -105,11 +174,19 @@
       "2": "'Neerleggen' = iets ergens neerzetten of neerleggen. Dat zegt niets over wat er op het brood zit.",
       "3": "'Wegleggen' = iets opbergen of aan de kant leggen. Dan eet je het juist niet meteen."
     },
-    "hint": "Het gaat om wat er op het brood ligt."
+    "hint": "Het gaat om wat er op het brood ligt.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Voor de lunch wil ik de broodjes alvast ______.",
-    "options": ["beleggen", "voorleggen", "overleggen", "uitleggen"],
+    "options": [
+      "beleggen",
+      "voorleggen",
+      "overleggen",
+      "uitleggen"
+    ],
     "correct": 0,
     "explanation": "'Beleggen' = brood of broodjes met beleg klaarmaken. Lunch en broodjes maken dit duidelijk.",
     "wrongExplanations": {
@@ -117,11 +194,19 @@
       "2": "'Overleggen' = samen bespreken. Je bespreekt geen broodjes in deze zin.",
       "3": "'Uitleggen' = iets duidelijk maken. Je legt de broodjes niet uit."
     },
-    "hint": "Broodjes krijgen beleg, zoals kaas of tomaat."
+    "hint": "Broodjes krijgen beleg, zoals kaas of tomaat.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Mijn manager heeft voor vrijdag een extra vergadering ______.",
-    "options": ["belegd", "overlegd", "voorgelegd", "vastgelegd"],
+    "options": [
+      "belegd",
+      "overlegd",
+      "voorgelegd",
+      "vastgelegd"
+    ],
     "correct": 0,
     "explanation": "'Een vergadering beleggen' = een vergadering organiseren of plannen. Dit is een formele werkcontext.",
     "wrongExplanations": {
@@ -129,11 +214,19 @@
       "2": "'Voorgelegd' = aan iemand gepresenteerd. Een voorstel leg je voor, niet een vergadering.",
       "3": "'Vastgelegd' = officieel genoteerd of gedocumenteerd. Dat kan met de datum, maar de vergadering zelf wordt hier georganiseerd."
     },
-    "hint": "Dit is een vaste combinatie in werktaal: een vergadering ..."
+    "hint": "Dit is een vaste combinatie in werktaal: een vergadering ...",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "We hadden een conflict, maar na een goed gesprek hebben we het weer ______.",
-    "options": ["bijgelegd", "neergelegd", "weggelegd", "afgelegd"],
+    "options": [
+      "bijgelegd",
+      "neergelegd",
+      "weggelegd",
+      "afgelegd"
+    ],
     "correct": 0,
     "explanation": "'Het bijleggen' = een ruzie of conflict oplossen en weer vrede maken. Het gesprek helpt om het conflict te stoppen.",
     "wrongExplanations": {
@@ -141,11 +234,19 @@
       "2": "'Wegleggen' = iets opbergen. Dat gebruik je niet voor een conflict oplossen.",
       "3": "'Afleggen' = een afstand reizen of iets verliezen tegen iemand. Dat past niet bij een ruzie oplossen."
     },
-    "hint": "Na ruzie maak je het weer goed."
+    "hint": "Na ruzie maak je het weer goed.",
+    "tense": "imperfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun je de formulieren alvast op tafel ______ voor de cursisten?",
-    "options": ["klaarleggen", "uitleggen", "aanleggen", "omleggen"],
+    "options": [
+      "klaarleggen",
+      "uitleggen",
+      "aanleggen",
+      "omleggen"
+    ],
     "correct": 0,
     "explanation": "'Klaarleggen' = iets alvast neerleggen zodat het klaar is voor gebruik. De formulieren zijn voor de cursisten voorbereid.",
     "wrongExplanations": {
@@ -153,11 +254,19 @@
       "2": "'Aanleggen' = iets bouwen of een schip laten stoppen. Dat past niet bij formulieren.",
       "3": "'Omleggen' = een route veranderen. Formulieren kun je niet omleggen in deze betekenis."
     },
-    "hint": "Je bereidt spullen voor door ze op de juiste plek te leggen."
+    "hint": "Je bereidt spullen voor door ze op de juiste plek te leggen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik heb je boeken alvast bij de deur ______.",
-    "options": ["klaargelegd", "voorgelegd", "belegd", "opgelegd"],
+    "options": [
+      "klaargelegd",
+      "voorgelegd",
+      "belegd",
+      "opgelegd"
+    ],
     "correct": 0,
     "explanation": "'Klaargelegd' = voorbereid en op een handige plek gelegd. De boeken liggen klaar bij de deur.",
     "wrongExplanations": {
@@ -165,11 +274,19 @@
       "2": "'Belegd' = geld geinvesteerd, brood met beleg gemaakt, of een vergadering georganiseerd. Dat past niet bij boeken.",
       "3": "'Opgelegd' = verplicht gemaakt of als straf gegeven. Dat past niet bij boeken bij de deur."
     },
-    "hint": "De boeken liggen klaar zodat je ze makkelijk kunt meenemen."
+    "hint": "De boeken liggen klaar zodat je ze makkelijk kunt meenemen.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Leg je telefoon even ______; we beginnen met de oefening.",
-    "options": ["neer", "uit", "voor", "bij"],
+    "options": [
+      "neer",
+      "uit",
+      "voor",
+      "bij"
+    ],
     "correct": 0,
     "explanation": "'Neerleggen' = iets ergens plaatsen of op tafel leggen. Je legt je telefoon neer voordat de oefening begint.",
     "wrongExplanations": {
@@ -177,11 +294,19 @@
       "2": "'Voorleggen' = iets aan iemand presenteren. Je presenteert je telefoon niet.",
       "3": "'Bijleggen' = een ruzie oplossen. Dat past niet bij een telefoon."
     },
-    "hint": "Je zet het object fysiek op tafel of aan de kant."
+    "hint": "Je zet het object fysiek op tafel of aan de kant.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De docent legde de papieren op het bureau ______.",
-    "options": ["neer", "vast", "om", "opzij"],
+    "options": [
+      "neer",
+      "vast",
+      "om",
+      "opzij"
+    ],
     "correct": 0,
     "explanation": "'Neerleggen' = iets ergens leggen. De papieren komen op het bureau te liggen.",
     "wrongExplanations": {
@@ -189,11 +314,19 @@
       "2": "'Omleggen' = een route veranderen. Dat past niet bij papieren.",
       "3": "'Opzijleggen' = iets apart houden of geld sparen. Hier worden de papieren gewoon op het bureau gelegd."
     },
-    "hint": "Het gaat om de fysieke plek van de papieren."
+    "hint": "Het gaat om de fysieke plek van de papieren.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze was het niet eens met de uitslag, maar uiteindelijk moest ze zich erbij ______.",
-    "options": ["neerleggen", "bijleggen", "vastleggen", "voorleggen"],
+    "options": [
+      "neerleggen",
+      "bijleggen",
+      "vastleggen",
+      "voorleggen"
+    ],
     "correct": 0,
     "explanation": "'Zich neerleggen bij' = iets accepteren, ook als je het jammer vindt. Ze accepteert de uitslag uiteindelijk.",
     "wrongExplanations": {
@@ -201,11 +334,19 @@
       "2": "'Vastleggen' = iets noteren of officieel maken. Je legt je niet vast bij een uitslag.",
       "3": "'Voorleggen' = iets aan iemand presenteren. Dat past niet bij accepteren."
     },
-    "hint": "Ze kan de situatie niet veranderen en accepteert die."
+    "hint": "Ze kan de situatie niet veranderen en accepteert die.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik snap deze regel niet. Kun je hem nog eens rustig ______?",
-    "options": ["uitleggen", "voorleggen", "overleggen", "vastleggen"],
+    "options": [
+      "uitleggen",
+      "voorleggen",
+      "overleggen",
+      "vastleggen"
+    ],
     "correct": 0,
     "explanation": "'Uitleggen' = iets duidelijk maken. Iemand snapt de regel niet en vraagt om uitleg.",
     "wrongExplanations": {
@@ -213,11 +354,19 @@
       "2": "'Overleggen' = samen bespreken. Dat kan helpen, maar de vraag is om uitleg.",
       "3": "'Vastleggen' = noteren of documenteren. De regel moet niet genoteerd worden, maar duidelijk worden."
     },
-    "hint": "Iemand begrijpt iets nog niet."
+    "hint": "Iemand begrijpt iets nog niet.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Omdat er veel ongelukken gebeurden, heeft de gemeente het fietspad ______.",
-    "options": ["verlegd", "aangelegd", "afgelegd", "weggelegd"],
+    "options": [
+      "verlegd",
+      "aangelegd",
+      "afgelegd",
+      "weggelegd"
+    ],
     "correct": 0,
     "explanation": "'Verleggen' = iets naar een andere plek verplaatsen. Het fietspad bestond al, maar kreeg een andere route.",
     "wrongExplanations": {
@@ -225,11 +374,19 @@
       "2": "'Afleggen' = een afstand reizen. Een fietspad leg je niet af in deze betekenis.",
       "3": "'Wegleggen' = iets opbergen. Een fietspad kun je niet wegleggen."
     },
-    "hint": "Het fietspad blijft bestaan, maar komt anders te liggen."
+    "hint": "Het fietspad blijft bestaan, maar komt anders te liggen.",
+    "tense": "perfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "De deadline is een week naar voren ______.",
-    "options": ["verlegd", "opgelegd", "voorgelegd", "neergelegd"],
+    "options": [
+      "verlegd",
+      "opgelegd",
+      "voorgelegd",
+      "neergelegd"
+    ],
     "correct": 0,
     "explanation": "'Verleggen' = een tijd, grens of plek veranderen. Een deadline kan naar voren of naar achteren worden verlegd.",
     "wrongExplanations": {
@@ -237,11 +394,19 @@
       "2": "'Voorleggen' = iets aan iemand presenteren. Dat past niet bij een datum veranderen.",
       "3": "'Neerleggen' = iets ergens leggen of je ergens bij neerleggen. Dat past niet bij een deadline."
     },
-    "hint": "De datum verandert van plek in de planning."
+    "hint": "De datum verandert van plek in de planning.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De rechter heeft hem een hoge geldstraf ______.",
-    "options": ["opgelegd", "afgelegd", "bijgelegd", "weggelegd"],
+    "options": [
+      "opgelegd",
+      "afgelegd",
+      "bijgelegd",
+      "weggelegd"
+    ],
     "correct": 0,
     "explanation": "'Opleggen' = een verplichting of straf geven. Een rechter kan een geldstraf opleggen.",
     "wrongExplanations": {
@@ -249,11 +414,19 @@
       "2": "'Bijleggen' = een ruzie oplossen. Een rechter legt geen ruzie bij in deze zin.",
       "3": "'Wegleggen' = iets opbergen. Een straf wordt niet weggelegd."
     },
-    "hint": "Een straf krijg je officieel van een rechter."
+    "hint": "Een straf krijg je officieel van een rechter.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De school heeft nieuwe regels voor telefoons in de klas ______.",
-    "options": ["opgelegd", "uitgelegd", "overlegd", "klaargelegd"],
+    "options": [
+      "opgelegd",
+      "uitgelegd",
+      "overlegd",
+      "klaargelegd"
+    ],
     "correct": 0,
     "explanation": "'Opleggen' = regels of verplichtingen geven waaraan anderen zich moeten houden. De school maakt de regels verplicht.",
     "wrongExplanations": {
@@ -261,11 +434,19 @@
       "2": "'Overleggen' = samen bespreken. De zin zegt niet dat de school samen met anderen praat.",
       "3": "'Klaarleggen' = iets voorbereiden door het klaar te leggen. Regels leg je niet klaar in deze betekenis."
     },
-    "hint": "De regels zijn verplicht voor anderen."
+    "hint": "De regels zijn verplicht voor anderen.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Door wegwerkzaamheden is de route naar het centrum tijdelijk ______.",
-    "options": ["omgelegd", "aangelegd", "neergelegd", "bijgelegd"],
+    "options": [
+      "omgelegd",
+      "aangelegd",
+      "neergelegd",
+      "bijgelegd"
+    ],
     "correct": 0,
     "explanation": "'Omleggen' = een route via een andere weg laten lopen. Wegwerkzaamheden zorgen vaak voor een omleiding.",
     "wrongExplanations": {
@@ -273,11 +454,19 @@
       "2": "'Neerleggen' = iets ergens leggen. Dat past niet bij een route.",
       "3": "'Bijleggen' = een ruzie oplossen. Dat past niet bij verkeer."
     },
-    "hint": "Je moet via een andere weg rijden."
+    "hint": "Je moet via een andere weg rijden.",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Zullen we dit punt morgen even met de docent ______?",
-    "options": ["overleggen", "uitleggen", "voorleggen", "wegleggen"],
+    "options": [
+      "overleggen",
+      "uitleggen",
+      "voorleggen",
+      "wegleggen"
+    ],
     "correct": 0,
     "explanation": "'Iets overleggen' = iets samen bespreken om tot een keuze of afspraak te komen. Je bespreekt het punt met de docent.",
     "wrongExplanations": {
@@ -285,11 +474,19 @@
       "2": "'Voorleggen' = iets aan iemand presenteren zodat die kan reageren of beslissen. Dat lijkt dichtbij, maar 'even met de docent' past beter bij samen overleggen.",
       "3": "'Wegleggen' = iets opbergen of aan de kant leggen. Een punt leg je niet weg in deze zin."
     },
-    "hint": "Je praat er samen over om verder te komen."
+    "hint": "Je praat er samen over om verder te komen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Alle afspraken moeten we goed in het verslag ______.",
-    "options": ["vastleggen", "neerleggen", "bijleggen", "beleggen"],
+    "options": [
+      "vastleggen",
+      "neerleggen",
+      "bijleggen",
+      "beleggen"
+    ],
     "correct": 0,
     "explanation": "'Vastleggen' = officieel noteren of documenteren. Afspraken in een verslag schrijf je vast voor later.",
     "wrongExplanations": {
@@ -297,11 +494,19 @@
       "2": "'Bijleggen' = een ruzie oplossen. Dat past niet bij afspraken in een verslag.",
       "3": "'Beleggen' = investeren, brood beleggen of een vergadering organiseren. Dat past niet bij afspraken documenteren."
     },
-    "hint": "Je schrijft iets op zodat het later duidelijk blijft."
+    "hint": "Je schrijft iets op zodat het later duidelijk blijft.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De fotograaf heeft het moment mooi ______.",
-    "options": ["vastgelegd", "opgelegd", "overlegd", "klaargelegd"],
+    "options": [
+      "vastgelegd",
+      "opgelegd",
+      "overlegd",
+      "klaargelegd"
+    ],
     "correct": 0,
     "explanation": "'Vastleggen' = iets bewaren of registreren, bijvoorbeeld op foto of video. De fotograaf bewaart het moment in beeld.",
     "wrongExplanations": {
@@ -309,11 +514,19 @@
       "2": "'Overleggen' = samen bespreken. Een fotograaf bespreekt het moment hier niet.",
       "3": "'Klaarleggen' = iets voorbereiden door het klaar te leggen. Dat past niet bij een foto maken."
     },
-    "hint": "Een foto bewaart een moment voor later."
+    "hint": "Een foto bewaart een moment voor later.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Dit voorstel moeten we eerst aan de directeur ______.",
-    "options": ["voorleggen", "overleggen", "uitleggen", "wegleggen"],
+    "options": [
+      "voorleggen",
+      "overleggen",
+      "uitleggen",
+      "wegleggen"
+    ],
     "correct": 0,
     "explanation": "'Voorleggen' = iets aan iemand presenteren zodat die kan reageren of beslissen. De directeur moet het voorstel beoordelen.",
     "wrongExplanations": {
@@ -321,11 +534,19 @@
       "2": "'Uitleggen' = duidelijk maken. Je kunt een voorstel uitleggen, maar de vaste actie hier is het ter beoordeling voorleggen.",
       "3": "'Wegleggen' = iets opbergen of aan de kant leggen. Dan krijgt de directeur het juist niet."
     },
-    "hint": "Iemand met beslissingsrecht moet ernaar kijken."
+    "hint": "Iemand met beslissingsrecht moet ernaar kijken.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Leg die schaar even ______, anders gaan de kinderen ermee spelen.",
-    "options": ["weg", "neer", "vast", "aan"],
+    "options": [
+      "weg",
+      "neer",
+      "vast",
+      "aan"
+    ],
     "correct": 0,
     "explanation": "'Wegleggen' = iets opbergen of buiten bereik leggen. De schaar moet weg omdat kinderen ermee kunnen spelen.",
     "wrongExplanations": {
@@ -333,11 +554,19 @@
       "2": "'Vastleggen' = noteren of documenteren. Dat past niet bij een schaar.",
       "3": "'Aanleggen' = bouwen of met een schip stoppen. Dat past niet bij een schaar."
     },
-    "hint": "Het object moet buiten bereik."
+    "hint": "Het object moet buiten bereik.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na het lezen legde ze het boek op haar nachtkastje ______.",
-    "options": ["weg", "om", "voor", "bij"],
+    "options": [
+      "weg",
+      "om",
+      "voor",
+      "bij"
+    ],
     "correct": 0,
     "explanation": "'Wegleggen' = iets wegzetten of aan de kant leggen als je klaar bent. Ze is klaar met lezen en legt het boek weg.",
     "wrongExplanations": {
@@ -345,11 +574,19 @@
       "2": "'Voorleggen' = iets aan iemand presenteren. Er is niemand die het boek moet beoordelen.",
       "3": "'Bijleggen' = een ruzie oplossen. Dat past niet bij een boek."
     },
-    "hint": "Ze stopt met lezen en legt het boek aan de kant."
+    "hint": "Ze stopt met lezen en legt het boek aan de kant.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Voor de nieuwe woonwijk wordt eerst een weg ______.",
-    "options": ["aangelegd", "afgelegd", "uitgelegd", "bijgelegd"],
+    "options": [
+      "aangelegd",
+      "afgelegd",
+      "uitgelegd",
+      "bijgelegd"
+    ],
     "correct": 0,
     "explanation": "'Aanleggen' = iets bouwen of maken, zoals een weg. Voor een nieuwe wijk moet er infrastructuur komen.",
     "wrongExplanations": {
@@ -357,11 +594,19 @@
       "2": "'Uitleggen' = iets duidelijk maken. Een weg leg je niet uit in deze context.",
       "3": "'Bijleggen' = een ruzie oplossen. Dat past niet bij bouwen."
     },
-    "hint": "De weg bestaat nog niet en wordt gemaakt."
+    "hint": "De weg bestaat nog niet en wordt gemaakt.",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "In de vakantie hebben we met de auto meer dan duizend kilometer ______.",
-    "options": ["afgelegd", "aangelegd", "omgelegd", "vastgelegd"],
+    "options": [
+      "afgelegd",
+      "aangelegd",
+      "omgelegd",
+      "vastgelegd"
+    ],
     "correct": 0,
     "explanation": "'Afleggen' = een afstand reizen of overbruggen. Duizend kilometer is de afstand die je hebt gereden.",
     "wrongExplanations": {
@@ -369,11 +614,19 @@
       "2": "'Omleggen' = een route veranderen. Je kunt een route omleggen, maar je legt kilometers af.",
       "3": "'Vastleggen' = noteren of documenteren. Je kunt de route vastleggen, maar de afstand zelf heb je afgelegd."
     },
-    "hint": "Kilometers reis je: die leg je ..."
+    "hint": "Kilometers reis je: die leg je ...",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Zij wil haar geld niet op een gewone spaarrekening laten staan, maar liever slim ______.",
-    "options": ["beleggen", "bijleggen", "neerleggen", "wegleggen"],
+    "options": [
+      "beleggen",
+      "bijleggen",
+      "neerleggen",
+      "wegleggen"
+    ],
     "correct": 0,
     "explanation": "'Beleggen' = geld investeren om mogelijk rendement te krijgen. De tegenstelling met een spaarrekening wijst op investeren.",
     "wrongExplanations": {
@@ -381,11 +634,19 @@
       "2": "'Neerleggen' = iets ergens plaatsen of accepteren. Geld neerleggen betekent niet investeren.",
       "3": "'Wegleggen' = opbergen of apart leggen. Dat is sparen, niet investeren."
     },
-    "hint": "Het geld moet gaan groeien via investeringen."
+    "hint": "Het geld moet gaan groeien via investeringen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Op mijn boterham wil ik vandaag hummus en komkommer ______.",
-    "options": ["beleggen", "klaarleggen", "voorleggen", "overleggen"],
+    "options": [
+      "beleggen",
+      "klaarleggen",
+      "voorleggen",
+      "overleggen"
+    ],
     "correct": 0,
     "explanation": "'Beleggen' = brood met beleg klaarmaken. Hummus en komkommer zijn wat je op de boterham doet.",
     "wrongExplanations": {
@@ -393,11 +654,19 @@
       "2": "'Voorleggen' = iets aan iemand presenteren voor een reactie of besluit. Dat past niet bij eten maken.",
       "3": "'Overleggen' = samen bespreken. Je bespreekt de boterham hier niet."
     },
-    "hint": "Het gaat om eten op brood doen."
+    "hint": "Het gaat om eten op brood doen.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De projectleider heeft voor maandagochtend een overleg ______.",
-    "options": ["belegd", "overlegd", "voorgelegd", "weggelegd"],
+    "options": [
+      "belegd",
+      "overlegd",
+      "voorgelegd",
+      "weggelegd"
+    ],
     "correct": 0,
     "explanation": "'Een overleg beleggen' = een overleg organiseren of plannen. Dit is formele werktaal.",
     "wrongExplanations": {
@@ -405,11 +674,19 @@
       "2": "'Voorgelegd' = gepresenteerd voor een reactie of besluit. Een overleg leg je niet voor.",
       "3": "'Weggelegd' = opgeborgen of aan de kant gelegd. Dat past niet bij een gepland overleg."
     },
-    "hint": "Dit is de formele combinatie voor een overleg organiseren."
+    "hint": "Dit is de formele combinatie voor een overleg organiseren.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na jaren stilte hebben de broers hun ruzie eindelijk ______.",
-    "options": ["bijgelegd", "vastgelegd", "opgelegd", "omgelegd"],
+    "options": [
+      "bijgelegd",
+      "vastgelegd",
+      "opgelegd",
+      "omgelegd"
+    ],
     "correct": 0,
     "explanation": "'Een ruzie bijleggen' = het weer goedmaken na een conflict. De broers stoppen met ruzie maken.",
     "wrongExplanations": {
@@ -417,11 +694,19 @@
       "2": "'Opleggen' = verplicht maken of als straf geven. Dat past niet bij het goedmaken.",
       "3": "'Omleggen' = een route veranderen. Dat past niet bij een ruzie."
     },
-    "hint": "Na een conflict maken mensen het weer goed."
+    "hint": "Na een conflict maken mensen het weer goed.",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Voor het examen heb ik mijn paspoort en pen al in mijn tas ______.",
-    "options": ["klaargelegd", "uitgelegd", "opgelegd", "belegd"],
+    "options": [
+      "klaargelegd",
+      "uitgelegd",
+      "opgelegd",
+      "belegd"
+    ],
     "correct": 0,
     "explanation": "'Klaarleggen' = spullen alvast voorbereiden. Paspoort en pen liggen klaar zodat je ze niet vergeet.",
     "wrongExplanations": {
@@ -429,11 +714,19 @@
       "2": "'Opleggen' = verplicht maken of als straf geven. Dat past niet bij spullen voor een examen.",
       "3": "'Beleggen' = investeren, brood beleggen of een vergadering organiseren. Dat past niet bij spullen in een tas."
     },
-    "hint": "Je bereidt je spullen alvast voor."
+    "hint": "Je bereidt je spullen alvast voor.",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun je de sleutels daar op de balie ______?",
-    "options": ["neerleggen", "verleggen", "afleggen", "voorleggen"],
+    "options": [
+      "neerleggen",
+      "verleggen",
+      "afleggen",
+      "voorleggen"
+    ],
     "correct": 0,
     "explanation": "'Neerleggen' = iets ergens plaatsen. De sleutels moeten op de balie komen te liggen.",
     "wrongExplanations": {
@@ -441,11 +734,19 @@
       "2": "'Afleggen' = een afstand reizen of een examen doen. Sleutels leg je niet af.",
       "3": "'Voorleggen' = iets aan iemand presenteren voor een reactie of besluit. Sleutels op de balie leg je neer."
     },
-    "hint": "Het gaat om een object op een plek leggen."
+    "hint": "Het gaat om een object op een plek leggen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na het slechte nieuws moest hij zich bij de situatie ______.",
-    "options": ["neerleggen", "bijleggen", "wegleggen", "overleggen"],
+    "options": [
+      "neerleggen",
+      "bijleggen",
+      "wegleggen",
+      "overleggen"
+    ],
     "correct": 0,
     "explanation": "'Zich neerleggen bij' = accepteren dat iets zo is. Hij kan de situatie niet veranderen.",
     "wrongExplanations": {
@@ -453,11 +754,19 @@
       "2": "'Wegleggen' = iets opbergen of aan de kant leggen. Een situatie leg je niet weg.",
       "3": "'Overleggen' = samen bespreken. Dat is iets anders dan accepteren."
     },
-    "hint": "Hij accepteert iets wat hij liever anders had gezien."
+    "hint": "Hij accepteert iets wat hij liever anders had gezien.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De verpleegkundige legde stap voor stap ______ hoe ik de medicijnen moest gebruiken.",
-    "options": ["uit", "voor", "vast", "op"],
+    "options": [
+      "uit",
+      "voor",
+      "vast",
+      "op"
+    ],
     "correct": 0,
     "explanation": "'Uitleggen' = iets duidelijk maken. Stap voor stap past goed bij uitleg geven.",
     "wrongExplanations": {
@@ -465,11 +774,19 @@
       "2": "'Vastleggen' = noteren of documenteren. Dat past niet bij stap voor stap vertellen hoe iets moet.",
       "3": "'Opleggen' = verplicht maken of als straf geven. Dat past niet bij medicijnen uitleggen."
     },
-    "hint": "Iemand maakt de instructies duidelijk."
+    "hint": "Iemand maakt de instructies duidelijk.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Door de verbouwing is de ingang van het gebouw tijdelijk ______.",
-    "options": ["verlegd", "aangelegd", "belegd", "bijgelegd"],
+    "options": [
+      "verlegd",
+      "aangelegd",
+      "belegd",
+      "bijgelegd"
+    ],
     "correct": 0,
     "explanation": "'Verleggen' = een plek of route veranderen. De ingang zit tijdelijk op een andere plek.",
     "wrongExplanations": {
@@ -477,11 +794,19 @@
       "2": "'Beleggen' = investeren, brood met beleg maken of een vergadering organiseren. Dat past niet bij een ingang.",
       "3": "'Bijleggen' = een ruzie oplossen. Dat past niet bij een gebouw."
     },
-    "hint": "De ingang is tijdelijk op een andere plek."
+    "hint": "De ingang is tijdelijk op een andere plek.",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De grens tussen de twee tuinen is een paar meter ______.",
-    "options": ["verlegd", "afgelegd", "neergelegd", "klaargelegd"],
+    "options": [
+      "verlegd",
+      "afgelegd",
+      "neergelegd",
+      "klaargelegd"
+    ],
     "correct": 0,
     "explanation": "'Verleggen' = een grens, route of lijn naar een andere plek verplaatsen. De grens ligt nu anders.",
     "wrongExplanations": {
@@ -489,11 +814,19 @@
       "2": "'Neerleggen' = iets ergens plaatsen. Een grens die anders komt te liggen wordt verlegd.",
       "3": "'Klaarleggen' = iets voorbereiden. Dat past niet bij een grens tussen tuinen."
     },
-    "hint": "Een lijn of grens komt op een andere plek."
+    "hint": "Een lijn of grens komt op een andere plek.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De gemeente heeft bedrijven strengere milieuregels ______.",
-    "options": ["opgelegd", "overlegd", "voorgelegd", "aangelegd"],
+    "options": [
+      "opgelegd",
+      "overlegd",
+      "voorgelegd",
+      "aangelegd"
+    ],
     "correct": 0,
     "explanation": "'Opleggen' = regels of verplichtingen geven. De bedrijven moeten zich aan de strengere regels houden.",
     "wrongExplanations": {
@@ -501,11 +834,19 @@
       "2": "'Voorleggen' = iets presenteren voor reactie of besluit. Hier zijn de regels al verplicht.",
       "3": "'Aanleggen' = iets bouwen of met een schip stoppen. Dat past niet bij regels."
     },
-    "hint": "De regels worden verplicht gemaakt."
+    "hint": "De regels worden verplicht gemaakt.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Vanwege een ongeluk werd het verkeer via een andere straat ______.",
-    "options": ["omgelegd", "verlegd", "afgelegd", "uitgelegd"],
+    "options": [
+      "omgelegd",
+      "verlegd",
+      "afgelegd",
+      "uitgelegd"
+    ],
     "correct": 0,
     "explanation": "'Omleggen' = verkeer of een route via een andere weg laten lopen. Een ongeluk kan voor een omleiding zorgen.",
     "wrongExplanations": {
@@ -513,11 +854,19 @@
       "2": "'Afleggen' = een afstand reizen. Het verkeer wordt niet afgelegd.",
       "3": "'Uitleggen' = iets duidelijk maken. Dat past niet bij verkeer."
     },
-    "hint": "Het verkeer krijgt een omleiding."
+    "hint": "Het verkeer krijgt een omleiding.",
+    "tense": "imperfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "We moeten eerst met de administratie ______ of deze kosten vergoed worden.",
-    "options": ["overleggen", "voorleggen", "vastleggen", "opzijleggen"],
+    "options": [
+      "overleggen",
+      "voorleggen",
+      "vastleggen",
+      "opzijleggen"
+    ],
     "correct": 0,
     "explanation": "'Overleggen' = samen bespreken om duidelijkheid of een afspraak te krijgen. Je bespreekt de kosten met de administratie.",
     "wrongExplanations": {
@@ -525,11 +874,19 @@
       "2": "'Vastleggen' = noteren of documenteren. Eerst moet duidelijk worden wat de afspraak is.",
       "3": "'Opzijleggen' = geld apart houden. Dat past niet bij bespreken of kosten vergoed worden."
     },
-    "hint": "Je praat met iemand om iets af te stemmen."
+    "hint": "Je praat met iemand om iets af te stemmen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Deze klacht moeten we officieel in het systeem ______.",
-    "options": ["vastleggen", "uitleggen", "bijleggen", "afleggen"],
+    "options": [
+      "vastleggen",
+      "uitleggen",
+      "bijleggen",
+      "afleggen"
+    ],
     "correct": 0,
     "explanation": "'Vastleggen' = officieel noteren of registreren. Een klacht in een systeem moet bewaard worden voor later.",
     "wrongExplanations": {
@@ -537,11 +894,19 @@
       "2": "'Bijleggen' = een ruzie oplossen. Dat past niet bij een klacht in een systeem.",
       "3": "'Afleggen' = een afstand reizen of een verklaring afleggen. Een klacht leg je niet af."
     },
-    "hint": "Het moet officieel worden geregistreerd."
+    "hint": "Het moet officieel worden geregistreerd.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De afspraken zijn mondeling gemaakt, maar we moeten ze nog schriftelijk ______.",
-    "options": ["vastleggen", "neerleggen", "wegleggen", "aanleggen"],
+    "options": [
+      "vastleggen",
+      "neerleggen",
+      "wegleggen",
+      "aanleggen"
+    ],
     "correct": 0,
     "explanation": "'Vastleggen' = afspraken opschrijven of documenteren. Mondelinge afspraken worden schriftelijk duidelijk gemaakt.",
     "wrongExplanations": {
@@ -549,11 +914,19 @@
       "2": "'Wegleggen' = iets opbergen of aan de kant leggen. Dan worden de afspraken juist niet duidelijk bewaard.",
       "3": "'Aanleggen' = iets bouwen of een schip laten stoppen. Dat past niet bij afspraken."
     },
-    "hint": "Je schrijft afspraken op zodat iedereen ze later kan terugvinden."
+    "hint": "Je schrijft afspraken op zodat iedereen ze later kan terugvinden.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik wil dit idee graag aan het team ______ voordat we verdergaan.",
-    "options": ["voorleggen", "overleggen", "klaarleggen", "afleggen"],
+    "options": [
+      "voorleggen",
+      "overleggen",
+      "klaarleggen",
+      "afleggen"
+    ],
     "correct": 0,
     "explanation": "'Voorleggen' = iets aan iemand of een groep presenteren voor reactie of besluit. Het team moet naar het idee kijken.",
     "wrongExplanations": {
@@ -561,11 +934,19 @@
       "2": "'Klaarleggen' = spullen voorbereiden. Een idee leg je niet klaar in deze zin.",
       "3": "'Afleggen' = een afstand reizen of een examen doen. Dat past niet bij een idee."
     },
-    "hint": "Je laat het team eerst reageren op je idee."
+    "hint": "Je laat het team eerst reageren op je idee.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De adviseur legde drie opties aan de klant ______.",
-    "options": ["voor", "uit", "neer", "weg"],
+    "options": [
+      "voor",
+      "uit",
+      "neer",
+      "weg"
+    ],
     "correct": 0,
     "explanation": "'Voorleggen' = iets presenteren zodat iemand kan kiezen of reageren. De klant krijgt drie opties te zien.",
     "wrongExplanations": {
@@ -573,11 +954,19 @@
       "2": "'Neerleggen' = iets fysiek ergens leggen. Opties aan een klant leg je voor.",
       "3": "'Wegleggen' = iets opbergen. Dan ziet de klant de opties niet."
     },
-    "hint": "De klant moet de opties beoordelen."
+    "hint": "De klant moet de opties beoordelen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun je de laptop na de les weer in de kast ______?",
-    "options": ["wegleggen", "voorleggen", "beleggen", "afleggen"],
+    "options": [
+      "wegleggen",
+      "voorleggen",
+      "beleggen",
+      "afleggen"
+    ],
     "correct": 0,
     "explanation": "'Wegleggen' = iets opbergen of terugleggen op een veilige plek. De laptop moet na de les in de kast.",
     "wrongExplanations": {
@@ -585,11 +974,19 @@
       "2": "'Beleggen' = investeren, brood beleggen of een vergadering organiseren. Dat past niet bij een laptop.",
       "3": "'Afleggen' = een afstand reizen of een examen doen. Een laptop leg je niet af."
     },
-    "hint": "Na gebruik berg je het apparaat op."
+    "hint": "Na gebruik berg je het apparaat op.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Voor later wil hij elke maand vijftig euro ______.",
-    "options": ["opzijleggen", "beleggen", "opleggen", "uitleggen"],
+    "options": [
+      "opzijleggen",
+      "beleggen",
+      "opleggen",
+      "uitleggen"
+    ],
     "correct": 0,
     "explanation": "'Opzijleggen' = geld apart houden voor later. Vijftig euro per maand bewaren is sparen.",
     "wrongExplanations": {
@@ -597,6 +994,9 @@
       "2": "'Opleggen' = verplicht maken of als straf geven. Dat past niet bij je eigen geld bewaren.",
       "3": "'Uitleggen' = iets duidelijk maken. Geld kun je niet uitleggen."
     },
-    "hint": "Je houdt geld apart en geeft het nu niet uit."
+    "hint": "Je houdt geld apart en geeft het nu niet uit.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   }
 ]

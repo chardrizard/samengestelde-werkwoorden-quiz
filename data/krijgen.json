@@ -1,7 +1,12 @@
 [
   {
     "sentence": "Ik ben dikker geworden en ______.",
-    "options": ["krijg die broek niet meer aan", "krijg die broek niet meer door", "krijg die broek niet meer uit", "krijg die broek niet meer af"],
+    "options": [
+      "krijg die broek niet meer aan",
+      "krijg die broek niet meer door",
+      "krijg die broek niet meer uit",
+      "krijg die broek niet meer af"
+    ],
     "correct": 0,
     "explanation": "'Aankrijgen' = kleding of schoenen aan kunnen doen. De broek past niet meer, dus hij krijgt hem niet aan.",
     "wrongExplanations": {
@@ -9,11 +14,19 @@
       "2": "'Uitkrijgen' = iets uit kunnen doen of een boek uitlezen. Hier moet de broek juist aan.",
       "3": "'Afkrijgen' = iets afmaken. Een broek afkrijgen betekent hier niet hetzelfde."
     },
-    "hint": "Het gaat om kleding op je lichaam krijgen."
+    "hint": "Het gaat om kleding op je lichaam krijgen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Vanochtend ______.",
-    "options": ["kreeg ik mijn strakke laarzen bijna niet aan", "kreeg ik mijn strakke laarzen bijna niet door", "kreeg ik mijn strakke laarzen bijna niet af", "kreeg ik mijn strakke laarzen bijna niet uit"],
+    "options": [
+      "kreeg ik mijn strakke laarzen bijna niet aan",
+      "kreeg ik mijn strakke laarzen bijna niet door",
+      "kreeg ik mijn strakke laarzen bijna niet af",
+      "kreeg ik mijn strakke laarzen bijna niet uit"
+    ],
     "correct": 0,
     "explanation": "'Aankrijgen' = iets aan kunnen trekken. Strakke laarzen zijn moeilijk aan te krijgen.",
     "wrongExplanations": {
@@ -21,11 +34,19 @@
       "2": "'Afkrijgen' = iets afmaken. Dat past niet bij laarzen aantrekken.",
       "3": "'Uitkrijgen' = iets uit kunnen doen. Hier probeer je ze juist aan te doen."
     },
-    "hint": "Je probeert laarzen aan te trekken."
+    "hint": "Je probeert laarzen aan te trekken.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun je deze jas zelf ______, of moet ik helpen?",
-    "options": ["aankrijgen", "doorkrijgen", "uitkrijgen", "afkrijgen"],
+    "options": [
+      "aankrijgen",
+      "doorkrijgen",
+      "uitkrijgen",
+      "afkrijgen"
+    ],
     "correct": 0,
     "explanation": "'Aankrijgen' = kleding aan kunnen krijgen. De vraag is of iemand de jas zelf aan kan doen.",
     "wrongExplanations": {
@@ -33,11 +54,19 @@
       "2": "'Uitkrijgen' = kleding uit kunnen krijgen. Hier moet de jas aan.",
       "3": "'Afkrijgen' = iets klaar krijgen. Een jas krijg je niet af in deze betekenis."
     },
-    "hint": "Het gaat om een jas aantrekken."
+    "hint": "Het gaat om een jas aantrekken.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Door de kou ______.",
-    "options": ["kreeg hij zijn handschoenen nauwelijks aan", "kreeg hij zijn handschoenen nauwelijks uit", "kreeg hij zijn handschoenen nauwelijks door", "kreeg hij zijn handschoenen nauwelijks af"],
+    "options": [
+      "kreeg hij zijn handschoenen nauwelijks aan",
+      "kreeg hij zijn handschoenen nauwelijks uit",
+      "kreeg hij zijn handschoenen nauwelijks door",
+      "kreeg hij zijn handschoenen nauwelijks af"
+    ],
     "correct": 0,
     "explanation": "'Aankrijgen' = kledingstukken aan kunnen doen. Door koude handen lukt het bijna niet om de handschoenen aan te krijgen.",
     "wrongExplanations": {
@@ -45,11 +74,19 @@
       "2": "'Doorkrijgen' = begrijpen. Handschoenen begrijp je niet.",
       "3": "'Afkrijgen' = iets afmaken. Dat past niet bij handschoenen aantrekken."
     },
-    "hint": "Hij probeert handschoenen aan te doen."
+    "hint": "Hij probeert handschoenen aan te doen.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "In het begin was dit spel moeilijk, maar nu ______.",
-    "options": ["krijg ik het door", "krijg ik het aan", "krijg ik het uit", "krijg ik het af"],
+    "options": [
+      "krijg ik het door",
+      "krijg ik het aan",
+      "krijg ik het uit",
+      "krijg ik het af"
+    ],
     "correct": 0,
     "explanation": "'Doorkrijgen' = iets beginnen te begrijpen. Je snapt nu hoe het spel werkt.",
     "wrongExplanations": {
@@ -57,11 +94,19 @@
       "2": "'Uitkrijgen' = iets uitdoen of uitlezen. Dat past niet bij spelregels begrijpen.",
       "3": "'Afkrijgen' = iets afmaken. Hier gaat het niet om klaar zijn, maar om begrijpen."
     },
-    "hint": "Eerst snapte je het niet, nu begin je het te begrijpen."
+    "hint": "Eerst snapte je het niet, nu begin je het te begrijpen.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Pas later ______ wat ze bedoelde.",
-    "options": ["kreeg ik door", "kreeg ik aan", "kreeg ik af", "kreeg ik uit"],
+    "options": [
+      "kreeg ik door",
+      "kreeg ik aan",
+      "kreeg ik af",
+      "kreeg ik uit"
+    ],
     "correct": 0,
     "explanation": "'Doorkrijgen' = begrijpen wat er bedoeld wordt. Eerst was het onduidelijk, later snapte je het.",
     "wrongExplanations": {
@@ -69,11 +114,19 @@
       "2": "'Afkrijgen' = iets afmaken. Hier maak je niets af.",
       "3": "'Uitkrijgen' = iets uitlezen of uitdoen. Dat past niet bij begrijpen wat iemand bedoelt."
     },
-    "hint": "Je begrijpt ineens wat iemand bedoelt."
+    "hint": "Je begrijpt ineens wat iemand bedoelt.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na een paar lessen ______ hoe de grammatica werkt.",
-    "options": ["kreeg ze eindelijk door", "kreeg ze eindelijk uit", "kreeg ze eindelijk aan", "kreeg ze eindelijk af"],
+    "options": [
+      "kreeg ze eindelijk door",
+      "kreeg ze eindelijk uit",
+      "kreeg ze eindelijk aan",
+      "kreeg ze eindelijk af"
+    ],
     "correct": 0,
     "explanation": "'Doorkrijgen' = iets gaan snappen. Na uitleg en oefening begrijpt ze de grammatica.",
     "wrongExplanations": {
@@ -81,11 +134,19 @@
       "2": "'Aankrijgen' = kleding aantrekken. Grammatica trek je niet aan.",
       "3": "'Afkrijgen' = iets klaar krijgen. Hier gaat het om begrijpen, niet om afmaken."
     },
-    "hint": "Het gaat om iets begrijpen na oefenen."
+    "hint": "Het gaat om iets begrijpen na oefenen.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij liegt vaak, maar ______.",
-    "options": ["ik kreeg zijn truc meteen door", "ik kreeg zijn truc meteen aan", "ik kreeg zijn truc meteen uit", "ik kreeg zijn truc meteen af"],
+    "options": [
+      "ik kreeg zijn truc meteen door",
+      "ik kreeg zijn truc meteen aan",
+      "ik kreeg zijn truc meteen uit",
+      "ik kreeg zijn truc meteen af"
+    ],
     "correct": 0,
     "explanation": "'Doorkrijgen' = doorhebben wat er echt gebeurt. Je merkt snel wat zijn truc is.",
     "wrongExplanations": {
@@ -93,11 +154,19 @@
       "2": "'Uitkrijgen' = uitdoen of uitlezen. Dat past niet bij een truc herkennen.",
       "3": "'Afkrijgen' = iets afmaken. Je maakt de truc niet af, je begrijpt hem."
     },
-    "hint": "Je doorziet wat iemand doet."
+    "hint": "Je doorziet wat iemand doet.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "______ voor de les?",
-    "options": ["Krijg je het boek op tijd uit", "Krijg je het boek op tijd aan", "Krijg je het boek op tijd door", "Krijg je het boek op tijd af"],
+    "options": [
+      "Krijg je het boek op tijd uit",
+      "Krijg je het boek op tijd aan",
+      "Krijg je het boek op tijd door",
+      "Krijg je het boek op tijd af"
+    ],
     "correct": 0,
     "explanation": "'Uitkrijgen' = een boek helemaal kunnen uitlezen. De vraag is of je het boek voor de les af hebt gelezen.",
     "wrongExplanations": {
@@ -105,11 +174,19 @@
       "2": "'Doorkrijgen' = iets begrijpen. Hier gaat het om uitlezen.",
       "3": "'Afkrijgen' = iets afmaken. Bij een boek lezen zeg je meestal 'uitkrijgen'."
     },
-    "hint": "Het gaat om een boek helemaal lezen."
+    "hint": "Het gaat om een boek helemaal lezen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik had het handboek voor het examen niet ______.",
-    "options": ["uitgekregen", "aangekregen", "doorgekregen", "afgekregen"],
+    "options": [
+      "uitgekregen",
+      "aangekregen",
+      "doorgekregen",
+      "afgekregen"
+    ],
     "correct": 0,
     "explanation": "'Uitkrijgen' = iets helemaal uitlezen. Het handboek was niet op tijd helemaal gelezen.",
     "wrongExplanations": {
@@ -117,11 +194,19 @@
       "2": "'Doorkrijgen' = iets begrijpen. Je kunt de stof doorkrijgen, maar een handboek krijg je uit.",
       "3": "'Afkrijgen' = iets afmaken. Bij lezen van een boek is 'uitkrijgen' natuurlijker."
     },
-    "hint": "Je had het boek nog niet helemaal gelezen."
+    "hint": "Je had het boek nog niet helemaal gelezen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Deze ring zit vast; ______.",
-    "options": ["ik krijg hem niet meer uit", "ik krijg hem niet meer aan", "ik krijg hem niet meer door", "ik krijg hem niet meer af"],
+    "options": [
+      "ik krijg hem niet meer uit",
+      "ik krijg hem niet meer aan",
+      "ik krijg hem niet meer door",
+      "ik krijg hem niet meer af"
+    ],
     "correct": 0,
     "explanation": "'Uitkrijgen' = iets uit of van je lichaam kunnen krijgen. De ring zit vast en kan niet af.",
     "wrongExplanations": {
@@ -129,11 +214,19 @@
       "2": "'Doorkrijgen' = iets begrijpen. Een ring begrijp je niet.",
       "3": "'Afkrijgen' kan bij een ring soms ook natuurlijk zijn, maar binnen deze set testen we 'uitkrijgen': iets los krijgen van je lichaam."
     },
-    "hint": "De ring zit vast en moet van je vinger."
+    "hint": "De ring zit vast en moet van je vinger.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De film was zo lang dat ik hem niet in een avond ______.",
-    "options": ["uitkreeg", "aankreeg", "doorkreeg", "afkreeg"],
+    "options": [
+      "uitkreeg",
+      "aankreeg",
+      "doorkreeg",
+      "afkreeg"
+    ],
     "correct": 0,
     "explanation": "'Uitkrijgen' = iets helemaal afkijken of uitlezen. De film was te lang om in een avond helemaal te kijken.",
     "wrongExplanations": {
@@ -141,11 +234,19 @@
       "2": "'Doorkrijgen' = begrijpen. Misschien snap je de film, maar hier gaat het om hem helemaal kijken.",
       "3": "'Afkrijgen' = werk afmaken. Bij een film past 'uitkrijgen' beter."
     },
-    "hint": "Je krijgt iets niet helemaal afgekeken."
+    "hint": "Je krijgt iets niet helemaal afgekeken.",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "We hebben alle werkzaamheden op tijd ______.",
-    "options": ["afgekregen", "uitgekregen", "doorgekregen", "aangekregen"],
+    "options": [
+      "afgekregen",
+      "uitgekregen",
+      "doorgekregen",
+      "aangekregen"
+    ],
     "correct": 0,
     "explanation": "'Afkrijgen' = werk of een taak klaar krijgen. De werkzaamheden waren op tijd af.",
     "wrongExplanations": {
@@ -153,11 +254,19 @@
       "2": "'Doorkrijgen' = iets begrijpen. Hier gaat het om klaar zijn.",
       "3": "'Aankrijgen' = kleding aan kunnen doen. Werkzaamheden trek je niet aan."
     },
-    "hint": "Het gaat om taken klaar krijgen."
+    "hint": "Het gaat om taken klaar krijgen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Denk je dat we dit verslag vandaag nog ______?",
-    "options": ["afkrijgen", "doorkrijgen", "aankrijgen", "uitkrijgen"],
+    "options": [
+      "afkrijgen",
+      "doorkrijgen",
+      "aankrijgen",
+      "uitkrijgen"
+    ],
     "correct": 0,
     "explanation": "'Afkrijgen' = iets klaar krijgen. Een verslag moet geschreven en afgerond worden.",
     "wrongExplanations": {
@@ -165,11 +274,19 @@
       "2": "'Aankrijgen' = kleding aan kunnen doen. Een verslag is geen kleding.",
       "3": "'Uitkrijgen' = uitlezen of uitdoen. Een verslag schrijf je af."
     },
-    "hint": "Het verslag moet vandaag klaar zijn."
+    "hint": "Het verslag moet vandaag klaar zijn.",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Zonder overwerken hadden we die klus nooit ______.",
-    "options": ["afgekregen", "aangekregen", "uitgekregen", "doorgekregen"],
+    "options": [
+      "afgekregen",
+      "aangekregen",
+      "uitgekregen",
+      "doorgekregen"
+    ],
     "correct": 0,
     "explanation": "'Afkrijgen' = een klus of taak afmaken. Zonder extra werktijd was de klus niet klaar gekomen.",
     "wrongExplanations": {
@@ -177,11 +294,19 @@
       "2": "'Uitkrijgen' = uitlezen of uitdoen. Een klus krijg je af, niet uit.",
       "3": "'Doorkrijgen' = begrijpen. Hier gaat het om werk voltooien."
     },
-    "hint": "De klus moest afgemaakt worden."
+    "hint": "De klus moest afgemaakt worden.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Pas laat in de avond ______.",
-    "options": ["kreeg ik mijn huiswerk af", "kreeg ik mijn huiswerk door", "kreeg ik mijn huiswerk aan", "kreeg ik mijn huiswerk uit"],
+    "options": [
+      "kreeg ik mijn huiswerk af",
+      "kreeg ik mijn huiswerk door",
+      "kreeg ik mijn huiswerk aan",
+      "kreeg ik mijn huiswerk uit"
+    ],
     "correct": 0,
     "explanation": "'Afkrijgen' = iets klaar krijgen. Huiswerk krijg je af als het helemaal gemaakt is.",
     "wrongExplanations": {
@@ -189,11 +314,19 @@
       "2": "'Aankrijgen' = kleding aan kunnen doen. Huiswerk is geen kleding.",
       "3": "'Uitkrijgen' = iets uitlezen of uitdoen. Huiswerk maak je af."
     },
-    "hint": "Het huiswerk was uiteindelijk klaar."
+    "hint": "Het huiswerk was uiteindelijk klaar.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na de reparatie kreeg ik mijn telefoon dezelfde dag nog ______.",
-    "options": ["terug", "mee", "binnen", "open"],
+    "options": [
+      "terug",
+      "mee",
+      "binnen",
+      "open"
+    ],
     "correct": 0,
     "explanation": "'Terugkrijgen' = iets weer krijgen dat je eerder kwijt was of had afgegeven. De telefoon was bij de reparateur en komt terug.",
     "wrongExplanations": {
@@ -201,11 +334,19 @@
       "2": "'Binnenkrijgen' = iets ontvangen of naar binnen krijgen. De nadruk ligt hier op terug naar jou.",
       "3": "'Openkrijgen' = iets open kunnen maken. De telefoon wordt niet geopend."
     },
-    "hint": "Je had de telefoon afgegeven en krijgt hem weer."
+    "hint": "Je had de telefoon afgegeven en krijgt hem weer.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Als je het huis netjes achterlaat, krijg je de borg ______.",
-    "options": ["terug", "rond", "los", "op"],
+    "options": [
+      "terug",
+      "rond",
+      "los",
+      "op"
+    ],
     "correct": 0,
     "explanation": "'Terugkrijgen' = geld weer ontvangen dat je eerder hebt betaald. Borg krijg je terug als er geen schade is.",
     "wrongExplanations": {
@@ -213,11 +354,19 @@
       "2": "'Loskrijgen' = iets losmaken of informatie krijgen. Geld krijg je hier terug.",
       "3": "'Opkrijgen' = iets helemaal eten, drinken of gebruiken. Borg eet je niet op."
     },
-    "hint": "Je hebt dit geld eerder betaald en ontvangt het weer."
+    "hint": "Je hebt dit geld eerder betaald en ontvangt het weer.",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Na zijn leugen duurde het lang voordat hij haar vertrouwen ______.",
-    "options": ["terugkreeg", "meekreeg", "openkreeg", "opkreeg"],
+    "options": [
+      "terugkreeg",
+      "meekreeg",
+      "openkreeg",
+      "opkreeg"
+    ],
     "correct": 0,
     "explanation": "'Terugkrijgen' = iets weer krijgen dat verloren was. Vertrouwen kan je verliezen en later terugkrijgen.",
     "wrongExplanations": {
@@ -225,11 +374,19 @@
       "2": "'Openkrijgen' = iets open kunnen maken. Vertrouwen openkrijgen is hier niet de vaste combinatie.",
       "3": "'Opkrijgen' = iets helemaal opmaken. Vertrouwen krijg je niet op."
     },
-    "hint": "Het vertrouwen was weg en moet weer terugkomen."
+    "hint": "Het vertrouwen was weg en moet weer terugkomen.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Door de fout in de factuur krijg je vijftig euro ______.",
-    "options": ["terug", "binnen", "dicht", "los"],
+    "options": [
+      "terug",
+      "binnen",
+      "dicht",
+      "los"
+    ],
     "correct": 0,
     "explanation": "'Terugkrijgen' = geld terug ontvangen. Je hebt te veel betaald en krijgt een bedrag terug.",
     "wrongExplanations": {
@@ -237,11 +394,19 @@
       "2": "'Dichtkrijgen' = iets kunnen sluiten. Geld sluit je niet.",
       "3": "'Loskrijgen' = iets losmaken of informatie verkrijgen. Hier gaat het om terugbetaling."
     },
-    "hint": "Je krijgt geld weer omdat er te veel betaald is."
+    "hint": "Je krijgt geld weer omdat er te veel betaald is.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Wanneer krijgen we de uitslag van het examen ______?",
-    "options": ["terug", "open", "op", "los"],
+    "options": [
+      "terug",
+      "open",
+      "op",
+      "los"
+    ],
     "correct": 0,
     "explanation": "'Terugkrijgen' = feedback of resultaten ontvangen na beoordeling. Een toets of uitslag krijg je terug.",
     "wrongExplanations": {
@@ -249,11 +414,19 @@
       "2": "'Opkrijgen' = iets helemaal eten, drinken of gebruiken. Dat past niet bij een examen.",
       "3": "'Loskrijgen' = iets losmaken of informatie uit iemand krijgen. De vaste combinatie is de uitslag terugkrijgen."
     },
-    "hint": "Na beoordeling ontvang je je resultaat."
+    "hint": "Na beoordeling ontvang je je resultaat.",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Bij de conferentie kreeg iedereen een notitieboekje ______.",
-    "options": ["mee", "terug", "open", "dicht"],
+    "options": [
+      "mee",
+      "terug",
+      "open",
+      "dicht"
+    ],
     "correct": 0,
     "explanation": "'Meekrijgen' = iets krijgen om mee te nemen. De deelnemers krijgen een notitieboekje mee naar huis.",
     "wrongExplanations": {
@@ -261,11 +434,19 @@
       "2": "'Openkrijgen' = iets open kunnen maken. Het boekje wordt niet geopend.",
       "3": "'Dichtkrijgen' = iets kunnen sluiten. Dat past niet bij krijgen als cadeau."
     },
-    "hint": "Je krijgt iets dat je mag meenemen."
+    "hint": "Je krijgt iets dat je mag meenemen.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Heb jij tijdens de uitleg ______ wat de docent bedoelde?",
-    "options": ["meegekregen", "teruggekregen", "opgekregen", "dichtgekregen"],
+    "options": [
+      "meegekregen",
+      "teruggekregen",
+      "opgekregen",
+      "dichtgekregen"
+    ],
     "correct": 0,
     "explanation": "'Meekrijgen' = iets horen, begrijpen of opvangen. De vraag is of je de uitleg hebt begrepen.",
     "wrongExplanations": {
@@ -273,11 +454,19 @@
       "2": "'Opkrijgen' = iets helemaal eten of gebruiken. Een uitleg krijg je niet op.",
       "3": "'Dichtkrijgen' = iets kunnen sluiten. Dat past niet bij begrijpen."
     },
-    "hint": "Het gaat om of je de boodschap hebt opgevangen."
+    "hint": "Het gaat om of je de boodschap hebt opgevangen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Van huis uit heeft ze veel respect voor ouderen ______.",
-    "options": ["meegekregen", "binnengekregen", "losgekregen", "opengekregen"],
+    "options": [
+      "meegekregen",
+      "binnengekregen",
+      "losgekregen",
+      "opengekregen"
+    ],
     "correct": 0,
     "explanation": "'Meekrijgen' = waarden of gewoontes leren vanuit je opvoeding. Ze heeft respect voor ouderen van thuis meegekregen.",
     "wrongExplanations": {
@@ -285,11 +474,19 @@
       "2": "'Loskrijgen' = iets losmaken of informatie uit iemand krijgen. Respect krijg je hier niet los.",
       "3": "'Openkrijgen' = iets open kunnen maken. Dat past niet bij opvoeding."
     },
-    "hint": "Denk aan iets dat je in je opvoeding leert."
+    "hint": "Denk aan iets dat je in je opvoeding leert.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De assistent kreeg duidelijke instructies ______ voor de vergadering.",
-    "options": ["mee", "terug", "op", "dicht"],
+    "options": [
+      "mee",
+      "terug",
+      "op",
+      "dicht"
+    ],
     "correct": 0,
     "explanation": "'Meekrijgen' = instructies of informatie ontvangen om mee te nemen in je taak. De assistent krijgt uitleg mee.",
     "wrongExplanations": {
@@ -297,11 +494,19 @@
       "2": "'Opkrijgen' = iets helemaal opmaken. Instructies krijg je niet op.",
       "3": "'Dichtkrijgen' = iets sluiten. Dat past niet bij instructies."
     },
-    "hint": "Je krijgt informatie mee om je taak goed te doen."
+    "hint": "Je krijgt informatie mee om je taak goed te doen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik kreeg maar de helft van het gesprek ______ door de slechte verbinding.",
-    "options": ["mee", "terug", "open", "rond"],
+    "options": [
+      "mee",
+      "terug",
+      "open",
+      "rond"
+    ],
     "correct": 0,
     "explanation": "'Meekrijgen' = horen of opvangen wat er gebeurt. Door de slechte verbinding hoorde je maar een deel.",
     "wrongExplanations": {
@@ -309,11 +514,19 @@
       "2": "'Openkrijgen' = iets open kunnen maken. De verbinding wordt niet geopend.",
       "3": "'Rondkrijgen' = iets geregeld krijgen. Dat past niet bij horen."
     },
-    "hint": "De vraag is hoeveel je hebt kunnen horen."
+    "hint": "De vraag is hoeveel je hebt kunnen horen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "We hebben gisteren eindelijk de bevestiging van de gemeente ______.",
-    "options": ["binnengekregen", "teruggekregen", "opgekregen", "losgekregen"],
+    "options": [
+      "binnengekregen",
+      "teruggekregen",
+      "opgekregen",
+      "losgekregen"
+    ],
     "correct": 0,
     "explanation": "'Binnenkrijgen' = iets ontvangen, vaak een bericht of document. De bevestiging is binnengekomen bij jullie.",
     "wrongExplanations": {
@@ -321,11 +534,19 @@
       "2": "'Opkrijgen' = iets helemaal opmaken. Een bevestiging krijg je niet op.",
       "3": "'Loskrijgen' = iets losmaken of informatie uit iemand krijgen. Hier ontvang je een officieel bericht."
     },
-    "hint": "Een bericht of document komt binnen."
+    "hint": "Een bericht of document komt binnen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Door de griep kreeg hij bijna geen eten ______.",
-    "options": ["binnen", "terug", "open", "rond"],
+    "options": [
+      "binnen",
+      "terug",
+      "open",
+      "rond"
+    ],
     "correct": 0,
     "explanation": "'Binnenkrijgen' = eten of drinken in je lichaam krijgen. Door de griep lukt eten bijna niet.",
     "wrongExplanations": {
@@ -333,11 +554,19 @@
       "2": "'Openkrijgen' = iets open kunnen maken. Eten moet niet open.",
       "3": "'Rondkrijgen' = iets geregeld krijgen. Dat past niet bij eten."
     },
-    "hint": "Het gaat om eten in je lichaam krijgen."
+    "hint": "Het gaat om eten in je lichaam krijgen.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De klantenservice kreeg vandaag meer dan honderd klachten ______.",
-    "options": ["binnen", "mee", "dicht", "op"],
+    "options": [
+      "binnen",
+      "mee",
+      "dicht",
+      "op"
+    ],
     "correct": 0,
     "explanation": "'Binnenkrijgen' = berichten of reacties ontvangen. Klachten kunnen bij een klantenservice binnenkomen.",
     "wrongExplanations": {
@@ -345,11 +574,19 @@
       "2": "'Dichtkrijgen' = iets sluiten. Klachten sluit je niet.",
       "3": "'Opkrijgen' = iets helemaal opmaken. Klachten krijg je niet op."
     },
-    "hint": "De klachten worden ontvangen door de klantenservice."
+    "hint": "De klachten worden ontvangen door de klantenservice.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Heb je mijn mail van vanochtend al ______?",
-    "options": ["binnengekregen", "rondgekregen", "losgekregen", "opgekregen"],
+    "options": [
+      "binnengekregen",
+      "rondgekregen",
+      "losgekregen",
+      "opgekregen"
+    ],
     "correct": 0,
     "explanation": "'Binnenkrijgen' = een bericht ontvangen. De vraag is of de mail is aangekomen.",
     "wrongExplanations": {
@@ -357,11 +594,19 @@
       "2": "'Loskrijgen' = iets losmaken of informatie krijgen. Hier gaat het om ontvangst.",
       "3": "'Opkrijgen' = iets helemaal opmaken. Een mail krijg je niet op."
     },
-    "hint": "Een mail komt in je inbox binnen."
+    "hint": "Een mail komt in je inbox binnen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na de training kreeg ik de nieuwe werkwijze eindelijk goed ______.",
-    "options": ["door", "binnen", "open", "op"],
+    "options": [
+      "door",
+      "binnen",
+      "open",
+      "op"
+    ],
     "correct": 0,
     "explanation": "'Doorkrijgen' = iets gaan begrijpen. Na de training snap je hoe de nieuwe werkwijze werkt.",
     "wrongExplanations": {
@@ -369,11 +614,19 @@
       "2": "'Openkrijgen' = iets open kunnen maken. Een werkwijze maak je niet open.",
       "3": "'Opkrijgen' = iets helemaal eten of gebruiken. Dat past niet bij begrijpen."
     },
-    "hint": "Eerst was het lastig, daarna begrijp je het."
+    "hint": "Eerst was het lastig, daarna begrijp je het.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De peuter kreeg zijn bord pasta helemaal ______.",
-    "options": ["op", "terug", "los", "rond"],
+    "options": [
+      "op",
+      "terug",
+      "los",
+      "rond"
+    ],
     "correct": 0,
     "explanation": "'Opkrijgen' = eten of drinken helemaal op kunnen krijgen. Het bord pasta is helemaal leeg.",
     "wrongExplanations": {
@@ -381,11 +634,19 @@
       "2": "'Loskrijgen' = iets losmaken. Pasta hoeft niet los.",
       "3": "'Rondkrijgen' = iets geregeld krijgen. Dat past niet bij eten."
     },
-    "hint": "Het bord wordt helemaal leeg gegeten."
+    "hint": "Het bord wordt helemaal leeg gegeten.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik kreeg die bittere medicijnen bijna niet ______.",
-    "options": ["op", "open", "rond", "terug"],
+    "options": [
+      "op",
+      "open",
+      "rond",
+      "terug"
+    ],
     "correct": 0,
     "explanation": "'Opkrijgen' = iets helemaal innemen, eten of drinken. Bittere medicijnen zijn moeilijk op te krijgen.",
     "wrongExplanations": {
@@ -393,11 +654,19 @@
       "2": "'Rondkrijgen' = iets geregeld krijgen. Medicijnen krijg je niet rond.",
       "3": "'Terugkrijgen' = iets weer ontvangen. Medicijnen krijg je hier niet terug."
     },
-    "hint": "Je moet het innemen, maar het lukt bijna niet."
+    "hint": "Je moet het innemen, maar het lukt bijna niet.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De kinderen kregen de taart in vijf minuten ______.",
-    "options": ["op", "mee", "dicht", "los"],
+    "options": [
+      "op",
+      "mee",
+      "dicht",
+      "los"
+    ],
     "correct": 0,
     "explanation": "'Opkrijgen' = eten helemaal opeten. De taart was na vijf minuten weg.",
     "wrongExplanations": {
@@ -405,11 +674,19 @@
       "2": "'Dichtkrijgen' = iets sluiten. Een taart sluit je niet.",
       "3": "'Loskrijgen' = iets losmaken. Dat past niet bij eten."
     },
-    "hint": "Het eten is helemaal op."
+    "hint": "Het eten is helemaal op.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik krijg de deksel van deze pot niet ______.",
-    "options": ["los", "terug", "binnen", "rond"],
+    "options": [
+      "los",
+      "terug",
+      "binnen",
+      "rond"
+    ],
     "correct": 0,
     "explanation": "'Loskrijgen' = iets los kunnen maken. De deksel zit vast en moet los.",
     "wrongExplanations": {
@@ -417,11 +694,19 @@
       "2": "'Binnenkrijgen' = iets ontvangen of eten. Dat past niet bij een deksel.",
       "3": "'Rondkrijgen' = iets geregeld krijgen. Hier gaat het om losmaken."
     },
-    "hint": "Iets zit vast en moet los."
+    "hint": "Iets zit vast en moet los.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De journalist kreeg weinig informatie ______ bij de woordvoerder.",
-    "options": ["los", "open", "op", "dicht"],
+    "options": [
+      "los",
+      "open",
+      "op",
+      "dicht"
+    ],
     "correct": 0,
     "explanation": "'Informatie loskrijgen' = informatie uit iemand krijgen, vaak met moeite. De woordvoerder zei weinig.",
     "wrongExplanations": {
@@ -429,11 +714,19 @@
       "2": "'Opkrijgen' = iets helemaal opmaken. Informatie krijg je niet op.",
       "3": "'Dichtkrijgen' = iets sluiten. De journalist wil juist informatie krijgen."
     },
-    "hint": "Je probeert iemand iets te laten vertellen."
+    "hint": "Je probeert iemand iets te laten vertellen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Met veel kracht kreeg hij de vastgeroeste schroef ______.",
-    "options": ["los", "mee", "terug", "binnen"],
+    "options": [
+      "los",
+      "mee",
+      "terug",
+      "binnen"
+    ],
     "correct": 0,
     "explanation": "'Loskrijgen' = iets losmaken dat vastzit. Een vastgeroeste schroef krijg je met moeite los.",
     "wrongExplanations": {
@@ -441,11 +734,19 @@
       "2": "'Terugkrijgen' = iets weer ontvangen. De schroef was niet uitgeleend.",
       "3": "'Binnenkrijgen' = iets ontvangen. Dat past niet bij een schroef losmaken."
     },
-    "hint": "De schroef zit vast en komt los."
+    "hint": "De schroef zit vast en komt los.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De coach kreeg het team moeilijk ______ uit de oude manier van werken.",
-    "options": ["los", "open", "op", "dicht"],
+    "options": [
+      "los",
+      "open",
+      "op",
+      "dicht"
+    ],
     "correct": 0,
     "explanation": "'Loskrijgen uit' = iemand of iets bevrijden uit een vaste gewoonte. Het team moet de oude manier loslaten.",
     "wrongExplanations": {
@@ -453,11 +754,19 @@
       "2": "'Opkrijgen' = iets helemaal opmaken. Dat past niet bij een werkgewoonte.",
       "3": "'Dichtkrijgen' = iets sluiten. De coach wil juist beweging krijgen."
     },
-    "hint": "Het team zit vast in een oude gewoonte."
+    "hint": "Het team zit vast in een oude gewoonte.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Krijg jij deze deur ______? Mijn sleutel draait niet.",
-    "options": ["open", "op", "terug", "rond"],
+    "options": [
+      "open",
+      "op",
+      "terug",
+      "rond"
+    ],
     "correct": 0,
     "explanation": "'Openkrijgen' = iets open kunnen maken. De deur zit dicht en de sleutel werkt niet goed.",
     "wrongExplanations": {
@@ -465,11 +774,19 @@
       "2": "'Terugkrijgen' = iets weer ontvangen. De deur is niet uitgeleend.",
       "3": "'Rondkrijgen' = iets geregeld krijgen. Hier gaat het om openen."
     },
-    "hint": "De deur moet open."
+    "hint": "De deur moet open.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik krijg het document niet ______; mijn computer zegt dat het bestand kapot is.",
-    "options": ["open", "dicht", "mee", "op"],
+    "options": [
+      "open",
+      "dicht",
+      "mee",
+      "op"
+    ],
     "correct": 0,
     "explanation": "'Openkrijgen' = een bestand of deur open kunnen maken. Het document opent niet op de computer.",
     "wrongExplanations": {
@@ -477,11 +794,19 @@
       "2": "'Meekrijgen' = iets mee mogen nemen of begrijpen. Dat past niet bij een kapot bestand.",
       "3": "'Opkrijgen' = iets helemaal opmaken. Een document krijg je niet op."
     },
-    "hint": "Het bestand moet openen, maar dat lukt niet."
+    "hint": "Het bestand moet openen, maar dat lukt niet.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na een lange nacht kreeg ik mijn ogen bijna niet ______.",
-    "options": ["open", "dicht", "rond", "terug"],
+    "options": [
+      "open",
+      "dicht",
+      "rond",
+      "terug"
+    ],
     "correct": 0,
     "explanation": "'Je ogen openkrijgen' = je ogen open kunnen doen, vaak als je moe bent. Na een lange nacht lukt dat bijna niet.",
     "wrongExplanations": {
@@ -489,11 +814,19 @@
       "2": "'Rondkrijgen' = iets geregeld krijgen. Ogen krijg je niet rond.",
       "3": "'Terugkrijgen' = iets weer ontvangen. Dat past niet bij ogen openen."
     },
-    "hint": "Je bent moe en probeert wakker te worden."
+    "hint": "Je bent moe en probeert wakker te worden.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Deze rits zit vast; ik krijg mijn jas niet ______.",
-    "options": ["open", "terug", "binnen", "rond"],
+    "options": [
+      "open",
+      "terug",
+      "binnen",
+      "rond"
+    ],
     "correct": 0,
     "explanation": "'Openkrijgen' = iets open kunnen maken. Door de vaste rits kan de jas niet open.",
     "wrongExplanations": {
@@ -501,11 +834,19 @@
       "2": "'Binnenkrijgen' = iets ontvangen of naar binnen krijgen. Dat past niet bij een rits.",
       "3": "'Rondkrijgen' = iets geregeld krijgen. Hier gaat het om openen."
     },
-    "hint": "De rits moet open."
+    "hint": "De rits moet open.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun je het raam goed ______ voordat we weggaan?",
-    "options": ["dichtkrijgen", "openkrijgen", "opkrijgen", "meekrijgen"],
+    "options": [
+      "dichtkrijgen",
+      "openkrijgen",
+      "opkrijgen",
+      "meekrijgen"
+    ],
     "correct": 0,
     "explanation": "'Dichtkrijgen' = iets kunnen sluiten. Het raam moet goed dicht voordat jullie weggaan.",
     "wrongExplanations": {
@@ -513,11 +854,19 @@
       "2": "'Opkrijgen' = iets opeten of opmaken. Een raam krijg je niet op.",
       "3": "'Meekrijgen' = iets mee mogen nemen of horen. Een raam neem je niet mee."
     },
-    "hint": "Je sluit het raam."
+    "hint": "Je sluit het raam.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De koffer zat zo vol dat ik hem bijna niet ______.",
-    "options": ["dichtkreeg", "openkreeg", "terugkreeg", "meekreeg"],
+    "options": [
+      "dichtkreeg",
+      "openkreeg",
+      "terugkreeg",
+      "meekreeg"
+    ],
     "correct": 0,
     "explanation": "'Dichtkrijgen' = iets kunnen sluiten. Een te volle koffer is moeilijk dicht te krijgen.",
     "wrongExplanations": {
@@ -525,11 +874,19 @@
       "2": "'Terugkrijgen' = iets weer ontvangen. De koffer is niet uitgeleend.",
       "3": "'Meekrijgen' = iets mee mogen nemen. Hier gaat het om dichtdoen."
     },
-    "hint": "De koffer moet sluiten."
+    "hint": "De koffer moet sluiten.",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Door de harde wind kreeg ze de voordeur niet ______.",
-    "options": ["dicht", "mee", "terug", "op"],
+    "options": [
+      "dicht",
+      "mee",
+      "terug",
+      "op"
+    ],
     "correct": 0,
     "explanation": "'Dichtkrijgen' = iets dicht kunnen doen. Door de wind lukt het niet om de deur te sluiten.",
     "wrongExplanations": {
@@ -537,11 +894,19 @@
       "2": "'Terugkrijgen' = iets weer ontvangen. Dat past niet bij een deur.",
       "3": "'Opkrijgen' = iets opeten of opmaken. Een deur krijg je niet op."
     },
-    "hint": "De deur moet sluiten, maar de wind werkt tegen."
+    "hint": "De deur moet sluiten, maar de wind werkt tegen.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "We kregen de financiering voor het buurtproject eindelijk ______.",
-    "options": ["rond", "open", "op", "terug"],
+    "options": [
+      "rond",
+      "open",
+      "op",
+      "terug"
+    ],
     "correct": 0,
     "explanation": "'Rondkrijgen' = iets geregeld krijgen, vooral financiering, planning of afspraken. De financiering is eindelijk geregeld.",
     "wrongExplanations": {
@@ -549,11 +914,19 @@
       "2": "'Opkrijgen' = iets opmaken. Geld kun je opmaken, maar financiering rondkrijgen betekent regelen.",
       "3": "'Terugkrijgen' = iets weer ontvangen. Hier gaat het om regelen, niet terugbetaling."
     },
-    "hint": "De financiering wordt geregeld."
+    "hint": "De financiering wordt geregeld.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het kostte veel overleg om de planning ______ te krijgen.",
-    "options": ["rond", "los", "binnen", "op"],
+    "options": [
+      "rond",
+      "los",
+      "binnen",
+      "op"
+    ],
     "correct": 0,
     "explanation": "'Iets rondkrijgen' = iets helemaal geregeld krijgen. De planning is pas klaar na veel overleg.",
     "wrongExplanations": {
@@ -561,11 +934,19 @@
       "2": "'Binnenkrijgen' = iets ontvangen. De planning wordt hier gemaakt en geregeld.",
       "3": "'Opkrijgen' = iets opmaken. Dat past niet bij planning."
     },
-    "hint": "Alle afspraken moeten passen en geregeld zijn."
+    "hint": "Alle afspraken moeten passen en geregeld zijn.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De onderzoeker heeft toestemming van alle deelnemers ______.",
-    "options": ["verkregen", "teruggekregen", "opgekregen", "dichtgekregen"],
+    "options": [
+      "verkregen",
+      "teruggekregen",
+      "opgekregen",
+      "dichtgekregen"
+    ],
     "correct": 0,
     "explanation": "'Verkrijgen' = iets krijgen op een formele manier. Toestemming verkrijgen klinkt officieel en past bij onderzoek.",
     "wrongExplanations": {
@@ -573,11 +954,19 @@
       "2": "'Opkrijgen' = iets opmaken. Toestemming krijg je niet op.",
       "3": "'Dichtkrijgen' = iets sluiten. Dat past niet bij toestemming."
     },
-    "hint": "Dit is formeel taalgebruik voor toestemming krijgen."
+    "hint": "Dit is formeel taalgebruik voor toestemming krijgen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Voor deze reis moet je eerst een visum ______.",
-    "options": ["verkrijgen", "meekrijgen", "opkrijgen", "loskrijgen"],
+    "options": [
+      "verkrijgen",
+      "meekrijgen",
+      "opkrijgen",
+      "loskrijgen"
+    ],
     "correct": 0,
     "explanation": "'Verkrijgen' = officieel krijgen of bemachtigen. Een visum verkrijg je via een formele aanvraag.",
     "wrongExplanations": {
@@ -585,11 +974,19 @@
       "2": "'Opkrijgen' = iets opeten of opmaken. Dat past niet bij een visum.",
       "3": "'Loskrijgen' kan soms 'bemachtigen' betekenen, maar bij een visum is 'verkrijgen' netter en officiëler."
     },
-    "hint": "Een visum krijg je via een officiële procedure."
+    "hint": "Een visum krijg je via een officiële procedure.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Met citroensap kreeg ze de vlek uit haar shirt ______.",
-    "options": ["weg", "open", "rond", "mee"],
+    "options": [
+      "weg",
+      "open",
+      "rond",
+      "mee"
+    ],
     "correct": 0,
     "explanation": "'Wegkrijgen' = iets laten verdwijnen of verwijderen. De vlek verdwijnt uit het shirt.",
     "wrongExplanations": {
@@ -597,11 +994,19 @@
       "2": "'Rondkrijgen' = iets regelen. Dat past niet bij een vlek.",
       "3": "'Meekrijgen' = iets meenemen of opvangen. De vlek moet juist weg."
     },
-    "hint": "Je probeert iets te verwijderen."
+    "hint": "Je probeert iets te verwijderen.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik kreeg die nare smaak maar niet ______ uit mijn mond.",
-    "options": ["weg", "terug", "dicht", "rond"],
+    "options": [
+      "weg",
+      "terug",
+      "dicht",
+      "rond"
+    ],
     "correct": 0,
     "explanation": "'Wegkrijgen' = iets laten verdwijnen. De nare smaak blijft, ook al wil je die weg hebben.",
     "wrongExplanations": {
@@ -609,11 +1014,19 @@
       "2": "'Dichtkrijgen' = iets sluiten. Een smaak sluit je niet.",
       "3": "'Rondkrijgen' = iets regelen. Dat past niet bij een smaak."
     },
-    "hint": "Je wilt dat iets verdwijnt."
+    "hint": "Je wilt dat iets verdwijnt.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De nieuwe medewerker kreeg zijn laptop pas na een week ______.",
-    "options": ["mee", "op", "dicht", "rond"],
+    "options": [
+      "mee",
+      "op",
+      "dicht",
+      "rond"
+    ],
     "correct": 0,
     "explanation": "'Meekrijgen' = iets krijgen om mee te nemen of te gebruiken. De medewerker krijgt de laptop mee voor zijn werk.",
     "wrongExplanations": {
@@ -621,11 +1034,19 @@
       "2": "'Dichtkrijgen' = iets sluiten. De laptop krijgen is hier belangrijk, niet dichtdoen.",
       "3": "'Rondkrijgen' = iets geregeld krijgen. De laptop zelf krijg je mee."
     },
-    "hint": "Hij ontvangt iets dat hij voor zijn werk mag gebruiken."
+    "hint": "Hij ontvangt iets dat hij voor zijn werk mag gebruiken.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Door de drukte kreeg ik de nieuwsbrief pas laat ______.",
-    "options": ["binnen", "terug", "open", "los"],
+    "options": [
+      "binnen",
+      "terug",
+      "open",
+      "los"
+    ],
     "correct": 0,
     "explanation": "'Binnenkrijgen' = iets ontvangen. De nieuwsbrief kwam pas laat binnen.",
     "wrongExplanations": {
@@ -633,11 +1054,19 @@
       "2": "'Openkrijgen' = iets openen. De zin zegt dat je hem laat ontving.",
       "3": "'Loskrijgen' = iets losmaken of informatie uit iemand krijgen. Dat past niet bij een nieuwsbrief ontvangen."
     },
-    "hint": "Een bericht wordt ontvangen."
+    "hint": "Een bericht wordt ontvangen.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij kreeg het niet voor elkaar om de projector ______ te krijgen.",
-    "options": ["aan", "terug", "rond", "weg"],
+    "options": [
+      "aan",
+      "terug",
+      "rond",
+      "weg"
+    ],
     "correct": 0,
     "explanation": "'Aankrijgen' = een apparaat aan kunnen zetten. De projector moest aan, maar dat lukte niet.",
     "wrongExplanations": {
@@ -645,11 +1074,19 @@
       "2": "'Rondkrijgen' = iets geregeld krijgen. Hier gaat het concreet om het apparaat aanzetten.",
       "3": "'Wegkrijgen' = iets laten verdwijnen. De projector moet juist werken."
     },
-    "hint": "Het apparaat moet aan."
+    "hint": "Het apparaat moet aan.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na veel oefenen kreeg ze de lastige uitspraak eindelijk ______.",
-    "options": ["voor elkaar", "binnen", "dicht", "terug"],
+    "options": [
+      "voor elkaar",
+      "binnen",
+      "dicht",
+      "terug"
+    ],
     "correct": 0,
     "explanation": "'Iets voor elkaar krijgen' = iets laten lukken. De uitspraak lukte pas na veel oefenen.",
     "wrongExplanations": {
@@ -657,11 +1094,19 @@
       "2": "'Dichtkrijgen' = iets sluiten. Dat past niet bij uitspraak oefenen.",
       "3": "'Terugkrijgen' = iets weer ontvangen. De uitspraak was niet weg."
     },
-    "hint": "Na oefenen lukt het eindelijk."
+    "hint": "Na oefenen lukt het eindelijk.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "We kregen de hele groep ______ voordat de presentatie begon.",
-    "options": ["stil", "open", "op", "terug"],
+    "options": [
+      "stil",
+      "open",
+      "op",
+      "terug"
+    ],
     "correct": 0,
     "explanation": "'Iemand stil krijgen' = zorgen dat iemand stil wordt. De groep werd rustig voor de presentatie.",
     "wrongExplanations": {
@@ -669,11 +1114,19 @@
       "2": "'Opkrijgen' = iets opmaken. Dat past niet bij mensen.",
       "3": "'Terugkrijgen' = iets weer ontvangen. De groep wordt niet teruggegeven."
     },
-    "hint": "Je zorgt dat mensen ophouden met praten."
+    "hint": "Je zorgt dat mensen ophouden met praten.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De leraar kreeg de klas na de pauze moeilijk ______.",
-    "options": ["rustig", "open", "op", "terug"],
+    "options": [
+      "rustig",
+      "open",
+      "op",
+      "terug"
+    ],
     "correct": 0,
     "explanation": "'Iemand rustig krijgen' = zorgen dat iemand rustig wordt. De klas was druk na de pauze.",
     "wrongExplanations": {
@@ -681,11 +1134,19 @@
       "2": "'Opkrijgen' = iets helemaal opmaken. Dat past niet bij een klas.",
       "3": "'Terugkrijgen' = iets weer ontvangen. De klas wordt niet teruggegeven."
     },
-    "hint": "Je probeert een drukke groep rustig te maken."
+    "hint": "Je probeert een drukke groep rustig te maken.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik kreeg de oude software niet meer ______ op mijn nieuwe laptop.",
-    "options": ["aan de praat", "terug", "op", "dicht"],
+    "options": [
+      "aan de praat",
+      "terug",
+      "op",
+      "dicht"
+    ],
     "correct": 0,
     "explanation": "'Iets aan de praat krijgen' = zorgen dat iets weer werkt. De oude software werkt niet op de nieuwe laptop.",
     "wrongExplanations": {
@@ -693,11 +1154,19 @@
       "2": "'Opkrijgen' = iets opeten of opmaken. Software krijg je niet op.",
       "3": "'Dichtkrijgen' = iets sluiten. Het probleem is dat de software moet werken."
     },
-    "hint": "Je probeert software werkend te krijgen."
+    "hint": "Je probeert software werkend te krijgen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na drie herinneringen kregen we eindelijk antwoord ______ van de leverancier.",
-    "options": ["terug", "open", "op", "dicht"],
+    "options": [
+      "terug",
+      "open",
+      "op",
+      "dicht"
+    ],
     "correct": 0,
     "explanation": "'Antwoord terugkrijgen' = een reactie ontvangen nadat je iets hebt gevraagd. De leverancier reageerde pas na herinneringen.",
     "wrongExplanations": {
@@ -705,11 +1174,19 @@
       "2": "'Opkrijgen' = iets opmaken. Dat past niet bij een antwoord.",
       "3": "'Dichtkrijgen' = iets sluiten. Je wilt juist een reactie."
     },
-    "hint": "Je hebt iets gevraagd en ontvangt later een reactie."
+    "hint": "Je hebt iets gevraagd en ontvangt later een reactie.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De stichting kreeg genoeg vrijwilligers ______ voor het festival.",
-    "options": ["bij elkaar", "open", "op", "dicht"],
+    "options": [
+      "bij elkaar",
+      "open",
+      "op",
+      "dicht"
+    ],
     "correct": 0,
     "explanation": "'Iets of mensen bij elkaar krijgen' = genoeg verzamelen. De stichting vond genoeg vrijwilligers voor het festival.",
     "wrongExplanations": {
@@ -717,6 +1194,9 @@
       "2": "'Opkrijgen' = iets opmaken. Dat past niet bij vrijwilligers verzamelen.",
       "3": "'Dichtkrijgen' = iets sluiten. De stichting wil mensen verzamelen."
     },
-    "hint": "Je verzamelt genoeg mensen voor een doel."
+    "hint": "Je verzamelt genoeg mensen voor een doel.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   }
 ]

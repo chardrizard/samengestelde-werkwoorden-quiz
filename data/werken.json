@@ -1,7 +1,12 @@
 [
   {
     "sentence": "Welke boer ______ deze grond?",
-    "options": ["bewerkt", "verwerkt", "inwerkt", "meewerkt"],
+    "options": [
+      "bewerkt",
+      "verwerkt",
+      "inwerkt",
+      "meewerkt"
+    ],
     "correct": 0,
     "explanation": "'Bewerken' = grond behandelen of cultiveren zodat er iets kan groeien. Een boer bewerkt het land.",
     "wrongExplanations": {
@@ -9,11 +14,19 @@
       "2": "'Inwerken' = wennen aan een nieuwe baan of iemand trainen. Dat past niet bij grond.",
       "3": "'Meewerken' = samenwerken of helpen. Grond werkt niet mee als collega."
     },
-    "hint": "Denk aan land klaarmaken voor landbouw."
+    "hint": "Denk aan land klaarmaken voor landbouw.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De foto was zo sterk ______ dat niemand haar herkende.",
-    "options": ["bewerkt", "verwerkt", "uitgewerkt", "ingewerkt"],
+    "options": [
+      "bewerkt",
+      "verwerkt",
+      "uitgewerkt",
+      "ingewerkt"
+    ],
     "correct": 0,
     "explanation": "'Bewerken' = een foto, video of tekst aanpassen. De foto is zo aangepast dat de persoon niet herkenbaar is.",
     "wrongExplanations": {
@@ -21,11 +34,19 @@
       "2": "'Uitwerken' = een idee verder uitwerken of ophouden met werken, zoals medicijn. Dat past niet bij een foto aanpassen.",
       "3": "'Inwerken' = wennen aan werk of iemand trainen. Een foto wordt niet ingewerkt."
     },
-    "hint": "Het gaat om een beeld aanpassen."
+    "hint": "Het gaat om een beeld aanpassen.",
+    "tense": "imperfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Voor de film moest de editor urenlang het geluid ______.",
-    "options": ["bewerken", "verwerken", "samenwerken", "overwerken"],
+    "options": [
+      "bewerken",
+      "verwerken",
+      "samenwerken",
+      "overwerken"
+    ],
     "correct": 0,
     "explanation": "'Bewerken' = media aanpassen, zoals beeld of geluid. Een editor bewerkt het geluid van een film.",
     "wrongExplanations": {
@@ -33,11 +54,19 @@
       "2": "'Samenwerken' = met anderen werken. Geluid werkt niet samen.",
       "3": "'Overwerken' = langer werken dan normaal. Dat zegt niets over wat er met het geluid gebeurt."
     },
-    "hint": "Een editor past audio technisch aan."
+    "hint": "Een editor past audio technisch aan.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Deze akkers worden al generaties lang door dezelfde familie ______.",
-    "options": ["bewerkt", "doorgewerkt", "meegewerkt", "zwartgewerkt"],
+    "options": [
+      "bewerkt",
+      "doorgewerkt",
+      "meegewerkt",
+      "zwartgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Bewerken' = land gebruiken en verzorgen voor landbouw. Akkers kunnen door een familie bewerkt worden.",
     "wrongExplanations": {
@@ -45,11 +74,19 @@
       "2": "'Meewerken' = helpen of samenwerken. Akkers helpen niet actief mee.",
       "3": "'Zwartwerken' = werken zonder belasting of officiële registratie. Akkers zwartwerken niet."
     },
-    "hint": "Het gaat om landbouwgrond gebruiken en verzorgen."
+    "hint": "Het gaat om landbouwgrond gebruiken en verzorgen.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Onze nieuwe collega heeft zich snel ______.",
-    "options": ["ingewerkt", "bewerkt", "overgewerkt", "uitgewerkt"],
+    "options": [
+      "ingewerkt",
+      "bewerkt",
+      "overgewerkt",
+      "uitgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Zich inwerken' = wennen aan een nieuwe baan en leren hoe alles werkt. De collega vond snel zijn weg.",
     "wrongExplanations": {
@@ -57,11 +94,19 @@
       "2": "'Overwerken' = langer werken dan normaal. Dat zegt niets over wennen aan de baan.",
       "3": "'Uitwerken' = een idee verder maken of ophouden met werken. Dat past niet bij een nieuwe baan leren."
     },
-    "hint": "De collega leert snel hoe het werk en het team functioneren."
+    "hint": "De collega leert snel hoe het werk en het team functioneren.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Voordat ze zelfstandig mocht werken, werd ze eerst goed ______.",
-    "options": ["ingewerkt", "verwerkt", "doorgewerkt", "zwartgewerkt"],
+    "options": [
+      "ingewerkt",
+      "verwerkt",
+      "doorgewerkt",
+      "zwartgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Inwerken' = iemand trainen voor een nieuwe functie. Ze mocht pas zelfstandig werken nadat ze goed was begeleid.",
     "wrongExplanations": {
@@ -69,11 +114,19 @@
       "2": "'Doorwerken' = doorgaan met werken. Hier krijgt iemand training.",
       "3": "'Zwartwerken' = illegaal werken zonder belasting te betalen. Dat past niet bij begeleiding."
     },
-    "hint": "Iemand leert eerst hoe de functie werkt."
+    "hint": "Iemand leert eerst hoe de functie werkt.",
+    "tense": "imperfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun jij de stagiair deze week ______?",
-    "options": ["inwerken", "bewerken", "uitwerken", "overwerken"],
+    "options": [
+      "inwerken",
+      "bewerken",
+      "uitwerken",
+      "overwerken"
+    ],
     "correct": 0,
     "explanation": "'Inwerken' = iemand uitleg geven en begeleiden in een nieuwe rol. Een stagiair moet leren hoe het werk gaat.",
     "wrongExplanations": {
@@ -81,11 +134,19 @@
       "2": "'Uitwerken' = een plan verder uitwerken of ophouden met werken. Een stagiair moet worden ingewerkt.",
       "3": "'Overwerken' = langer werken dan normaal. Dat is geen training."
     },
-    "hint": "De stagiair heeft begeleiding nodig om het werk te leren."
+    "hint": "De stagiair heeft begeleiding nodig om het werk te leren.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na twee weken was hij eindelijk goed ______ in het nieuwe systeem.",
-    "options": ["ingewerkt", "meegewerkt", "samengewerkt", "uitgewerkt"],
+    "options": [
+      "ingewerkt",
+      "meegewerkt",
+      "samengewerkt",
+      "uitgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Ingewerkt zijn' = genoeg gewend zijn aan een taak, functie of systeem. Hij begrijpt nu hoe het nieuwe systeem werkt.",
     "wrongExplanations": {
@@ -93,11 +154,19 @@
       "2": "'Samenwerken' = met anderen werken. Een persoon werkt niet 'in een systeem samen' in deze betekenis.",
       "3": "'Uitwerken' = een effect verliezen of iets verder uitwerken. Dat past hier niet."
     },
-    "hint": "Hij is gewend geraakt aan het nieuwe systeem."
+    "hint": "Hij is gewend geraakt aan het nieuwe systeem.",
+    "tense": "imperfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik ben nog niet klaar, daarom werk ik nog even ______.",
-    "options": ["door", "over", "mee", "samen"],
+    "options": [
+      "door",
+      "over",
+      "mee",
+      "samen"
+    ],
     "correct": 0,
     "explanation": "'Doorwerken' = blijven werken en nog niet stoppen. Je bent nog niet klaar, dus je werkt nog even door.",
     "wrongExplanations": {
@@ -105,11 +174,19 @@
       "2": "'Meewerken' = helpen of samenwerken. Niemand vraagt hier om hulp.",
       "3": "'Samenwerken' = met iemand anders werken. De zin noemt geen andere persoon."
     },
-    "hint": "Je stopt nog niet, je gaat verder."
+    "hint": "Je stopt nog niet, je gaat verder.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hoewel ik moe was, heb ik tot laat ______.",
-    "options": ["doorgewerkt", "samengewerkt", "ingewerkt", "verwerkt"],
+    "options": [
+      "doorgewerkt",
+      "samengewerkt",
+      "ingewerkt",
+      "verwerkt"
+    ],
     "correct": 0,
     "explanation": "'Doorwerken' = blijven werken, ook als het zwaar is of laat wordt. Je gaat door ondanks vermoeidheid.",
     "wrongExplanations": {
@@ -117,11 +194,19 @@
       "2": "'Inwerken' = wennen aan een nieuwe baan of iemand trainen. Dat past niet bij moe doorgaan.",
       "3": "'Verwerken' = mentaal verwerken of materiaal gebruiken. Hier gaat het om blijven werken."
     },
-    "hint": "Je bent moe, maar je stopt niet."
+    "hint": "Je bent moe, maar je stopt niet.",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Als we nu even ______, zijn we voor vijf uur klaar.",
-    "options": ["doorwerken", "overwerken", "bewerken", "zwartwerken"],
+    "options": [
+      "doorwerken",
+      "overwerken",
+      "bewerken",
+      "zwartwerken"
+    ],
     "correct": 0,
     "explanation": "'Doorwerken' = zonder stoppen verder werken. Als jullie nu doorgaan, is het werk op tijd af.",
     "wrongExplanations": {
@@ -129,11 +214,19 @@
       "2": "'Bewerken' = iets aanpassen of land cultiveren. Dat past niet bij samen verder werken.",
       "3": "'Zwartwerken' = illegaal werken zonder belasting te betalen. Dat heeft niets met tempo te maken."
     },
-    "hint": "Je werkt nog even verder zonder pauze."
+    "hint": "Je werkt nog even verder zonder pauze.",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "De printer bleef gewoon ______ terwijl wij al naar huis wilden.",
-    "options": ["doorwerken", "meewerken", "uitwerken", "samenwerken"],
+    "options": [
+      "doorwerken",
+      "meewerken",
+      "uitwerken",
+      "samenwerken"
+    ],
     "correct": 0,
     "explanation": "'Doorwerken' = blijven werken of functioneren. De printer bleef doorgaan terwijl jullie wilden stoppen.",
     "wrongExplanations": {
@@ -141,11 +234,19 @@
       "2": "'Uitwerken' = ophouden met effect hebben of een idee verder maken. Een printer werkt hier juist door.",
       "3": "'Samenwerken' = met anderen werken. Een printer werkt niet samen als collega."
     },
-    "hint": "Het apparaat stopt niet en gaat verder."
+    "hint": "Het apparaat stopt niet en gaat verder.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij werkt nooit ______ als zijn collega iets voorstelt.",
-    "options": ["mee", "samen", "over", "zwart"],
+    "options": [
+      "mee",
+      "samen",
+      "over",
+      "zwart"
+    ],
     "correct": 0,
     "explanation": "'Meewerken' = helpen of bereid zijn om samen iets mogelijk te maken. Hij weigert telkens mee te gaan in voorstellen.",
     "wrongExplanations": {
@@ -153,11 +254,19 @@
       "2": "'Overwerken' = langer werken dan normaal. Dat past niet bij een voorstel.",
       "3": "'Zwartwerken' = illegaal werken zonder belasting te betalen. Dat past niet bij collegiale hulp."
     },
-    "hint": "Het gaat om wel of niet helpen bij het voorstel van een ander."
+    "hint": "Het gaat om wel of niet helpen bij het voorstel van een ander.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het oude computersysteem werkte de hele middag niet ______.",
-    "options": ["mee", "samen", "door", "over"],
+    "options": [
+      "mee",
+      "samen",
+      "door",
+      "over"
+    ],
     "correct": 0,
     "explanation": "'Meewerken' kan betekenen dat iets goed functioneert of helpt. Het systeem werkte niet mee, dus het maakte het werk moeilijk.",
     "wrongExplanations": {
@@ -165,11 +274,19 @@
       "2": "'Doorwerken' = blijven werken. Hier gaat het om een systeem dat niet helpt of niet goed functioneert.",
       "3": "'Overwerken' = langer werken dan normaal. Een systeem werkt niet over."
     },
-    "hint": "Een apparaat of systeem kan 'niet meewerken' als het problemen geeft."
+    "hint": "Een apparaat of systeem kan 'niet meewerken' als het problemen geeft.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Zonder jullie hulp kunnen we dit plan niet ______.",
-    "options": ["meewerken", "uitwerken", "overwerken", "zwartwerken"],
+    "options": [
+      "meewerken",
+      "uitwerken",
+      "overwerken",
+      "zwartwerken"
+    ],
     "correct": 1,
     "explanation": "'Uitwerken' = een plan verder concreet maken. Zonder hulp kan het plan niet goed worden uitgewerkt.",
     "wrongExplanations": {
@@ -177,11 +294,19 @@
       "2": "'Overwerken' = langer werken dan normaal. Een plan werkt niet over.",
       "3": "'Zwartwerken' = illegaal werken. Dat past niet bij een plan concreet maken."
     },
-    "hint": "Een plan moet concreter en verder uitgewerkt worden."
+    "hint": "Een plan moet concreter en verder uitgewerkt worden.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Wil je even ______ aan dit onderzoek?",
-    "options": ["meewerken", "bewerken", "overwerken", "zwartwerken"],
+    "options": [
+      "meewerken",
+      "bewerken",
+      "overwerken",
+      "zwartwerken"
+    ],
     "correct": 0,
     "explanation": "'Meewerken aan' = helpen of bijdragen aan iets. Je vraagt iemand om mee te doen aan het onderzoek.",
     "wrongExplanations": {
@@ -189,11 +314,19 @@
       "2": "'Overwerken' = extra uren maken. De vraag gaat om bijdragen, niet om langer werken.",
       "3": "'Zwartwerken' = illegaal werken. Dat past niet bij deelnemen aan onderzoek."
     },
-    "hint": "Je vraagt iemand om bij te dragen."
+    "hint": "Je vraagt iemand om bij te dragen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Mijn collega en ik kunnen goed ______.",
-    "options": ["samenwerken", "meewerken", "overwerken", "bewerken"],
+    "options": [
+      "samenwerken",
+      "meewerken",
+      "overwerken",
+      "bewerken"
+    ],
     "correct": 0,
     "explanation": "'Samenwerken' = met iemand anders werken aan een taak of doel. Twee collega's kunnen goed samenwerken.",
     "wrongExplanations": {
@@ -201,11 +334,19 @@
       "2": "'Overwerken' = extra uren maken. Dat zegt niets over hoe goed jullie als duo werken.",
       "3": "'Bewerken' = aanpassen of land cultiveren. Collega's bewerken elkaar niet."
     },
-    "hint": "Twee mensen werken goed met elkaar."
+    "hint": "Twee mensen werken goed met elkaar.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De twee bedrijven hebben jarenlang succesvol ______.",
-    "options": ["samengewerkt", "meegewerkt", "doorgewerkt", "zwartgewerkt"],
+    "options": [
+      "samengewerkt",
+      "meegewerkt",
+      "doorgewerkt",
+      "zwartgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Samenwerken' = samen aan doelen of projecten werken. Bedrijven kunnen jarenlang succesvol samenwerken.",
     "wrongExplanations": {
@@ -213,11 +354,19 @@
       "2": "'Doorwerken' = blijven werken. Dat zegt niets over hun relatie.",
       "3": "'Zwartwerken' = illegaal werken zonder belasting te betalen. Dat past niet bij succesvolle samenwerking."
     },
-    "hint": "Twee organisaties werken met elkaar."
+    "hint": "Twee organisaties werken met elkaar.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Tijdens dit project moeten design en development nauw ______.",
-    "options": ["samenwerken", "overwerken", "bewerken", "verwerken"],
+    "options": [
+      "samenwerken",
+      "overwerken",
+      "bewerken",
+      "verwerken"
+    ],
     "correct": 0,
     "explanation": "'Samenwerken' = goed met elkaar werken aan hetzelfde doel. Design en development moeten elkaar afstemmen.",
     "wrongExplanations": {
@@ -225,11 +374,19 @@
       "2": "'Bewerken' = iets aanpassen. Teams bewerken elkaar niet.",
       "3": "'Verwerken' = informatie, verdriet of materiaal verwerken. Dat past niet bij teams die samen werken."
     },
-    "hint": "Twee teams moeten goed met elkaar werken."
+    "hint": "Twee teams moeten goed met elkaar werken.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze vindt het lastig om met dominante mensen ______.",
-    "options": ["samen te werken", "mee te werken", "door te werken", "zwart te werken"],
+    "options": [
+      "samen te werken",
+      "mee te werken",
+      "door te werken",
+      "zwart te werken"
+    ],
     "correct": 0,
     "explanation": "'Samenwerken met' = met iemand werken. Dominante mensen maken het voor haar moeilijk om goed samen te werken.",
     "wrongExplanations": {
@@ -237,11 +394,19 @@
       "2": "'Doorwerken' = blijven werken. Dat zegt niets over de mensen met wie ze werkt.",
       "3": "'Zwartwerken' = illegaal werken. Dat past niet bij dominante mensen."
     },
-    "hint": "De vaste combinatie is: samenwerken met iemand."
+    "hint": "De vaste combinatie is: samenwerken met iemand.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Vanwege al het werk moet iedereen vanavond ______.",
-    "options": ["overwerken", "doorwerken", "meewerken", "samenwerken"],
+    "options": [
+      "overwerken",
+      "doorwerken",
+      "meewerken",
+      "samenwerken"
+    ],
     "correct": 0,
     "explanation": "'Overwerken' = langer werken dan je normale werktijd. Vanavond extra werken door drukte is overwerken.",
     "wrongExplanations": {
@@ -249,11 +414,19 @@
       "2": "'Meewerken' = helpen of bijdragen. Hier gaat het om extra werktijd.",
       "3": "'Samenwerken' = met anderen werken. De zin zegt niet dat samenwerking het probleem is."
     },
-    "hint": "Iedereen moet extra uren maken."
+    "hint": "Iedereen moet extra uren maken.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze heeft vorige week elke avond ______.",
-    "options": ["overgewerkt", "samengewerkt", "ingewerkt", "bewerkt"],
+    "options": [
+      "overgewerkt",
+      "samengewerkt",
+      "ingewerkt",
+      "bewerkt"
+    ],
     "correct": 0,
     "explanation": "'Overwerken' = extra uren maken buiten je normale werktijd. Elke avond extra werken maakt iemand uitgeput.",
     "wrongExplanations": {
@@ -261,11 +434,19 @@
       "2": "'Inwerken' = wennen aan een baan of iemand trainen. Dat past niet bij elke avond extra uren maken.",
       "3": "'Bewerken' = iets aanpassen of land cultiveren. Dat past niet bij werktijd."
     },
-    "hint": "Elke avond extra werken buiten normale tijd."
+    "hint": "Elke avond extra werken buiten normale tijd.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Als de deadline morgen is, moeten we waarschijnlijk ______.",
-    "options": ["overwerken", "verwerken", "inwerken", "bewerken"],
+    "options": [
+      "overwerken",
+      "verwerken",
+      "inwerken",
+      "bewerken"
+    ],
     "correct": 0,
     "explanation": "'Overwerken' = langer werken dan normaal om werk af te krijgen. Een strakke deadline kan overwerk veroorzaken.",
     "wrongExplanations": {
@@ -273,11 +454,19 @@
       "2": "'Inwerken' = trainen of wennen aan een baan. Dat lost de deadline niet op.",
       "3": "'Bewerken' = iets aanpassen. De zin gaat over extra uren maken."
     },
-    "hint": "Door de deadline zijn extra uren nodig."
+    "hint": "Door de deadline zijn extra uren nodig.",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Na drie weken zonder pauze en veel ______ was hij helemaal op.",
-    "options": ["overwerken", "samenwerken", "meewerken", "bewerken"],
+    "options": [
+      "overwerken",
+      "samenwerken",
+      "meewerken",
+      "bewerken"
+    ],
     "correct": 0,
     "explanation": "'Overwerken' = extra uren maken. Veel overwerken kan ervoor zorgen dat iemand helemaal uitgeput raakt.",
     "wrongExplanations": {
@@ -285,11 +474,19 @@
       "2": "'Meewerken' = helpen of goed functioneren. Dat past niet bij extra uren.",
       "3": "'Bewerken' = iets aanpassen of land cultiveren. Dat past niet bij werkdruk."
     },
-    "hint": "Extra uren zonder genoeg rust maken iemand moe."
+    "hint": "Extra uren zonder genoeg rust maken iemand moe.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Helaas is de pijnstiller al ______.",
-    "options": ["uitgewerkt", "verwerkt", "doorgewerkt", "bewerkt"],
+    "options": [
+      "uitgewerkt",
+      "verwerkt",
+      "doorgewerkt",
+      "bewerkt"
+    ],
     "correct": 0,
     "explanation": "'Uitwerken' = ophouden met effect hebben. De pijnstiller helpt niet meer.",
     "wrongExplanations": {
@@ -297,11 +494,19 @@
       "2": "'Doorwerken' = blijven werken. De pijnstiller werkt juist niet meer door.",
       "3": "'Bewerken' = aanpassen of behandelen. De pijnstiller is niet bewerkt."
     },
-    "hint": "Het medicijn had effect, maar nu niet meer."
+    "hint": "Het medicijn had effect, maar nu niet meer.",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Toen de verdoving was ______, begon de patiënt pijn te voelen.",
-    "options": ["uitgewerkt", "ingewerkt", "samengewerkt", "overgewerkt"],
+    "options": [
+      "uitgewerkt",
+      "ingewerkt",
+      "samengewerkt",
+      "overgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Uitwerken' = zijn effect verliezen. Als verdoving is uitgewerkt, voel je weer pijn.",
     "wrongExplanations": {
@@ -309,11 +514,19 @@
       "2": "'Samenwerken' = met anderen werken. Verdoving werkt niet samen.",
       "3": "'Overwerken' = extra uren maken. Verdoving maakt geen overuren."
     },
-    "hint": "Het effect van de verdoving stopt."
+    "hint": "Het effect van de verdoving stopt.",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun je dit idee verder ______ voor de presentatie?",
-    "options": ["uitwerken", "verwerken", "overwerken", "zwartwerken"],
+    "options": [
+      "uitwerken",
+      "verwerken",
+      "overwerken",
+      "zwartwerken"
+    ],
     "correct": 0,
     "explanation": "'Uitwerken' = een idee, plan of voorstel verder concreet maken. Je maakt het idee bruikbaar voor de presentatie.",
     "wrongExplanations": {
@@ -321,11 +534,19 @@
       "2": "'Overwerken' = extra uren maken. Dat zegt niets over het idee zelf.",
       "3": "'Zwartwerken' = illegaal werken. Dat past niet bij een presentatie."
     },
-    "hint": "Een idee moet meer detail en structuur krijgen."
+    "hint": "Een idee moet meer detail en structuur krijgen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het plan klinkt goed, maar de details zijn nog niet ______.",
-    "options": ["uitgewerkt", "meegewerkt", "doorgewerkt", "zwartgewerkt"],
+    "options": [
+      "uitgewerkt",
+      "meegewerkt",
+      "doorgewerkt",
+      "zwartgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Uitwerken' = details verder invullen en concreet maken. Het plan is er, maar de details ontbreken nog.",
     "wrongExplanations": {
@@ -333,11 +554,19 @@
       "2": "'Doorwerken' = blijven werken. Details kunnen niet doorwerken in deze betekenis.",
       "3": "'Zwartwerken' = illegaal werken. Dat past niet bij plandetails."
     },
-    "hint": "De details moeten nog concreet gemaakt worden."
+    "hint": "De details moeten nog concreet gemaakt worden.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het duurde lang voordat ze hun verdriet hadden ______.",
-    "options": ["verwerkt", "bewerkt", "uitgewerkt", "overgewerkt"],
+    "options": [
+      "verwerkt",
+      "bewerkt",
+      "uitgewerkt",
+      "overgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Verwerken' = emotioneel omgaan met iets moeilijks totdat het minder zwaar wordt. Verdriet verwerken kost tijd.",
     "wrongExplanations": {
@@ -345,11 +574,19 @@
       "2": "'Uitwerken' = effect verliezen of een plan concreet maken. Verdriet werkt niet uit.",
       "3": "'Overwerken' = extra uren maken. Dat past niet bij rouw."
     },
-    "hint": "Het gaat om emotioneel omgaan met verdriet."
+    "hint": "Het gaat om emotioneel omgaan met verdriet.",
+    "tense": "imperfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze had jaren nodig om die traumatische gebeurtenis mentaal te ______.",
-    "options": ["verwerken", "bewerken", "inwerken", "doorwerken"],
+    "options": [
+      "verwerken",
+      "bewerken",
+      "inwerken",
+      "doorwerken"
+    ],
     "correct": 0,
     "explanation": "'Verwerken' = iets moeilijks mentaal een plek geven. Een traumatische gebeurtenis moet iemand verwerken.",
     "wrongExplanations": {
@@ -357,11 +594,19 @@
       "2": "'Inwerken' = wennen aan werk of iemand trainen. Dat past niet bij trauma.",
       "3": "'Doorwerken' = blijven werken. Hier gaat het om mentale verwerking."
     },
-    "hint": "Iets moeilijks krijgt langzaam een plek in je hoofd."
+    "hint": "Iets moeilijks krijgt langzaam een plek in je hoofd.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De fabriek ______ melk tot kaas.",
-    "options": ["verwerkt", "bewerkt", "meewerkt", "overwerkt"],
+    "options": [
+      "verwerkt",
+      "bewerkt",
+      "meewerkt",
+      "overwerkt"
+    ],
     "correct": 0,
     "explanation": "'Verwerken' = materiaal of grondstof gebruiken om er iets anders van te maken. Melk wordt verwerkt tot kaas.",
     "wrongExplanations": {
@@ -369,11 +614,19 @@
       "2": "'Meewerken' = helpen of goed functioneren. Melk werkt niet mee.",
       "3": "'Overwerken' = extra uren maken. Een fabriek kan personeel laten overwerken, maar melk wordt verwerkt."
     },
-    "hint": "Een grondstof wordt gebruikt om een product te maken."
+    "hint": "Een grondstof wordt gebruikt om een product te maken.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik moet alle nieuwe informatie eerst even ______.",
-    "options": ["verwerken", "bewerken", "zwartwerken", "samenwerken"],
+    "options": [
+      "verwerken",
+      "bewerken",
+      "zwartwerken",
+      "samenwerken"
+    ],
     "correct": 0,
     "explanation": "'Verwerken' = informatie begrijpen en een plek geven. Nieuwe informatie kan tijd kosten om te verwerken.",
     "wrongExplanations": {
@@ -381,11 +634,19 @@
       "2": "'Zwartwerken' = illegaal werken. Dat past niet bij informatie.",
       "3": "'Samenwerken' = met anderen werken. De informatie zelf vraagt om verwerking."
     },
-    "hint": "Je hoofd heeft tijd nodig om de informatie op te nemen."
+    "hint": "Je hoofd heeft tijd nodig om de informatie op te nemen.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Zij werkte jarenlang ______ als schoonmaakster.",
-    "options": ["zwart", "over", "door", "mee"],
+    "options": [
+      "zwart",
+      "over",
+      "door",
+      "mee"
+    ],
     "correct": 0,
     "explanation": "'Zwartwerken' = werken zonder officiële registratie en zonder belasting te betalen. Zij werkte zwart als schoonmaakster.",
     "wrongExplanations": {
@@ -393,11 +654,19 @@
       "2": "'Doorwerken' = blijven werken. Dat zegt niets over belasting of registratie.",
       "3": "'Meewerken' = helpen of bijdragen. Dat past niet bij illegaal betaald werk."
     },
-    "hint": "Het gaat om werk dat niet officieel wordt opgegeven."
+    "hint": "Het gaat om werk dat niet officieel wordt opgegeven.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Bij de controle bleek dat meerdere medewerkers hadden ______.",
-    "options": ["zwartgewerkt", "overgewerkt", "samengewerkt", "doorgewerkt"],
+    "options": [
+      "zwartgewerkt",
+      "overgewerkt",
+      "samengewerkt",
+      "doorgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Zwartwerken' = illegaal of niet-officieel werken zonder belasting te betalen. Een inspectie kan dat ontdekken.",
     "wrongExplanations": {
@@ -405,11 +674,19 @@
       "2": "'Samenwerken' = met anderen werken. Een controle gaat hier over onofficieel werk.",
       "3": "'Doorwerken' = blijven werken. Dat zegt niets over registratie of belasting."
     },
-    "hint": "Een inspectiedienst ontdekt werk dat niet officieel is."
+    "hint": "Een inspectiedienst ontdekt werk dat niet officieel is.",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij kreeg een boete omdat hij maandenlang had ______.",
-    "options": ["zwartgewerkt", "meegewerkt", "ingewerkt", "uitgewerkt"],
+    "options": [
+      "zwartgewerkt",
+      "meegewerkt",
+      "ingewerkt",
+      "uitgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Zwartwerken' = werken buiten de officiële regels, meestal zonder belasting te betalen. Daarom kreeg hij een boete.",
     "wrongExplanations": {
@@ -417,11 +694,19 @@
       "2": "'Inwerken' = wennen aan een baan of iemand trainen. Dat is niet verboden.",
       "3": "'Uitwerken' = effect verliezen of een plan concreet maken. Dat past niet bij een boete voor werk."
     },
-    "hint": "De boete wijst op illegaal of niet-officieel werk."
+    "hint": "De boete wijst op illegaal of niet-officieel werk.",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Zwart ______ lijkt makkelijk geld, maar het kan grote problemen geven.",
-    "options": ["werken", "overwerken", "samenwerken", "verwerken"],
+    "options": [
+      "werken",
+      "overwerken",
+      "samenwerken",
+      "verwerken"
+    ],
     "correct": 0,
     "explanation": "'Zwart werken' = werken zonder het officieel op te geven. Het kan problemen geven met belasting of regels.",
     "wrongExplanations": {
@@ -429,11 +714,19 @@
       "2": "'Samenwerken' = met anderen werken. 'Zwart samenwerken' is niet de standaard betekenis.",
       "3": "'Verwerken' = mentaal of materieel verwerken. Dat past niet bij illegaal werk."
     },
-    "hint": "De vaste combinatie is 'zwart werken'."
+    "hint": "De vaste combinatie is 'zwart werken'.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun je de cijfers in dit rapport nog even ______?",
-    "options": ["bijwerken", "bewerken", "doorwerken", "overwerken"],
+    "options": [
+      "bijwerken",
+      "bewerken",
+      "doorwerken",
+      "overwerken"
+    ],
     "correct": 0,
     "explanation": "'Bijwerken' = iets updaten of aanvullen. De cijfers in het rapport moeten weer actueel worden.",
     "wrongExplanations": {
@@ -441,11 +734,19 @@
       "2": "'Doorwerken' = blijven werken. Cijfers werken niet door in deze zin.",
       "3": "'Overwerken' = extra uren maken. Dat zegt niets over het rapport aanpassen."
     },
-    "hint": "De cijfers moeten worden geüpdatet."
+    "hint": "De cijfers moeten worden geüpdatet.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Mijn mailbox loopt achter; ik moet vanavond alles ______.",
-    "options": ["bijwerken", "verwerken", "zwartwerken", "samenwerken"],
+    "options": [
+      "bijwerken",
+      "verwerken",
+      "zwartwerken",
+      "samenwerken"
+    ],
     "correct": 0,
     "explanation": "'Bijwerken' = achterstand inhalen en alles weer op orde brengen. Een mailbox kun je bijwerken.",
     "wrongExplanations": {
@@ -453,11 +754,19 @@
       "2": "'Zwartwerken' = illegaal werken. Dat past niet bij een mailbox.",
       "3": "'Samenwerken' = met anderen werken. De zin noemt geen samenwerking."
     },
-    "hint": "Je werkt een achterstand weg."
+    "hint": "Je werkt een achterstand weg.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De regen werkte ons plan voor de picknick flink ______.",
-    "options": ["tegen", "mee", "door", "over"],
+    "options": [
+      "tegen",
+      "mee",
+      "door",
+      "over"
+    ],
     "correct": 0,
     "explanation": "'Tegenwerken' = het moeilijker maken. De regen maakt het picknickplan lastig.",
     "wrongExplanations": {
@@ -465,11 +774,19 @@
       "2": "'Doorwerken' = blijven werken of effect hebben. Hier werkt iets tegen het plan.",
       "3": "'Overwerken' = extra uren maken. Regen werkt niet over."
     },
-    "hint": "Iets maakt je plan moeilijker."
+    "hint": "Iets maakt je plan moeilijker.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het systeem werkte eindelijk ______ na de update.",
-    "options": ["mee", "tegen", "zwart", "over"],
+    "options": [
+      "mee",
+      "tegen",
+      "zwart",
+      "over"
+    ],
     "correct": 0,
     "explanation": "'Meewerken' kan betekenen dat iets goed functioneert en helpt. Na de update gaf het systeem geen problemen meer.",
     "wrongExplanations": {
@@ -477,11 +794,19 @@
       "2": "'Zwartwerken' = illegaal werken. Een systeem werkt niet zwart.",
       "3": "'Overwerken' = extra uren maken. Een systeem maakt geen overuren in deze betekenis."
     },
-    "hint": "Het systeem helpt nu in plaats van problemen te geven."
+    "hint": "Het systeem helpt nu in plaats van problemen te geven.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De medicijnen werken pas na een half uur ______.",
-    "options": ["in", "uit", "door", "tegen"],
+    "options": [
+      "in",
+      "uit",
+      "door",
+      "tegen"
+    ],
     "correct": 0,
     "explanation": "'Inwerken' = beginnen effect te hebben. Medicijnen hebben vaak tijd nodig voordat ze inwerken.",
     "wrongExplanations": {
@@ -489,11 +814,19 @@
       "2": "'Doorwerken' = blijven werken of effect houden. Eerst moet het medicijn beginnen.",
       "3": "'Tegenwerken' = hinderen. Medicijnen werken niet tegen in deze zin."
     },
-    "hint": "Het effect begint pas later."
+    "hint": "Het effect begint pas later.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De pijnstiller werkte langer ______ dan ik had verwacht.",
-    "options": ["door", "in", "tegen", "bij"],
+    "options": [
+      "door",
+      "in",
+      "tegen",
+      "bij"
+    ],
     "correct": 0,
     "explanation": "'Doorwerken' = blijven werken of effect blijven hebben. De pijnstiller bleef langer effect houden.",
     "wrongExplanations": {
@@ -501,11 +834,19 @@
       "2": "'Tegenwerken' = hinderen. Een pijnstiller werkt niet tegen in deze zin.",
       "3": "'Bijwerken' = updaten of achterstand inhalen. Dat past niet bij medicijn."
     },
-    "hint": "Het effect blijft langer doorgaan."
+    "hint": "Het effect blijft langer doorgaan.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De nieuwe regels werken vooral ______ op kleine ondernemers.",
-    "options": ["door", "mee", "over", "zwart"],
+    "options": [
+      "door",
+      "mee",
+      "over",
+      "zwart"
+    ],
     "correct": 0,
     "explanation": "'Doorwerken op' = effect hebben op iets anders. De regels hebben gevolgen voor kleine ondernemers.",
     "wrongExplanations": {
@@ -513,11 +854,19 @@
       "2": "'Overwerken' = extra uren maken. Regels werken niet over.",
       "3": "'Zwartwerken' = illegaal werken. Dat past niet bij regels."
     },
-    "hint": "Regels hebben gevolgen voor een groep."
+    "hint": "Regels hebben gevolgen voor een groep.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "We moeten alle openstaande tickets deze week ______.",
-    "options": ["wegwerken", "samenwerken", "inwerken", "zwartwerken"],
+    "options": [
+      "wegwerken",
+      "samenwerken",
+      "inwerken",
+      "zwartwerken"
+    ],
     "correct": 0,
     "explanation": "'Wegwerken' = achterstand of werk afhandelen totdat het weg is. Openstaande tickets moeten opgelost worden.",
     "wrongExplanations": {
@@ -525,11 +874,19 @@
       "2": "'Inwerken' = iemand trainen of effect laten beginnen. Tickets werk je niet in.",
       "3": "'Zwartwerken' = illegaal werken. Dat past niet bij tickets."
     },
-    "hint": "Je werkt een lijst met taken weg."
+    "hint": "Je werkt een lijst met taken weg.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na de vakantie moest ik een grote achterstand ______.",
-    "options": ["wegwerken", "bijwerken", "bewerken", "overwerken"],
+    "options": [
+      "wegwerken",
+      "bijwerken",
+      "bewerken",
+      "overwerken"
+    ],
     "correct": 0,
     "explanation": "'Wegwerken' = een achterstand afhandelen totdat die verdwijnt. Na vakantie ligt er vaak veel werk.",
     "wrongExplanations": {
@@ -537,11 +894,19 @@
       "2": "'Bewerken' = aanpassen. Een achterstand bewerk je niet.",
       "3": "'Overwerken' = extra uren maken. Dat kan nodig zijn, maar de achterstand zelf werk je weg."
     },
-    "hint": "De achterstand moet verdwijnen."
+    "hint": "De achterstand moet verdwijnen.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De vormgever heeft de foto subtiel ______ zodat de kleuren natuurlijker lijken.",
-    "options": ["bewerkt", "verwerkt", "ingewerkt", "weggewerkt"],
+    "options": [
+      "bewerkt",
+      "verwerkt",
+      "ingewerkt",
+      "weggewerkt"
+    ],
     "correct": 0,
     "explanation": "'Bewerken' = beeld, geluid of tekst aanpassen. De foto is subtiel aangepast.",
     "wrongExplanations": {
@@ -549,11 +914,19 @@
       "2": "'Inwerken' = iemand trainen of effect laten beginnen. Een foto wordt niet ingewerkt.",
       "3": "'Wegwerken' = iets laten verdwijnen. De hele foto verdwijnt niet; de kleuren zijn aangepast."
     },
-    "hint": "Het gaat om een foto aanpassen."
+    "hint": "Het gaat om een foto aanpassen.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De fabriek ______ plastic afval tot nieuwe verpakkingen.",
-    "options": ["verwerkt", "bewerkt", "overwerkt", "tegenwerkt"],
+    "options": [
+      "verwerkt",
+      "bewerkt",
+      "overwerkt",
+      "tegenwerkt"
+    ],
     "correct": 0,
     "explanation": "'Verwerken' = materiaal gebruiken om er een product van te maken. Plastic afval wordt verwerkt tot nieuwe verpakkingen.",
     "wrongExplanations": {
@@ -561,11 +934,19 @@
       "2": "'Overwerken' = extra uren maken. Plastic afval werkt niet over.",
       "3": "'Tegenwerken' = hinderen. Het afval hindert niet; het wordt gebruikt."
     },
-    "hint": "Een grondstof wordt gebruikt voor een nieuw product."
+    "hint": "Een grondstof wordt gebruikt voor een nieuw product.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het team moest de feedback van de gebruikers snel ______.",
-    "options": ["verwerken", "tegenwerken", "zwartwerken", "overwerken"],
+    "options": [
+      "verwerken",
+      "tegenwerken",
+      "zwartwerken",
+      "overwerken"
+    ],
     "correct": 0,
     "explanation": "'Feedback verwerken' = feedback meenemen en ermee aan de slag gaan. Het team past het werk aan op basis van de feedback.",
     "wrongExplanations": {
@@ -573,11 +954,19 @@
       "2": "'Zwartwerken' = illegaal werken. Dat past niet bij feedback.",
       "3": "'Overwerken' = extra uren maken. Dat kan gebeuren, maar feedback zelf verwerk je."
     },
-    "hint": "Je neemt feedback mee in je werk."
+    "hint": "Je neemt feedback mee in je werk.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De stagiair is nog niet helemaal ______ in onze werkwijze.",
-    "options": ["ingewerkt", "uitgewerkt", "bewerkt", "tegengewerkt"],
+    "options": [
+      "ingewerkt",
+      "uitgewerkt",
+      "bewerkt",
+      "tegengewerkt"
+    ],
     "correct": 0,
     "explanation": "'Ingewerkt zijn' = genoeg geleerd hebben om goed mee te draaien. De stagiair moet de werkwijze nog leren.",
     "wrongExplanations": {
@@ -585,11 +974,19 @@
       "2": "'Bewerkt' = aangepast. Een stagiair wordt niet bewerkt.",
       "3": "'Tegengewerkt' = gehinderd. De zin gaat over training, niet hinderen."
     },
-    "hint": "Hij moet nog leren hoe het team werkt."
+    "hint": "Hij moet nog leren hoe het team werkt.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun jij het concept voor vrijdag verder ______?",
-    "options": ["uitwerken", "overwerken", "meewerken", "zwartwerken"],
+    "options": [
+      "uitwerken",
+      "overwerken",
+      "meewerken",
+      "zwartwerken"
+    ],
     "correct": 0,
     "explanation": "'Uitwerken' = een idee concreter maken. Het concept moet meer detail krijgen voor vrijdag.",
     "wrongExplanations": {
@@ -597,11 +994,19 @@
       "2": "'Meewerken' = helpen of bijdragen. Het concept werkt niet mee.",
       "3": "'Zwartwerken' = illegaal werken. Dat past niet bij een concept."
     },
-    "hint": "Een idee krijgt meer detail en vorm."
+    "hint": "Een idee krijgt meer detail en vorm.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het voorstel is goed ______, maar de begroting ontbreekt nog.",
-    "options": ["uitgewerkt", "doorgewerkt", "samengewerkt", "overgewerkt"],
+    "options": [
+      "uitgewerkt",
+      "doorgewerkt",
+      "samengewerkt",
+      "overgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Uitwerken' = een plan of voorstel concreet maken. Het voorstel heeft al veel details.",
     "wrongExplanations": {
@@ -609,11 +1014,19 @@
       "2": "'Samenwerken' = met anderen werken. Dat zegt niets over de details van het voorstel.",
       "3": "'Overwerken' = extra uren maken. Een voorstel werkt niet over."
     },
-    "hint": "Het voorstel is concreet gemaakt."
+    "hint": "Het voorstel is concreet gemaakt.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De afdelingen moeten beter ______ om dubbele taken te voorkomen.",
-    "options": ["samenwerken", "bijwerken", "uitwerken", "wegwerken"],
+    "options": [
+      "samenwerken",
+      "bijwerken",
+      "uitwerken",
+      "wegwerken"
+    ],
     "correct": 0,
     "explanation": "'Samenwerken' = met elkaar werken aan hetzelfde doel. Afdelingen moeten beter afstemmen.",
     "wrongExplanations": {
@@ -621,11 +1034,19 @@
       "2": "'Uitwerken' = een idee concreet maken. Afdelingen worden niet uitgewerkt.",
       "3": "'Wegwerken' = achterstand afhandelen of iets laten verdwijnen. Hier gaat het om samenwerking."
     },
-    "hint": "Teams moeten beter met elkaar werken."
+    "hint": "Teams moeten beter met elkaar werken.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Zonder jouw hulp kan ik dit onderzoek niet goed ______.",
-    "options": ["uitwerken", "overwerken", "zwartwerken", "bewerken"],
+    "options": [
+      "uitwerken",
+      "overwerken",
+      "zwartwerken",
+      "bewerken"
+    ],
     "correct": 0,
     "explanation": "'Uitwerken' = iets verder vormgeven of concreet maken. Het onderzoek moet goed worden opgezet en uitgewerkt.",
     "wrongExplanations": {
@@ -633,11 +1054,19 @@
       "2": "'Zwartwerken' = illegaal werken. Dat past niet bij onderzoek.",
       "3": "'Bewerken' = tekst, beeld of grond aanpassen. Een onderzoeksopzet werk je uit."
     },
-    "hint": "Het onderzoek moet inhoudelijk verder worden gemaakt."
+    "hint": "Het onderzoek moet inhoudelijk verder worden gemaakt.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De vertraging werkte de hele planning ______.",
-    "options": ["tegen", "bij", "in", "samen"],
+    "options": [
+      "tegen",
+      "bij",
+      "in",
+      "samen"
+    ],
     "correct": 0,
     "explanation": "'Tegenwerken' = hinderen of moeilijker maken. De vertraging maakt de planning moeilijk.",
     "wrongExplanations": {
@@ -645,11 +1074,19 @@
       "2": "'Inwerken' = beginnen effect te hebben of iemand trainen. Dat past niet bij hinderen.",
       "3": "'Samenwerken' = met iemand werken. Een vertraging werkt niet samen."
     },
-    "hint": "Iets maakt het plan moeilijker."
+    "hint": "Iets maakt het plan moeilijker.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De nieuwe collega werkt graag ______ aan verbeteringen in het proces.",
-    "options": ["mee", "tegen", "zwart", "over"],
+    "options": [
+      "mee",
+      "tegen",
+      "zwart",
+      "over"
+    ],
     "correct": 0,
     "explanation": "'Meewerken aan' = bijdragen aan iets. De collega helpt graag bij verbeteringen.",
     "wrongExplanations": {
@@ -657,11 +1094,19 @@
       "2": "'Zwartwerken' = illegaal werken. Dat past niet bij procesverbetering.",
       "3": "'Overwerken' = extra uren maken. De zin gaat om bijdragen, niet om werktijd."
     },
-    "hint": "Hij draagt positief bij."
+    "hint": "Hij draagt positief bij.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na het nieuws moest ze even alleen zijn om alles te ______.",
-    "options": ["verwerken", "bewerken", "bijwerken", "wegwerken"],
+    "options": [
+      "verwerken",
+      "bewerken",
+      "bijwerken",
+      "wegwerken"
+    ],
     "correct": 0,
     "explanation": "'Verwerken' = emotioneel of mentaal een plek geven. Het nieuws was veel om te verwerken.",
     "wrongExplanations": {
@@ -669,11 +1114,19 @@
       "2": "'Bijwerken' = updaten of achterstand inhalen. Dat past niet bij emoties.",
       "3": "'Wegwerken' = iets laten verdwijnen of achterstand oplossen. Ze moet het nieuws verwerken."
     },
-    "hint": "Het gaat om mentaal omgaan met nieuws."
+    "hint": "Het gaat om mentaal omgaan met nieuws.",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De medewerker heeft de klantgegevens direct ______ in het systeem.",
-    "options": ["bijgewerkt", "tegengewerkt", "samengewerkt", "zwartgewerkt"],
+    "options": [
+      "bijgewerkt",
+      "tegengewerkt",
+      "samengewerkt",
+      "zwartgewerkt"
+    ],
     "correct": 0,
     "explanation": "'Bijwerken' = gegevens aanpassen zodat ze actueel zijn. Klantgegevens kun je in een systeem bijwerken.",
     "wrongExplanations": {
@@ -681,11 +1134,19 @@
       "2": "'Samenwerken' = met anderen werken. Gegevens werken niet samen.",
       "3": "'Zwartwerken' = illegaal werken. Dat past niet bij klantgegevens."
     },
-    "hint": "Gegevens worden geüpdatet."
+    "hint": "Gegevens worden geüpdatet.",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ook na zijn pensioen bleef hij als vrijwilliger ______.",
-    "options": ["doorwerken", "inwerken", "bijwerken", "tegenwerken"],
+    "options": [
+      "doorwerken",
+      "inwerken",
+      "bijwerken",
+      "tegenwerken"
+    ],
     "correct": 0,
     "explanation": "'Doorwerken' = blijven werken. Na zijn pensioen stopte hij niet helemaal, maar bleef actief als vrijwilliger.",
     "wrongExplanations": {
@@ -693,11 +1154,19 @@
       "2": "'Bijwerken' = updaten. Een persoon werkt zichzelf hier niet bij.",
       "3": "'Tegenwerken' = hinderen. Hij blijft juist actief helpen."
     },
-    "hint": "Hij blijft werken na een moment waarop veel mensen stoppen."
+    "hint": "Hij blijft werken na een moment waarop veel mensen stoppen.",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "We moeten naar één duidelijke oplossing ______.",
-    "options": ["toewerken", "overwerken", "zwartwerken", "bewerken"],
+    "options": [
+      "toewerken",
+      "overwerken",
+      "zwartwerken",
+      "bewerken"
+    ],
     "correct": 0,
     "explanation": "'Toewerken naar' = stap voor stap richting een doel werken. Het doel is één duidelijke oplossing.",
     "wrongExplanations": {
@@ -705,11 +1174,19 @@
       "2": "'Zwartwerken' = illegaal werken. Dat past niet bij een oplossing.",
       "3": "'Bewerken' = aanpassen. Je bewerkt niet naar een oplossing; je werkt ernaartoe."
     },
-    "hint": "Je werkt stap voor stap richting een doel."
+    "hint": "Je werkt stap voor stap richting een doel.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De trainingen werken langzaam ______ naar het eindniveau.",
-    "options": ["toe", "tegen", "bij", "zwart"],
+    "options": [
+      "toe",
+      "tegen",
+      "bij",
+      "zwart"
+    ],
     "correct": 0,
     "explanation": "'Toewerken naar' = geleidelijk richting een doel gaan. De trainingen bouwen op naar het eindniveau.",
     "wrongExplanations": {
@@ -717,6 +1194,9 @@
       "2": "'Bijwerken' = updaten. Dat past niet bij opbouwen naar een niveau.",
       "3": "'Zwartwerken' = illegaal werken. Dat past niet bij trainingen."
     },
-    "hint": "De trainingen bouwen richting een doel op."
+    "hint": "De trainingen bouwen richting een doel op.",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   }
 ]

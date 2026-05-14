@@ -1,0 +1,272 @@
+[
+  {
+    "sentence": "Voor de kampvuuravond moeten we eerst een vuur ___.",
+    "options": ["aanmaken", "klaarmaken", "openmaken", "schoonmaken"],
+    "correct": 0,
+    "explanation": "'Aanmaken' = iets tot branden brengen. 'Een vuur aanmaken' is de vaste combinatie voor het starten van een kampvuur of open haard.",
+    "wrongExplanations": {
+      "1": "'Klaarmaken' = voorbereiden of bereiden. Je maakt een vuur niet 'klaar' — dat is niet de vaste term.",
+      "2": "'Openmaken' = openen. Je opent geen vuur.",
+      "3": "'Schoonmaken' = reinigen. Dat past niet bij het starten van een vuur."
+    },
+    "hint": "Je moet het vuur starten voor de avond. Welk prefix is de vaste term voor het tot branden brengen van een vuur?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Ze wil het avondeten ___ voor zijn thuiskomst.",
+    "options": ["klaarmaken", "aanmaken", "schoonmaken", "uitmaken"],
+    "correct": 0,
+    "explanation": "'Klaarmaken' = bereiden of voorbereiden. 'Eten klaarmaken' is de vaste combinatie voor het bereiden van een maaltijd.",
+    "wrongExplanations": {
+      "1": "'Aanmaken' = starten of aansteken. Je maakt eten niet 'aan'.",
+      "2": "'Schoonmaken' = reinigen. Dat past niet bij het bereiden van voedsel.",
+      "3": "'Uitmaken' = van belang zijn of beëindigen. Je maakt eten niet 'uit'."
+    },
+    "hint": "Ze bereidt de maaltijd. Welk prefix past bij 'eten bereiden of voorbereiden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Na het feest moeten we het hele huis ___.",
+    "options": ["schoonmaken", "klaarmaken", "aanmaken", "meemaken"],
+    "correct": 0,
+    "explanation": "'Schoonmaken' = reinigen, het vuil verwijderen. Na een feest is het huis vies en moet het gereinigd worden.",
+    "wrongExplanations": {
+      "1": "'Klaarmaken' = voorbereiden. Na een feest maak je iets niet 'klaar' — je reinigt het.",
+      "2": "'Aanmaken' = starten of aansteken. Dat past niet bij reinigen.",
+      "3": "'Meemaken' = iets beleven of ervaren. Dat past niet bij reinigen."
+    },
+    "hint": "Na het feest is het huis vies. Welk prefix past bij 'reinigen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Kun je de champagnefles ___? Ik krijg hem niet open.",
+    "options": ["openmaken", "klaarmaken", "aanmaken", "meemaken"],
+    "correct": 0,
+    "explanation": "'Openmaken' = openen. 'Een fles openmaken' is de vaste combinatie voor het ontkurken of openen van een fles.",
+    "wrongExplanations": {
+      "1": "'Klaarmaken' = voorbereiden. Je maakt een fles niet 'klaar' als je hem opent.",
+      "2": "'Aanmaken' = starten of aansteken. Je maakt een fles niet 'aan'.",
+      "3": "'Meemaken' = ervaren of beleven. Dat past niet bij het openen van een fles."
+    },
+    "hint": "Je wilt de fles openen. Welk prefix past bij 'iets openen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Of je meedoet of niet, dat kan toch niet veel ___?",
+    "options": ["uitmaken", "aanmaken", "klaarmaken", "meemaken"],
+    "correct": 0,
+    "explanation": "'Uitmaken' = van belang zijn, ertoe doen. 'Het maakt niet uit' en 'het kan me niet uitmaken' zijn vaste combinaties voor iets dat er niet toe doet.",
+    "wrongExplanations": {
+      "1": "'Aanmaken' = starten of aansteken. Dat past niet bij de betekenis 'er niet toe doen'.",
+      "2": "'Klaarmaken' = voorbereiden. Dat past niet bij belang of relevantie.",
+      "3": "'Meemaken' = ervaren of beleven. Dat past niet bij de betekenis 'er niet toe doen'."
+    },
+    "hint": "Het maakt niets uit — het is niet van belang. Welk prefix gebruik je als iets er niet toe doet?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Als kind wil je zoveel mogelijk ___.",
+    "options": ["meemaken", "klaarmaken", "aanmaken", "uitmaken"],
+    "correct": 0,
+    "explanation": "'Meemaken' = beleven, ervaren. 'Van alles meemaken' is de vaste combinatie voor het opdoen van ervaringen.",
+    "wrongExplanations": {
+      "1": "'Klaarmaken' = voorbereiden. Je maakt ervaringen niet 'klaar'.",
+      "2": "'Aanmaken' = starten of aansteken. Dat past niet bij het beleven van ervaringen.",
+      "3": "'Uitmaken' = van belang zijn of beëindigen. Dat past niet bij het opdoen van ervaringen."
+    },
+    "hint": "Als kind wil je veel beleven. Welk prefix past bij 'iets ervaren of beleven'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Om toegang te krijgen, moet je eerst een account ___.",
+    "options": ["aanmaken", "openmaken", "klaarmaken", "meemaken"],
+    "correct": 0,
+    "explanation": "'Aanmaken' = aanleggen, creëren. 'Een account aanmaken' is de vaste digitale term voor het registreren van een nieuw gebruikersaccount.",
+    "wrongExplanations": {
+      "1": "'Openmaken' = openen. 'Een account openmaken' is geen standaard digitale term — daarvoor gebruik je 'aanmaken'.",
+      "2": "'Klaarmaken' = voorbereiden. Je maakt een account niet 'klaar'.",
+      "3": "'Meemaken' = ervaren. Je maakt een account niet 'mee'."
+    },
+    "hint": "Je registreert een nieuw gebruikersprofiel. Welk prefix is de vaste term voor het creëren van een account?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Ze heeft zich al ___ voor het diner.",
+    "options": ["klaargemaakt", "aangemaakt", "schoongemaakt", "meegemaakt"],
+    "correct": 0,
+    "explanation": "'Klaarmaken' = voorbereiden, gereed maken. 'Zich klaarmaken' is de reflexieve combinatie voor het voorbereiden op vertrek of een afspraak — je bent aangekleed en klaar.",
+    "wrongExplanations": {
+      "1": "'Aanmaken' = starten of aansteken. 'Zich aanmaken' is geen gebruikelijke combinatie.",
+      "2": "'Schoonmaken' = reinigen. 'Zich schoonmaken' betekent jezelf wassen, niet klaar zijn voor vertrek.",
+      "3": "'Meemaken' = ervaren. 'Zich meemaken' bestaat niet als combinatie."
+    },
+    "hint": "Ze was al gereed voor de afspraak. Welk prefix past bij 'jezelf voorbereiden voor vertrek'?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Gisteren heeft hij eindelijk de badkamer ___.",
+    "options": ["schoongemaakt", "klaargemaakt", "aangemaakt", "opengemaakt"],
+    "correct": 0,
+    "explanation": "'Schoonmaken' = reinigen. 'Schoongemaakt' is de perfectumvorm. De badkamer was vies en is gereinigd.",
+    "wrongExplanations": {
+      "1": "'Klaarmaken' = voorbereiden of bereiden. De badkamer 'klaarmaken' is geen gebruikelijke combinatie voor reinigen.",
+      "2": "'Aanmaken' = starten of aansteken. De badkamer 'aanmaken' past niet.",
+      "3": "'Openmaken' = openen. Dat past niet bij reinigen."
+    },
+    "hint": "De badkamer was vies — hij reinigde hem gisteren. Welk prefix past bij 'reinigen'?",
+    "tense": "perfectum",
+    "wordOrder": "inversion",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De assistent heeft de post al ___.",
+    "options": ["opengemaakt", "klaargemaakt", "aangemaakt", "uitgemaakt"],
+    "correct": 0,
+    "explanation": "'Openmaken' = openen. 'Post openmaken' is de vaste combinatie voor het openen van brieven of enveloppen.",
+    "wrongExplanations": {
+      "1": "'Klaarmaken' = voorbereiden. Post maak je niet 'klaar' — je opent die.",
+      "2": "'Aanmaken' = starten of aanmaken. Post maak je niet 'aan'.",
+      "3": "'Uitmaken' = van belang zijn of beëindigen. Post maak je niet 'uit'."
+    },
+    "hint": "De assistent opende de brieven. Welk prefix past bij 'openen'?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "formeel"
+  },
+  {
+    "sentence": "Ze heeft hem gisteren ___; ze wilde niet verder.",
+    "options": ["uitgemaakt", "klaargemaakt", "meegemaakt", "aangemaakt"],
+    "correct": 0,
+    "explanation": "'Uitmaken' = een relatie beëindigen. 'Iemand uitmaken' is de spreektaalterm voor het verbreken van een romantische relatie.",
+    "wrongExplanations": {
+      "1": "'Klaarmaken' = voorbereiden. Dat past niet bij het beëindigen van een relatie.",
+      "2": "'Meemaken' = ervaren. Dat past niet bij het actief beëindigen van een relatie.",
+      "3": "'Aanmaken' = starten of aansteken. Dat is het tegenovergestelde — een relatie beginnen, niet beëindigen."
+    },
+    "hint": "Ze verbrak de relatie. Welk prefix is de spreektaalterm voor het beëindigen van een romantische relatie?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "spreektaal"
+  },
+  {
+    "sentence": "Na de aardbeving heeft het dorp veel ellende ___.",
+    "options": ["meegemaakt", "aangemaakt", "klaargemaakt", "uitgemaakt"],
+    "correct": 0,
+    "explanation": "'Meemaken' = iets beleven of ondergaan, vaak iets ingrijpends. 'Ellende meemaken' is de vaste combinatie voor het doormaken van een zware periode.",
+    "wrongExplanations": {
+      "1": "'Aanmaken' = starten of aansteken. Dat past niet bij het ondergaan van ellende.",
+      "2": "'Klaarmaken' = voorbereiden. Dat past niet bij het beleven van een ingrijpende gebeurtenis.",
+      "3": "'Uitmaken' = van belang zijn of beëindigen. Dat past niet bij het ondergaan van moeilijkheden."
+    },
+    "hint": "Het dorp beleefde veel moeilijkheden na de aardbeving. Welk prefix past bij 'iets ondergaan of beleven'?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De IT-medewerker vroeg of zij zelf een nieuw bestand ___.",
+    "options": ["aanmaakte", "klaarmaakte", "openmaakte", "uitmaakte"],
+    "correct": 0,
+    "explanation": "'Aanmaken' = creëren, aanleggen. 'Aanmaakte' is de imperfectumvorm. 'Een bestand aanmaken' is de vaste digitale term voor het maken van een nieuw document.",
+    "wrongExplanations": {
+      "1": "'Klaarmaken' = voorbereiden. Een bestand maak je niet 'klaar' — daarvoor gebruik je 'aanmaken'.",
+      "2": "'Openmaken' = openen. 'Openmaken' betekent een bestaand bestand openen, niet een nieuw bestand creëren.",
+      "3": "'Uitmaken' = van belang zijn of beëindigen. Dat past niet bij het creëren van een bestand."
+    },
+    "hint": "Ze creëert een nieuw document. Welk prefix is de digitale term voor het aanmaken van een nieuw bestand?",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De ouders hebben het kinderfeest helemaal zelf ___.",
+    "options": ["klaargemaakt", "aangemaakt", "schoongemaakt", "meegemaakt"],
+    "correct": 0,
+    "explanation": "'Klaarmaken' = voorbereiden, in orde brengen. 'Een feest klaarmaken' is de vaste combinatie voor het volledig voorbereiden van een evenement.",
+    "wrongExplanations": {
+      "1": "'Aanmaken' = starten of aansteken. Een feest maak je niet 'aan'.",
+      "2": "'Schoonmaken' = reinigen. Dat is wat je daarna doet — niet de voorbereiding.",
+      "3": "'Meemaken' = ervaren. Dat past niet bij het actief organiseren van een feest."
+    },
+    "hint": "De ouders organiseerden en bereidden alles voor. Welk prefix past bij 'iets volledig voorbereiden'?",
+    "tense": "perfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Je mag iemand niet ___ voor rotte vis, ook al ben je boos.",
+    "options": ["uitmaken", "aanmaken", "klaarmaken", "schoonmaken"],
+    "correct": 0,
+    "explanation": "'Uitmaken voor' = iemand uitschelden of betitelen met een scheldwoord. 'Iemand uitmaken voor iets' is de vaste combinatie voor iemand met een beledigend woord aanspreken.",
+    "wrongExplanations": {
+      "1": "'Aanmaken' = starten of aansteken. Je maakt iemand niet 'aan voor' iets in deze betekenis.",
+      "2": "'Klaarmaken' = voorbereiden. 'Iemand klaarmaken voor' heeft een heel andere betekenis.",
+      "3": "'Schoonmaken' = reinigen. Dat past niet bij het uitschelden van iemand."
+    },
+    "hint": "Je noemt iemand een scheldnaam. Welk prefix is de vaste combinatie voor 'iemand uitschelden of betitelen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Ze vertelde over de zware winter die het dorp ooit ___.",
+    "options": ["meemaakte", "aanmaakte", "klaarmaakte", "uitmaakte"],
+    "correct": 0,
+    "explanation": "'Meemaken' = iets beleven of ondergaan. 'Meemaakte' is de imperfectumvorm. 'Een zware winter meemaken' beschrijft het doormaken van een moeilijke periode.",
+    "wrongExplanations": {
+      "1": "'Aanmaken' = starten of aansteken. Een winter maak je niet 'aan'.",
+      "2": "'Klaarmaken' = voorbereiden. Dat past niet bij het ondergaan van een periode.",
+      "3": "'Uitmaken' = van belang zijn of beëindigen. Dat past niet bij het beleven van een zware winter."
+    },
+    "hint": "Het dorp beleefde een zware winter. Welk prefix past bij 'iets ondergaan of ervaren'?",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Hij vroeg wie er ___ na het feest.",
+    "options": ["schoonmaakte", "klaarmaakte", "aanmaakte", "openmaakte"],
+    "correct": 0,
+    "explanation": "'Schoonmaken' = reinigen. 'Schoonmaakte' is de imperfectumvorm. Na een feest moet iemand de boel opruimen en reinigen.",
+    "wrongExplanations": {
+      "1": "'Klaarmaken' = voorbereiden. Na het feest bereid je niets meer voor — je ruimt op.",
+      "2": "'Aanmaken' = starten of aansteken. Dat past niet bij reinigen na een feest.",
+      "3": "'Openmaken' = openen. Dat past niet bij reinigen."
+    },
+    "hint": "Na het feest moest iemand de boel reinigen. Welk prefix past bij 'schoonmaken'?",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De kinderen renden naar de boom zodra vader de cadeaus ___.",
+    "options": ["openmaakte", "klaarmaakte", "aanmaakte", "uitmaakte"],
+    "correct": 0,
+    "explanation": "'Openmaken' = openen. 'Openmaakte' is de imperfectumvorm. Cadeaus 'openmaken' is de vaste combinatie voor het uitpakken van cadeautjes.",
+    "wrongExplanations": {
+      "1": "'Klaarmaken' = voorbereiden. De cadeaus waren al klaar — ze werden geopend.",
+      "2": "'Aanmaken' = starten of aansteken. Dat past niet bij het openen van cadeaus.",
+      "3": "'Uitmaken' = van belang zijn of beëindigen. Dat past niet bij het uitpakken van cadeaus."
+    },
+    "hint": "Vader opende de cadeaus. Welk prefix past bij 'openen'?",
+    "tense": "imperfectum",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
+  }
+]

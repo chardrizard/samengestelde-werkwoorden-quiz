@@ -70,6 +70,34 @@
     "color": "#8C6A4A"
   },
   {
+    "id": "vallen",
+    "label": "-vallen",
+    "description": "opvallen · tegenvallen · meevallen · uitvallen · invallen · afvallen",
+    "emoji": "🍂",
+    "color": "#8B4513"
+  },
+  {
+    "id": "gaan",
+    "label": "-gaan",
+    "description": "uitgaan · doorgaan · overgaan · voorbijgaan · ondergaan",
+    "emoji": "🚶",
+    "color": "#4A6741"
+  },
+  {
+    "id": "houden",
+    "label": "-houden",
+    "description": "aanhouden · ophouden · bijhouden · tegenhouden · volhouden · inhouden",
+    "emoji": "🤝",
+    "color": "#5A7FA3"
+  },
+  {
+    "id": "maken",
+    "label": "-maken",
+    "description": "aanmaken · klaarmaken · schoonmaken · openmaken · uitmaken · meemaken",
+    "emoji": "🔧",
+    "color": "#7A5C8A"
+  },
+  {
     "id": "preposities",
     "label": "Preposities",
     "description": "wachten op · denken aan · zorgen voor · houden van",

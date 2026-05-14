@@ -14,7 +14,10 @@
       "2": "'Voorkomen' = plaatsvinden of voor jezelf lijken; je arriveert thuis — het is geen gebeurtenis die 'plaatsvindt'.",
       "3": "'Bijkomen' = herstellen na ziekte, schrik of narcose; thuis aankomen is arriveren, niet herstellen."
     },
-    "hint": "Je was onderweg en bent nu thuis. Welk prefix past bij het bereiken van een bestemming?"
+    "hint": "Je was onderweg en bent nu thuis. Welk prefix past bij het bereiken van een bestemming?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De trein uit Amsterdam is net ______.",
@@ -28,10 +31,13 @@
     "explanation": "'Aankomen' = arriveren op een bestemming. Standaard voor treinen, vluchten, pakketten en personen die een punt bereiken.",
     "wrongExplanations": {
       "0": "'Terechtkomen' = toevallig ergens belanden; een trein rijdt op schema — hij belandt niet toevallig ergens.",
-      "2": "'Meekomen' = samen met iemand anders gaan; de trein rijdt zelf, hij gaat niet mee met iemand.",
-      "1": "'Opkomen' = omhoog verschijnen; treinen rijden horizontaal en komen ergens aan."
+      "1": "'Opkomen' = omhoog verschijnen; treinen rijden horizontaal en komen ergens aan.",
+      "2": "'Meekomen' = samen met iemand anders gaan; de trein rijdt zelf, hij gaat niet mee met iemand."
     },
-    "hint": "De trein was onderweg en is nu op zijn bestemming. Welk prefix past bij het bereiken van een punt?"
+    "hint": "De trein was onderweg en is nu op zijn bestemming. Welk prefix past bij het bereiken van een punt?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik ben de afgelopen maand twee kilo ______.",
@@ -45,10 +51,13 @@
     "explanation": "'Aankomen' = in gewicht toenemen. Dit heeft niets met reizen te maken — het gaat puur om lichaamsgewicht. Tegenovergestelde: afvallen.",
     "wrongExplanations": {
       "0": "'Doorkomen' = een moeilijke periode overleven of de selectie halen; kilo's overleven geen periodes.",
-      "2": "'Opkomen' = verschijnen of opstaan voor een zaak; lichaamsgewicht verschijnt niet.",
-      "1": "'Omkomen' = sterven bij een ramp of ongeluk; dat is zeker niet de bedoeling van twee kilo erbij."
+      "1": "'Omkomen' = sterven bij een ramp of ongeluk; dat is zeker niet de bedoeling van twee kilo erbij.",
+      "2": "'Opkomen' = verschijnen of opstaan voor een zaak; lichaamsgewicht verschijnt niet."
     },
-    "hint": "Dit heeft niets met reizen te maken. Welk werkwoord gebruik je als gewicht bij je lichaam 'aankomt'?"
+    "hint": "Dit heeft niets met reizen te maken. Welk werkwoord gebruik je als gewicht bij je lichaam 'aankomt'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De zon is vandaag vroeg ______, al om zes uur.",
@@ -62,10 +71,13 @@
     "explanation": "'Opkomen' = verschijnen aan de horizon. Altijd een omhoogwaartse beweging. Gebruik: de zon komt op, de maan komt op.",
     "wrongExplanations": {
       "0": "'Aankomen' = arriveren op een bestemming; de zon reist niet naar een punt — ze verschijnt aan de horizon.",
-      "2": "'Afkomen' = naar beneden of ergens naartoe komen; de zon gaat juist omhóóg aan de horizon.",
-      "1": "'Meekomen' = samen met iemand gaan; de zon beweegt niet met iemand mee."
+      "1": "'Meekomen' = samen met iemand gaan; de zon beweegt niet met iemand mee.",
+      "2": "'Afkomen' = naar beneden of ergens naartoe komen; de zon gaat juist omhóóg aan de horizon."
     },
-    "hint": "Denk aan de bewegingsrichting: omhoog of omlaag? Welk prefix past bij omhoog verschijnen?"
+    "hint": "Denk aan de bewegingsrichting: omhoog of omlaag? Welk prefix past bij omhoog verschijnen?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Tijdens de vergadering is er ineens een goed idee bij me ______.",
@@ -82,7 +94,10 @@
       "1": "'Overkomen' = een indruk maken op anderen; een idee maakt geen indruk op jou — het verschijnt in je hoofd.",
       "3": "'Bijkomen' = herstellen of erbij komen; een idee herstelt nergens van."
     },
-    "hint": "Een idee verschijnt ineens in je hoofd. Welk prefix past bij iets dat 'omhoog borrelt'?"
+    "hint": "Een idee verschijnt ineens in je hoofd. Welk prefix past bij iets dat 'omhoog borrelt'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "We moeten ______ tegen discriminatie op de werkvloer.",
@@ -99,7 +114,10 @@
       "2": "'Meekomen' = samen gaan of bijhouden; je gaat niet samen mét discriminatie.",
       "3": "'Uitkomen' = openbaar worden of openlijk erkennen; je komt niet 'uit' tégen discriminatie — je komt er tégen op."
     },
-    "hint": "Je stelt je op tégen iets oneerlijks op het werk. Welk prefix past bij opstaan voor een zaak?"
+    "hint": "Je stelt je op tégen iets oneerlijks op het werk. Welk prefix past bij opstaan voor een zaak?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze is altijd voor haar collega's ______.",
@@ -116,7 +134,10 @@
       "1": "'Binnenkomen' = naar binnen gaan of ontvangen worden; ze gaat nergens naar binnen — ze verdedigt iemand.",
       "2": "'Meekomen' = samen gaan of bijhouden; ze gaat niet ergens naartoe — ze strijdt voor iets."
     },
-    "hint": "Ze stelt zich op voor haar collega's als er onrecht is. Welk prefix past bij opstaan voor een zaak?"
+    "hint": "Ze stelt zich op voor haar collega's als er onrecht is. Welk prefix past bij opstaan voor een zaak?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na de operatie moest hij langzaam ______.",
@@ -133,7 +154,10 @@
       "1": "'Aankomen' = arriveren of zwaarder worden; na een operatie herstel je — je arriveert nergens.",
       "2": "'Opkomen' = verschijnen of opstaan voor een zaak; past niet bij herstel na een ingreep."
     },
-    "hint": "Na narcose moet je weer tot jezelf komen. Welk prefix past bij 'er weer bij komen'?"
+    "hint": "Na narcose moet je weer tot jezelf komen. Welk prefix past bij 'er weer bij komen'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze is helemaal ______ van de schrik nadat ze bijna gevallen was.",
@@ -147,10 +171,13 @@
     "explanation": "'Bijkomen van' = herstellen van een schrik, emotie of lichamelijke klap. Gebruik: bijkomen van de schrik, bijkomen van een val.",
     "wrongExplanations": {
       "0": "'Aankomen' = arriveren of zwaarder worden; van een schrik arriveert of word je niet zwaarder.",
-      "2": "'Opkomen' = verschijnen of opstaan voor iets; je staat niet op van een schrik — je herstelt ervan.",
-      "1": "'Terechtkomen' = ergens belanden; je belandt nergens door schrik — je herstelt ervan."
+      "1": "'Terechtkomen' = ergens belanden; je belandt nergens door schrik — je herstelt ervan.",
+      "2": "'Opkomen' = verschijnen of opstaan voor iets; je staat niet op van een schrik — je herstelt ervan."
     },
-    "hint": "Ze was geschrokken en is nu weer zichzelf. Welk werkwoord gebruik je voor herstel na een emotie?"
+    "hint": "Ze was geschrokken en is nu weer zichzelf. Welk werkwoord gebruik je voor herstel na een emotie?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Er zijn door de nieuwe wet nog extra kosten ______.",
@@ -167,7 +194,10 @@
       "1": "'Terechtkomen' = toevallig ergens belanden; kosten belanden nergens — ze worden opgelegd.",
       "3": "'Meekomen' = samen bewegen; kosten reizen nergens naartoe."
     },
-    "hint": "De kosten worden toegevoegd aan iets wat er al was. Welk prefix past bij 'erbij'?"
+    "hint": "De kosten worden toegevoegd aan iets wat er al was. Welk prefix past bij 'erbij'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Wil je vanavond ook ______ naar het concert?",
@@ -184,7 +214,10 @@
       "1": "'Terugkomen' = teruggaan naar een eerdere plek; je nodigt iemand uit om mee te gaan, niet om terug te komen.",
       "2": "'Opkomen' = verschijnen of opstaan voor iets; niet geschikt voor een uitnodiging om samen te gaan."
     },
-    "hint": "Je vraagt iemand om samen met jou te gaan. Welk prefix past bij 'samen met'?"
+    "hint": "Je vraagt iemand om samen met jou te gaan. Welk prefix past bij 'samen met'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze kon niet ______ met de rest van de groep tijdens de training.",
@@ -201,7 +234,10 @@
       "2": "'Terugkomen' = teruggaan naar een eerdere plek; ze wil niet terug — ze wil bijhouden.",
       "3": "'Afkomen' = naar beneden komen of ergens naartoe komen; er is geen hoogteverschil of aankomst in deze situatie."
     },
-    "hint": "De groep gaat te snel voor haar. Welk prefix past bij 'samen bewegen' of 'bijhouden'?"
+    "hint": "De groep gaat te snel voor haar. Welk prefix past bij 'samen bewegen' of 'bijhouden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De waarheid over het datalek is eindelijk ______.",
@@ -218,7 +254,10 @@
       "2": "'Afkomen' = naar beneden komen of ergens naartoe komen; een waarheid daalt niet.",
       "3": "'Terechtkomen' = ergens belanden; de waarheid belandt nergens — ze wordt onthuld."
     },
-    "hint": "De waarheid was lang verborgen. Welk prefix past bij iets dat naar buiten komt?"
+    "hint": "De waarheid was lang verborgen. Welk prefix past bij iets dat naar buiten komt?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Zijn nieuwe boek is vorige week ______.",
@@ -235,7 +274,10 @@
       "2": "'Aankomen' = arriveren; het boek is niet bezorgd — het is gepubliceerd.",
       "3": "'Opkomen' = omhoog verschijnen (zon) of opstaan voor iets; boeken verschijnen niet zoals de zon."
     },
-    "hint": "Het boek bestaat nu officieel voor het publiek. Welk prefix past bij iets dat naar buiten komt?"
+    "hint": "Het boek bestaat nu officieel voor het publiek. Welk prefix past bij iets dat naar buiten komt?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De berekening voor het budget is precies ______.",
@@ -249,10 +291,13 @@
     "explanation": "'Uitkomen' = kloppen, het juiste resultaat geven. Gebruik: de berekening klopt — ze komt precies uit.",
     "wrongExplanations": {
       "0": "'Voorkomen' = plaatsvinden of voor jezelf lijken; een berekening vindt niet 'plaats' — ze klopt.",
-      "2": "'Bijkomen' = herstellen of erbij komen; een berekening herstelt niet.",
-      "1": "'Overkomen' = een indruk maken op anderen; een berekening maakt geen indruk — ze klopt of niet."
+      "1": "'Overkomen' = een indruk maken op anderen; een berekening maakt geen indruk — ze klopt of niet.",
+      "2": "'Bijkomen' = herstellen of erbij komen; een berekening herstelt niet."
     },
-    "hint": "De uitkomst is precies goed. Welk prefix past bij een resultaat dat 'eruit komt'?"
+    "hint": "De uitkomst is precies goed. Welk prefix past bij een resultaat dat 'eruit komt'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze is eindelijk ______ voor haar mening over de reorganisatie.",
@@ -269,7 +314,10 @@
       "1": "'Bijkomen' = herstellen; je herstelt niet van je mening.",
       "3": "'Binnenkomen' = naar binnen gaan; je gaat nergens naar binnen voor je mening."
     },
-    "hint": "Ze zegt nu openlijk wat ze echt vindt. Welk prefix past bij 'openlijk toegeven of verdedigen'?"
+    "hint": "Ze zegt nu openlijk wat ze echt vindt. Welk prefix past bij 'openlijk toegeven of verdedigen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij durft niet ______ voor zijn keuze, ook niet tegenover zijn manager.",
@@ -286,7 +334,10 @@
       "1": "'Meekomen' = samen gaan; je gaat nergens mee naartoe.",
       "3": "'Opkomen voor' = actief verdedigen tegenover anderen; 'uitkomen voor' is openlijk erkennen wat je denkt of bent."
     },
-    "hint": "Hij schaamt zich voor zijn keuze en wil het niet openlijk zeggen. Welk prefix past bij 'openlijk erkennen'?"
+    "hint": "Hij schaamt zich voor zijn keuze en wil het niet openlijk zeggen. Welk prefix past bij 'openlijk erkennen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het ongeluk is op de snelweg bij Nieuwegein ______.",
@@ -303,7 +354,10 @@
       "2": "'Bijkomen' = herstellen; een ongeluk herstelt niet — het vindt plaats.",
       "3": "'Meekomen' = samen bewegen; een ongeluk reist niet mee — het gebeurt op een locatie."
     },
-    "hint": "Het ongeluk heeft plaatsgevonden. Welk werkwoord gebruik je als iets ergens gebeurt?"
+    "hint": "Het ongeluk heeft plaatsgevonden. Welk werkwoord gebruik je als iets ergens gebeurt?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Dat woord komt me heel bekend ______.",
@@ -320,7 +374,10 @@
       "1": "'Bijkomen' = herstellen; je herstelt niet van een bekend woord.",
       "3": "'Aankomen' = arriveren of zwaarder worden; past niet bij herkenning."
     },
-    "hint": "Je herkent iets. Welk prefix past bij 'voor jou lijken'?"
+    "hint": "Je herkent iets. Welk prefix past bij 'voor jou lijken'?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Het ongeluk had ______ kunnen worden als we beter hadden opgelet.",
@@ -337,7 +394,10 @@
       "1": "'Bijkomen' = herstellen; je herstelt niet van een hypothetisch ongeluk.",
       "3": "'Terechtkomen' = ergens belanden; je wil het ongeluk stoppen — niet ergens belanden."
     },
-    "hint": "Het ongeluk kon vermeden worden. Welk werkwoord gebruik je voor 'iets tegenhouden'?"
+    "hint": "Het ongeluk kon vermeden worden. Welk werkwoord gebruik je voor 'iets tegenhouden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "We moeten fouten in de communicatie met klanten ______.",
@@ -351,10 +411,13 @@
     "explanation": "'Voorkomen' = verhinderen dat iets slechts gebeurt. Gebruik: fouten voorkomen, misverstanden voorkomen, ongelukken voorkomen.",
     "wrongExplanations": {
       "0": "'Bijkomen' = herstellen of erbij komen; je wilt juist dat fouten er níet bijkomen.",
-      "2": "'Meekomen' = samen bewegen; fouten reizen niet mee.",
-      "1": "'Uitkomen' = openbaar worden; je wilt fouten stoppen — niet ze openbaar laten worden."
+      "1": "'Uitkomen' = openbaar worden; je wilt fouten stoppen — niet ze openbaar laten worden.",
+      "2": "'Meekomen' = samen bewegen; fouten reizen niet mee."
     },
-    "hint": "Je wilt fouten vermijden. Welk prefix past bij 'verhinderen dat iets gebeurt'?"
+    "hint": "Je wilt fouten vermijden. Welk prefix past bij 'verhinderen dat iets gebeurt'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij komt altijd heel aardig ______ bij nieuwe klanten.",
@@ -371,7 +434,10 @@
       "1": "'Aankomen' = arriveren of zwaarder worden; past niet bij een indruk maken.",
       "2": "'Bijkomen' = herstellen; je herstelt niet van aardig zijn."
     },
-    "hint": "Anderen zien hem als aardig. Welk prefix past bij een indruk die op anderen overkomt?"
+    "hint": "Anderen zien hem als aardig. Welk prefix past bij een indruk die op anderen overkomt?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Zijn presentatie is niet goed ______ bij de directie.",
@@ -388,7 +454,10 @@
       "2": "'Bijkomen' = herstellen; een presentatie herstelt niet.",
       "3": "'Afkomen' = naar beneden komen; een presentatie daalt niet."
     },
-    "hint": "De presentatie maakte een slechte indruk op de luisteraars. Welk prefix past bij een indruk die op iemand overkomt?"
+    "hint": "De presentatie maakte een slechte indruk op de luisteraars. Welk prefix past bij een indruk die op iemand overkomt?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hoe komt jouw boodschap ______ bij de klanten?",
@@ -402,10 +471,13 @@
     "explanation": "'Overkomen' = de indruk maken op anderen, begrepen worden. Gebruik: 'je boodschap overkomen' = hoe anderen jouw communicatie ervaren.",
     "wrongExplanations": {
       "0": "'Aankomen' = arriveren of zwaarder worden; 'overkomen' is het specifieke werkwoord voor de indruk die jouw communicatie maakt op anderen.",
-      "2": "'Bijkomen' = herstellen; klanten herstellen niet van een boodschap.",
-      "1": "'Voorkomen' = voor jezelf lijken; hier gaat het om de indruk op anderen, niet op jouzelf."
+      "1": "'Voorkomen' = voor jezelf lijken; hier gaat het om de indruk op anderen, niet op jouzelf.",
+      "2": "'Bijkomen' = herstellen; klanten herstellen niet van een boodschap."
     },
-    "hint": "Je vraagt welke indruk jouw communicatie maakt op klanten. Welk prefix past bij 'de indruk die iemand krijgt'?"
+    "hint": "Je vraagt welke indruk jouw communicatie maakt op klanten. Welk prefix past bij 'de indruk die iemand krijgt'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Zoiets kan iedereen ______.",
@@ -419,10 +491,13 @@
     "explanation": "'Overkomen' = iemand overkomen = iets meemaken, iets dat jou overkomt. Gebruik: zoiets kan iedereen overkomen, wat is jou overkomen?",
     "wrongExplanations": {
       "0": "'Bijkomen' = herstellen; dat is wat je doet nádát iets je is overkomen.",
-      "2": "'Meekomen' = samen gaan of bijhouden; iets gaat niet 'mee' met iemand.",
-      "1": "'Uitkomen' = openbaar worden; dingen die je meemaakt worden niet 'onthuld'."
+      "1": "'Uitkomen' = openbaar worden; dingen die je meemaakt worden niet 'onthuld'.",
+      "2": "'Meekomen' = samen gaan of bijhouden; iets gaat niet 'mee' met iemand."
     },
-    "hint": "Het kan iedereen gebeuren. Welk prefix past bij 'iemand overkomen' als iets iemand overkomt?"
+    "hint": "Het kan iedereen gebeuren. Welk prefix past bij 'iemand overkomen' als iets iemand overkomt?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze is voorzichtig van de trap ______.",
@@ -439,7 +514,10 @@
       "1": "'Bijkomen' = herstellen; ze beweegt — ze herstelt niet.",
       "3": "'Terechtkomen' = ergens belanden; ze loopt van de trap af — ze belandt niet toevallig ergens."
     },
-    "hint": "Ze staat boven en beweegt naar beneden. Welk prefix past bij een neerwaartse beweging?"
+    "hint": "Ze staat boven en beweegt naar beneden. Welk prefix past bij een neerwaartse beweging?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De spreker is het podium ______ na zijn lezing.",
@@ -456,7 +534,10 @@
       "1": "'Binnenkomen' = naar binnen gaan; de spreker verlaat het podium — hij gaat niet naar binnen.",
       "2": "'Opkomen' = het podium opgaan; dat is het tegenovergestelde van wat hier beschreven wordt."
     },
-    "hint": "De spreker staat op het podium en verlaat het. Welk prefix past bij een neerwaartse beweging?"
+    "hint": "De spreker staat op het podium en verlaat het. Welk prefix past bij een neerwaartse beweging?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hoe ben je bij dit bedrijf ______?",
@@ -473,7 +554,10 @@
       "2": "'Opkomen' = verschijnen of opstaan voor iets; je komt niet op bij een bedrijf — je belandt er.",
       "3": "'Meekomen' = samen gaan; je bent er zelf beland, niet met iemand mee."
     },
-    "hint": "Je vraagt naar iemands carrièrepad. Welk werkwoord past bij 'ergens belanden'?"
+    "hint": "Je vraagt naar iemands carrièrepad. Welk werkwoord past bij 'ergens belanden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Waar zijn mijn sleutels ______, want ik kan ze nergens vinden?",
@@ -487,10 +571,13 @@
     "explanation": "'Terechtkomen' = ergens belanden, na zoeken of verliezen. Gebruik: sleutels terechtkomen, post terechtkomen.",
     "wrongExplanations": {
       "0": "'Aankomen' = arriveren op een bekende bestemming; sleutels arriveren niet bewust ergens.",
-      "2": "'Meekomen' = samen bewegen; sleutels reizen niet bewust mee.",
-      "1": "'Bijkomen' = herstellen; sleutels herstellen nergens van."
+      "1": "'Bijkomen' = herstellen; sleutels herstellen nergens van.",
+      "2": "'Meekomen' = samen bewegen; sleutels reizen niet bewust mee."
     },
-    "hint": "Je bent je sleutels kwijt en vraagt waar ze beland zijn. Welk werkwoord past bij 'ergens belanden'?"
+    "hint": "Je bent je sleutels kwijt en vraagt waar ze beland zijn. Welk werkwoord past bij 'ergens belanden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ken je een plek waar ik vanavond ______ kan, want ik heb geen hotel gereserveerd?",
@@ -507,7 +594,10 @@
       "1": "'Bijkomen' = herstellen; je zoekt onderdak — je herstelt niet van iets.",
       "2": "'Langskomen' = even op bezoek komen; je zoekt niet een bezoekplek — je hebt een slaapplek nodig voor de nacht."
     },
-    "hint": "Je zoekt een plek om vanavond te overnachten. Welk werkwoord past bij 'ergens onderdak vinden'?"
+    "hint": "Je zoekt een plek om vanavond te overnachten. Welk werkwoord past bij 'ergens onderdak vinden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik ben er net ______ dat hij gelogen heeft in zijn rapport.",
@@ -524,7 +614,10 @@
       "1": "'Terechtkomen' = ergens belanden; je belandt nergens — je ontdekt iets.",
       "3": "'Voorkomen' = plaatsvinden of voor jezelf lijken; de leugen vond eerder plaats — jíj ontdekt hem nu."
     },
-    "hint": "Iets was verborgen en jij hebt het nu ontdekt. Welk prefix past bij 'van achteren iets te pakken krijgen'?"
+    "hint": "Iets was verborgen en jij hebt het nu ontdekt. Welk prefix past bij 'van achteren iets te pakken krijgen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik kan er niet ______ wie de fout in het systeem heeft gemaakt.",
@@ -541,7 +634,10 @@
       "1": "'Meekomen' = samen gaan; je gaat nergens naartoe.",
       "3": "'Uitkomen' = openbaar worden; het gaat niet vanzelf openbaar — jíj probeert het te ontdekken."
     },
-    "hint": "Je probeert te ontdekken wie de fout heeft gemaakt. Welk prefix past bij 'van achteren iets te pakken krijgen'?"
+    "hint": "Je probeert te ontdekken wie de fout heeft gemaakt. Welk prefix past bij 'van achteren iets te pakken krijgen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De aannemer is gisteren even ______ om de schade te bekijken.",
@@ -558,7 +654,10 @@
       "1": "'Terechtkomen' = ergens belanden; de aannemer belandde niet toevallig bij jou — hij bezoekt je bewust.",
       "2": "'Opkomen' = verschijnen of opstaan voor iets; de aannemer verschijnt niet als de zon."
     },
-    "hint": "De aannemer bezoekt je even voor een specifiek doel. Welk prefix past bij 'even op bezoek komen'?"
+    "hint": "De aannemer bezoekt je even voor een specifiek doel. Welk prefix past bij 'even op bezoek komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik kom volgende week even ______ om de documenten te tekenen.",
@@ -575,7 +674,10 @@
       "2": "'Bijkomen' = herstellen; je herstelt niet van documenten.",
       "3": "'Voorkomen' = plaatsvinden of voor jezelf lijken; past niet bij een kort bezoek."
     },
-    "hint": "Je gaat even naar kantoor voor de handtekening. Welk prefix past bij 'even op bezoek komen'?"
+    "hint": "Je gaat even naar kantoor voor de handtekening. Welk prefix past bij 'even op bezoek komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik ben Lisa gisteren toevallig in de stad ______.",
@@ -592,7 +694,10 @@
       "1": "'Voorkomen' = plaatsvinden of voor jezelf lijken; je ontmoet haar toevallig — dat is niet 'plaatsvinden'.",
       "2": "'Bijkomen' = herstellen; je herstelt niet van Lisa."
     },
-    "hint": "Je liep door de stad en zag Lisa toevallig. Welk prefix past bij 'per ongeluk ontmoeten'?"
+    "hint": "Je liep door de stad en zag Lisa toevallig. Welk prefix past bij 'per ongeluk ontmoeten'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Welke problemen kom je ______ in jouw werk als UX-designer?",
@@ -609,7 +714,10 @@
       "1": "'Aankomen' = arriveren; je arriveert niet bij problemen.",
       "3": "'Voorkomen' = plaatsvinden; 'welke problemen komen voor' gaat over het bestaan ervan — 'tegenkomen' gaat over jouw eigen ervaring ermee."
     },
-    "hint": "Je vraagt welke problemen iemand zelf tegenkomt in zijn werk. Welk prefix past bij 'stuiten op'?"
+    "hint": "Je vraagt welke problemen iemand zelf tegenkomt in zijn werk. Welk prefix past bij 'stuiten op'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Veel mensen zijn bij het vuurwerkongeval ______.",
@@ -626,7 +734,10 @@
       "2": "'Terechtkomen' = ergens belanden; dit is een definitief, onomkeerbaar gevolg — dat is 'omkomen'.",
       "3": "'Uitkomen' = openbaar worden; een ongeluk wordt niet 'onthuld'."
     },
-    "hint": "Dit is een onomkeerbaar gevolg van een ongeluk. Welk prefix geeft dit aan?"
+    "hint": "Dit is een onomkeerbaar gevolg van een ongeluk. Welk prefix geeft dit aan?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Er is een klacht van een klant ______.",
@@ -643,7 +754,10 @@
       "2": "'Opkomen' = omhoog verschijnen; een klacht verschijnt niet als de zon.",
       "3": "'Voorkomen' = plaatsvinden of voor jezelf lijken; een klacht vindt niet 'plaats' — ze wordt ontvangen."
     },
-    "hint": "De klacht is bij het bedrijf ontvangen. Welk prefix past bij iets dat van buiten naar binnen gaat?"
+    "hint": "De klacht is bij het bedrijf ontvangen. Welk prefix past bij iets dat van buiten naar binnen gaat?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Er zijn al twintig reacties op de vacature ______.",
@@ -660,7 +774,10 @@
       "1": "'Overkomen' = een indruk maken op anderen; reacties maken geen indruk — ze komen binnen.",
       "3": "'Uitkomen' = openbaar worden; reacties worden niet onthuld — ze worden ontvangen."
     },
-    "hint": "De sollicitaties zijn bij het bedrijf ontvangen. Welk prefix past bij 'ontvangen worden'?"
+    "hint": "De sollicitaties zijn bij het bedrijf ontvangen. Welk prefix past bij 'ontvangen worden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik kom hier in de volgende vergadering op ______.",
@@ -677,7 +794,10 @@
       "1": "'Bijkomen' = herstellen; je herstelt niet van een vergaderonderwerp.",
       "3": "'Meekomen' = samen gaan; je gaat niet mee met het onderwerp."
     },
-    "hint": "Je belooft later over dit onderwerp te praten. Welk prefix past bij 'opnieuw bespreken'?"
+    "hint": "Je belooft later over dit onderwerp te praten. Welk prefix past bij 'opnieuw bespreken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Kan ik daar in onze volgende meeting later op ______?",
@@ -694,7 +814,10 @@
       "2": "'Meekomen' = samen gaan; je gaat nergens naartoe.",
       "3": "'Uitkomen' = openbaar worden; je maakt het punt niet openbaar — je reageert erop."
     },
-    "hint": "Je wilt later reageren op een punt in de vergadering. Welk prefix past bij 'later opnieuw pakken'?"
+    "hint": "Je wilt later reageren op een punt in de vergadering. Welk prefix past bij 'later opnieuw pakken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Je moet je afspraken met klanten altijd ______.",
@@ -711,7 +834,10 @@
       "2": "'Terugkomen' = teruggaan naar een eerdere plek of onderwerp; afspraken haal je niet terug — je komt ze na.",
       "3": "'Binnenkomen' = naar binnen gaan of ontvangen worden; afspraken komen niet naar binnen."
     },
-    "hint": "Je moet doen wat je hebt beloofd. Welk prefix past bij 'beloften waarmaken'?"
+    "hint": "Je moet doen wat je hebt beloofd. Welk prefix past bij 'beloften waarmaken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het bedrijf is zijn leveringsverplichtingen niet ______.",
@@ -728,7 +854,10 @@
       "1": "'Meekomen' = samen gaan; verplichtingen reizen niet mee.",
       "3": "'Uitkomen' = openbaar worden; verplichtingen worden niet onthuld — ze worden nageleefd of niet."
     },
-    "hint": "Het bedrijf heeft zijn beloften niet nagekomen. Welk prefix past bij 'naleven'?"
+    "hint": "Het bedrijf heeft zijn beloften niet nagekomen. Welk prefix past bij 'naleven'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "We zijn ______ dat de deadline met twee weken wordt verlengd.",
@@ -745,7 +874,10 @@
       "1": "'Aankomen' = arriveren; je arriveert niet bij een afspraak — je maakt hem.",
       "2": "'Terechtkomen' = ergens belanden; je belandt niet bij een beslissing — je neemt hem samen."
     },
-    "hint": "Jullie hebben samen besloten. Welk prefix past bij 'het eens worden'?"
+    "hint": "Jullie hebben samen besloten. Welk prefix past bij 'het eens worden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Dat voorstel komt me vreemd ______.",
@@ -762,7 +894,10 @@
       "1": "'Aankomen' = arriveren of zwaarder worden; past niet bij een oordeel of gevoel.",
       "2": "'Overkomen' = een indruk maken op anderen; hier gaat het om jóúw eigen ervaring, niet wat anderen van jou vinden."
     },
-    "hint": "JIJ vindt iets vreemd — het gaat om jouw eigen indruk. Welk prefix past bij 'voor jou lijken'?"
+    "hint": "JIJ vindt iets vreemd — het gaat om jouw eigen indruk. Welk prefix past bij 'voor jou lijken'?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij vindt het moeilijk om ______ van zijn oude gewoonten.",
@@ -779,7 +914,10 @@
       "2": "'Meekomen' = samen gaan; je gaat nergens naartoe.",
       "3": "'Voorkomen' = verhinderen; je voorkomt de gewoonten niet — je wil er los van komen."
     },
-    "hint": "Hij wil zich bevrijden van iets dat hem vasthoudt. Welk prefix past bij 'vrij worden van'?"
+    "hint": "Hij wil zich bevrijden van iets dat hem vasthoudt. Welk prefix past bij 'vrij worden van'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na jaren therapie begon ze eindelijk ______ van haar verleden.",
@@ -796,7 +934,10 @@
       "2": "'Voorkomen' = verhinderen; ze voorkomt haar verleden niet — ze laat het los.",
       "3": "'Bijkomen' = herstellen na een schrik of klap; 'loskomen' is een langdurig proces van bevrijding — dat is iets anders."
     },
-    "hint": "Ze bevrijdt zich langzaam van haar verleden. Welk prefix past bij 'je bevrijden van iets dat je vasthoudt'?"
+    "hint": "Ze bevrijdt zich langzaam van haar verleden. Welk prefix past bij 'je bevrijden van iets dat je vasthoudt'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun je mij even bellen? Ik kan niet ______ via e-mail.",
@@ -813,7 +954,10 @@
       "2": "'Uitkomen' = openbaar worden of kloppen; de e-mail wordt niet 'onthuld'.",
       "3": "'Meekomen' = samen gaan of bijhouden; je volgt niemand."
     },
-    "hint": "Je kunt iemand niet bereiken via e-mail. Welk prefix past bij 'contact krijgen'?"
+    "hint": "Je kunt iemand niet bereiken via e-mail. Welk prefix past bij 'contact krijgen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hoe ben je door die moeilijke periode van de reorganisatie ______?",
@@ -830,7 +974,10 @@
       "1": "'Opkomen' = verschijnen of opstaan voor iets; je staat niet op voor een moeilijke periode.",
       "3": "'Meekomen' = samen gaan of bijhouden; je gaat nergens mee naartoe."
     },
-    "hint": "Je vraagt hoe iemand een moeilijke tijd heeft overleefd. Welk prefix past bij 'er doorheen komen'?"
+    "hint": "Je vraagt hoe iemand een moeilijke tijd heeft overleefd. Welk prefix past bij 'er doorheen komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het komt ______ op samenwerking — niet op individuele prestaties.",
@@ -847,7 +994,10 @@
       "2": "'Voorkomen' = plaatsvinden of voor jezelf lijken; samenwerking vindt hier niet 'plaats' — het is de sleutelfactor.",
       "3": "'Meekomen' = samen gaan; je gaat nergens naartoe."
     },
-    "hint": "Je zegt wat het beslissende element is. Welk prefix past bij 'waar het op neerkomt'?"
+    "hint": "Je zegt wat het beslissende element is. Welk prefix past bij 'waar het op neerkomt'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij is ______ voor zijn fouten tijdens het project — dat vind ik knap.",
@@ -864,7 +1014,10 @@
       "1": "'Meekomen' = samen gaan; hij gaat nergens naartoe.",
       "2": "'Overkomen' = een indruk maken op anderen; hij maakt een goede indruk — maar het gaat specifiek om zijn daad van erkenning."
     },
-    "hint": "Hij erkent zijn fouten openlijk. Welk prefix past bij 'openlijk toegeven'?"
+    "hint": "Hij erkent zijn fouten openlijk. Welk prefix past bij 'openlijk toegeven'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Er is helaas iets ______ — ik kan niet naar de presentatie.",
@@ -881,7 +1034,10 @@
       "2": "'Bijkomen' = herstellen of erbij komen; dit gaat niet over extra dingen — er verandert iets aan je plannen.",
       "3": "'Voorkomen' = plaatsvinden of verhinderen; 'tussenkomen' is de standaarduitdrukking voor onverwachte planwijzigingen."
     },
-    "hint": "Iets onverwachts verstoort je plannen. Welk prefix past bij 'ertussen komen'?"
+    "hint": "Iets onverwachts verstoort je plannen. Welk prefix past bij 'ertussen komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De gemeente komt deze week met een nieuw voorstel ______.",
@@ -898,7 +1054,10 @@
       "2": "'Opkomen' = verschijnen of opstaan; een voorstel verschijnt niet als de zon — het wordt naar buiten gebracht.",
       "3": "'Langskomen' = op bezoek komen; de gemeente komt niet even langs — ze presenteert een voorstel."
     },
-    "hint": "De gemeente maakt iets nieuws openbaar. Welk prefix past bij 'iets naar buiten brengen'?"
+    "hint": "De gemeente maakt iets nieuws openbaar. Welk prefix past bij 'iets naar buiten brengen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Dit soort softwarebugs komt vaker ______ bij oudere systemen.",
@@ -915,7 +1074,10 @@
       "2": "'Aankomen' = arriveren; problemen arriveren niet bij software.",
       "3": "'Opkomen' = verschijnen of een idee krijgen; problemen verschijnen niet als de zon."
     },
-    "hint": "Dit type probleem gebeurt regelmatig. Welk prefix past bij 'plaatsvinden, zich voordoen'?"
+    "hint": "Dit type probleem gebeurt regelmatig. Welk prefix past bij 'plaatsvinden, zich voordoen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Kun je niet even aan de telefoon ______? Ik probeer je al een uur te bereiken.",
@@ -932,7 +1094,10 @@
       "2": "'Opkomen' = verschijnen; je verschijnt niet aan de telefoon.",
       "3": "'Langskomen' = op bezoek komen; dit gaat over telefonisch contact, niet een fysiek bezoek."
     },
-    "hint": "Je probeert iemand telefonisch te bereiken. Welk werkwoord past bij 'verbinding krijgen'?"
+    "hint": "Je probeert iemand telefonisch te bereiken. Welk werkwoord past bij 'verbinding krijgen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De sollicitaties moeten vóór vrijdag ______ zijn.",
@@ -949,7 +1114,10 @@
       "2": "'Terechtkomen' = toevallig ergens belanden; sollicitaties worden bewust ingediend — ze belanden niet toevallig ergens.",
       "3": "'Meekomen' = samen gaan; sollicitaties reizen niet mee."
     },
-    "hint": "De sollicitaties moeten vóór een deadline ontvangen zijn bij het bedrijf. Welk prefix past bij 'ontvangen worden'?"
+    "hint": "De sollicitaties moeten vóór een deadline ontvangen zijn bij het bedrijf. Welk prefix past bij 'ontvangen worden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Als ik aan mijn opa denk, ______ de tranen vanzelf.",
@@ -966,7 +1134,10 @@
       "1": "'Vrijkomen' = beschikbaar worden of loskomen; tranen worden niet 'beschikbaar'.",
       "3": "'Langskomen' = op bezoek komen; tranen komen niet op bezoek."
     },
-    "hint": "De tranen komen spontaan omhoog vanuit je emoties. Welk prefix past bij emoties die naar de oppervlakte stijgen?"
+    "hint": "De tranen komen spontaan omhoog vanuit je emoties. Welk prefix past bij emoties die naar de oppervlakte stijgen?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "De manager ______ dat we de deadline niet gaan halen.",
@@ -983,7 +1154,10 @@
       "2": "'Langskomen' = op bezoek komen; de manager komt niet op bezoek bij de deadline.",
       "3": "'Meekomen' = samen gaan; de manager gaat nergens mee naartoe."
     },
-    "hint": "De manager heeft iets ontdekt dat verborgen was. Welk prefix past bij 'iets ontdekken'?"
+    "hint": "De manager heeft iets ontdekt dat verborgen was. Welk prefix past bij 'iets ontdekken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het water in de kelder is bijna tot het plafond ______.",
@@ -1000,7 +1174,10 @@
       "2": "'Aankomen' = arriveren; water arriveert niet op een bestemming — het stijgt.",
       "3": "'Binnenkomen' = ontvangen worden of naar binnen gaan; water stroomt naar binnen — maar hier gaat het over de hoogte waarop het gestegen is."
     },
-    "hint": "Het water is omhoog gestegen. Welk prefix past bij een opwaartse beweging?"
+    "hint": "Het water is omhoog gestegen. Welk prefix past bij een opwaartse beweging?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze heeft gisteren een oud-klasgenoot ______ op straat.",
@@ -1017,7 +1194,10 @@
       "2": "'Voorkomen' = plaatsvinden of lijken; een toevallige ontmoeting 'vindt voor' niet — ze vindt toevallig plaats.",
       "3": "'Meekomen' = samen gaan; de klasgenoot ging niet mee — ze ontmoetten elkaar toevallig."
     },
-    "hint": "De ontmoeting was niet gepland — het was toeval. Welk prefix past bij 'per ongeluk ontmoeten'?"
+    "hint": "De ontmoeting was niet gepland — het was toeval. Welk prefix past bij 'per ongeluk ontmoeten'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na het reorganisatieplan komen er drie werkplekken ______.",
@@ -1034,7 +1214,10 @@
       "2": "'Bijkomen' = herstellen of erbij komen; werkplekken herstellen niet — ze komen vrij.",
       "3": "'Terugkomen' = teruggaan of opnieuw bespreken; de werkplekken komen niet terug — ze worden beschikbaar."
     },
-    "hint": "De werkplekken worden beschikbaar na de reorganisatie. Welk prefix past bij 'beschikbaar worden'?"
+    "hint": "De werkplekken worden beschikbaar na de reorganisatie. Welk prefix past bij 'beschikbaar worden'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik weet niet hoe laat ik vanavond ______.",
@@ -1051,7 +1234,10 @@
       "2": "'Aankomen' = arriveren op een bestemming; 'thuiskomen' is de standaardvorm voor arriveren bij je eigen huis.",
       "3": "'Binnenkomen' = naar binnen gaan; je gaat niet alleen naar binnen — je komt thuis."
     },
-    "hint": "Je gaat naar je eigen huis. Welk woord combineert 'thuis' met 'komen'?"
+    "hint": "Je gaat naar je eigen huis. Welk woord combineert 'thuis' met 'komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Tijdens het gesprek met mijn moeder kwamen er allerlei herinneringen ______.",
@@ -1068,7 +1254,10 @@
       "2": "'Meekomen' = samen gaan; herinneringen gaan nergens mee naartoe.",
       "3": "'Terechtkomen' = ergens belanden; herinneringen belanden niet — ze duiken op."
     },
-    "hint": "Verborgen herinneringen komen naar het oppervlak. Welk prefix past bij 'omhoog naar het bewustzijn'?"
+    "hint": "Verborgen herinneringen komen naar het oppervlak. Welk prefix past bij 'omhoog naar het bewustzijn'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "We kwamen erachter dat de factuur niet ______ was bij de klant.",
@@ -1085,7 +1274,10 @@
       "2": "'Binnenkomen' = ontvangen worden bij het bedrijf zelf; hier gaat de factuur naar de klant — het gaat om het bereiken van de klant, niet het ontvangen bij jou.",
       "3": "'Overkomen' = een indruk maken of iemand overkomen; een factuur maakt geen indruk."
     },
-    "hint": "De factuur was onderweg naar de klant maar is daar niet gearriveerd. Welk prefix past bij het bereiken van een bestemming?"
+    "hint": "De factuur was onderweg naar de klant maar is daar niet gearriveerd. Welk prefix past bij het bereiken van een bestemming?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze komt altijd heel professioneel ______ in vergaderingen met de directie.",
@@ -1102,7 +1294,10 @@
       "1": "'Meekomen' = samen gaan; ze gaat niet mee — ze maakt een indruk.",
       "3": "'Aankomen' = arriveren; dit gaat niet over haar aankomst maar over haar uitstraling."
     },
-    "hint": "Collega's zien haar als professioneel. Welk prefix past bij de indruk die je op ANDEREN maakt?"
+    "hint": "Collega's zien haar als professioneel. Welk prefix past bij de indruk die je op ANDEREN maakt?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De directie en de OR komen morgen ______ om de arbeidsvoorwaarden te bespreken.",
@@ -1119,7 +1314,10 @@
       "2": "'Bijkomen' = herstellen of erbij komen; ze herstellen niet — ze vergaderen.",
       "3": "'Langskomen' = even op bezoek; dit is geen informeel bezoekje — het is een officiële bijeenkomst."
     },
-    "hint": "Ze komen bij elkaar voor een vergadering. Welk prefix past bij 'bij elkaar komen'?"
+    "hint": "Ze komen bij elkaar voor een vergadering. Welk prefix past bij 'bij elkaar komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Slechts drie kandidaten zijn ______ naar de tweede ronde van de selectie.",
@@ -1136,7 +1334,10 @@
       "1": "'Bijkomen' = herstellen of erbij komen; ze komen er niet bij — ze gaan door naar de volgende fase.",
       "3": "'Terechtkomen' = ergens belanden; ze belanden er niet toevallig — ze halen actief de selectie."
     },
-    "hint": "Ze halen de selectie en gaan naar de volgende ronde. Welk prefix past bij 'een fase halen'?"
+    "hint": "Ze halen de selectie en gaan naar de volgende ronde. Welk prefix past bij 'een fase halen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het komt er eigenlijk op ______ dat we meer personeel nodig hebben.",
@@ -1153,7 +1354,10 @@
       "2": "'Bijkomen' = herstellen of erbij komen; je vat hier iets samen — je herstelt niet.",
       "3": "'Voorkomen' = plaatsvinden of verhinderen; je vat het probleem samen — het vindt niet 'plaats'."
     },
-    "hint": "Je vat de kern van het probleem samen. Welk prefix past bij 'waar het op neerkomt'?"
+    "hint": "Je vat de kern van het probleem samen. Welk prefix past bij 'waar het op neerkomt'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze is erin geslaagd om de moeilijke eindexamens ______ te komen.",
@@ -1170,7 +1374,10 @@
       "2": "'Bijkomen' = herstellen; ze herstelt niet van de examens — ze slaagt ervoor.",
       "3": "'Langskomen' = op bezoek; je komt niet 'langs' bij examens."
     },
-    "hint": "Ze heeft het gehaald ondanks de moeilijkheid. Welk prefix past bij 'er doorheen komen'?"
+    "hint": "Ze heeft het gehaald ondanks de moeilijkheid. Welk prefix past bij 'er doorheen komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Er mogen geen externe adviseurs ______ in deze onderhandelingen tussen de twee partijen.",
@@ -1187,7 +1394,10 @@
       "1": "'Binnenkomen' = naar binnen gaan of ontvangen worden; dit gaat niet over een fysieke ruimte — het gaat over inmenging.",
       "3": "'Langskomen' = op bezoek komen; ze komen niet even langs — ze grijpen in."
     },
-    "hint": "Externe partijen mogen zich niet mengen in de onderhandelingen. Welk prefix past bij 'ertussen komen'?"
+    "hint": "Externe partijen mogen zich niet mengen in de onderhandelingen. Welk prefix past bij 'ertussen komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Dit komt mij heel oneerlijk ______.",
@@ -1204,7 +1414,10 @@
       "2": "'Bijkomen' = herstellen; je herstelt niet van oneerlijkheid.",
       "3": "'Aankomen' = arriveren; past niet bij een persoonlijk oordeel."
     },
-    "hint": "JIJ vindt het oneerlijk — het gaat om jouw eigen indruk. Welk prefix past bij 'voor jou lijken'?"
+    "hint": "JIJ vindt het oneerlijk — het gaat om jouw eigen indruk. Welk prefix past bij 'voor jou lijken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De vermiste kat is uiteindelijk ______ in de schuur van de buren.",
@@ -1221,7 +1434,10 @@
       "2": "'Meekomen' = samen gaan; de kat ging niet ergens mee naartoe.",
       "3": "'Opkomen' = verschijnen (zon) of een idee krijgen; de kat is geen idee."
     },
-    "hint": "De kat was kwijt en is nu teruggevonden op een specifieke plek. Welk werkwoord past bij 'ergens belanden na kwijtraken'?"
+    "hint": "De kat was kwijt en is nu teruggevonden op een specifieke plek. Welk werkwoord past bij 'ergens belanden na kwijtraken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "We moeten ______ voor de rechten van werknemers die thuiswerken.",
@@ -1238,7 +1454,10 @@
       "2": "'Meekomen' = samen gaan; je gaat niet mee met rechten.",
       "3": "'Uitkomen' = openbaar worden; je maakt rechten niet openbaar — je verdedigt ze."
     },
-    "hint": "Je wilt de belangen van thuiswerkers verdedigen. Welk prefix past bij 'je inzetten voor iets'?"
+    "hint": "Je wilt de belangen van thuiswerkers verdedigen. Welk prefix past bij 'je inzetten voor iets'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het idee om flexibel te werken is niet bij de directie ______.",
@@ -1255,7 +1474,10 @@
       "2": "'Voorkomen' = plaatsvinden of lijken; het idee vindt niet 'plaats' — het wordt bedacht of niet.",
       "3": "'Overkomen' = een indruk maken; het idee maakt geen indruk — het verschijnt of niet in hun hoofd."
     },
-    "hint": "De directie heeft niet aan dit idee gedacht. Welk prefix past bij een idee dat in je hoofd verschijnt?"
+    "hint": "De directie heeft niet aan dit idee gedacht. Welk prefix past bij een idee dat in je hoofd verschijnt?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De vergadering liep uit omdat er steeds nieuwe punten ______.",
@@ -1272,7 +1494,10 @@
       "2": "'Opkomen' = verschijnen (zon, idee); het gaat hier om punten die aan de agenda worden toegevoegd, niet ideeën die verschijnen.",
       "3": "'Meekomen' = samen gaan; agendapunten gaan nergens mee naartoe."
     },
-    "hint": "Nieuwe punten werden aan de agenda toegevoegd. Welk prefix past bij 'erbij komen'?"
+    "hint": "Nieuwe punten werden aan de agenda toegevoegd. Welk prefix past bij 'erbij komen'?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Hoe is het project uiteindelijk ______? Was het een succes?",
@@ -1289,7 +1514,10 @@
       "2": "'Terechtkomen' = ergens belanden; je kunt vragen 'waar het project is terechtgekomen', maar 'uitkomen' is naturlijker als je naar het resultaat vraagt.",
       "3": "'Voorkomen' = plaatsvinden; je vraagt naar het resultaat — niet of het heeft plaatsgevonden."
     },
-    "hint": "Je vraagt naar de afloop van het project. Welk prefix past bij een resultaat dat 'eruit komt'?"
+    "hint": "Je vraagt naar de afloop van het project. Welk prefix past bij een resultaat dat 'eruit komt'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het nieuws over de overname is afgelopen week officieel ______.",
@@ -1306,7 +1534,10 @@
       "2": "'Voorkomen' = plaatsvinden of voor jezelf lijken; nieuws vindt niet 'plaats' — het wordt onthuld.",
       "3": "'Meekomen' = samen gaan; nieuws reist niet mee — het wordt openbaar."
     },
-    "hint": "Het nieuws was verborgen en is nu voor iedereen openbaar. Welk prefix past bij 'openbaar worden'?"
+    "hint": "Het nieuws was verborgen en is nu voor iedereen openbaar. Welk prefix past bij 'openbaar worden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Mijn collega komt altijd met originele ideeën voor de campagne ______.",
@@ -1323,7 +1554,10 @@
       "2": "'Aankomen' = arriveren; ideeën arriveren niet.",
       "3": "'Meekomen' = samen gaan; ideeën gaan niet mee."
     },
-    "hint": "De collega bedenkt regelmatig originele ideeën. Welk prefix past bij ideeën die 'omhoog borrelen'?"
+    "hint": "De collega bedenkt regelmatig originele ideeën. Welk prefix past bij ideeën die 'omhoog borrelen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De nieuwe medewerker ______ er volgende maand bij in ons team.",
@@ -1340,7 +1574,10 @@
       "1": "'Bijkomen' = herstellen; de medewerker herstelt niet — hij/zij wordt toegevoegd aan het team.",
       "3": "'Aankomen' = arriveren of zwaarder worden; arriveren geeft niet aan dat je permanent bij een team komt."
     },
-    "hint": "De medewerker sluit permanent aan bij het bestaande team. Welk woord past bij 'zich bij een groep voegen'?"
+    "hint": "De medewerker sluit permanent aan bij het bestaande team. Welk woord past bij 'zich bij een groep voegen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De patiënt is na de narcose goed ______.",
@@ -1357,7 +1594,10 @@
       "2": "'Uitkomen' = openbaar worden of kloppen; een patiënt wordt niet 'onthuld' — hij herstelt.",
       "3": "'Terechtkomen' = ergens belanden; de patiënt belandde nergens — hij werd wakker na narcose."
     },
-    "hint": "Na narcose word je weer wakker en herstel je. Welk prefix past bij 'weer bij bewustzijn komen'?"
+    "hint": "Na narcose word je weer wakker en herstel je. Welk prefix past bij 'weer bij bewustzijn komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze is erin geslaagd ______ van haar negatieve gedachten over het werk.",
@@ -1374,7 +1614,10 @@
       "1": "'Doorkomen' = overleven of de selectie halen; ze overleeft niet van gedachten — ze laat ze los.",
       "3": "'Voorkomen' = verhinderen; ze voorkomt de gedachten niet — ze laat ze achter zich."
     },
-    "hint": "Ze bevrijdt zich van gedachten die haar vasthouden. Welk prefix past bij 'je losmaken van iets'?"
+    "hint": "Ze bevrijdt zich van gedachten die haar vasthouden. Welk prefix past bij 'je losmaken van iets'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De trein naar Utrecht ______ om 8.47 uur op spoor 3 ______.",
@@ -1391,7 +1634,10 @@
       "1": "'Staan aan' heeft geen betekenis in deze context.",
       "3": "'Gaan op' heeft geen betekenis in deze context van treinaankomst."
     },
-    "hint": "Je beschrijft wanneer en waar de trein zijn bestemming bereikt. Welk werkwoord gebruik je voor de aankomst van een trein?"
+    "hint": "Je beschrijft wanneer en waar de trein zijn bestemming bereikt. Welk werkwoord gebruik je voor de aankomst van een trein?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het was verrassend dat hij zo snel ______ van zijn burn-out.",
@@ -1408,7 +1654,10 @@
       "2": "'Opkomen' = verschijnen of opstaan voor iets; je staat niet op van een burn-out — je herstelt ervan.",
       "3": "'Uitkomen' = openbaar worden of kloppen; een burn-out wordt niet 'onthuld'."
     },
-    "hint": "Hij herstelde snel van zijn burn-out. Welk werkwoord gebruik je voor herstel na iets ingrijpends?"
+    "hint": "Hij herstelde snel van zijn burn-out. Welk werkwoord gebruik je voor herstel na iets ingrijpends?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "De gemeente ______ volgende maand met een nieuw plan voor de parkeerproblematiek ______.",
@@ -1425,7 +1674,10 @@
       "2": "'Lopen voor' heeft geen betekenis in deze context.",
       "3": "'Staan bij' heeft geen betekenis in deze context."
     },
-    "hint": "De gemeente maakt een nieuw plan openbaar. Welk werkwoord past bij 'iets naar buiten brengen'?"
+    "hint": "De gemeente maakt een nieuw plan openbaar. Welk werkwoord past bij 'iets naar buiten brengen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Als je hard werkt en je best doet, ______ je er uiteindelijk wel ______.",
@@ -1442,7 +1694,10 @@
       "1": "'Gaan voor' = je ergens voor inzetten; dat is niet hetzelfde als overleven.",
       "3": "'Staan op' heeft geen betekenis in deze context."
     },
-    "hint": "Je overleeft een moeilijke periode door hard te werken. Welk werkwoord past bij 'er doorheen komen'?"
+    "hint": "Je overleeft een moeilijke periode door hard te werken. Welk werkwoord past bij 'er doorheen komen'?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "Door de storm zijn er drie bomen op de weg ______ te liggen.",
@@ -1459,7 +1714,10 @@
       "2": "'Voorkomen' = plaatsvinden of verhinderen; bomen 'vinden niet plaats'.",
       "3": "'Langskomen' = op bezoek komen; bomen gaan niet op bezoek."
     },
-    "hint": "De bomen zijn na de storm op een plek beland. Welk prefix past bij 'ergens belanden'?"
+    "hint": "De bomen zijn na de storm op een plek beland. Welk prefix past bij 'ergens belanden'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Jullie moeten ______ om de deadline te halen — er is geen tijd meer.",
@@ -1476,7 +1734,10 @@
       "2": "'Meekomen' = samen gaan of bijhouden; hier gaat het om een actief gezamenlijk doel.",
       "3": "'Bijkomen' = herstellen; de deadline vereist actie, geen herstel."
     },
-    "hint": "Ze moeten bij elkaar komen om samen het probleem op te lossen. Welk prefix past bij 'bij elkaar komen'?"
+    "hint": "Ze moeten bij elkaar komen om samen het probleem op te lossen. Welk prefix past bij 'bij elkaar komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De nieuwe wet ______ volgende maand in werking.",
@@ -1493,7 +1754,10 @@
       "1": "'Aankomen' = arriveren; een wet arriveert niet — ze treedt in werking.",
       "2": "'Gaan bij' heeft geen betekenis in deze context."
     },
-    "hint": "Een wet wordt officieel van kracht. Welke vaste combinatie gebruik je hiervoor?"
+    "hint": "Een wet wordt officieel van kracht. Welke vaste combinatie gebruik je hiervoor?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na maanden onderhandelen zijn de vakbonden en het bedrijf ______ over de nieuwe cao.",
@@ -1510,7 +1774,10 @@
       "1": "'Meekomen' = samen gaan; de partijen gaan niet mee — ze sluiten een akkoord.",
       "3": "'Binnenkomen' = ontvangen worden; een akkoord wordt niet ontvangen — het wordt bereikt."
     },
-    "hint": "Na onderhandelingen zijn ze het eens geworden. Welk prefix past bij 'een akkoord bereiken'?"
+    "hint": "Na onderhandelingen zijn ze het eens geworden. Welk prefix past bij 'een akkoord bereiken'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze ______ altijd erg onzeker ______ als ze een presentatie geeft.",
@@ -1527,7 +1794,10 @@
       "1": "'Staan bij' heeft geen relevante betekenis hier.",
       "3": "'Lopen aan' heeft geen relevante betekenis hier."
     },
-    "hint": "Anderen zien haar als onzeker tijdens presentaties. Welk werkwoord past bij de indruk die je op ANDEREN maakt?"
+    "hint": "Anderen zien haar als onzeker tijdens presentaties. Welk werkwoord past bij de indruk die je op ANDEREN maakt?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hoe ben jij ______ dat er een fout in het systeem zat?",
@@ -1544,7 +1814,10 @@
       "1": "'Meekomen' = samen gaan of bijhouden; je gaat nergens naartoe — je ontdekt iets.",
       "3": "'Terechtkomen' = ergens belanden; je belandt niet bij een fout — je ontdekt hem."
     },
-    "hint": "Je hebt iets ontdekt wat verborgen was. Welk prefix past bij 'te weten komen'?"
+    "hint": "Je hebt iets ontdekt wat verborgen was. Welk prefix past bij 'te weten komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De positie van projectleider ______ volgende maand ______ door het vertrek van mijn collega.",
@@ -1561,7 +1834,10 @@
       "1": "'Uitgaan' heeft hier geen passende betekenis.",
       "3": "'Aflopen' = eindigen; een positie loopt niet af — ze komt vrij."
     },
-    "hint": "De functie wordt beschikbaar door het vertrek van een collega. Welk werkwoord beschrijft het beschikbaar worden?"
+    "hint": "De functie wordt beschikbaar door het vertrek van een collega. Welk werkwoord beschrijft het beschikbaar worden?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na het gesprek met zijn coach was hij langzaam aan het ______ van zijn burn-out.",
@@ -1578,7 +1854,10 @@
       "2": "'Opkomen' = omhoog verschijnen of opstaan voor een zaak; je staat niet op van een burn-out — je herstelt ervan.",
       "3": "'Doorkomen' = overleven of door een selectie komen; hier gaat het over herstel ná de moeilijke periode, niet overleven tijdens."
     },
-    "hint": "Hij herstelt van zijn burn-out. Welk werkwoord gebruik je voor herstel na iets ingrijpends?"
+    "hint": "Hij herstelt van zijn burn-out. Welk werkwoord gebruik je voor herstel na iets ingrijpends?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "De politie ______ er niet ______ wie het systeem heeft gehackt.",
@@ -1595,7 +1874,10 @@
       "2": "'Bijkomen' = herstellen of erbij komen; de politie herstelt niet van het hacken.",
       "3": "'Meekomen' = samen gaan; de politie gaat nergens mee naartoe."
     },
-    "hint": "De politie kan de hacker niet identificeren. Welk prefix past bij 'ontdekken wie of wat'?"
+    "hint": "De politie kan de hacker niet identificeren. Welk prefix past bij 'ontdekken wie of wat'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Er is een interessante vacature ______ bij een groot techbedrijf.",
@@ -1612,7 +1894,10 @@
       "2": "'Meekomen' = samen gaan; een vacature reist niet mee.",
       "3": "'Overkomen' = een indruk maken; een vacature maakt geen indruk — ze komt beschikbaar."
     },
-    "hint": "De vacature is beschikbaar geworden. Welk prefix past bij 'beschikbaar worden'?"
+    "hint": "De vacature is beschikbaar geworden. Welk prefix past bij 'beschikbaar worden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Wanneer ______ het nieuwe kantoorgebouw ______?",
@@ -1629,7 +1914,10 @@
       "2": "'Worden voor' heeft geen passende betekenis hier.",
       "3": "'Aankomen' = arriveren; een gebouw gaat niet naar een bestemming — het opent."
     },
-    "hint": "Je vraagt wanneer het gebouw voor gebruik beschikbaar is. Welk werkwoord past bij 'openen voor het publiek'?"
+    "hint": "Je vraagt wanneer het gebouw voor gebruik beschikbaar is. Welk werkwoord past bij 'openen voor het publiek'?",
+    "tense": "infinitive",
+    "wordOrder": "bijzin",
+    "register": "neutraal"
   },
   {
     "sentence": "De twee bedrijven ______ overeen om de samenwerking te verlengen.",
@@ -1646,7 +1934,10 @@
       "2": "'Lopen overeen' is geen correcte Nederlandse combinatie voor een akkoord; gebruik 'overeenkomen'.",
       "3": "'Stonden overeen' is geen correcte Nederlandse combinatie voor een akkoord; gebruik 'overeenkomen'."
     },
-    "hint": "De twee bedrijven zijn het eens geworden. Welk hulpwerkwoord gebruik je bij 'overeenkomen'?"
+    "hint": "De twee bedrijven zijn het eens geworden. Welk hulpwerkwoord gebruik je bij 'overeenkomen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Mijn buurman ______ elke dag even ______ voor een praatje.",
@@ -1663,7 +1954,10 @@
       "1": "'Staan voor' = klaarstaan voor of staan voor een doel; past niet bij een bezoek.",
       "2": "'Lopen bij' heeft geen passende betekenis voor een bezoek."
     },
-    "hint": "Je buurman bezoekt je elke dag even. Welk werkwoord past bij 'even op bezoek komen'?"
+    "hint": "Je buurman bezoekt je elke dag even. Welk werkwoord past bij 'even op bezoek komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Er is gisteren een nieuw rapport ______ van het planbureau.",
@@ -1680,7 +1974,10 @@
       "1": "'Meekomen' = samen gaan; een rapport reist niet mee.",
       "2": "'Tussenkomen' = interveniëren; een rapport grijpt niet in."
     },
-    "hint": "Het rapport is nu voor iedereen beschikbaar. Welk prefix past bij 'gepubliceerd worden'?"
+    "hint": "Het rapport is nu voor iedereen beschikbaar. Welk prefix past bij 'gepubliceerd worden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De twee teams kwamen ______ dat er een nieuwe werkwijze nodig was.",
@@ -1697,7 +1994,10 @@
       "1": "'Samenkomen' = bij elkaar komen; 'samenkomen dat...' is grammaticaal onjuist in deze context.",
       "3": "'Langskomen' = op bezoek komen; de teams spreken iets af — ze komen niet op bezoek."
     },
-    "hint": "De teams zijn het met elkaar eens geworden. Welk prefix past bij 'het eens worden'?"
+    "hint": "De teams zijn het met elkaar eens geworden. Welk prefix past bij 'het eens worden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Hij probeerde de fout te verbergen, maar zijn collega's ______ er uiteindelijk toch ______ .",
@@ -1714,7 +2014,10 @@
       "2": "'Langslopen' = langs iets lopen; dat beschrijft geen ontdekking.",
       "3": "'Staan bij' heeft geen passende betekenis hier."
     },
-    "hint": "De collega's ontdekten de verborgen fout. Welk werkwoord past bij 'ontdekken'?"
+    "hint": "De collega's ontdekten de verborgen fout. Welk werkwoord past bij 'ontdekken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "We zijn maanden later ______ dat het budget al in februari was opgemaakt.",
@@ -1731,7 +2034,10 @@
       "1": "'Meekomen' = samen gaan; je gaat nergens naartoe.",
       "3": "'Overkomen' = een indruk maken of iemand overkomen; de ontdekking maakt geen indruk — ze vindt plaats."
     },
-    "hint": "Jullie ontdekten maanden later iets wat al eerder was gebeurd. Welk prefix past bij 'te weten komen'?"
+    "hint": "Jullie ontdekten maanden later iets wat al eerder was gebeurd. Welk prefix past bij 'te weten komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na de fusie ______ er veel nieuwe kansen ______ voor beide bedrijven.",
@@ -1748,7 +2054,10 @@
       "2": "'Staan bij' heeft geen passende betekenis hier.",
       "3": "'Meelopen' = meegaan of bijhouden; kansen lopen niet mee."
     },
-    "hint": "Door de fusie worden er nieuwe kansen beschikbaar. Welk werkwoord past bij 'beschikbaar worden'?"
+    "hint": "Door de fusie worden er nieuwe kansen beschikbaar. Welk werkwoord past bij 'beschikbaar worden'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Dit soort conflicten ______ helaas vaker ______ in grote organisaties.",
@@ -1765,7 +2074,10 @@
       "1": "'Staan bij' heeft geen passende betekenis hier.",
       "2": "'Meelopen' = meegaan; conflicten lopen niet mee."
     },
-    "hint": "Dit type conflict doet zich regelmatig voor. Welk werkwoord past bij 'plaatsvinden'?"
+    "hint": "Dit type conflict doet zich regelmatig voor. Welk werkwoord past bij 'plaatsvinden'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De trein ______ om 9.15 uur op het station van Utrecht ______.",
@@ -1782,7 +2094,10 @@
       "1": "'Gaan op' heeft geen passende betekenis voor treinaankomst.",
       "3": "'Staan bij' heeft geen passende betekenis voor treinaankomst."
     },
-    "hint": "De trein bereikt zijn bestemming om 9.15 uur. Welk werkwoord past bij 'arriveren op een station'?"
+    "hint": "De trein bereikt zijn bestemming om 9.15 uur. Welk werkwoord past bij 'arriveren op een station'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ik ______ morgen even ______ om de sleutel te brengen.",
@@ -1799,7 +2114,10 @@
       "2": "'Lopen voor' heeft geen passende betekenis hier.",
       "3": "'Staan bij' heeft geen passende betekenis hier."
     },
-    "hint": "Je brengt de sleutel en stopt even. Welk werkwoord past bij 'even op bezoek komen'?"
+    "hint": "Je brengt de sleutel en stopt even. Welk werkwoord past bij 'even op bezoek komen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Het systeem ______ vandaag ______ door een technische storing — niemand kan inloggen.",
@@ -1816,7 +2134,10 @@
       "1": "'Staan bij' heeft geen passende betekenis hier.",
       "3": "'Meelopen' heeft geen passende betekenis hier."
     },
-    "hint": "Het systeem werkt niet meer door een storing. Welk werkwoord past bij 'ophouden te werken'?"
+    "hint": "Het systeem werkt niet meer door een storing. Welk werkwoord past bij 'ophouden te werken'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Jullie plannen ______ precies ______ met wat wij al van plan waren.",
@@ -1833,7 +2154,10 @@
       "2": "'Staan voor' = staan voor een doel of waarde; plannen staan niet voor iets in deze context.",
       "3": "'Lopen bij' heeft geen passende betekenis hier."
     },
-    "hint": "De plannen zijn hetzelfde als jullie eigen plannen. Welk werkwoord past bij 'gelijk zijn aan'?"
+    "hint": "De plannen zijn hetzelfde als jullie eigen plannen. Welk werkwoord past bij 'gelijk zijn aan'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Ze ______ er maar niet ______ dat ze zomaar ontslagen werd.",
@@ -1850,7 +2174,10 @@
       "1": "'Gaan bij' heeft geen passende betekenis hier.",
       "3": "'Staan mee' heeft geen passende betekenis hier."
     },
-    "hint": "Ze kan het ontslag moeilijk verwerken. Welk werkwoord past bij 'iets verwerken en achter je laten'?"
+    "hint": "Ze kan het ontslag moeilijk verwerken. Welk werkwoord past bij 'iets verwerken en achter je laten'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "Na de brand ______ er eindelijk subsidie ______ voor de gedupeerden.",
@@ -1867,7 +2194,10 @@
       "1": "'Staan bij' heeft geen passende betekenis hier.",
       "2": "'Meelopen' heeft geen passende betekenis hier."
     },
-    "hint": "De subsidie wordt beschikbaar gesteld voor de gedupeerden. Welk prefix past bij 'beschikbaar worden'?"
+    "hint": "De subsidie wordt beschikbaar gesteld voor de gedupeerden. Welk prefix past bij 'beschikbaar worden'?",
+    "tense": "infinitive",
+    "wordOrder": "inversion",
+    "register": "neutraal"
   },
   {
     "sentence": "Hoe ______ dat voorstel ______ bij de medewerkers?",
@@ -1884,7 +2214,10 @@
       "1": "'Gaan bij' heeft geen passende betekenis hier.",
       "2": "'Vallen voor' = verliefd worden op; dat is niet de bedoelde betekenis hier."
     },
-    "hint": "Je vraagt welke indruk het voorstel maakt op de medewerkers. Welk werkwoord past bij 'indruk maken op anderen'?"
+    "hint": "Je vraagt welke indruk het voorstel maakt op de medewerkers. Welk werkwoord past bij 'indruk maken op anderen'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   },
   {
     "sentence": "De nieuwe collega ______ langzaam ______ in het team na een moeizame start.",
@@ -1901,6 +2234,9 @@
       "1": "'Staan voor' = een waarde vertegenwoordigen; past niet bij integratie.",
       "3": "'Loskomen' = je bevrijden van iets; dat is niet de bedoeling — hij wil meedraaien."
     },
-    "hint": "De collega past zich aan en houdt het tempo bij. Welk werkwoord past bij 'bijhouden en meegaan'?"
+    "hint": "De collega past zich aan en houdt het tempo bij. Welk werkwoord past bij 'bijhouden en meegaan'?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
   }
 ]
