@@ -998,5 +998,85 @@
     "tense": "imperfectum",
     "wordOrder": "standard",
     "register": "neutraal"
+  },
+  {
+    "sentence": "De vakantie ___ gelukkig erg ___: beter dan we hadden verwacht.",
+    "options": [
+      "viel … mee",
+      "meeviel … —",
+      "viel … tegen",
+      "viel … op"
+    ],
+    "correct": 0,
+    "explanation": "'Meevallen' = beter uitpakken dan verwacht. 'Viel mee' → scheidbaar, gesplitst. De vakantie was aangenamer dan gedacht.",
+    "wrongExplanations": {
+      "1": "'Meeviel' is de onscheidbare positie — maar 'meevallen' is scheidbaar; de juiste imperfectuumsvorm is 'viel mee', niet 'meeviel'.",
+      "2": "'Tegenvallen' (viel tegen) = slechter uitpakken dan verwacht. Dat is het tegenovergestelde.",
+      "3": "'Opvallen' (viel op) = de aandacht trekken. Past niet."
+    },
+    "hint": "De vakantie was beter dan verwacht — welk werkwoord?",
+    "tense": "imperfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Het nieuwe restaurant ___ erg ___: de porties waren te klein en het was duur.",
+    "options": [
+      "viel … tegen",
+      "tegenviel … —",
+      "viel … mee",
+      "viel … op"
+    ],
+    "correct": 0,
+    "explanation": "'Tegenvallen' = slechter uitpakken dan verwacht. 'Viel tegen' → scheidbaar, gesplitst. Het restaurant stelde teleur.",
+    "wrongExplanations": {
+      "1": "'Tegenviel' is geen correcte scheidbare volgorde — de juiste imperfectuumsvorm is 'viel tegen'.",
+      "2": "'Meevallen' (viel mee) = beter dan verwacht. Dat is het tegenovergestelde.",
+      "3": "'Opvallen' (viel op) = de aandacht trekken. Past niet."
+    },
+    "hint": "Het restaurant stelde teleur — welk werkwoord?",
+    "tense": "imperfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Tja, dat ___ nou eenmaal zo. Je kunt het niet altijd goed doen.",
+    "options": [
+      "valt",
+      "gaat",
+      "loopt",
+      "staat"
+    ],
+    "correct": 0,
+    "explanation": "'Dat valt nou eenmaal zo' is een spreektaaluitdrukking: zo is het nu eenmaal, je moet het accepteren. 'Vallen' wordt hier idiomatisch gebruikt.",
+    "wrongExplanations": {
+      "1": "'Dat gaat nou eenmaal zo' bestaat ook maar is minder idiomatisch in deze troostende context.",
+      "2": "'Dat loopt nou eenmaal zo' is geen standaard uitdrukking.",
+      "3": "'Dat staat nou eenmaal zo' is geen standaard uitdrukking."
+    },
+    "hint": "Spreektaal: 'Dat ___ nou eenmaal zo.'",
+    "tense": "present",
+    "wordOrder": "standard",
+    "register": "spreektaal"
+  },
+  {
+    "sentence": "Het ___ niet altijd ___ hoe je het gepland had.",
+    "options": [
+      "valt … mee",
+      "valt … tegen",
+      "loopt … mee",
+      "valt … uit"
+    ],
+    "correct": 3,
+    "explanation": "'Uitvallen' = ergens op uitdraaien, een bepaald resultaat hebben. 'Valt uit' → scheidbaar. Het loopt niet altijd zoals gepland.",
+    "wrongExplanations": {
+      "0": "'Meevallen' = beter dan verwacht. Dat klopt niet — de zin is neutraal over resultaat.",
+      "1": "'Tegenvallen' = slechter dan verwacht. Dat is te negatief voor deze neutrale zin.",
+      "2": "'Lopen mee' is geen standaard werkwoord in deze betekenis."
+    },
+    "hint": "Resultaten draaien niet altijd uit zoals gepland — welk werkwoord?",
+    "tense": "present",
+    "wordOrder": "standard",
+    "register": "neutraal"
   }
 ]

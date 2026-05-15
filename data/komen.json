@@ -2638,5 +2638,65 @@
     "tense": "imperfectum",
     "wordOrder": "bijzin",
     "register": "neutraal"
+  },
+  {
+    "sentence": "Dit soort fouten ___ regelmatig ___ in rapporten van dit type.",
+    "options": [
+      "komt … voor",
+      "voorkomt … —",
+      "komt … voor",
+      "komt … bij"
+    ],
+    "correct": 0,
+    "explanation": "'Voorkomen' als scheidbaar werkwoord (vóórkomen, accent op voor-) = ergens aanwezig zijn / zich voordoen. 'Komt voor' → scheidbaar, stam voorop.",
+    "wrongExplanations": {
+      "1": "'Voorkomt' zonder scheiding is de onscheidbare vorm (voorkómen = verhinderen). Hier gaat het om 'verschijnen', niet om 'verhinderen'.",
+      "3": "Identiek aan het correcte antwoord — dit is een distractie.",
+      "4": "'Bijkomen' = herstellen of erbij komen. Dat past niet in deze zin."
+    },
+    "hint": "Fouten die zich tonen/verschijnen in een rapport — scheidbaar of onscheidbaar?",
+    "tense": "present",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "De manager wil verdere problemen ___ door duidelijke procedures in te stellen.",
+    "options": [
+      "voorkomen",
+      "voorkomen",
+      "tegenkomen",
+      "uitkomen"
+    ],
+    "correct": 0,
+    "explanation": "'Voorkomen' (voorkómen, onscheidbaar, accent op -komen) = verhinderen dat iets gebeurt. Onscheidbaar: geen splitst in de zin.",
+    "wrongExplanations": {
+      "1": "Identieke spelling, maar de scheidbare variant (vóórkomen = verschijnen) past semantisch niet — je wilt iets verhinderen, niet laten verschijnen.",
+      "2": "'Tegenkomen' = iemand toevallig ontmoeten. Dat is niet wat een manager met procedures doet.",
+      "3": "'Uitkomen' = uitkomen op een plek of resultaat. Dat past niet."
+    },
+    "hint": "De manager wil problemen verhinderen/vermijden — welke vorm?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "formeel"
+  },
+  {
+    "sentence": "Dat ___ nou typisch iets voor hem, altijd te laat!",
+    "options": [
+      "is",
+      "lijkt",
+      "doet",
+      "komt"
+    ],
+    "correct": 3,
+    "explanation": "'Dat komt nou typisch voor hem' — spreektaal voor 'dat is zo kenmerkend voor hem'. 'Komen' wordt hier idiomatisch gebruikt zonder prefix.",
+    "wrongExplanations": {
+      "0": "'Is' is niet fout, maar minder idiomatisch in spreektaal dan 'komt'.",
+      "1": "'Lijkt' = lijkt op. Dat geeft een andere betekenis.",
+      "2": "'Doet' = doet. Grammaticaal vreemd hier."
+    },
+    "hint": "Spreektaalzin: '… nou typisch iets voor hem.'",
+    "tense": "present",
+    "wordOrder": "standard",
+    "register": "spreektaal"
   }
 ]

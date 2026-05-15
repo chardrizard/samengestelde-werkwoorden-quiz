@@ -1598,5 +1598,85 @@
     "tense": "imperfectum",
     "wordOrder": "bijzin",
     "register": "neutraal"
+  },
+  {
+    "sentence": "Na een uur uitleg ___ hij eindelijk ___ wat de docent bedoelde.",
+    "options": [
+      "deed … door",
+      "doorzag … —",
+      "deed … mee",
+      "had … door"
+    ],
+    "correct": 3,
+    "explanation": "'Doorhebben' = begrijpen wat er gaande is. 'Had door' → scheidbaar, gesplitst in verleden tijd. Hij snapte het eindelijk.",
+    "wrongExplanations": {
+      "0": "'Deed door' is niet de idiomatische uitdrukking voor 'begrijpen'.",
+      "1": "'Doorzag' (doorzien) = iemands plannen doorzien. Dat heeft een andere nuance.",
+      "2": "'Deed mee' = meedoen. Past niet."
+    },
+    "hint": "Hij snapte eindelijk wat de docent bedoelde — welk werkwoord?",
+    "tense": "imperfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Ze ___ al jaren van een betere baan, maar het lukt maar niet.",
+    "options": [
+      "ziet uit naar",
+      "ziet af van",
+      "droomt",
+      "doet af van"
+    ],
+    "correct": 2,
+    "explanation": "'Dromen van' = verlangen naar iets. Hier als vergelijking: 'afzien van' (afzien = ergens van afstel nemen) is een valkuil die lossstaat van 'doen'.",
+    "wrongExplanations": {
+      "0": "'Uitkijken naar' = ergens naar uitkijken. Past maar is hier niet het juiste werkwoord.",
+      "1": "'Afzien van' = iets niet doen wat je van plan was. Dat is het tegenovergestelde van verlangen.",
+      "3": "'Afdoen van' = afbreuk doen aan. Past niet."
+    },
+    "hint": "Ze verlangde al jaren naar een betere baan — welk werkwoord?",
+    "tense": "present",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Doe maar ___, hoor. Je hoeft geen rekening met mij te houden.",
+    "options": [
+      "gewoon",
+      "maar",
+      "normaal",
+      "rustig"
+    ],
+    "correct": 0,
+    "explanation": "'Doe maar gewoon' = een klassieke spreektaalzin: gedraag je normaal, wees jezelf. Vaste combinatie met 'gewoon'.",
+    "wrongExplanations": {
+      "1": "'Doe maar maar' is herhaald en klinkt vreemd.",
+      "2": "'Doe maar normaal' bestaat ook en is bijna identiek, maar 'gewoon' is de meest frequente combinatie.",
+      "3": "'Doe maar rustig' = neem de tijd. Dat geeft een andere betekenis."
+    },
+    "hint": "Spreektaal: 'Gedraag je normaal, wees jezelf.' — welk woord?",
+    "tense": "present",
+    "wordOrder": "standard",
+    "register": "spreektaal"
+  },
+  {
+    "sentence": "Hij ___ net of hij niets gehoord had.",
+    "options": [
+      "deed",
+      "leek",
+      "was",
+      "speelde"
+    ],
+    "correct": 0,
+    "explanation": "'Doen alsof / net of' = veinzen, pretenderen. 'Deed net of' is een vaste spreektaalconstructie voor iemand die iets veinst.",
+    "wrongExplanations": {
+      "1": "'Leek net of' is ook mogelijk maar minder idiomatisch dan 'deed net of'.",
+      "2": "'Was net of' is grammaticaal vreemd.",
+      "3": "'Speelde net of' klinkt onnatuurlijk."
+    },
+    "hint": "Hij veinzde dat hij niets gehoord had — welk werkwoord?",
+    "tense": "imperfectum",
+    "wordOrder": "standard",
+    "register": "spreektaal"
   }
 ]

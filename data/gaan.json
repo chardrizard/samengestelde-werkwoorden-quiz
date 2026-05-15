@@ -998,5 +998,65 @@
     "tense": "imperfectum",
     "wordOrder": "standard",
     "register": "formeel"
+  },
+  {
+    "sentence": "Het bedrijf ___ langzaam maar zeker onder de druk van de concurrentie.",
+    "options": [
+      "gaat onder",
+      "ondergaat",
+      "gaat over",
+      "gaat langs"
+    ],
+    "correct": 0,
+    "explanation": "'Ondergaan' als scheidbaar werkwoord (ónder­gaan, accent op ónder-) = zinken, ten onder gaan. 'Gaat onder' → scheidbaar, zin gesplitst.",
+    "wrongExplanations": {
+      "1": "'Ondergaat' is de onscheidbare vorm (ondergáán, accent op -gaan) = iets meemaken / iets ondergaan. Hier gaat het om letterlijk ten onder gaan.",
+      "2": "'Gaat over' = overgaan of gaan over een onderwerp. Past niet.",
+      "3": "'Gaat langs' = langsgaan. Past niet."
+    },
+    "hint": "Het bedrijf zinkt langzaam — welk werkwoord en welke vorm?",
+    "tense": "present",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Ze moest een zware behandeling ___ voordat ze beter werd.",
+    "options": [
+      "ondergaan",
+      "ondergaan",
+      "doorgaan",
+      "uitgaan"
+    ],
+    "correct": 0,
+    "explanation": "'Ondergaan' (ondergáán, onscheidbaar, accent op -gaan) = een ervaring of behandeling meemaken. Onscheidbaar: geen splitsing.",
+    "wrongExplanations": {
+      "1": "Identieke spelling, maar de scheidbare variant (ónder­gaan = zinken) past semantisch niet — een behandeling ondergaan is meemaken, niet zinken.",
+      "2": "'Doorgaan' = verdergaan of plaatsvinden. Past niet.",
+      "3": "'Uitgaan' = buitengaan of licht uit. Past niet."
+    },
+    "hint": "Een zware behandeling meemaken — scheidbaar of onscheidbaar?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Hoe ___ het met je? Alles goed?",
+    "options": [
+      "gaat",
+      "staat",
+      "loopt",
+      "doet"
+    ],
+    "correct": 0,
+    "explanation": "'Hoe gaat het met je?' is de standaard spreektaalbegroeting. 'Gaan' wordt hier gebruikt zonder prefix als vast idioom.",
+    "wrongExplanations": {
+      "1": "'Hoe staat het met je?' bestaat ook maar is formeler en minder frequent in spreektaal.",
+      "2": "'Hoe loopt het?' is ook idioom maar klinkt minder natuurlijk als begroeting.",
+      "3": "'Hoe doet het?' is geen standaard Nederlands."
+    },
+    "hint": "Dagelijkse begroeting: 'Hoe ___ het met je?'",
+    "tense": "present",
+    "wordOrder": "inversion",
+    "register": "spreektaal"
   }
 ]

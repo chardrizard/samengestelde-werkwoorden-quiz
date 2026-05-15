@@ -2258,5 +2258,65 @@
     "tense": "imperfectum",
     "wordOrder": "inversion",
     "register": "formeel"
+  },
+  {
+    "sentence": "De concurrent ___ de lokale supermarktketen ___ voor 50 miljoen euro.",
+    "options": [
+      "nam … over",
+      "overnam … —",
+      "nam … aan",
+      "nam … op"
+    ],
+    "correct": 0,
+    "explanation": "'Overnemen' als scheidbaar (óver­nemen, accent op óver-) = kopen van een ander bedrijf. 'Nam over' → scheidbaar, gesplitst in verleden tijd.",
+    "wrongExplanations": {
+      "1": "'Overnam' is de onscheidbare vorm (overnémen, accent op -nemen) = iets overnemen als taak of rol. Hier gaat het om een bedrijfsovername.",
+      "2": "'Nam aan' = aannemen. Past niet bij een bedrijfsovername.",
+      "3": "'Nam op' = opnemen. Past niet."
+    },
+    "hint": "De concurrent kocht de supermarktketen — scheidbaar of onscheidbaar?",
+    "tense": "imperfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Kun jij de vergadering van me ___? Ik moet eerder weg.",
+    "options": [
+      "overnemen",
+      "overnemen",
+      "aannemen",
+      "innemen"
+    ],
+    "correct": 0,
+    "explanation": "'Overnemen' (overnémen, onscheidbaar, accent op -nemen) = een taak of rol van iemand anders overnemen. Onscheidbaar in de infinitief.",
+    "wrongExplanations": {
+      "1": "Identieke spelling, maar de scheidbare variant (óver­nemen = bedrijf kopen) past semantisch niet — hier neem je een taak over, geen eigendom.",
+      "2": "'Aannemen' = accepteren of in dienst nemen. Past niet.",
+      "3": "'Innemen' = een positie of stad innemen. Past niet."
+    },
+    "hint": "Iemand neemt jouw taak/verantwoordelijkheid — welke vorm?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Doe even normaal, joh. ___ het niet zo serieus.",
+    "options": [
+      "Neem",
+      "Doe",
+      "Pak",
+      "Haal"
+    ],
+    "correct": 0,
+    "explanation": "'Neem het niet zo serieus' = spreektaaluitdrukking. 'Nemen' wordt hier idiomatisch gebruikt: iets serieus/zwaar nemen.",
+    "wrongExplanations": {
+      "1": "'Doe het niet zo serieus' bestaat ook maar is minder idiomatisch.",
+      "2": "'Pak het niet zo serieus' bestaat maar klinkt onnatuurlijk.",
+      "3": "'Haal het niet zo serieus' is geen correct Nederlands idioom."
+    },
+    "hint": "Spreektaalzin: '___ het niet zo serieus.'",
+    "tense": "present",
+    "wordOrder": "standard",
+    "register": "spreektaal"
   }
 ]

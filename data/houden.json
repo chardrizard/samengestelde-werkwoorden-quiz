@@ -1018,5 +1018,65 @@
     "tense": "imperfectum",
     "wordOrder": "bijzin",
     "register": "neutraal"
+  },
+  {
+    "sentence": "De gemeente wil het oude gebouw goed ___ zodat het er over tien jaar nog staat.",
+    "options": [
+      "onderhouden",
+      "onderhouden",
+      "bijhouden",
+      "ophouden"
+    ],
+    "correct": 0,
+    "explanation": "'Onderhouden' (onderhóuden, onscheidbaar, accent op -houden) = in goede staat houden via regelmatig werk. Onscheidbaar: geen splitsing.",
+    "wrongExplanations": {
+      "1": "Identieke spelling, maar de scheidbare variant (ónderhouden = iemand financieel ondersteunen) past hier niet — het gaat om een gebouw in goede staat houden.",
+      "2": "'Bijhouden' = up-to-date houden of gelijke tred houden. Past niet bij onderhoud van een gebouw.",
+      "3": "'Ophouden' = stoppen. Past niet."
+    },
+    "hint": "Een gebouw in goede staat houden door regelmatig werk — welke vorm?",
+    "tense": "infinitive",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Hij ___ zijn hele familie financieel ___ nadat zijn vader overleed.",
+    "options": [
+      "hield … onder",
+      "onderhield … —",
+      "hield … bij",
+      "hield … op"
+    ],
+    "correct": 0,
+    "explanation": "'Onderhouden' als scheidbaar (ónder­houden, accent op ónder-) = financieel verzorgen. 'Hield onder' → scheidbaar, gesplitst.",
+    "wrongExplanations": {
+      "1": "'Onderhield' is de onscheidbare imperfectumsvorm (onderhóuden = in staat houden). Hier gaat het om financiële verzorging van mensen.",
+      "2": "'Bijhouden' = bijbenen. Past niet.",
+      "3": "'Ophouden' = stoppen. Past niet."
+    },
+    "hint": "Hij zorgde financieel voor zijn hele familie — scheidbaar of onscheidbaar?",
+    "tense": "imperfectum",
+    "wordOrder": "standard",
+    "register": "neutraal"
+  },
+  {
+    "sentence": "Hou ___ even! Ik moet je iets vertellen.",
+    "options": [
+      "op",
+      "bij",
+      "vast",
+      "tegen"
+    ],
+    "correct": 0,
+    "explanation": "'Hou op' = stop even / pauzeer. Spreektaaluitdrukking. 'Ophouden' = stoppen.",
+    "wrongExplanations": {
+      "1": "'Hou bij' is geen losse spreektaaluitdrukking in deze context.",
+      "2": "'Hou vast' = hou iets vast. Past niet bij de betekenis 'wacht even'.",
+      "3": "'Hou tegen' = tegenhouden. Past niet."
+    },
+    "hint": "Spreektaal: 'Wacht even / stop even!' — welk deelwoord?",
+    "tense": "present",
+    "wordOrder": "standard",
+    "register": "spreektaal"
   }
 ]
