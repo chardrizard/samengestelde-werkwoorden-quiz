@@ -1023,14 +1023,14 @@
     "sentence": "De gemeente wil het oude gebouw goed ___ zodat het er over tien jaar nog staat.",
     "options": [
       "onderhouden",
-      "onderhouden",
+      "tegenhouden",
       "bijhouden",
       "ophouden"
     ],
     "correct": 0,
     "explanation": "'Onderhouden' (onderhóuden, onscheidbaar, accent op -houden) = in goede staat houden via regelmatig werk. Onscheidbaar: geen splitsing.",
     "wrongExplanations": {
-      "1": "Identieke spelling, maar de scheidbare variant (ónderhouden = iemand financieel ondersteunen) past hier niet — het gaat om een gebouw in goede staat houden.",
+      "1": "'Tegenhouden' = stoppen of verhinderen dat iets verdergaat. Een gebouw 'tegenhouden' is geen vaste combinatie voor onderhoud.",
       "2": "'Bijhouden' = up-to-date houden of gelijke tred houden. Past niet bij onderhoud van een gebouw.",
       "3": "'Ophouden' = stoppen. Past niet."
     },

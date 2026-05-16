@@ -2283,14 +2283,14 @@
     "sentence": "Kun jij de vergadering van me ___? Ik moet eerder weg.",
     "options": [
       "overnemen",
-      "overnemen",
+      "meenemen",
       "aannemen",
       "innemen"
     ],
     "correct": 0,
     "explanation": "'Overnemen' (overnémen, onscheidbaar, accent op -nemen) = een taak of rol van iemand anders overnemen. Onscheidbaar in de infinitief.",
     "wrongExplanations": {
-      "1": "Identieke spelling, maar de scheidbare variant (óver­nemen = bedrijf kopen) past semantisch niet — hier neem je een taak over, geen eigendom.",
+      "1": "'Meenemen' = iets of iemand meenemen naar een plek. Je kunt een vergadering niet 'meenemen' — dat is geen vaste combinatie voor taken overnemen.",
       "2": "'Aannemen' = accepteren of in dienst nemen. Past niet.",
       "3": "'Innemen' = een positie of stad innemen. Past niet."
     },

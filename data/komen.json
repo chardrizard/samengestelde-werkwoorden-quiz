@@ -2644,15 +2644,15 @@
     "options": [
       "komt … voor",
       "voorkomt … —",
-      "komt … voor",
+      "staat … voor",
       "komt … bij"
     ],
     "correct": 0,
     "explanation": "'Voorkomen' als scheidbaar werkwoord (vóórkomen, accent op voor-) = ergens aanwezig zijn / zich voordoen. 'Komt voor' → scheidbaar, stam voorop.",
     "wrongExplanations": {
       "1": "'Voorkomt' zonder scheiding is de onscheidbare vorm (voorkómen = verhinderen). Hier gaat het om 'verschijnen', niet om 'verhinderen'.",
-      "3": "Identiek aan het correcte antwoord — dit is een distractie.",
-      "4": "'Bijkomen' = herstellen of erbij komen. Dat past niet in deze zin."
+      "2": "'Staan voor' = vertegenwoordigen of betekenen. Fouten 'staan niet voor iets', ze komen voor (verschijnen).",
+      "3": "'Bijkomen' = herstellen of erbij komen. Dat past niet in deze zin."
     },
     "hint": "Fouten die zich tonen/verschijnen in een rapport — scheidbaar of onscheidbaar?",
     "tense": "present",
@@ -2663,14 +2663,14 @@
     "sentence": "De manager wil verdere problemen ___ door duidelijke procedures in te stellen.",
     "options": [
       "voorkomen",
-      "voorkomen",
+      "meekomen",
       "tegenkomen",
       "uitkomen"
     ],
     "correct": 0,
     "explanation": "'Voorkomen' (voorkómen, onscheidbaar, accent op -komen) = verhinderen dat iets gebeurt. Onscheidbaar: geen splitst in de zin.",
     "wrongExplanations": {
-      "1": "Identieke spelling, maar de scheidbare variant (vóórkomen = verschijnen) past semantisch niet — je wilt iets verhinderen, niet laten verschijnen.",
+      "1": "'Meekomen' = met iemand meegaan of iets begrijpen. Je kunt problemen niet 'meekomen' — dat is geen vaste combinatie voor verhinderen.",
       "2": "'Tegenkomen' = iemand toevallig ontmoeten. Dat is niet wat een manager met procedures doet.",
       "3": "'Uitkomen' = uitkomen op een plek of resultaat. Dat past niet."
     },
